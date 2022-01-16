@@ -1,4 +1,3 @@
 ---
-title: AntonioCloud.com
-redirect_to: https://www.antoniocloud.com
+title: Antonio Feijao in UK. AWS Infrastructure Archictect with Security and Networking Specialism
 ---
