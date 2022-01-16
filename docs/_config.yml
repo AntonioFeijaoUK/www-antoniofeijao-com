@@ -1,4 +1,12 @@
-plugins:
-  - jekyll-redirect-from
+remote_theme: pages-themes/minimal@v0.2.0
+#theme: jekyll-theme-minimal
 
-theme: jekyll-theme-minimal
+plugins:
+- jekyll-remote-theme 
+# - jekyll-redirect-from
+
+title: Antonio Feijao in UK. AWS Infrastructure Architect with Networking and Security Specialism.
+description: Antonio Feijao in UK whoami and about personal website.
+
+show_downloads: false #  ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+#google_analytics: [Your Google Analytics tracking ID]
