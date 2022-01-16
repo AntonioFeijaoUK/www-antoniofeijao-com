@@ -5,12 +5,11 @@ plugins:
 - jekyll-remote-theme 
 # - jekyll-redirect-from
 
-title: Antonio Feijao in UK. |
-    AWS Infrastructure Architect with Networking and Security Specialism.
+title: Antonio Feijao in UK. AWS Infrastructure Architect with Networking and Security Specialism.
     
 description: Antonio Feijao in UK whoami and about personal website.
 
-logo: "https://avatars.githubusercontent.com/u/2548084"
+logo: https://avatars.githubusercontent.com/u/2548084
 
 #/assets/img/logo.png
 
