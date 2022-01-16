@@ -5,6 +5,8 @@ plugins:
 - jekyll-remote-theme 
 # - jekyll-redirect-from
 
+encoding: "utf-8"
+
 locale: en
 
 title_separator: "-"
