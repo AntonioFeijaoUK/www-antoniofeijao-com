@@ -3,9 +3,9 @@ title: Antonio Feijao in UK. AWS Infrastructure Architect with Security and Netw
 ---
 
 
-## whoami Antonio Feijao in UK
+## whoami
 
-Antonio Feijao
+Antonio Feijao in UK
 
 * Currently working as AWS Infrastructure Architect at Genomics England
 
