@@ -1,5 +1,5 @@
 ---
-title: Antonio Feijao in UK. AWS Infrastructure Architect with Security and Networking Specialism
+title: Antonio Feijao in UK. - AWS Infrastructure Architect with Security and Networking Specialism.
 ---
 
 
@@ -7,25 +7,25 @@ title: Antonio Feijao in UK. AWS Infrastructure Architect with Security and Netw
 
 Antonio Feijao in UK
 
-* Currently working as AWS Infrastructure Architect at Genomics England
+* Currently working as AWS Infrastructure Architect at Genomics England.
 
 * My role is focus on enabling others squads to deliver genomic healthcare and accelerate genomic research.
 
-* Currently studying toward **Master Ethical Hacking Security** (`C|EH`, `C|ND` and `W|AHS`)certification
+* Currently studying toward **Master Ethical Hacking Security** (`C|EH`, `C|ND` and `W|AHS`) certifications.
 
-* AntonioFeijao [at] gmail.com
+* Need to contact me - AntonioFeijao [at] gmail.com
 
 * Pronouns: He/Him
 
-* Fun fact - I memorised the first 100 digits of pi! Yes, really!
+* Curious fact - I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
 ## Experience
 
-* Architect and designing complex AWS infrastructures following best practices and costs efficient
+* Architect and designing complex AWS infrastructures following best practices and costs efficient.
 
-* Advanced experience in Governance and Security services like
+* Advanced experience in Governance and Security services like:
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
   * [AWS Config](https://aws.amazon.com/config/)
@@ -69,7 +69,16 @@ MacOs, Linux RedHat, Centos, Ubuntu, Debian, Kali, Windows....
 
 ----
 
+## Know more about Antonio Feijao in UK
 
-Thank you for you time reading through my whoami webpage page.
+Looking for more info about `Antonio Feijao in UK`?
+
+I have a personal blog at [Antonio.Cloud](https://Antonio.Cloud/).
+
+----
+
+## Thank you for you time
+
+Thank you for you time reading through my `whoami` webpage page.
 
 Antonio Feijao UK
