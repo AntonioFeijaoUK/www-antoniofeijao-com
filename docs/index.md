@@ -4,6 +4,10 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 ## Antonio Feijao
 
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+</div>  
+  
 <a href="https://AntonioFeijao.com"><img src="/assets/images/AntonioFeijao-photo0001-800x800.jpg" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:8%"></a>
 
 Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
@@ -142,3 +146,17 @@ but I am also an excelent addition to any team, and I am often seen as a [team p
 Thank you for your time reading through my personal website.
 
 [Antonio Feijao](https://antoniofeijao.com/)
+ 
+ 
+ <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+ 
