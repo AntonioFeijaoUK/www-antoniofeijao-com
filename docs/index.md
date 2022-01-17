@@ -1,5 +1,5 @@
 ---
-title: Antonio Feijao in UK. - AWS Infrastructure Architect with Security and Networking Specialism.
+title: Antonio Feijao in UK - AWS Infrastructure Architect with Security and Networking Specialism
 ---
 
 ## whoami
@@ -22,7 +22,7 @@ Antonio Feijao in UK
 
 * LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
 
-* Twitter - [https://twitter.com/AntonioFeijaoUK]
+* Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
  
 * Email - AntonioFeijao [at] Gmail.com
 
