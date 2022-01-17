@@ -23,6 +23,8 @@ Antonio Feijao
 * LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
 
 * Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
+
+* Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
 Email
 
