@@ -12,7 +12,7 @@ My role is focused on enabling other squads creating applications in the genomic
 
 Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)** (`C|EH`, `C|ND` and `W|AHS`) certifications.
 
-Curious fact - I memorised the first 100 digits of pi! Yes, really!
+Curious fact about me - I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
@@ -49,7 +49,7 @@ Email
 
 ## Experience
 
-Architecting and designing complex AWS infrastructure designs following the:
+Architecting and designing complex AWS infrastructure designs following guidance from
   * [CIS AWS Foundations](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html)
   * [AWS Foundational Security Best Practices](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html)
   * [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
@@ -61,7 +61,7 @@ Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
   * [Department of Homeland Security (DHS)](https://www.dhs.gov/topic/cybersecurity),
   * [National Security Agency (NSA)](https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/)
 
-Advanced experience in Governance and Security services like:
+Advanced experience in Governance and Security services like
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
   * [AWS Config](https://aws.amazon.com/config/)
