@@ -6,13 +6,13 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 <a href="https://AntonioFeijao.com"><img src="/assets/images/AntonioFeijao-photo0001-800x800.jpg" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:8%"></a>
 
-* Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
+Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
-* My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
+My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
 
-* Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)** (`C|EH`, `C|ND` and `W|AHS`) certifications.
+Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)** (`C|EH`, `C|ND` and `W|AHS`) certifications.
 
-* Curious fact - I memorised the first 100 digits of pi! Yes, really!
+Curious fact - I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
@@ -49,31 +49,31 @@ Email
 
 ## Experience
 
-* Architecting and designing complex AWS infrastructure designs following the:
+Architecting and designing complex AWS infrastructure designs following the:
   * [CIS AWS Foundations](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html)
   * [AWS Foundational Security Best Practices](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html)
   * [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
   * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) 
   * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars, the `operational excellence`, `security`, `reliability`, `performance efficiency`, `cost optimization`, and `sustainability`.
 
-* Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
+Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
   * [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cybersecurity),
   * [Department of Homeland Security (DHS)](https://www.dhs.gov/topic/cybersecurity),
   * [National Security Agency (NSA)](https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/)
 
-* Advanced experience in Governance and Security services like:
+Advanced experience in Governance and Security services like:
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
   * [AWS Config](https://aws.amazon.com/config/)
   * (...)
 
-* Amazon Elastic Cloud Computer (EC2), Containers, Docker...
+Amazon Elastic Cloud Computer (EC2), Containers, Docker...
 
 ----
 
 ## Certifications
 
-* AWS
+AWS
   * AWS Certified Advanced Networking Specialty
   * AWS Certified Security Specialty
   * AWS Certified DevOps Engineer Professional
@@ -82,19 +82,19 @@ Email
   * AWS Certified SysOps Administrator Associate
   * AWS Certified Cloud Practitioner
 
-* (expired certifications ) 
+... expired certifications
   * Linux RedHat Sysadmin
   * Cisco CCNP Security Firewall ASA
   * Cisco CCNA Security
   * Cisco CCNA Routing and Switching
 
-* ... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
+... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
 
 ----
 
 ## Programing languages and others technical skills
 
-* Bash, Python, SQL, NoSQL, JavaScript, HTML, CSS ... and couple others.
+Bash, Python, SQL, NoSQL, JavaScript, HTML, CSS ... and couple others.
 
 ----
 
@@ -104,11 +104,9 @@ MacOs, Linux RedHat, Centos, Ubuntu, Debian, Kali, Windows....
 
 ----
 
-## Know more about Antonio Feijao in UK
+## Blog
 
-Looking for more info about `Antonio Feijao in UK`?
-
-I have a personal blog at [Antonio.Cloud](https://Antonio.Cloud/).
+I have a personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
 
 ----
 
@@ -130,7 +128,9 @@ G. B.
 
  
 (...)
-    
+ 
+Others would say about me that I am a great additional to the organisation as individual contributor but I am also an excelent addition to any team and I am oftern seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
+
 ----
 
 ## Thank you for your time
