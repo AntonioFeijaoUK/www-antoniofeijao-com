@@ -4,12 +4,10 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 ## Antonio Feijao
 
-<div class="headerBAR">
-  <h2>Antonio Feijao</h2>
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>  
-</div>
+<div class="progress-container">
+  <div class="progress-bar" id="myBar"></div>
+</div>  
+
   
 <a href="https://AntonioFeijao.com"><img src="/assets/images/AntonioFeijao-photo0001-800x800.jpg" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:8%"></a>
 
