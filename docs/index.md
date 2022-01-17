@@ -4,7 +4,7 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 ## Antonio Feijao
 
-<a href="https://AntonioFeijao.com"><img src="/assets/images/AntonioFeijao-photo0001-800x800.jpg" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:10%"></a>
+<a href="https://AntonioFeijao.com"><img src="/assets/images/AntonioFeijao-photo0001-800x800.jpg" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:8%"></a>
 
 * Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
@@ -18,16 +18,14 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 ## Contact
 
-LinkedIn
-[https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
+LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.com/in/AntonioFeijaoUK)
 
-Twitter
-[https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
+Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
 
-Keybase
-[https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
+Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
 Email
+
 <script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
