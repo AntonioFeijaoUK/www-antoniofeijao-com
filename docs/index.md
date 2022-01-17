@@ -6,7 +6,7 @@ title: Antonio Feijao in UK - AWS Infrastructure Architect with Security and Net
 
 Antonio Feijao in UK
 
-* Currently working as AWS Infrastructure Architect at Genomics England.
+* Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
 * My role is focus on enabling others squads to deliver genomic healthcare and accelerate genomic research.
 
@@ -24,8 +24,7 @@ Antonio Feijao in UK
 
 * Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
  
-* Email - <span>
-<script TYPE="text/javascript">
+* Email - <script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
     // JavaScripts available at http://www.joemaller.com
@@ -38,18 +37,16 @@ Antonio Feijao in UK
 
      //-->
 </script>
-
-<NOSCRIPT>
+<noscript>
     <em>Email address protected by JavaScript.<BR>
     Please enable JavaScript to see the contact email.</em>
-</NOSCRIPT>
-</span>
+</noscript>
  
 ----
 
 ## Experience
 
-* Architect and designing complex AWS infrastructures following best practices and costs efficient.
+* Architecting and designing complex AWS infrastructures designs following best practices and costs efficient.
 
 * Advanced experience in Governance and Security services like:
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
