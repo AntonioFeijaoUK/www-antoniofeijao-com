@@ -4,7 +4,8 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 
 ## Antonio Feijao
 
-Antonio Feijao
+Antonio Feijao  
+![Antonio Feijao](logo: https://pbs.twimg.com/profile_images/1035490485522063361/SzamsrVO_400x400.jpg)
 
 * Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
