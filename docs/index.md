@@ -103,13 +103,21 @@ I have a personal blog at [Antonio.Cloud](https://Antonio.Cloud/).
 
 ## Recent feedbacks on my work
 
-Imran M.A.
+I. M.A.
 > "Nice DA presentation. Well Done Mate.
 > it is always enlightening looking at your designs. Trust me i have learned a lot. Thanks and well done."
 
-Christopher D.
+C. D.
 > "Thank you so much, I have been blocked for almost a week and with your help we just fix it in a couple of minutes"
     
+G. B.
+> "You are making an amazing contribution and it is very much appreciated."
+
+ G. S.
+ > "Please note that Antonio has been extremely helpful and supportive with the creation of our tactical SOC and I wanted to pass on my personal thanks for all his help.
+ > Great attitude and can do spirit in challenging times most welcome."
+
+ 
 (...)
     
 ----
