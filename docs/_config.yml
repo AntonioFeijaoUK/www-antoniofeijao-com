@@ -1,8 +1,13 @@
 #remote_theme: pages-themes/minimal@v0.2.0
 #theme: jekyll-theme-minimal
 
+url: "https://antoniofeijao.com" # the base hostname & protocol for your site
+  
 plugins:
-- jekyll-remote-theme 
+- jekyll-sitemap
+- jekyll-remote-theme
+- jekyll-feed
+
 # - jekyll-redirect-from
 
 encoding: "utf-8"
