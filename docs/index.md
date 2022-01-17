@@ -2,7 +2,6 @@
 title: Antonio Feijao in UK. - AWS Infrastructure Architect with Security and Networking Specialism.
 ---
 
-
 ## whoami
 
 Antonio Feijao in UK
@@ -13,11 +12,38 @@ Antonio Feijao in UK
 
 * Currently studying toward **Master Ethical Hacking Security** (`C|EH`, `C|ND` and `W|AHS`) certifications.
 
-* Need to contact me - AntonioFeijao [at] gmail.com
-
 * Pronouns: He/Him
 
 * Curious fact - I memorised the first 100 digits of pi! Yes, really!
+
+----
+
+## How to connect
+
+* LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
+
+* Twitter - [https://twitter.com/AntonioFeijaoUK]
+ 
+* Email - AntonioFeijao [at] Gmail.com
+
+<script TYPE="text/javascript">
+    <!-- 
+    // protected email script by Joe Maller
+    // JavaScripts available at http://www.joemaller.com
+    // this script is free to use and distribute
+    // but please credit me and/or link to my site
+
+    emailE='gmail.com'
+    emailE=('antoniofeijao' + '@' + emailE)
+    document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+
+     //-->
+</script>
+
+<NOSCRIPT>
+    <em>Email address protected by JavaScript.<BR>
+    Please enable JavaScript to see the contact email.</em>
+</NOSCRIPT>
 
 ----
 
@@ -31,7 +57,6 @@ Antonio Feijao in UK
   * [AWS Config](https://aws.amazon.com/config/)
 
 * Amazon Elastic Cloud Computer (EC2), Containers, Docker...
-
 
 ----
 
@@ -66,7 +91,6 @@ Antonio Feijao in UK
 
 MacOs, Linux RedHat, Centos, Ubuntu, Debian, Kali, Windows....
 
-
 ----
 
 ## Know more about Antonio Feijao in UK
@@ -75,6 +99,19 @@ Looking for more info about `Antonio Feijao in UK`?
 
 I have a personal blog at [Antonio.Cloud](https://Antonio.Cloud/).
 
+----
+
+## Recent feedbacks on my work
+
+Imran M.A.
+> "Nice DA presentation. Well Done Mate.
+> it is always enlightening looking at your designs. Trust me i have learned a lot. Thanks and well done."
+
+Christopher D.
+> "Thank you so much, I have been blocked for almost a week and with your help we just fix it in a couple of minutes"
+    
+(...)
+    
 ----
 
 ## Thank you for you time
