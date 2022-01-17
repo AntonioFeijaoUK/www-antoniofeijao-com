@@ -22,7 +22,9 @@ Antonio Feijao
 
 * Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
  
-* Email - <script TYPE="text/javascript">
+* Email -
+
+<script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
     // JavaScripts available at http://www.joemaller.com
