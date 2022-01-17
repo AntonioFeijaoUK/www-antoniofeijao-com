@@ -112,24 +112,24 @@ I have a personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
 
 ## Recent received feedbacks
 
-I. M.A.
 > "Nice DA presentation. Well Done Mate.
 > it is always enlightening looking at your designs. Trust me i have learned a lot. Thanks and well done."
+> by I. M.A.
 
-C. D.
 > "Thank you so much, I have been blocked for almost a week and with your help we just fix it in a couple of minutes"
+> by C. D.
     
-G. B.
 > "You are making an amazing contribution and it is very much appreciated."
+> by G. B.
 
- G. S.
- > "Please note that Antonio has been extremely helpful and supportive with the creation of our tactical SOC and I wanted to pass on my personal thanks for all his help.
- > Great attitude and can do spirit in challenging times most welcome."
+> "Please note that Antonio has been extremely helpful and supportive with the creation of our tactical SOC and I wanted to pass on my personal thanks for all his help. Great attitude and can do spirit in challenging times most welcome."
+> by  G. S
 
- 
+
 (...)
  
-Others would say about me that I am a great additional to the organisation as individual contributor but I am also an excelent addition to any team and I am oftern seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
+Others would say about me that I am a great individual contributor and additional to the organisation,  
+but I am also an excelent addition to any team, and I am often seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
 
 ----
 
