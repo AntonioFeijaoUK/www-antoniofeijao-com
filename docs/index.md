@@ -22,7 +22,7 @@ Antonio Feijao
 
 * Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
  
-* Email -
+Email
 
 <script TYPE="text/javascript">
     <!-- 
@@ -41,7 +41,8 @@ Antonio Feijao
     <em>Email address protected by JavaScript.<BR>
     Please enable JavaScript to see the contact email.</em>
 </noscript>
- 
+  
+  
 ----
 
 ## Experience
