@@ -19,16 +19,16 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
 ## Contact
 
 LinkedIn
-* [https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
+[https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
 
 Twitter
-* [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
+[https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
 
 Keybase
-* [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
+[https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
 Email
-* <script TYPE="text/javascript">
+<script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
     // JavaScripts available at http://www.joemaller.com
