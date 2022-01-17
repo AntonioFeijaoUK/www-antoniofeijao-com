@@ -15,7 +15,7 @@ Currently working as AWS Infrastructure Architect at [Genomics England](https://
 
 My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
 
-Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)** certification, which consist on the 2 exams
+Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)** certification, which consists on the 2 exams
 * [Certified Ethical Hacker (C|EH) exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
 * [Certified Ethical Hacker (C|EH) practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
 
