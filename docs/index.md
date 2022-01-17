@@ -24,8 +24,7 @@ Antonio Feijao in UK
 
 * Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
  
-* Email - AntonioFeijao [at] Gmail.com
-
+* Email - <span>
 <script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
@@ -44,7 +43,8 @@ Antonio Feijao in UK
     <em>Email address protected by JavaScript.<BR>
     Please enable JavaScript to see the contact email.</em>
 </NOSCRIPT>
-
+</span>
+ 
 ----
 
 ## Experience
