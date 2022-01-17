@@ -1,24 +1,22 @@
 ---
-title: Antonio Feijao in UK - AWS Infrastructure Architect with Security and Networking Specialism
+title: Antonio Feijao - AWS Infrastructure Architect with Networking and Security Specialism
 ---
 
-## whoami
+## Antonio Feijao
 
-Antonio Feijao in UK
+Antonio Feijao
 
 * Currently working as AWS Infrastructure Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
-* My role is focus on enabling others squads to deliver genomic healthcare and accelerate genomic research.
+* My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
 
-* Currently studying toward **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)** (`C|EH`, `C|ND` and `W|AHS`) certifications.
-
-* Pronouns: He/Him
+* Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/)** (`C|EH`, `C|ND` and `W|AHS`) certifications.
 
 * Curious fact - I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
-## How to connect
+## Contact
 
 * LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK/](https://www.linkedin.com/in/AntonioFeijaoUK/)
 
@@ -46,12 +44,23 @@ Antonio Feijao in UK
 
 ## Experience
 
-* Architecting and designing complex AWS infrastructures designs following best practices and costs efficient.
+* Architecting and designing complex AWS infrastructure designs following the:
+  * [CIS AWS Foundations](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-cis-controls.html)
+  * [AWS Foundational Security Best Practices](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-standards-fsbp-controls.html)
+  * [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
+  * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) 
+  * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars, the `operational excellence`, `security`, `reliability`, `performance efficiency`, `cost optimization`, and `sustainability`.
+
+* Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
+  * [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cybersecurity),
+  * [Department of Homeland Security (DHS)](https://www.dhs.gov/topic/cybersecurity),
+  * [National Security Agency (NSA)](https://www.nsa.gov/Press-Room/Cybersecurity-Advisories-Guidance/)
 
 * Advanced experience in Governance and Security services like:
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
   * [AWS Config](https://aws.amazon.com/config/)
+  * (...)
 
 * Amazon Elastic Cloud Computer (EC2), Containers, Docker...
 
@@ -98,7 +107,7 @@ I have a personal blog at [Antonio.Cloud](https://Antonio.Cloud/).
 
 ----
 
-## Recent feedbacks on my work
+## Recent received feedbacks
 
 I. M.A.
 > "Nice DA presentation. Well Done Mate.
@@ -121,6 +130,6 @@ G. B.
 
 ## Thank you for you time
 
-Thank you for you time reading through my `whoami` webpage page.
+Thank you for you time reading through my personal webpage.
 
 Antonio Feijao UK
