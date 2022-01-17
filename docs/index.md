@@ -131,8 +131,8 @@ G. B.
     
 ----
 
-## Thank you for you time
+## Thank you for your time
 
-Thank you for you time reading through my personal webpage.
+Thank you for your time reading through my personal website.
 
-Antonio Feijao UK
+[Antonio Feijao](https://antoniofeijao.com/)
