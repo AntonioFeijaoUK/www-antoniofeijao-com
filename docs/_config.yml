@@ -1,15 +1,14 @@
-#remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal@v0.2.0
 #theme: jekyll-theme-minimal
+#theme: jekyll-theme-slate
 
 url: "https://antoniofeijao.com" # the base hostname & protocol for your site
   
 plugins:
-- jekyll-sitemap
 - jekyll-remote-theme
+- jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
-
-
 # - jekyll-redirect-from
 
 encoding: "utf-8"
@@ -22,9 +21,9 @@ title: Antonio Feijao - AWS Infrastructure Architect with Networking and Securit
     
 description: Antonio Feijao, AWS Infrastructure Architect with Networking and Security Specialism personal website.
 
-logo: https://pbs.twimg.com/profile_images/1035490485522063361/SzamsrVO_400x400.jpg
-#https://avatars.githubusercontent.com/u/2548084
+logo: /assets/images/AntonioFeijao-photo0001-800x800.jpg
 
+#https://avatars.githubusercontent.com/u/2548084
 #/assets/img/logo.png
 
 show_downloads: false #  ["true" or "false" (unquoted) to indicate whether to provide a download URL]
@@ -37,4 +36,4 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-theme: jekyll-theme-slate
+
