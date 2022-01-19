@@ -133,7 +133,7 @@ I have a personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
 > by  G. S
 
  > "Antonio has been our lead architect for AWS in the XXXX team and has been supporting all the squads in making the best use of the cloud and unblocking issues with Migration. Also key around raising the bar for security and best practices"
- > from staff awards
+ > from staff awards 2021-2022
 
 (...)
  
