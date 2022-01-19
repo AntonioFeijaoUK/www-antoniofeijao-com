@@ -31,9 +31,7 @@ Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeija
 
 Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
-Email
-
-<div id="emailHERE"></div>
+Email  <div id="emailHERE"></div>
 
 <script TYPE="text/javascript">
     <!-- 
