@@ -33,6 +33,8 @@ Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaou
  
 Email
 
+<div id="emailHERE"></div>
+
 <script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
@@ -42,9 +44,10 @@ Email
 
     emailE='gmail.com'
     emailE=('antoniofeijao' + '@' + emailE)
-    emailf=(document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>'));
-    document.getElementById("emailHERE").innerHTML = emailf;
+    //document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>');
 
+    var myDiv = document.getElementById("emailHERE");
+    myDiv.innerHTML = ('<A href="mailto:' + emailE + '">' + emailE + '</a>');
 
      //-->
 </script>
