@@ -33,10 +33,6 @@ Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaou
  
 Email
 
-a 
-
-<div id="emailHERE"></div>
-
 <script TYPE="text/javascript">
     <!-- 
     // protected email script by Joe Maller
@@ -56,8 +52,8 @@ a
     <em>Email address protected by JavaScript.<BR>
     Please enable JavaScript to see the contact email.</em>
 </noscript>
-  
-  
+
+
 ----
 
 ## Experience
