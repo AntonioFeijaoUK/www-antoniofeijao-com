@@ -132,6 +132,8 @@ I have a personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
 > "Please note that Antonio has been extremely helpful and supportive with the creation of our tactical SOC and I wanted to pass on my personal thanks for all his help. Great attitude and can do spirit in challenging times most welcome."
 > by  G. S
 
+ > "Antonio has been our lead architect for AWS in the XXXX team and has been supporting all the squads in making the best use of the cloud and unblocking issues with Migration. Also key around raising the bar for security and best practices"
+ > from staff awards
 
 (...)
  
@@ -145,17 +147,3 @@ but I am also an excelent addition to any team, and I am often seen as a [team p
 Thank you for your time reading through my personal website.
 
 [Antonio Feijao](https://antoniofeijao.com/)
- 
- 
- <script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-</script>
- 
