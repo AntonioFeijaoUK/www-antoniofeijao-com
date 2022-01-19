@@ -31,7 +31,8 @@ Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeija
 
 Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
-Email
+Email <div id="emailHERE"></div>
+
 
 <script TYPE="text/javascript">
     <!-- 
@@ -42,7 +43,9 @@ Email
 
     emailE='gmail.com'
     emailE=('antoniofeijao' + '@' + emailE)
-    document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>')
+    emailf=(document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>'));
+    document.getElementById("emailHERE").innerHTML = emailf;
+
 
      //-->
 </script>
