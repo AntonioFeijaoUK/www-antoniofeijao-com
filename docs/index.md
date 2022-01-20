@@ -30,8 +30,7 @@ LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.co
 Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
 
 Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
- 
- 
+
 <div id="emailHERE"></div>
 
 <script TYPE="text/javascript">
@@ -55,6 +54,7 @@ Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaou
     Please enable JavaScript to see the contact email.</em>
 </noscript>
 
+  
 
 ----
 
