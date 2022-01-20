@@ -76,9 +76,13 @@ Advanced experience in Governance and Security services like
   * [AWS Security Hub](https://aws.amazon.com/security-hub/)
   * [Amazon GuardDuty](https://aws.amazon.com/guardduty/)
   * [AWS Config](https://aws.amazon.com/config/)
-  * (...)
+  * ... and a lot more from [AWS Security](https://aws.amazon.com/products/security/) products.
 
-Amazon Elastic Cloud Computer (EC2), Containers, Docker...
+Advanced experience with Amazon Elastic Cloud Computer (EC2), Containers, Docker  
+    ... and way more from [AWS Compute](https://aws.amazon.com/products/compute/) products.
+
+Advanced experience with Amazon VPC, AWS Transit Gateway, Amazon Route 53  
+    ... and many other [AWS Networking](https://aws.amazon.com/products/networking/) products.
 
 ----
 
