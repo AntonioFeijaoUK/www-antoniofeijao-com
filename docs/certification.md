@@ -12,7 +12,7 @@ Current certifications in here -> [Antonio Feijao's Certifications](/#certificat
 
 Official [AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
 
-... and my online badges at Credly - https://www.credly.com/users/antoniofeijaouk/badges
+... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
 
 ----
 
