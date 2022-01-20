@@ -10,6 +10,8 @@ Antonio Feijao current AWS, Linux and Cyber Security certifications
 
 Current certifications in here -> [Antonio Feijao's Certifications](/#certifications "Antonio Feijao certifications")
 
+Official [AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
+
 ... and my online badges at Credly - https://www.credly.com/users/antoniofeijaouk/badges
 
 ----
