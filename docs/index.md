@@ -25,17 +25,16 @@ Curious fact about me - I memorised the first 100 digits of pi! Yes, really!
 
 ## Contact
 
-LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.com/in/AntonioFeijaoUK)
+LinkedIn  
+[https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.com/in/AntonioFeijaoUK)
 
-Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
+Twitter  
+[https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
 
-<div id="emailHERE"></div>
-
-Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
+Keybase  
+[https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
 Email
-<div id="emailHERE"></div>
-
 <div id="emailHERE"></div>
 
 <script TYPE="text/javascript">
