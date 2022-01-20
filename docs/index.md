@@ -101,6 +101,8 @@ AWS
 
 ... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
 
+... todo next [certifications](/certifications/)
+
 ----
 
 ## Programing languages and others technical skills
