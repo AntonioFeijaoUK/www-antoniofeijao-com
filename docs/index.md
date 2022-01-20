@@ -35,7 +35,7 @@ Keybase
 [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
  
-<span>Email<div id="emailHERE"></div></span>
+<p>Email<div id="emailHERE"></div></p>
 
 <script TYPE="text/javascript">
     <!-- 
