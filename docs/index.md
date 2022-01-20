@@ -34,8 +34,8 @@ Twitter
 Keybase  
 [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
-Email
-<div id="emailHERE"></div>
+ 
+<span>Email<div id="emailHERE"></div></span>
 
 <script TYPE="text/javascript">
     <!-- 
