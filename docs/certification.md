@@ -4,9 +4,9 @@ title: Certifications
 permalink: /certifications/
 ---
 
-Antonio Feijao current AWS, Linux and cyber security certifications
+Antonio Feijao current AWS, Linux and Cyber Security certifications
 
-## Current certifiation
+## Current certifications
 
 Current certifications in here -> [Antonio Feijao's Certifications](/#certifications "Antonio Feijao certifications")
 
@@ -16,7 +16,7 @@ Current certifications in here -> [Antonio Feijao's Certifications](/#certificat
 
 ## Doing next
 
-* Ethical Hacking
+* [Master Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
 
