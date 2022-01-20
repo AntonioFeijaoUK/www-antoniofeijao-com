@@ -35,7 +35,7 @@ Keybase
 [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
  
  
-<p>Email<div id="emailHERE"></div></p>
+<div id="emailHERE"></div>
 
 <script TYPE="text/javascript">
     <!-- 
@@ -49,7 +49,7 @@ Keybase
     //document.write('<A href="mailto:' + emailE + '">' + emailE + '</a>');
 
     var myDiv = document.getElementById("emailHERE");
-    myDiv.innerHTML = ('<A href="mailto:' + emailE + '">' + emailE + '</a>');
+    myDiv.innerHTML = ("Email - " + '<A href="mailto:' + emailE + '">' + emailE + '</a>');
 
      //-->
 </script>
