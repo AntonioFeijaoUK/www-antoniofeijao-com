@@ -4,13 +4,13 @@ title: Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /certifications/
 ---
 
-## Antonio Feijao current certifications
+## Current certifications
 
 Current certifications in here -> [Antonio Feijao's Certifications](/#certifications "Antonio Feijao certifications")
 
-Official [AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
-
 ... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
+
+For refecence, the official [AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
 
 ----
 
@@ -20,7 +20,7 @@ Official [AWS Certifications](https://aws.amazon.com/certification/#Available_AW
 
 * Re-certifying for [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
 
-## Certifications in progress
+## Todo next certifications
 
 * [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
 
