@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 
+@media print, screen and (max-width: 1350px)
+
 .wrapper {
     width: 90%;
 }
-
