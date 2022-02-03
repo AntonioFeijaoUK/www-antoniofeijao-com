@@ -22,53 +22,9 @@ and also studying for certifications of
 Curious fact about me - I memorised the first 100 digits of pi! Yes, really!
 
 ----
+## Website sub-pages
 
-[Contact](/contact/) - [Experience](/experience/) - [Feedback](/feedback/)
-
-----
-
-## Certifications
-
-AWS
-  * AWS Certified Advanced Networking Specialty
-  * AWS Certified Security Specialty
-  * AWS Certified DevOps Engineer Professional
-  * AWS Certified Solutions Architect Associate
-  * AWS Certified Developer Associate
-  * AWS Certified SysOps Administrator Associate
-  * AWS Certified Cloud Practitioner
-
-![[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)](/assets/images/aws-certifications-v2022-02-03.png)
-
-[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
-
-... expired certifications
-  * Linux RedHat Sysadmin
-  * Cisco CCNP Security Firewall ASA
-  * Cisco CCNA Security
-  * Cisco CCNA Routing and Switching
-
-... and my online badges at Credly - <https://www.credly.com/users/antoniofeijaouk/badges>
-
-... todo next [certifications](/certifications/)
-
-----
-
-## Programing languages and others technical skills
-
-Bash, Python, SQL, NoSQL, JavaScript, HTML, CSS ... and couple others.
-
-----
-
-## Operating systems I have advanced experience
-
-MacOs, Linux RedHat, Centos, Ubuntu, Debian, Kali, Windows....
-
-----
-
-## Blog
-
-I have a personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
+[Certifications](/certifications/) | [Experience](/experience/) | [Skills](/skills/) | [Feedback](/feedback/) | [Contact](/contact/)
 
 ----
 
