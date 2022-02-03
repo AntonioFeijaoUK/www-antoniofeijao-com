@@ -66,12 +66,12 @@ Architecting and designing complex AWS infrastructure designs following guidance
   * [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
   * [National Cyber Security Centre - Cloud Security Principles (NCSC)](https://www.ncsc.gov.uk/collection/cloud-security/implementing-the-cloud-security-principles)
   * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) 
-  * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars:
-    `operational excellence`,
-    `security`,
-    `reliability`,
-    `performance efficiency`,
-    `cost optimization`, and
+  * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars:  
+    `operational excellence`,  
+    `security`,  
+    `reliability`,  
+    `performance efficiency`,  
+    `cost optimization`, and  
     `sustainability`.
     
 Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
