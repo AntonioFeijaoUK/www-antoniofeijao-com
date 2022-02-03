@@ -104,8 +104,9 @@ AWS
   * AWS Certified SysOps Administrator Associate
   * AWS Certified Cloud Practitioner
 
-[AWS Certifications ![AWS Certifications]("AWS Certifications" /assets/images/aws-certifications-v2022-02-03.png)](https://aws.amazon.com/certification/#Available_AWS_Certifications)
+![AWS Certifications[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)](/assets/images/aws-certifications-v2022-02-03.png)
 
+[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
 
 ... expired certifications
   * Linux RedHat Sysadmin
