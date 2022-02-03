@@ -66,7 +66,13 @@ Architecting and designing complex AWS infrastructure designs following guidance
   * [National Cyber Security Centre (NCSC)](https://www.ncsc.gov.uk/section/advice-guidance/all-topics)
   * [National Cyber Security Centre - Cloud Security Principles (NCSC)](https://www.ncsc.gov.uk/collection/cloud-security/implementing-the-cloud-security-principles)
   * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) 
-  * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars, the `operational excellence`, `security`, `reliability`, `performance efficiency`, `cost optimization`, and `sustainability`.
+  * [AWS Well-Architected framework](https://aws.amazon.com/architecture/well-architected/), which is built around six pillars:
+    `operational excellence`,
+    `security`,
+    `reliability`,
+    `performance efficiency`,
+    `cost optimization`, and
+    `sustainability`.
     
 Also include knowledge from these `Cybersecurity Advisories and Guidance` pages
   * [Cybersecurity and Infrastructure Security Agency (CISA)](https://www.cisa.gov/cybersecurity),
@@ -97,6 +103,9 @@ AWS
   * AWS Certified Developer Associate
   * AWS Certified SysOps Administrator Associate
   * AWS Certified Cloud Practitioner
+
+[AWS Certifications ![AWS Certifications]("AWS Certifications" /assets/images/aws-certifications-v2022-02-03.png)](https://aws.amazon.com/certification/#Available_AWS_Certifications)
+
 
 ... expired certifications
   * Linux RedHat Sysadmin
