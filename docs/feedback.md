@@ -20,16 +20,10 @@ permalink: /feedback/
 > "Please note that Antonio has been extremely helpful and supportive with the creation of our tactical SOC and I wanted to pass on my personal thanks for all his help. Great attitude and can do spirit in challenging times most welcome."
 > by  G. S
 
- > "Antonio has been our lead architect for AWS in the XXXX team and has been supporting all the squads in making the best use of the cloud and unblocking issues with Migration. Also key around raising the bar for security and best practices"
+ > "Antonio has been our lead architect for AWS in the xxxx team and has been supporting all the squads in making the best use of the cloud and unblocking issues with Migration. Also key around raising the bar for security and best practices"
  > from staff awards 2021-2022
 
 (...)
  
 Others would say about me that I am a great individual contributor and additional to the organisation,  
 but I am also an excelent addition to any team, and I am often seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
-
-----
-
-## Back to Antonio Feijao home page
-
-[AntonioFeijao.com](/)
