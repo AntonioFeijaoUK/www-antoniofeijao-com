@@ -34,11 +34,3 @@ Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaou
     <em>Email address protected by JavaScript.<BR>
     Please enable JavaScript to see the contact email.</em>
 </noscript>
-
-    
-----
-
-## Back to Antonio Feijao home page
-
-[AntonioFeijao.com](/)
-
