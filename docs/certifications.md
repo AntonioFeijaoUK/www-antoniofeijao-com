@@ -48,10 +48,3 @@ Other expired certifications
 * [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
-
-----
-
-## Back to Antonio Feijao home page
-
-[AntonioFeijao.com](/)
-
