@@ -1,6 +1,6 @@
 ---
-title: Antonio Feijao
 layout: default
+title: Antonio Feijao
 ---
 
 ## Antonio Feijao
@@ -13,19 +13,19 @@ My role is focused on enabling other squads creating applications in the genomic
 
 Currently studying towards the **[Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)** certification, which consists on the 2 exams
 
-* [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
+[Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
 
-* [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
+[Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
 
 and also studying for certifications of
 
-* [Certified Network Defender - `C|ND`](https://www.eccouncil.org/programs/certified-network-security-course/)
+[Certified Network Defender - `C|ND`](https://www.eccouncil.org/programs/certified-network-security-course/)
 
-* [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
+[Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
 
 Curious fact about me
 
-* I memorised the first 100 digits of pi! Yes, really!
+I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
