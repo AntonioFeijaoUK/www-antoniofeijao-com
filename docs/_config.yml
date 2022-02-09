@@ -1,27 +1,99 @@
-remote_theme: pages-themes/minimal@v0.2.0
-#theme: jekyll-theme-minimal
-#theme: jekyll-theme-slate
+# source https://github.com/jekyll/minima/blob/master/_config.yml
 
-url: "https://antoniofeijao.com" # the base hostname & protocol for your site
+title: Your awesome title
+
+author:
+  name: Antonio Feijao
+  email: "antoniofeijao[AT]gmail.com"
+
+description: > # this means to ignore newlines until "show_excerpts:"
+  Antonio Feijao living in the UK. Antonio Feijao is an AWS Infrastructure Architect
+  with Networking and Security Specialism.
+  Welcome to Antonio Feijao personal website.
+  This is a personal website, opinions expressed are mine own.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  skin: dark
+  
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: AntonioFeijaoUK
+    github:  AntonioFeijaoUK
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: AntonioFeijaoUK
+    linkedin: AntonioFeijaoUK
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    keybase: AntonioFeijaoUK
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - index.md
+ - experience.md
+ - certifications.md
+ - skills.md
+ - feedback.md
+ - contact.md
+
+# Build settings
+theme: minima
   
 plugins:
-- jekyll-remote-theme
-- jekyll-sitemap
-- jekyll-feed
-- jekyll-seo-tag
-# - jekyll-redirect-from
+ - jekyll-feed
+ - jekyll-seo-tag
+
+
+
+
+######### ----------
+# url: "https://antoniofeijao.com" # the base hostname & protocol for your site
+  
+#plugins:
+#- jekyll-remote-theme
+#- jekyll-sitemap
+#- jekyll-feed
+#- jekyll-seo-tag
+## - jekyll-redirect-from
 
 encoding: "utf-8"
 
 locale: en
 
-title_separator: "-"
+#title_separator: "-"
 
-title: Antonio Feijao
+#title: Antonio Feijao
     
-description: AWS Infrastructure Architect with Networking and Security Specialism personal website.
+#description: AWS Infrastructure Architect with Networking and Security Specialism personal website.
 
-logo: /assets/images/AntonioFeijao-photo0001-800x800.jpg
+#logo: /assets/images/AntonioFeijao-photo0001-800x800.jpg
 
 #https://avatars.githubusercontent.com/u/2548084
 #/assets/img/logo.png
@@ -31,7 +103,7 @@ show_downloads: false #  ["true" or "false" (unquoted) to indicate whether to pr
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#permalink: /:categories/:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
