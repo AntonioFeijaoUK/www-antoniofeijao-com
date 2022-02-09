@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /skills/
 ---
