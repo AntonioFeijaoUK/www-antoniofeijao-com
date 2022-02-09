@@ -1,34 +1,7 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "{{ site.theme }}";
-
-.inner {
-  max-width: 70%;
-}
-
-
-.headerBAR {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-.headerBAR h2 {
-  text-align: center;
-}
-
-.progress-container {
-  position: fixed;
-  width: 100%;
-  height: 8px;
-  background: #ccc;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #04AA6D;
-  width: 0%;
-}
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
