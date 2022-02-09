@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Work experience Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /experience/
 ---
