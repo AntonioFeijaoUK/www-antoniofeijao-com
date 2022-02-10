@@ -3,7 +3,7 @@ layout: default
 title: Antonio Feijao
 ---
 
-## Home
+# Home
 
 Antonio Feijao
 
