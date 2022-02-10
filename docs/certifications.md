@@ -4,7 +4,7 @@ title: Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /certifications/
 ---
 
-## Certifications
+# Certifications
 
 AWS
 
