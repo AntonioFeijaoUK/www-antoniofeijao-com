@@ -40,6 +40,7 @@ Other expired certifications
 * [Master Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)
 
 * Re-certifying for [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+  * Here are my [aws-certified-security-specialty-exam-guide-and-study-notes](/aws-certified-security-specialty-exam-guide-and-study-notes/)
 
 ----
 
