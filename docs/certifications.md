@@ -46,5 +46,6 @@ Other expired certifications
 ## Todo next certifications
 
 * [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
+* [Certified Cloud Security Professional (CCSP)](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL) by [isc2.org](https://www.isc2.org/Training/)
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
