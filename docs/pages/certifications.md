@@ -4,9 +4,9 @@ title: Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /certifications/
 ---
 
-## Certifications
+## Antonio Feijao certifications
 
-AWS
+### AWS
 
   * AWS Certified Advanced Networking Specialty
   * AWS Certified Security Specialty
@@ -16,17 +16,17 @@ AWS
   * AWS Certified SysOps Administrator Associate
   * AWS Certified Cloud Practitioner
 
-![[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)](/assets/images/aws-certifications-v2022-02-03.png)
-
 [AWS Available certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)
 
+![[AWS Certifications](https://aws.amazon.com/certification/#Available_AWS_Certifications)](/assets/images/aws-certifications-v2022-02-03.png)
 
-Certifications online badges at Credly
+
+### Certifications online badges at Credly
 
 * <https://www.credly.com/users/antoniofeijaouk/badges>
 
 
-Other expired certifications
+### Other expired certifications
 
   * Linux RedHat Sysadmin
   * Cisco CCNP Security Firewall ASA
@@ -47,6 +47,7 @@ Other expired certifications
 ## Todo next certifications
 
 * [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
+
 * [Certified Cloud Security Professional (CCSP)](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL) by [isc2.org](https://www.isc2.org/Training/)
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
