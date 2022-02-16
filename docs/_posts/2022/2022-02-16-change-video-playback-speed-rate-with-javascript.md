@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Change video playback speed rate with javascript"
-category: ["Javascript", "Multimedia"]
+categories: ["Javascript", "Multimedia"]
 tags: ["playbackRate", "video"]
 ---
 
