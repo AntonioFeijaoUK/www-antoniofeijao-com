@@ -8,6 +8,9 @@ Antonio Feijao study's notes for the AWS Certified Security Specialty exam re-ce
 
 Exam guide - <https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf>
 
+Exam Readiness: AWS Certified Security Specialty - <https://explore.skillbuilder.aws/learn/course/97/>
+
+
 Recommended AWS knowledge
 
 ## The target candidate should have the following knowledge
@@ -168,10 +171,10 @@ Recommended AWS knowledge
 * AWS Management Console
 * Network analysis tools (packet capture and flow captures)
 * SSH/RDP
-* Signature Version 4
+* [Signature Version 4](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html)
 * TLS
 * Certificate management
-* Infrastructure as code (IaC)
+* Infrastructure as code (IaC) - [cloudformation](https://aws.amazon.com/cloudformation/)
 
 ---
 
@@ -185,7 +188,7 @@ Recommended AWS knowledge
 * AWS Config
 * AWS Organizations
 * AWS Systems Manager
-* AWS Trusted Advisor
+* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
 
 
 ### Networking and Content Delivery
@@ -195,7 +198,7 @@ Recommended AWS knowledge
 * AWS Network Firewall
 * AWS Security Hub
 * AWS Shield
-* Amazon VPC
+* Amazon VPC - [VPC flow-logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
   o VPC endpoints
   o Network ACLs
   o Security groups
