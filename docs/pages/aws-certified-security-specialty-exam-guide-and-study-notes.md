@@ -39,7 +39,7 @@ Recommended AWS knowledge
 * Domain 5: Data Protection 22%
 </pre>
 </details>
-
+  
 ---
 
 ### Domain 1 - Incident Response
@@ -202,12 +202,12 @@ Recommended AWS knowledge
 * AWS Firewall Manager
 * AWS Network Firewall
 * AWS Security Hub
-* AWS Shield
+* [AWS Shield](https://aws.amazon.com/shield/)
 * Amazon VPC - [VPC flow-logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
   o VPC endpoints
   o Network ACLs
   o Security groups
-* AWS WAF
+* [AWS WAF](https://aws.amazon.com/waf/)
 
 
 ### Security, Identity, and Compliance
@@ -225,3 +225,11 @@ Recommended AWS knowledge
 
 (...)
 
+### Others services good to know...
+
+* [Amazon Route 53](https://aws.amazon.com/route53/)
+* [Cloudfront](https://aws.amazon.com/cloudfront/)
+* [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
+* [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
+* [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/)
+* 
