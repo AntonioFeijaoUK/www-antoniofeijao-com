@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Change video playback speed rate with javascript
-category: ['Javascript']
+category: Javascript Multimedia
 ---
 
 Change video playback speed rate with javascript
