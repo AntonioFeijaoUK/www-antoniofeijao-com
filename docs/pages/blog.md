@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-## Blog posts
+## All blog posts
 
 <ul>
   {% for post in site.posts %}
@@ -16,7 +16,7 @@ permalink: /blog/
 
 ---
 
-## sorted by tags
+## Sorted by tags
 
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
@@ -29,7 +29,7 @@ permalink: /blog/
 
 ---
 
-## sorted by categories
+## Sorted by categories
 
 {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
