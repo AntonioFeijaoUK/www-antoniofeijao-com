@@ -8,7 +8,7 @@ Antonio Feijao study's notes for the AWS Certified Security Specialty exam re-ce
 
 Exam guide - <https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf>
 
-Exam Readiness: AWS Certified Security Specialty - <https://explore.skillbuilder.aws/learn/course/97/>
+[Exam Readiness - AWS Certified Security - Specialty](https://explore.skillbuilder.aws/learn/course/97)
 
 
 Recommended AWS knowledge
@@ -29,12 +29,15 @@ Recommended AWS knowledge
 
 ### Summary of domains
 
+<summary>**[ Click here for details ]**</summary>
+<p>
 * Domain 1: Incident Response 12%
 * Domain 2: Logging and Monitoring 20%
 * Domain 3: Infrastructure Security 26%
 * Domain 4: Identity and Access Management 20%
 * Domain 5: Data Protection 22%
-
+</p>
+  
 ---
 
 ### Domain 1 - Incident Response
@@ -183,9 +186,9 @@ Recommended AWS knowledge
 ### Management and Governance
 
 * AWS Audit Manager
-* AWS CloudTrail
-* Amazon CloudWatch
-* AWS Config
+* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
+* [AWS Config](https://aws.amazon.com/config/)
 * AWS Organizations
 * AWS Systems Manager
 * [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
