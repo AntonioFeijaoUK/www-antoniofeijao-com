@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Change video playback speed rate with javascript
-category: Javascript Multimedia
+title: "Change video playback speed rate with javascript"
+category: ["Javascript", "Multimedia"]
+tags: ["playbackRate", "video"]
 ---
 
 Change video playback speed rate with javascript
