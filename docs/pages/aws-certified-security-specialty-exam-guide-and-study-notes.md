@@ -29,16 +29,11 @@ Recommended AWS knowledge
 
 ### Summary of domains convered in the exam
 
-<details>
-<summary>**[ Click here for details ]**</summary>
-<pre>
 * Domain 1: Incident Response 12%
 * Domain 2: Logging and Monitoring 20%
 * Domain 3: Infrastructure Security 26%
 * Domain 4: Identity and Access Management 20%
 * Domain 5: Data Protection 22%
-</pre>
-</details>
   
 ---
 
