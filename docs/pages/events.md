@@ -14,14 +14,14 @@ tags: ["events", "activities"]
 </style>
 
 <script language="javascript">
-  function check_my_password(pass) { 
-    if (pass.value=="pass1" | pass.value=="pass2") { location="https://antoniofeijao.com/" } 
-    else { alert("Wrong Password") } 
+  function check_my_password(event_code) { 
+    if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" } 
+    else { alert("Not sure about that event code...") } 
   } 
 </script>
 
-<h2>Password</h2>
-<input type="password" id="pass" name="pass" size="24px"/></h2>
+<h2>EVENT CODE</h2>
+<input type="text" id="event_code" name="event_code" size="24px"/></h2>
 
-<h2><input value="Login" onclick="check_my_password(pass)" type="button" size="24px"/></h2>
+<h2><input value="Login" onclick="check_my_password(event_code)" type="button" size="24px"/></h2>
 
