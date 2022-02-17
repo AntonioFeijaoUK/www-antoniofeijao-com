@@ -52,7 +52,7 @@ async function digest_this(event_code) {
   console.log(JSON.stringify({hash: buf2Base64(hashBytes)}));  // output sample {"hash":"16j7swfXgJRpypq8sAguT41WUeRtPNt2LQLQvzfJ5ZI="}
 
   digest_result = (buf2hex(hashBytes))
-  console.log("digest_result is : " + buf2Base64(hashBytes) )
+  console.log("digest_result is : " + digest_result )
   
   return (digest_result);
 }
