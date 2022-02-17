@@ -16,8 +16,12 @@ tags: ["events", "activities"]
 <script language="javascript">
 	
 async function digest_this(event_code) {
-	const digest = await window.crypto.subtle.digest('SHA-256', event_code);
-	console.log(digest);
+	// https://stackoverflow.com/questions/63736585/why-does-crypto-subtle-digest-return-an-empty-object
+	inputBytes = new TextEncoder().encode(event_code);
+	const hashBytes = await window.crypto.subtle.digest('SHA-256', inputBytes);
+	console.log(hashBytes);
+	console.log(JSON.stringify({hash: buf2hex(hashBytes)}));     // output sample {"hash":"d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"}
+  console.log(JSON.stringify({hash: buf2Base64(hashBytes)}));  // output sample {"hash":"16j7swfXgJRpypq8sAguT41WUeRtPNt2LQLQvzfJ5ZI="}
 }
 	
 function check_my_password(event_code) {
