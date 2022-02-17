@@ -63,11 +63,10 @@ function check_my_password(event_code) {
   pass1="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
   pass2="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
 	
-  digest_result
-  if (digest_result.value=="pass1" | digest_result.value=="pass2") { location="https://antoniofeijao.com/" }
-  //if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" }
+  if (digest_result=="pass1" | digest_result=="pass2") { location="https://antoniofeijao.com/" }
+  //if (event_code=="pass1" | event_code=="pass2") { location="https://antoniofeijao.com/" }
   else { alert("Not sure about that event code...") } 
-  }
+}
 	
 </script>
 
