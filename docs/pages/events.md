@@ -28,15 +28,13 @@ body {
 </script>
 
 
-Username: < input name="id" size="6" type="text">Username</input>
+Username: <input name="id" size="6" type="text">Username</input>
 
-Password: < input name="pass" size="6" type="password">Password</input>
+Password: <input name="pass" size="6" type="password">Password</input>
+
+<input value="Login" onclick="pasuser(this.form)" type="button">
 
 
-/* <input value="Login" onclick="pasuser(this.form)" type="button"> */
-/* <form name="login"> */
-/*     Username: < input name="id" size="6" type="text"> */
-/*     Password: < input name="pass" size="6" type="password"> */
-/*     <input value="Login" onclick="pasuser(this.form)" type="button"> */
-/*   </form> */
-/* </input> */
+
+<input type="text" id="name" name="name"/>
+
