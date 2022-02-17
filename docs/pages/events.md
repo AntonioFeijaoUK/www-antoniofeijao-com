@@ -6,18 +6,15 @@ categories: ["Events", "Activities"]
 tags: ["events", "activities"]
 ---
 
-
 <style>
-
+	
 body {
 
 	background-image: url('/assets/images/dima-pechurin-JUbjYFvCv00-unsplash-medium-door.jpeg');
 	background-attachment: fixed;
 	color: #333;
 }
-
 </style>
-
 
 <script language="javascript">
   function pasuser(form) { 
@@ -30,10 +27,14 @@ body {
   } 
 </script>
 
-<body>
+Name [name] = __Your name__
+Password [pass] = __Password__
+
+
+<input>
   <form name="login">
     Username: < input name="id" size="6" type="text">
     Password: < input name="pass" size="6" type="password">
     <input value="Login" onclick="pasuser(this.form)" type="button">
   </form>
-</body>
+</input>
