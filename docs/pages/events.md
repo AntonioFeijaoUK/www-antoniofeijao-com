@@ -45,8 +45,8 @@ async function digest_this(event_code) {
   
 	const hashBytes = await window.crypto.subtle.digest('SHA-256', inputBytes);
   
-	console.log("This is raw hashBytes :" + hashBytes);
-  console.log("This is the JSON.stringify of hashBytes :" + JSON.stringify(hashBytes) );
+	// console.log("This is raw hashBytes :" + hashBytes);
+  // console.log("This is the JSON.stringify of hashBytes :" + JSON.stringify(hashBytes) );
   
 	console.log(JSON.stringify({hash: buf2hex(hashBytes)}));     // output sample {"hash":"d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"}
   console.log(JSON.stringify({hash: buf2Base64(hashBytes)}));  // output sample {"hash":"16j7swfXgJRpypq8sAguT41WUeRtPNt2LQLQvzfJ5ZI="}
@@ -56,16 +56,20 @@ async function digest_this(event_code) {
   
   return (digest_result);
 }
+
 	
 function check_my_password(event_code) {
+  
   digest_result = digest_this(event_code)
+  
+  console.log("digest_result in the function is : " + digest_result )
   
   pass1="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
   pass2="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
 	
-  if (digest_result=="pass1" | digest_result=="pass2") { location="https://antoniofeijao.com/" }
-  //if (event_code=="pass1" | event_code=="pass2") { location="https://antoniofeijao.com/" }
+  if (digest_result==pass1 | digest_result==pass2) { location="https://antoniofeijao.com/" }
   else { alert("Not sure about that event code...") } 
+  
 }
 	
 </script>
