@@ -18,8 +18,8 @@ body {
 
 <script language="javascript">
   function pasuser(form) { 
-    if (form.id.value=="paintball") { 
-      if (form.pass.value=="paintball15" | form.pass.value=="paintball20")
+    if (form.id.value=="pass") { 
+      if (form.pass.value=="pass1" | form.pass.value=="pass2")
         { location="https://antoniofeijao.com/" } 
         else { alert("Wrong Password") } 
       } 
