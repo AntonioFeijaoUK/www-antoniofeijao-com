@@ -14,11 +14,18 @@ tags: ["events", "activities"]
 </style>
 
 <script language="javascript">
-  function check_my_password(event_code) { 
-    if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" } 
-    else { alert("Not sure about that event code...") } 
-  } 
+	
+  function check_my_password(event_code) {
+	
+	const digest = await window.crypto.subtle.digest('SHA-256', event_code.value);
+	console.log(digest);
+	
+  if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" } 
+  else { alert("Not sure about that event code...") } 
+  }
+	
 </script>
+
 
 <h2>EVENT CODE</h2>
 <input type="text" id="event_code" name="event_code" size="24px"/>
