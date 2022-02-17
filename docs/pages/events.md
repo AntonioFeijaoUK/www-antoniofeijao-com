@@ -53,14 +53,13 @@ async function digest_this(event_code) {
     console.log(JSON.stringify({ hash: buf2hex(hashBytes) }));     // output sample {"hash":"d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"};
     console.log(JSON.stringify({ hash: buf2Base64(hashBytes) }));  // output sample {"hash":"16j7swfXgJRpypq8sAguT41WUeRtPNt2LQLQvzfJ5ZI="};
 
-    digest_result = (buf2hex(hashBytes));
-    console.log("digest_result with JSON.stringify is : " + JSON.stringify(digest_result) );
+    digest_result = JSON.stringify(buf2hex(hashBytes));
     console.log("digest_result is : " + digest_result );
 
     pass1 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
     pass2 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
 
-    if ( digest_result == pass1 || digest_result == pass2 ) { location = "https://antoniofeijao.com/" }
+    if ( digest_result == pass1 ) { location = "https://antoniofeijao.com/" }
     else { alert("Not sure about that event code...") }
 
     alert("Ready to move on?");
