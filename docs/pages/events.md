@@ -14,7 +14,17 @@ tags: ["events", "activities"]
 </style>
 
 <script language="javascript">
-	
+
+// from: https://stackoverflow.com/a/40031979/9014097
+function buf2hex(buffer) { // buffer is an ArrayBuffer
+  return Array.prototype.map.call(new Uint8Array(buffer), x => ('00' + x.toString(16)).slice(-2)).join('');
+}
+
+// from https://stackoverflow.com/a/11562550/9014097
+function buf2Base64(buffer) {
+  return btoa(String.fromCharCode.apply(null, new Uint8Array(buffer)));
+}
+
 async function digest_this(event_code) {
 	// https://stackoverflow.com/questions/63736585/why-does-crypto-subtle-digest-return-an-empty-object
 	inputBytes = new TextEncoder().encode(event_code);
