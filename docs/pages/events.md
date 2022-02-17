@@ -38,14 +38,20 @@ function buf2Base64(buffer) {
 }
 
 async function digest_this(event_code) {
+  
 	// https://stackoverflow.com/questions/63736585/why-does-crypto-subtle-digest-return-an-empty-object
+  
 	inputBytes = new TextEncoder().encode(event_code);
+  
 	const hashBytes = await window.crypto.subtle.digest('SHA-256', inputBytes);
+  
 	console.log("This is raw hashBytes :" + hashBytes);
+  console.log("This is the JSON.stringify of hashBytes :" + JSON.stringify(hashBytes) );
+  
 	console.log(JSON.stringify({hash: buf2hex(hashBytes)}));     // output sample {"hash":"d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"}
   console.log(JSON.stringify({hash: buf2Base64(hashBytes)}));  // output sample {"hash":"16j7swfXgJRpypq8sAguT41WUeRtPNt2LQLQvzfJ5ZI="}
 
-  digest_result = (buf2Base64(hashBytes))
+  digest_result = (buf2hex(hashBytes))
   console.log("digest_result is : " + buf2Base64(hashBytes) )
   
   return (digest_result);
