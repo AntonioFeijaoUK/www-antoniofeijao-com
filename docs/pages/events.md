@@ -14,14 +14,14 @@ tags: ["events", "activities"]
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cccccc;
-    height: 500px;
+    /* height: 500px; */
     
-    position: relative;
+    /* position: relative; */
   
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     color: white;
-    text-align: center;
-    position: absolute;
+    /* text-align: center; */
+    /* position: absolute; */
   }
 </style>
 
