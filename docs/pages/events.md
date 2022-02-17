@@ -26,9 +26,10 @@ tags: ["events", "activities"]
 	
 </script>
 
+<centered>
+  <h2 style="color:green;">EVENT CODE</h2>
+  <input style="color:red; fontsize:24px" type="text" id="event_code" name="event_code" />
 
-<h2>EVENT CODE</h2>
-<input type="text" id="event_code" name="event_code" size="24px"/>
+  <h2><input value="Login" onclick="check_my_password(event_code)" type="button" size="24px"/></h2>
 
-<h2><input value="Login" onclick="check_my_password(event_code)" type="button" size="24px"/></h2>
-
+</centered>
