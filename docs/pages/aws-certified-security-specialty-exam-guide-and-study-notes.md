@@ -182,27 +182,28 @@ Recommended AWS knowledge
 
 ### Management and Governance
 
-* AWS Audit Manager
-* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
-* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)
-* [AWS Config](https://aws.amazon.com/config/)
-* AWS Organizations
-* AWS Systems Manager
-* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/)
+* [AWS Audit Manager](https://aws.amazon.com/audit-manager/) - [FAQ](https://aws.amazon.com/audit-manager/faqs/)
+* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - [FAQ](https://aws.amazon.com/cloudtrail/faqs/)
+* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) [FAQ](https://aws.amazon.com/cloudwatch/faqs/)
+* [AWS Config](https://aws.amazon.com/config/) - [FAQ](https://aws.amazon.com/config/faq/)
+* [AWS Organizations](https://aws.amazon.com/organizations/) - [FAQ](https://aws.amazon.com/organizations/faqs/)
+* [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - [FAQ](https://aws.amazon.com/systems-manager/faq/)
+* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - [FAQ](https://aws.amazon.com/premiumsupport/faqs/#AWS_Trusted_Advisor)
 
 
 ### Networking and Content Delivery
 
-* Amazon Detective
-* AWS Firewall Manager
-* AWS Network Firewall
-* AWS Security Hub
-* [AWS Shield](https://aws.amazon.com/shield/)
-* Amazon VPC - [VPC flow-logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
-  o VPC endpoints
-  o Network ACLs
-  o Security groups
-* [AWS WAF](https://aws.amazon.com/waf/)
+* [Amazon Detective](https://aws.amazon.com/detective/)            - [FAQ](https://aws.amazon.com/detective/faqs/)
+* [AWS Firewall Manager](https://aws.amazon.com/firewall-manager/) - [FAQ](https://aws.amazon.com/firewall-manager/faqs/)
+* [AWS Network Firewall](https://aws.amazon.com/network-firewall/) - [FAQ](https://aws.amazon.com/network-firewall/faqs/)
+* [AWS Security Hub](https://aws.amazon.com/security-hub/)         - [FAQ](https://aws.amazon.com/security-hub/faqs/)
+* [AWS Shield](https://aws.amazon.com/shield/)                     - [FAQ](https://aws.amazon.com/shield/faqs/)
+* [Amazon VPC](https://aws.amazon.com/vpc/)                        - [FAQ](https://aws.amazon.com/vpc/faqs/)
+  * [VPC flow-logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
+  * VPC endpoints
+  * Network ACLs
+  * Security groups
+* [AWS WAF](https://aws.amazon.com/waf/)                           - [FAQ](https://aws.amazon.com/waf/faqs/)
 
 
 ### Security, Identity, and Compliance
@@ -220,11 +221,11 @@ Recommended AWS knowledge
 
 (...)
 
-### Others services good to know...
+### Others services worth metion...
 
 * [Amazon Route 53](https://aws.amazon.com/route53/)
 * [Cloudfront](https://aws.amazon.com/cloudfront/)
 * [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 * [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/)
-* 
+
