@@ -26,10 +26,12 @@ tags: ["events", "activities"]
 	
 </script>
 
-<centered>
+<center>
   <h2 style="color:green;">EVENT CODE</h2>
-  <input style="color:red; font-size:24px" type="text" id="event_code" name="event_code" />
+  <input style="color:green; font-size:24px: font-family: 'Lucida Console', 'Courier New', monospace;" type="text" id="event_code" name="event_code" />
 
-  <h2><input value="Login" onclick="check_my_password(event_code)" type="button" size="24px"/></h2>
+  <h2>
+  <input style="color:green; font-size:24px: font-family: 'Lucida Console', 'Courier New', monospace;" type="button" value="ENTER" onclick="check_my_password(event_code)" />
+  </h2>
 
-</centered>
+</center>
