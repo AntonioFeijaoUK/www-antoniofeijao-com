@@ -54,22 +54,20 @@ async function digest_this(event_code) {
   digest_result = (buf2hex(hashBytes))
   console.log("digest_result is : " + digest_result )
   
-  return (digest_result);
-}
-
-	
-function check_my_password(event_code) {
-  
-  digest_result = digest_this(event_code)
-  
-  console.log("digest_result in the function is : " + digest_result )
-  
   pass1="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
   pass2="be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5"
 	
   if (digest_result==pass1 | digest_result==pass2) { location="https://antoniofeijao.com/" }
   else { alert("Not sure about that event code...") } 
-  
+
+	
+  return (digest_result);
+}
+
+	
+function check_my_password(event_code) {
+  digest_result = digest_this(event_code)
+  console.log("digest_result in the function is : " + digest_result )  
 }
 	
 </script>
@@ -77,9 +75,9 @@ function check_my_password(event_code) {
 <center>
   <h2 style="color:green;">EVENT CODE</h2>
   
-  <input style="color:green; font-size:32px: font-family: 'Lucida Console', 'Courier New', monospace;" type="text" id="event_code" name="event_code" onSubmit="check_my_password(event_code)" />
+  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;" type="text" id="event_code" name="event_code" onSubmit="check_my_password(event_code)" />
 
-  <input style="color:green; font-size:32px: font-family: 'Lucida Console', 'Courier New', monospace;" type="button" value="ENTER" onclick="check_my_password(event_code)" />
+  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;" type="button" value="ENTER" onclick="check_my_password(event_code)" />
   
 
 </center>
