@@ -15,12 +15,15 @@ tags: ["events", "activities"]
 
 <script language="javascript">
 	
-  async function check_my_password(event_code) {
-	
-	const digest = await window.crypto.subtle.digest('SHA-256', event_code.value);
+async function digest_this(event_code) {
+	const digest = await window.crypto.subtle.digest('SHA-256', event_code);
 	console.log(digest);
+}
 	
-  if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" } 
+function check_my_password(event_code) {
+  digest_this(event_code)
+  
+  if (event_code.value=="pass1" | event_code.value=="pass2") { location="https://antoniofeijao.com/" }
   else { alert("Not sure about that event code...") } 
   }
 	
