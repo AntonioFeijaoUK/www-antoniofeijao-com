@@ -59,12 +59,19 @@ async function digest_this(event_code) {
     pass1 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
     pass2 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
 
-    if ( digest_result.value == pass1.value ) { location = "https://antoniofeijao.com/" }
-    else { alert("Not sure about that event code...") }
+    if ( digest_result.value == pass1.value ) {
+        console.log("Hello from digest_result.value " + digest_result.value );
+        console.log("Hello from pass1.value " + pass1.value );
+        // location = "https://antoniofeijao.com/"
+    }
+    else {
+      console.log("wrong code...);
+      ///"alert("Not sure about that event code...")
+    }
 
-    alert("Ready to move on?");
+    //alert("Ready to move on?");
 
-    return (digest_result);
+
 }
 
 
