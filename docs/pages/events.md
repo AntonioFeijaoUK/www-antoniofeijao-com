@@ -15,7 +15,7 @@ tags: ["events", "activities"]
 
 <script language="javascript">
 	
-  function check_my_password(event_code) {
+  async function check_my_password(event_code) {
 	
 	const digest = await window.crypto.subtle.digest('SHA-256', event_code.value);
 	console.log(digest);
