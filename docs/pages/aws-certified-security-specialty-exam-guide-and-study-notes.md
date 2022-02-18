@@ -2,6 +2,7 @@
 layout: default
 title: AWS Certified Security Specialty exam guide
 permalink: /aws-certified-security-specialty-exam-guide-and-study-notes/
+categories: ["AWS" "Security" "Exams" "Study"]
 ---
 
 Antonio Feijao study's notes for the AWS Certified Security Specialty exam re-certification 2022.
@@ -213,7 +214,7 @@ Recommended AWS knowledge
 * AWS Directory Service
 * Amazon GuardDuty
 * AWS Identity and Access Management (IAM)
-* Amazon Inspector
+* Amazon Inspector - FAQ - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-inspector2/enums/severity.html)
 * AWS Key Management Service (AWS KMS)
 * Amazon Macie
 * AWS Single Sign-On
@@ -228,4 +229,4 @@ Recommended AWS knowledge
 * [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 * [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/)
-
+* S3 - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-s3/)
