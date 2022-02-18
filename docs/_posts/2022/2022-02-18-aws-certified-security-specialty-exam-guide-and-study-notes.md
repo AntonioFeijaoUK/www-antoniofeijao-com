@@ -1,8 +1,7 @@
 ---
 layout: post
 title: AWS Certified Security Specialty exam guide and study notes
-permalink: /aws-certified-security-specialty-exam-guide-and-study-notes/
-categories: ["AWS", "Security", "Exam", "Study"]
+categories: ["AWS", "Security", "Specialty", "Exam", "Study"]
 tags:       ["aws", "security", "exam", "study"]
 ---
 
