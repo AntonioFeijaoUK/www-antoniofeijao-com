@@ -59,9 +59,9 @@ async function digest_this(event_code) {
     pass1 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
     pass2 = "be777e1c1380a74447b462723b7002240abd5f2714187f240c63699ba9810ee5";
 
-    if ( digest_result.value == pass1.value ) {
-        console.log("Hello from digest_result.value " + digest_result.value );
-        console.log("Hello from pass1.value " + pass1.value );
+    if ( digest_result == pass1 ) {
+        console.log("Hello from digest_result " + digest_result );
+        console.log("Hello from pass1 " + pass1 );
         // location = "https://antoniofeijao.com/"
     }
     else {
@@ -70,6 +70,7 @@ async function digest_this(event_code) {
     }
 
     //alert("Ready to move on?");
+	console.log("Ready to move on...);
 
 
 }
