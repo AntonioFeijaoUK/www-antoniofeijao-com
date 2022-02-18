@@ -86,9 +86,9 @@ function check_my_password(event_code) {
 <center>
   <h2 style="color:green;">EVENT CODE</h2>
   
-  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;" type="text" id="event_code" name="event_code" onSubmit="digest_this(event_code)" />
+  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;"; type="text"; id="event_code"; name="event_code"; onSubmit="digest_this(event_code)"; />
 
-  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;" type="button" value="ENTER" onclick="digest_this(event_code)" />
+  <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;"; type="button"; value="ENTER"; onclick="digest_this(event_code)"; />
   
 
 </center>
