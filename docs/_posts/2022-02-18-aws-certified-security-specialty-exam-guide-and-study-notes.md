@@ -1,11 +1,12 @@
 ---
-layout: default
-title: AWS Certified Security Specialty exam guide
+layout: post
+title: AWS Certified Security Specialty exam guide and study notes
 permalink: /aws-certified-security-specialty-exam-guide-and-study-notes/
-categories: ["AWS" "Security" "Exams" "Study"]
+categories: ["AWS", "Security", "Exam", "Study"]
+tags:       ["aws", "security", "exam", "study"]
 ---
 
-Antonio Feijao study's notes for the AWS Certified Security Specialty exam re-certification 2022.
+Antonio Feijao study's notes for the AWS Certified Security Specialty exam, re-certification in 2022.
 
 Exam guide - <https://d1.awsstatic.com/training-and-certification/docs-security-spec/AWS-Certified-Security-Specialty_Exam-Guide.pdf>
 
@@ -183,41 +184,41 @@ Recommended AWS knowledge
 
 ### Management and Governance
 
-* [AWS Audit Manager](https://aws.amazon.com/audit-manager/) - [FAQ](https://aws.amazon.com/audit-manager/faqs/)
-* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/) - [FAQ](https://aws.amazon.com/cloudtrail/faqs/)
-* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) [FAQ](https://aws.amazon.com/cloudwatch/faqs/)
-* [AWS Config](https://aws.amazon.com/config/) - [FAQ](https://aws.amazon.com/config/faq/)
-* [AWS Organizations](https://aws.amazon.com/organizations/) - [FAQ](https://aws.amazon.com/organizations/faqs/)
-* [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - [FAQ](https://aws.amazon.com/systems-manager/faq/)
-* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - [FAQ](https://aws.amazon.com/premiumsupport/faqs/#AWS_Trusted_Advisor)
+* [AWS Audit Manager](https://aws.amazon.com/audit-manager/)     - [FAQs](https://aws.amazon.com/audit-manager/faqs/)
+* [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)           - [FAQs](https://aws.amazon.com/cloudtrail/faqs/)
+* [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/)        - [FAQs](https://aws.amazon.com/cloudwatch/faqs/)
+* [AWS Config](https://aws.amazon.com/config/)                   - [FAQs](https://aws.amazon.com/config/faq/)
+* [AWS Organizations](https://aws.amazon.com/organizations/)     - [FAQs](https://aws.amazon.com/organizations/faqs/)
+* [AWS Systems Manager](https://aws.amazon.com/systems-manager/) - [FAQs](https://aws.amazon.com/systems-manager/faq/)
+* [AWS Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/) - [FAQs](https://aws.amazon.com/premiumsupport/faqs/#AWS_Trusted_Advisor)
 
 
 ### Networking and Content Delivery
 
-* [Amazon Detective](https://aws.amazon.com/detective/)            - [FAQ](https://aws.amazon.com/detective/faqs/)
-* [AWS Firewall Manager](https://aws.amazon.com/firewall-manager/) - [FAQ](https://aws.amazon.com/firewall-manager/faqs/)
-* [AWS Network Firewall](https://aws.amazon.com/network-firewall/) - [FAQ](https://aws.amazon.com/network-firewall/faqs/)
-* [AWS Security Hub](https://aws.amazon.com/security-hub/)         - [FAQ](https://aws.amazon.com/security-hub/faqs/)
-* [AWS Shield](https://aws.amazon.com/shield/)                     - [FAQ](https://aws.amazon.com/shield/faqs/)
-* [Amazon VPC](https://aws.amazon.com/vpc/)                        - [FAQ](https://aws.amazon.com/vpc/faqs/)
+* [Amazon Detective](https://aws.amazon.com/detective/)            - [FAQs](https://aws.amazon.com/detective/faqs/)
+* [AWS Firewall Manager](https://aws.amazon.com/firewall-manager/) - [FAQs](https://aws.amazon.com/firewall-manager/faqs/)
+* [AWS Network Firewall](https://aws.amazon.com/network-firewall/) - [FAQs](https://aws.amazon.com/network-firewall/faqs/)
+* [AWS Security Hub](https://aws.amazon.com/security-hub/)         - [FAQs](https://aws.amazon.com/security-hub/faqs/)
+* [AWS Shield](https://aws.amazon.com/shield/)                     - [FAQs](https://aws.amazon.com/shield/faqs/)
+* [Amazon VPC](https://aws.amazon.com/vpc/)                        - [FAQs](https://aws.amazon.com/vpc/faqs/)
   * [VPC flow-logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html)
   * VPC endpoints
   * Network ACLs
   * Security groups
-* [AWS WAF](https://aws.amazon.com/waf/)                           - [FAQ](https://aws.amazon.com/waf/faqs/)
+* [AWS WAF](https://aws.amazon.com/waf/)                           - [FAQs](https://aws.amazon.com/waf/faqs/)
 
 
 ### Security, Identity, and Compliance
 
-* AWS Certificate Manager (ACM)
-* AWS CloudHSM
-* AWS Directory Service
-* Amazon GuardDuty
-* AWS Identity and Access Management (IAM)
-* Amazon Inspector - FAQ - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-inspector2/enums/severity.html)
-* AWS Key Management Service (AWS KMS)
-* Amazon Macie
-* AWS Single Sign-On
+* [AWS Certificate Manager (ACM)](https://aws.amazon.com/certificate-manager/) - [FAQs](https://aws.amazon.com/certificate-manager/faqs/)
+* [AWS CloudHSM](https://aws.amazon.com/cloudhsm/)                             - [FAQs](https://aws.amazon.com/cloudhsm/faqs/)
+* [AWS Directory Service](https://aws.amazon.com/directoryservice/)            - [FAQs](https://aws.amazon.com/directoryservice/faqs/)
+* [Amazon GuardDuty](https://aws.amazon.com/guardduty/)                        - [FAQs](https://aws.amazon.com/guardduty/faqs/)
+* [AWS Identity and Access Management (IAM)](https://aws.amazon.com/iam/)      - [FAQs](https://aws.amazon.com/iam/faqs/)
+* [Amazon Inspector](https://aws.amazon.com/inspector/)                        - [FAQs](https://aws.amazon.com/inspector/faqs/)              - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-inspector2/enums/severity.html)
+* [AWS Key Management Service (AWS KMS)](https://aws.amazon.com/kms/)          - [FAQs](https://aws.amazon.com/kms/faqs/)
+* [Amazon Macie](https://aws.amazon.com/macie/)                                - [FAQs](https://aws.amazon.com/macie/faq/)
+* [AWS Single Sign-On](https://aws.amazon.com/single-sign-on/)                 - [FAQs](https://aws.amazon.com/single-sign-on/faqs/)
 
 
 (...)
@@ -229,4 +230,6 @@ Recommended AWS knowledge
 * [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/)
 * [Amazon API Gateway](https://aws.amazon.com/api-gateway/)
 * [Amazon EC2 Auto Scaling](https://aws.amazon.com/ec2/autoscaling/)
-* S3 - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-s3/)
+* [S3](https://aws.amazon.com/s3/)                                             - [FAQs](https://aws.amazon.com/s3/faqs/)                     - [SDK](https://docs.aws.amazon.com/en_us/AWSJavaScriptSDK/v3/latest/clients/client-s3/)
+
+
