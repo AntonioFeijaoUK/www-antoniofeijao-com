@@ -70,7 +70,7 @@ async function digest_this(event_code) {
     }
 
     //alert("Ready to move on?");
-	console.log("Ready to move on...);
+	console.log("Ready to move on...");
 
 
 }
