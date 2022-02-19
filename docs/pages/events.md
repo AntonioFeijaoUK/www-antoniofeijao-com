@@ -65,7 +65,7 @@ async function digest_this(event_code) {
         // location = "https://antoniofeijao.com/"
     }
     else {
-      console.log("wrong code...)";
+      console.log("wrong code...");
       ///"alert("Not sure about that event code...")
     }
 
@@ -90,5 +90,4 @@ function check_my_password(event_code) {
 
   <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;"; type="button"; value="ENTER"; onclick="digest_this(event_code)"; />
   
-
 </center>
