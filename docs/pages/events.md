@@ -91,8 +91,8 @@ function check_my_password(event_code) {
   <input style="color:green; font-size:32px; font-family: 'Lucida Console', 'Courier New', monospace;" type="button" value="ENTER" onclick="digest_this(event_code)" />
   
   
-  <form class="form1" onSubmit="checkCODE(); return false; ">
-                    <input class="form1" type="text" id="enterCODE" required autofocus>
-                </form>
+  <form class="form1" onSubmit="digest_this(event_code); return false; ">
+	  <input class="form1" type="text" id="event_code" required autofocus>
+  </form>
   
 </center>
