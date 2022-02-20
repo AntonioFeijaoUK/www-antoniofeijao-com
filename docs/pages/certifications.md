@@ -39,8 +39,6 @@ permalink: /certifications/
 
 * [Master Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)
 
-* Re-certifying for [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
-  * Here are my [aws-certified-security-specialty-exam-guide-and-study-notes](/aws/security/specialty/exam/study/aws-certified-security-specialty-exam-guide-and-study-notes/)
 
 ----
 
@@ -54,4 +52,5 @@ permalink: /certifications/
 
 * [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
 
-* `DONE` - [AWS Certified Security - Specialism l](https://aws.amazon.com/certification/)
+* `DONE` - Re-certifying for [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+  * Here are my [aws-certified-security-specialty-exam-guide-and-study-notes](/aws/security/specialty/exam/study/aws-certified-security-specialty-exam-guide-and-study-notes/)
