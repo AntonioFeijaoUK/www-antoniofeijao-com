@@ -6,5 +6,5 @@ categories: ["Events", "Activities"]
 tags: ["event", "activity"]
 ---
 
-{% include events/check-event-code.html %}
+{% include assets/events/check-event-code.html %}
 
