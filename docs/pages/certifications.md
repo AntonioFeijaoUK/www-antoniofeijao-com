@@ -44,10 +44,14 @@ permalink: /certifications/
 
 ----
 
-## Todo next certifications
+## Todo next certifications 2022
 
-* [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
+* [Master Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)
 
 * [Certified Cloud Security Professional (CCSP)](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL) by [isc2.org](https://www.isc2.org/Training/)
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
+
+* [AWS Certified Solutions Architect - Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
+
+* `DONE` - [AWS Certified Security - Specialism l](https://aws.amazon.com/certification/)
