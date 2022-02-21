@@ -9,12 +9,12 @@ async function digestMessage(message) {
 
 // echo -n 'yes' | shasum -a 256
 
-async function checkCODE(event_code) {
-  let CODE = document.getElementById("event_code").value;
+async function checkCODE() {
+  let code = document.getElementById("event_code").value;
   //let code = event_code;
   //code = CODE.toLocaleLowerCase();
 
-  console.log("Received this event_code : " + event_code);
+  console.log("Received this event_code : " + code);
 
   const digestHex = await digestMessage(code);
   console.log(digestHex);
