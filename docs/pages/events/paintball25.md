@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Paintball 25 event
 permalink: /pages/events/painball25/
 ---
