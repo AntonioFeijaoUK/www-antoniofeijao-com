@@ -22,7 +22,7 @@ async function checkCODE() {
   if (digestHex == "dd0c75954dbb3307b05cfa472129fe14deb49099d7f6d5cd0869f98d26e4cdf2") {
     //document.getElementById("checkCODE").innerHTML = "You got it right!";
     console.log("You got the right event code");
-    location = "https://antoniofeijao.com/events/painball25/";
+    location = "https://antoniofeijao.com/pages/events/painball25/";
     //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
     //location.href = "./02kjdht.html";
     //document.getElementById("NEXT").style.visibility = "visible";
