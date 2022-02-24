@@ -9,7 +9,7 @@ AWS Systems Manager or AWS SSM to create a private Networking tunnel to resource
 
 * Pre-requisit
 
-- you need the AWS SSM agent installed on your laptop/desktop - documentation here <https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html>
+you need the AWS SSM agent installed on your laptop/desktop - documentation here <https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html>
 
 ## AWS SSM create a tunnel to Linux instance in an AWS private subnet
 
