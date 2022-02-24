@@ -7,9 +7,10 @@ tags:       ["aws", "security", "ssm", "networking", "linux"]
 
 AWS Systems Manager or AWS SSM to create a private Networking tunnel to resources in the private subnet
 
-* Pre-requisit
+**Pre-requisit**
 
 you need the AWS SSM agent installed on your laptop/desktop - documentation here <https://docs.aws.amazon.com/systems-manager/latest/userguide/ssm-agent.html>
+
 
 ## AWS SSM create a tunnel to Linux instance in an AWS private subnet
 
@@ -40,6 +41,7 @@ After creating the tunnel to the instance, you still need a valid ssh key to `ss
 Via the SSM in the console, you could add your public key to the `authorized-keys` - where is another website explaning that <https://www.ssh.com/academy/ssh/authorized-keys-file>
 
 ----
+
 
 ## Example using AWS SSM to create a private networking tunnel to use as remote desktop into a Windows instance in a private subnet
 
