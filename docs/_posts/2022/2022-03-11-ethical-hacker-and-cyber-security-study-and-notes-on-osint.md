@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ethical Hacker and Cyber Security study notes on OSINT
-categories: ["Ethical Hacker", "Cyber Security", "Study", "Notes" "OSINT"]
+categories: ["Ethical-Hacker", "Cyber-Security", "Study", "Notes" "OSINT"]
 tags:       ["ethical hacker", "white hat", "black hat", "grey hat", "hacker", "education", "study", "linux", "networking", "bash", "python", "javascript"]
 ---
 
@@ -12,7 +12,7 @@ Antonio Feijao study's notes for the Master Ethical Hacking and Cyber Security c
   
 ----
 
-# OSINT - Open-Source Intelligence
+## OSINT - Open-Source Intelligence
 
  Notes from the course OSINT - <https://academy.tcm-sec.com/courses/1214089/>
 
