@@ -5,7 +5,7 @@ categories: ["Ethical Hacker", "Cyber Security", "Study", "Notes" "OSINT"]
 tags:       ["ethical hacker", "white hat", "black hat", "grey hat", "hacker", "education", "study", "linux", "networking", "bash", "python", "javascript"]
 ---
 
-Antonio Feijao study's notes for the Master Ethical Hacking and Cyber Security course.
+Antonio Feijao study's notes for the Master Ethical Hacking and Cyber Security course - **OSINT**.
 
 !!!important
   This page and the studies - Working in Progress  (WIP)
