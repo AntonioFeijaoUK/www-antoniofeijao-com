@@ -23,7 +23,7 @@ permalink: /certifications/
 
 ### Certifications online badges at Credly
 
-* <https://www.credly.com/users/antoniofeijao/badges>
+* [credly.com/users/antoniofeijaouk/badges](https://www.credly.com/users/antoniofeijaouk/badges)
 
 
 ### Other expired certifications
