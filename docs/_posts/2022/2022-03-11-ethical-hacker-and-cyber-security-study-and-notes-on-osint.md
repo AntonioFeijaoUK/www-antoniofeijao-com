@@ -89,7 +89,7 @@ Your "sock puppets" account should look "real", stories and posts...
 
 The Art Of The Sock - <https://www.secjuice.com/the-art-of-the-sock-osint-humint/>
 
-Twitter - <https://twitter.com/ShakiraOnSecurity>
+Twitter - <https://twitter.com/ShakiraSecurity>
 
 Reddit - My process for setting up anonymous sockpuppet accounts - <https://www.reddit.com/r/OSINT/comments/dp70jr/my_process_for_setting_up_anonymous_sockpuppet/>
 
