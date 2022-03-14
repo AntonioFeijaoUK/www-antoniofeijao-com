@@ -1,3 +1,11 @@
+---
+layout: post
+title: AWS run multiple commands in multiple AWS accounts in the AWS Organizations at the same time
+categories: ["AWS", "CLI", "commands", "AWS Organizations"]
+tags:       ["aws", "cli", "commands", "linux", "bash", "scripting", "aws organizations", "coding"]
+---
+
+AWS run multiple commands in multiple AWS accounts in the AWS Organizations at the same time
 
 ** USE AT YOUR OWN RESPONSABILITY **
 
