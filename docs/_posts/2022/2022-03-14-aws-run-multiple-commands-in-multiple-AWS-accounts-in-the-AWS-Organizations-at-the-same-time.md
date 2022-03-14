@@ -21,13 +21,11 @@ If you have, for example `+100 AWS Accounts`, you might want to "slow down" this
 
 for example, I sometimes use the for-loop below to "slow down" my script :)
 
-
 ```bash
 for NUMBER in $(seq 0 9); do
-    ./99-run-this-command-on-this-account.txt ${NUMBER} ; sleep 20 &
+    ./99-run-this-command-on-this-account.sh ${NUMBER} ; sleep 20
 done
 ```
-
 
 
 ## Script to run command multiple AWS account within the organisation
