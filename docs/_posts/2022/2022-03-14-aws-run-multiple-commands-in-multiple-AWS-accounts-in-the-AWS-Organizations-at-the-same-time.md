@@ -17,7 +17,7 @@ Might not be perfect for everyone, but it does well what I need it to do, and mi
 
 So, I built a script to do what I need in a way that can be re-used for multiple commands in multiple accounts at the same time.
 
-If you have to many accounts, for example `+100 AWS Accounts`, you might want to "slow down" this script.
+If you have, for example `+100 AWS Accounts`, you might want to "slow down" this script.
 
 for example, I sometimes use the for-loop below to "slow down" my script :)
 
