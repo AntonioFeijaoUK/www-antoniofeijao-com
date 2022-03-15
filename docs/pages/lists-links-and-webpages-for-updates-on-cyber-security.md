@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lists links and webpages for updates on Cyber Security
-permalink: /feedback/
+permalink: /cyber-security-updates/
 ---
 
 WORK IN progress
