@@ -19,3 +19,7 @@ Security updates
 
 * <https://www.reddit.com/r/netsec/top/?t=day>
 
+* <https://talosintelligence.com/>
+* <https://talosintelligence.com/resources>
+* <https://talosintelligence.com/vulnerability_reports>
+
