@@ -9,19 +9,35 @@ a:hover,a:focus {
     font-weight: 400;
 }
 
-body {
-    //padding: 10px;
-}
+ div.wrapper {
+        width:auto;
+        margin: 0
+    }
 
-.wrapper {
-    //width: 90%;
-    //float: left;
-}
+    header,section,footer {
+        float: none;
+        position: static;
+        width: auto
+    }
 
-header {
-    //width: 250px;
-}
+    header {
+        padding-right: 320px
+    }
 
-section {
-    //width: 500px;
+    section {
+        border: 1px solid #e5e5e5;
+        border-width: 1px 0;
+        padding: 20px 0;
+        margin: 0 0 20px
+    }
+
+    header a small {
+        display: inline
+    }
+
+    header ul {
+        position: absolute;
+        right: 50px;
+        top: 52px
+    }
 }
