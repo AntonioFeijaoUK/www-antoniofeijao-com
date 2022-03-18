@@ -22,9 +22,10 @@ Lists links and webpages for updates on Cyber Security
 
 ## S
 
+<https://www.sans.org/security-resources/>  
 <https://www.sans.org/posters/>  
 <https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/>  
-
+<https://www.sans.org/blog/password-hash-cracking-amazon-web-services/>  
 
 <https://www.schneier.com/>
 
