@@ -196,7 +196,6 @@ help>
 ### ask for help on a specific module
 
 ```python
-help> http
 help> http		
 Help on package http:
 
@@ -280,11 +279,19 @@ dict
 
 ## Conclusion
 
-Here we mentioned `help()`, `help> modules`, `help> topics`, `help> http`, `dir(imported_module`, `type(var...)`...
+On this page I mentioned :
+* `import this`
+* `help()`
+* `help> modules`
+* `help> topics`
+* `help> http`
+* `dir(imported_module)`
+* `type(var...)`
 
 I hope these tips will help you explore Python 3 further and at the same time having some fun.
 
-There are, of course various free resources only, for example this one <https://www.tutorialspoint.com/python3/index.htm> .
+There are, of course various free resources online,  
+for example this one <https://www.tutorialspoint.com/python3/index.htm> .
 
 
 Have fun learning,
