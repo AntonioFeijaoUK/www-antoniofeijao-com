@@ -18,7 +18,7 @@ Start the python3 then type `import this`, and you should get the output below.
 Basically is a "best practices" for coding.
 
 ```python
-import this                                                                       
+import this 
 The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -49,7 +49,7 @@ Namespaces are one honking great idea -- let's do more of those!
 The `help()` command will be like a manual and samples commands
 
 ```python
-help()                                                      
+help()
 
 Welcome to Python 3.8's help utility!
 
@@ -231,9 +231,9 @@ you get the idea...
 ## use dir in Python 3 to see what is available on the module
 
 ```python
-import http                                                                                                                                         
+import http
 
-dir(http)                                                                                                                                           
+dir(http)
 
 ['HTTPStatus',
  'IntEnum',
@@ -261,19 +261,19 @@ var3 = ('a','b','c')
 var4 = ['a','b','c']
 var5={'Website':'AntonioFeijao.com','LinkedIn':'AntonioFeijaoUK'}                     
 
-type(var1)                                                                                                                                          
+type(var1)
 str
 
-type(var2)                                                                                                                                          
+type(var2)
 int
 
-type(var3)                                                                                                                                          
+type(var3)
 tuple
 
-type(var4)                                                                                                                                          
+type(var4)
 list
 
-type(var5)                                                                                                                                          
+type(var5)
 dict
 ```
 
