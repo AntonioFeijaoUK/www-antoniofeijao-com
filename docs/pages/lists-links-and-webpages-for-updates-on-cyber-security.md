@@ -8,18 +8,37 @@ WORK IN progress
 
 Lists links and webpages for updates on Cyber Security
 
+# Security updates
 
-Security updates
+## 
 
-* <https://www.schneier.com/>
+## O
 
-* <https://www.grc.com/securitynow.htm>
+<https://www.grc.com/securitynow.htm>
 
-* <https://twit.tv/shows/security-now>
+## R
 
-* <https://www.reddit.com/r/netsec/top/?t=day>
+<https://www.reddit.com/r/netsec/top/?t=day>
 
-* <https://talosintelligence.com/>
-* <https://talosintelligence.com/resources>
-* <https://talosintelligence.com/vulnerability_reports>
+## S
+
+<https://www.sans.org/posters/>  
+<https://www.sans.org/cyber-security-courses/defensible-security-architecture-and-engineering/>  
+
+
+<https://www.schneier.com/>
+
+
+
+Security Now - <https://twit.tv/shows/security-now>
+
+
+
+## T
+
+* <https://talosintelligence.com/>  
+* <https://talosintelligence.com/resources>  
+* <https://talosintelligence.com/vulnerability_reports>  
+
+
 
