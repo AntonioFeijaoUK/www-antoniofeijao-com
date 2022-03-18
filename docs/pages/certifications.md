@@ -47,6 +47,7 @@ permalink: /certifications/
 * [Master Ethical Hacker](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/)
 
 * [Certified Cloud Security Professional (CCSP)](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL) by [isc2.org](https://www.isc2.org/Training/)
+* <https://learn.isc2.org/d2l/home>
 
 * [https://www.giac.org/focus-areas/cloud-security/](https://www.giac.org/focus-areas/cloud-security/)
 
