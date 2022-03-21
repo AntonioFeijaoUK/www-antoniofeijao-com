@@ -46,6 +46,8 @@ Lists, links and webpages with updates on Cyber Security
 
 ## I
 
+* <https://exchange.xforce.ibmcloud.com/>
+
 ----
 
 ## J
@@ -84,6 +86,8 @@ Lists, links and webpages with updates on Cyber Security
 
 * <https://www.reddit.com/r/netsec/top/?t=day>
 
+* <https://replit.com/pricing> <-- colaborative coding and learning via browser
+* 
 ----
 
 ## S
@@ -99,6 +103,8 @@ Lists, links and webpages with updates on Cyber Security
 
 * <https://www.schneier.com/>
 
+* <https://platform.securityscorecard.io/>
+
 ----
 
 ## T
@@ -106,6 +112,8 @@ Lists, links and webpages with updates on Cyber Security
 * <https://talosintelligence.com/>
 * <https://talosintelligence.com/resources>
 * <https://talosintelligence.com/vulnerability_reports>
+
+* <https://threatconnect.com/resources/webinars/>
 
 ----
 
