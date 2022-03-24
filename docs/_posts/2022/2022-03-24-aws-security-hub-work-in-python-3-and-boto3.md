@@ -7,6 +7,7 @@ tags:       ["python", "python3", "aws", "security hub", "boto3"]
 
 Just testing some commands with python3 and boto3...
 
+## List of AWS Services from Boto3 clients 
 
 The below error message, shows very usefull information. I can see all the boto3.client's name that I can use.
 
@@ -15,6 +16,9 @@ Anyone knows how to get the list without using the error?
 Command
 
 ```python
+
+import boto3
+
 boto3.client(dir)
 
 UnknownServiceError: Unknown service: '<built-in function dir>'.
@@ -345,12 +349,16 @@ echo "accessanalyzer, account, acm, acm-pca, alexaforbusiness, amp, amplify, amp
 input
 
 ```python
+import boto3
+
+securityhub = boto3.client('securityhub')
+
 securityhub.describe_products()['Products'][1]
 ```
 
 output 
 
-```json
+```yaml
 {'ProductArn': 'arn:aws:securityhub:xxxxxx:xxxxxx:product/armordefense/armoranywhere',
  'ProductName': 'Armor Anywhere',
  'CompanyName': 'ARMOR',
@@ -362,6 +370,51 @@ output
  'ProductSubscriptionResourcePolicy': '{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Principal":{"AWS":"xxxxxx"},"Action":["securityhub:BatchImportFindings"],"Resource":"arn:aws:securityhub:xxxxxx:xxxxxx:product-subscription/armordefense/armoranywhere","Condition":{"StringEquals":{"securityhub:TargetAccount":"xxxxxx"}}},{"Effect":"Allow","Principal":{"AWS":"xxxxxx"},"Action":["securityhub:BatchImportFindings"],"Resource":"arn:aws:securityhub:xxxxxx:xxxxxx:product/armordefense/armoranywhere","Condition":{"StringEquals":{"securityhub:TargetAccount":"xxxxxx"}}}]}'}
 ```
 
+initialising the variable `companies`
+
+and running a for loop to add all companies into the variable `companies`
+
+```python
+companies = []
+
+for CompanyName in securityhub.describe_products()['Products']:
+    print(CompanyName['CompanyName'])
+    companies.append(CompanyName['CompanyName'])
+
+(...)
+```
+
+There are duplicated names in the variable `companies`, so we `dict.fromkeys` to remove duplicates.
+
+```python
+list(dict.fromkeys(companies))
+
+['3CORESec',
+ 'ARMOR',
+ 'AWS',
+ 'Alert Logic',
+ 'Amazon',
+ 'Aqua Security',
+ 'Atlassian',
+ 'AttackIQ',
+ 'Barracuda Networks',
+ 'BigID',
+ 'Blue Hexagon',
+ 'Capitis',
+ 'Caveonix',
+ 'Check Point',
+ 'Cloud Custodian',
+ 'Cloud Storage Security',
+ 'CrowdStrike',
+ 'CyberArk',
+ 'DisruptOps, Inc.',
+ 'FireEye',
+ 'Forcepoint',
+ 'Fugue',
+ 'Guardicore',
+ 'HackerOne',
+ 'IBM']
+ ```
 
 
 
