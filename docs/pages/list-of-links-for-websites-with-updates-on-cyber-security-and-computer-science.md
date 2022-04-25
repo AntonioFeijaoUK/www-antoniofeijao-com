@@ -63,6 +63,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## J
 
+* <https://www.youtube.com/c/JohnHammond010/videos> - `John Hammond`
+
 ----
 
 ## K
