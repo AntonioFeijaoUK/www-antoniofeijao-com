@@ -1,14 +1,12 @@
 ---
 layout: default
-title: List of links and webpages for updates on Cyber Security
+title: List of links and websites with updates on Cyber Security and Computer Science Knowledge
 permalink: /cyber-security-updates/
 ---
 
-*WORK IN progress*
+This page will be always >> work in progress <<
 
-List of links and webpages with updates on Cyber Security
-
-# Security updates
+List of links for websites with updates on Cyber Security and other knowledges areas on Computer Science Knowledge
 
 ----
 
@@ -22,11 +20,16 @@ List of links and webpages with updates on Cyber Security
 
 ## C
 
-<https://gchq.github.io/CyberChef/>
+* <https://gchq.github.io/CyberChef/> - `CyberChef`
+
+* <https://www.crest-approved.org/knowledge-sharing/index.html>
+* <https://service-selection-platform.crest-approved.org/accredited_companies/soc/>
 
 ----
 
 ## D
+
+* <https://www.flickr.com/photos/95869671@N08/> - `Domain of Science - Dominic Walliman`
 
 ----
 
@@ -36,13 +39,19 @@ List of links and webpages with updates on Cyber Security
 
 ## F
 
+* <https://www.freecodecamp.org/learn/information-security/>
+
 ----
 
 ## G
 
+* <https://github.blog/category/security/>
+
 ----
 
 ## H
+
+* <https://news.ycombinator.com/> - `Hacker News`
 
 ----
 
@@ -88,8 +97,8 @@ List of links and webpages with updates on Cyber Security
 
 * <https://www.reddit.com/r/netsec/top/?t=day>
 
-* <https://replit.com/pricing> <-- colaborative coding and learning via browser
-* 
+* <https://replit.com/pricing> <-- collaborative coding and learning via browser
+
 ----
 
 ## S
@@ -140,4 +149,3 @@ List of links and webpages with updates on Cyber Security
 ----
 
 ## Z
-
