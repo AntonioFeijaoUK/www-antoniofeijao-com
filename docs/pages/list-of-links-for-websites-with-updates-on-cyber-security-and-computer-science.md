@@ -73,6 +73,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## L
 
+* <https://training.linuxfoundation.org/training/developing-secure-software-lfd121/>
+
 ----
 
 ## M
