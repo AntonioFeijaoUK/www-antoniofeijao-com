@@ -44,6 +44,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://www.freecodecamp.org/learn/information-security/>
 
+* <https://www.youtube.com/c/Freecodecamp/videos> - `Freecodecamp` youtube
+
 ----
 
 ## G
