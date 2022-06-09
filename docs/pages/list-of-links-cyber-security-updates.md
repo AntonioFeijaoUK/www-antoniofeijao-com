@@ -125,6 +125,9 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://platform.securityscorecard.io/>
 
+* <https://www.shodan.io/>
+* <https://exposure.shodan.io/#/>
+
 ----
 
 ## T
