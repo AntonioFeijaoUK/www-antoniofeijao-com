@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Events
-permalink: /events/
-categories: ["Events", "Activities"]
-tags: ["event", "activity"]
+title: Code
+permalink: /code/
+categories: []
+tags: []
 ---
 
-{% include_relative events/check-event-code.html %}
+{% include_relative code/check-event-code.html %}
 
