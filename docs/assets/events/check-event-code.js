@@ -22,13 +22,13 @@ async function checkCODE() {
   if (digestHex == "dd0c75954dbb3307b05cfa472129fe14deb49099d7f6d5cd0869f98d26e4cdf2") {
     //document.getElementById("checkCODE").innerHTML = "You got it right!";
     console.log("You got the right event code");
-    location = "2022-painball25";
+    location = "/events/2022-painball25/";
     //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
     //location.href = "./02kjdht.html";
     //document.getElementById("NEXT").style.visibility = "visible";
   } else if (digestHex == "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af" || digestHex == "88489947456611b014e1492f0d2b73c5aaefd66f3f77d99308d071f4cd4397a7" ) {
     console.log("Code 2 correct");
-    location = "events/2022-jf/";
+    location = "/events/2022-jf/";
   } else if (code == "no") {
     //document.getElementById("checkCODE").innerHTML = "Ohhh no...";
     console.log("Don't know that event code..");
