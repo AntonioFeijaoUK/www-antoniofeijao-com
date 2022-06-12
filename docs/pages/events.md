@@ -6,5 +6,5 @@ categories: []
 tags: []
 ---
 
-{% include_relative code/check-event-code.html %}
+{% include_relative code/check-code.html %}
 
