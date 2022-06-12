@@ -14,24 +14,24 @@ async function checkCODE() {
   //let code = event_code;
   //code = CODE.toLocaleLowerCase();
 
-  console.log("Received this event_code : " + code);
+  console.log("Received this code : " + code);
 
   const digestHex = await digestMessage(code);
   console.log(digestHex);
 
   if (digestHex == "dd0c75954dbb3307b05cfa472129fe14deb49099d7f6d5cd0869f98d26e4cdf2") {
     //document.getElementById("checkCODE").innerHTML = "You got it right!";
-    console.log("You got the right event code");
-    location = "/events/2022-painball25/";
+    console.log("You got the right code");
+    location = "/code/2022-painball25/";
     //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
     //location.href = "./02kjdht.html";
     //document.getElementById("NEXT").style.visibility = "visible";
   } else if (digestHex == "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af" || digestHex == "88489947456611b014e1492f0d2b73c5aaefd66f3f77d99308d071f4cd4397a7" ) {
     console.log("Code 2 correct");
-    location = "/events/2022-jf/";
+    location = "/code/2022-jf/";
   } else if (code == "no") {
     //document.getElementById("checkCODE").innerHTML = "Ohhh no...";
-    console.log("Don't know that event code..");
+    console.log("I don't know that code...");
     //alert(' " ' + CODE + ' " is INCORRECT. Not so well done!');
     //location.href = "./02kjdht.html";
     //document.getElementById("NEXT").style.visibility = "hidden";
