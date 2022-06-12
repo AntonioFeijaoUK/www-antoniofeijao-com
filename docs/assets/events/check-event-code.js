@@ -26,6 +26,9 @@ async function checkCODE() {
     //alert(' " ' + CODE + ' " is CORRECT. Well Done!');
     //location.href = "./02kjdht.html";
     //document.getElementById("NEXT").style.visibility = "visible";
+  } else if (digestHex == "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af" or digestHex == "88489947456611b014e1492f0d2b73c5aaefd66f3f77d99308d071f4cd4397a7" or ) {
+    console.log("Code 2 correct");
+    location = "events/2022-jf/";
   } else if (code == "no") {
     //document.getElementById("checkCODE").innerHTML = "Ohhh no...";
     console.log("Don't know that event code..");
