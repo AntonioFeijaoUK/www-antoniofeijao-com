@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Paintball 25 event
-permalink: /events/painball25
+permalink: /events/2022-painball25
 ---
 
-## Paintball 25
+## 2022 Paintball 25
 
 * Private event
 
