@@ -27,7 +27,6 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://www.cisa.gov/cybersecurity>
 
-
 ----
 
 ## D
@@ -56,7 +55,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## H
 
-* <https://news.ycombinator.com/> - `Hacker News`
+* <https://book.hacktricks.xyz/welcome/readme>
 
 ----
 
@@ -79,6 +78,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 ## L
 
 * <https://training.linuxfoundation.org/training/developing-secure-software-lfd121/>
+* <https://training.linuxfoundation.org/resources/?_sft_content_type=free-course> - `link to free-course`
 
 ----
 
@@ -92,9 +92,13 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## O
 
+* <https://cheatsheetseries.owasp.org/index.html>
+
 ----
 
 ## P
+
+* <https://pentestlab.blog/>
 
 ----
 
@@ -127,6 +131,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://www.shodan.io/>
 * <https://exposure.shodan.io/#/>
+* <https://exposure.shodan.io/#/UK>
 
 ----
 
@@ -158,6 +163,12 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## Y
 
+* <https://news.ycombinator.com/> - `Hacker News`
+
 ----
 
 ## Z
+
+* <https://www.zaproxy.org/videos/> - OWASP ZAP
+* <https://zapcon.io/>
+* <https://www.youtube.com/c/StackHawk/videos> - `StackHawk makes it simple for developers to find, triage, and fix application security bugs. Scan your application for AppSec bugs in the code your team wrote, triage and fix with provided documentation, and automate in your pipeline to prevent future bugs from hitting prod.`
