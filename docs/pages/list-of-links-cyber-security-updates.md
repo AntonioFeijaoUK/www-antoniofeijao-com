@@ -20,6 +20,9 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## C
 
+* <https://github.com/carlospolop?tab=repositories> - `Carlos Polop`, `https://book.hacktricks.xyz`, `PEASS-ng for priviledge escalation` 
+* <https://github.com/carlospolop/PEASS-ng> - `PEASS-ng - Privilege Escalation Awesome Scripts SUITE new generation`
+
 * <https://gchq.github.io/CyberChef/> - `CyberChef`
 
 * <https://www.crest-approved.org/knowledge-sharing/index.html>
