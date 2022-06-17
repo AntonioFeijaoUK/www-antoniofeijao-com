@@ -9,10 +9,9 @@ Rubik's cube solved in 3 minutes by Antonio Feijao
 
 ## Video solving rubik cube
 
-<div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe src="https://player.vimeo.com/video/721484021?h=745b7ae739&title=0&byline=0&portrait=0&speed=0&badge=0&autopause=0&player_id=0&app_id=58479/embed" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
-</div>
+<br>
+
+<iframe src="https://player.vimeo.com/video/721484021?h=745b7ae739&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="50%" height="28%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="rubik-cube-solved-by-antonio-feijao-in-3-minutes"></iframe>
 
 <br>
 
