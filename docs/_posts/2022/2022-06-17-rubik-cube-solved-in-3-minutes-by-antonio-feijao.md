@@ -11,11 +11,11 @@ Rubik's cube solved in 3 minutes by Antonio Feijao
 
 <br>
 
-<iframe src="https://player.vimeo.com/video/721484021?h=745b7ae739&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="90%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="rubik-cube-solved-by-antonio-feijao-in-3-minutes"></iframe>
+<iframe src="https://player.vimeo.com/video/721484021?h=745b7ae739&amp;title=0&amp;byline=0&amp;portrait=0&amp;speed=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="800" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="rubik-cube-solved-by-antonio-feijao-in-3-minutes"></iframe>
 
 <br>
 
-`height="28%"`
+
 
 ---
 
