@@ -118,15 +118,13 @@ tag_archive:
 
 
 
-url: "https://antoniofeijao.com" # the base hostname & protocol for your site
+#url: "https://antoniofeijao.com" # the base hostname & protocol for your site
 
 encoding: "utf-8"
 
 locale: en
 
-title_separator: "-"
-
-title: Antonio Feijao
+#title_separator: "-"
     
 show_downloads: false #  ["true" or "false" (unquoted) to indicate whether to provide a download URL]
 #google_analytics: [Your Google Analytics tracking ID]
