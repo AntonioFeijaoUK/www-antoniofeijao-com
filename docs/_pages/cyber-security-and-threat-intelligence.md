@@ -1,7 +1,6 @@
 ---
 title: "Cyber Security and Threat Intelligence"
 
-layout: single
 
 author_profile: true
 

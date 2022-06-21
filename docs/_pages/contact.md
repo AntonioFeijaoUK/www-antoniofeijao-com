@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Contact Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /contact/
 ---

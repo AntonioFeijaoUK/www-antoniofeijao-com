@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AWS Security Hub work in Python 3 and Boto3
 categories: ["AWS", "Security-Hub", "Python3", "Boto3"]
 tags:       ["python", "python3", "aws", "security hub", "boto3"]

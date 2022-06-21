@@ -1,5 +1,4 @@
 ---
-layout: post
 title: AWS Systems Manager or AWS SSM to create a private Networking tunnel to resources in the private subnet
 categories: ["AWS", "SSM", "Networking", "Tunnel", "Security"]
 tags:       ["aws", "security", "ssm", "networking", "linux"]

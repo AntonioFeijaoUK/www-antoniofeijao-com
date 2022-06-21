@@ -1,8 +1,6 @@
 ---
 title: "Inspirational and Motivational Quotes to Inspire You to Be Successful"
 
-layout: single
-
 author_profile: true
 
 date: 2020-02-27

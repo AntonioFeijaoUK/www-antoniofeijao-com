@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Finding duplicated files using command line CLI in Linux MacOS Ubuntu
 categories: ["MacOS", "Linux", "CLI"]
 tags:       ["cli", "script", "command-line"]

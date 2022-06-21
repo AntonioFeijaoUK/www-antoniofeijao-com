@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Rubik's cube solved in 3 minutes by Antonio Feijao
 categories: ["Puzzles", "Rubik-cube"]
 tags:       ["puzzle", "rubik-cube", "problem-solving"]
