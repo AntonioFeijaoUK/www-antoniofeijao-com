@@ -1,51 +1,41 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-GB" }}">
+---
+---
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Antonio Feijao" title="Antonio Feijao" height="auto" style="border-radius:8%" />
-        {% endif %}
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include_cached skip-links.html %}
+    {% include_cached masthead.html %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-      </header>
-      <section>
-        <nav>
-          <a href="/">Home</a> |
-          <a href="/experience/">Experience</a> |
-          <a href="/certifications/">Certifications</a> |
-          <a href="/skills/">Skills</a> |
-          <a href="/feedback/">Feedback</a> |
-          <a href="/blog/">Blog-Posts</a> |
-          <a href="/cyber-security-updates/">Cyber-Security-Updates</a> |
-          <a href="/contact/">Contact</a>
-      </nav>
-      <br>
-      <hr>
-
-
+    <div class="initial-content">
       {{ content }}
+    </div>
 
-      </section>
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include_cached search/search_form.html %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
       <footer>
-        <p>© 2019-2022, <a href="https://AntonioFeijao.com/">Antonio Feijao</a>. All rights reserved.</p>
+        {% include footer/custom.html %}
+        {% include_cached footer.html %}
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    {% include scripts.html %}
+
   </body>
 </html>
