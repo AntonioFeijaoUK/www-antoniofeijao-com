@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Paintball 25 event
 permalink: /code/2022-painball25/
 ---

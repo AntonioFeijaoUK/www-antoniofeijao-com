@@ -1,3 +1,19 @@
+---
+title: "Raspberry Pi 4 testing USB Wireless"
+
+date: 2021-08-21
+last_modified_at: 2021-08-21
+
+categories:
+    - Linux
+    - Raspberry-Pi
+    - Wifi
+tags:
+    - linux
+    - raspberry-pi
+    - wifi
+---
+
 Raspberry Pi 4 USB Wireless dongles that work out-of-the-box
 
 Tested on Raspberry Pi 4 with Linux version 5.10.59-v7l+
