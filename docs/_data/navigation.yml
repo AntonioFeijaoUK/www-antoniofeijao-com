@@ -7,3 +7,15 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+  - title: "Contact"
+    url: /contact/
+  - title: "Experience"
+    url: /experience/
+  - title: "Certifications"
+    url: /certifications/
+  - title: "Skills"
+    url: /skills/
+  - title: "Feedback"
+    url: /feedback/
+  - title: "Cyber-Security-Updates"
+    url: /cyber-security-updates/
