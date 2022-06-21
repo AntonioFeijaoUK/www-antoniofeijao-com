@@ -9,6 +9,7 @@ toc_label: "training"
 toc_icon: "address-card"
 
 categories:
+    - Page
     - Training
     - AWS
     - Education

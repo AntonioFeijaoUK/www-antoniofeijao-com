@@ -1,6 +1,8 @@
 ---
 title: Blog
 permalink: /blog/
+categories:
+    - Page
 ---
 
 ## All blog posts

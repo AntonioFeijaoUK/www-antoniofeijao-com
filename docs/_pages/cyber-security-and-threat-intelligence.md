@@ -27,6 +27,7 @@ header:
 
 
 categories:
+    - Page
     - Cyber-Security
     - IT-Security
     

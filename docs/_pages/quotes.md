@@ -21,6 +21,7 @@ header:
   caption: "Photo credit: [wikipedia.org](https://en.wikipedia.org/wiki/Albert_Einstein)."
 
 categories:
+    - Page
     - Quotes
     - Motivation
     
