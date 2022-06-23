@@ -53,6 +53,11 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## G
 
+* `Steve Gibson at grc.com`
+* <https://www.grc.com/cookies/cookies.htm>
+* <https://www.grc.com/cookies/forensics.htm>
+* <https://www.grc.com/securitynow.htm> - `Security Now podcast by Steve Gibson and Leo Laporte`
+
 * <https://github.blog/category/security/>
 
 ----
@@ -97,6 +102,9 @@ List of links for websites with updates on Cyber Security and other knowledges a
 ## O
 
 * <https://cheatsheetseries.owasp.org/index.html>
+
+* <https://offensive-security.com>
+* <https://help.offensive-security.com/hc/en-us/sections/6970444968596-Penetration-Testing-with-Kali-Linux-PEN-200-> - 
 
 ----
 
