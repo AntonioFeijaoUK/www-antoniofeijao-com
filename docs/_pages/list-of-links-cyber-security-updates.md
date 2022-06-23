@@ -105,6 +105,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://offensive-security.com>
 * <https://help.offensive-security.com/hc/en-us/sections/6970444968596-Penetration-Testing-with-Kali-Linux-PEN-200-> - 
+* <https://www.twitch.tv/offsecofficial>
 
 ----
 
