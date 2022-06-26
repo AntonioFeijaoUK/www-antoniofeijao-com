@@ -187,6 +187,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## Z
 
-* <https://www.zaproxy.org/videos/> - OWASP ZAP
+* <https://www.zaproxy.org/videos/> - `OWASP ZAP`
+* <https://www.zaproxy.org/zap-deep-dive/>
 * <https://zapcon.io/>
 * <https://www.youtube.com/c/StackHawk/videos> - `StackHawk makes it simple for developers to find, triage, and fix application security bugs. Scan your application for AppSec bugs in the code your team wrote, triage and fix with provided documentation, and automate in your pipeline to prevent future bugs from hitting prod.`
