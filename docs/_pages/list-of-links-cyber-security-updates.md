@@ -27,6 +27,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://gchq.github.io/CyberChef/> - `CyberChef`
 
 * <https://www.crest-approved.org/knowledge-sharing/index.html>
+* <https://www.crest-approved.org/certification-careers/about-crest-exams/>
 * <https://service-selection-platform.crest-approved.org/accredited_companies/soc/>
 
 * <https://www.cisa.gov/cybersecurity>
