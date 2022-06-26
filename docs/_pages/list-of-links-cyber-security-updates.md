@@ -94,6 +94,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## M
 
+* <https://medium.com/starts-with-a-bang/how-exactly-does-planet-earth-move-through-the-universe-a9737f644e>
+
 ----
 
 ## N
