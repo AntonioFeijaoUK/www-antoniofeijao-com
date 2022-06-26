@@ -25,7 +25,7 @@ and also studying for certifications of
 
 * [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
 
-Coreer progression moving towards Security, [Security Architect](https://www.gov.uk/guidance/security-architect).
+Career progression moving towards Security, [Security Architect](https://www.gov.uk/guidance/security-architect).
 
 Curious fact about me
 
