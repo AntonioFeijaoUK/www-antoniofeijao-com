@@ -1,9 +1,10 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Antonio Feijao - Antonio Feijao UK"
+layout: single
 ---
 
-## Antonio Feijao
+## About Antonio Feijao - Antonio Feijao UK
 
 AWS Infrastructure Architect / Security Architect with Networking and Security Specialism.
 
