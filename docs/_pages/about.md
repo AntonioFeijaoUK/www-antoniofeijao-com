@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About Antonio Feijao UK"
-layout: single
+layout: splash
 ---
 
 ## Antonio Feijao
