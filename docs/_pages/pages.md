@@ -33,7 +33,7 @@ layout: splash
 ## try 3
 
 <ul>
-  {% for post in site.faqs %} 
+  {% for post in site.page %} 
     {% if post.categories contains "Page" %}
       <li>{{ post.title }}</li>
     {% endif %}
@@ -47,4 +47,15 @@ layout: splash
 {% for post in site.categories.page %}
   <h1>{{ post.title }}</h1>
   <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
+
+---
+
+## try 5
+
+{% for category in site.categories %}
+  {% if category[0].identifier == "Page" %}
+    <h1>{{ post.title }}</h1>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  {% endif %}
 {% endfor %}
