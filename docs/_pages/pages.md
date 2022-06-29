@@ -54,7 +54,7 @@ layout: splash
 ## try 5
 
 {% for category in site.categories %}
-  {% if category[0].identifier == "Page" %}
+  {% if category[0] contains "Page" %}
     <h1>{{ post.title }}</h1>
     <a href="{{ post.url }}">{{ post.title }}</a>
   {% endif %}
