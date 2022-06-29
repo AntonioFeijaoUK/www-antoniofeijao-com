@@ -1,8 +1,6 @@
 ---
 title: List of links and websites with updates on Cyber Security and Computer Science Knowledge
 permalink: /cyber-security-updates/
-categories:
-    - Page
 ---
 
 This page will be always >> work in progress <<
