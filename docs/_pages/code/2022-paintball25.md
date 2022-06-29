@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Paintball 25 event
+sitemap: false
 permalink: /code/2022-painball25/
 categories:
     - Page
