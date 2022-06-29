@@ -4,6 +4,8 @@ layout: single
 excerpt: "Background images..."
 sitemap: false
 permalink: /background/
+categories:
+    - Page
 ---
 
 Sample backgrounds..
