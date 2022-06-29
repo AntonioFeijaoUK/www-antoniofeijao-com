@@ -16,6 +16,7 @@ layout: splash
   {% endfor %}
 </ul>
 
+---
 
 ## try 2
 
@@ -27,17 +28,23 @@ layout: splash
   {% endfor %}
 </ul>
 
+---
+
 ## try 3
 
 <ul>
-{% for post in site.faqs %} 
-{% if post.categories contains "Page" %}
- <li>{{ post.title }}</li> 
-{% endif %}
-{% endfor %}
+  {% for post in site.faqs %} 
+    {% if post.categories contains "Page" %}
+      <li>{{ post.title }}</li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
+---
+  
 ## try 4
   
 {% for post in site.categories.page %}
   <h1>{{ post.title }}</h1>
+  <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
