@@ -1,8 +1,6 @@
 ---
 title: Feedback on Antonio Feijao AWS Linux and Cyber Security work
 permalink: /feedback/
-categories:
-    - Page
 ---
 
 
