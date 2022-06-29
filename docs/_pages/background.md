@@ -1,5 +1,6 @@
 ---
 title: "Background images"
+layout: single
 excerpt: "Background images..."
 sitemap: false
 permalink: /background/
