@@ -4,6 +4,8 @@ title: "Pages"
 layout: splash
 ---
 
+## try 1
+
 <ul>
   {% for thing in site.pages %}
     {% if thing.identifier == 'value' %}
@@ -15,6 +17,8 @@ layout: splash
 </ul>
 
 
+## try 2
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -22,3 +26,12 @@ layout: splash
     </li>
   {% endfor %}
 </ul>
+
+## try 3
+
+<ul>
+{% for post in site.faqs %} 
+{% if post.categories contains "Page" %}
+ <li>{{ post.title }}</li> 
+{% endif %}
+{% endfor %}
