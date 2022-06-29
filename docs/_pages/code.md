@@ -2,8 +2,6 @@
 title: Code
 permalink: /code/
 sitemap: false
-categories: ["Page"]
-tags: []
 layout: splash
 ---
 
