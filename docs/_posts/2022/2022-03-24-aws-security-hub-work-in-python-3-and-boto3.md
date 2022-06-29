@@ -4,7 +4,7 @@ categories: ["AWS", "Security-Hub", "Python3", "Boto3"]
 tags:       ["python", "python3", "aws", "security hub", "boto3"]
 ---
 
-Just testing some commands with python3 and boto3...
+Just testing some commands with python3 and boto3
 
 ## List of AWS Services from Boto3 clients
 
