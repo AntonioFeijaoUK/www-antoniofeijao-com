@@ -2,6 +2,8 @@
 permalink: /about/
 title: "About Antonio Feijao UK"
 layout: splash
+categories:
+    - Page
 ---
 
 ## Antonio Feijao
