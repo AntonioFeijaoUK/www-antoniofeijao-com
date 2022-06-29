@@ -1,7 +1,6 @@
 ---
 title: "Cyber Security and Threat Intelligence"
 
-
 author_profile: true
 
 date: 2021-07-27
