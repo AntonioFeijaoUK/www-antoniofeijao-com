@@ -2,6 +2,8 @@
 title: Blog
 layout: single
 permalink: /blog/
+categories:
+    - Page
 ---
 
 ## All blog posts
