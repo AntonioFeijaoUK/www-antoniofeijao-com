@@ -36,8 +36,8 @@ layout: splash
 {% endif %}
 {% endfor %}
 
-  ## try 4
+## try 4
   
-{% for post in site.categories.Page %}
+{% for post in site.categories.page %}
   <h1>{{ post.title }}</h1>
 {% endfor %}
