@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Antonio Feijao"
   avatar : "/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small.jpeg"
-  bio    : "AWS Infrastructure Security Architect @GenomicsEngland"
+  bio    : "AWS Security and Infrastructure Architect @GenomicsEngland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
