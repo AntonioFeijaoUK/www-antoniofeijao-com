@@ -19,7 +19,7 @@ title: Antonio Feijao UK, AWS Infrastructure Architect, Networking, Security, AW
 email:
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Antonio Feijao UK, AWS Infrastructure Architect with Networking and
+  Antonio Feijao UK, AWS Infrastructure Architect @GenomicsEngland with Networking and
   Security Specialism.
   AWS, Python 3, Cyber Security, Linux, MacOS
 
@@ -68,7 +68,7 @@ plugins:
 author:
   name   : "Antonio Feijao"
   avatar : "/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small.jpeg"
-  bio    : "AWS Infrastructure Security Architect."
+  bio    : "AWS Infrastructure Security Architect @GenomicsEngland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
