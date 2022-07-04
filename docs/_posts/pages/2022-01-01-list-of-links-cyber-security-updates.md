@@ -42,6 +42,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## E
 
+* <https://www.edx.org/school/aws>
+
 ----
 
 ## F
