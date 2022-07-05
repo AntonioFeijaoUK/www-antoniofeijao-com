@@ -105,7 +105,7 @@ footer:
       url: "https://instagram.com/AntonioFeijaoUK"
     - label: "Buy-me-a-Coffee"
       icon: "fa fa-coffee"
-      url: "https://ko-fi.com/antoniofeijaouk"
+      url: <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Bui-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script> 
 
 defaults:
   # _posts
