@@ -19,3 +19,5 @@ main:
     url: /feedback/
   - title: "Cyber-Security-Updates"
     url: /cyber-security-updates/
+  - title: "Pages"
+    url: /categories/#page
