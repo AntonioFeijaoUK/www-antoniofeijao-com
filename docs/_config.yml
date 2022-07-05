@@ -85,6 +85,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/AntonioFeijaoUK"
+    - label: "Buy-me-a-Coffee"
+      icon: "fab fa-fw fa-mug"
+      url: "https://ko-fi.com/antoniofeijaouk"
+
 
 footer:
   links:
@@ -100,12 +104,6 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/AntonioFeijaoUK"
-    - label: "Buy-me-a-Coffee"
-      icon: "https://ko-fi.com/img/githubbutton_sm.svg"
-      url: "https://ko-fi.com/B0B019526"
-    - label: "Buy-me-a-Coffee"
-      icon: "fab fa-fw fa-mug"
-      url: "https://ko-fi.com/B0B019526"
 
 
 defaults:
