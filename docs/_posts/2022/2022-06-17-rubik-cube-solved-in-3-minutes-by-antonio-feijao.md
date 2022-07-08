@@ -14,6 +14,8 @@ tags:       ["puzzle", "rubik-cube", "problem-solving"]
 
 ---
 
+I learned these steps initially from this video <https://youtu.be/7Ron6MN45LY> - `Learn How to Solve a Rubik's Cube in 10 Minutes (Beginner Tutorial)`
+
 ## You too can learn how to solve the rubik cube
 
 (Detailed videos for each step coming soon...)
