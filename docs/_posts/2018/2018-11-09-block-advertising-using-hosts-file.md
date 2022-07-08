@@ -12,7 +12,7 @@ tags:
 
 Blocking advertising and pops using hosts file
 
-Full script file on github [block-ads-v3.sh](https://github.com/AntonioFeijaoUK/www.antoniocloud.com/blob/master/docs/linux/block-ads-v3.sh)
+Full script code file on github [block-ads.sh](https://github.com/AntonioFeijaoUK/linux-scripts/blob/master/block-ads/block-ads.sh)
 
 !!! note
     Remember, do not execute or run what you do not understand, use at your own risk!
@@ -69,4 +69,3 @@ echo -e "\n\n ...adding 0.0.0.0 to the domains lists to protect from connection 
 
 for DOMAIN in $(cat domains-lis
 ```
-
