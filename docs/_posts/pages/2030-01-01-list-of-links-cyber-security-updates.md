@@ -75,6 +75,10 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://exchange.xforce.ibmcloud.com/>
 
+* <https://immersivelabs.online/>
+* <https://www.immersivelabs.com/labs-and-content/red-team-training/>
+
+
 ----
 
 ## J
@@ -92,11 +96,15 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://training.linuxfoundation.org/training/developing-secure-software-lfd121/>
 * <https://training.linuxfoundation.org/resources/?_sft_content_type=free-course> - `link to free-course`
 
+* <https://github.com/Neo23x0/log4shell-detector>
+* 
+
 ----
 
 ## M
 
 * <https://medium.com/starts-with-a-bang/how-exactly-does-planet-earth-move-through-the-universe-a9737f644e>
+
 
 ----
 
@@ -176,6 +184,12 @@ List of links for websites with updates on Cyber Security and other knowledges a
 ----
 
 ## W
+
+* <https://www.wireshark.org/#learnWS>
+* <https://www.wireshark.org/docs/wsug_html_chunked/>
+* <https://packetlife.net/media/library/13/Wireshark_Display_Filters.pdf>
+
+
 
 ----
 
