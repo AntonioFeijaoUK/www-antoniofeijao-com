@@ -13,6 +13,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## A
 
+* <https://otx.alienvault.com/browse/global/pulses?include_inactive=0&sort=-modified&page=1&limit=10>
+ 
 ----
 
 ## B
