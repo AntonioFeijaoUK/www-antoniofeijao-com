@@ -10,7 +10,7 @@ categories:
 
 ## Antonio Feijao
 
-!["Antonio Feijao UK, AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism. "](/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small.jpeg)
+!["Antonio Feijao UK, AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism. "](/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg)
 
 AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism.
 
