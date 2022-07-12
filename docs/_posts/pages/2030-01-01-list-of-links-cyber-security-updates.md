@@ -1,6 +1,6 @@
 ---
 title: List of links and websites with updates on Cyber Security and Computer Science Knowledge
-permalink: /cyber-security-updates/
+permalink: /links/
 
 date: 2021-07-27
 last_modified_at: 2021-12-17
@@ -39,9 +39,42 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ----
 
+
+* <https://cloudacademy.com/>
+
+* <https://acloud.guru/>
+
+
+* <https://www.pluralsight.com/>
+
+
+* <https://coreyms.com/category/web-design>
+
+* <https://www.youtube.com/user/schafer5/playlists> - Corey Schafer 
+
+
+* <https://www.youtube.com/channel/UC4xKdmAXFh4ACyhpiQ_3qBw/videos> - TechLead
+
+- <http://ocw.mit.edu/index.htm>
+
+* <https://www.khanacademy.org/>
+
+
+
 ## A
 
+## Alienvault
+
 * <https://otx.alienvault.com/browse/global/pulses?include_inactive=0&sort=-modified&page=1&limit=10>
+
+### AWS
+
+* <https://aws.amazon.com/training/>
+* <https://www.youtube.com/user/AmazonWebServices/search?query=deep+dive>
+* <https://www.youtube.com/playlist?list=PLhr1KZpdzukfdjsOHZ-BazZt1iK1J8UUw> - AWS Knowledge Center Videos
+* <https://www.youtube.com/user/AWSwebinars/videos> - AWS Online Tech Talks
+* <https://www.youtube.com/playlist?list=PLhr1KZpdzukcaA06WloeNmGlnM_f1LrdP> - AWS Management and Governance
+
  
 ----
 
@@ -62,6 +95,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://www.cisa.gov/cybersecurity>
 
+* <https://www.coursera.org/>
+
 ----
 
 ## D
@@ -72,7 +107,11 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## E
 
+### edx-org
+
 * <https://www.edx.org/school/aws>
+* <https://www.edx.org/>
+
 
 ----
 
@@ -81,6 +120,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://www.freecodecamp.org/learn/information-security/>
 
 * <https://www.youtube.com/c/Freecodecamp/videos> - `Freecodecamp`
+
+* <https://www.futurelearn.com/>
 
 ----
 
@@ -250,6 +291,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## W
 
+### Wireshark 
+
 * <https://www.wireshark.org/#learnWS>
 * <https://www.wireshark.org/docs/wsug_html_chunked/>
 * <https://packetlife.net/media/library/13/Wireshark_Display_Filters.pdf>
@@ -264,7 +307,14 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## Y
 
+
 * <https://news.ycombinator.com/> - `Hacker News`
+
+* <https://www.youtube.com/user/DNewsChannel/videos> - Seeker
+
+* <https://www.youtube.com/user/advexon/videos> - Advexon Science Network
+
+* <https://www.youtube.com/user/ProgrammingKnowledge/videos> - ProgrammingKnowledge 
 
 ----
 
