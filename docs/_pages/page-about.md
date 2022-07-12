@@ -10,7 +10,60 @@ categories:
 
 ## Antonio Feijao
 
-!["Antonio Feijao UK, AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism. "](/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg)
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+   max-width: 50%;
+  height: auto;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+<div class="container">
+  <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Antonio Feijao</div>
+  </div>
+</div>
+
+
+> Antonio Feijao UK, AWS Infrastructure Architect, Cyber Security Architect with Advanced Networking and Security Specialism.
+
 
 AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism.
 
