@@ -3,8 +3,7 @@ title: Code
 permalink: /code/
 sitemap: false
 layout: splash
-categories:
-    - Page
+category: Page
 ---
 
 {% include_relative code/check-code.html %}
