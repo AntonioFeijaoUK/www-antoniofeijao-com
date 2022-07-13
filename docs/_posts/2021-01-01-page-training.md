@@ -1,9 +1,9 @@
 ---
 title: AWS online training source materials
 
-permalink: /training/
+#permalink: /training/
 
-toc: true
+toc: false
 toc_sticky: true
 toc_label: "training"
 toc_icon: "address-card"
