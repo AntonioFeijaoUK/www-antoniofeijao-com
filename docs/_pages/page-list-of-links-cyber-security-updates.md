@@ -5,7 +5,7 @@ permalink: /links/
 date: 2021-07-27
 last_modified_at: 2021-12-17
 
-toc: true
+toc: false
 toc_sticky: true
 toc_label: "Cyber Security Intelligence"
 toc_icon: "address-card"
@@ -22,14 +22,8 @@ header:
       url: "https://www.antoniofeijao.com"
 
 
-categories:
-    - Page
-    - Cyber-Security
-    - IT-Security
-    
-tags:
-    - cyber
-    - security
+categories: ["Page", "Cyber-Security", "IT-Security"]
+tags: [ "cyber", "security"]
 
 ---
 
