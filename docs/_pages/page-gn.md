@@ -1,7 +1,9 @@
 ---
-permalink: /gn/
 title: "GN"
+permalink: /gn/
 layout: splash
+categories: ["Page"]
+
 ---
 
 sources
