@@ -10,7 +10,6 @@ tags:       ["aws", "cyber" , "security", "study"]
 ---
 
 ```python
-print("
 AUX Modules
 Active Info Gathering
 Additional Payloads
@@ -175,5 +174,5 @@ Windows SYSTEM
 Windows Weak Services
 Wireshark
 
-Zone Transfers")
+Zone Transfers
 ```
