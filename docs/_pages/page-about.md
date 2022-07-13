@@ -11,49 +11,50 @@ categories:
 ## Antonio Feijao
 
 
-.container {
-  position: relative;
-  width: 50%;
-}
+<style>
+    .container {
+        position: relative;
+        width: 50%;
+    }
 
-.image {
-  opacity: 1;
-  display: block;
+    .image {
+        opacity: 1;
+        display: block;
 
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  
-   max-width: 50%;
-  height: auto;
-}
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
 
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
+        max-width: 50%;
+        height: auto;
+    }
 
-.container:hover .image {
-  opacity: 0.3;
-}
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%)
+    }
 
-.container:hover .middle {
-  opacity: 1;
-}
+    .container:hover .image {
+        opacity: 0.3;
+    }
 
-.text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
+    .container:hover .middle {
+        opacity: 1;
+    }
 
-
+    .text {
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+    }
+</style>
+    
 <div class="container">
   <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
   <div class="middle">
