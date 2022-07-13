@@ -2,6 +2,11 @@
 permalink: /pages/
 title: "Pages"
 layout: splash
+categories: ["Page"]
+---
+
+Link to category `Page` - <https://www.antoniofeijao.com/categories/#page>
+
 ---
 
 ## try 1
