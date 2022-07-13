@@ -1,6 +1,6 @@
 ---
 title: About Antonio Feijao UK
-permalink: /about2/
+permalink: /about/
 
 layout: splash
 
@@ -56,18 +56,16 @@ categories: ["Page"]
 </style>
     
 <div class="container">
-    <centered>
-        <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
-        <div class="middle">
-            <div class="text">Antonio Feijao</div>
-        </div>
-    </centered>
+    <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
+    <div class="middle">
+        <div class="text">Antonio Feijao</div>
+    </div>
 </div>
 
 
-> Antonio Feijao UK,
-> AWS Infrastructure Architect,
-> Cyber Security Architect,
+> Antonio Feijao UK,  
+> AWS Infrastructure Architect,  
+> Cyber Security Architect,  
 > with Advanced Networking and Security Specialism.
 
 Currently working as AWS Infrastructure Architect and Cyber Security Architect at [Genomics England](https://www.genomicsengland.co.uk/).
