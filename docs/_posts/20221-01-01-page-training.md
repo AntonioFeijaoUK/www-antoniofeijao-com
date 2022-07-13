@@ -8,20 +8,9 @@ toc_sticky: true
 toc_label: "training"
 toc_icon: "address-card"
 
-categories:
-    - Page
-    - Training
-    - AWS
-    - Education
+categories: ["Page", "Training", "AWS", "Education"]
+tags: ["online", "training", "cloud", "aws", "security", "best practices", "workshops"]
 
-tags:
-    - online
-    - training
-    - cloud
-    - aws
-    - security
-    - best practices
-    - workshops
 ---
 
 Collection of links to AWS online training resources, mostly free training.
