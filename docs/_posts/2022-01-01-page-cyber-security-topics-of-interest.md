@@ -154,7 +154,6 @@ Stack Overflow
 
 TFTP Transfers
 Target Enum
-Thank you!
 Traffic Accountability
 Tunneling in
 
