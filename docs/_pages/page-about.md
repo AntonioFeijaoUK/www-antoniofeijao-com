@@ -4,8 +4,8 @@ permalink: /about/
 
 layout: splash
 
-categories:
-    - Page
+categories: ["Page"]
+
 ---
 
 ## Antonio Feijao
@@ -56,29 +56,36 @@ categories:
 </style>
     
 <div class="container">
-  <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
-  <div class="middle">
-    <div class="text">Antonio Feijao</div>
-  </div>
+    <centered>
+        <img src="/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg" alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+            <div class="text">Antonio Feijao</div>
+        </div>
+    </centered>
 </div>
 
 
-> Antonio Feijao UK, AWS Infrastructure Architect, Cyber Security Architect with Advanced Networking and Security Specialism.
+> Antonio Feijao UK,
+> AWS Infrastructure Architect,
+> Cyber Security Architect,
+> with Advanced Networking and Security Specialism.
 
-
-AWS Infrastructure Architect / Security Architect with Advanced Networking and Security Specialism.
-
-Currently working as AWS Infrastructure Architect / Security Architect at [Genomics England](https://www.genomicsengland.co.uk/).
+Currently working as AWS Infrastructure Architect and Cyber Security Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 
 My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
 
-My role is also focus on enabling other squads creating applications in a security infrastructure.
+My role is also focused on enabling other squads creating applications in a security infrastructure.
+
+---
 
 Currently studying [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on :
 
 * [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
 
 * [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
+
+
+---
 
 and also studying for certifications of
 
@@ -88,9 +95,11 @@ and also studying for certifications of
 
 Career progression moving towards Security, [Security Architect](https://www.gov.uk/guidance/security-architect).
 
+---
+
 Curious fact about me
 
-* I memorised the first 100 digits of pi! Yes, really!
+I memorised the first 100 digits of pi! Yes, really!
 
 ----
 
