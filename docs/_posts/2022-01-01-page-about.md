@@ -1,6 +1,6 @@
 ---
 title: About Antonio Feijao UK
-permalink: /about/
+permalink: /about2/
 
 layout: splash
 
