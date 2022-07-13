@@ -1,6 +1,6 @@
 ---
 title: Ethical Hacker and Cyber Security study notes on OSINT
-categories: ["Ethical-Hacker", "Cyber-Security", "Study", "Notes", "OSINT"]
+categories: ["Ethical-Hacker", "Cyber-Security", "Study", "Notes", "OSINT", "Page"]
 tags:       ["ethical hacker", "white hat", "black hat", "grey hat", "hacker", "education", "study", "linux", "networking", "bash", "python", "javascript"]
 ---
 
