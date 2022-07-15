@@ -66,9 +66,9 @@ categories: ["Page"]
 > Antonio Feijao UK,  
 > AWS Infrastructure Architect,  
 > Cyber Security Architect,  
-> with Advanced Networking and Security Specialism.
+> with Advanced Cloud Networking and Security Specialism.
 
-Currently working as AWS Infrastructure Architect and Cyber Security Architect at [Genomics England](https://www.genomicsengland.co.uk/).
+Currently working as `AWS Infrastructure Architect` and `Cyber Security Architect` at [Genomics England](https://www.genomicsengland.co.uk/).
 
 My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
 
@@ -91,7 +91,17 @@ and also studying for certifications of
 
 * [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
 
-Career progression moving towards `Principal Cyber Security Architect`, [Principal Security Architect]([https://www.gov.uk/guidance/security-architect](https://www.gov.uk/guidance/security-architect#principal-security-architect)
+---
+
+and also studying and practicing hands-on with
+
+* [TCM Security Academy](https://academy.tcm-sec.com/)
+
+* [mmersive Labs](https://www.immersivelabs.com/)
+
+---
+
+Career progressing towards `Principal Cyber Security Architect`, [Principal Security Architect](https://www.gov.uk/guidance/security-architect#principal-security-architect)
 
 ---
 
