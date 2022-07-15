@@ -149,7 +149,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://immersivelabs.online/>
 * <https://www.immersivelabs.com/labs-and-content/red-team-training/>
 * <https://www.digitalmarketplace.service.gov.uk/g-cloud/services/556859949626618>
-- `Gov UK > Digital Marketplace > Cloud hosting, software and support > Cloud > softwareImmersive Labs`
+    `Gov UK > Digital Marketplace > Cloud hosting, software and support > Cloud > softwareImmersive Labs`
 
 
 * <https://www.flashpoint-intel.com/blog/threat-intelligence-lifecycle/> - Threat Intelligence Lifecycle
