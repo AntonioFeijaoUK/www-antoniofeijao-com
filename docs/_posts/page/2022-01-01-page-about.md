@@ -101,7 +101,13 @@ learning with
 
 * <https://www.upguard.com/category/cybersecurity>
 
-* 
+* <https://www.crowdstrike.com/crowdstrike-university/>
+
+* <https://www.darktrace.com/en/education/>
+
+* <https://www.ncsc.gov.uk/section/about-ncsc/what-is-cyber-security>
+
+* <https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles>
 
 ---
 
@@ -120,6 +126,8 @@ and also practicing hands-on with
 ---
 
 Career progressing towards `Principal Cyber Security Architect`, [Principal Security Architect](https://www.gov.uk/guidance/security-architect#principal-security-architect)
+
+* Good reading on [expertise-novice-to-expert](https://www.rebeccawestburns.com/my-blog-3/notes/five-stages-of-acquiring-expertise-novice-to-expert)
 
 ---
 
