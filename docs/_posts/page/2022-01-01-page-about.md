@@ -85,7 +85,7 @@ Currently studying [Master Ethical Hacking Security](https://www.eccouncil.org/p
 
 ---
 
-and also studying for certifications of
+studying for certifications of
 
 * [Certified Network Defender - `C|ND`](https://www.eccouncil.org/programs/certified-network-security-course/)
 
@@ -93,11 +93,29 @@ and also studying for certifications of
 
 ---
 
-and also studying and practicing hands-on with
+learning with 
 
 * [TCM Security Academy](https://academy.tcm-sec.com/)
 
-* [mmersive Labs](https://www.immersivelabs.com/)
+* [John Hammond](https://www.youtube.com/c/JohnHammond010/videos)
+
+* <https://www.upguard.com/category/cybersecurity>
+
+* 
+
+---
+
+and also practicing hands-on with
+
+* <https://www.immersivelabs.com/> - try labs with code `GIMMEFREELABS` or `FREEDEFENSIVE`
+
+* <https://tryhackme.com/dashboard>
+
+* <https://www.hackthebox.com/>
+
+* <https://canyouhack.us/>
+
+* <https://academy.securityscorecard.com/cyber-risk-intelligence-and-incident-response> - `TBC`
 
 ---
 
