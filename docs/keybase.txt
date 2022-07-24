@@ -54,3 +54,59 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/antoniofeijaouk
 
 ==================================================================
+==================================================================
+https://keybase.io/antoniofeijaouk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://antonio.cloud
+  * I am antoniofeijaouk (https://keybase.io/antoniofeijaouk) on keybase.
+  * I have a public key ASDivWMdG1KV-oxqyqdOrcfNKRDpDd_7eSmeZgnCPTV0wAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e2bd631d1b5295fa8c6acaa74eadc7cd2910e90ddffb79299e6609c23d3574c00a",
+      "host": "keybase.io",
+      "kid": "0120e2bd631d1b5295fa8c6acaa74eadc7cd2910e90ddffb79299e6609c23d3574c00a",
+      "uid": "cedc36164283852f8b5a88d5e4b70119",
+      "username": "antoniofeijaouk"
+    },
+    "merkle_root": {
+      "ctime": 1658703274,
+      "hash": "5bb28507274ebeee520337123ddf72c39b59b3e94992e3c8456ed88b311499f24e7faf544f0fc1df9f7f09cf436d2d67818db0c719dfa4c83d945b518ef80e2b",
+      "hash_meta": "37b5a081aec19b2240218776caa406c86347dddc31f2623010387260bc9f7be6",
+      "seqno": 22904737
+    },
+    "service": {
+      "entropy": "+Yy/L48vxAFJ2TJypGHsNt5i",
+      "hostname": "antonio.cloud",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1658703302,
+  "expire_in": 504576000,
+  "prev": "ec37f396983673a86f32f91328f9fc4385c1b22a00e928703c9bde5439fdb938",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg4r1jHRtSlfqMasqnTq3HzSkQ6Q3f+3kpnmYJwj01dMAKp3BheWxvYWTESpcCIMQg7Dfzlpg2c6hvMvkTKPn8Q4XBsioA6ShwPJveVDn9uTjEIIXTIEoSYEEms+NcIZ8YKwjLFdGJZsTTxzTrvBNUbUZPAgHCo3NpZ8RAOxsGM7rugD2zbU7tsJ6OWJq0wEbha4FVDBybPO9t7BAUcswhMppqWbxIVVQGsXRjjhR7XlcxmrrEVtApO7xfBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOQSNJathgaY3UTTrcmJanJckRnO/SKe4PGLGuYX/xYuo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antoniofeijaouk
+
+==================================================================
