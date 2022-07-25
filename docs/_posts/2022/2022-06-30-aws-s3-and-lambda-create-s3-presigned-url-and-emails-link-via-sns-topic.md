@@ -17,6 +17,8 @@ Upload objects greater than 16MB+ requires the additional event trigger of `s3:O
 
 2) Create S3 event trigger with the lambda funtion as a target
 
+![s3-object-created-trigger-lambda-and-sns-notification](/assets/images/s3-object-created-trigger-lambda-and-sns-notification.jpg "s3-object-created-trigger-lambda-and-sns-notification")
+
 S3 events for:
 
 * `s3:ObjectCreated:Put`
@@ -26,6 +28,7 @@ S3 events for:
 
 3) Target a lambda functions to run below logic
 
+![lambda sample code for s3 presign url](/assets/images/lambda-sample-code-s3presign-url-and-sns.jpg)
 
 * DISCLAIMER >> `Use at your own responsability.` << 
 
