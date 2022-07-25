@@ -39,7 +39,8 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 include:
   - _pages
@@ -148,5 +149,3 @@ locale: en
     
 show_downloads: false #  ["true" or "false" (unquoted) to indicate whether to provide a download URL]
 #google_analytics: [Your Google Analytics tracking ID]
-
-timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
