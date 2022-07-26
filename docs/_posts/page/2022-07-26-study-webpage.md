@@ -60,6 +60,10 @@ https://onlinedegrees.unr.edu/ms-in-cybersecurity/resources/cybersecurity-or-cyb
 
 https://www.isc2.org/
 
+https://www.isc2.org/Certifications/CISSP#
+
+https://www.isc2.org/Certifications/CCSP#
+
 https://www.crest-approved.org/education/approved-training-providers/
 
 https://github.com/arminc/clair-scanner/releases
