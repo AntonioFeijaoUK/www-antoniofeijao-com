@@ -8,6 +8,37 @@ https://tcm-sec.com/
 
 https://youtu.be/fNzpcB7ODxQ - `Ethical Hacking in 12 Hours - Full Course - Learn to Hack!` by `The Cyber Mentor`
 
+https://docs.docker.com/engine/reference/builder/
+
+https://hub.docker.com/_/alpine
+
+https://youtu.be/CV3T2onwA5g - `Live Demo: OWASP TOP 10 2021` by `Immersive Labs`
+
+https://www.khanacademy.org/
+
+
+https://cheatsheetseries.owasp.org/IndexTopTen.html
+
+
+https://xss-game.appspot.com/
+
+
+https://www.coursera.org/lecture/crypto/information-theoretic-security-and-the-one-time-pad-cbnX1
+
+
+https://www.crowdsec.net/product/agent
+
+https://doc.crowdsec.net/docs/getting_started/install_crowdsec/
+
+https://hub.crowdsec.net/author/crowdsecurity/configurations/apache_log4j2_cve-2021-44228
+
+https://developers.cloudflare.com/
+
+https://www.cloudflare.com/en-gb/learning/ddos/what-is-a-ddos-attack/
+
+https://www.cloudflare.com/en-gb/learning/
+
+https://developers.cloudflare.com/
 
 
 https://www.sans.org/emea/
