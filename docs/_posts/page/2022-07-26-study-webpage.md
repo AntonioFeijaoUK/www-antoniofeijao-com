@@ -4,6 +4,12 @@ permalink: /study/
 categories: ["Page"]
 ---
 
+
+https://cloudacademy.com/dashboard/
+
+https://cloudacademy.com/learning-paths/solutions-architect-professional-certification-preparation-for-aws-2019-377/
+
+
 https://martinfowler.com/articles/agile-threat-modelling.html
 
 
