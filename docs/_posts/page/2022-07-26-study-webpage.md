@@ -4,6 +4,15 @@ permalink: /study/
 categories: ["Page"]
 ---
 
+https://tcm-sec.com/
+
+https://youtu.be/fNzpcB7ODxQ - `Ethical Hacking in 12 Hours - Full Course - Learn to Hack!` by `The Cyber Mentor`
+
+
+
+https://www.sans.org/emea/
+
+https://app.cybrary.it/browse/refined
 
 https://cloudacademy.com/dashboard/
 
