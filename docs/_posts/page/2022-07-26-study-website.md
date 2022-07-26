@@ -6,6 +6,10 @@ categories: ["Page"]
 
 https://martinfowler.com/articles/agile-threat-modelling.html
 
+
+https://www.youtube.com/c/JohnHammond010/videos - `John Hammond`
+
+
 * <https://ine.com/>
 
 * <https://app.pluralsight.com/>
