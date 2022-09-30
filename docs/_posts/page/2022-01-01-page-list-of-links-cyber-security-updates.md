@@ -275,6 +275,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 * <https://threatconnect.com/resources/webinars/>
 
+* <https://takahiro-oda.medium.com/> - `takahiro oda`, good whireshark tutorials and others.
+
 ----
 
 ## U
