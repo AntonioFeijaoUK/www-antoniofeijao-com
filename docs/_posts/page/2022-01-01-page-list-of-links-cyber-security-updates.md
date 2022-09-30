@@ -255,7 +255,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://www.sans.org/blog/password-hash-cracking-amazon-web-services/>
 * <https://sansurl.com/ukrainecybercrisis>
 
-* <https://www.schneier.com/>
+* <https://www.schneier.com/> - `Bruce Schneier`
 
 * <https://platform.securityscorecard.io/>
 
