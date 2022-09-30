@@ -246,7 +246,7 @@ List of links for websites with updates on Cyber Security and other knowledges a
 
 ## S
 
-* <https://www.grc.com/securitynow.htm>
+* <https://www.grc.com/securitynow.htm> - `Security Now podcast`
 * <https://twit.tv/shows/security-now> - Security Now
 
 * <https://www.sans.org/security-resources/>
@@ -264,6 +264,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://exposure.shodan.io/#/UK>
 
 * <https://ugc.futurelearn.com/uploads/files/3f/d3/3fd36a66-d941-4595-b587-1a7b41998ae9/Week_3_Sophos_Threatsaurus_AZ.pdf> - `Sophos Threatsaurus AZ`
+
+* <https://www.simplilearn.com/tutorials/cyber-security-tutorial> - `Cyber Security Tutorial - A Step-by-Step Guide`
 
 ----
 
