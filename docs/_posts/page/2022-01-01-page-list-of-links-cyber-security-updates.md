@@ -69,7 +69,8 @@ List of links for websites with updates on Cyber Security and other knowledges a
 * <https://www.youtube.com/user/AWSwebinars/videos> - AWS Online Tech Talks
 * <https://www.youtube.com/playlist?list=PLhr1KZpdzukcaA06WloeNmGlnM_f1LrdP> - AWS Management and Governance
 
- 
+* <https://www.wellarchitectedlabs.com/security/> `AWS well architected labs`
+
 ----
 
 ## B
