@@ -21,3 +21,5 @@ main:
     url: /links/
   - title: "Pages"
     url: /categories/#page
+  - title: "Study"
+    url: /study/
