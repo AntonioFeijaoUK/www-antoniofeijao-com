@@ -8,8 +8,8 @@ tags:       ["hacker", "security", "learning"]
 
 !["hacking-google-series-2022"](/assets/images/hacking-google-series-2022.jpg "hacking google series 2022")
 
-> Five elite security teams.
-> Six never-before-told stories.
+> Five elite security teams.  
+> Six never-before-told stories.  
 > Go behind the scenes with the hacking teams at Google keeping more people safe online than anyone else in the world.
 
 Youtube playlist for the series
