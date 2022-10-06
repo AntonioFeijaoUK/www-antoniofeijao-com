@@ -1,5 +1,6 @@
 ---
 title: "Privacy plugins sample"
+layout: splash
 excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 permalink: /plugins/
 categories: ["Browser", "Privacy", "Plugins"]
@@ -10,22 +11,23 @@ Sample of some privacy plugins that can be used in [Google Chrome](https://www.g
 
 Also, look at the browser [Brave](https://brave.com/), which has built in privacy features.
 
----
+## privacy plugin sample
 
-## privacy plugin sample
+duckduckgo-privacy-essent
 
-duckduckgo-privacy-essent  
-<https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
+* <https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
 
+privacy-badger
 
-privacy-badger  
-<https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
-
-
-ublock-origin  
-<https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
+* <https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
 
 
-Sample of a password managed [1password](https://1password.com/)  
-<https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
+ublock-origin
+
+* <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
+
+
+Sample of a password managed [1password](https://1password.com/)
+
+* <https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
 
