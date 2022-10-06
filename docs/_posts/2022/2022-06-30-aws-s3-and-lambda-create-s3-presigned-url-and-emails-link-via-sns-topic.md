@@ -1,7 +1,7 @@
 ---
-title: AWS S3 PutObject automatically creates a S3 Presigned URl and emails the link via SNS topic
+title: "AWS S3 PutObject automatically creates a S3 Presigned URl and emails the link via SNS topic"
 categories: ["AWS", "S3", "Lambda", "SNS"]
-tags:       ["automation", "security", "file-sharing", ""]
+tags:       ["automation", "security", "file-sharing"]
 ---
 
 Sample lambda functions that run based on `S3 event trigger` on `s3:ObjectCreated`.
