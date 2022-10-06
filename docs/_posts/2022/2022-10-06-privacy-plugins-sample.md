@@ -12,23 +12,20 @@ Also, look at the browser [Brave](https://brave.com/), which has built in privac
 
 ---
 
-## Privacy Plugin sample
+## privacy plugin sample
 
-duckduckgo-privacy-essent
-
-* <https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
-
-privacy-badger
-
-* <https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
+duckduckgo-privacy-essent  
+<https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
 
 
-ublock-origin
+privacy-badger  
+<https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
 
-* <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
+
+ublock-origin  
+<https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
 
 
-Sample of a password managed [1password](https://1password.com/)
-
-* <https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
+Sample of a password managed [1password](https://1password.com/)  
+<https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
 
