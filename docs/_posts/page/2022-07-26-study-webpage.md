@@ -1,8 +1,16 @@
 ---
-title: webpage with links to study material and other websites
+title: "Webpage with links to study material and other websites"
 permalink: /study/
 categories: ["Page"]
 ---
+
+Webpage with links to study material and other websites
+
+Remember to `learn by doing` - <https://www.iberdrola.com/talent/learning-by-doing>
+
+
+
+## website with study material
 
 <https://tcm-sec.com/>
 
