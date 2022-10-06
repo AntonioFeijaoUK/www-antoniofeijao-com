@@ -1,9 +1,9 @@
 ---
-title: List of links and websites with updates on Cyber Security and Computer Science Knowledge
+title: "List of links and websites with updates on Cyber Security and Computer Science Knowledge"
 permalink: /links/
 
-date: 2021-07-27
-last_modified_at: 2021-12-17
+date: 2022-01-01
+last_modified_at: 2022-10-06
 
 toc: false
 toc_sticky: true
@@ -27,9 +27,7 @@ tags: [ "cyber", "security"]
 
 ---
 
-This page will be always >> work in progress <<
-
-List of links for websites with updates on Cyber Security and other knowledges areas on Computer Science Knowledge
+This page will be always >> work in progress <<. List of links for websites with updates on Cyber Security and other knowledges areas on Computer Science Knowledge.
 
 ----
 
