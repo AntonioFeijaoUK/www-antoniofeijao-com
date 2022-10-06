@@ -1,7 +1,7 @@
 ---
-title: HACKING GOOGLE 
-categories: ["AWS", "S3", "Lambda", "SNS"]
-tags:       ["automation", "security", "file-sharing", ""]
+title: "HACKING GOOGLE"
+categories: ["Google", "Hacking", "Learning"]
+tags:       ["hacker", "security", "learning"]
 ---
 
 ## HACKING GOOGLE
