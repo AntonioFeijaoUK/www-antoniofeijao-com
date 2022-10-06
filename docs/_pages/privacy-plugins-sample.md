@@ -6,7 +6,7 @@ permalink: /plugins/
 
 Sample of some privacy plugins that can be used in [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/) and possible other browsers.
 
-Also, look at the browser (Brave)[https://brave.com/], which has built in privacy features.
+Also, look at the browser [Brave](https://brave.com/), which has built in privacy features.
 
 ---
 
