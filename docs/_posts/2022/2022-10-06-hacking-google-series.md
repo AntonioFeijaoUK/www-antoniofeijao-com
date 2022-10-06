@@ -6,6 +6,8 @@ tags:       ["hacker", "security", "learning"]
 
 ## HACKING GOOGLE
 
+Hacking Google series 2022
+
 !["hacking-google-series-2022"](/assets/images/hacking-google-series-2022.jpg "hacking google series 2022")
 
 > Five elite security teams.  
