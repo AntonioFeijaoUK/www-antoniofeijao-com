@@ -2,7 +2,7 @@
 title: How to reinstall MacOS with external bootable disk
 
 date: 2020-09-11
-last_modified_at:
+last_modified_at: 2022-10-26-23:03:00
 
 categories:
     - macOS
@@ -18,7 +18,7 @@ tags:
 ---
 
 * Update 2022-10
-    - Apple now has a page with download to all version in here [https://support.apple.com/en-gb/HT211683](https://support.apple.com/en-gb/HT211683)
+    > Apple now has a page with download to all version in here [https://support.apple.com/en-gb/HT211683](https://support.apple.com/en-gb/HT211683)
     > "Apple recommends using the latest (newest) macOS that is compatible with your Mac"
 
 
