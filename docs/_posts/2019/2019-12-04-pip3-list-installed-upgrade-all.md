@@ -23,7 +23,7 @@ pip3 list
 
 with a `for loop` you can loop through all your packages, exclude what is not a package and run command `pip3 {package} --upgrade` on the installed packages.
 
-```shell
+```bash
 for n in $(pip3 list | awk '{print $1}' | egrep -v 'Package|^-'); do pip3 install ${n} --upgrade ; done
 ```
 
@@ -35,6 +35,7 @@ for n in $(pip3 list | awk '{print $1}' | egrep -v 'Package|^-'); do pip3 instal
 
 ```bash
 for package in $(pip list -o | cut -f 1 -d ' ' | tail -n +3); do pip install --upgrade ${package}; done
+```
 
 ---
 
