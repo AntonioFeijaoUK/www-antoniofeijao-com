@@ -17,6 +17,11 @@ tags:
     - bootdisk
 ---
 
+* Update 2022-10
+    - Apple now has a page with download to all version in here [https://support.apple.com/en-gb/HT211683](https://support.apple.com/en-gb/HT211683)
+    > "Apple recommends using the latest (newest) macOS that is compatible with your Mac"
+
+
 How to reinstall MacOS with external bootable disk installer for Mac operating system. **macOS Catalina, macOS Mojave, or macOS High Sierra**. You can use an external drive or secondary volume as a startup disk from which to install the Mac operating system.
 
 This article was inspired after I helped a friend recover their Mac operating system and documents. Having an external drive with macOS really help and did a quick install. ![external-disk-with-various-macOS-versions](/assets/images/external-disk-with-various-macOS-versions.jpg "external-disk-with-various-macOS-versions")
