@@ -20,3 +20,4 @@ account_name = organizations.describe_account(AccountId='123456789012')['Account
 
 print(account_name)
 ```
+source: <https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/organizations.html#Organizations.Client.describe_account>
