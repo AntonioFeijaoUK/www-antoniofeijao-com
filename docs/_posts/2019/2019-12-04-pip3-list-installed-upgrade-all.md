@@ -26,6 +26,7 @@ with a `for loop` you can loop through all your packages, exclude what is not a 
 ```shell
 for n in $(pip3 list | awk '{print $1}' | egrep -v 'Package|^-'); do pip3 install ${n} --upgrade ; done
 ```
+
 ---
 
 ## pip update outdates packages
