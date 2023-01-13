@@ -41,7 +41,7 @@ Official Documentations - <https://docs.aws.amazon.com/AmazonCloudWatch/latest/l
 
 `>=`    -- GRATER OR EQUAL
 
-`&&`    -- ABD
+`&&`    -- AND
 
 `||`    -- OR
 
@@ -65,4 +65,4 @@ Official Documentations - <https://docs.aws.amazon.com/AmazonCloudWatch/latest/l
 
 Happy learning
 
-Antonio Feijao UK
+[Antonio Feijao UK](https://www.antoniofeijao.com/)
