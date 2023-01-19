@@ -1,35 +1,53 @@
 ---
-title: "AWS SSM command to tunnel network traffic to another instance"
+title: "AWS SSM command to tunnel proxy network traffic to another remote instance"
 #layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 #permalink: /plugins/
-categories: ["AWS", "SSM", "Tunnel"]
-tags:       ["aws", "networking", "tunnel", "ssm"]
+categories: ["AWS", "SSM", "Tunnel", "Proxy"]
+tags:       ["aws", "networking", "tunnel", "ssm", "proxy"]
 ---
 
-If you have access to an instance (server, virtual machine) in `AWS`, and this instance can access to other applications,  
-you then can use this machine to `proxy` traffic from your local laptop (desktop or server) to the specified host.
+If you have access to an instance (server, virtual machine) in `AWS`,  
 
-- You local laptop needs to have enough permission to use the AWS SSM agent.
+and this instance can access to other applications,  
 
-- Your local laptop connecto to the instance in AWS and them forward the traffic to the `host` specified in the command.
+this means you can use this machine to `proxy` traffic from your local laptop (desktop or server) to the specified host.
 
-- If you don't specify the host, you will be connected to localt port on your AWS instance.
+## requirements
 
-Sample command, adjust and adapt as needed.
+Your local laptop needs to have enough permission to use the AWS SSM agent - `AWS STS` role or temporary token.
+
+Your local laptop connects to the instance in AWS and them forward the traffic to the `host` specified in the command.
+
+If you do not specify the remote `host`, you will be connected to local port on your AWS instance.
+
+
+## example
+
+Example, adjust as needed.
+
+Connect to ${INSTANCE_ID} and tunnel (forward, proxy) traffic to the remote IP `192.168.0.10`.
 
 ```bash
+
+INSTANCE_ID="i-123456789012345"
+
 aws ssm start-session \
     --target ${INSTANCE_ID} \
     --document-name AWS-StartPortForwardingSessionToRemoteHost \
-    --parameters '{ "host":["${OTHER_REMOTE_HOST}"], "portNumber":["443"], "localPortNumber:["8443"] }' 
-```
+    --parameters '{ "host":["192.168.0.10"], "portNumber":["443"], "localPortNumber":["8443"] }'
+
+````
 
 ---
+
+## documentation
 
 - documentation at <https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-sessions-start.html>
 
 ---
+
+## antonio feijao uk
 
 Happy learning,
 
