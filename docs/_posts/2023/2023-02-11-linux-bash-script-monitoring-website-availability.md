@@ -1,7 +1,7 @@
 ---
 title: "Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"
 #layout: splash
-#excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
+excerpt: "<!--more-->"
 #permalink: /plugins/
 categories: ["Linux", "Bash", "Script", "monitor"]
 tags:       ["for-loop", "while-true", "linux", "bash", "script"]
@@ -10,6 +10,10 @@ tags:       ["for-loop", "while-true", "linux", "bash", "script"]
 Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s 
 
 !["Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"](/assets/images/linux-bash-script-monitor-website-availability.jpg)
+
+<!--more-->
+
+## the-linux-bash-script
 
 ```bash
 #!/bin/bash
@@ -41,6 +45,7 @@ done
 
 ```
 
+---
 
 Happy learning,
 Antonio Feijao
