@@ -1,7 +1,7 @@
 ---
 title: "Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"
 #layout: splash
-excerpt: "<!--more-->"
+excerpt: <!--more-->
 #permalink: /plugins/
 categories: ["Linux", "Bash", "Script", "monitor"]
 tags:       ["for-loop", "while-true", "linux", "bash", "script"]
