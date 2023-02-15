@@ -64,7 +64,7 @@ categories: ["Page"]
 
 
 > Antonio Feijao UK,  
-> AWS Infrastructure Architect,  
+> AWS Infrastructure Architect,
 > Cyber Security Architect,  
 > with Advanced Cloud Networking and Security Specialism.
 
@@ -78,6 +78,8 @@ My role is also focused on enabling other squads creating applications in a secu
 
 Currently studying [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on :
 
+`CEHv11`
+
 * [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
 
 * [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
@@ -85,11 +87,19 @@ Currently studying [Master Ethical Hacking Security](https://www.eccouncil.org/p
 
 ---
 
-studying for certifications of
+also studying for certifications of
 
 * [Certified Network Defender - `C|ND`](https://www.eccouncil.org/programs/certified-network-security-course/)
 
 * [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
+
+* [Certified Cloud Security Professional - `(ISC)²`](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL)
+* [overview ccsp by infosecinstitute](https://resources.infosecinstitute.com/overview/ccsp/)
+
+* [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification)
+
+> Learn about the different components that make up the Amazon Web Services (AWS) infrastructure and the security challenges these environments present, including high availability (HA), autoscaling, and softwaredefined networking (SDN) connectors, and how to manage traffic in the cloud with Fortinet products.
+
 
 ---
 
