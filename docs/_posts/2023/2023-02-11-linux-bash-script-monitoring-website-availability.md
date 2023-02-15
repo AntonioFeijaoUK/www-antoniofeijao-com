@@ -7,9 +7,11 @@ categories: ["Linux", "Bash", "Script", "monitor"]
 tags:       ["for-loop", "while-true", "linux", "bash", "script"]
 ---
 
-Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s  !["Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"](/assets/images/linux-bash-script-monitor-website-availability.jpg)
+Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s
 
-To do next... color signaling website maybe?!
+!["Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"](/assets/images/linux-bash-script-monitor-website-availability.jpg)
+
+To do next... color coding alerts maybe?!
 
 <!--more-->
 
