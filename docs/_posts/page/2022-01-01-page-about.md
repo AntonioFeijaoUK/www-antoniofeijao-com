@@ -93,7 +93,7 @@ also studying for certifications of
 
 * [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
 
-* [Certified Cloud Security Professional - `(ISC)²`](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL)
+* [Certified Cloud Security Professional - `CCSP by ISC²`](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL)
 * [overview ccsp by infosecinstitute](https://resources.infosecinstitute.com/overview/ccsp/)
 
 * [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification)
