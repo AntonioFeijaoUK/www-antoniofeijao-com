@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Antonio Feijao UK, AWS Security and Infrastructure Architect @GenomicsEngland, Networking, Security, AWS, Python 3, Cyber Security, Linux, MacOS
+title: Antonio Feijao UK, Security Architect @GenomicsEngland, #AWS #Networking #Security #infrastructure #Python3 #CyberSecurity #Linux #MacOS
 
 email:
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Antonio Feijao UK, AWS Security and Infrastructure Architect @GenomicsEngland with Networking and
-  Security Specialism.
-  AWS, Python 3, Cyber Security, Linux, MacOS
+    Antonio Feijao UK, Security Architect @GenomicsEngland
+    #AWS #Networking #Security #infrastructure
+    #Python3 #CyberSecurity #Linux #MacOS
 
 twitter_username: antoniofeijaouk
 
@@ -69,9 +69,9 @@ plugins:
 
 
 author:
-  name   : "Antonio Feijao"
+  name   : "Antonio Feijao UK"
   avatar : "/assets/images/Antonio-Feijao-Genomics-headshot-35-square_small.jpeg"
-  bio    : "AWS Security and Infrastructure Architect @GenomicsEngland"
+  bio    : "Security Architect @GenomicsEngland, #AWS #Networking #Security #infrastructure #Python3 #CyberSecurity #Linux #MacOS"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
