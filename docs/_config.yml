@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Antonio Feijao UK, Security Architect @GenomicsEngland, #AWS #Networking #Security #infrastructure #Python3 #CyberSecurity #Linux #MacOS
+title: "Antonio Feijao UK, Security Architect @GenomicsEngland #AWS #Networking #Security #infrastructure #Python3 #CyberSecurity #Linux #MacOS"
 
 email:
 
 description: >- # this means to ignore newlines until "baseurl:"
-    Antonio Feijao UK, Security Architect @GenomicsEngland
-    #AWS #Networking #Security #infrastructure
-    #Python3 #CyberSecurity #Linux #MacOS
+  Antonio Feijao UK, Security Architect @GenomicsEngland 
+  #AWS #Networking #Security #infrastructure 
+  #Python3 #CyberSecurity #Linux #MacOS 
 
 twitter_username: antoniofeijaouk
 
