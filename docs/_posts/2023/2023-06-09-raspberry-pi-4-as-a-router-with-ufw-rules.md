@@ -19,6 +19,11 @@ apt update && apt upgrade -y
 apt autoremove -y
 
 apt install ufw
+
+## useful
+
+apt install dnsutils
+
 ```
 
 * raspberry pi 4 disable `ipv6` at boot
@@ -131,6 +136,40 @@ ufw status numbered
 
 ufw delete RUL_NUM
 
+```
+
+---
+
+## raspberry pi 4 static IP, dhcp and gateway metrics
+
+* cat `/etc/dhcpcd.conf | egrep -v '^#|^$'`
+
+```bash
+hostname
+clientid
+persistent
+option rapid_commit
+option domain_name_servers, domain_name, domain_search, host_name
+option classless_static_routes
+option interface_mtu
+require dhcp_server_identifier
+slaac private
+interface wlan0
+metric 200
+static domain_name_servers=94.140.14.15 94.140.15.16
+interface eth0
+domain feijaouk.local
+search feijaouk.local
+metric 300
+static ip_address=192.168.0.4/24
+static routers=192.168.0.1
+static domain_name_servers=94.140.14.15 94.140.15.16
+```
+
+## raspberry pi 4 - verify the dns upstream servers
+
+```bash
+resolvconf -l
 ```
 
 ---
