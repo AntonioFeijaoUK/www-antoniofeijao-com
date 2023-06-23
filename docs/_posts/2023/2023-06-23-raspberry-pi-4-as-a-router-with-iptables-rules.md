@@ -84,7 +84,10 @@ echo "your gateway interface is : ${GATEWAY_INTERFACE}"
 SOURCE_SUBNET="192.168.0.0/24"
 iptables -t nat -s ${SOURCE_SUBNET} -I POSTROUTING -o ${GATEWAY_INTERFACE} -j MASQUERADE
 
-## source - enabled established connections - this is not needed as the FORWARD is set to default ACCEPT
+## other good sources with details info
+# - https://raspberrytips.com/raspberry-pi-firewall/
+# - https://www.packetswitch.co.uk/raspberry/
+## - enabled established connections - this is not needed as the FORWARD is set to default ACCEPT
 #iptables -A FORWARD -i eth0 -o wlan0 -m state --state RELATED,ESTABLISHED -j ACCEPT
 #iptables -A FORWARD -i eth0 -d ${SOURCE_SUBNET} -m state --state RELATED,ESTABLISHED -j ACCEPT
 #iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
