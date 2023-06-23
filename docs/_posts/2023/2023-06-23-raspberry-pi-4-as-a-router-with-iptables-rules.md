@@ -1,15 +1,13 @@
 ---
 title: "Using a Raspberry Pi 4 as a router with iptables"
-#layout: splash
+layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["RaspberryPi", "networking", "linux"]
 tags:       ["ufw", "routing", "linux", "raspberrypi", "security"]
 ---
 
-Using a Raspberry Pi 4 as a router with `iptables`. With iptables we need to know more about what we are doing.
-
-`ufw` is great, it works as a leayer on top of `iptables` for with easy management, however you will not learn the real "thing", the network flow details, the beauty of "source" and "destination", and more...
+Using a Raspberry Pi 4 as a router with `iptables`. With iptables we need to know more about what we are doing.  `ufw` is great, it works as a leayer on top of `iptables` for with easy management, however you will not learn the real "thing", the network flow details, the beauty of "source" and "destination", and more...
 
 So, I want to learn more, therefore I went on to learn the details of `iptables` and source destination IPs, NAT (MASQUERADE), source and destination ports, states...
 
