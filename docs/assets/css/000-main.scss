@@ -3,21 +3,6 @@
 
 @import "minimal-mistakes/skins/default";
 
-code.language-plaintext.highlighter-rouge {
-	color: #ffffff;
-	background-color: #0066FF;
-	padding-top: 1px;
-	padding-right: 3px;
-	padding-bottom: 1px;
-	padding-left: 3px;
-	border-radius: 5px;
-	font-size: 14px;
-	font-weight: normal;
-	font-family: "Lucida Console", Monaco, monospace;
-}
-
-
-
 /* gist-syntax-theme-one-dark.css */
 /* source https://lonekorean.github.io/gist-syntax-themes/  */
 
@@ -174,4 +159,17 @@ body .gist .pl-sol,
 body .gist .pl-mdh,
 body .gist .pl-mdi {
      color: #df6b75;
+}
+
+code.language-plaintext.highlighter-rouge {
+	color: #ffffff;
+	background-color: #0066FF;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
 }
