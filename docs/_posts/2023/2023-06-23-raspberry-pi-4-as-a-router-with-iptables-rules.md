@@ -171,6 +171,3 @@ resolvectl status
 Happy learning,
 
 [Antonio Feijao UK](https://www.antoniofeijao.com)
-
-
-2023-06-09-raspberry-pi-4-as-a-router-with-ufw-rules.md
