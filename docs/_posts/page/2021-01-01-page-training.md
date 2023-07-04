@@ -1,6 +1,6 @@
 ---
 title: AWS online training source materials
-
+layout: splash
 #permalink: /training/
 
 toc: false
