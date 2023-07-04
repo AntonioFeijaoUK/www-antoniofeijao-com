@@ -1,5 +1,7 @@
 ---
 title: Antonio Feijao AWS Linux and Cyber Security certifications
+layout: splash
+
 permalink: /skills/
 categories:
     - Page
@@ -23,6 +25,6 @@ MacOs, Linux RedHat, Centos, Ubuntu, Debian, Kali, Windows....
 
 ----
 
-## Blog
+## Personal website
 
-Personal blog at [https://Antonio.Cloud](https://Antonio.Cloud/).
+[https://AntonioFeijao.com](https://www.antoniofeijao.com/).
