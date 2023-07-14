@@ -8,38 +8,42 @@ Change video playback speed rate with javascript
 
 You can run these commands in the 
 
-`document.getElementsByTagName("video")[0].playbackRate = '1.0'`
-`document.getElementsByTagName("video")[0].playbackRate = '1.5'`
-`document.getElementsByTagName("video")[0].playbackRate = '1.75'`
-`document.getElementsByTagName("video")[0].playbackRate = '2.0'`
-`document.getElementsByTagName("video")[0].playbackRate = '2.5'`
-
+```js
+document.getElementsByTagName("video")[0].playbackRate = '1.00'
+document.getElementsByTagName("video")[0].playbackRate = '1.50'
+document.getElementsByTagName("video")[0].playbackRate = '1.75'
+document.getElementsByTagName("video")[0].playbackRate = '2.00'
+document.getElementsByTagName("video")[0].playbackRate = '2.50'
+```
 
 You can also save them as a bookmark link
 
 sample with querySelector('video')
 
-`javascript: (function () {    document.querySelector('video').playbackRate = 1.0;})();`
-`javascript: (function () {    document.querySelector('video').playbackRate = 1.5;})();`
-`javascript: (function () {    document.querySelector('video').playbackRate = 1.75;})();`
-`javascript: (function () {    document.querySelector('video').playbackRate = 2.0;})();`
-`javascript: (function () {    document.querySelector('video').playbackRate = 2.5;})();`
-
+```js
+javascript: (function () {    document.querySelector('video').playbackRate = 1.00;})();
+javascript: (function () {    document.querySelector('video').playbackRate = 1.50;})();
+javascript: (function () {    document.querySelector('video').playbackRate = 1.75;})();
+javascript: (function () {    document.querySelector('video').playbackRate = 2.00;})();
+javascript: (function () {    document.querySelector('video').playbackRate = 2.50;})();
+```
 
 sample with getElementsByTagName("video")
 
-`javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.0;})();`
-`javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.5;})();`
-`javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.75;})();`
-`javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 2.0;})();`
-`javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.5;})();`
-
+```js
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.00;})();
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.50;})();
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.75;})();
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 2.00;})();
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.50;})();
+```
 
 sample with getElementsByTagName("audio")
 
-`javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.0;})();`
-`javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.5;})();`
-`javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.75;})();`
-`javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 2.0;})();`
-`javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 2.5;})();`
-
+```js
+javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.00;})();
+javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.50;})();
+javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 1.75;})();
+javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 2.00;})();
+javascript: (function () {    document.getElementsByTagName("audio")[0].playbackRate = 2.50;})();
+```
