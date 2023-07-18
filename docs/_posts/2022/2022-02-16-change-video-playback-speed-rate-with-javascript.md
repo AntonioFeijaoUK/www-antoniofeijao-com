@@ -35,7 +35,7 @@ javascript: (function () {    document.getElementsByTagName("video")[0].playback
 javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.50;})();
 javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.75;})();
 javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 2.00;})();
-javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 1.50;})();
+javascript: (function () {    document.getElementsByTagName("video")[0].playbackRate = 2.50;})();
 ```
 
 sample with getElementsByTagName("audio")
