@@ -23,9 +23,11 @@ Example of AWS boto session credentials.
 import boto3
 
 help(boto3.session.Session)
+```
 
-## output of `help``
+* output of `help(...)`
 
+```py
 Help on class Session in module boto3.session:
 
 class Session(builtins.object)
