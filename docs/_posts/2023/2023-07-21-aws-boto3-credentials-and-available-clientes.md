@@ -17,7 +17,7 @@ My notes below.
 
 ### aws-boto3-session
 
-Example of was session credentials.
+Example of AWS boto session credentials.
 
 ```py
 import boto3
