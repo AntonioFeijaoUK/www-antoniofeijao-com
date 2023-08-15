@@ -1,15 +1,11 @@
 ---
 title: About Antonio Feijao UK
 permalink: /about/
-
 layout: splash
-
 categories: ["Page"]
-
 ---
 
-## Antonio Feijao
-
+`Antonio Feijao` is also known as `Antonio Feijao UK`, Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). Expertise in `AWS Infrastructure Architect`, and `Cyber Security Architect`, with AWS Advanced Cloud Networking, AWS Security Specialism, and AWS Cloud Professional Architect.
 
 <style>
     .container {
@@ -62,11 +58,20 @@ categories: ["Page"]
     </div>
 </div>
 
+## about-me
 
-> Antonio Feijao UK,  
-> AWS Infrastructure Architect,
-> Cyber Security Architect,  
-> with Advanced Cloud Networking and Security Specialism.
+- Portuguese-Portugal.
+- passionate about Linux, networking, cyber-security, electronics, space physics, physics exploration, time travel and the dinosaurs.
+- prefer outdoors, running, swimming, snowboarding, skiing, motorbikes, tough mudder...
+- don't use FB, rarely on social media, and block ads where possible.
+- a follower of tech news and podcast
+- rarely watch TV but I like a good movie at home or cinema (superheroes, science documentaries, comedies, sci-fi).
+- love travel and family
+
+More about what I do on my website - https://www.AntonioFeijao.com/
+
+
+## what-i-do
 
 Currently working as `AWS Infrastructure Architect` and `Cyber Security Architect` at [Genomics England](https://www.genomicsengland.co.uk/).
 
@@ -76,14 +81,11 @@ My role is also focused on enabling other squads creating applications in a secu
 
 ---
 
-Currently studying [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on :
+## what-i-sdudy
 
-`CEHv11`
-
-* [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
-
-* [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
-
+* [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on : `CEHv11`
+    * [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
+    * [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
 
 ---
 
@@ -94,16 +96,24 @@ also studying for certifications of
 * [Web Application Hacking and Security - `W|AHS`](https://iclass.eccouncil.org/web-application-hacking-and-security/)
 
 * [Certified Cloud Security Professional - `CCSP by ISC²`](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL)
+
 * [overview ccsp by infosecinstitute](https://resources.infosecinstitute.com/overview/ccsp/)
 
-* [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification)
+* [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification) - DONE with `PASS`
 
-> Learn about the different components that make up the Amazon Web Services (AWS) infrastructure and the security challenges these environments present, including high availability (HA), autoscaling, and softwaredefined networking (SDN) connectors, and how to manage traffic in the cloud with Fortinet products.
+> Learn about the different components that make up the Amazon Web Services (AWS) infrastructure and the security challenges these environments present, including high availability (HA), autoscaling, and software defined networking (SDN) connectors, and how to manage traffic in the cloud with Fortinet products.
 
 
 ---
 
-learning with 
+## i-learn-with
+
+* [ippsec](https://www.youtube.com/@ippsec/videos) - `@ippsec` from `HackTheBox`
+
+* #SecurityNow with Mr `Steve Gibson` from `Gibson research corporation` at [[grc.com](https://www.grc.com)]  
+    * (https://www.grc.com) - [https://www.grc.com/securitynow.htm](https://www.grc.com/securitynow.htm)
+    * [[twit.tv/shows/security-now](https://twit.tv/shows/security-now)](https://twit.tv/shows/security-now)
+    * [https://www.youtube.com/@securitynow/videos](https://www.youtube.com/@securitynow/videos)
 
 * [TCM Security Academy](https://academy.tcm-sec.com/)
 
@@ -121,7 +131,7 @@ learning with
 
 ---
 
-and also practicing hands-on with
+and also practising hands-on with
 
 * <https://www.immersivelabs.com/> - try labs with code `GIMMEFREELABS` or `FREEDEFENSIVE`
 
@@ -141,9 +151,9 @@ Career progressing towards `Principal Cyber Security Architect`, [Principal Secu
 
 ---
 
-Curious fact about me
+A curious fact about me
 
-I memorised the first 100 digits of pi! Yes, really!
+I memorised the first `100 digits of pi`! Yes, really!
 
 ----
 
