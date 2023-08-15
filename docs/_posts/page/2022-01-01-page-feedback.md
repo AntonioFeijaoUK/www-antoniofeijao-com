@@ -22,9 +22,9 @@ categories:
 > by  G. S
 
  > "Antonio has been our lead architect for AWS in the xxxx team and has been supporting all the squads in making the best use of the cloud and unblocking issues with Migration. Also key around raising the bar for security and best practices"
- > from staff awards 2021-2022
+ > by staff awards 2021-2022
 
 (...)
  
 Others would say about me that I am a great individual contributor and additional to the organisation,  
-but I am also an excelent addition to any team, and I am often seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
+but I am also an excellent addition to any team, and I am often seen as a [team player](https://uk.indeed.com/career-advice/career-development/team-player).
