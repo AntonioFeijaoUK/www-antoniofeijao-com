@@ -74,7 +74,7 @@ for REGION in ${LIST_OF_REGIONS}; do
             ## could add an if loop here too...
 
             for SUBNET in ${LIST_OF_SUBNETS}; do
-                aws ec2 delete-subnet --region ${REGION} --subnet-id ${SUBNET}
+                #aws ec2 delete-subnet --region ${REGION} --subnet-id ${SUBNET}
             done
 
             ## Finally, deletes de Default-VPC
