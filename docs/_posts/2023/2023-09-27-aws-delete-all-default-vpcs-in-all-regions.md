@@ -57,8 +57,7 @@ for REGION in ${LIST_OF_REGIONS}; do
             ## IF IGW exists, then detach and deletes the IGW from the Default-VPC
             if [ -z "${IGW}" ];
                 then
-                    echo "NULL"
-                    echo "IGW already removed"
+                    echo "NULL - IGW already removed."
                 else
                     echo "Removing and deleting the IGW: ${IGW}, from the Default-VPC: ${VPCID}."
                     #aws ec2 detach-internet-gateway --region ${REGION} --internet-gateway-id ${IGW} --vpc-id ${VPCID}
@@ -77,9 +76,9 @@ for REGION in ${LIST_OF_REGIONS}; do
                 #aws ec2 delete-subnet --region ${REGION} --subnet-id ${SUBNET}
             done
 
-            ## Finally, deletes de Default-VPC
+            ## Finally, delete the Default-VPC.
 
-            #aws ec2 delete-vpc --vpc-id ${VPCID} --region ${REGION} 
+            #aws ec2 delete-vpc --vpc-id ${VPCID} --region ${REGION} 2>/dev/null && echo "Default-VPC removed succesfully." || echo "Something is still not right..."
     fi
 
 done
