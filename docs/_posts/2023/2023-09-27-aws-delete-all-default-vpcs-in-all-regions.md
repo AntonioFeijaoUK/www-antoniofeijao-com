@@ -1,18 +1,19 @@
 ---
-title: "AWS CLI command-line script How to automatically delete all Default-Vpcs in all AWS regions"
+title: "AWS CLI command-line script - How to automatically delete the Default-VPCs in all AWS regions"
 layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
-categories: ["aws", "cli", "delete-default-vpcs-in-all-regions"]
+categories: ["aws", "cli", "defaulvpc", "allregions"]
 tags:       ["aws", "cli", "linux", "", "script"]
 ---
 
-AWS CLI command-line script How to automatically delete all Default-Vpcs in all AWS regions.
+AWS CLI command-line script to automatically delete all Default-VPCs in all AWS regions.
 
-The script needs to have enough permissions.
+The script needs to have enough permissions to run the actions.
 
 The script will fail if there are other dependencies than the ones dealt with in the script.
 
+---
 
 ## linux-bash-script
 
@@ -54,7 +55,7 @@ for REGION in ${LIST_OF_REGIONS}; do
             
             IGW=$(aws ec2 describe-internet-gateways --region ${REGION} --filters "Name=attachment.vpc-id,Values=${VPCID}" --query 'InternetGateways[].InternetGatewayId' --output text)
             
-            ## IF IGW exists, then detach and deletes the IGW from the Default-VPC
+            ## IF IGW exists, then detach and delete the IGW from the Default-VPC
             if [ -z "${IGW}" ];
                 then
                     echo "NULL - IGW already removed."
