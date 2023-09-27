@@ -21,6 +21,9 @@ The script will fail if there are other dependences than the ones dealt in the s
 ```bash
 #!/bin/bash
 
+## uncomment to see the commands as they are executed.
+#set -x
+
 ## gets a list of all AWS regions
 
 LIST_OF_REGIONS=$(aws ec2 describe-regions --all-regions --query "Regions[].{Name:RegionName}" --output text)
