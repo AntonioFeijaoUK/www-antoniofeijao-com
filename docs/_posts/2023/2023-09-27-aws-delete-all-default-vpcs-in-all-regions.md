@@ -36,7 +36,7 @@ for REGION in ${LIST_OF_REGIONS}; do
                 ## Uncomment the lines below to delete the default VPC in all regions.
                 ## The script still needs to have enough permission to delete the default VPC.
                 #VPCID=${RESULT:0:-5}
-                #aws ec2 delete-vpc --vpc-id ${VPCID} - ${REGION}
+                #aws ec2 delete-vpc --vpc-id ${VPCID} --region ${REGION}
         fi
 done
 ```
