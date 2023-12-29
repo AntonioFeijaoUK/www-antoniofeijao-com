@@ -19,7 +19,7 @@ Starting with an example of a DHCP pool definition for dnsmasq
 (...)
 
  dhcp-range=192.168.100.101,192.168.100.199,255.255.255.0,8h   # dhcp range
- dhcp-option=3,192.168.0.2                                     # default-gateway
+ dhcp-option=3,192.168.100.20                                  # default-gateway
  dhcp-option=6,1.1.1.3,1.0.0.3                                 # dns
  dhcp-option=15,mylocalnetwork.local                           # local-domain
  dhcp-option=44,0.0.0.0                                        # netbios server. Disabling NetBIOS over TCP/IP can improve security by reducing the attack surface of a system. However, it may also impact the functionality of certain legacy applications and networked devices that rely on NetBIOS
