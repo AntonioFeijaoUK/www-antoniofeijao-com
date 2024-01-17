@@ -117,7 +117,8 @@ defaults:
       #layout: splash
       layout: single
       classes:
-          #- single #wide #landing
+          #- single, #- landing
+          - wide
           - dark-theme
       author_profile: false
       read_time: true
