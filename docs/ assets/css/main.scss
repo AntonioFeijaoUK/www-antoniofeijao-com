@@ -10,10 +10,6 @@ $serif      : Georgia, Times, serif;
 $sans-serif : -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace  : Monaco, Consolas, "Lucida Console", monospace;
 
-.page__lead {
-  font-family: $global-font-family;
-  font-size: $type-size-6;
-}
 
 /* type scale */
 $type-size-1 : 2.441em;  // ~39.056px
@@ -24,8 +20,6 @@ $type-size-5 : 1em;      // ~16px
 $type-size-6 : 0.75em;   // ~12px
 $type-size-7 : 0.6875em; // ~11px
 $type-size-8 : 0.625em;  // ~10px
-
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
