@@ -1,6 +1,6 @@
 ---
 title: "AWS CLI command-line script - How to automatically delete the Default-VPCs in all AWS regions"
-layout: splash
+#layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["aws", "cli", "defaulvpc", "allregions"]
