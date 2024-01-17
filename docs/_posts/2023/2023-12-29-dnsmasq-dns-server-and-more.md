@@ -1,6 +1,6 @@
 ---
 title: "Linux dnsmasq options, dns-server and more"
-layout: splash
+#layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["linux", "dns", "dnsmasq"]
