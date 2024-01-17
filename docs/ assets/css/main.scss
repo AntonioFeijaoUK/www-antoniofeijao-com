@@ -3,15 +3,7 @@
 search: false
 ---
 
-@media (min-width: 64em) {
-  font-size: 16px;
-}
-
-@media (min-width: 48em) {
-  font-size: 14px;
-}
-
-$link-color: red;
+@import custom.css
 
 @charset "utf-8";
 
