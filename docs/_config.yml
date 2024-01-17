@@ -115,7 +115,7 @@ defaults:
     values:
       #defaul value > `layout: single`
       #layout: splash
-      layout: single
+      layout: splash
       classes:
           - wide
           - dark-theme
