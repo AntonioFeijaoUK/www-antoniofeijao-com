@@ -3,6 +3,12 @@
 search: false
 ---
 
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
 @media(min-width: 48em) {
   html {
       font-size:14px
@@ -20,11 +26,3 @@ search: false
       font-size:16px
   }
 }
-
-
-@charset "utf-8";
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-
