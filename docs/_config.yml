@@ -117,7 +117,8 @@ defaults:
       type: posts
     values:
       #defaul value > `layout: single`
-      layout: splash
+      #layout: splash
+      layout: single
       classes: wide
       author_profile: true
       read_time: true
