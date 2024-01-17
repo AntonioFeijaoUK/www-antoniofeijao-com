@@ -1,6 +1,6 @@
 ---
 title: "Using a Raspberry Pi 4 as a router with iptables"
-layout: splash
+#layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["RaspberryPi", "networking", "linux"]
