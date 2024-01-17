@@ -18,8 +18,7 @@ title: "Antonio Feijao UK"
 
 email:
 
-description: >- # this means to ignore newlines until "baseurl:"
-"Antonio Feijao UK, Cyber Security Architect @GenomicsEngland, #AWS, #Networking, #Security, #infrastructure, #CyberSecurity, #Linux, #MacOS, #Python"
+description: "Antonio Feijao UK, Cyber Security Architect @GenomicsEngland, #AWS, #Networking, #Security, #infrastructure, #CyberSecurity, #Linux, #MacOS, #Python"
 
 twitter_username: antoniofeijaouk
 
@@ -117,8 +116,10 @@ defaults:
       #defaul value > `layout: single`
       #layout: splash
       layout: single
-      classes: wide
-      author_profile: true
+      classes:
+          #- single #wide #landing
+          - dark-theme
+      author_profile: false
       read_time: true
       comments: true
       share: true
