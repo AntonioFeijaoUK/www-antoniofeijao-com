@@ -3,13 +3,24 @@
 search: false
 ---
 
-@media (min-width: 64em) {
-    html { font-size: 16px; }
+@media(min-width: 48em) {
+  html {
+      font-size:14px
+  }
 }
 
-@media (min-width: 48em) {
-    html { font-size: 14px; }
+@media(min-width: 64em) {
+  html {
+      font-size:16px
+  }
 }
+
+@media(min-width: 80em) {
+  html {
+      font-size:16px
+  }
+}
+
 
 @charset "utf-8";
 
