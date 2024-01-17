@@ -1,6 +1,6 @@
 ---
 title: "AWS userInfo cookie extra account and username or role information"
-layout: splash
+#layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["aws", "authentication", "cookie"]
