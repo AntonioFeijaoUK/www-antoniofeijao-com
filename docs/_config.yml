@@ -116,9 +116,8 @@ defaults:
       #defaul value > `layout: single`
       #layout: splash
       layout: single
-      classes:
-          - wide
-          - dark-theme
+      classes: wide
+          #- dark-theme
       author_profile: false
       read_time: true
       comments: true
