@@ -1,6 +1,6 @@
 ---
 title: "Privacy plugins sample"
-layout: splash
+#layout: splash
 excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 permalink: /plugins/
 categories: ["Browser", "Privacy", "Plugins"]
