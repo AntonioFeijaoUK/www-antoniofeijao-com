@@ -1,6 +1,6 @@
 ---
 title: "aws sts decode-authorization-message"
-layout: splash
+#layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
 categories: ["aws", "sts", "decode-authorization-message"]
