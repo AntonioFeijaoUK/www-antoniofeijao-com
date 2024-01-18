@@ -76,6 +76,13 @@ code.language-bash.highlighter-rouge {
 	font-family: "Lucida Console", Monaco, monospace;
 };
 
+// ----------- ORIGINAL below ---------
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
 html {
     font-size: 14px; // change to whatever
   
@@ -92,11 +99,4 @@ html {
     }
   }
 
-
-// ----------- ORIGINAL below ---------
-
-@charset "utf-8";
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
 
