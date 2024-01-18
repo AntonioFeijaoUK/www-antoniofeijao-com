@@ -67,6 +67,24 @@ html {
   }
 
 
+@media(min-width: 48em) {
+  html {
+      font-size:12px
+  }
+};
+
+@media(min-width: 64em) {
+  html {
+      font-size:14px
+  }
+};
+
+@media(min-width: 80em) {
+  html {
+      font-size:16px
+  }
+};
+
 // added by me
 
 // code.language-plaintext.highlighter-rouge {
