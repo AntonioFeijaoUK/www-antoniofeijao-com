@@ -1,5 +1,31 @@
 $link-color: red;
 
+code.language-plaintext.highlighter-rouge {
+	color: #ffffff;
+	background-color: #0066FF;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+code.language-bash.highlighter-rouge {
+	color: #ffffff;
+	background-color: #0066FF;
+	padding-top: 1px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-left: 3px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
 @media(min-width: 48em) {
   html {
       font-size:14px
