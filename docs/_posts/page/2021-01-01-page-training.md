@@ -83,9 +83,11 @@ TIP: filter by `Digital Training` for online on-demand training.
 
 ---
 
-## Acloud Guru
+## acloud guru
 
 * <https://acloud.guru/>
+
+(now part of pluralsight)
 
 >
 > "To teach the world to cloud"
@@ -189,7 +191,7 @@ TIP: Make use of the [roleIQ](https://app.pluralsight.com/roleiq/) to better per
 
 ---
 
-## other websites worth mentioning
+## Other websites worth mentioning
 
 
 * <https://www.draw.io/>  <-- Remember to enable the `AWS2017, AWS2018, AWS2019` stencils, bottom left corner where is says `+ More shapes...`
@@ -203,10 +205,24 @@ TIP: Make use of the [roleIQ](https://app.pluralsight.com/roleiq/) to better per
 
   * <https://www.eff.org/dnt-policy>
 
-* <https://ssd.eff.org/> - *"This is Surveillance Self-Defense : our expert guide to protecting you and your friends from online spying."*
-
+* <https://ssd.eff.org/> - *"This is Surveillance Self-Defense: our expert guide to protecting you and your friends from online spying."*
 
 ---
 
-Do you have anothers suggestions?
+## by NahamSec
+
+* <https://www.youtube.com/@NahamSec>
+* source <https://youtu.be/RDQs7CpLI-k> - `Every FREE Resource You Need To Become A Bug Bounty Hunter`
+* Free Basic Networking Course:  <https://academy.hackthebox.com/course/preview/introduction-to-networking>
+* How The Web Works: <https://tryhackme.com/module/how-the-web-works>
+* OverTheWire: <https://overthewire.org/wargames/>
+* PicoCTF: <https://picoctf.com/>
+* HackerOne's Hacker101: <https://www.hacker101.com/>
+* HackThisSite: <https://hackthissite.org/>
+* WebSecAcademy: <https://portswigger.net/web-security>
+* HackingHub: <https://www.hackinghub.io/>
+
+---
+
+Would you happen to have other suggestions?
 
