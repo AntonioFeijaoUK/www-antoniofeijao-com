@@ -39,11 +39,12 @@ document.addEventListener(
 // document.onmousemove = goFullscreen;
 
 
+
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
 addEventListener("mousemove", (event) => { });
 onmousemove = (event) => {
     //toggleFullScreen();
-    console.log("the mouse is moving!")
+    console.log("the mouse is moving!");
 };
 
 
@@ -60,12 +61,16 @@ image.addEventListener(
     (event) => {
         // highlight the mouseover target
         //event.target.style.color = "orange";
-        alert('Move you mouse away!\nWe do not want to wake up the cat!');
+        //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
-        // reset the color after a short delay
-        //setTimeout(() => {
-        //  event.target.style.color = "";
-        //}, 500);
+        var x = document.getElementById("cat_alert");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            setTimeout(() => {
+                x.style.display = "none";
+            }, 2000);
+        }
     },
     false,
 );
