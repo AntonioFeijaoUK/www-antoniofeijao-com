@@ -16,6 +16,16 @@ document.addEventListener(
   false,
 );
 
+document.addEventListener(
+  "keydown",
+  (e) => {
+    if (e.key === "Enter") {
+      toggleFullScreen();
+    }
+  },
+  false,
+);
+
 
 // code source https://github.com/evg-zhabotinsky/RandomStuff/blob/gh-pages/webexperiments/fullscreen/w3s.html
 // note, page needs a div with id='main_frame'
