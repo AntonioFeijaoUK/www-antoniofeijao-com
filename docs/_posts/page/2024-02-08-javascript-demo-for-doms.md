@@ -10,7 +10,9 @@ categories:
 
 Did something just happen to your browser/screen?
 
-<script src="/assets/js/demo-for-doms.js</script>
+<script src="/assets/js/demo-for-doms.js"></script>
+
+<script>alert('Demo for Doms!')</script>
     
 Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
 
