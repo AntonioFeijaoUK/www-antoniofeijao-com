@@ -36,6 +36,7 @@ function fullscreenChanged() {
 document.onwebkitfullscreenchange = fullscreenChanged;
 document.documentElement.onclick = goFullscreen;
 document.onkeydown = goFullscreen;
+document.onmousemove = goFullscreen;
 
 
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
@@ -43,6 +44,10 @@ addEventListener("mousemove", (event) => {});
 
 onmousemove = (event) => {
   alert('You move your mouse!\nPress ESC to get out ot this!');
-  fullscreenChanged;
-  goFullscreen;
+  document.onwebkitfullscreenchange = fullscreenChanged;
+  document.documentElement.onclick = goFullscreen;
+  document.onkeydown = goFullscreen;
+  window.document.documentElement.requestFullscreen();
+  document.documentElement.requestFullscreen();
+  document.body.requestFullscreen();
 };
