@@ -9,11 +9,7 @@ categories:
 
 <div id="main_frame">
     <h2>Javascript demo for Doms</h2>
-
-
     <p>Did something just happen to your browser?</p>
-
-<script src="/assets/js/demo-for-doms.js" defer>                 </script>
 
 </div>
 
@@ -26,3 +22,5 @@ and the source code for the `requestFullscreen` API Javascript <https://develope
 Happy learning,
 
 [Antonio Feijao UK](https://www.antoniofeijao.com/)
+
+<script src="/assets/js/demo-for-doms.js"></script>
