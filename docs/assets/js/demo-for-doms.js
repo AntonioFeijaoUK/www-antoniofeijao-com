@@ -42,13 +42,14 @@ document.addEventListener(
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
 addEventListener("mousemove", (event) => { });
 onmousemove = (event) => {
-    toggleFullScreen();
+    //toggleFullScreen();
+    console.log("the mouse is moving!")
 };
 
 
 addEventListener("mouseup", (event) => { });
 onmouseup = (event) => {
-    alert('Are are you clicking your mouse?');
+    alert('Why are you clicking your mouse?');
 };
 
 
