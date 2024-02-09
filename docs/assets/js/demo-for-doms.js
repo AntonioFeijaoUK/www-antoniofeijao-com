@@ -48,7 +48,7 @@ onmousemove = (event) => {
 
 addEventListener("mouseup", (event) => {});
 onmouseup = (event) => {
-  alert('You clicked your mouse!);
+  alert('You clicked on your mouse!);
 };
 
 
@@ -59,7 +59,7 @@ image.addEventListener(
   (event) => {
     // highlight the mouseover target
     //event.target.style.color = "orange";
-    alert('move the mouse out of my face!');
+    alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
     // reset the color after a short delay
     //setTimeout(() => {
