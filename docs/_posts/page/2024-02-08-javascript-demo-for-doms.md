@@ -10,9 +10,8 @@ categories:
 <div id="main_frame"></div>
 
 
-<div id="image">
-<img src="/assets/images/alexandru-zdrobau-4bmtMXGuVqo-unsplash-small.jpg" alt="Girl's eyes, don't move your mouse our her!" width="40%" height="40%">
-
+<div>
+    <img id="image" src="/assets/images/alexandru-zdrobau-4bmtMXGuVqo-unsplash-small.jpg" alt="Girl's eyes, don't move your mouse our her!" width="40%" height="40%">
 <\div>
 
 Javascript demo for Doms
