@@ -48,7 +48,7 @@ onmousemove = (event) => {
 
 addEventListener("mouseup", (event) => { });
 onmouseup = (event) => {
-    alert('You clicked on your mouse!);
+    alert('Are are you clicking your mouse?');
 };
 
 
