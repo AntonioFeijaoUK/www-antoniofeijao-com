@@ -41,8 +41,30 @@ document.addEventListener(
 
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
 addEventListener("mousemove", (event) => {});
-
 onmousemove = (event) => {
   toggleFullScreen();
-  alert('You move your mouse!\nPress ESC to get out of this!\nESC multiple times, or just change te URL!');
 };
+
+
+addEventListener("mouseup", (event) => {});
+onmouseup = (event) => {
+  alert('You clicked your mouse!);
+};
+
+
+const image = document.getElementById("image");
+
+image.addEventListener(
+  "mouseover",
+  (event) => {
+    // highlight the mouseover target
+    //event.target.style.color = "orange";
+    alert('move the mouse out of my face!');
+
+    // reset the color after a short delay
+    //setTimeout(() => {
+    //  event.target.style.color = "";
+    //}, 500);
+  },
+  false,
+);
