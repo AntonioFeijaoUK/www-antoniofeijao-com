@@ -6,18 +6,21 @@ categories:
     - Javascript
 ---
 
-## Javascript demo for Doms
+> Javascript demo for Doms
 
-Did something just happen to your browser/screen?
+## Did something just happen to your browser/screen?
 
-<script src="/assets/js/demo-for-doms.js" defer></script>
 
-<script>alert('Demo for Doms!')</script>
+<script>alert('Demo for Doms!\ncode line 15')                    </script>
+<script>window.document.documentElement.requestFullscreen();     </script>
+<script>document.documentElement.requestFullscreen();            </script>
+<script>document.body.requestFullscreen();                       </script>
+<script src="/assets/js/demo-for-doms.js" defer>                  </script>
 
-<script>window.document.documentElement.requestFullscreen();</script>
-<script>document.documentElement.requestFullscreen();</script>
     
 Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
+
+and the source code for the `requestFullscreen` API Javascript <https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen>
 
 ---
 
