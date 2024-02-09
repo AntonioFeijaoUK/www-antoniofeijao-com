@@ -1,19 +1,19 @@
 function toggleFullScreen() {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-  } else if (document.exitFullscreen) {
-    document.exitFullscreen();
-  }
+    if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+    } else if (document.exitFullscreen) {
+        document.exitFullscreen();
+    }
 }
 
 document.addEventListener(
-  "keydown",
-  (e) => {
-    if (e.key === "Enter") {
-      toggleFullScreen();
-    }
-  },
-  false,
+    "keydown",
+    (e) => {
+        if (e.key === "Enter") {
+            toggleFullScreen();
+        }
+    },
+    false,
 );
 
 
@@ -40,31 +40,31 @@ document.addEventListener(
 
 
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
-addEventListener("mousemove", (event) => {});
+addEventListener("mousemove", (event) => { });
 onmousemove = (event) => {
-  toggleFullScreen();
+    toggleFullScreen();
 };
 
 
-addEventListener("mouseup", (event) => {});
+addEventListener("mouseup", (event) => { });
 onmouseup = (event) => {
-  alert('You clicked on your mouse!);
+    alert('You clicked on your mouse!);
 };
 
 
 const image = document.getElementById("image");
 
 image.addEventListener(
-  "mouseover",
-  (event) => {
-    // highlight the mouseover target
-    //event.target.style.color = "orange";
-    alert('Move you mouse away!\nWe do not want to wake up the cat!');
+    "mouseover",
+    (event) => {
+        // highlight the mouseover target
+        //event.target.style.color = "orange";
+        alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
-    // reset the color after a short delay
-    //setTimeout(() => {
-    //  event.target.style.color = "";
-    //}, 500);
-  },
-  false,
+        // reset the color after a short delay
+        //setTimeout(() => {
+        //  event.target.style.color = "";
+        //}, 500);
+    },
+    false,
 );
