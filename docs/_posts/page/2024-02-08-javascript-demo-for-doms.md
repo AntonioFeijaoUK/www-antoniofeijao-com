@@ -7,11 +7,11 @@ categories:
     - Javascript
 ---
 
-<div id="main_frame">
-    <h2>Javascript demo for Doms</h2>
-    <p>Did something just happen to your browser?</p>
+<div id="main_frame"></div>
 
-</div>
+Javascript demo for Doms
+
+Did something just happen to your browser?
 
 Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
 
