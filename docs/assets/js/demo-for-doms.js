@@ -16,44 +16,33 @@ document.addEventListener(
   false,
 );
 
-document.addEventListener(
-  "keydown",
-  (e) => {
-    if (e.key === "Enter") {
-      toggleFullScreen();
-    }
-  },
-  false,
-);
 
+// // code source https://github.com/evg-zhabotinsky/RandomStuff/blob/gh-pages/webexperiments/fullscreen/w3s.html
+// // note, page needs a div with id='main_frame'
+// function goFullscreen() {
+//   // Must be called as a result of user interaction to work
+//   mf = document.getElementById("main_frame");
+//   mf.webkitRequestFullscreen();
+//   mf.style.display = "";
+// }
 
-// code source https://github.com/evg-zhabotinsky/RandomStuff/blob/gh-pages/webexperiments/fullscreen/w3s.html
-// note, page needs a div with id='main_frame'
-function goFullscreen() {
-  // Must be called as a result of user interaction to work
-  mf = document.getElementById("main_frame");
-  mf.webkitRequestFullscreen();
-  mf.style.display = "";
-}
+// function fullscreenChanged() {
+//   if (document.webkitFullscreenElement == null) {
+//     mf = document.getElementById("main_frame");
+//     mf.style.display = "none";
+//   }
+// }
 
-function fullscreenChanged() {
-  if (document.webkitFullscreenElement == null) {
-    mf = document.getElementById("main_frame");
-    mf.style.display = "none";
-  }
-}
-
-document.onwebkitfullscreenchange = fullscreenChanged;
-document.documentElement.onclick = goFullscreen;
-document.onkeydown = goFullscreen;
-document.onmousemove = goFullscreen;
+// document.onwebkitfullscreenchange = fullscreenChanged;
+// document.documentElement.onclick = goFullscreen;
+// document.onkeydown = goFullscreen;
+// document.onmousemove = goFullscreen;
 
 
 // source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
-addEventListener("mousemove", (event) => {}
-                );
+addEventListener("mousemove", (event) => {});
 
 onmousemove = (event) => {
+  toggleFullScreen();
   alert('You move your mouse!\nPress ESC to get out of this!\nESC multiple times, or just change te URL!');
-  goFullscreen();
 };
