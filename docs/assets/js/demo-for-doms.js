@@ -6,8 +6,6 @@ function toggleFullScreen() {
   }
 }
 
-window.document.documentElement.requestFullscreen();
-
 document.addEventListener(
   "keydown",
   (e) => {
@@ -18,4 +16,7 @@ document.addEventListener(
   false,
 );
 
-alert('Did something just happen to your browser? \n\nTry the ENTER key to jump in and out of full-screen :)\n')
+
+// Launch full screen
+setTimeout( alert('This alert \n came 3 seconds after the page was loaded.')
+}, 3000);
