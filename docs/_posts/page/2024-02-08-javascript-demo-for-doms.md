@@ -11,8 +11,8 @@ categories:
 
 
 <div>
-    <img id="image" src="/assets/images/alexandru-zdrobau-4bmtMXGuVqo-unsplash-small.jpg" alt="Girl's eyes, don't move your mouse our her!" width="40%" height="40%">
-<\div>
+    <img id="image" src="/assets/images/alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg" alt="Don' wake up the cat!" width="80%" height="80%">
+</div>
 
 Javascript demo for Doms
 
