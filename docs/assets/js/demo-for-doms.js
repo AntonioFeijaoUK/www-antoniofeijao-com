@@ -43,10 +43,8 @@ document.onmousemove = goFullscreen;
 addEventListener("mousemove", (event) => {});
 
 onmousemove = (event) => {
-  alert('You move your mouse!\nPress ESC to get out ot this!');
-  document.onwebkitfullscreenchange = fullscreenChanged();
-  document.documentElement.onclick = goFullscreen();
-  document.onkeydown = goFullscreen();
+  alert('You move your mouse!\nPress ESC to get out of this!\nESC multiple times, or just change te URL :)');
+  goFullscreen();
   window.document.documentElement.requestFullscreen();
   document.documentElement.requestFullscreen();
   document.body.requestFullscreen();
