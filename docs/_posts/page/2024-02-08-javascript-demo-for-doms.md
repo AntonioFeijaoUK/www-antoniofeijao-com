@@ -13,9 +13,11 @@ Javascript demo for Doms
 
 Did something just happen to your browser?
 
-Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
+Press the `Enter` key and should change to Fullscreen.
 
-and the source code for the `requestFullscreen` API Javascript <https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen>
+* Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
+* and the source code for the `requestFullscreen` API Javascript <https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen>
+* more WEB APIs <https://developer.mozilla.org/en-US/docs/Web/API>
 
 ---
 
