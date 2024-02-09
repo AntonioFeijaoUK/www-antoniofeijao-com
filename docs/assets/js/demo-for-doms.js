@@ -15,8 +15,3 @@ document.addEventListener(
   },
   false,
 );
-
-
-// Launch full screen
-setTimeout( alert('This alert \n came 3 seconds after the page was loaded.')
-}, 3000);
