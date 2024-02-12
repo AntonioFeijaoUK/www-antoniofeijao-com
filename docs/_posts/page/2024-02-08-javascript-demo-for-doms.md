@@ -15,7 +15,7 @@ categories:
     <img id="image" src="/assets/images/alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg" alt="Don' wake up the cat!" width="80%" height="80%">
 </div>
 
-<div id="cat_alert"; style="display:none"; >
+<div id="cat_alert"; style="display:none";>
     <h2>Move your mouse away from the cat!</h2>
 </div>
 
