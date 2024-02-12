@@ -64,7 +64,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-last-modified-at
+  #- jekyll-last-modified-at
 
 author:
   name   : "Antonio Feijao UK"
