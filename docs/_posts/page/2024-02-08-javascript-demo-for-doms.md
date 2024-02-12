@@ -19,7 +19,7 @@ categories:
     <h2>Move your mouse away from the cat!</h2>
 </div>
 
-Javascript demo for Doms
+Javascript demo for Doms.
 
 Did something just happen to your browser?
 
