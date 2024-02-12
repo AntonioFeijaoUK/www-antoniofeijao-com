@@ -30,7 +30,8 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 
 # Outputting
 permalink: /:categories/:title/
@@ -63,7 +64,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-last-modified-at
-
 
 author:
   name   : "Antonio Feijao UK"
