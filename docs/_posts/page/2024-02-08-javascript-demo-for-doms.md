@@ -29,10 +29,10 @@ Press the `Enter` key and should change to Fullscreen.
 * and the source code for the `requestFullscreen` API Javascript <https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen>
 * more WEB APIs <https://developer.mozilla.org/en-US/docs/Web/API>
 
+<script src="/assets/js/demo-for-doms.js"></script>
+
 ---
 
 Happy learning,
 
 [Antonio Feijao UK](https://www.antoniofeijao.com/)
-
-<script src="/assets/js/demo-for-doms.js"></script>
