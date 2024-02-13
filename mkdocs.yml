@@ -1,0 +1,114 @@
+# Project information
+site_name: Antonio Feijao UK, Cyber Security Archictect, learning by doing.
+site_url: https://www.antoniofeijao.com/
+site_author: Antonio Feijao UK
+site_description: >-
+  Antonio Feijao UK, Cyber Security Architect @GenomicsEngland,
+  expertise and skills on AWS, Networking, Security, Infrastructure, CyberSecurity, Linux, MacOS, Python
+
+
+# Copyright
+copyright: Copyright &copy; 2024, <a href="https://www.antoniofeijao.com/">Antonio Feijao UK</a>. All rights reserved.
+
+theme:
+  name: material
+  logo: /assets/images/background/close-up-of-green-leaves-on-blurred-leaf-background-free-photo.jpeg
+  features:
+    #- navigation.instant
+    - navigation.tracking
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+  highlightjs: true
+  hljs_languages:
+      - yaml
+  shortcuts:
+      help: 72     # h ###help: 191    # ?
+      next: 78     # n
+      previous: 80 # p
+      search: 83   # s
+  navigation_depth: 4
+  language: en
+  palette: 
+    # Palette toggle for light mode
+    # - media: "(prefers-color-scheme: light)"
+    #   name: "color-scheme-light"
+    #   scheme: default
+    #   primary: black
+    #   accent: deep orange
+    #   toggle:
+    #     icon: material/lightbulb
+    #     name: Switch to dark mode
+    # Palette toggle for dark mode
+    # - media: "(prefers-color-scheme: dark)"
+      name: "color-scheme-dark"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      # toggle:
+      #   icon: material/lightbulb-outline
+      #   name: Switch to light mode
+  # font:
+  #   text: Roboto
+  #   code: Roboto Mono
+  font: false
+
+#extra_css:
+#  - /assets/css/hero-text-with-background-image.css
+
+#extra_javascript:
+#   - /assets/js/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/antoniofeijaouk
+   # - icon: fontawesome/brands/twitter 
+   #   link: https://twitter.com/AntonioFeijaoUK
+    - icon: fontawesome/brands/github
+      link: https://github.com/AntonioFeijaoUK
+    #- icon: fontawesome/brands/instagram
+    #  link: https://instagram.com/AntonioFeijaoUK
+      
+# plugins:
+#   - search:
+#     # lang: en
+#   - git-revision-date-localized:
+#       enable_creation_date: iso_datetime
+#       type: date
+#       enable_creation_date: true
+#       fallback_to_build_date: true
+  
+  
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+
+
+## Page tree
+# nav:
+#   - Home: index.md
+#   - Contact: contact.md
+#   - About: about.md
+#   # - sample:
+  #   - eventos/index.md
+  #   - exemplo-evento-1: eventos/exemplo-evento-1/index.md
+  #   - exemplo-evento-2: eventos/exemplo-evento-2/index.md
+  #   - exemplo-evento-3: eventos/exemplo-evento-3/index.md
+  #   - exemplo-evento-4: eventos/exemplo-evento-4/index.md
+  
