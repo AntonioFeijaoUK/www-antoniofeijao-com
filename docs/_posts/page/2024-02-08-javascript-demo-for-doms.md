@@ -31,7 +31,6 @@ Press the `Enter` key and should change to Fullscreen.
 
 <script src="/assets/js/demo-for-doms.js"></script>
 
-
 ---
 
 Happy learning,
