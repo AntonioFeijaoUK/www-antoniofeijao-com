@@ -89,6 +89,7 @@ plugins:
        blog_dir: .
        post_date_format: full
        post_url_format: "{categories}/{slug}"
+       post_url_max_categories: 3
   - search:
       enabled: true
       lang: en
