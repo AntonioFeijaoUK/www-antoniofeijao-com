@@ -67,12 +67,17 @@ theme:
 extra:
   generator: false
   social:
+    - icon: fontawesome/solid/house
+      link: https://www.antoniofeijao.com/
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/antoniofeijaouk
-   # - icon: fontawesome/brands/twitter 
-   #   link: https://twitter.com/AntonioFeijaoUK
     - icon: fontawesome/brands/github
       link: https://github.com/AntonioFeijaoUK
+    # - icon: fontawesome/brands/twitter 
+    #   link: https://twitter.com/AntonioFeijaoUK
+   
+    # - icon: fontawesome/brands/twitter 
+    #   link: https://twitter.com/AntonioFeijaoUK
     #- icon: fontawesome/brands/instagram
     #  link: https://instagram.com/AntonioFeijaoUK
 
