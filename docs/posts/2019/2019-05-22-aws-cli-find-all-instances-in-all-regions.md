@@ -1,4 +1,5 @@
 ---
+date: 2019-05-22
 categories:
     - AWS
     - Linux
@@ -7,6 +8,8 @@ tags:
     - ec2
     - command-line
 ---
+
+# aws-cli-find-all-instances-in-all-regions
 
 Lists all ec2 instances in all regions including account owner, instance id, instance type, statues and region.
 
