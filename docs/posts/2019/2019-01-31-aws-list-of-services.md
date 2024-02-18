@@ -1,4 +1,5 @@
 ---
+date: 2019-01-31
 categories:
     - AWS
     - Services
@@ -8,6 +9,8 @@ tags:
     - cloud
     - services
 ---
+
+# aws-list-of-services.md
 
 Simple way to get a list of  AWS Services.
 As of `$ date +%Y-%B-%d, 2019-November-26` there are `206` service. Checked by using `wc -c` command at the end of the below script.
