@@ -1,4 +1,5 @@
 ---
+date: 2019-01-31
 categories:
     - AWS
     - Linux
@@ -7,6 +8,8 @@ tags:
     - linux
     - dns
 ---
+
+# linux-dig-troubleshooting-dns-records-and-domain
 
 Sample usage of Linux dig command for dns troubleshooting
 
