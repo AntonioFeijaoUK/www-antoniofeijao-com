@@ -75,15 +75,17 @@ extra:
       link: https://github.com/AntonioFeijaoUK
     #- icon: fontawesome/brands/instagram
     #  link: https://instagram.com/AntonioFeijaoUK
+
       
-# plugins:
-#   - search:
-#     # lang: en
-#   - git-revision-date-localized:
-#       enable_creation_date: iso_datetime
-#       type: date
-#       enable_creation_date: true
-#       fallback_to_build_date: true
+plugins:
+  - blog
+  - search:
+    lang: en
+  - git-revision-date-localized:
+    enable_creation_date: iso_datetime
+    type: date
+    enable_creation_date: true
+    fallback_to_build_date: true
   
   
 
