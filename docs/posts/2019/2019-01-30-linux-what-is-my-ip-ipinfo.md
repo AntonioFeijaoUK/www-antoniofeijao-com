@@ -1,4 +1,5 @@
 ---
+date: 2019-01-30
 categories:
     - Linux
     - Webpage
@@ -10,7 +11,7 @@ tags:
     - networking
 ---
 
-Linux Public IP
+# linux-what-is-my-ip-ipinfo
 
 * <https://ipinfo.io/json>
 
