@@ -1,4 +1,5 @@
 ---
+date: 2019-01-31
 categories:
     - AWS
     - Linux
@@ -8,6 +9,8 @@ tags:
     - s3
     - bash
 ---
+
+# s3-copy-sync-filter-files
 
 S3 cp sync exclude include
 
