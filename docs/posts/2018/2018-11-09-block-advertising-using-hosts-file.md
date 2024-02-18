@@ -1,4 +1,6 @@
 ---
+title: block-advertising-using-hosts-file
+date: 2018-11-09
 categories:
     - Linux
     - Security
