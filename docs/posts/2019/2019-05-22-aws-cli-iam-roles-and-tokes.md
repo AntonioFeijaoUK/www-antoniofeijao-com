@@ -1,4 +1,5 @@
 ---
+date: 2019-05-22
 categories:
     - AWS 
     - Security
@@ -9,6 +10,8 @@ tags:
     - authentication
     - linux
 ---
+
+# aws-cli-iam-roles-and-tokes
 
 AWS cli IAM roles and tokens
 
