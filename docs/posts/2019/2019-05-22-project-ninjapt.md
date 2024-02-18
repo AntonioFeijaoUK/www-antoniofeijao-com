@@ -1,4 +1,5 @@
 ---
+date: 2019-05-22
 categories:
   - AWS
   - Linux
@@ -13,11 +14,15 @@ tags:
   - migration
 ---
 
-Ninja.pt
+# project-ninjapt
+
+`Ninja.pt`
 
 Recovery and decoupling of Linux Centos with MySQL Database and WikiMedia articles.
 
-Decouple of
-  `Linux Server`
-  `MySQL database`
-  `Wikimedia articles`
+Decouple of:
+
+* `Linux Server`
+* `MySQL database`
+* `Wikimedia articles`
+  
