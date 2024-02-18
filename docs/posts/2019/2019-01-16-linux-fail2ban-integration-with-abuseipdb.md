@@ -1,4 +1,5 @@
 ---
+date: 2019-01-16
 categories:
     - Linux
     - Security
@@ -8,6 +9,8 @@ tags:
     - internet
     - advertising
 ---
+
+# linux-fail2ban-integration-with-abuseipdb
 
 Making the internet safer, one IP at a time
 
