@@ -75,7 +75,6 @@ extra:
       link: https://github.com/AntonioFeijaoUK
     # - icon: fontawesome/brands/twitter 
     #   link: https://twitter.com/AntonioFeijaoUK
-   
     # - icon: fontawesome/brands/twitter 
     #   link: https://twitter.com/AntonioFeijaoUK
     #- icon: fontawesome/brands/instagram
@@ -88,6 +87,8 @@ plugins:
   - blog:
        enabled: true
        blog_dir: .
+       post_date_format: full
+       post_url_format: "{categories}/{slug}"
   - search:
       enabled: true
       lang: en
