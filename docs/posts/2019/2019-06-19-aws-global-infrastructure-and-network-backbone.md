@@ -1,4 +1,5 @@
 ---
+date: 2019-06-19
 categories:
     - AWS
     - Training
@@ -7,6 +8,8 @@ tags:
     - cloud
     - training
 ---
+
+# aws-global-infrastructure-and-network-backbone
 
 AWS Global Infrastructure
 
