@@ -1,4 +1,5 @@
 ---
+date: 2019-12-25
 categories:
     - Python-3
     
@@ -7,6 +8,8 @@ tags:
     - christmas
     - coding
 ---
+
+# python3-merry-christmas
 
 Python 3 prints `Merry Christmas Everyone!`
 
