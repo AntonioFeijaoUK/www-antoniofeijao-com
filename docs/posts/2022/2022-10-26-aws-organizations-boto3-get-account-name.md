@@ -1,4 +1,5 @@
 ---
+date: 2022-10-26
 title: "AWS Organisation get only the account name from the account id"
 #layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
