@@ -1,4 +1,5 @@
 ---
+date: 2023-07-21
 title: "AWS boto3 credentials, boto session and  boto3 available clients in python for the region the session was created."
 #layout: splash
 #excerpt_separator: <!--more-->
