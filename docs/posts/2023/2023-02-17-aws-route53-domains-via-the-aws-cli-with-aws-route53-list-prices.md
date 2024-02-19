@@ -1,4 +1,5 @@
 ---
+date: 2023-02-17
 title: "AWS Route53 Domains via the AWS CLI with aws route53 list-prices"
 #layout: splash
 excerpt_separator: <!--more-->
