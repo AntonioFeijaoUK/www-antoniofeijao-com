@@ -1,6 +1,6 @@
 ---
 date: 2024-02-18
-title:lime-linux-ubuntu-step-by-step.md
+title: "lime-linux-ubuntu-step-by-step"
 ---
 
 [LiME](https://github.com/504ensicsLabs/LiME/) on Ubuntu Linux, live memory capture.
