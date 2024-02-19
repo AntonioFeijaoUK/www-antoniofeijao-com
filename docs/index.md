@@ -22,4 +22,4 @@ If any of my knowledge share notes helped you, please consider buying me a coffe
 
 ## blog posts
 
-**Opinions are my**
+**Opinions are my own**
