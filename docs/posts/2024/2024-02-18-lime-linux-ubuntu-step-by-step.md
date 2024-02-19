@@ -1,6 +1,6 @@
 ---
-title:
-lime-linux-ubuntu-step-by-step.md
+date: 2024-02-18
+title:lime-linux-ubuntu-step-by-step.md
 ---
 
 [LiME](https://github.com/504ensicsLabs/LiME/) on Ubuntu Linux, live memory capture.
@@ -19,9 +19,9 @@ sources and learning material:
 
 ## LiME step by step
 
-My adaptation for manually testing [LiME](https://github.com/504ensicsLabs/LiME/) in step-by-step method.
+My adaptation for manually testing [LiME](https://github.com/504ensicsLabs/LiME/) in a step-by-step method.
 
-**USE AT YOUR OWN RISK**
+**USE AT YOUR RISK**
 
 ```bash
 ## check if LiME is installed
