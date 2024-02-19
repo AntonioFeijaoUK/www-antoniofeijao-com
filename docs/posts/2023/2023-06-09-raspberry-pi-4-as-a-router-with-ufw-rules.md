@@ -1,4 +1,5 @@
 ---
+date: 2023-06-09
 title: "Raspberry Pi 4 as a router with ufw rules"
 #layout: splash
 #excerpt_separator: <!--more-->
