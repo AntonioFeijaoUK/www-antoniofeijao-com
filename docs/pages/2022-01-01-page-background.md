@@ -16,7 +16,7 @@ Sample backgrounds...
 
 
 
-![gebhartyler-AQpOwYbm_Jg-unsplash (gebhartyler-AQpOwYbm_Jg-unsplash)](/assets/images/gebhartyler-AQpOwYbm_Jg-unsplash.jpeg)
+![gebhartyler-AQpOwYbm_Jg-unsplash (gebhartyler-AQpOwYbm_Jg-unsplash)](../assets/images/gebhartyler-AQpOwYbm_Jg-unsplash.jpeg)
 
 [link to original site and file - gebhartyler-AQpOwYbm_Jg-unsplash](https://unsplash.com/photos/AQpOwYbm_Jg)
 
