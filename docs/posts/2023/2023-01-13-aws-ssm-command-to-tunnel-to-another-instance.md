@@ -1,4 +1,5 @@
 ---
+date: 2023-01-13
 title: "AWS SSM command to tunnel proxy network traffic to another remote instance"
 #layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
