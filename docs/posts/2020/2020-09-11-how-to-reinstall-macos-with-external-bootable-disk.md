@@ -1,5 +1,5 @@
 ---
-title: How to reinstall MacOS with external bootable disk
+title: How to reinstall MacOS with an external bootable disk
 
 date: 2020-09-11
 last_modified_at: 2022-10-26-23:03:00
@@ -18,19 +18,19 @@ tags:
 ---
 
 * Update 2022-10
-    > Apple now has a page with download to all version in here [https://support.apple.com/en-gb/HT211683](https://support.apple.com/en-gb/HT211683)
+    > Apple now has a page with download to all versions in here [https://support.apple.com/en-gb/HT211683](https://support.apple.com/en-gb/HT211683)
     > "Apple recommends using the latest (newest) macOS that is compatible with your Mac"
 
 
-How to reinstall MacOS with external bootable disk installer for Mac operating system. **macOS Catalina, macOS Mojave, or macOS High Sierra**. You can use an external drive or secondary volume as a startup disk from which to install the Mac operating system.
+How to reinstall MacOS with an external bootable disk installer for Mac operating system. **macOS Catalina, macOS Mojave, or macOS High Sierra**. You can use an external drive or secondary volume as a startup disk from which to install the Mac operating system.
 
-This article was inspired after I helped a friend recover their Mac operating system and documents. Having an external drive with macOS really help and did a quick install. ![external-disk-with-various-macOS-versions](/assets/images/external-disk-with-various-macOS-versions.jpg "external-disk-with-various-macOS-versions")
-
-
-After installing from an offline version, do run the Apple software update to get the latest updates and version. You can also run from the command line `sudo softwareupdate -ai`.
+This article was inspired after I helped a friend recover their Mac operating system and documents. Having an external drive with macOS help and did a quick install. ![external-disk-with-various-macOS-versions](/assets/images/external-disk-with-various-macOS-versions.jpg "external-disk-with-various-macOS-versions")
 
 
-The purporse of this post is to share the links from [support.apple.com](https://support.apple.com/) for the instalations of the various Mac operating system versions.
+After installing from an offline version, do run the Apple software update to get the latest updates and versions. You can also run from the command line `sudo softwareupdate -ai`.
+
+
+The purpose of this post is to share the links from [support.apple.com](https://support.apple.com/) for the installation of the various Mac operating system versions.
 
 ---
 
@@ -71,7 +71,7 @@ The purporse of this post is to share the links from [support.apple.com](https:/
 ---
 
 
-Always have a backup of your data. Use at your own responsability and happy learnings,
+Always have a backup of your data. Use at your own responsibility and happy learning,
 
 
 ---
