@@ -1,8 +1,8 @@
 ---
-title: How to reinstall MacOS with an external bootable disk
-
 date: 2020-09-11
 last_modified_at: 2022-10-26-23:03:00
+
+title: How to reinstall MacOS with an external bootable disk
 
 categories:
     - macOS
