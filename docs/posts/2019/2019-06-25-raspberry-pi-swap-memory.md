@@ -1,4 +1,5 @@
 ---
+date: 2019-06-25
 categories:
     - Linux
     - Raspberry-Pi
@@ -6,6 +7,8 @@ tags:
     - linux
     - raspberry-pi
 ---
+
+# raspberry-pi-swap-memory
 
 Raspberry Pi increase the swap memory size
 
