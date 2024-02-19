@@ -1,4 +1,5 @@
 ---
+date: 2023-12-29
 title: "Linux dnsmasq options, dns-server and more"
 #layout: splash
 #excerpt_separator: <!--more-->
