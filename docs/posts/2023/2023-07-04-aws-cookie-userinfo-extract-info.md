@@ -1,4 +1,5 @@
 ---
+date: 2023-07-04
 title: "AWS userInfo cookie extra account and username or role information"
 #layout: splash
 #excerpt_separator: <!--more-->
