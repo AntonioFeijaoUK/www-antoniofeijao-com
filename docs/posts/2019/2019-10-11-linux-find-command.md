@@ -1,4 +1,5 @@
 ---
+date: 2019-10-11
 categories:
     - Linux
 tags:
@@ -6,6 +7,8 @@ tags:
     - security
     - bash
 ---
+
+# linux-find-command
 
 Linux find command
 
