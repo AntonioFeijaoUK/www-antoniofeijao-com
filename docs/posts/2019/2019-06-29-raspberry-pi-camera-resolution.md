@@ -1,4 +1,5 @@
 ---
+date: 2019-06-29
 categories:
     - Linux
     - Raspberry-Pi
@@ -9,6 +10,8 @@ tags:
     - bash
     - shell-scripting
 ---
+
+# raspberry-pi-camera-resolution
 
 Linux command lsusb
 
