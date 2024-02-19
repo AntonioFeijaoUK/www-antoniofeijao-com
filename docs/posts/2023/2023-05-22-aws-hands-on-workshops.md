@@ -1,4 +1,5 @@
 ---
+date: 2023-05-22
 title: "AWS hands-on self-paced workshops"
 #layout: splash
 #excerpt_separator: <!--more-->
