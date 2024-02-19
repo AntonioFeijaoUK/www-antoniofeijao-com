@@ -20,7 +20,7 @@ The `Raspberry Pi` will automatically connect to your wifi and the `ssh tcp/22` 
 
 No need for a monitor to be connected to the `Raspberry Pi`.
 
-Using the laptop or desktop, in the command line, the `dd`command will copy the [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/) into the microSD card.
+Using the laptop or desktop, in the command line, the `dd` command will copy the [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/) into the microSD card.
 
 After the `dd` command, 2 files need to be added to the `/boot` folder in the microSD card.
 
@@ -43,7 +43,7 @@ psk="MY_WIFI_PASSWORD"
 ```
 
 !!!NOTE
-    If you have multiple `wlan interfaces`, you can use one file per interface, example `wpa_supplicant-wlan1.conf`
+    If you have multiple `wlan interfaces`, you can use one file per interface, for example `wpa_supplicant-wlan1.conf`
 
 
 ---
@@ -66,7 +66,7 @@ psk="MY_WIFI_PASSWORD"
   
   ![unmount micro sd card to install raspberry pi](/assets/images/unmount-micro-sd-card-to-install-raspberry-pi.jpg)
 
-> **IMPORTANT** - the `dd` command will `delete everything in the microSD card` - make sure you know what you are doing! Otherwise stop here or follow the official guidance [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
+> **IMPORTANT** - the `dd` command will `delete everything in the microSD card` - make sure you know what you are doing! Otherwise, stop here or follow the official guidance [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md).
 
 I am using the `dd` command.
 
@@ -83,9 +83,9 @@ dd bs=1m if=2020-08-20-raspios-buster-armhf-lite.img of=/dev/rdisk2; sync
 
 ### Step 4 - add files into the boot folder
 
-After the copy, the first partition in the microSD card, is usualy automatically mounted `/boot`.
+After the copy, the first partition in the microSD card is usually automatically mounted `/boot`.
 
-Now, all I need to do, is to copy the files that I already have on my laptop into this `/boot` folder.
+Now, all I need to do is to copy the files that I already have on my laptop into this `/boot` folder.
 
 I just have to `drag-and-drop` (or `copy` and `paste`) then into the `/boot` folder.
 
@@ -127,7 +127,7 @@ Now, eject the microSD card from your laptop, put it in the Raspberry Pi and on 
 
 To connect via `ssh` you need to find the `ip address` that was allocated to the Raspberry Pi.
 
-Usually, you can easy find the `ip address` in your `home router` connected devices.
+Usually, you can easily find the `ip address` in your `home router` connected devices.
 
 Alternativelly, if you have [nmap](https://en.wikipedia.org/wiki/Nmap) installed your your laptop (or on another Raspberry Pi), you can `scan` your network for devices with `tcp/ssh port 22` open.
 
