@@ -1,4 +1,5 @@
 ---
+date: 2019-08-08
 categories:
     - AWS
     - Linux
@@ -8,6 +9,8 @@ tags:
     - linux
     - security
 ---
+
+# aws-cloudwatch-logs-cloudtrail-logs-filters-sample
 
 AWS VPC flowlogs CloudWatch logs CloudTrail logs and filters examples
 
