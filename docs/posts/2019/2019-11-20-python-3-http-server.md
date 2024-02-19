@@ -12,6 +12,8 @@ tags:
     - dns
 ---
 
+# python-3-http-server
+
 A quick and simple way to start a webserver on the current directory with `Python 3` using module `http.server`
 
 
