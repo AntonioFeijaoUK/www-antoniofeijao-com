@@ -1,4 +1,5 @@
 ---
+date: 2019-06-05
 categories:
     - Python-3
     - Linux
@@ -10,6 +11,8 @@ tags:
     - bash
     - shell-scripting
 ---
+
+# python3-learning
 
 Python 3 learning for the first time
 
