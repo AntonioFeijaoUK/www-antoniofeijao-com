@@ -15,6 +15,8 @@ tags:
     
 ---
 
+# practice-python-3-with-the-fibonacci-sequence
+
 Learn Python with a simple "do it yourself" challenges. I went to bed thinking "how could I do the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) without looking on the internet. Next day, getting python skills into practice, I came up with the below basic python code:
 
 <script src="https://gist.github.com/AntonioFeijaoUK/bd55d7129eb404720aa4e5b414f1cc5c.js"></script>
