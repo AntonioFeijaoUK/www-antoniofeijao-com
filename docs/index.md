@@ -3,16 +3,21 @@ title: "Home"
 # search:
 #   exclude: true
 
-hide:
-  - navigation
-  - toc
-  #- footer
+#hide:
+#  - navigation
+#  - toc
+#  #- footer
 ---
 
-<div class="hero-text">
-    <h1 style="font-size:2.0rem;"><strong>AntonioFeijao.com</strong></br>
-    learning by doing</h1>
-    <h2>opinions are my own</h2>
-</div>
+##  Antonio Feijao UK
 
-<div class="hero-image"></div>
+Learning by doing!
+    
+**Opinions are my**
+
+If any of my knowledge share notes helped you, please consider buying me a coffee :)
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+<script type='text/javascript'>kofiwidget2.init('Buy-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script> 
+
+---
