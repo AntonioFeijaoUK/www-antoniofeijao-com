@@ -1,4 +1,5 @@
 ---
+date: 2019-09-15
 categories:
     - Linux
     - Coding
@@ -7,6 +8,8 @@ tags:
     - coding
     - vim
 ---
+
+# vim and vimrc file options
 
 vimrc file options
 
