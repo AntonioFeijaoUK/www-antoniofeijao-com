@@ -1,7 +1,7 @@
 ---
-title: Level of IQ of the smartest people on Earth
 date: 2020-04-11
-last_modified_at: 2020-04-12
+last_modified_at: 2024-02-19
+title: Level of IQ of the smartest people on Earth
 categories:
     - Knowledge
     - Science
@@ -13,7 +13,7 @@ tags:
     - smart
 ---
 
-See this list of the smartest people ever on Earth, listed by their level of IQ! With links to Wikipedia to read more about these genius. Purpose of this list is to inspire others and myself. `Smartness` will be determined by IQ number. IQ does not really calculate intelligence. Someone who does badly at IQ tests can be brilliant at other things, like arts, playing music, dancing.
+See this list of the smartest people ever on Earth, listed by their level of IQ! With links to Wikipedia to read more about these genius. The purpose of this list is to inspire others and myself. `Smartness` will be determined by IQ number. IQ does not calculate intelligence. Someone who does badly at IQ tests can be brilliant at other things, like arts, playing music, and dancing.
 
 ---
 
@@ -29,8 +29,8 @@ See this list of the smartest people ever on Earth, listed by their level of IQ!
 - Died 14 March 2018 (aged 76), Cambridge, England, United Kingdom
 
 - `1 in 10.000` people have his IQ
-- Discovered many things about black holes, like black holes could actually die by leaking energy
-- Working with other scientists, we invented important theories about the Big-Bang
+- Discovered many things about black holes, like black holes could die by leaking energy
+- Working with other scientists, we invented important theories about the Big Bang
 
 ---
 
