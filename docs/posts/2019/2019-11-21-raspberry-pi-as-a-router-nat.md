@@ -1,4 +1,5 @@
 ---
+date: 2019-11-21
 categories:
     - Linux
     - Raspberry-Pi
@@ -9,10 +10,11 @@ tags:
     - networking
 ---
 
+# raspberry-pi-as-a-router-nat
+
 Transform to run as a router and NAT device
 
-
-Finally! This project is now documented here - <https://antonio.cloud/projects/linux/raspberry-pi/raspberry-pi-router-access-point-dns-block-ads-vpn/>
+~~Finally! This project is now documented here - <https://antonio.cloud/projects/linux/raspberry-pi/raspberry-pi-router-access-point-dns-block-ads-vpn/>~~
 
 
 !!!important
