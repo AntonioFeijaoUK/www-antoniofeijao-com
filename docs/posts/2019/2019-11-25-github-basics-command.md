@@ -1,4 +1,5 @@
 ---
+date: 2019-11-25
 categories:
     - Coding
     - Linux
@@ -9,6 +10,8 @@ tags:
     - coding
     - github
 ---
+
+# github-basics-command
 
 Github `git` basic commands
 
