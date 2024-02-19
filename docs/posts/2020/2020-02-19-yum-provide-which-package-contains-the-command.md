@@ -14,6 +14,8 @@ tags:
     - wireshark
 ---
 
+# yum-provide-which-package-contains-the-command
+
 See how to find the package you will need to install for the command you are looking for. Example, I was looking for the `tshark` command, but a simple `yum search tshark` was not returning any results. See how I found the linux command.
 
 I ran this on a EC2 instances `Amazon Linux v2`, I wanted to run the command `tshark` but this was not available.
