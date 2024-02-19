@@ -1,4 +1,5 @@
 ---
+date: 2019-05-29
 categories:
     - Linux
     - Raspberry-Pi
@@ -11,6 +12,8 @@ tags:
     - electronics
     - raspberry-pi
 ---
+
+# raspberry-pi-stranger-things-alphabet-wall-lights
 
 Stranger Things Alphabet Wall Lights with Raspberry Pi Python 3 and Neopixels
 
