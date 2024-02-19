@@ -1,4 +1,5 @@
 ---
+date: 2022-03-18
 title: Python3 start learning first commands
 categories: ["Python3", "Learning", "first-commands"]
 tags:       ["python", "python3", "learning", "first-command"]
