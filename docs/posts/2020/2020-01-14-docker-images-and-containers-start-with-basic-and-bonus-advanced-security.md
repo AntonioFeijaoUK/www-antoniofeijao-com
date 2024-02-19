@@ -1,4 +1,5 @@
 ---
+date: 2020-01-14
 categories:
     - Training
     - AWS
@@ -13,6 +14,8 @@ tags:
     - security
     - best-practices
 ---
+
+# docker-images-and-containers-start-with-basic-and-bonus-advanced-security
 
 Docker images and containers start with basic and bonus advanced security ![Docker logo](https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png)
 
