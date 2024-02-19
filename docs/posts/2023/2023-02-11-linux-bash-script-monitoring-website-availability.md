@@ -1,4 +1,5 @@
 ---
+date: 2023-02-11
 title: "Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"
 #layout: splash
 excerpt_separator: <!--more-->
