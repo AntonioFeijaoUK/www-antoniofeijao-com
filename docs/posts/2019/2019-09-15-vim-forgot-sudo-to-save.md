@@ -1,4 +1,5 @@
 ---
+date: 2019-09-15
 categories:
     - Linux
     
@@ -8,6 +9,8 @@ tags:
     - sudo
     - root
 ---
+
+# vim-forgot-sudo-to-save
 
 vim and forgot to sudo and now?
 
