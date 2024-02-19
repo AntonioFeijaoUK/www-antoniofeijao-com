@@ -1,4 +1,5 @@
 ---
+date: 2019-10-08
 categories:
     - Linux
     - Security
@@ -7,6 +8,8 @@ tags:
     - security
     - bash
 ---
+
+# clamav-linux-free-antivuris-scan
 
 Linux Clam AntiVirus ClamAV
 
