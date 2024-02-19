@@ -1,4 +1,5 @@
 ---
+date: 2022-10-06
 title: "HACKING GOOGLE"
 categories: ["Google", "Hacking", "Learning"]
 tags:       ["hacker", "security", "learning"]
