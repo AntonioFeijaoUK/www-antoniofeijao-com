@@ -1,5 +1,5 @@
 # Project information
-site_name: Antonio Feijao UK, Cyber Security Architect, learning by doing.
+site_name: "Antonio Feijao UK, Cyber Security Architect, learning by doing."
 site_url: https://www.antoniofeijao.com/
 site_author: Antonio Feijao UK
 site_description: >-
@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2024, <a href="https://www.antoniofeijao.com/">Anton
 theme:
   name: material
   favicon: /favicon.ico
-  logo: https://www.antoniofeijao.com/assets/images/Antonio-Feijao-UK.jpeg
+  logo: assets/images/Antonio-Feijao-UK.jpeg
   features:
     #- navigation.instant
     - navigation.tracking
