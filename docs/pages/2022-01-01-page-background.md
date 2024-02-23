@@ -6,9 +6,6 @@ layout: single
 
 excerpt: "Background images..."
 
-sitemap: false
-
-categories: ["Page"]
 ---
 
 Sample backgrounds...
