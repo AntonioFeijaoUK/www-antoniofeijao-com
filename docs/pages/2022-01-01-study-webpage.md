@@ -1,7 +1,11 @@
 ---
 title: "Webpage with links to study material and other websites"
 permalink: /study/
-categories: ["Page"]
+tags:
+  - study
+  - "cyber-security"
+  - security
+  - training
 ---
 
 Webpage with links to study material and other websites
