@@ -1,12 +1,13 @@
 ---
 date: 2024-01-31
-title: "About Antonio Feijao UK"
-slug: /about/
+title: "about"
 categories:
     - about
 tags:
     - about
 ---
+
+## About Antonio Feijao UK
 
 `Antonio Feijao` or `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
@@ -61,8 +62,6 @@ tags:
     </div>
 </div>
 
-## about-me
-
 - Portuguese-Portugal.
 - passionate about Linux, networking, cyber-security, electronics, space physics, physics exploration, time travel and the dinosaurs.
 - prefer outdoors, running, swimming, snowboarding, skiing, motorbikes, tough mudder...
@@ -73,6 +72,7 @@ tags:
 
 More about what I do on my website - <https://www.AntonioFeijao.com/>
 
+---
 
 ## what-i-do
 
