@@ -1,6 +1,6 @@
 ---
 title: "Inspirational and Motivational Quotes to Inspire You to Be Successful"
-permalink: /quotes/
+slug: quotes
 
 author_profile: true
 
