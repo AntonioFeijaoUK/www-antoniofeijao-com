@@ -2,11 +2,13 @@
 date: 2024-01-31
 title: "About Antonio Feijao UK"
 slug: about
+categories:
+    - about
 tags:
     - about
 ---
 
-`Antonio Feijao` is also known as `Antonio Feijao UK`, Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). Expertise in `AWS Infrastructure Architect`, and `Cyber Security Architect`, with AWS Advanced Cloud Networking, AWS Security Specialism, and AWS Cloud Professional Architect.
+`Antonio Feijao` or `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
 <style>
     .container {
@@ -76,9 +78,9 @@ More about what I do on my website - https://www.AntonioFeijao.com/
 
 Currently working as `AWS Infrastructure Architect` and `Cyber Security Architect` at [Genomics England](https://www.genomicsengland.co.uk/).
 
-My role is focused on enabling other squads creating applications in the genomic healthcare space to accelerate genomic research.
+My role is focused on enabling other squads to create applications in the genomic healthcare space to accelerate genomic research.
 
-My role is also focused on enabling other squads creating applications in a security infrastructure.
+My role is also focused on enabling other squads to create applications in a security infrastructure.
 
 ---
 
@@ -111,9 +113,9 @@ also studying for certifications of
 
 * [ippsec](https://www.youtube.com/@ippsec/videos) - `@ippsec` from `HackTheBox`
 
-* #SecurityNow with Mr `Steve Gibson` from `Gibson research corporation` at [[grc.com](https://www.grc.com)]  
+* #SecurityNow with Mr `Steve Gibson` from `Gibson Research Corporation` at [grc.com](https://www.grc.com)
     * (https://www.grc.com) - [https://www.grc.com/securitynow.htm](https://www.grc.com/securitynow.htm)
-    * [[twit.tv/shows/security-now](https://twit.tv/shows/security-now)](https://twit.tv/shows/security-now)
+    * [twit.tv/shows/security-now](https://twit.tv/shows/security-now)
     * [https://www.youtube.com/@securitynow/videos](https://www.youtube.com/@securitynow/videos)
 
 * [TCM Security Academy](https://academy.tcm-sec.com/)
