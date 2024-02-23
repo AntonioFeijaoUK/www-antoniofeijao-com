@@ -1,6 +1,6 @@
 ---
 date: 2024-01-31
-title: "about"
+title: "About"
 categories:
     - about
 tags:
