@@ -1,11 +1,7 @@
 ---
 title: "Background images"
 permalink: /background/
-
-layout: single
-
 excerpt: "Background images..."
-
 ---
 
 Sample backgrounds...
