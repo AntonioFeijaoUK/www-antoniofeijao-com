@@ -1,6 +1,6 @@
 ---
 title: "Webpage with links to study material and other websites"
-permalink: /study/
+slug: study
 tags:
   - study
   - "cyber-security"
