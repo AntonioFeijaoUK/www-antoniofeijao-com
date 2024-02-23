@@ -1,9 +1,8 @@
 ---
 title: Work experience Antonio Feijao AWS Linux and Cyber Security certifications
 permalink: /experience/
-
-categories:
-    - Page
+tags:
+    - experience
 ---
 
 ## Experience
