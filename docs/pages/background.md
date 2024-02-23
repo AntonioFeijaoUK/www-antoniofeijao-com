@@ -1,7 +1,11 @@
 ---
-title: "background"
-slug: /background2/
-excerpt: "Background images..."
+title: "Sample background"
+categories:
+  - background
+  - images
+tags:
+  - background
+  - images
 ---
 
 Sample backgrounds...
