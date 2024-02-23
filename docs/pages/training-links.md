@@ -1,6 +1,5 @@
 ---
 title: "training"
-slug: /training2/
 toc: false
 toc_sticky: true
 toc_label: "training"
