@@ -1,6 +1,5 @@
 ---
-title: "Inspirational and Motivational Quotes to Inspire You to Be Successful"
-slug: quotes
+title: "quotes"
 
 author_profile: true
 
@@ -27,7 +26,7 @@ tags:
     - inspirational
 ---
 
-On this page, find inspirational and motivational quotes to inspire you to be successful.
+On this page, find inspirational and motivational quotes to, maybe, inspire you!
 
 - Quotes by [Albert Einstein](#inspirational-and-motivational-quotes-by-albert-einstein)
 - Quotes by [Jeffrey Preston Bezos](#inspirational-and-motivational-quotes-by-jeff-bezos)
