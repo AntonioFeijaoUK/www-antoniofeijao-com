@@ -1,9 +1,12 @@
 ---
 title: "Javascript demo for Doms"
-permalink: /doms/
+slug: doms
+categories:
+    - javascript
+    - demos
 tags:
-    - Page
-    - Javascript
+    - javascript
+    - demos
 ---
 
 <div id="main_frame"></div>
