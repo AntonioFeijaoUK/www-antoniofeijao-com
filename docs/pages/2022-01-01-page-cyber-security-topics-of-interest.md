@@ -1,11 +1,6 @@
 ---
-title: Cyber Security topics of interest
-
-#permalink: /about2/
-
-#layout: splash
-
-categories: ["Cyber-Security", "Study", "Page"]
+title: "Cyber Security and topics of interest"
+permalink: /topics-of-interest/
 tags:       ["aws", "cyber" , "security", "study"]
 ---
 
