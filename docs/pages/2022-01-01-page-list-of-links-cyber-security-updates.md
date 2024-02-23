@@ -21,10 +21,7 @@ header:
     - label: "Antonio Feijao UK"
       url: "https://www.antoniofeijao.com"
 
-
-categories: ["Page", "Cyber-Security", "IT-Security"]
 tags: [ "cyber", "security"]
-
 ---
 
 This page will be always >> work in progress <<. List of links for websites with updates on Cyber Security and other knowledges areas on Computer Science Knowledge.
