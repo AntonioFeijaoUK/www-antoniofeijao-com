@@ -1,6 +1,5 @@
 ---
 title: "Cyber Security and topics of interest"
-slug: topics-of-interest
 tags: ["aws", "cyber" , "security", "study"]
 ---
 
