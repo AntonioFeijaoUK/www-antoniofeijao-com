@@ -12,7 +12,8 @@ copyright: Copyright &copy; 2024, <a href="https://www.antoniofeijao.com/">Anton
 
 theme:
   name: material
-  #logo: ../../assets/images/gebhartyler-AQpOwYbm_Jg-unsplash.jpeg
+  favicon: /favicon.ico
+  logo: /assets/images/Antonio-Feijao-UK.jpeg
   features:
     #- navigation.instant
     - navigation.tracking
