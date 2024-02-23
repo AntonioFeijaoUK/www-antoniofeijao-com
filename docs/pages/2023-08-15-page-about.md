@@ -1,8 +1,6 @@
 ---
-title: About Antonio Feijao UK
+title: "About Antonio Feijao UK"
 permalink: /about/
-layout: splash
-categories: ["Page"]
 ---
 
 `Antonio Feijao` is also known as `Antonio Feijao UK`, Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). Expertise in `AWS Infrastructure Architect`, and `Cyber Security Architect`, with AWS Advanced Cloud Networking, AWS Security Specialism, and AWS Cloud Professional Architect.
