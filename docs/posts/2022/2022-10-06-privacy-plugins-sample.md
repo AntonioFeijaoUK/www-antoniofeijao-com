@@ -1,14 +1,12 @@
 ---
 date: 2022-10-06
 title: "Privacy plugins sample"
-#layout: splash
 excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 permalink: /plugins/
-categories: ["Browser", "Privacy", "Plugins"]
 tags:       ["security", "privacy", "browser"]
 ---
 
-Sample of some privacy plugins that can be used in [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/) and possible other browsers.
+Sample of some privacy plugins that can be used in [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/) and possibly other browsers.
 
 Also, look at the browser [Brave](https://brave.com/), which has built-in privacy features.
 
