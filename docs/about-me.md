@@ -1,5 +1,4 @@
 ---
-date: 2024-01-31
 title: "About"
 categories:
     - about
