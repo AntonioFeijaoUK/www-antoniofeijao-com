@@ -1,6 +1,6 @@
 ---
 title: Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
-permalink: /contact/
+slug: contact
 ---
 
 Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
