@@ -1,12 +1,10 @@
 ---
 title: "AWS online training source materials"
-permalink: /training/
-
+slug: training
 toc: false
 toc_sticky: true
 toc_label: "training"
 toc_icon: "address-card"
-
 tags: ["online", "training", "cloud", "aws", "security", "best practices", "workshops"]
 ---
 
