@@ -1,13 +1,15 @@
 ---
-title: Contact Antonio Feijao AWS Linux and Cyber Security certifications
+title: Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
 permalink: /contact/
 ---
+
+Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
 
 ## Contact
 
 LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.com/in/AntonioFeijaoUK)
 
-Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)
+~~Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)~~
 
 Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
 
