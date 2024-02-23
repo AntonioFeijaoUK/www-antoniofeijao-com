@@ -18,11 +18,6 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   image_description: "Inspirational and Motivational Quotes to Inspire You to Be Successful by Albert Einstein and Jeffrey Preston Bezos."
   caption: "Photo credit: [wikipedia.org](https://en.wikipedia.org/wiki/Albert_Einstein)."
-
-categories:
-    - Page
-    - Quotes
-    - Motivation
     
 tags:
     - Albert Einstein
@@ -34,11 +29,11 @@ tags:
 
 On this page, find inspirational and motivational quotes to inspire you to be successful.
 
-- Qoutes by [Albert Einstein](#inspirational-and-motivational-quotes-by-albert-einstein)
+- Quotes by [Albert Einstein](#inspirational-and-motivational-quotes-by-albert-einstein)
 - Quotes by [Jeffrey Preston Bezos](#inspirational-and-motivational-quotes-by-jeff-bezos)
 
 
-Follow these below links into the Wikipedia to learn more about:
+Follow the below links into Wikipedia to learn more about:
 
   - [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein)
   - [Jeffrey Preston Bezos](https://en.wikipedia.org/wiki/Jeff_Bezos)
@@ -68,7 +63,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 > All religions, arts and sciences are branches of the same tree.
 
-> A hundred times every day I remind myself that my inner and outer life are based on the labors of other men, living and dead, and that I must exert myself in order to give in the same measure as I have received and am still receiving.
+> A hundred times every day I remind myself that my inner and outer life are based on the labours of other men, living and dead, and that I must exert myself in order to give in the same measure as I have received and am still receiving.
 
 > A man should look for what is, and not for what he thinks should be.
 
@@ -198,7 +193,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 > The killer app that got the world ready for appliances was the light bulb. So the light bulb is what wired the world. And they weren't thinking about appliances when they wired the world. They were really thinking about - they weren't putting electricity into the home. They were putting lighting into the home.
 
-> What we want to be is something completely new. There is no physical analog for what Amazon.com is becoming.
+> What we want to be is something completely new. There is no physical analogue for what Amazon.com is becoming.
 
 > The special ops guys and the firefighters around the world have this great phrase. They say, 'Slow is smooth, and smooth is fast,' and that is true. Everything I've accomplished in my life has been because of that attitude.
 
@@ -208,7 +203,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 > I don't know all the future steps, but I know one of them: we need to build a low-cost, highly operable, reusable launch vehicle. No matter which path we take, it has to include that gate, and so that's why that's Blue Origin's mission.
 
-> If your customer base is aging with you, then eventually you are going to become obsolete or irrelevant. You need to be constantly figuring out who are your new customers and what are you doing to stay forever young.
+> If your customer base is ageing with you, then eventually you are going to become obsolete or irrelevant. You need to be constantly figuring out who are your new customers and what are you doing to stay forever young.
 
 > The solar system can support a trillion humans. And then we'd have a thousand Mozarts and a thousand Einsteins.
 
@@ -230,7 +225,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 > Infrastructure web services had to happen.
 
-> You cannot make a giant space company in your dorm room. Not today. And the reason is that the heavy lifting infrastructure isn't in place.
+> You cannot make a giant space company in your dorm room. Not today. And the reason is that the heavy-lifting infrastructure isn't in place.
 
 > Cultures, for better or worse, are very stable.
 
@@ -246,7 +241,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 > You know, we love stories and we love narrative; we love to get lost in an author's world.
 
-> I don't think that you can invent on behalf of customers unless you're willing to think long-term, because a lot of invention doesn't work. If you're going to invent, it means you're going to experiment, and if you're going to experiment, you're going to fail, and if you're going to fail, you have to think long term.
+> I don't think that you can invent on behalf of customers unless you're willing to think long-term, because a lot of inventions don't work. If you're going to invent, it means you're going to experiment, and if you're going to experiment, you're going to fail, and if you're going to fail, you have to think long-term.
 
 > Great industries are never made from single companies. There is room in space for a lot of winners.
 
@@ -352,7 +347,7 @@ Follow these below links into the Wikipedia to learn more about:
 
 I found the collection of quotes by `Albert Einstein` in [here](https://www.goalcast.com/2017/03/29/top-30-most-inspiring-albert-einstein-quotes/) and for `Jeff Bezos` in [here](https://www.brainyquote.com/authors/jeff-bezos-quotes).
 
-What is your favorite quote (or quotes) and has it motivated you or helped you in any way?
+What is your favourite quote (or quotes) and has it motivated you or helped you in any way?
 
 All the best,
 
