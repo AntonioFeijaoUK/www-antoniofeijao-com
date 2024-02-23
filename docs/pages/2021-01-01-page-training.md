@@ -1,16 +1,13 @@
 ---
-title: AWS online training source materials
-layout: splash
-#permalink: /training/
+title: "AWS online training source materials"
+permalink: /training/
 
 toc: false
 toc_sticky: true
 toc_label: "training"
 toc_icon: "address-card"
 
-categories: ["Page", "Training", "AWS", "Education"]
 tags: ["online", "training", "cloud", "aws", "security", "best practices", "workshops"]
-
 ---
 
 Collection of links to AWS online training resources, mostly free training.
