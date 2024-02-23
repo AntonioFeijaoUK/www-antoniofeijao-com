@@ -1,8 +1,6 @@
 ---
-title: Antonio Feijao AWS Linux and Cyber Security certifications
+title: "Antonio Feijao AWS Linux and Cyber Security certifications"
 permalink: /certifications/
-categories:
-    - Page
 ---
 
 Antonio Feijao UK certification, achieved, active and expired.
