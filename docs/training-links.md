@@ -1,6 +1,6 @@
 ---
-title: "AWS online training source materials"
-slug: training
+title: "training"
+slug: /training2/
 toc: false
 toc_sticky: true
 toc_label: "training"
@@ -8,7 +8,7 @@ toc_icon: "address-card"
 tags: ["online", "training", "cloud", "aws", "security", "best practices", "workshops"]
 ---
 
-Collection of links to AWS online training resources, mostly free training.
+AWS online training source materials. A collection of links to AWS online training resources, mostly free training.
 
 ## AWS
 
