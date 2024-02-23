@@ -1,6 +1,6 @@
 ---
 title: "List of links and websites with updates on Cyber Security and Computer Science Knowledge"
-permalink: /links/
+slug: links
 
 date: 2022-01-01
 last_modified_at: 2022-10-06
