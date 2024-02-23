@@ -3,7 +3,6 @@ date: 2022-02-16
 title: "Change video playback speed rate with javascript"
 categories: ["Javascript", "Multimedia"]
 tags: ["playbackRate", "video", "javascript"]
-slug: javascript-video-playback-speed
 ---
 
 Change video playback speed rate with javascript
