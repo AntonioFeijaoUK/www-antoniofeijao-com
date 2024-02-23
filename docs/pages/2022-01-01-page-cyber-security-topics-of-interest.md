@@ -1,7 +1,7 @@
 ---
 title: "Cyber Security and topics of interest"
-permalink: /topics-of-interest/
-tags:       ["aws", "cyber" , "security", "study"]
+slug: topics-of-interest
+tags: ["aws", "cyber" , "security", "study"]
 ---
 
 ```python
