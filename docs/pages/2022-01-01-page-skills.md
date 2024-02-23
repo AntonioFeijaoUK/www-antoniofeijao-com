@@ -1,6 +1,6 @@
 ---
 title: "Antonio Feijao AWS Linux and Cyber Security certifications"
-permalink: /skills/
+slug: skills
 ---
 
 Antonio Feijao AWS's Linux, infrastructure, Networking and Cyber Security certifications.
