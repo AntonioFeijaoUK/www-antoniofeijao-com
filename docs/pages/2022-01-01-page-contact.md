@@ -1,6 +1,5 @@
 ---
-title: Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
-slug: contact
+title: "contact"
 ---
 
 Contact Antonio Feijao UK, AWS, Linux, Networking, Infrastructure and Cyber Security
@@ -11,7 +10,7 @@ LinkedIn - [https://www.linkedin.com/in/AntonioFeijaoUK](https://www.linkedin.co
 
 ~~Twitter - [https://twitter.com/AntonioFeijaoUK](https://twitter.com/AntonioFeijaoUK)~~
 
-Keybase - [https://keybase.io/antoniofeijaouk](https://keybase.io/antoniofeijaouk)
+Keybase - <https://keybase.io/antoniofeijaouk>
 
 <div id="emailHERE"></div>
 
