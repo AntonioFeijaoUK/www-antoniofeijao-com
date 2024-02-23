@@ -1,8 +1,7 @@
 ---
-title: Javascript demo for Doms
+title: "Javascript demo for Doms"
 permalink: /doms/
-layout: single
-categories:
+tags:
     - Page
     - Javascript
 ---
