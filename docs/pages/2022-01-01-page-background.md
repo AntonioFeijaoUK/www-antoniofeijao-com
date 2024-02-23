@@ -1,6 +1,6 @@
 ---
 title: "Background images"
-permalink: /background/
+slug: background
 excerpt: "Background images..."
 ---
 
