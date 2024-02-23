@@ -71,7 +71,7 @@ tags:
 - rarely watch TV but I like a good movie at home or cinema (superheroes, science documentaries, comedies, sci-fi).
 - love travel and family
 
-More about what I do on my website - https://www.AntonioFeijao.com/
+More about what I do on my website - <https://www.AntonioFeijao.com/>
 
 
 ## what-i-do
@@ -86,7 +86,7 @@ My role is also focused on enabling other squads to create applications in a sec
 
 ## what-i-sdudy
 
-* [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on : `CEHv11`
+* [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on: `CEHv11`
     * [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
     * [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
 
@@ -113,14 +113,15 @@ also studying for certifications of
 
 * [ippsec](https://www.youtube.com/@ippsec/videos) - `@ippsec` from `HackTheBox`
 
-* #SecurityNow with Mr `Steve Gibson` from `Gibson Research Corporation` at [grc.com](https://www.grc.com)
-    * (https://www.grc.com) - [https://www.grc.com/securitynow.htm](https://www.grc.com/securitynow.htm)
-    * [twit.tv/shows/security-now](https://twit.tv/shows/security-now)
-    * [https://www.youtube.com/@securitynow/videos](https://www.youtube.com/@securitynow/videos)
+* SecurityNow
+    * with Mr `Steve Gibson` from `Gibson Research Corporation` at <https://www.grc.com>
+    * <https://www.grc.com/securitynow.htm>
+    * <https://twit.tv/shows/security-now>
+    * <https://www.youtube.com/@securitynow/videos>
 
-* [TCM Security Academy](https://academy.tcm-sec.com/)
+* <https://academy.tcm-sec.com/>
 
-* [John Hammond](https://www.youtube.com/c/JohnHammond010/videos)
+* <https://www.youtube.com/c/JohnHammond010/videos>
 
 * <https://www.upguard.com/category/cybersecurity>
 
@@ -150,13 +151,11 @@ and also practising hands-on with
 
 Career progressing towards `Principal Cyber Security Architect`, [Principal Security Architect](https://www.gov.uk/guidance/security-architect#principal-security-architect)
 
-* Good reading on [expertise-novice-to-expert](https://www.rebeccawestburns.com/my-blog-3/notes/five-stages-of-acquiring-expertise-novice-to-expert)
+* Good reading on <https://www.rebeccawestburns.com/my-blog-3/notes/five-stages-of-acquiring-expertise-novice-to-expert>
 
 ---
 
-A curious fact about me
-
-I memorised the first `100 digits of pi`! Yes, really!
+A curious fact about me - I memorised the first `100 digits of pi`! Yes, really!
 
 ----
 
