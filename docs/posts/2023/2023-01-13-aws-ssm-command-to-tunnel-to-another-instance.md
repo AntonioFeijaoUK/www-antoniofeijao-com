@@ -1,7 +1,6 @@
 ---
 date: 2023-01-13
 title: "AWS SSM command to tunnel proxy network traffic to another remote instance"
-#layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 #permalink: /plugins/
 categories: ["AWS", "SSM", "Tunnel", "Proxy"]
@@ -16,16 +15,16 @@ this means you can use this machine to `proxy` traffic from your local laptop (d
 
 ## requirements
 
-Your local laptop needs to have enough permission to use the AWS SSM agent - `AWS STS` role or temporary token.
+Your local laptop needs permission to use the AWS SSM agent - `AWS STS` role or temporary token.
 
-Your local laptop connects to the instance in AWS and them forward the traffic to the `host` specified in the command.
+Your local laptop connects to the instance in AWS and then forward the traffic to the `host` specified in the command.
 
-If you do not specify the remote `host`, you will be connected to local port on your AWS instance.
+If you do not specify the remote `host`, you will be connected to a local port on your AWS instance.
 
 
 ## example
 
-Example, adjust as needed.
+For example, adjust as needed.
 
 Connect to ${INSTANCE_ID} and tunnel (forward, proxy) traffic to the remote IP `192.168.0.10`.
 
@@ -38,7 +37,7 @@ aws ssm start-session \
     --document-name AWS-StartPortForwardingSessionToRemoteHost \
     --parameters '{ "host":["192.168.0.10"], "portNumber":["443"], "localPortNumber":["8443"] }'
 
-````
+```
 
 ---
 
