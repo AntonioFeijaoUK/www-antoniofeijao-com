@@ -13,23 +13,31 @@ Examples of some privacy plugins that can be used in [Google Chrome](https://www
 
 Also, look at the browser [Brave](https://brave.com/), which has built-in privacy features.
 
-duckduckgo-privacy-essent
-* <https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
+* duckduckgo-privacy-essent
+  * <https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg>
 
-privacy-badger
-* <https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
-
-
-ublock-origin
-* <https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
+* privacy-badger
+  * <https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp>
 
 
-Example of a password managed [1password](https://1password.com/)
-* <https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
+* ublock-origin
+  * <https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
 
-Example of a Javascript help
-* <https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo>
+Example of a password-manager
 
+* [1password](https://1password.com/)
+  * <https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
+
+Example of Javascript helps
+
+* tampermonkey
+  * <https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo>
+
+Example of Grammar and speeling helper
+
+* Grammarly
+  * <https://chromewebstore.google.com/detail/grammarly-ai-writing-and/kbfnbcaeplbcioakkpcpgfkobkghlhen>
+ 
 ---
 
 Happy learning
