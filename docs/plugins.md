@@ -9,7 +9,7 @@ tags:
   - browser
 ---
 
-Examples of some privacy plugins that can be used in [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/) and possibly other browsers.
+An example of some privacy plugins that can be used with [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/) and possibly other browsers.
 
 Also, look at the browser [Brave](https://brave.com/), which has built-in privacy features.
 
@@ -23,17 +23,17 @@ Also, look at the browser [Brave](https://brave.com/), which has built-in privac
 * ublock-origin
     * <https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm>
 
-Example of a password-manager
+An example  of a password manager
 
 * [1password](https://1password.com/)
     * <https://chromewebstore.google.com/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa>
 
-Example of Javascript helps
+An example of a Javascript helper
 
 * tampermonkey
-   * <https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo>
+    * <https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo>
 
-Example of Grammar and speeling helper
+An example  of a Grammar and spelling helper
 
 * Grammarly
     * <https://chromewebstore.google.com/detail/grammarly-ai-writing-and/kbfnbcaeplbcioakkpcpgfkobkghlhen>
