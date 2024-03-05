@@ -3,6 +3,7 @@ date: 2022-10-06
 title: "Privacy plugins sample and javascript helpers"
 excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 permalink: /plugins/
+
 tags:
   - security
   - privacy
