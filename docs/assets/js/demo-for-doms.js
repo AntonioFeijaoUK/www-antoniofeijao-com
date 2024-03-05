@@ -73,12 +73,16 @@ image.addEventListener(
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
         var x = document.getElementById("cat_alert");
-        if (x.style.display === "none") {
+        x.style.display = "block";
+        x.style.color = "orange";
+        
+        if (x.style.display == "none") {
             x.style.display = "block";
+            x.style.color = "orange";
         } else {
             setTimeout(() => {
-                x.style.display = "none";
-            }, 500);
+                console.log('x.style.display = "none"; \\ line 81"')
+            }, 2000);
         }
     },
     false,
@@ -93,12 +97,16 @@ image.addEventListener(
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
         var x = document.getElementById("cat_alert");
-        if (x.style.display === "block") {
+        x.style.display = "none";
+        x.style.color = "green";
+        
+        if (x.style.display == "block") {
             x.style.display = "none";
+            x.style.color = "green";
         } else {
             setTimeout(() => {
-                x.style.display = "none";
-            }, 500);
+                console.log('x.style.display = "none"; \\ line 102"')
+            }, 2000);
         }
     },
     false,
