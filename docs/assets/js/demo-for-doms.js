@@ -44,7 +44,14 @@ document.addEventListener(
 addEventListener("mousemove", (event) => { });
 onmousemove = (event) => {
     //toggleFullScreen();
-    console.log("the mouse is moving!");
+    
+    // inspired by https://jsfiddle.net/7P8Rr/
+    x = event.clientX;
+    y = event.clientY;
+    
+    cursor="Your Mouse Position Is : " + x + " and " + y ;
+    
+    console.log(cursor);
 };
 
 
@@ -54,8 +61,10 @@ onmouseup = (event) => {
 };
 
 
+// defines the "image" variable
 const image = document.getElementById("image");
 
+// mouse moves into the image
 image.addEventListener(
     "mouseover",
     (event) => {
@@ -69,8 +78,29 @@ image.addEventListener(
         } else {
             setTimeout(() => {
                 x.style.display = "none";
-            }, 2000);
+            }, 500);
         }
     },
     false,
 );
+
+// mouse moves away from images
+image.addEventListener(
+    "onmouseout",
+    (event) => {
+        // highlight the mouseover target
+        //event.target.style.color = "orange";
+        //alert('Move you mouse away!\nWe do not want to wake up the cat!');
+
+        var x = document.getElementById("cat_alert");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            setTimeout(() => {
+                x.style.display = "none";
+            }, 500);
+        }
+    },
+    false,
+);
+
