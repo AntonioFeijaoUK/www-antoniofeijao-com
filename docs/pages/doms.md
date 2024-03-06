@@ -15,19 +15,17 @@ Javascript demo for Doms
 
 ## do not wake up the cat!
 
-<div>
-    <img id="image" src="/assets/images/alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg" alt="Don' wake up the cat!" width="80%" height="80%">
-</div>
-
 <div id="cat_alert"; style="display:none";>
     <h2>Move your mouse away from the cat!</h2>
 </div>
 
+<div>
+    <img id="image" src="/assets/images/alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg" alt="Don' wake up the cat!" width="80%" height="80%">
+</div>
+
 Javascript demo for Doms.
 
-Did something just happen to your browser?
-
-Press the `Enter` key and should change to Fullscreen.
+Did something just happen to your browser? If not, press the `Enter` key and should change to Fullscreen.
 
 * Some good JavaScript learning resources - <https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer>
 * and the source code for the `requestFullscreen` API Javascript <https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen>
