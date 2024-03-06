@@ -65,9 +65,7 @@ onmouseup = (event) => {
 const image = document.getElementById("image");
 
 // mouse moves into the image
-image.addEventListener(
-    "mouseover",
-    (event) => {
+image.addEventListener("mouseover", (event) => {
         // highlight the mouseover target
         //event.target.style.color = "orange";
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
@@ -89,9 +87,7 @@ image.addEventListener(
 );
 
 // mouse moves away from images
-image.addEventListener(
-    "onmouseout",
-    (event) => {
+image.addEventListener( "mouseout", (event) => {
         // highlight the mouseover target
         //event.target.style.color = "orange";
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
