@@ -71,7 +71,7 @@ image.addEventListener("mouseover", (event) => {
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
         var x = document.getElementById("cat_alert");
-        x.style.display = "inline";
+        x.style.display = "visible";
         x.style.color = "orange";
         
         if (x.style.display == "none") {
