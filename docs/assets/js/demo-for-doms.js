@@ -71,7 +71,7 @@ image.addEventListener("mouseover", (event) => {
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
         var x = document.getElementById("cat_alert");
-        x.style.display = "block";
+        x.style.display = "inline";
         x.style.color = "orange";
         
         if (x.style.display == "none") {
@@ -93,8 +93,8 @@ image.addEventListener( "mouseout", (event) => {
         //alert('Move you mouse away!\nWe do not want to wake up the cat!');
 
         var x = document.getElementById("cat_alert");
-        x.style.display = "none";
-        x.style.color = "green";
+        x.style.display = "hidden";
+        x.style.color = "transparent";
         
         if (x.style.display == "block") {
             x.style.display = "none";
