@@ -15,7 +15,7 @@ Javascript demo for Doms
 
 ## do not wake up the cat!
 
-<div id="cat_alert"; style="display:none";>
+<div id="cat_alert"; style="display:hidden; color:transparent";>
     <h2>Move your mouse away from the cat!</h2>
 </div>
 
