@@ -7,8 +7,15 @@ title: "aws sts decode-authorization-message"
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/
-categories: ["aws", "sts", "decode-authorization-message"]
-tags:       ["aws", "sts", "cli"]
+
+categories:
+  - aws
+  - sts
+  - "decode-authorization-message"
+tags:
+  - aws
+  - sts
+  - cli
 ---
 
 Decoding the `aws sts decode-authorization-message`
