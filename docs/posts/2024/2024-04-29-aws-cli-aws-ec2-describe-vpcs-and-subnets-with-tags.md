@@ -2,8 +2,21 @@
 date: 2024-05-29
 title: "List all AWS VPCs or subnets with theirs tags and list them using jquery"
 
-categories: ["aws", "ec2", "describe-vpcs", "tags", "jq"]
-tags:       ["aws", "ec2", "vpcs", "jq"]
+categories:
+  - aws
+  - ec2
+  - describe
+  - vpcs
+  - subnets
+  - tags
+  - jq
+
+tags:
+  - aws
+  - ec2
+  - vpcs
+  - subnets
+  - jq
 ---
 
 Example AWS cli command with listing using [.jq(https://jqlang.github.io/jq/)].
