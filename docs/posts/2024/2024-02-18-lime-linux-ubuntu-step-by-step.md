@@ -2,8 +2,16 @@
 date: 2024-02-18
 title: "lime-linux-ubuntu-step-by-step"
 
-categories: ["linux", "memory-dump", "LiME"]
-tags:       ["linux", "memory", "dump", "LiME"]
+categories:
+  - linux
+  - "memory-dump"
+  - LiME
+
+tags:
+  - linux
+  - memory
+  - dump
+  - LiME
 ---
 
 [LiME](https://github.com/504ensicsLabs/LiME/) on Ubuntu Linux, live memory capture.
