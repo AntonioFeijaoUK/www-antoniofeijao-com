@@ -16,6 +16,15 @@ aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[
 
 ```
 
+It is also possible to "select" a specific Tags.
+
+
+```bash
+aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[] | select(.Key == "Application") | .Value)" '
+```
+
+---
+
 Next, why not rotate through other AWS accounts in the Org if you have them?! and rotate through regions?! :)
 
 I have done that before, so leave the challenge with you.
