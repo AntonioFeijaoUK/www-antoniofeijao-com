@@ -4,13 +4,14 @@ title: "lime-linux-ubuntu-step-by-step"
 
 categories:
   - linux
+  - forensics
   - "memory-dump"
-  - LiME
+  - LiME 
 
 tags:
   - linux
+  - forensics
   - memory
-  - dump
   - LiME
 ---
 
