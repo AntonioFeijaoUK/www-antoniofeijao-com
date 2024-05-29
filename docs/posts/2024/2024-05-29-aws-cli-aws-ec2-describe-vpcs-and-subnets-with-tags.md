@@ -25,7 +25,7 @@ This commands list all AWS VPCs within the account with their `VpcId`, `CidrBloc
 
 ```bash
 
-aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[] | "\(.Key); \(.Value)" )" '
+aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[])" '
 
 ```
 
@@ -34,6 +34,13 @@ It is also possible to "select" a specific Tags.
 
 ```bash
 aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[] | select(.Key == "Application") | .Value)" '
+
+```
+
+example, select VPC name and sort by VPC name.
+
+```bash
+aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[] | select(.Key == "Name")| .Value)" ' | sort -nk2
 ```
 
 documentation for <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/describe-vpcs.html>
