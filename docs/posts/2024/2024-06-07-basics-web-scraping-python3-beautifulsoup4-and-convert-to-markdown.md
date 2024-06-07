@@ -17,12 +17,9 @@ tags:
   - markdown
 ---
 
-Basics web scraping using Python3 with BeautifulSoup4 and then convert to Markdown
+Basics web scraping using Python3 with BeautifulSoup4 and then converting to Markdown
 
-* <https://en.wikipedia.org/wiki/Web_scraping>
-* <https://pypi.org/project/beautifulsoup4/>
-
-
+## Basic Python BeautifulSoup4 web scraping and then Markdown
 
 
 ```python
@@ -71,6 +68,9 @@ print(f.read())
 * <https://youtu.be/od6AaKhKYmg> - `How to do Web Scraping in 2024 with LLM Agents` from `Prompt Engineering`
 * <https://www.w3schools.com/python/python_file_write.asp>
 * <https://www.geeksforgeeks.org/how-to-convert-html-to-markdown-in-python/>
+
+* <https://en.wikipedia.org/wiki/Web_scraping>
+* <https://pypi.org/project/beautifulsoup4/>
 
 ---
 
