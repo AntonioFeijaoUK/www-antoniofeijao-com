@@ -1,6 +1,6 @@
 ---
 date: 2024-06-07
-title: "Basics web scraping using Python3 with BeautifulSoup4 and then converte to Markdown"
+title: "Basics web scraping using Python3 with BeautifulSoup4 and then convert to Markdown"
 
 categories:
   - linux
@@ -17,7 +17,7 @@ tags:
   - markdown
 ---
 
-Basics web scraping using Python3 with BeautifulSoup4 and then converte to Markdown
+Basics web scraping using Python3 with BeautifulSoup4 and then convert to Markdown
 
 * <https://en.wikipedia.org/wiki/Web_scraping>
 * <https://pypi.org/project/beautifulsoup4/>
