@@ -23,3 +23,13 @@ If any of my knowledge share notes helped you, please consider buying me a coffe
 ## blog posts
 
 **Opinions are my own**
+
+* javascript increase, or change, the video playbackRate speed.
+
+```js
+document.querySelector('video').playbackRate = 2.0;
+
+document.getElementsByTagName('video')[0]
+
+```
+---
