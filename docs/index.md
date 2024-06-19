@@ -31,7 +31,7 @@ If any of my knowledge share notes helped you, please consider buying me a coffe
 ```js
 document.querySelector('video').playbackRate = 2.0;
 
-document.getElementsByTagName('video')[0]
+document.getElementsByTagName('video')[0].playbackRate = 2.0;
 
 ```
 ---
