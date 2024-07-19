@@ -8,7 +8,7 @@ tags:
 
 ## About Antonio Feijao UK
 
-`Antonio Feijao` or `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
+`Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
 <style>
     .container {
@@ -162,4 +162,4 @@ A curious fact about me - I memorised the first `100 digits of pi`! Yes, really!
 
 Thank you for your time reading through my personal website.
 
-[Antonio Feijao](https://antoniofeijao.com/)
+[Antonio Feijao UK](https://antoniofeijao.com/)
