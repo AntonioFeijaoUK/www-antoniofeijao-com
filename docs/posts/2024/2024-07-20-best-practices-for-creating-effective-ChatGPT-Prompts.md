@@ -16,6 +16,8 @@ What are the "best practices for creating effective ChatGPT Prompts"?
 
 Well, why don't you just ask `ChatGPT`?
 
+!["image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp"](/assets/images/image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp.webp)
+
 ----
 
 By `ChatGTP-4o`
