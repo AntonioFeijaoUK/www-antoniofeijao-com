@@ -14,13 +14,13 @@ tags:
 
 What are the "best practices for creating effective [ChatGPT](https://openai.com/index/chatgpt/) Prompts"?
 
-Well, why don't you just ask `[ChatGPT](https://openai.com/index/chatgpt/)`?
+Well, why don't you just ask [ChatGPT](https://openai.com/index/chatgpt/)?
 
 !["image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp"](/assets/images/image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp.webp)
 
 ----
 
-By `[ChatGPT-4o](https://openai.com/index/chatgpt/)`
+Below, content by [ChatGPT-4o](https://openai.com/index/chatgpt/) and tweaked by [Antonio Feijao UK](https://www.antoniofeijao.com/).
 
 # Best Practices for Creating Effective ChatGPT Prompts
 
