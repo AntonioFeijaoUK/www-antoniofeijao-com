@@ -3,15 +3,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .timeline-container {
-    width: 100%;
+    width: 90%;
     overflow-x: auto;
     white-space: nowrap;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .timeline {
@@ -22,13 +30,18 @@ body {
 .event {
     display: inline-block;
     position: relative;
-    width: 200px;
+    width: 250px;
     padding: 20px;
     margin: 10px;
     background-color: #007bff;
     color: #fff;
     border-radius: 10px;
     text-align: center;
+    white-space: normal;
+}
+
+.event h3, .event p {
+    margin: 10px 0;
 }
 
 .event::after {
