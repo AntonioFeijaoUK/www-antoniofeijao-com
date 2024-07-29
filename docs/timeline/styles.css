@@ -6,54 +6,51 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
 }
 
 .timeline-container {
     width: 90%;
-    overflow-x: auto;
-    white-space: nowrap;
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .timeline {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 .event {
-    display: inline-block;
-    position: relative;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
     padding: 20px;
-    margin: 10px;
+    margin: 10px 0;
     background-color: #007bff;
     color: #fff;
     border-radius: 10px;
     text-align: center;
-    white-space: normal;
 }
 
 .event h3, .event p {
     margin: 10px 0;
 }
 
-.event::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    width: 20px;
-    height: 2px;
-    background-color: #007bff;
+.event a {
+    color: #fff;
+    text-decoration: underline;
 }
 
-.event:last-child::after {
-    display: none;
+.event:not(:last-child)::after {
+    content: "";
+    width: 2px;
+    height: 40px;
+    background-color: #007bff;
+    display: block;
+    margin: 10px auto;
 }
