@@ -20,56 +20,27 @@ body {
 }
 
 .timeline {
-    position: relative;
-    width: 4px;
-    background-color: #007bff;
-    margin: 0 auto;
-    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .event {
     position: relative;
-    width: 45%;
+    width: 80%;
     padding: 20px;
-    margin: 10px 0;
+    margin: 20px 0;
     background-color: #007bff;
     color: #fff;
     border-radius: 10px;
     text-align: left;
 }
 
-.event.left {
-    left: -52%;
-}
-
-.event.right {
-    left: 52%;
-}
-
 .event h3, .event p {
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .event a {
     color: #fff;
     text-decoration: underline;
-}
-
-.event::before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-}
-
-.event.left::before {
-    right: -20px;
-    border-left-color: #007bff;
-}
-
-.event.right::before {
-    left: -20px;
-    border-right-color: #007bff;
 }
