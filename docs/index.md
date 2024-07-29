@@ -26,12 +26,15 @@ If any of my knowledge share notes helped you, please consider buying me a coffe
 
 **Opinions are my own**
 
-* javascript increase, or change, the video playbackRate speed.
+
+## video-playbackRate-speed-change
+
+javascript increase, or change, the video playbackRate speed.
 
 ```js
 document.querySelector('video').playbackRate = 2.0;
 
 document.getElementsByTagName('video')[0].playbackRate = 2.0;
-
 ```
+
 ---
