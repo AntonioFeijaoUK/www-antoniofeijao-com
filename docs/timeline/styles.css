@@ -28,7 +28,7 @@ body {
 
 .event {
     position: relative;
-    width: 250px;
+    width: 40%;
     padding: 10px;
     margin: 20px 0;
     background-color: #007bff;
@@ -38,11 +38,11 @@ body {
 }
 
 .event.left {
-    left: -280px;
+    left: -45%;
 }
 
 .event.right {
-    left: 30px;
+    left: 5%;
 }
 
 .event h3, .event p {
