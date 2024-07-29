@@ -19,3 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
 });
+
+function toggleMode() {
+    const body = document.body;
+    body.classList.toggle('light-mode');
+}
