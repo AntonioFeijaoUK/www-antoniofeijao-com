@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h3>${event.title}</h3>
                     <p>${event.date}</p>
                     <p>${event.description}</p>
+                    ${event.link ? `<a href="${event.link}" target="_blank">Read more</a>` : ''}
                 `;
                 timeline.appendChild(eventElement);
             });
