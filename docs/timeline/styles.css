@@ -130,6 +130,11 @@ body {
     position: relative;
 }
 
+.footer p {
+    margin: 0;
+    color: #c9d1d9;
+}
+
 .footer a {
     color: #3b82f6;
     text-decoration: none;
