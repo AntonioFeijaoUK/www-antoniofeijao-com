@@ -3,9 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const timeline = document.getElementById('timeline');
-            data.events.forEach((event, index) => {
+            data.events.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort events by date, newest first
+            data.events.forEach(event => {
                 const eventElement = document.createElement('div');
-                eventElement.className = `event ${index % 2 === 0 ? 'left' : 'right'}`;
+                eventElement.className = 'event';
                 eventElement.innerHTML = `
                     <h3>${event.title}</h3>
                     <p>${event.date}</p>
