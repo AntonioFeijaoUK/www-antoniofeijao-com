@@ -2,158 +2,210 @@
     "events": [
         {
             "title": "The Big Bang",
-            "date": "-13798000000", 
+            "date": "-13798000000",
             "description": "The origin of the universe, leading to the creation of all matter, energy, and the fundamental forces of nature.",
+            "pros": "Foundation for all existence.",
+            "cons": "The vast unknowns of early universe conditions.",
             "link": "https://en.wikipedia.org/wiki/Big_Bang"
         },
         {
             "title": "Formation of the Milky Way",
-            "date": "-13600000000", 
+            "date": "-13600000000",
             "description": "The formation of the Milky Way galaxy from a massive gas cloud.",
+            "pros": "Creation of our galactic home.",
+            "cons": "Complex processes still not fully understood.",
             "link": "https://en.wikipedia.org/wiki/Milky_Way"
         },
         {
             "title": "Formation of Heavy Elements",
-            "date": "-13000000000", 
+            "date": "-13000000000",
             "description": "Supernovae created heavy elements necessary for planet formation and life.",
+            "pros": "Essential for planet and life formation.",
+            "cons": "Violent cosmic events.",
             "link": "https://en.wikipedia.org/wiki/Nucleosynthesis"
         },
         {
             "title": "Formation of the Solar System",
-            "date": "-4600000000", 
+            "date": "-4600000000",
             "description": "The solar system formed from a rotating disk of gas and dust around the young Sun.",
+            "pros": "Birth of our solar system.",
+            "cons": "Early chaotic environment.",
             "link": "https://en.wikipedia.org/wiki/Solar_System"
         },
         {
             "title": "Formation of the Earth",
-            "date": "-4500000000", 
+            "date": "-4500000000",
             "description": "The Earth formed from the dust and gas surrounding the young Sun.",
+            "pros": "Creation of our planet.",
+            "cons": "Early hostile conditions.",
             "link": "https://en.wikipedia.org/wiki/History_of_Earth"
         },
         {
             "title": "Formation of the Moon",
-            "date": "-4500000000", 
+            "date": "-4500000000",
             "description": "The Moon formed from the debris of a collision between Earth and a Mars-sized body.",
+            "pros": "Stabilizes Earth's tilt and climate.",
+            "cons": "Catastrophic impact event.",
             "link": "https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System#Formation_of_the_Moon"
         },
         {
             "title": "Cooling of the Early Universe",
-            "date": "-13750000000", 
+            "date": "-13750000000",
             "description": "The universe cooled, allowing protons and electrons to combine into hydrogen atoms.",
+            "pros": "Formation of stable atoms.",
+            "cons": "Loss of high-energy particles.",
             "link": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
         },
         {
             "title": "Origin of Life",
-            "date": "-3800000000", 
+            "date": "-3800000000",
             "description": "Life on Earth originated from simple organic compounds.",
+            "pros": "Beginning of biological life.",
+            "cons": "Unclear mechanisms of origin.",
             "link": "https://en.wikipedia.org/wiki/Abiogenesis"
         },
         {
             "title": "Great Oxygenation Event",
-            "date": "-2400000000", 
+            "date": "-2400000000",
             "description": "Cyanobacteria began producing significant amounts of oxygen through photosynthesis.",
+            "pros": "Enabled complex life forms.",
+            "cons": "Mass extinction of anaerobic organisms.",
             "link": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
         },
         {
             "title": "Cambrian Explosion",
-            "date": "-541000000", 
+            "date": "-541000000",
             "description": "A period of rapid diversification of life forms, leading to the development of most major animal phyla.",
+            "pros": "Great biodiversity.",
+            "cons": "Ecological upheavals.",
             "link": "https://en.wikipedia.org/wiki/Cambrian_explosion"
         },
         {
             "title": "Emergence of Homo Sapiens",
-            "date": "-300000", 
+            "date": "-300000",
             "description": "Homo sapiens evolved in Africa and eventually spread across the globe.",
+            "pros": "Rise of human civilization.",
+            "cons": "Extinction of other hominin species.",
             "link": "https://en.wikipedia.org/wiki/Homo_sapiens"
         },
         {
             "title": "Out-of-Africa Migration",
-            "date": "-60000", 
+            "date": "-60000",
             "description": "Early humans migrated out of Africa, spreading to different parts of the world.",
+            "pros": "Global human presence.",
+            "cons": "Potential conflicts and adaptations challenges.",
             "link": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans"
         },
         {
             "title": "Control of Fire",
-            "date": "-1700000", 
+            "date": "-1700000",
             "description": "The mastery of fire by early humans.",
+            "pros": "Enabled cooking, protection, and community gathering.",
+            "cons": "Risk of burns and forest fires.",
             "link": "https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans"
         },
         {
             "title": "Development of Tool Use",
-            "date": "-2600000", 
+            "date": "-2600000",
             "description": "The use of stone tools by early humans.",
+            "pros": "Improved efficiency in tasks.",
+            "cons": "Dependence on tools.",
             "link": "https://en.wikipedia.org/wiki/Stone_tool"
         },
         {
             "title": "Domestication of Animals",
-            "date": "-15000", 
+            "date": "-15000",
             "description": "The domestication of animals by humans.",
+            "pros": "Stable food sources and labor.",
+            "cons": "Spread of zoonotic diseases.",
             "link": "https://en.wikipedia.org/wiki/Domestication"
         },
         {
             "title": "Agricultural Revolution",
-            "date": "-10000", 
+            "date": "-10000",
             "description": "The transition from nomadic hunter-gatherer societies to settled agricultural communities.",
+            "pros": "Food surplus and population growth.",
+            "cons": "Social hierarchies and environmental impact.",
             "link": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
         },
         {
             "title": "The Fall of the Western Roman Empire",
             "date": "0476-09-04",
             "description": "The collapse of the Western Roman Empire marked the beginning of the Middle Ages.",
+            "pros": "Rise of new kingdoms and cultures.",
+            "cons": "Loss of centralized power and knowledge.",
             "link": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"
         },
         {
             "title": "The Birth and Spread of Major Religions",
             "date": "0000-01-01",
             "description": "Religious movements such as Christianity, Islam, and Buddhism have profoundly shaped civilizations, cultures, and conflicts throughout history.",
+            "pros": "Provided ethical frameworks and community.",
+            "cons": "Religious conflicts and intolerance.",
             "link": "https://en.wikipedia.org/wiki/History_of_religion"
         },
         {
             "title": "The Development of Writing Systems",
-            "date": "-3000", 
+            "date": "-3000",
             "description": "The invention of writing in Mesopotamia, Egypt, and other regions revolutionized human communication, record-keeping, and administration.",
+            "pros": "Preservation and dissemination of knowledge.",
+            "cons": "Created social hierarchies.",
             "link": "https://en.wikipedia.org/wiki/History_of_writing"
         },
         {
             "title": "Alexander the Great's Conquests",
-            "date": "-0336", 
+            "date": "-0336",
             "description": "Alexander the Great's campaigns created a vast empire and spread Greek culture across three continents.",
+            "pros": "Cultural diffusion and Hellenization.",
+            "cons": "Warfare and destruction.",
             "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
         },
         {
             "title": "Preventing World War II",
             "date": "1939-09-01",
             "description": "Stopping the rise of Hitler and the Nazis could prevent the Holocaust and save millions of lives.",
+            "pros": "Avoidance of massive destruction and genocide.",
+            "cons": "Complex political and social ramifications.",
             "link": "https://en.wikipedia.org/wiki/Causes_of_World_War_II"
         },
         {
             "title": "Stopping the Assassination of Archduke Franz Ferdinand",
             "date": "1914-06-28",
             "description": "Preventing this event could potentially avert World War I, which reshaped the 20th century and set the stage for World War II.",
+            "pros": "Avoidance of widespread conflict and loss of life.",
+            "cons": "Unpredictable global political landscape.",
             "link": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
         },
         {
             "title": "Preventing the 9/11 Attacks",
             "date": "2001-09-11",
             "description": "Avoiding this event could save thousands of lives and potentially change the course of global politics, security, and civil liberties.",
+            "pros": "Lives saved and altered global politics.",
+            "cons": "Complex international relations and security issues.",
             "link": "https://en.wikipedia.org/wiki/September_11_attacks"
         },
         {
             "title": "Averting the Black Death",
             "date": "1347-01-01",
             "description": "Stopping the plague that killed a significant portion of Europe's population in the 14th century could have profound demographic and social consequences.",
+            "pros": "Preservation of population and stability.",
+            "cons": "Unchanged social and economic structures.",
             "link": "https://en.wikipedia.org/wiki/Black_Death"
         },
         {
             "title": "Ending Colonialism Early",
             "date": "1960-01-01",
             "description": "Intervening to end or prevent the colonization and exploitation of various regions could significantly alter the economic and political development of many countries.",
+            "pros": "Independence and self-determination for nations.",
+            "cons": "Potential instability and economic challenges.",
             "link": "https://en.wikipedia.org/wiki/Colonialism"
         },
         {
             "title": "Preservation of the Library of Alexandria",
-            "date": "-0048", 
+            "date": "-0048",
             "description": "Preventing the destruction of the Library of Alexandria could preserve ancient knowledge and accelerate the development of science and culture.",
+            "pros": "Retention of vast knowledge.",
+            "cons": "Centralized control of information.",
             "link": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
         }
     ]
