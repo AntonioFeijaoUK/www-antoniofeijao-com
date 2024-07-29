@@ -13,7 +13,7 @@ body {
     width: 90%;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-height: 90vh;
     overflow-y: auto;
     position: relative;
@@ -21,16 +21,16 @@ body {
 
 .timeline {
     position: relative;
+    width: 4px;
+    background-color: #007bff;
     margin: 0 auto;
     padding: 20px 0;
-    width: 4px;
-    background: #007bff;
 }
 
 .event {
     position: relative;
     width: 45%;
-    padding: 10px;
+    padding: 20px;
     margin: 10px 0;
     background-color: #007bff;
     color: #fff;
@@ -39,11 +39,11 @@ body {
 }
 
 .event.left {
-    left: -50%;
+    left: -52%;
 }
 
 .event.right {
-    left: 50%;
+    left: 52%;
 }
 
 .event h3, .event p {
