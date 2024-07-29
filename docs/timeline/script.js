@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const timeline = document.getElementById('timeline');
-            data.events.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort events by date, newest first
+            data.events.sort((a, b) => parseFloat(b.date) - parseFloat(a.date)); // Sort events by date, newest first
             data.events.forEach(event => {
                 const eventElement = document.createElement('div');
                 eventElement.className = 'event';
