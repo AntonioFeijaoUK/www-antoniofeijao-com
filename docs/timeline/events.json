@@ -2,97 +2,97 @@
     "events": [
         {
             "title": "The Big Bang",
-            "date": "-13798000000",  // Approximation
+            "date": "-13798000000", 
             "description": "The origin of the universe, leading to the creation of all matter, energy, and the fundamental forces of nature.",
             "link": "https://en.wikipedia.org/wiki/Big_Bang"
         },
         {
             "title": "Formation of the Milky Way",
-            "date": "-13600000000",  // Approximation
+            "date": "-13600000000", 
             "description": "The formation of the Milky Way galaxy from a massive gas cloud.",
             "link": "https://en.wikipedia.org/wiki/Milky_Way"
         },
         {
             "title": "Formation of Heavy Elements",
-            "date": "-13000000000",  // Approximation
+            "date": "-13000000000", 
             "description": "Supernovae created heavy elements necessary for planet formation and life.",
             "link": "https://en.wikipedia.org/wiki/Nucleosynthesis"
         },
         {
             "title": "Formation of the Solar System",
-            "date": "-4600000000",  // Approximation
+            "date": "-4600000000", 
             "description": "The solar system formed from a rotating disk of gas and dust around the young Sun.",
             "link": "https://en.wikipedia.org/wiki/Solar_System"
         },
         {
             "title": "Formation of the Earth",
-            "date": "-4500000000",  // Approximation
+            "date": "-4500000000", 
             "description": "The Earth formed from the dust and gas surrounding the young Sun.",
             "link": "https://en.wikipedia.org/wiki/History_of_Earth"
         },
         {
             "title": "Formation of the Moon",
-            "date": "-4500000000",  // Approximation
+            "date": "-4500000000", 
             "description": "The Moon formed from the debris of a collision between Earth and a Mars-sized body.",
             "link": "https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System#Formation_of_the_Moon"
         },
         {
             "title": "Cooling of the Early Universe",
-            "date": "-13750000000",  // Approximation
+            "date": "-13750000000", 
             "description": "The universe cooled, allowing protons and electrons to combine into hydrogen atoms.",
             "link": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
         },
         {
             "title": "Origin of Life",
-            "date": "-3800000000",  // Approximation
+            "date": "-3800000000", 
             "description": "Life on Earth originated from simple organic compounds.",
             "link": "https://en.wikipedia.org/wiki/Abiogenesis"
         },
         {
             "title": "Great Oxygenation Event",
-            "date": "-2400000000",  // Approximation
+            "date": "-2400000000", 
             "description": "Cyanobacteria began producing significant amounts of oxygen through photosynthesis.",
             "link": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
         },
         {
             "title": "Cambrian Explosion",
-            "date": "-541000000",  // Approximation
+            "date": "-541000000", 
             "description": "A period of rapid diversification of life forms, leading to the development of most major animal phyla.",
             "link": "https://en.wikipedia.org/wiki/Cambrian_explosion"
         },
         {
             "title": "Emergence of Homo Sapiens",
-            "date": "-300000",  // Approximation
+            "date": "-300000", 
             "description": "Homo sapiens evolved in Africa and eventually spread across the globe.",
             "link": "https://en.wikipedia.org/wiki/Homo_sapiens"
         },
         {
             "title": "Out-of-Africa Migration",
-            "date": "-60000",  // Approximation
+            "date": "-60000", 
             "description": "Early humans migrated out of Africa, spreading to different parts of the world.",
             "link": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans"
         },
         {
             "title": "Control of Fire",
-            "date": "-1700000",  // Approximation
+            "date": "-1700000", 
             "description": "The mastery of fire by early humans.",
             "link": "https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans"
         },
         {
             "title": "Development of Tool Use",
-            "date": "-2600000",  // Approximation
+            "date": "-2600000", 
             "description": "The use of stone tools by early humans.",
             "link": "https://en.wikipedia.org/wiki/Stone_tool"
         },
         {
             "title": "Domestication of Animals",
-            "date": "-15000",  // Approximation
+            "date": "-15000", 
             "description": "The domestication of animals by humans.",
             "link": "https://en.wikipedia.org/wiki/Domestication"
         },
         {
             "title": "Agricultural Revolution",
-            "date": "-10000",  // Approximation
+            "date": "-10000", 
             "description": "The transition from nomadic hunter-gatherer societies to settled agricultural communities.",
             "link": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
         },
@@ -110,13 +110,13 @@
         },
         {
             "title": "The Development of Writing Systems",
-            "date": "-3000",  // Approximation
+            "date": "-3000", 
             "description": "The invention of writing in Mesopotamia, Egypt, and other regions revolutionized human communication, record-keeping, and administration.",
             "link": "https://en.wikipedia.org/wiki/History_of_writing"
         },
         {
             "title": "Alexander the Great's Conquests",
-            "date": "-0336",  // Starting year of conquests
+            "date": "-0336", 
             "description": "Alexander the Great's campaigns created a vast empire and spread Greek culture across three continents.",
             "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
         },
@@ -152,7 +152,7 @@
         },
         {
             "title": "Preservation of the Library of Alexandria",
-            "date": "-0048",  // Approximation
+            "date": "-0048", 
             "description": "Preventing the destruction of the Library of Alexandria could preserve ancient knowledge and accelerate the development of science and culture.",
             "link": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
         }
