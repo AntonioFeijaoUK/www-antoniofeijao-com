@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const timeline = document.getElementById('timeline');
-            data.events.forEach(event => {
+            data.events.forEach((event, index) => {
                 const eventElement = document.createElement('div');
-                eventElement.className = 'event';
+                eventElement.className = `event ${index % 2 === 0 ? 'left' : 'right'}`;
                 eventElement.innerHTML = `
                     <h3>${event.title}</h3>
                     <p>${event.date}</p>
