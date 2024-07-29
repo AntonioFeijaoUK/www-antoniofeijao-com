@@ -13,19 +13,13 @@ title: "Home"
 
 Learning by doing!
 
-If any of my knowledge share notes helped you, please consider buying me a coffee ☕️ :)
-
+Buy-me a coffee >> If any of my knowledge share notes helped you, please consider buying me a coffee ☕️ :)
 
 
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
 <script type='text/javascript'>kofiwidget2.init('Buy-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script>
 
 ---
-
-## blog posts
-
-**Opinions are my own**
-
 
 ## video-playbackRate-speed-change
 
@@ -36,5 +30,11 @@ document.querySelector('video').playbackRate = 2.0;
 
 document.getElementsByTagName('video')[0].playbackRate = 2.0;
 ```
+
+---
+
+## blog posts
+
+**Opinions are my own**
 
 ---
