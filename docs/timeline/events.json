@@ -2,157 +2,157 @@
     "events": [
         {
             "title": "The Big Bang",
-            "date": "13.8 billion years ago",
+            "date": "-13798000000-01-01",  // Approximation
             "description": "The origin of the universe, leading to the creation of all matter, energy, and the fundamental forces of nature.",
             "link": "https://en.wikipedia.org/wiki/Big_Bang"
         },
         {
             "title": "Formation of the Milky Way",
-            "date": "13.6 billion years ago",
+            "date": "-13600000000-01-01",  // Approximation
             "description": "The formation of the Milky Way galaxy from a massive gas cloud.",
             "link": "https://en.wikipedia.org/wiki/Milky_Way"
         },
         {
             "title": "Formation of Heavy Elements",
-            "date": "13 billion years ago",
+            "date": "-13000000000-01-01",  // Approximation
             "description": "Supernovae created heavy elements necessary for planet formation and life.",
             "link": "https://en.wikipedia.org/wiki/Nucleosynthesis"
         },
         {
             "title": "Formation of the Solar System",
-            "date": "4.6 billion years ago",
+            "date": "-4600000000-01-01",  // Approximation
             "description": "The solar system formed from a rotating disk of gas and dust around the young Sun.",
             "link": "https://en.wikipedia.org/wiki/Solar_System"
         },
         {
             "title": "Formation of the Earth",
-            "date": "4.5 billion years ago",
+            "date": "-4500000000-01-01",  // Approximation
             "description": "The Earth formed from the dust and gas surrounding the young Sun.",
             "link": "https://en.wikipedia.org/wiki/History_of_Earth"
         },
         {
             "title": "Formation of the Moon",
-            "date": "4.5 billion years ago",
+            "date": "-4500000000-01-01",  // Approximation
             "description": "The Moon formed from the debris of a collision between Earth and a Mars-sized body.",
             "link": "https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System#Formation_of_the_Moon"
         },
         {
             "title": "Cooling of the Early Universe",
-            "date": "380,000 years after the Big Bang",
+            "date": "-13750000000-01-01",  // Approximation
             "description": "The universe cooled, allowing protons and electrons to combine into hydrogen atoms.",
             "link": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
         },
         {
             "title": "Origin of Life",
-            "date": "3.8 billion years ago",
+            "date": "-3800000000-01-01",  // Approximation
             "description": "Life on Earth originated from simple organic compounds.",
             "link": "https://en.wikipedia.org/wiki/Abiogenesis"
         },
         {
             "title": "Great Oxygenation Event",
-            "date": "2.4 billion years ago",
+            "date": "-2400000000-01-01",  // Approximation
             "description": "Cyanobacteria began producing significant amounts of oxygen through photosynthesis.",
             "link": "https://en.wikipedia.org/wiki/Great_Oxidation_Event"
         },
         {
             "title": "Cambrian Explosion",
-            "date": "541 million years ago",
+            "date": "-541000000-01-01",  // Approximation
             "description": "A period of rapid diversification of life forms, leading to the development of most major animal phyla.",
             "link": "https://en.wikipedia.org/wiki/Cambrian_explosion"
         },
         {
             "title": "Emergence of Homo Sapiens",
-            "date": "300,000 years ago",
+            "date": "-300000-01-01",  // Approximation
             "description": "Homo sapiens evolved in Africa and eventually spread across the globe.",
             "link": "https://en.wikipedia.org/wiki/Homo_sapiens"
         },
         {
             "title": "Out-of-Africa Migration",
-            "date": "60,000 years ago",
+            "date": "-60000-01-01",  // Approximation
             "description": "Early humans migrated out of Africa, spreading to different parts of the world.",
             "link": "https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans"
         },
         {
             "title": "Control of Fire",
-            "date": "1.7 million years ago",
+            "date": "-1700000-01-01",  // Approximation
             "description": "The mastery of fire by early humans.",
             "link": "https://en.wikipedia.org/wiki/Control_of_fire_by_early_humans"
         },
         {
             "title": "Development of Tool Use",
-            "date": "2.6 million years ago",
+            "date": "-2600000-01-01",  // Approximation
             "description": "The use of stone tools by early humans.",
             "link": "https://en.wikipedia.org/wiki/Stone_tool"
         },
         {
             "title": "Domestication of Animals",
-            "date": "15,000 years ago",
+            "date": "-15000-01-01",  // Approximation
             "description": "The domestication of animals by humans.",
             "link": "https://en.wikipedia.org/wiki/Domestication"
         },
         {
             "title": "Agricultural Revolution",
-            "date": "10,000 BC",
+            "date": "-10000-01-01",  // Approximation
             "description": "The transition from nomadic hunter-gatherer societies to settled agricultural communities.",
             "link": "https://en.wikipedia.org/wiki/Neolithic_Revolution"
         },
         {
             "title": "The Fall of the Western Roman Empire",
-            "date": "476 AD",
+            "date": "0476-09-04",
             "description": "The collapse of the Western Roman Empire marked the beginning of the Middle Ages.",
             "link": "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"
         },
         {
             "title": "The Birth and Spread of Major Religions",
-            "date": "Various",
+            "date": "0000-01-01",
             "description": "Religious movements such as Christianity, Islam, and Buddhism have profoundly shaped civilizations, cultures, and conflicts throughout history.",
             "link": "https://en.wikipedia.org/wiki/History_of_religion"
         },
         {
             "title": "The Development of Writing Systems",
-            "date": "circa 3000 BC",
+            "date": "-3000-01-01",
             "description": "The invention of writing in Mesopotamia, Egypt, and other regions revolutionized human communication, record-keeping, and administration.",
             "link": "https://en.wikipedia.org/wiki/History_of_writing"
         },
         {
             "title": "Alexander the Great's Conquests",
-            "date": "4th Century BC",
+            "date": "-0336-01-01",  // Starting year of conquests
             "description": "Alexander the Great's campaigns created a vast empire and spread Greek culture across three continents.",
             "link": "https://en.wikipedia.org/wiki/Alexander_the_Great"
         },
         {
             "title": "Preventing World War II",
-            "date": "20th Century",
+            "date": "1939-09-01",
             "description": "Stopping the rise of Hitler and the Nazis could prevent the Holocaust and save millions of lives.",
             "link": "https://en.wikipedia.org/wiki/Causes_of_World_War_II"
         },
         {
             "title": "Stopping the Assassination of Archduke Franz Ferdinand",
-            "date": "1914",
+            "date": "1914-06-28",
             "description": "Preventing this event could potentially avert World War I, which reshaped the 20th century and set the stage for World War II.",
             "link": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
         },
         {
             "title": "Preventing the 9/11 Attacks",
-            "date": "2001",
+            "date": "2001-09-11",
             "description": "Avoiding this event could save thousands of lives and potentially change the course of global politics, security, and civil liberties.",
             "link": "https://en.wikipedia.org/wiki/September_11_attacks"
         },
         {
             "title": "Averting the Black Death",
-            "date": "14th Century",
+            "date": "1347-01-01",
             "description": "Stopping the plague that killed a significant portion of Europe's population in the 14th century could have profound demographic and social consequences.",
             "link": "https://en.wikipedia.org/wiki/Black_Death"
         },
         {
             "title": "Ending Colonialism Early",
-            "date": "Various",
+            "date": "1960-01-01",
             "description": "Intervening to end or prevent the colonization and exploitation of various regions could significantly alter the economic and political development of many countries.",
             "link": "https://en.wikipedia.org/wiki/Colonialism"
         },
         {
             "title": "Preservation of the Library of Alexandria",
-            "date": "circa 48 BC and later",
+            "date": "-0048-01-01",  // Approximation
             "description": "Preventing the destruction of the Library of Alexandria could preserve ancient knowledge and accelerate the development of science and culture.",
             "link": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
         }
