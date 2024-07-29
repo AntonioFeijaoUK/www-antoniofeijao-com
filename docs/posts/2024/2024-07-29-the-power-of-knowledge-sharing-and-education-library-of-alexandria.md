@@ -1,6 +1,6 @@
 ---
 date: 2024-07-29
-title: "The Power of Knowledge Sharing and Education - Library of Alexandria"
+title: "The Power of Knowledge Sharing and Education Library of Alexandria"
 
 categories:
   - chatgpt
@@ -28,10 +28,8 @@ tags:
     This post is result of an interaction between [Antonio Feijao UK](https://www.antoniofeijao.com/)
     and [ChatGPT](https://openai.com/index/chatgpt/).
 
-
 !!! info "timeline of major historical events"
-    Example of a timeline with major historical events that, if prevented, could re-share history as we know it.
-    * <https://www.antoniofeijao.com/timeline/>
+    <https://www.antoniofeijao.com/timeline/> - Example of a timeline with major historical events that, if prevented, could re-share history as we know it - 
 
 ---
 
