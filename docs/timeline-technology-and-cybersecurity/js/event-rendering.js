@@ -61,7 +61,7 @@ function createCollapsibleSection(year, events) {
 
         const thumbnail = document.createElement('img');
         thumbnail.className = 'event-thumbnail';
-        thumbnail.src = `/images-thumbnails/${imageFilename}`;
+        thumbnail.src = `images-thumbnails/${imageFilename}`;
         thumbnail.alt = event.title;
 
         // Add click event listener for expanding the image
@@ -88,7 +88,7 @@ function createCollapsibleSection(year, events) {
 function showModal(imageFilename, imageAlt) {
     const modal = document.getElementById('imageModal');
     const modalImage = document.getElementById('modalImage');
-    modalImage.src = `/images/${imageFilename}`;
+    modalImage.src = `images/${imageFilename}`;
     modalImage.alt = imageAlt;
     modal.style.display = 'block';
 }
