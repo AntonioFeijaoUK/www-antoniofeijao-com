@@ -18,8 +18,7 @@ Learning by doing!
 Hi! I believe on the open shared knowledge, I share my learnings tips here for free. Use at your own responsibility.  
 If you like any of my content, please consider buying me a coffee ☕️ :)
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-<script type='text/javascript'>kofiwidget2.init('Buy-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script>
+<a href='https://ko-fi.com/B0B019526' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
 
 ---
 
