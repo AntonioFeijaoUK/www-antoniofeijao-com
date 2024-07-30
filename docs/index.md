@@ -44,7 +44,7 @@ document.getElementsByTagName('video')[0].playbackRate = 2.0;
     emphasizing the impact of knowledge sharing and education on humanity's progress.  
     * <https://www.antoniofeijao.com/timeline/>
 
-!!! info ">> "Technology and Cybersecurity Timeline"
+!!! info "Technology and Cybersecurity Timeline"
     Here you will find a comprehensive overview of the major events that have shaped the fields of technology and cybersecurity.  
     From the formation of the Earth and the first single-celled organisms to the latest advancements in artificial intelligence and quantum computing,  
     explore the key milestones that have driven human progress.  
