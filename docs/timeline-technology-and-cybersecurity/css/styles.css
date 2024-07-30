@@ -53,7 +53,7 @@ body {
 }
 
 .intro-image {
-    max-width: 75%; /* Set to 3/4 of the screen width */
+    max-width: 50%; /* Set to 50% of the screen width */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
