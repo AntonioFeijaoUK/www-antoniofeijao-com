@@ -13,7 +13,7 @@ title: "Home"
 
 Learning by doing!
 
-Buy-me a coffee >> If any of my knowledge share notes helped you, please consider buying me a coffee ☕️ :)
+**Buy-me a coffee** >> If you like any of my content, please consider buying me a coffee ☕️ :)
 
 
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
@@ -33,8 +33,27 @@ document.getElementsByTagName('video')[0].playbackRate = 2.0;
 
 ---
 
-## blog posts
-
 **Opinions are my own**
+
+## playing with timeline
+
+!!! info "Historical Events Timeline"
+    This timeline highlights significant events from the Big Bang to the modern era,  
+    emphasizing the impact of knowledge sharing and education on humanity's progress.
+
+* <https://www.antoniofeijao.com/timeline/>
+
+
+!!! info ">> "Technology and Cybersecurity Timeline"
+    Here you will find a comprehensive overview of the major events that have shaped the fields of technology and cybersecurity.  
+    From the formation of the Earth and the first single-celled organisms to the latest advancements in artificial intelligence and quantum computing,  
+    explore the key milestones that have driven human progress.
+
+* https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/
+
+
+---
+
+## blog posts
 
 ---
