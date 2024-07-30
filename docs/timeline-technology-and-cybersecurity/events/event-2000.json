@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Y2K Bug",
+            "description": "The Y2K bug caused widespread concern about computer systems at the turn of the millennium.",
+            "date": "2000-01-01",
+            "image": "/images/y2k.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

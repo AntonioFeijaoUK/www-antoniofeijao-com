@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#intro {
+    padding: 20px;
+    text-align: center;
+}
+
+#intro h1 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+#intro p {
+    margin: 10px 0;
+}
+
+/* Navigation Buttons */
+#nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+#home-button,
+.theme-switch-button {
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#home-button:hover,
+.theme-switch-button:hover {
+    text-decoration: underline;
+}
+
+/* Intro image styling */
+#intro-image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro-image {
+    max-width: 75%; /* Set to 3/4 of the screen width */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.intro-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Event Section Styles */
+.year-section {
+    margin: 20px;
+}
+
+.year-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.year-content {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.year-content.collapsed {
+    display: none;
+}
+
+.event {
+    margin-bottom: 15px;
+}
+
+.event-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.event-description {
+    margin: 5px 0;
+}
+
+.event-date,
+.event-duration {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+/* Thumbnail Image Styling */
+.event-thumbnail {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-mode .year-header {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.light-mode .year-content {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.light-mode .event-date,
+.light-mode .event-duration {
+    color: #555;
+}
+
+/* Footer Styles */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+

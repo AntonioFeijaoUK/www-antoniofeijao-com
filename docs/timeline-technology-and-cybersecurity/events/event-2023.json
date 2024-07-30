@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "ChatGPT Release",
+            "description": "OpenAI released ChatGPT, an advanced language model capable of natural language understanding and generation.",
+            "date": "2023-02-01",
+            "image": "/images/chatgpt.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Meta Layoffs",
+            "description": "Meta Platforms, Inc., formerly known as Facebook, announced significant layoffs impacting its workforce.",
+            "date": "2023-03-14",
+            "image": "/images/meta.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Microsoft Activision Blizzard Acquisition",
+            "description": "Microsoft completed its acquisition of Activision Blizzard, one of the largest deals in the gaming industry.",
+            "date": "2023-07-18",
+            "image": "/images/activision.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Apple Vision Pro Announcement",
+            "description": "Apple announced its new augmented reality headset, Vision Pro, marking a significant step in AR technology.",
+            "date": "2023-06-05",
+            "image": "/images/visionpro.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

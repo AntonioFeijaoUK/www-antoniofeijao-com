@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Launch of Git",
+            "description": "Linus Torvalds released Git, a distributed version control system.",
+            "date": "2005-04-07",
+            "image": "/images/git.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

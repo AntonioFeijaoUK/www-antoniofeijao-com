@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Introduction of macOS X",
+            "description": "Apple introduced macOS X, a major overhaul of its operating system.",
+            "date": "2001-03-24",
+            "image": "/images/macosx.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First iPod Release",
+            "description": "Apple released the first iPod, transforming the music industry.",
+            "date": "2001-10-23",
+            "image": "/images/ipod.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Release of Windows XP",
+            "description": "Microsoft released Windows XP, known for its improved user interface and stability.",
+            "date": "2001-10-25",
+            "image": "/images/windowsxp.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+
