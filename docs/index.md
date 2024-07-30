@@ -16,7 +16,10 @@ Learning by doing!
 **Buy-me a coffee**
 
 Hi! I believe on the open shared knowledge, I share my learnings tips here for free. Use at your own responsibility.  
-If you like any of my content, please consider buying me a coffee ☕️ :) <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script>
+If you like any of my content, please consider buying me a coffee ☕️ :)
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+<script type='text/javascript'>kofiwidget2.init('Buy-me-a-Coffee', '#ff5f5f', 'B0B019526');kofiwidget2.draw();</script>
 
 ---
 
