@@ -5,435 +5,1354 @@
             "description": "The National Aeronautics and Space Administration (NASA) was formed.",
             "date": "1958-07-29",
             "image": "/images/nasa.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Apollo 11 Moon Landing",
-            "description": "Apollo 11 landed on the moon, marking the first time humans set foot on the lunar surface.",
-            "date": "1969-07-20",
-            "image": "/images/moon.jpg",
-            "duration": "8 days"
-        },
-        {
-            "title": "Launch of Voyager 1",
-            "description": "NASA launched Voyager 1, a space probe aimed at exploring the outer planets and interstellar space.",
-            "date": "1977-09-05",
-            "image": "/images/voyager1.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of Voyager 2",
-            "description": "NASA launched Voyager 2, a space probe aimed at exploring the outer planets and beyond.",
-            "date": "1977-08-20",
-            "image": "/images/voyager2.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Hubble Space Telescope Launch",
-            "description": "NASA launched the Hubble Space Telescope, providing unprecedented views of the universe.",
-            "date": "1990-04-24",
-            "image": "/images/hubble.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Mars Pathfinder Mission",
-            "description": "NASA's Mars Pathfinder mission successfully landed on Mars, deploying the Sojourner rover.",
-            "date": "1997-07-04",
-            "image": "/images/mars_pathfinder.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the International Space Station",
-            "description": "The first module of the International Space Station (ISS) was launched, marking the beginning of its construction.",
-            "date": "1998-11-20",
-            "image": "/images/iss.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Cassini-Huygens Mission to Saturn",
-            "description": "NASA's Cassini spacecraft entered orbit around Saturn and later deployed the Huygens probe to Titan.",
-            "date": "2004-06-30",
-            "image": "/images/cassini.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "New Horizons Mission to Pluto",
-            "description": "NASA's New Horizons spacecraft conducted a flyby of Pluto, providing the first close-up images of the dwarf planet.",
-            "date": "2015-07-14",
-            "image": "/images/new_horizons.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Curiosity Rover Lands on Mars",
-            "description": "NASA's Curiosity rover successfully landed on Mars, beginning its mission to explore the planet's surface.",
-            "date": "2012-08-06",
-            "image": "/images/curiosity.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the James Webb Space Telescope",
-            "description": "NASA launched the James Webb Space Telescope, a powerful space telescope designed to study the universe in unprecedented detail.",
-            "date": "2021-12-25",
-            "image": "/images/jwst.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Space Tourist Flight",
-            "description": "Dennis Tito became the first space tourist, flying to the International Space Station on a Russian Soyuz spacecraft.",
-            "date": "2001-04-28",
-            "image": "/images/space_tourist.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Large Hadron Collider",
-            "description": "The Large Hadron Collider (LHC), the world's largest and most powerful particle accelerator, was launched.",
-            "date": "2008-09-10",
-            "image": "/images/lhc.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Space Shuttle Launch",
-            "description": "NASA's Space Shuttle Columbia launched on its maiden flight, marking the first reusable spacecraft.",
-            "date": "1981-04-12",
-            "image": "/images/space_shuttle.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Mars Science Laboratory (MSL) Launch",
-            "description": "NASA launched the Mars Science Laboratory, which carried the Curiosity rover to Mars.",
-            "date": "2011-11-26",
-            "image": "/images/msl.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Voyager 1 Enters Interstellar Space",
-            "description": "NASA's Voyager 1 became the first human-made object to enter interstellar space.",
-            "date": "2012-08-25",
-            "image": "/images/voyager1_interstellar.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Female Spacewalk",
-            "description": "Svetlana Savitskaya became the first woman to perform a spacewalk.",
-            "date": "1984-07-25",
-            "image": "/images/female_spacewalk.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Mars Rover Mission",
-            "description": "NASA's Mars Pathfinder mission successfully landed on Mars and deployed the Sojourner rover.",
-            "date": "1997-07-04",
-            "image": "/images/mars_rover.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Parker Solar Probe",
-            "description": "NASA launched the Parker Solar Probe, designed to study the outer corona of the Sun.",
-            "date": "2018-08-12",
-            "image": "/images/parker_solar_probe.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Image of a Black Hole",
-            "description": "The Event Horizon Telescope collaboration released the first image of a black hole.",
-            "date": "2019-04-10",
-            "image": "/images/black_hole.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "SpaceX Crew Dragon First Manned Flight",
-            "description": "SpaceX's Crew Dragon spacecraft successfully launched its first crewed mission to the International Space Station.",
-            "date": "2020-05-30",
-            "image": "/images/crew_dragon.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Mars Perseverance Rover Landing",
-            "description": "NASA's Perseverance rover successfully landed on Mars to search for signs of past life.",
-            "date": "2021-02-18",
-            "image": "/images/perseverance.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Huygens Probe",
-            "description": "The European Space Agency's Huygens probe was launched aboard NASA's Cassini spacecraft to explore Titan, Saturn's largest moon.",
-            "date": "1997-10-15",
-            "image": "/images/huygens.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Mars InSight Lander",
-            "description": "NASA's InSight lander successfully landed on Mars to study the planet's interior.",
-            "date": "2018-11-26",
-            "image": "/images/insight.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Mars Odyssey Orbiter",
-            "description": "NASA's Mars Odyssey orbiter was launched to map the Martian surface and search for signs of water.",
-            "date": "2001-04-07",
-            "image": "/images/mars_odyssey.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Voyager 2 Completes Grand Tour of the Outer Planets",
-            "description": "Voyager 2 completed its grand tour of the outer planets, providing valuable data and images.",
-            "date": "1989-08-25",
-            "image": "/images/voyager2_grand_tour.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Discovery of Exoplanet Proxima Centauri b",
-            "description": "Astronomers discovered Proxima Centauri b, an exoplanet orbiting the closest star to our solar system.",
-            "date": "2016-08-24",
-            "image": "/images/proxima_centauri_b.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Kepler Space Telescope",
-            "description": "NASA launched the Kepler Space Telescope to search for Earth-like planets in the habitable zones of other stars.",
-            "date": "2009-03-07",
-            "image": "/images/kepler.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Chandra X-ray Observatory",
-            "description": "NASA launched the Chandra X-ray Observatory to study high-energy regions of the universe.",
-            "date": "1999-07-23",
-            "image": "/images/chandra.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Spitzer Space Telescope",
-            "description": "NASA launched the Spitzer Space Telescope to study the universe in infrared light.",
-            "date": "2003-08-25",
-            "image": "/images/spitzer.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Detection of Gravitational Waves",
-            "description": "Scientists made the first detection of gravitational waves, confirming a major prediction of Einstein's general theory of relativity.",
-            "date": "2015-09-14",
-            "image": "/images/gravitational_waves.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Private Manned Spaceflight",
-            "description": "SpaceShipOne completed the first privately funded manned spaceflight.",
-            "date": "2004-06-21",
-            "image": "/images/spaceshipone.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Mars Reconnaissance Orbiter",
-            "description": "NASA launched the Mars Reconnaissance Orbiter to study Mars' atmosphere and terrain from orbit.",
-            "date": "2005-08-12",
-            "image": "/images/mro.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Landing on a Comet",
-            "description": "The European Space Agency's Rosetta mission successfully landed the Philae probe on comet 67P/Churyumov-Gerasimenko.",
-            "date": "2014-11-12",
-            "image": "/images/rosetta.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Galileo Spacecraft",
-            "description": "NASA's Galileo spacecraft was launched to study Jupiter and its moons.",
-            "date": "1989-10-18",
-            "image": "/images/galileo.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the James Webb Space Telescope",
-            "description": "NASA launched the James Webb Space Telescope, the most powerful space telescope ever built.",
-            "date": "2021-12-25",
-            "image": "/images/james_webb.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Space Station",
-            "description": "The Soviet Union launched Salyut 1, the world's first space station.",
-            "date": "1971-04-19",
-            "image": "/images/salyut1.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Lunar Reconnaissance Orbiter",
-            "description": "NASA launched the Lunar Reconnaissance Orbiter to map the moon's surface.",
-            "date": "2009-06-18",
-            "image": "/images/lro.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Mars Helicopter Flight",
-            "description": "NASA's Ingenuity helicopter made its first flight on Mars, demonstrating the feasibility of powered flight on another planet.",
-            "date": "2021-04-19",
-            "image": "/images/ingenuity.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Juno Spacecraft",
-            "description": "NASA launched the Juno spacecraft to study Jupiter's atmosphere and magnetosphere.",
-            "date": "2011-08-05",
-            "image": "/images/juno.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Discovery of Water on the Moon",
-            "description": "NASA's LCROSS mission confirmed the presence of water ice in a permanently shadowed crater on the moon.",
-            "date": "2009-10-09",
-            "image": "/images/water_moon.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Viking 1",
-            "description": "NASA's Viking 1 spacecraft was launched to explore Mars and search for signs of life.",
-            "date": "1975-08-20",
-            "image": "/images/viking1.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Planet Discovered Around a Sun-Like Star",
-            "description": "Astronomers discovered 51 Pegasi b, the first exoplanet found orbiting a Sun-like star.",
-            "date": "1995-10-06",
-            "image": "/images/51_pegasi_b.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Mars Global Surveyor",
-            "description": "NASA's Mars Global Surveyor was launched to map the Martian surface.",
-            "date": "1996-11-07",
-            "image": "/images/mgs.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Hubble Space Telescope",
-            "description": "NASA launched the Hubble Space Telescope, providing unprecedented views of the universe.",
-            "date": "1990-04-24",
-            "image": "/images/hubble.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the Dawn Spacecraft",
-            "description": "NASA's Dawn spacecraft was launched to study the protoplanet Vesta and the dwarf planet Ceres.",
-            "date": "2007-09-27",
-            "image": "/images/dawn.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Discovery of TRAPPIST-1 System",
-            "description": "Astronomers discovered seven Earth-sized planets orbiting the ultracool dwarf star TRAPPIST-1.",
-            "date": "2017-02-22",
-            "image": "/images/trappist1.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the TESS Space Telescope",
-            "description": "NASA's TESS (Transiting Exoplanet Survey Satellite) was launched to search for exoplanets.",
-            "date": "2018-04-18",
-            "image": "/images/tess.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "Launch of the OSIRIS-REx Mission",
-            "description": "NASA's OSIRIS-REx mission was launched to return samples from the asteroid Bennu.",
-            "date": "2016-09-08",
-            "image": "/images/osiris_rex.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Detection of Fast Radio Bursts",
-            "description": "Astronomers detected the first fast radio bursts (FRBs), mysterious high-energy astrophysical phenomena.",
-            "date": "2007-11-01",
-            "image": "/images/frb.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Spacewalk",
-            "description": "Alexei Leonov became the first person to conduct a spacewalk.",
-            "date": "1965-03-18",
-            "image": "/images/first_spacewalk.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "NASA"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/about/index.html"
+            ],
+            "location": "United States",
+            "event_type": "Organizational Formation",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Satellite Launched",
             "description": "The Soviet Union launched Sputnik 1, the world's first artificial satellite.",
             "date": "1957-10-04",
             "image": "/images/sputnik.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Satellites"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/multimedia/imagegallery/image_feature_924.html"
+            ],
+            "location": "Kazakhstan, USSR",
+            "event_type": "Satellite Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@roscosmos.ru",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Human in Space",
             "description": "Yuri Gagarin became the first human to journey into outer space.",
             "date": "1961-04-12",
             "image": "/images/yuri_gagarin.jpg",
-            "duration": "N/A"
+            "duration": "1 hour 48 minutes",
+            "categories": [
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/shuttle/sts1/gagarin_anniversary.html"
+            ],
+            "location": "Kazakhstan, USSR",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@roscosmos.ru",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First American in Space",
             "description": "Alan Shepard became the first American to travel into space.",
             "date": "1961-05-05",
             "image": "/images/alan_shepard.jpg",
-            "duration": "N/A"
+            "duration": "15 minutes",
+            "categories": [
+                "Human Spaceflight",
+                "NASA"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/centers/johnson/home/sts_1.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First American to Orbit the Earth",
             "description": "John Glenn became the first American to orbit the Earth.",
             "date": "1962-02-20",
             "image": "/images/john_glenn.jpg",
-            "duration": "N/A"
+            "duration": "4 hours 55 minutes",
+            "categories": [
+                "Human Spaceflight",
+                "NASA"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/centers/glenn/about/bios/mercury_mission.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Spacewalk",
+            "description": "Alexei Leonov became the first person to conduct a spacewalk.",
+            "date": "1965-03-18",
+            "image": "/images/first_spacewalk.jpg",
+            "duration": "12 minutes",
+            "categories": [
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/feature/alexei-leonov-legendary-cosmonaut-first-human-to-walk-in-space-dies-at-85"
+            ],
+            "location": "Kazakhstan, USSR",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@roscosmos.ru",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "Apollo 11 Moon Landing",
+            "description": "Apollo 11 landed on the moon, marking the first time humans set foot on the lunar surface.",
+            "date": "1969-07-20",
+            "image": "/images/moon.jpg",
+            "duration": "8 days",
+            "categories": [
+                "Human Spaceflight",
+                "Apollo Program"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/apollo/apollo11.html"
+            ],
+            "location": "Moon",
+            "event_type": "Lunar Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "Launch of the Lunar Module Eagle",
             "description": "Apollo 11's Lunar Module Eagle was launched, carrying Neil Armstrong and Buzz Aldrin to the moon's surface.",
             "date": "1969-07-16",
             "image": "/images/lunar_module.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Human Spaceflight",
+                "Apollo Program"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/apollo/apollo11.html"
+            ],
+            "location": "Moon",
+            "event_type": "Lunar Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of Apollo 13",
+            "description": "NASA launched Apollo 13, which became a 'successful failure' due to an in-flight accident that necessitated the safe return of its crew.",
+            "date": "1970-04-11",
+            "image": "/images/apollo13.jpg",
+            "duration": "6 days",
+            "categories": [
+                "Human Spaceflight",
+                "Apollo Program"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/apollo/apollo-13.html",
+                "https://www.hq.nasa.gov/alsj/a13/a13.html"
+            ],
+            "location": "Low Earth Orbit and Beyond",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronauts",
+                "Engineers",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Space Station",
+            "description": "The Soviet Union launched Salyut 1, the world's first space station.",
+            "date": "1971-04-19",
+            "image": "/images/salyut1.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Station",
+                "Space Exploration"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/feature/first-space-station-salyut-1",
+                "https://history.nasa.gov/SP-4208/ch2.htm"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Space Station Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@roscosmos.ru",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Mars Landing",
             "description": "NASA's Viking 1 lander successfully landed on Mars, conducting experiments and sending back images.",
             "date": "1976-07-20",
             "image": "/images/viking1_lander.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Planetary Exploration",
+                "Mars Missions"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/viking/"
+            ],
+            "location": "Mars",
+            "event_type": "Mars Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of Voyager 2",
+            "description": "NASA launched Voyager 2, a space probe aimed at exploring the outer planets and beyond.",
+            "date": "1977-08-20",
+            "image": "/images/voyager2.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Voyager Program"
+            ],
+            "read_more_urls": [
+                "https://voyager.jpl.nasa.gov/"
+            ],
+            "location": "Outer Solar System",
+            "event_type": "Space Probe Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of Voyager 1",
+            "description": "NASA launched Voyager 1, a space probe aimed at exploring the outer planets and interstellar space.",
+            "date": "1977-09-05",
+            "image": "/images/voyager1.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Voyager Program"
+            ],
+            "read_more_urls": [
+                "https://voyager.jpl.nasa.gov/"
+            ],
+            "location": "Outer Solar System",
+            "event_type": "Space Probe Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of Skylab",
+            "description": "NASA launched Skylab, the United States' first space station, conducting various scientific experiments.",
+            "date": "1973-05-14",
+            "image": "/images/skylab.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Station",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/skylab/index.html",
+                "https://history.nasa.gov/SP-4208/ch2.htm"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Space Station",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Scientists",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Reusable Spacecraft",
             "description": "NASA launched Space Shuttle Columbia, the first reusable spacecraft.",
             "date": "1981-04-12",
             "image": "/images/space_shuttle_columbia.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Space Shuttle Program",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/shuttle/main/index.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Space Shuttle Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronauts",
+                "Engineers",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Space Shuttle Launch",
+            "description": "NASA's Space Shuttle Columbia launched on its maiden flight, marking the first reusable spacecraft.",
+            "date": "1981-04-12",
+            "image": "/images/space_shuttle.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Shuttle Program",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/shuttle/main/index.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Space Shuttle Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronauts",
+                "Engineers",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Space Shuttle Challenger (STS-51-L)",
+            "description": "The Space Shuttle Challenger disaster occurred when the orbiter broke apart 73 seconds into its flight, leading to the loss of all seven crew members.",
+            "date": "1986-01-28",
+            "image": "/images/challenger.jpg",
+            "duration": "73 seconds",
+            "categories": [
+                "Human Spaceflight",
+                "Safety Protocols"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/shuttle/shuttlemissions/archives/sts-51L.html",
+                "https://history.nasa.gov/rogersrep/genindex.htm"
+            ],
+            "location": "Kennedy Space Center",
+            "event_type": "Space Shuttle Program",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronauts",
+                "Safety Experts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Galileo Spacecraft",
+            "description": "NASA's Galileo spacecraft was launched to study Jupiter and its moons.",
+            "date": "1989-10-18",
+            "image": "/images/galileo.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Planetary Exploration",
+                "Jupiter Missions"
+            ],
+            "read_more_urls": [
+                "https://solarsystem.nasa.gov/galileo/"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Spacecraft Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Voyager 2 Completes Grand Tour of the Outer Planets",
+            "description": "Voyager 2 completed its grand tour of the outer planets, providing valuable data and images.",
+            "date": "1989-08-25",
+            "image": "/images/voyager2_grand_tour.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Voyager Program"
+            ],
+            "read_more_urls": [
+                "https://voyager.jpl.nasa.gov/"
+            ],
+            "location": "Outer Solar System",
+            "event_type": "Space Probe Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Hubble Space Telescope",
+            "description": "NASA launched the Hubble Space Telescope, providing unprecedented views of the universe.",
+            "date": "1990-04-24",
+            "image": "/images/hubble.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Telescopes",
+                "Astronomy"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/hubble/main/index.html"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Telescope Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
         },
         {
             "title": "First Space Telescope",
             "description": "NASA launched the Hubble Space Telescope, providing unprecedented views of the universe.",
             "date": "1990-04-24",
             "image": "/images/hubble_space_telescope.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Space Telescopes",
+                "Astronomy"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/hubble/main/index.html"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Telescope Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Mars Rover Mission",
+            "description": "NASA's Mars Pathfinder mission successfully landed on Mars and deployed the Sojourner rover.",
+            "date": "1997-07-04",
+            "image": "/images/mars_rover.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/mars-exploration/missions/pathfinder/"
+            ],
+            "location": "Mars",
+            "event_type": "Mars Rover Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Mars Pathfinder Mission",
+            "description": "NASA's Mars Pathfinder mission successfully landed on Mars, deploying the Sojourner rover.",
+            "date": "1997-07-04",
+            "image": "/images/mars_pathfinder.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/mars-exploration/missions/pathfinder/"
+            ],
+            "location": "Mars",
+            "event_type": "Mars Rover Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the International Space Station",
+            "description": "The first module of the International Space Station (ISS) was launched, marking the beginning of its construction.",
+            "date": "1998-11-20",
+            "image": "/images/iss.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Station",
+                "International Collaboration"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/station/main/index.html"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Space Station Construction",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Engineers",
+                "Students"
+            ]
         },
         {
             "title": "First Space Station Crew",
             "description": "The first crew of the International Space Station (ISS) was launched, beginning continuous human presence in space.",
             "date": "2000-11-02",
             "image": "/images/iss_crew.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Space Station",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/station/main/index.html"
+            ],
+            "location": "Low Earth Orbit",
+            "event_type": "Human Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
         },
         {
-            "title": "First Landing on an Asteroid",
-            "description": "NASA's NEAR Shoemaker spacecraft successfully landed on the asteroid Eros.",
-            "date": "2001-02-12",
-            "image": "/images/near_shoemaker.jpg",
-            "duration": "N/A"
+            "title": "First Space Tourist Flight",
+            "description": "Dennis Tito became the first space tourist, flying to the International Space Station on a Russian Soyuz spacecraft.",
+            "date": "2001-04-28",
+            "image": "/images/space_tourist.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Tourism",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/missions/shuttle/f_tito.html"
+            ],
+            "location": "International Space Station",
+            "event_type": "Space Tourism",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@roscosmos.ru",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Tourists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Mars Odyssey Orbiter",
+            "description": "NASA's Mars Odyssey orbiter was launched to map the Martian surface and search for signs of water.",
+            "date": "2001-04-07",
+            "image": "/images/mars_odyssey.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/odyssey/"
+            ],
+            "location": "Mars",
+            "event_type": "Orbital Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Cassini-Huygens Mission",
+            "description": "NASA's Cassini spacecraft, carrying the European Space Agency's Huygens probe, was launched to explore Saturn and its moons.",
+            "date": "1997-10-15",
+            "image": "/images/cassini_huygens.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Planetary Exploration",
+                "Saturn Missions"
+            ],
+            "read_more_urls": [
+                "https://solarsystem.nasa.gov/cassini/",
+                "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens_overview2"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Spacecraft Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Cassini-Huygens Mission to Saturn",
+            "description": "NASA's Cassini spacecraft entered orbit around Saturn and later deployed the Huygens probe to Titan.",
+            "date": "2004-06-30",
+            "image": "/images/cassini.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Planetary Exploration",
+                "Saturn Missions"
+            ],
+            "read_more_urls": [
+                "https://solarsystem.nasa.gov/cassini/"
+            ],
+            "location": "Saturn",
+            "event_type": "Orbital Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Private Manned Spaceflight",
+            "description": "SpaceShipOne completed the first privately funded manned spaceflight.",
+            "date": "2004-06-21",
+            "image": "/images/spaceshipone.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Commercial Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/missions/solarsystem/xprize_spacetravel.html"
+            ],
+            "location": "Mojave Air and Space Port, USA",
+            "event_type": "Commercial Spaceflight",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@scaled.com",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Engineers",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Mars Reconnaissance Orbiter",
+            "description": "NASA launched the Mars Reconnaissance Orbiter to study Mars' atmosphere and terrain from orbit.",
+            "date": "2005-08-12",
+            "image": "/images/mro.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/mro/"
+            ],
+            "location": "Mars",
+            "event_type": "Orbital Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Large Hadron Collider",
+            "description": "The Large Hadron Collider (LHC), the world's largest and most powerful particle accelerator, was launched.",
+            "date": "2008-09-10",
+            "image": "/images/lhc.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Particle Physics",
+                "Scientific Research"
+            ],
+            "read_more_urls": [
+                "https://home.cern/science/accelerators/large-hadron-collider"
+            ],
+            "location": "CERN, Switzerland",
+            "event_type": "Scientific Research",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@cern.ch",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Physicists",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Discovery of Water on the Moon",
+            "description": "NASA's LCROSS mission confirmed the presence of water ice in a permanently shadowed crater on the moon.",
+            "date": "2009-10-09",
+            "image": "/images/water_moon.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Lunar Exploration",
+                "Space Science"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/LCROSS/main/index.html"
+            ],
+            "location": "Moon",
+            "event_type": "Lunar Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Kepler Space Telescope",
+            "description": "NASA launched the Kepler Space Telescope to search for Earth-like planets in the habitable zones of other stars.",
+            "date": "2009-03-07",
+            "image": "/images/kepler.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Telescopes",
+                "Exoplanet Research"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/kepler/main/index.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Telescope Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Lunar Reconnaissance Orbiter",
+            "description": "NASA launched the Lunar Reconnaissance Orbiter to map the moon's surface.",
+            "date": "2009-06-18",
+            "image": "/images/lro.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Lunar Exploration",
+                "Space Science"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/LRO/main/index.html"
+            ],
+            "location": "Moon",
+            "event_type": "Orbital Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Mars Science Laboratory (MSL)",
+            "description": "NASA launched the Mars Science Laboratory, which carried the Curiosity rover to Mars.",
+            "date": "2011-11-26",
+            "image": "/images/msl.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/msl/"
+            ],
+            "location": "Mars",
+            "event_type": "Rover Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Juno Spacecraft",
+            "description": "NASA launched the Juno spacecraft to study Jupiter's atmosphere and magnetosphere.",
+            "date": "2011-08-05",
+            "image": "/images/juno.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Planetary Exploration",
+                "Jupiter Missions"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/mission_pages/juno/main/index.html"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Spacecraft Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Curiosity Rover Lands on Mars",
+            "description": "NASA's Curiosity rover successfully landed on Mars, beginning its mission to explore the planet's surface.",
+            "date": "2012-08-06",
+            "image": "/images/curiosity.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/msl/"
+            ],
+            "location": "Mars",
+            "event_type": "Rover Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Voyager 1 Enters Interstellar Space",
+            "description": "NASA's Voyager 1 became the first human-made object to enter interstellar space.",
+            "date": "2012-08-25",
+            "image": "/images/voyager1_interstellar.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Voyager Program"
+            ],
+            "read_more_urls": [
+                "https://voyager.jpl.nasa.gov/"
+            ],
+            "location": "Interstellar Space",
+            "event_type": "Space Probe Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Landing on a Comet",
+            "description": "The European Space Agency's Rosetta mission successfully landed the Philae probe on comet 67P/Churyumov-Gerasimenko.",
+            "date": "2014-11-12",
+            "image": "/images/rosetta.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Comet Exploration",
+                "Space Science"
+            ],
+            "read_more_urls": [
+                "https://www.esa.int/Science_Exploration/Space_Science/Rosetta"
+            ],
+            "location": "Comet 67P/Churyumov-Gerasimenko",
+            "event_type": "Comet Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@esa.int",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Detection of Gravitational Waves",
+            "description": "Scientists made the first detection of gravitational waves, confirming a major prediction of Einstein's general theory of relativity.",
+            "date": "2015-09-14",
+            "image": "/images/gravitational_waves.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Astrophysics",
+                "Scientific Research"
+            ],
+            "read_more_urls": [
+                "https://www.ligo.caltech.edu/news/ligo20160211"
+            ],
+            "location": "LIGO Observatories",
+            "event_type": "Scientific Discovery",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@ligo.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Physicists",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Discovery of Exoplanet Proxima Centauri b",
+            "description": "Astronomers discovered Proxima Centauri b, an exoplanet orbiting the closest star to our solar system.",
+            "date": "2016-08-24",
+            "image": "/images/proxima_centauri_b.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Exoplanet Research",
+                "Astronomy"
+            ],
+            "read_more_urls": [
+                "https://www.eso.org/public/news/eso1629/"
+            ],
+            "location": "Proxima Centauri System",
+            "event_type": "Exoplanet Discovery",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@eso.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the OSIRIS-REx Mission",
+            "description": "NASA's OSIRIS-REx mission was launched to return samples from the asteroid Bennu.",
+            "date": "2016-09-08",
+            "image": "/images/osiris_rex.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Asteroid Exploration",
+                "Space Science"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/osiris-rex"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Asteroid Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Discovery of TRAPPIST-1 System",
+            "description": "Astronomers discovered seven Earth-sized planets orbiting the ultracool dwarf star TRAPPIST-1.",
+            "date": "2017-02-22",
+            "image": "/images/trappist1.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Exoplanet Research",
+                "Astronomy"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/press-release/nasa-telescope-reveals-largest-batch-of-earth-size-habitable-zone-planets-around"
+            ],
+            "location": "TRAPPIST-1 System",
+            "event_type": "Exoplanet Discovery",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@eso.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the Parker Solar Probe",
+            "description": "NASA launched the Parker Solar Probe, designed to study the outer corona of the Sun.",
+            "date": "2018-08-12",
+            "image": "/images/parker_solar_probe.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Solar Exploration",
+                "Space Science"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/content/solar-probe-plus"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Solar Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Mars InSight Lander",
+            "description": "NASA's InSight lander successfully landed on Mars to study the planet's interior.",
+            "date": "2018-11-26",
+            "image": "/images/insight.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/insight/"
+            ],
+            "location": "Mars",
+            "event_type": "Lander Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Image of a Black Hole",
+            "description": "The Event Horizon Telescope collaboration released the first image of a black hole.",
+            "date": "2019-04-10",
+            "image": "/images/black_hole.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Astrophysics",
+                "Scientific Discovery"
+            ],
+            "read_more_urls": [
+                "https://eventhorizontelescope.org/"
+            ],
+            "location": "Event Horizon Telescope",
+            "event_type": "Scientific Discovery",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@eht.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Physicists",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "SpaceX Crew Dragon First Manned Flight",
+            "description": "SpaceX's Crew Dragon spacecraft successfully launched its first crewed mission to the International Space Station.",
+            "date": "2020-05-30",
+            "image": "/images/crew_dragon.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Commercial Spaceflight",
+                "Human Spaceflight"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/feature/spacex-crew-dragon-launch"
+            ],
+            "location": "Cape Canaveral, USA",
+            "event_type": "Crewed Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@spacex.com",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Astronauts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Mars Perseverance Rover Landing",
+            "description": "NASA's Perseverance rover successfully landed on Mars to search for signs of past life.",
+            "date": "2021-02-18",
+            "image": "/images/perseverance.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/mars2020/"
+            ],
+            "location": "Mars",
+            "event_type": "Rover Mission",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
         },
         {
             "title": "First Powered Flight on Mars",
             "description": "NASA's Ingenuity helicopter made its first powered flight on Mars, demonstrating the feasibility of aerial exploration on the Red Planet.",
             "date": "2021-04-19",
             "image": "/images/ingenuity_mars.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/technology/helicopter/"
+            ],
+            "location": "Mars",
+            "event_type": "Aerial Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "First Mars Helicopter Flight",
+            "description": "NASA's Ingenuity helicopter made its first flight on Mars, demonstrating the feasibility of powered flight on another planet.",
+            "date": "2021-04-19",
+            "image": "/images/ingenuity.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Mars Exploration",
+                "Planetary Science"
+            ],
+            "read_more_urls": [
+                "https://mars.nasa.gov/technology/helicopter/"
+            ],
+            "location": "Mars",
+            "event_type": "Aerial Exploration",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of the James Webb Space Telescope",
+            "description": "NASA launched the James Webb Space Telescope, the most powerful space telescope ever built.",
+            "date": "2021-12-25",
+            "image": "/images/james_webb.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Telescopes",
+                "Astronomy"
+            ],
+            "read_more_urls": [
+                "https://www.jwst.nasa.gov/"
+            ],
+            "location": "Kourou, French Guiana",
+            "event_type": "Telescope Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nasa.gov",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Scientists",
+                "Students"
+            ]
         }
     ]
 }
-

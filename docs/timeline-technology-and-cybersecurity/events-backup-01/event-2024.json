@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "CrowdStrike Global IT Outage",
+            "description": "On 19th July 2024, CrowdStrike, a prominent cybersecurity technology company, experienced a significant global IT outage. The incident severely impacted its services and customers worldwide, highlighting the vulnerabilities in even the most robust security infrastructures.",
+            "date": "2024-07-19",
+            "image": "/images/crowdstrike.webp",
+            "duration": "N/A"
+        },
+        {
+            "title": "MacRumors - Apple Announces iPhone 16",
+            "description": "Apple announced the iPhone 16, featuring significant advancements in battery life and camera technology.",
+            "date": "2024-09-10",
+            "image": "/images/iphone16.webp",
+            "duration": "N/A"
+        },
+        {
+            "title": "Google Quantum Supremacy",
+            "description": "Google achieved a breakthrough in quantum computing, claiming quantum supremacy with a new quantum processor.",
+            "date": "2024-06-15",
+            "image": "/images/quantum.webp",
+            "duration": "N/A"
+        },
+        {
+            "title": "Meta Unveils New VR Headset",
+            "description": "Meta Platforms unveiled its latest VR headset, providing enhanced virtual reality experiences and features.",
+            "date": "2024-03-25",
+            "image": "/images/meta-vr.webp",
+            "duration": "N/A"
+        }
+    ]
+}
+

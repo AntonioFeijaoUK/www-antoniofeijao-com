@@ -3,31 +3,222 @@
         {
             "title": "Launch of Windows 11",
             "description": "Microsoft released Windows 11, introducing a new user interface, enhanced performance, and updated productivity tools.",
+            "detailed_description": "On October 5th, 2021, Microsoft officially released Windows 11. This new version of Windows introduced a revamped Start Menu, improved multitasking capabilities with Snap Layouts, support for Android apps, and a redesigned Microsoft Store. Windows 11 aimed to provide a more modern, cohesive, and efficient experience for users.",
             "date": "2021-10-05",
             "image": "/images/windows11.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": ["Technology", "Software", "Innovation"],
+            "read_more_urls": [
+                "https://blogs.windows.com/windowsexperience/2021/10/04/windows-11-available-on-october-5/",
+                "https://www.theverge.com/2021/10/4/22708862/microsoft-windows-11-release-date-features",
+                "https://www.cnet.com/tech/services-and-software/windows-11-release/"
+            ],
+            "location": "Global",
+            "event_type": "Technology Release",
+            "speakers": ["Panos Panay"],
+            "contact_information": {
+                "email": "support@microsoft.com",
+                "phone": "+1-800-642-7676"
+            },
+            "target_audience": ["IT Professionals", "Tech Enthusiasts", "General Public"]
         },
         {
             "title": "Colonial Pipeline Ransomware Attack",
             "description": "A ransomware attack on Colonial Pipeline caused widespread fuel shortages across the eastern United States.",
+            "detailed_description": "On May 7th, 2021, Colonial Pipeline, a major US fuel pipeline operator, was hit by a ransomware attack carried out by the DarkSide group. The attack forced the company to shut down its pipeline operations, leading to fuel shortages and panic buying across the eastern United States. Colonial Pipeline paid a ransom of 75 Bitcoin (worth approximately $4.4 million at the time) to the attackers.",
             "date": "2021-05-07",
             "image": "/images/colonial_pipeline.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": ["Cybersecurity", "Ransomware", "Critical Infrastructure"],
+            "read_more_urls": [
+                "https://www.reuters.com/technology/colonial-pipeline-hack-2021-05-07/",
+                "https://www.nytimes.com/2021/05/08/us/colonial-pipeline-cyberattack.html",
+                "https://www.bbc.com/news/business-57050690"
+            ],
+            "location": "United States",
+            "event_type": "Cybersecurity Incident",
+            "speakers": ["Colonial Pipeline Executives"],
+            "contact_information": {
+                "email": "info@colpipe.com",
+                "phone": "+1-678-762-2250"
+            },
+            "target_audience": ["Security Experts", "Government Officials", "Energy Sector"]
         },
         {
             "title": "Facebook Outage",
             "description": "A major outage affected Facebook and its associated services, including Instagram and WhatsApp, for several hours.",
+            "detailed_description": "On October 4th, 2021, Facebook, Instagram, and WhatsApp experienced a significant global outage that lasted for approximately six hours. The outage was caused by a configuration error during routine maintenance, disrupting services for billions of users worldwide and highlighting the dependency on these platforms.",
             "date": "2021-10-04",
             "image": "/images/facebook_outage.jpg",
-            "duration": "N/A"
+            "duration": "6 hours",
+            "categories": ["Technology", "Social Media", "Outage"],
+            "read_more_urls": [
+                "https://www.nytimes.com/2021/10/04/technology/facebook-down.html",
+                "https://www.bbc.com/news/technology-58793174",
+                "https://www.theverge.com/2021/10/4/22709589/facebook-down-instagram-whatsapp-outage"
+            ],
+            "location": "Global",
+            "event_type": "Service Outage",
+            "speakers": ["Facebook Engineering Team"],
+            "contact_information": {
+                "email": "support@fb.com",
+                "phone": "+1-650-543-4800"
+            },
+            "target_audience": ["Social Media Users", "IT Professionals", "General Public"]
         },
         {
             "title": "Google AI LaMDA Announcement",
             "description": "Google announced LaMDA, a breakthrough in conversational AI technology capable of engaging in natural conversations on various topics.",
+            "detailed_description": "On May 18th, 2021, during the Google I/O conference, Google unveiled LaMDA (Language Model for Dialogue Applications), a conversational AI model designed to improve natural language understanding and generation. LaMDA's capabilities allow it to engage in open-ended conversations on a wide range of topics, pushing the boundaries of conversational AI.",
             "date": "2021-05-18",
             "image": "/images/google_lamda.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": ["AI", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://blog.google/technology/ai/lamda-breaking-ground-conversation/",
+                "https://www.theverge.com/2021/5/18/22440191/google-io-2021-lamda-conversational-ai-model",
+                "https://www.cnbc.com/2021/05/18/google-unveils-lamda-ai-conversational-technology.html"
+            ],
+            "location": "Mountain View, CA, USA",
+            "event_type": "Technology Announcement",
+            "speakers": ["Sundar Pichai"],
+            "contact_information": {
+                "email": "press@google.com",
+                "phone": "+1-650-253-0000"
+            },
+            "target_audience": ["AI Researchers", "Developers", "Tech Enthusiasts"]
+        },
+        {
+            "title": "Tesla Autopilot Investigation",
+            "description": "The US National Highway Traffic Safety Administration opened a formal investigation into Tesla's Autopilot system.",
+            "detailed_description": "On August 16th, 2021, the US National Highway Traffic Safety Administration (NHTSA) opened a formal investigation into Tesla's Autopilot system following a series of crashes involving Tesla vehicles colliding with parked emergency vehicles. The investigation aimed to assess the safety and effectiveness of the Autopilot feature.",
+            "date": "2021-08-16",
+            "image": "/images/tesla_autopilot.jpg",
+            "duration": "Ongoing",
+            "categories": ["Automotive", "Technology", "Safety"],
+            "read_more_urls": [
+                "https://www.reuters.com/business/autos-transportation/us-opens-formal-probe-into-tesla-autopilot-system-2021-08-16/",
+                "https://www.nytimes.com/2021/08/16/business/tesla-autopilot-nhtsa-investigation.html",
+                "https://www.bbc.com/news/technology-58246114"
+            ],
+            "location": "United States",
+            "event_type": "Regulatory Investigation",
+            "speakers": ["NHTSA Representatives"],
+            "contact_information": {
+                "email": "press@tesla.com",
+                "phone": "+1-650-681-5000"
+            },
+            "target_audience": ["Automotive Industry", "Safety Advocates", "General Public"]
+        },
+        {
+            "title": "Apple's App Store Legal Battle",
+            "description": "Apple faced a high-profile legal battle over its App Store policies and practices.",
+            "detailed_description": "In 2021, Apple was involved in a legal battle with Epic Games, the developer of Fortnite, over its App Store policies. The lawsuit challenged Apple's 30% commission on app sales and in-app purchases, leading to a court ruling that required Apple to allow developers to direct users to external payment methods.",
+            "date": "2021-09-10",
+            "image": "/images/apple_app_store.jpg",
+            "duration": "N/A",
+            "categories": ["Business", "Technology", "Legal"],
+            "read_more_urls": [
+                "https://www.nytimes.com/2021/09/10/technology/apple-epic-games-app-store.html",
+                "https://www.theverge.com/2021/9/10/22661080/apple-epic-fortnite-app-store-lawsuit-ruling",
+                "https://www.bbc.com/news/technology-58420225"
+            ],
+            "location": "Cupertino, CA, USA",
+            "event_type": "Legal Battle",
+            "speakers": ["Tim Sweeney", "Tim Cook"],
+            "contact_information": {
+                "email": "pr@apple.com",
+                "phone": "+1-408-996-1010"
+            },
+            "target_audience": ["Developers", "Tech Enthusiasts", "Legal Professionals"]
+        },
+        {
+            "title": "China's Cryptocurrency Ban",
+            "description": "China intensified its crackdown on cryptocurrency mining and trading, declaring all transactions illegal.",
+            "detailed_description": "On September 24th, 2021, the People's Bank of China declared all cryptocurrency transactions illegal, intensifying its crackdown on digital currencies. The move banned cryptocurrency trading, mining, and related activities, causing significant impacts on global cryptocurrency markets.",
+            "date": "2021-09-24",
+            "image": "/images/china_cryptocurrency_ban.jpg",
+            "duration": "N/A",
+            "categories": ["Finance", "Cryptocurrency", "Regulation"],
+            "read_more_urls": [
+                "https://www.reuters.com/technology/china-cracks-down-cryptocurrency-trading-2021-09-24/",
+                "https://www.bbc.com/news/technology-58678907",
+                "https://www.cnbc.com/2021/09/24/china-declares-cryptocurrency-transactions-illegal.html"
+            ],
+            "location": "China",
+            "event_type": "Regulatory Action",
+            "speakers": ["People's Bank of China Representatives"],
+            "contact_information": {
+                "email": "info@pbc.gov.cn",
+                "phone": "+86-10-6619-4114"
+            },
+            "target_audience": ["Investors", "Cryptocurrency Enthusiasts", "Financial Institutions"]
+        },
+        {
+            "title": "Perseverance Rover Lands on Mars",
+            "description": "NASA's Perseverance rover successfully landed on Mars, beginning its mission to search for signs of ancient life.",
+            "detailed_description": "On February 18th, 2021, NASA's Perseverance rover successfully landed on Mars in the Jezero Crater, beginning its mission to search for signs of ancient life and collect samples for future return to Earth. The rover's landing marked a significant achievement in space exploration and technology.",
+            "date": "2021-02-18",
+            "image": "/images/perseverance_rover.jpg",
+            "duration": "Ongoing",
+            "categories": ["Space Exploration", "Science", "Technology"],
+            "read_more_urls": [
+                "https://www.nasa.gov/perseverance",
+                "https://www.bbc.com/news/science-environment-56119931",
+                "https://www.cnn.com/2021/02/18/world/nasa-perseverance-rover-mars-landing-scn/index.html"
+            ],
+            "location": "Mars",
+            "event_type": "Space Mission",
+            "speakers": ["NASA Scientists"],
+            "contact_information": {
+                "email": "public-inquiries@hq.nasa.gov",
+                "phone": "+1-202-358-0001"
+            },
+            "target_audience": ["Space Enthusiasts", "Scientists", "Students"]
+        },
+        {
+            "title": "Clubhouse App Popularity Surge",
+            "description": "The Clubhouse app gained widespread popularity as a new social media platform focusing on audio-based conversations.",
+            "detailed_description": "In early 2021, Clubhouse, an audio-based social media app, gained significant popularity, attracting millions of users and attention from high-profile personalities. The app's unique format of live audio conversations allowed users to participate in discussions on various topics, leading to a surge in interest in audio-based social platforms.",
+            "date": "2021-02-01",
+            "image": "/images/clubhouse_app.jpg",
+            "duration": "N/A",
+            "categories": ["Social Media", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://www.forbes.com/sites/forbestechcouncil/2021/03/10/what-is-clubhouse-and-how-to-get-the-most-out-of-it/",
+                "https://www.nytimes.com/2021/02/18/style/clubhouse-app.html",
+                "https://www.cnbc.com/2021/02/17/clubhouse-android-release-date-what-to-know.html"
+            ],
+            "location": "Global",
+            "event_type": "Social Media Trend",
+            "speakers": ["Paul Davison", "Rohan Seth"],
+            "contact_information": {
+                "email": "support@clubhouse.com",
+                "phone": "+1-415-555-1212"
+            },
+            "target_audience": ["Social Media Enthusiasts", "Tech Enthusiasts", "General Public"]
+        },
+        {
+            "title": "COP26 Climate Change Conference",
+            "description": "World leaders gathered at the COP26 conference in Glasgow to discuss urgent action on climate change.",
+            "detailed_description": "The COP26 Climate Change Conference took place in Glasgow from October 31st to November 12th, 2021, bringing together representatives from nearly 200 countries to discuss climate action. The conference aimed to accelerate efforts to meet the goals of the Paris Agreement and included discussions on reducing carbon emissions, protecting natural habitats, and increasing climate finance.",
+            "date": "2021-10-31",
+            "image": "/images/cop26_climate_change.jpg",
+            "duration": "13 days",
+            "categories": ["Environment", "Climate Change", "International Relations"],
+            "read_more_urls": [
+                "https://www.un.org/en/climatechange/cop26",
+                "https://www.bbc.com/news/science-environment-56901261",
+                "https://www.theguardian.com/environment/cop26"
+            ],
+            "location": "Glasgow, Scotland",
+            "event_type": "International Conference",
+            "speakers": ["Alok Sharma", "John Kerry", "Greta Thunberg"],
+            "contact_information": {
+                "email": "info@cop26.org",
+                "phone": "+44-1234-567890"
+            },
+            "target_audience": ["Environmentalists", "Policy Makers", "Scientists"]
         }
     ]
 }
-

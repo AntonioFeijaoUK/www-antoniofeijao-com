@@ -3,171 +3,698 @@
         {
             "title": "Formation of the Earth",
             "description": "The Earth formed around 4.54 billion years ago.",
+            "detailed_description": "The Earth formed about 4.54 billion years ago from the solar nebula through accretion and collision processes, eventually forming a molten mass that cooled over time to create a stable crust. This process marked the beginning of our planet's geological history, laying the groundwork for the development of life.",
             "date": "4540000000 BC",
             "image": "/images/earth.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Planetary Formation",
+                "Geology"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/Earth-science/Formation-of-the-planet",
+                "https://www.nationalgeographic.com/science/article/earth-formation",
+                "https://www.scientificamerican.com/article/how-was-earth-formed/"
+            ],
+            "location": "Solar System",
+            "event_type": "Planetary Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@astronomy.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Astronomers",
+                "Geologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "First Single-Celled Life",
             "description": "The first single-celled life forms appeared on Earth.",
+            "detailed_description": "The first single-celled organisms, such as prokaryotes, emerged around 4 billion years ago. These primitive life forms, likely resembling bacteria, were capable of photosynthesis and chemosynthesis, paving the way for the development of more complex life.",
             "date": "4000000000 BC",
             "image": "/images/single_cell.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/evolution-scientific-theory/Single-celled-life",
+                "https://www.livescience.com/57942-the-history-of-single-celled-organisms.html",
+                "https://www.amnh.org/research/paleontology"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@paleontology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Paleontologists",
+                "Students"
+            ]
         },
         {
             "title": "First Multicellular Life",
             "description": "The first multicellular life forms appeared on Earth.",
+            "detailed_description": "Around 2 billion years ago, the first multicellular organisms began to emerge, evolving from single-celled ancestors. These early multicellular life forms, such as algae and fungi, marked a significant evolutionary step towards complex life and biodiversity.",
             "date": "2000000000 BC",
             "image": "/images/multicellular.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/multicellular-organism",
+                "https://www.scientificamerican.com/article/how-multicellular-life-evolved/",
+                "https://www.nature.com/articles/s41559-018-0674-3"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Students",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "Cambrian Explosion",
             "description": "A period of rapid evolutionary development where most major animal phyla appeared.",
+            "detailed_description": "The Cambrian Explosion, occurring around 541 million years ago, was a remarkable period of evolutionary innovation that saw the rapid diversification of life forms. This era led to the emergence of most major animal phyla, including arthropods, mollusks, and chordates, dramatically transforming Earth's biosphere.",
             "date": "541000000 BC",
             "image": "/images/cambrian_explosion.jpg",
-            "duration": "N/A"
-        },
-        {
-            "title": "First Land Plants",
-            "description": "The first land plants appeared on Earth.",
-            "date": "470000000 BC",
-            "image": "/images/land_plants.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Paleontology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/Cambrian-explosion",
+                "https://www.livescience.com/28077-cambrian-explosion.html",
+                "https://www.nationalgeographic.com/science/article/cambrian-explosion"
+            ],
+            "location": "Earth",
+            "event_type": "Evolutionary Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@paleontology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Paleontologists",
+                "Biologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "First Fish",
             "description": "The first fish appeared in Earth's oceans.",
+            "detailed_description": "Fish, the earliest vertebrates, first appeared in Earth's oceans around 530 million years ago. These primitive jawless fish, known as agnathans, evolved to become a crucial component of the marine ecosystem and paved the way for the development of more advanced vertebrates.",
             "date": "530000000 BC",
             "image": "/images/fish.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/fish",
+                "https://www.nationalgeographic.com/animals/article/fish-evolution",
+                "https://www.sciencedaily.com/releases/2006/11/061116103315.htm"
+            ],
+            "location": "Earth's Oceans",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Students",
+                "Science Enthusiasts"
+            ]
+        },
+        {
+            "title": "First Land Plants",
+            "description": "The first land plants appeared on Earth.",
+            "detailed_description": "The first land plants emerged around 470 million years ago during the Ordovician period. These pioneering species, including bryophytes and primitive vascular plants, colonized terrestrial environments, altering Earth's atmosphere and paving the way for terrestrial life.",
+            "date": "470000000 BC",
+            "image": "/images/land_plants.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Botany",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/plant-biology",
+                "https://www.nationalgeographic.com/science/article/land-plants-evolution",
+                "https://www.sciencedaily.com/releases/2001/02/010228074005.htm"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@botany.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Botanists",
+                "Ecologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "First Amphibians",
             "description": "The first amphibians emerged from the water and began living on land.",
+            "detailed_description": "Amphibians, such as the early tetrapods, evolved from lobe-finned fish around 370 million years ago. These pioneering creatures adapted to life on land and water, marking a significant evolutionary step in the colonization of terrestrial habitats.",
             "date": "370000000 BC",
             "image": "/images/amphibians.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/amphibian",
+                "https://www.nationalgeographic.com/animals/article/amphibians",
+                "https://www.scientificamerican.com/article/the-origin-of-amphibians/"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Paleontologists",
+                "Students"
+            ]
         },
         {
             "title": "First Reptiles",
             "description": "The first reptiles appeared on Earth.",
+            "detailed_description": "Reptiles first emerged around 310 million years ago, evolving from amphibian ancestors. These early reptiles, such as Hylonomus, developed adaptations like amniotic eggs and scaly skin, allowing them to thrive in terrestrial environments and diversify into various lineages.",
             "date": "310000000 BC",
             "image": "/images/reptiles.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/reptile",
+                "https://www.nationalgeographic.com/animals/article/reptiles",
+                "https://www.scientificamerican.com/article/the-origin-of-reptiles/"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Paleontologists",
+                "Students"
+            ]
         },
         {
             "title": "First Mammals",
             "description": "The first mammals appeared on Earth.",
+            "detailed_description": "Mammals first appeared around 200 million years ago during the Late Triassic period. These early mammals, like Morganucodon, were small, nocturnal creatures with distinctive features such as hair and mammary glands, setting the stage for the evolution of diverse mammalian species.",
             "date": "200000000 BC",
             "image": "/images/mammals.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/mammal",
+                "https://www.livescience.com/60641-mammals-evolution.html",
+                "https://www.nhm.ac.uk/discover/how-did-mammals-evolve.html"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Biologists",
+                "Paleontologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "First Birds",
             "description": "The first birds evolved from theropod dinosaurs.",
+            "detailed_description": "Birds first evolved from theropod dinosaurs around 150 million years ago during the Jurassic period. Archaeopteryx, one of the earliest known birds, exhibited features like feathers and wings, representing a transitional form between dinosaurs and modern birds.",
             "date": "150000000 BC",
             "image": "/images/birds.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/bird",
+                "https://www.nationalgeographic.com/animals/article/bird-evolution",
+                "https://www.amnh.org/research/paleontology"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Ornithologists",
+                "Paleontologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "Dinosaur Extinction",
             "description": "The mass extinction event that led to the demise of the dinosaurs.",
+            "detailed_description": "The mass extinction event that led to the demise of the dinosaurs occurred around 65 million years ago, likely caused by a combination of factors, including an asteroid impact and volcanic activity. This event marked the end of the Mesozoic Era and paved the way for the rise of mammals and birds as dominant life forms.",
             "date": "65000000 BC",
             "image": "/images/dinosaurs.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Paleontology",
+                "Geology"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/science/Cretaceous-Paleogene-extinction",
+                "https://www.livescience.com/29611-dinosaur-extinction-theories.html",
+                "https://www.amnh.org/research/paleontology"
+            ],
+            "location": "Earth",
+            "event_type": "Extinction Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@paleontology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Paleontologists",
+                "Geologists",
+                "Science Enthusiasts"
+            ]
         },
         {
             "title": "First Primates",
             "description": "The first primates appeared on Earth.",
+            "detailed_description": "Primates first appeared around 55 million years ago, during the Paleocene-Eocene Thermal Maximum. These early primates, such as Plesiadapiformes, were small, arboreal creatures that evolved adaptations for life in trees, setting the stage for the evolution of modern primates, including humans.",
             "date": "55000000 BC",
             "image": "/images/primates.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Biology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/animal/primate",
+                "https://www.nationalgeographic.com/science/article/primates",
+                "https://www.amnh.org/research/vertebrate-zoology/mammalogy"
+            ],
+            "location": "Earth",
+            "event_type": "Biological Evolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@biology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Primatologists",
+                "Paleontologists",
+                "Students"
+            ]
         },
         {
             "title": "First Hominids",
             "description": "The first hominids, ancestors of modern humans, appeared in Africa.",
+            "detailed_description": "The first hominids, including species such as Sahelanthropus and Ardipithecus, appeared around 6 million years ago in Africa. These early human ancestors were bipedal and exhibited traits that laid the foundation for the evolution of the genus Homo, leading to modern humans.",
             "date": "6000000 BC",
             "image": "/images/hominids.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Anthropology",
+                "Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/hominid",
+                "https://www.livescience.com/9824-human-evolution-timeline.html",
+                "https://www.amnh.org/research/human-origins"
+            ],
+            "location": "Africa",
+            "event_type": "Evolutionary Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@anthropology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Anthropologists",
+                "Paleontologists",
+                "Students"
+            ]
         },
         {
             "title": "Use of Fire by Early Humans",
             "description": "Early humans began to use fire for cooking and warmth.",
+            "detailed_description": "The control and use of fire by early humans, such as Homo erectus, began around 1 million years ago. This crucial development provided warmth, protection, and a means to cook food, significantly impacting human evolution and societal development.",
             "date": "1000000 BC",
             "image": "/images/fire.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Anthropology",
+                "Human Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/fire-control-of",
+                "https://www.livescience.com/41454-origin-of-cooking.html",
+                "https://www.scientificamerican.com/article/fire-early-humans/"
+            ],
+            "location": "Africa",
+            "event_type": "Technological Development",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@anthropology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Anthropologists",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Homo Sapiens",
             "description": "Homo sapiens first appeared around 300,000 years ago.",
+            "detailed_description": "Homo sapiens, our own species, first appeared around 300,000 years ago in Africa. These early modern humans exhibited complex behavior, including tool use, art, and social organization, setting the stage for the development of civilizations.",
             "date": "300000 BC",
             "image": "/images/human.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Anthropology",
+                "Human Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/Homo-sapiens",
+                "https://www.nhm.ac.uk/discover/what-does-it-mean-to-be-human.html",
+                "https://www.scientificamerican.com/article/what-makes-homo-sapiens-different/"
+            ],
+            "location": "Africa",
+            "event_type": "Evolutionary Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@anthropology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Anthropologists",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "Neanderthals Extinction",
             "description": "Neanderthals went extinct, leaving Homo sapiens as the sole human species.",
+            "detailed_description": "The Neanderthals, a close relative of Homo sapiens, went extinct around 40,000 years ago. Factors contributing to their extinction may include competition with modern humans, climate change, and possibly interbreeding with Homo sapiens.",
             "date": "40000 BC",
             "image": "/images/neanderthal.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Anthropology",
+                "Human Evolution"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/Neanderthal",
+                "https://www.livescience.com/28036-neanderthals-facts-about-our-extinct-human-relatives.html",
+                "https://www.nationalgeographic.com/science/article/neanderthal-extinction"
+            ],
+            "location": "Europe",
+            "event_type": "Extinction Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@anthropology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Anthropologists",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "Development of Agriculture",
             "description": "The development of agriculture allowed humans to settle in one place and form civilizations.",
+            "detailed_description": "The development of agriculture, beginning around 10,000 BC in the Fertile Crescent, marked a revolutionary shift in human society. This Neolithic Revolution enabled humans to cultivate crops and domesticate animals, leading to settled communities and the rise of complex civilizations.",
             "date": "10000 BC",
             "image": "/images/agriculture.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Anthropology",
+                "Agriculture"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/agriculture",
+                "https://www.history.com/topics/pre-history/neolithic-revolution",
+                "https://www.nationalgeographic.com/history/article/agriculture"
+            ],
+            "location": "Fertile Crescent",
+            "event_type": "Agricultural Revolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@anthropology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Archaeologists",
+                "Historians",
+                "Students"
+            ]
         },
         {
             "title": "First Writing Systems",
             "description": "The first writing systems were developed in ancient Mesopotamia and Egypt.",
+            "detailed_description": "The first writing systems, such as cuneiform in Mesopotamia and hieroglyphics in Egypt, developed around 3,500 BC. These innovations enabled the recording of history, administration, and culture, profoundly impacting human communication and civilization development.",
             "date": "3500 BC",
             "image": "/images/writing.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "History",
+                "Writing Systems"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/writing",
+                "https://www.history.com/topics/ancient-rome/ancient-egypt",
+                "https://www.nationalgeographic.com/history/article/ancient-writing"
+            ],
+            "location": "Mesopotamia and Egypt",
+            "event_type": "Cultural Development",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@archaeology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Archaeologists",
+                "Students"
+            ]
         },
         {
             "title": "Construction of the Pyramids",
             "description": "The Great Pyramid of Giza, one of the Seven Wonders of the Ancient World, was constructed.",
+            "detailed_description": "The Great Pyramid of Giza, built for Pharaoh Khufu around 2560 BC, stands as one of the most iconic architectural achievements of ancient Egypt. This monumental construction showcases the advanced engineering and organizational skills of the ancient Egyptians.",
             "date": "2560 BC",
             "image": "/images/pyramids.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "History",
+                "Architecture"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/Pyramids-of-Giza",
+                "https://www.history.com/topics/ancient-egypt/the-pyramids",
+                "https://www.nationalgeographic.com/history/article/great-pyramid-giza"
+            ],
+            "location": "Giza, Egypt",
+            "event_type": "Construction",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@archaeology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Archaeologists",
+                "Tourists"
+            ]
         },
         {
             "title": "Code of Hammurabi",
             "description": "The Code of Hammurabi, one of the oldest deciphered writings of significant length in the world, was created.",
+            "detailed_description": "The Code of Hammurabi, enacted by the Babylonian king Hammurabi around 1754 BC, is one of the earliest known sets of laws. This comprehensive legal code covered various aspects of society, including trade, property, and family law, reflecting the complexities of ancient Mesopotamian civilization.",
             "date": "1754 BC",
             "image": "/images/hammurabi.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Law",
+                "History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/Code-of-Hammurabi",
+                "https://www.history.com/topics/ancient-history/hammurabi",
+                "https://www.ancient.eu/Hammurabi/"
+            ],
+            "location": "Babylon, Mesopotamia",
+            "event_type": "Legal Development",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@archaeology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Law Scholars",
+                "Students"
+            ]
         },
         {
             "title": "Founding of Rome",
             "description": "According to legend, Rome was founded by Romulus and Remus.",
+            "detailed_description": "The legendary founding of Rome by the twin brothers Romulus and Remus is traditionally dated to 753 BC. This mythological origin story marks the beginning of one of history's most influential civilizations, which would shape the cultural and political landscape of Europe and beyond.",
             "date": "753 BC",
             "image": "/images/rome.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "History",
+                "Mythology"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/place/ancient-Rome",
+                "https://www.history.com/topics/ancient-rome/ancient-rome",
+                "https://www.ancient.eu/Rome/"
+            ],
+            "location": "Rome, Italy",
+            "event_type": "Founding",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@archaeology.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Archaeologists",
+                "Students"
+            ]
         },
         {
             "title": "Greek Democracy Established",
             "description": "The concept of democracy was established in Athens, Greece.",
+            "detailed_description": "The establishment of democracy in Athens around 508 BC marked a groundbreaking shift in political governance. Pioneered by leaders like Cleisthenes, Athenian democracy laid the foundations for democratic systems worldwide, emphasizing principles of citizenship, voting rights, and civic participation.",
             "date": "508 BC",
             "image": "/images/democracy.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "Politics",
+                "History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/topic/democracy",
+                "https://www.history.com/topics/ancient-greece/ancient-greece-democracy",
+                "https://www.nationalgeographic.com/culture/article/democracy"
+            ],
+            "location": "Athens, Greece",
+            "event_type": "Political Development",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
         },
         {
             "title": "Birth of Alexander the Great",
             "description": "Alexander the Great, one of history's greatest military minds, was born.",
+            "detailed_description": "Alexander the Great was born in 356 BC in Pella, Macedonia. As a brilliant military strategist and leader, he conquered vast territories, spreading Greek culture and influence across three continents, leaving a lasting legacy on history and civilization.",
             "date": "356 BC",
             "image": "/images/alexander.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "History",
+                "Military"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/biography/Alexander-the-Great",
+                "https://www.history.com/topics/ancient-history/alexander-the-great",
+                "https://www.nationalgeographic.com/history/article/alexander-the-great"
+            ],
+            "location": "Pella, Macedonia",
+            "event_type": "Historical Figure",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "History Enthusiasts"
+            ]
         },
         {
             "title": "Julius Caesar Assassinated",
             "description": "Julius Caesar was assassinated, leading to the end of the Roman Republic.",
+            "detailed_description": "The assassination of Julius Caesar on March 15, 44 BC, by a group of Roman senators, marked a pivotal moment in Roman history. This event led to the downfall of the Roman Republic and the rise of the Roman Empire under Augustus Caesar.",
             "date": "44 BC",
             "image": "/images/caesar.jpg",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": [
+                "History",
+                "Politics"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/biography/Julius-Caesar",
+                "https://www.history.com/topics/ancient-history/julius-caesar",
+                "https://www.nationalgeographic.com/history/article/julius-caesar"
+            ],
+            "location": "Rome, Italy",
+            "event_type": "Political Assassination",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
         }
     ]
 }
-

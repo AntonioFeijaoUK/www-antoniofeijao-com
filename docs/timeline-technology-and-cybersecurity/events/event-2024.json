@@ -2,32 +2,480 @@
     "events": [
         {
             "title": "CrowdStrike Global IT Outage",
-            "description": "On 19th July 2024, CrowdStrike, a prominent cybersecurity technology company, experienced a significant global IT outage. The incident severely impacted its services and customers worldwide, highlighting the vulnerabilities in even the most robust security infrastructures.",
+            "description": "On 19th July 2024, CrowdStrike, a prominent cybersecurity technology company, experienced a significant global IT outage.",
+            "detailed_description": "The outage lasted several hours and affected many of their clients, showcasing the challenges faced even by leading cybersecurity firms in maintaining uninterrupted services. An internal investigation was launched to determine the root cause and mitigate future risks.",
             "date": "2024-07-19",
             "image": "/images/crowdstrike.webp",
-            "duration": "N/A"
+            "duration": "Several hours",
+            "categories": ["Cybersecurity", "Technology", "IT"],
+            "read_more_urls": [
+                "https://www.securityweek.com/crowdstrike-experiences-it-outage-affecting-customers-worldwide/",
+                "https://www.zdnet.com/article/crowdstrike-hit-by-global-outage/"
+            ],
+            "location": "Global",
+            "event_type": "Incident",
+            "related_events": [
+                {
+                    "title": "Microsoft Exchange Outage 2023",
+                    "link": "https://www.bbc.com/news/technology-58678907"
+                }
+            ],
+            "contact_information": {
+                "email": "support@crowdstrike.com",
+                "phone": "+1-888-512-8906"
+            },
+            "target_audience": ["IT Professionals", "Cybersecurity Experts"]
         },
         {
-            "title": "MacRumors - Apple Announces iPhone 16",
+            "title": "Apple Announces iPhone 16",
             "description": "Apple announced the iPhone 16, featuring significant advancements in battery life and camera technology.",
+            "detailed_description": "On September 10th, 2024, Apple revealed the iPhone 16 at their annual product launch event. The new model boasts improved battery life, an innovative camera system with AI enhancements, and cutting-edge display technology. This announcement marks another step forward in Apple's ongoing innovation journey.",
             "date": "2024-09-10",
             "image": "/images/iphone16.webp",
-            "duration": "N/A"
-        },
-        {
-            "title": "Google Quantum Supremacy",
-            "description": "Google achieved a breakthrough in quantum computing, claiming quantum supremacy with a new quantum processor.",
-            "date": "2024-06-15",
-            "image": "/images/quantum.webp",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": ["Technology", "Consumer Electronics", "Mobile"],
+            "read_more_urls": [
+                "https://www.macrumors.com/2024/09/10/apple-announces-iphone-16/",
+                "https://www.cnet.com/news/apple-unveils-iphone-16-with-battery-and-camera-upgrades/"
+            ],
+            "location": "Cupertino, CA, USA",
+            "event_type": "Product Launch",
+            "speakers": ["Tim Cook", "Greg Joswiak"],
+            "registration_link": "https://apple.com/iphone16-event",
+            "agenda": [
+                {"time": "10:00 AM", "activity": "Opening Remarks"},
+                {"time": "10:30 AM", "activity": "iPhone 16 Reveal"},
+                {"time": "11:00 AM", "activity": "Q&A Session"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/Apple",
+                "https://facebook.com/Apple"
+            ],
+            "related_events": [
+                {
+                    "title": "Apple Developer Conference 2024",
+                    "link": "https://developer.apple.com/wwdc24"
+                },
+                {
+                    "title": "Tech Innovations 2024",
+                    "link": "https://example.com/tech-innovations-2024"
+                }
+            ],
+            "sponsors": [
+                {"name": "Adobe", "link": "https://www.adobe.com"},
+                {"name": "Samsung", "link": "https://www.samsung.com"}
+            ],
+            "contact_information": {
+                "email": "events@apple.com",
+                "phone": "+1-800-555-0199"
+            },
+            "target_audience": ["Consumers", "Tech Enthusiasts", "Developers"]
         },
         {
             "title": "Meta Unveils New VR Headset",
             "description": "Meta Platforms unveiled its latest VR headset, providing enhanced virtual reality experiences and features.",
+            "detailed_description": "Meta's latest VR headset, released on March 25th, 2024, includes advancements in display resolution, comfort, and user interactivity. This new model aims to solidify Meta's position as a leader in the VR industry and expand its user base by offering immersive virtual reality experiences.",
             "date": "2024-03-25",
             "image": "/images/meta-vr.webp",
-            "duration": "N/A"
+            "duration": "N/A",
+            "categories": ["Virtual Reality", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://www.theverge.com/2024/03/25/meta-new-vr-headset-announcement",
+                "https://www.engadget.com/meta-new-vr-headset-2024-launch/"
+            ],
+            "location": "Menlo Park, CA, USA",
+            "event_type": "Product Launch",
+            "speakers": ["Mark Zuckerberg"],
+            "registration_link": "https://meta.com/vr-headset-launch",
+            "agenda": [
+                {"time": "09:00 AM", "activity": "Keynote Address"},
+                {"time": "09:45 AM", "activity": "VR Demonstration"},
+                {"time": "10:30 AM", "activity": "Developer Panel"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/Meta",
+                "https://facebook.com/Meta"
+            ],
+            "related_events": [
+                {
+                    "title": "Oculus Connect 2024",
+                    "link": "https://www.oculus.com/connect/"
+                }
+            ],
+            "contact_information": {
+                "email": "events@meta.com",
+                "phone": "+1-650-543-4800"
+            },
+            "target_audience": ["Gamers", "VR Enthusiasts", "Developers"]
+        },
+        {
+            "title": "AWS re:Invent 2024",
+            "description": "AWS re:Invent is a learning conference hosted by Amazon Web Services for the global cloud computing community.",
+            "detailed_description": "AWS re:Invent 2024 is expected to feature keynote announcements, training, and certification opportunities, over 1,500 technical sessions, a partner expo, after-hours events, and much more. The event offers something for everyone who is looking to gain deeper knowledge of AWS and cloud technologies.",
+            "date": "2024-12-02",
+            "image": "/images/aws-reinvent.webp",
+            "duration": "5 days",
+            "categories": ["Cloud Computing", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://reinvent.awsevents.com/",
+                "https://aws.amazon.com/blogs/aws/"
+            ],
+            "location": "Las Vegas, NV, USA",
+            "event_type": "Conference",
+            "speakers": ["Andy Jassy", "Werner Vogels"],
+            "registration_link": "https://reinvent.awsevents.com/register/",
+            "agenda": [
+                {"time": "08:00 AM", "activity": "Welcome and Keynotes"},
+                {"time": "09:30 AM", "activity": "Breakout Sessions"},
+                {"time": "12:00 PM", "activity": "Lunch"},
+                {"time": "01:00 PM", "activity": "Workshops"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/AWSreInvent",
+                "https://www.linkedin.com/company/amazon-web-services"
+            ],
+            "related_events": [
+                {
+                    "title": "Microsoft Ignite 2024",
+                    "link": "https://ignite.microsoft.com/"
+                },
+                {
+                    "title": "Google Cloud Next 2024",
+                    "link": "https://cloud.withgoogle.com/next"
+                }
+            ],
+            "contact_information": {
+                "email": "aws-reinvent-support@amazon.com",
+                "phone": "+1-888-283-2200"
+            },
+            "target_audience": ["Cloud Engineers", "IT Professionals", "Developers"]
+        },
+        {
+            "title": "DEF CON 32",
+            "description": "DEF CON is one of the world's largest and most notable hacker conventions, held annually in Las Vegas, Nevada.",
+            "detailed_description": "DEF CON 32 will feature talks, workshops, and contests on various aspects of hacking and cybersecurity. The event brings together hackers, researchers, and security professionals to discuss the latest vulnerabilities, exploits, and defense strategies.",
+            "date": "2024-08-01",
+            "image": "/images/defcon.webp",
+            "duration": "4 days",
+            "categories": ["Cybersecurity", "Hacking", "Technology"],
+            "read_more_urls": [
+                "https://defcon.org/",
+                "https://www.forbes.com/sites/thomasbrewster/2024/07/30/def-con-32-preview/"
+            ],
+            "location": "Las Vegas, NV, USA",
+            "event_type": "Conference",
+            "speakers": ["Various experts from the cybersecurity field"],
+            "registration_link": "https://defcon.org/html/defcon-32/dc-32-registration.html",
+            "agenda": [
+                {"time": "09:00 AM", "activity": "Opening Ceremony"},
+                {"time": "10:00 AM", "activity": "Keynote Speech"},
+                {"time": "11:00 AM", "activity": "Workshops and Talks"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/defcon",
+                "https://facebook.com/defcon"
+            ],
+            "related_events": [
+                {
+                    "title": "Black Hat USA 2024",
+                    "link": "https://www.blackhat.com/us-24/"
+                },
+                {
+                    "title": "RSA Conference 2024",
+                    "link": "https://www.rsaconference.com/"
+                }
+            ],
+            "contact_information": {
+                "email": "info@defcon.org",
+                "phone": "+1-702-343-3607"
+            },
+            "target_audience": ["Hackers", "Security Researchers", "IT Professionals"]
+        },
+        {
+            "title": "Linux Kernel Summit 2024",
+            "description": "The Linux Kernel Summit is an annual conference for developers and maintainers of the Linux kernel.",
+            "detailed_description": "The Linux Kernel Summit 2024 will bring together the top Linux kernel developers to discuss and plan the development of the Linux kernel. The event provides a forum for developers to collaborate and share knowledge, focusing on the kernel's future direction and upcoming releases.",
+            "date": "2024-11-05",
+            "image": "/images/linux-kernel.webp",
+            "duration": "3 days",
+            "categories": ["Linux", "Open Source", "Technology"],
+            "read_more_urls": [
+                "https://www.kernel.org/events/",
+                "https://lwn.net/Articles/2024-kernel-summit/"
+            ],
+            "location": "Dublin, Ireland",
+            "event_type": "Developer Conference",
+            "speakers": ["Linus Torvalds", "Greg Kroah-Hartman"],
+            "registration_link": "https://www.kernel.org/events/kernelsummit2024.html",
+            "agenda": [
+                {"time": "09:00 AM", "activity": "Opening Remarks"},
+                {"time": "09:30 AM", "activity": "Technical Sessions"},
+                {"time": "12:00 PM", "activity": "Lunch"},
+                {"time": "01:00 PM", "activity": "Workshops"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/LinuxKernel",
+                "https://facebook.com/LinuxKernel"
+            ],
+            "related_events": [
+                {
+                    "title": "Open Source Summit Europe 2024",
+                    "link": "https://events.linuxfoundation.org/open-source-summit-europe-2024/"
+                }
+            ],
+            "contact_information": {
+                "email": "events@kernel.org",
+                "phone": "+1-503-905-9941"
+            },
+            "target_audience": ["Developers", "Kernel Maintainers", "Open Source Enthusiasts"]
+        },
+        {
+            "title": "Python Conference (PyCon) 2024",
+            "description": "PyCon is the largest annual gathering for the Python community, bringing together developers and enthusiasts from around the world.",
+            "detailed_description": "PyCon 2024 will feature talks, tutorials, and workshops on a wide range of topics related to Python programming. Attendees will have the opportunity to learn from experts, share their projects, and network with fellow Python enthusiasts.",
+            "date": "2024-05-17",
+            "image": "/images/pycon.webp",
+            "duration": "5 days",
+            "categories": ["Python", "Programming", "Technology"],
+            "read_more_urls": [
+                "https://us.pycon.org/2024/",
+                "https://realpython.com/pycon-2024/"
+            ],
+            "location": "Salt Lake City, UT, USA",
+            "event_type": "Conference",
+            "speakers": ["Guido van Rossum", "Raymond Hettinger"],
+            "registration_link": "https://us.pycon.org/2024/registration/",
+            "agenda": [
+                {"time": "09:00 AM", "activity": "Opening Keynote"},
+                {"time": "10:00 AM", "activity": "Technical Sessions"},
+                {"time": "12:00 PM", "activity": "Lunch"},
+                {"time": "01:00 PM", "activity": "Workshops"}
+            ],
+            "social_media_links": [
+                "https://twitter.com/pycon",
+                "https://facebook.com/pyconus"
+            ],
+            "related_events": [
+                {
+                    "title": "EuroPython 2024",
+                    "link": "https://ep2024.europython.eu/"
+                }
+            ],
+            "contact_information": {
+                "email": "pycon-organizers@python.org",
+                "phone": "+1-888-767-3333"
+            },
+            "target_audience": ["Developers", "Python Enthusiasts", "Students"]
+        },
+        {
+            "title": "Bitcoin Conference 2024",
+            "description": "The Bitcoin Conference is the largest annual event focused on the development and future of Bitcoin and blockchain technology.",
+            "detailed_description": "Bitcoin Conference 2024 will bring together leaders in blockchain technology, offering insights into the latest trends, regulatory updates, and technological advancements. The event aims to foster collaboration and innovation within the cryptocurrency community.",
+            "date": "2024-06-22",
+            "image": "/images/bitcoin-conference.webp",
+            "duration": "3 days",
+            "categories": ["Blockchain", "Cryptocurrency", "Finance"],
+            "read_more_urls": [
+                "https://www.bitcoin2024.com",
+                "https://www.coindesk.com/bitcoin-conference-2024"
+            ],
+            "location": "Miami, FL, USA",
+            "event_type": "Conference",
+            "speakers": ["Michael Saylor", "Cynthia Lummis"],
+            "contact_information": {
+                "email": "contact@bitcoin2024.com",
+                "phone": "+1-305-123-4567"
+            },
+            "target_audience": ["Investors", "Developers", "Blockchain Enthusiasts"]
+        },
+        {
+            "title": "MedTech Summit 2024",
+            "description": "MedTech Summit brings together experts in healthcare technology to discuss innovations and challenges in the medical field.",
+            "detailed_description": "The MedTech Summit 2024 will highlight breakthroughs in medical devices, telemedicine, and digital health. Attendees will explore the impact of technology on healthcare delivery, patient outcomes, and future trends in medical innovation.",
+            "date": "2024-09-15",
+            "image": "/images/medtech-summit.webp",
+            "duration": "2 days",
+            "categories": ["Healthcare", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://www.medtechsummit.com/2024",
+                "https://www.healthcareitnews.com/medtech-summit-2024"
+            ],
+            "location": "Boston, MA, USA",
+            "event_type": "Summit",
+            "speakers": ["Dr. Eric Topol", "Dr. Lisa Su"],
+            "contact_information": {
+                "email": "info@medtechsummit.com",
+                "phone": "+1-617-123-4567"
+            },
+            "target_audience": ["Healthcare Professionals", "Innovators", "Researchers"]
+        },
+        {
+            "title": "International Robotics Expo 2024",
+            "description": "The International Robotics Expo is the premier event showcasing advancements in robotics and automation technologies.",
+            "detailed_description": "On November 18th, 2024, the International Robotics Expo will feature cutting-edge robotics technologies, from industrial automation to consumer robotics. Attendees will have the opportunity to see live demonstrations and meet leading experts in the field.",
+            "date": "2024-11-18",
+            "image": "/images/robotics-expo.webp",
+            "duration": "3 days",
+            "categories": ["Robotics", "Automation", "Technology"],
+            "read_more_urls": [
+                "https://www.roboticsexpo.com/2024",
+                "https://www.roboticsbusinessreview.com/international-robotics-expo-2024"
+            ],
+            "location": "Tokyo, Japan",
+            "event_type": "Exhibition",
+            "speakers": ["Yoshiyuki Sankai", "Dr. Daniela Rus"],
+            "contact_information": {
+                "email": "info@roboticsexpo.com",
+                "phone": "+81-3-1234-5678"
+            },
+            "target_audience": ["Engineers", "Tech Enthusiasts", "Students"]
+        },
+        {
+            "title": "International Conference on Computer Science 2024",
+            "description": "An annual gathering of computer science professionals and academics, discussing the latest research and advancements in the field.",
+            "detailed_description": "The International Conference on Computer Science 2024 will focus on emerging trends and technologies in computer science, including AI, machine learning, data science, and cybersecurity. The event offers an opportunity for researchers and industry professionals to present their work and collaborate on future projects.",
+            "date": "2024-07-14",
+            "image": "/images/ics-2024.webp",
+            "duration": "4 days",
+            "categories": ["Computer Science", "Technology", "Research"],
+            "read_more_urls": [
+                "https://www.compsci2024.org",
+                "https://www.researchgate.net/event/International-Conference-on-Computer-Science-2024"
+            ],
+            "location": "Berlin, Germany",
+            "event_type": "Conference",
+            "speakers": ["Dr. John Doe", "Dr. Jane Smith"],
+            "contact_information": {
+                "email": "info@compsci2024.org",
+                "phone": "+49-30-12345678"
+            },
+            "target_audience": ["Researchers", "Academics", "IT Professionals"]
+        },
+        {
+            "title": "Future Electronics Expo 2024",
+            "description": "An exhibition dedicated to the latest trends and innovations in electronics, showcasing futuristic technologies and products.",
+            "detailed_description": "The Future Electronics Expo 2024 will display groundbreaking advancements in consumer electronics, wearables, and smart devices. Attendees will have the opportunity to explore the latest products and meet industry leaders, fostering discussions on the future of electronics and technological innovation.",
+            "date": "2024-11-10",
+            "image": "/images/future-electronics.webp",
+            "duration": "3 days",
+            "categories": ["Electronics", "Innovation", "Technology"],
+            "read_more_urls": [
+                "https://www.futureelectronics.com/expo-2024",
+                "https://www.electronicdesign.com/future-electronics-expo-2024"
+            ],
+            "location": "Shanghai, China",
+            "event_type": "Expo",
+            "speakers": ["Lei Jun", "Jensen Huang"],
+            "contact_information": {
+                "email": "info@futureelectronics.com",
+                "phone": "+86-21-1234-5678"
+            },
+            "target_audience": ["Tech Enthusiasts", "Engineers", "Innovators"]
+        },
+        {
+            "title": "Artificial Intelligence and Ethics Symposium 2024",
+            "description": "A symposium dedicated to exploring the ethical implications of AI and its impact on society.",
+            "detailed_description": "The Artificial Intelligence and Ethics Symposium 2024 will bring together experts from academia, industry, and government to discuss the ethical challenges posed by AI technologies. Topics will include privacy, bias, accountability, and the societal impact of AI deployment.",
+            "date": "2024-04-12",
+            "image": "/images/ai-ethics-symposium.webp",
+            "duration": "2 days",
+            "categories": ["AI", "Ethics", "Technology"],
+            "read_more_urls": [
+                "https://www.aies2024.org",
+                "https://www.theguardian.com/ai-ethics-symposium-2024"
+            ],
+            "location": "Cambridge, MA, USA",
+            "event_type": "Symposium",
+            "speakers": ["Dr. Kate Crawford", "Dr. Timnit Gebru"],
+            "contact_information": {
+                "email": "info@aies2024.org",
+                "phone": "+1-617-123-4567"
+            },
+            "target_audience": ["Researchers", "Policy Makers", "Ethicists"]
+        },
+        {
+            "title": "Cybersecurity Awareness Month 2024",
+            "description": "A month-long initiative to raise awareness about cybersecurity practices and education.",
+            "detailed_description": "Cybersecurity Awareness Month 2024 aims to educate the public and organizations about the importance of cybersecurity. Throughout October, events, workshops, and webinars will be held globally to promote safe online practices and to share the latest security insights and trends.",
+            "date": "2024-10-01",
+            "image": "/images/cybersecurity-awareness.webp",
+            "duration": "1 month",
+            "categories": ["Cybersecurity", "Education", "Awareness"],
+            "read_more_urls": [
+                "https://staysafeonline.org/cybersecurity-awareness-month-2024",
+                "https://www.cisa.gov/cybersecurity-awareness-month-2024"
+            ],
+            "location": "Global",
+            "event_type": "Awareness Campaign",
+            "speakers": ["Various experts from the cybersecurity field"],
+            "contact_information": {
+                "email": "info@staysafeonline.org",
+                "phone": "+1-888-123-4567"
+            },
+            "target_audience": ["General Public", "IT Professionals", "Businesses"]
+        },
+        {
+            "title": "Future of Work Conference 2024",
+            "description": "A conference exploring the impact of technology on the future of work and employment trends.",
+            "detailed_description": "The Future of Work Conference 2024 will discuss the evolving nature of work in the age of automation, AI, and digital transformation. Industry leaders, HR professionals, and technologists will share insights on remote work, workforce development, and the integration of technology in the workplace.",
+            "date": "2024-03-08",
+            "image": "/images/future-of-work.webp",
+            "duration": "3 days",
+            "categories": ["Technology", "Business", "Workforce"],
+            "read_more_urls": [
+                "https://www.futureofworkconference2024.com",
+                "https://www.forbes.com/future-of-work-conference-2024"
+            ],
+            "location": "Toronto, Canada",
+            "event_type": "Conference",
+            "speakers": ["Dr. Carl Benedikt Frey", "Diane Coyle"],
+            "contact_information": {
+                "email": "contact@futureofworkconference2024.com",
+                "phone": "+1-416-123-4567"
+            },
+            "target_audience": ["Business Leaders", "HR Professionals", "Tech Experts"]
+        },
+        {
+            "title": "Quantum Computing Forum 2024",
+            "description": "A forum to discuss the latest advancements and research in quantum computing.",
+            "detailed_description": "The Quantum Computing Forum 2024 will bring together researchers and industry leaders to explore the potential of quantum computing. Sessions will cover recent breakthroughs, practical applications, and the challenges in quantum hardware and software development.",
+            "date": "2024-06-30",
+            "image": "/images/quantum-computing-forum.webp",
+            "duration": "2 days",
+            "categories": ["Quantum Computing", "Research", "Technology"],
+            "read_more_urls": [
+                "https://www.quantumforum2024.org",
+                "https://www.ibm.com/blogs/research/quantum-computing-forum-2024"
+            ],
+            "location": "Zurich, Switzerland",
+            "event_type": "Forum",
+            "speakers": ["Dr. John Preskill", "Dr. Shohini Ghose"],
+            "contact_information": {
+                "email": "info@quantumforum2024.org",
+                "phone": "+41-44-123-4567"
+            },
+            "target_audience": ["Researchers", "Tech Leaders", "Scientists"]
+        },
+        {
+            "title": "Next-Gen Electronics Conference 2024",
+            "description": "A conference focusing on the future of electronics, including flexible electronics and wearable technology.",
+            "detailed_description": "The Next-Gen Electronics Conference 2024 will highlight innovations in flexible and wearable electronics. The event will feature demonstrations of new technologies, discussions on the impact of electronics on daily life, and the future potential of electronic materials and devices.",
+            "date": "2024-09-25",
+            "image": "/images/next-gen-electronics.webp",
+            "duration": "3 days",
+            "categories": ["Electronics", "Innovation", "Technology"],
+            "read_more_urls": [
+                "https://www.ngelectronics2024.com",
+                "https://www.engadget.com/next-gen-electronics-conference-2024"
+            ],
+            "location": "Seoul, South Korea",
+            "event_type": "Conference",
+            "speakers": ["Dr. Zhenan Bao", "Dr. Paul G. Allen"],
+            "contact_information": {
+                "email": "info@ngelectronics2024.com",
+                "phone": "+82-2-123-4567"
+            },
+            "target_audience": ["Engineers", "Innovators", "Tech Enthusiasts"]
         }
     ]
 }
-

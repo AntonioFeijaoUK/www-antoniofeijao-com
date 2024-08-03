@@ -1,33 +1,445 @@
 {
     "events": [
-        {
-            "title": "ChatGPT Release",
-            "description": "OpenAI released ChatGPT, an advanced language model capable of natural language understanding and generation.",
-            "date": "2023-02-01",
-            "image": "/images/chatgpt.jpg",
-            "duration": "N/A"
+      {
+        "title": "ChatGPT Release",
+        "description": "OpenAI released ChatGPT, an advanced language model capable of natural language understanding and generation.",
+        "detailed_description": "On February 1st, 2023, OpenAI launched ChatGPT, a state-of-the-art AI language model that excels in natural language processing tasks, such as text generation, conversation, and content creation. ChatGPT has applications across various industries, including customer service, education, and entertainment, demonstrating the growing impact of AI in daily life.",
+        "date": "2023-02-01",
+        "image": "/images/chatgpt.jpg",
+        "duration": "N/A",
+        "categories": ["AI", "Technology", "Innovation"],
+        "read_more_urls": [
+          "https://openai.com/blog/chatgpt-release/",
+          "https://www.wired.com/story/openai-chatgpt-launch/"
+        ],
+        "location": "San Francisco, CA, USA",
+        "event_type": "Technology Release",
+        "speakers": ["Sam Altman", "Ilya Sutskever"],
+        "contact_information": {
+          "email": "info@openai.com",
+          "phone": "+1-415-123-4567"
         },
-        {
-            "title": "Meta Layoffs",
-            "description": "Meta Platforms, Inc., formerly known as Facebook, announced significant layoffs impacting its workforce.",
-            "date": "2023-03-14",
-            "image": "/images/meta.jpg",
-            "duration": "N/A"
+        "target_audience": ["AI Researchers", "Developers", "Tech Enthusiasts"]
+      },
+      {
+        "title": "Meta Layoffs",
+        "description": "Meta Platforms, Inc., formerly known as Facebook, announced significant layoffs impacting its workforce.",
+        "detailed_description": "On March 14th, 2023, Meta Platforms, Inc. announced a major workforce reduction as part of its restructuring efforts to improve financial performance and focus on key business priorities. The layoffs affected thousands of employees and highlighted the challenges faced by tech companies in an evolving digital landscape.",
+        "date": "2023-03-14",
+        "image": "/images/meta.jpg",
+        "duration": "N/A",
+        "categories": ["Business", "Technology", "Economy"],
+        "read_more_urls": [
+          "https://www.bloomberg.com/news/meta-layoffs-2023",
+          "https://www.theverge.com/2023/03/meta-layoffs-restructuring/"
+        ],
+        "location": "Menlo Park, CA, USA",
+        "event_type": "Corporate Restructuring",
+        "contact_information": {
+          "email": "press@meta.com",
+          "phone": "+1-650-543-4800"
         },
-        {
-            "title": "Microsoft Activision Blizzard Acquisition",
-            "description": "Microsoft completed its acquisition of Activision Blizzard, one of the largest deals in the gaming industry.",
-            "date": "2023-07-18",
-            "image": "/images/activision.jpg",
-            "duration": "N/A"
+        "target_audience": ["Business Analysts", "Tech Professionals", "Economists"]
+      },
+      {
+        "title": "Microsoft Activision Blizzard Acquisition",
+        "description": "Microsoft completed its acquisition of Activision Blizzard, one of the largest deals in the gaming industry.",
+        "detailed_description": "On July 18th, 2023, Microsoft finalized its acquisition of Activision Blizzard for $68.7 billion, marking one of the biggest deals in the gaming industry. The acquisition aims to strengthen Microsoft's position in the gaming market by integrating popular franchises such as Call of Duty, World of Warcraft, and Candy Crush into its Xbox ecosystem.",
+        "date": "2023-07-18",
+        "image": "/images/activision.jpg",
+        "duration": "N/A",
+        "categories": ["Gaming", "Business", "Technology"],
+        "read_more_urls": [
+          "https://news.microsoft.com/2023/07/18/microsoft-completes-activision-acquisition/",
+          "https://www.cnbc.com/2023/07/18/microsoft-activision-deal.html"
+        ],
+        "location": "Redmond, WA, USA",
+        "event_type": "Business Acquisition",
+        "speakers": ["Satya Nadella", "Phil Spencer"],
+        "contact_information": {
+          "email": "press@microsoft.com",
+          "phone": "+1-425-882-8080"
         },
-        {
-            "title": "Apple Vision Pro Announcement",
-            "description": "Apple announced its new augmented reality headset, Vision Pro, marking a significant step in AR technology.",
-            "date": "2023-06-05",
-            "image": "/images/visionpro.jpg",
-            "duration": "N/A"
-        }
+        "target_audience": ["Gamers", "Investors", "Tech Analysts"]
+      },
+      {
+        "title": "Apple Vision Pro Announcement",
+        "description": "Apple announced its new augmented reality headset, Vision Pro, marking a significant step in AR technology.",
+        "detailed_description": "On June 5th, 2023, Apple announced the Vision Pro, an advanced augmented reality headset designed to deliver immersive AR experiences. The headset features high-resolution displays, spatial audio, and seamless integration with Apple's ecosystem, representing a major advancement in AR technology and consumer electronics.",
+        "date": "2023-06-05",
+        "image": "/images/visionpro.jpg",
+        "duration": "N/A",
+        "categories": ["Augmented Reality", "Technology", "Consumer Electronics"],
+        "read_more_urls": [
+          "https://www.apple.com/newsroom/2023/06/apple-announces-vision-pro/",
+          "https://www.techcrunch.com/2023/06/05/apple-vision-pro-reveal/"
+        ],
+        "location": "Cupertino, CA, USA",
+        "event_type": "Product Announcement",
+        "speakers": ["Tim Cook", "Mike Rockwell"],
+        "contact_information": {
+          "email": "pr@apple.com",
+          "phone": "+1-408-974-2042"
+        },
+        "target_audience": ["Tech Enthusiasts", "Developers", "AR Professionals"]
+      },
+      {
+        "title": "Tesla Full Self-Driving Beta Release",
+        "description": "Tesla announced the beta release of its Full Self-Driving (FSD) software, promising significant advancements in autonomous driving technology.",
+        "detailed_description": "On March 22nd, 2023, Tesla released the beta version of its Full Self-Driving (FSD) software to select users. The update includes enhanced navigation capabilities, improved safety features, and the ability to autonomously navigate city streets. Tesla's FSD aims to revolutionize the automotive industry by making autonomous vehicles more accessible.",
+        "date": "2023-03-22",
+        "image": "/images/tesla-fsd.webp",
+        "duration": "N/A",
+        "categories": ["Autonomous Vehicles", "Technology", "Innovation"],
+        "read_more_urls": [
+          "https://www.tesla.com/blog/full-self-driving-beta-release",
+          "https://www.cnbc.com/2023/03/22/tesla-fsd-beta-launch.html"
+        ],
+        "location": "Palo Alto, CA, USA",
+        "event_type": "Software Release",
+        "speakers": ["Elon Musk"],
+        "contact_information": {
+          "email": "press@tesla.com",
+          "phone": "+1-650-681-5000"
+        },
+        "target_audience": ["Autonomous Vehicle Enthusiasts", "Tech Innovators", "Automotive Industry"]
+      },
+      {
+        "title": "AI Ethics and Accountability Conference 2023",
+        "description": "A conference focused on addressing ethical concerns and accountability in the deployment of AI technologies.",
+        "detailed_description": "The AI Ethics and Accountability Conference 2023, held on April 10th, brought together experts from academia, industry, and government to discuss the ethical implications of AI technologies. Topics included bias in AI, privacy concerns, and establishing accountability frameworks for AI deployment.",
+        "date": "2023-04-10",
+        "image": "/images/ai-ethics-conference.webp",
+        "duration": "2 days",
+        "categories": ["AI", "Ethics", "Technology"],
+        "read_more_urls": [
+          "https://www.aiconference2023.org",
+          "https://www.theguardian.com/ai-ethics-2023"
+        ],
+        "location": "New York, NY, USA",
+        "event_type": "Conference",
+        "speakers": ["Dr. Kate Crawford", "Dr. Timnit Gebru"],
+        "contact_information": {
+          "email": "info@aiconference2023.org",
+          "phone": "+1-212-123-4567"
+        },
+        "target_audience": ["Researchers", "Policy Makers", "Tech Enthusiasts"]
+      },
+      {
+        "title": "International Cybersecurity Summit 2023",
+        "description": "An international summit focused on the latest cybersecurity threats and strategies to combat them.",
+        "detailed_description": "The International Cybersecurity Summit 2023, held on May 15th, gathered cybersecurity experts, government officials, and industry leaders to discuss the evolving threat landscape. The summit featured sessions on threat intelligence, incident response, and emerging technologies in cybersecurity.",
+        "date": "2023-05-15",
+        "image": "/images/cybersecurity-summit.webp",
+        "duration": "3 days",
+        "categories": ["Cybersecurity", "Technology", "Threat Intelligence"],
+        "read_more_urls": [
+          "https://www.cybersecuritysummit2023.com",
+          "https://www.darkreading.com/international-cybersecurity-summit-2023"
+        ],
+        "location": "London, UK",
+        "event_type": "Summit",
+        "speakers": ["Bruce Schneier", "Mikko Hyppönen"],
+        "contact_information": {
+          "email": "contact@cybersecuritysummit2023.com",
+          "phone": "+44-20-1234-5678"
+        },
+        "target_audience": ["Security Professionals", "IT Managers", "Government Officials"]
+      },
+      {
+        "title": "Quantum Computing Symposium 2023",
+        "description": "A symposium dedicated to the advancements and applications of quantum computing.",
+        "detailed_description": "The Quantum Computing Symposium 2023, held on August 18th, showcased the latest developments in quantum computing. Researchers and industry leaders discussed practical applications, such as cryptography and optimization, and the future potential of quantum technologies.",
+        "date": "2023-08-18",
+        "image": "/images/quantum-symposium.webp",
+        "duration": "2 days",
+        "categories": ["Quantum Computing", "Technology", "Research"],
+        "read_more_urls": [
+          "https://www.quantumsymposium2023.org",
+          "https://www.nature.com/articles/quantum-symposium-2023"
+        ],
+        "location": "Zurich, Switzerland",
+        "event_type": "Symposium",
+        "speakers": ["Dr. John Preskill", "Dr. Shohini Ghose"],
+        "contact_information": {
+          "email": "info@quantumsymposium2023.org",
+          "phone": "+41-44-123-4567"
+        },
+        "target_audience": ["Researchers", "Tech Innovators", "Scientists"]
+      },
+      {
+        "title": "Google AI Research Summit 2023",
+        "description": "Google hosted its annual AI Research Summit, highlighting its latest AI research and innovations.",
+        "detailed_description": "On September 21st, 2023, Google held its annual AI Research Summit, showcasing cutting-edge research and innovations in artificial intelligence. The event featured presentations on machine learning, natural language processing, and computer vision, emphasizing Google's commitment to advancing AI technology.",
+        "date": "2023-09-21",
+        "image": "/images/google-ai-summit.webp",
+        "duration": "1 day",
+        "categories": ["AI", "Technology", "Innovation"],
+        "read_more_urls": [
+          "https://research.google.com/research-summit-2023",
+          "https://www.theverge.com/2023/09/21/google-ai-research-summit"
+        ],
+        "location": "Mountain View, CA, USA",
+        "event_type": "Research Summit",
+        "speakers": ["Jeff Dean", "Fei-Fei Li"],
+        "contact_information": {
+          "email": "ai-summit@google.com",
+          "phone": "+1-650-253-0000"
+        },
+        "target_audience": ["AI Researchers", "Developers", "Tech Enthusiasts"]
+      },
+      {
+        "title": "International Blockchain Forum 2023",
+        "description": "A forum dedicated to exploring the applications and impact of blockchain technology across various industries.",
+        "detailed_description": "The International Blockchain Forum 2023, held on October 9th, brought together blockchain enthusiasts, developers, and industry leaders to discuss the transformative potential of blockchain technology. Topics included decentralized finance (DeFi), supply chain management, and the future of digital assets.",
+        "date": "2023-10-09",
+        "image": "/images/blockchain-forum.webp",
+        "duration": "3 days",
+        "categories": ["Blockchain", "Technology", "Finance"],
+        "read_more_urls": [
+          "https://www.blockchainforum2023.org",
+          "https://www.coindesk.com/blockchain-forum-2023"
+        ],
+        "location": "Singapore",
+        "event_type": "Forum",
+        "speakers": ["Vitalik Buterin", "Gavin Wood"],
+        "contact_information": {
+          "email": "info@blockchainforum2023.org",
+          "phone": "+65-1234-5678"
+        },
+        "target_audience": ["Blockchain Developers", "Investors", "Tech Enthusiasts"]
+      },
+      {
+        "title": "Mars Exploration Conference 2023",
+        "description": "A conference focused on the latest advancements and future plans for Mars exploration.",
+        "detailed_description": "The Mars Exploration Conference 2023, held on November 12th, gathered scientists, engineers, and space enthusiasts to discuss ongoing missions and future plans for Mars exploration. The conference featured updates from NASA, ESA, and SpaceX, and explored topics such as human missions, robotic explorers, and terraforming Mars.",
+        "date": "2023-11-12",
+        "image": "/images/mars-exploration-conference.webp",
+        "duration": "3 days",
+        "categories": ["Space Exploration", "Science", "Technology"],
+        "read_more_urls": [
+          "https://www.marsexplorationconference2023.org",
+          "https://www.space.com/mars-exploration-conference-2023"
+        ],
+        "location": "Pasadena, CA, USA",
+        "event_type": "Conference",
+        "speakers": ["Dr. Lori Glaze", "Elon Musk"],
+        "contact_information": {
+          "email": "info@marsexplorationconference2023.org",
+          "phone": "+1-626-123-4567"
+        },
+        "target_audience": ["Space Enthusiasts", "Scientists", "Students"]
+      },
+      {
+        "title": "SolarWinds Hack Fallout",
+        "description": "The fallout from the 2020 SolarWinds hack continued into 2023, affecting multiple government agencies and private companies worldwide.",
+        "detailed_description": "In 2023, new details emerged about the SolarWinds hack that began in 2020. Several new vulnerabilities were discovered, affecting numerous government agencies and private companies. The attack, attributed to a state-sponsored group, highlighted the ongoing risks posed by supply chain attacks and the need for enhanced cybersecurity measures.",
+        "date": "2023-01-15",
+        "image": "/images/solarwinds-hack.webp",
+        "duration": "Ongoing",
+        "categories": ["Cybersecurity", "Hacking", "Supply Chain Attack"],
+        "read_more_urls": [
+          "https://www.csis.org/solarwinds-hack-update-2023",
+          "https://www.reuters.com/technology/solarwinds-hack-fallout-2023"
+        ],
+        "location": "Global",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Cybersecurity Analysts"],
+        "contact_information": {
+          "email": "info@solarwinds.com",
+          "phone": "+1-512-682-9300"
+        },
+        "target_audience": ["IT Professionals", "Security Analysts", "Government Officials"]
+      },
+      {
+        "title": "Microsoft Exchange Server Vulnerability Exploit",
+        "description": "A critical vulnerability in Microsoft Exchange Server was exploited by hackers, affecting thousands of organizations worldwide.",
+        "detailed_description": "In February 2023, a critical vulnerability in Microsoft Exchange Server was exploited by hackers, resulting in widespread data breaches. The attack compromised email servers and affected thousands of organizations across various industries. This incident underscored the importance of timely patching and updates in cybersecurity.",
+        "date": "2023-02-25",
+        "image": "/images/exchange-server-vulnerability.webp",
+        "duration": "Weeks",
+        "categories": ["Cybersecurity", "Vulnerability", "Data Breach"],
+        "read_more_urls": [
+          "https://www.csis.org/microsoft-exchange-exploit-2023",
+          "https://www.bbc.com/news/technology-60203716"
+        ],
+        "location": "Global",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Microsoft Security Team"],
+        "contact_information": {
+          "email": "security@microsoft.com",
+          "phone": "+1-800-642-7676"
+        },
+        "target_audience": ["Security Professionals", "IT Administrators", "Business Leaders"]
+      },
+      {
+        "title": "Colonial Pipeline Ransomware Attack",
+        "description": "The Colonial Pipeline, a major fuel pipeline in the United States, was hit by a ransomware attack, causing widespread disruptions.",
+        "detailed_description": "On May 6th, 2023, the Colonial Pipeline suffered a ransomware attack that forced the shutdown of its operations. The attack led to fuel shortages and highlighted the vulnerabilities of critical infrastructure to cyber threats. The attackers demanded a ransom, which was reportedly paid to restore operations.",
+        "date": "2023-05-06",
+        "image": "/images/colonial-pipeline-attack.webp",
+        "duration": "Days",
+        "categories": ["Cybersecurity", "Ransomware", "Critical Infrastructure"],
+        "read_more_urls": [
+          "https://www.csis.org/colonial-pipeline-ransomware-2023",
+          "https://www.cnbc.com/2023/05/07/colonial-pipeline-ransomware-attack-impact.html"
+        ],
+        "location": "United States",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Colonial Pipeline Executives"],
+        "contact_information": {
+          "email": "info@colpipe.com",
+          "phone": "+1-678-762-2250"
+        },
+        "target_audience": ["Security Experts", "Government Officials", "Energy Sector"]
+      },
+      {
+        "title": "T-Mobile Data Breach",
+        "description": "T-Mobile suffered a massive data breach affecting millions of customers' personal information.",
+        "detailed_description": "In July 2023, T-Mobile experienced a significant data breach that exposed the personal information of millions of customers, including names, addresses, social security numbers, and driver's license information. The breach raised concerns about data privacy and the need for stronger security measures in the telecommunications industry.",
+        "date": "2023-07-10",
+        "image": "/images/tmobile-data-breach.webp",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Data Breach", "Privacy"],
+        "read_more_urls": [
+          "https://www.csis.org/t-mobile-data-breach-2023",
+          "https://www.reuters.com/technology/t-mobile-data-breach-2023-07-11"
+        ],
+        "location": "United States",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["T-Mobile Executives"],
+        "contact_information": {
+          "email": "security@t-mobile.com",
+          "phone": "+1-877-453-1304"
+        },
+        "target_audience": ["Telecommunications Industry", "Privacy Advocates", "Consumers"]
+      },
+      {
+        "title": "Log4j Vulnerability Exploit",
+        "description": "The Log4j vulnerability was widely exploited, posing a critical security threat to numerous organizations worldwide.",
+        "detailed_description": "In December 2023, a severe vulnerability in the widely used Log4j logging library was discovered and exploited by hackers. The vulnerability, known as Log4Shell, affected millions of systems and required urgent patching. This incident highlighted the challenges of securing open-source software and the importance of timely updates.",
+        "date": "2023-12-10",
+        "image": "/images/log4j-vulnerability.webp",
+        "duration": "Ongoing",
+        "categories": ["Cybersecurity", "Vulnerability", "Open Source"],
+        "read_more_urls": [
+          "https://www.csis.org/log4j-vulnerability-2023",
+          "https://www.wired.com/story/log4j-vulnerability-exploit-2023"
+        ],
+        "location": "Global",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Security Experts"],
+        "contact_information": {
+          "email": "security@apache.org",
+          "phone": "+1-503-123-4567"
+        },
+        "target_audience": ["Security Professionals", "IT Administrators", "Developers"]
+      },
+      {
+        "title": "Twitter Data Breach",
+        "description": "A massive data breach at Twitter exposed the personal information of millions of users.",
+        "detailed_description": "In January 2023, Twitter suffered a data breach that exposed the personal data of approximately 200 million users. The breach included email addresses, phone numbers, and other sensitive information. This incident raised serious concerns about data privacy and the security of social media platforms.",
+        "date": "2023-01-10",
+        "image": "/images/twitter-data-breach.webp",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Data Breach", "Social Media"],
+        "read_more_urls": [
+          "https://www.csis.org/twitter-data-breach-2023",
+          "https://www.theguardian.com/technology/2023/jan/10/twitter-data-breach-2023"
+        ],
+        "location": "Global",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Twitter Security Team"],
+        "contact_information": {
+          "email": "security@twitter.com",
+          "phone": "+1-415-222-9670"
+        },
+        "target_audience": ["Social Media Users", "Privacy Advocates", "Security Professionals"]
+      },
+      {
+        "title": "Google Cloud Outage",
+        "description": "A significant outage affected Google Cloud services, disrupting operations for businesses worldwide.",
+        "detailed_description": "On March 15th, 2023, a major outage hit Google Cloud, impacting services and causing widespread disruptions for businesses relying on Google's cloud infrastructure. The outage affected a range of services, highlighting the dependency on cloud providers and the need for robust disaster recovery strategies.",
+        "date": "2023-03-15",
+        "image": "/images/google-cloud-outage.webp",
+        "duration": "Several hours",
+        "categories": ["Cloud Computing", "Technology", "Outage"],
+        "read_more_urls": [
+          "https://www.csis.org/google-cloud-outage-2023",
+          "https://www.cnbc.com/2023/03/15/google-cloud-outage-causes-disruption-worldwide.html"
+        ],
+        "location": "Global",
+        "event_type": "Service Outage",
+        "speakers": ["Google Cloud Team"],
+        "contact_information": {
+          "email": "cloud-support@google.com",
+          "phone": "+1-855-776-7766"
+        },
+        "target_audience": ["Cloud Users", "IT Professionals", "Business Leaders"]
+      },
+      {
+        "title": "DarkSide Ransomware Group Arrests",
+        "description": "International law enforcement agencies arrested key members of the DarkSide ransomware group.",
+        "detailed_description": "In June 2023, a coordinated effort by international law enforcement agencies led to the arrest of several key members of the notorious DarkSide ransomware group. This group was responsible for multiple high-profile ransomware attacks, including the Colonial Pipeline attack in 2021. The arrests marked a significant victory in the fight against ransomware.",
+        "date": "2023-06-10",
+        "image": "/images/darkside-arrests.webp",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Ransomware", "Law Enforcement"],
+        "read_more_urls": [
+          "https://www.csis.org/darkside-ransomware-arrests-2023",
+          "https://www.bbc.com/news/world-2023-darkside-arrests"
+        ],
+        "location": "International",
+        "event_type": "Law Enforcement Action",
+        "speakers": ["Interpol Representatives"],
+        "contact_information": {
+          "email": "info@interpol.int",
+          "phone": "+33-4-72-44-71-63"
+        },
+        "target_audience": ["Law Enforcement", "Security Professionals", "Policy Makers"]
+      },
+      {
+        "title": "Medibank Data Breach",
+        "description": "Medibank, Australia's largest health insurer, experienced a major data breach, exposing sensitive customer information.",
+        "detailed_description": "In August 2023, Medibank suffered a significant data breach that compromised the personal and medical information of millions of customers. The breach included sensitive health data and raised concerns about the security of healthcare information. Medibank faced criticism for its handling of the breach and the potential impact on customer privacy.",
+        "date": "2023-08-20",
+        "image": "/images/medibank-breach.webp",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Data Breach", "Healthcare"],
+        "read_more_urls": [
+          "https://www.csis.org/medibank-data-breach-2023",
+          "https://www.abc.net.au/news/2023/08/20/medibank-data-breach-exposed/"
+        ],
+        "location": "Australia",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Medibank Executives"],
+        "contact_information": {
+          "email": "security@medibank.com.au",
+          "phone": "+61-3-8622-5222"
+        },
+        "target_audience": ["Healthcare Professionals", "Privacy Advocates", "Consumers"]
+      },
+      {
+        "title": "APT Group Targets Critical Infrastructure",
+        "description": "An Advanced Persistent Threat (APT) group targeted critical infrastructure across multiple countries.",
+        "detailed_description": "In October 2023, an Advanced Persistent Threat (APT) group launched coordinated attacks on critical infrastructure in several countries, including power grids, water supply systems, and transportation networks. The attacks demonstrated the vulnerability of essential services to sophisticated cyber threats and the importance of enhancing security measures to protect critical infrastructure.",
+        "date": "2023-10-25",
+        "image": "/images/apt-critical-infrastructure.webp",
+        "duration": "Ongoing",
+        "categories": ["Cybersecurity", "Critical Infrastructure", "APT"],
+        "read_more_urls": [
+          "https://www.csis.org/apt-critical-infrastructure-2023",
+          "https://www.zdnet.com/article/apt-group-targets-critical-infrastructure-2023/"
+        ],
+        "location": "Global",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Security Analysts"],
+        "contact_information": {
+          "email": "info@csis.org",
+          "phone": "+1-202-887-0200"
+        },
+        "target_audience": ["Government Officials", "Security Experts", "Infrastructure Managers"]
+      }
     ]
-}
-
+  }
+  

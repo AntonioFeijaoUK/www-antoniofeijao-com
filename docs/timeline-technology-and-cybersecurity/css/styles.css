@@ -16,10 +16,33 @@ body {
 #intro h1 {
     margin-top: 0;
     font-size: 2em;
+    color: #ffeb3b; /* Changed color for better visibility */
 }
 
 #intro p {
     margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Information Callout */
+#info-callout {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid #f5c6cb;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info-callout a {
+    color: #721c24;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 /* Navigation Buttons */
@@ -53,7 +76,7 @@ body {
 }
 
 .intro-image {
-    max-width: 50%; /* Set to 50% of the screen width */
+    max-width: 50%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -97,15 +120,30 @@ body {
 
 .event {
     margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+.event:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .event-title {
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .event-description {
     margin: 5px 0;
+}
+
+.event-detailed-description {
+    margin: 10px 0;
+    font-size: 0.95em;
+    line-height: 1.5;
 }
 
 .event-date,
@@ -114,9 +152,28 @@ body {
     color: #aaa;
 }
 
+.event-categories,
+.event-location,
+.event-type,
+.event-speakers,
+.event-agenda {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.event-link {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.event-link:hover {
+    text-decoration: underline;
+}
+
 /* Thumbnail Image Styling */
 .event-thumbnail {
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 5px;
     cursor: pointer;
@@ -184,7 +241,12 @@ body.light-mode {
 }
 
 .light-mode .event-date,
-.light-mode .event-duration {
+.light-mode .event-duration,
+.light-mode .event-categories,
+.light-mode .event-location,
+.light-mode .event-type,
+.light-mode .event-speakers,
+.light-mode .event-agenda {
     color: #555;
 }
 
@@ -199,3 +261,212 @@ body.light-mode {
     width: 100%;
 }
 
+.event-links ul {
+    padding-left: 20px; /* Add left padding to align with the bullet points */
+    margin: 5px 0;
+}
+
+.event-links li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+.event-link {
+    color: #1e90ff;
+    text-decoration: none;
+    word-break: break-all; /* Allow long URLs to break and fit within the container */
+}
+
+.event-link:hover {
+    text-decoration: underline;
+}
+
+/* Filter and Search Section Styles */
+#filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between elements */
+    padding: 20px; /* Add padding around the section */
+    margin: 20px auto; /* Vertical space and center the section horizontally */
+    background-color: #1e1e1e; /* Match with the dark mode background */
+    color: #e0e0e0; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    width: 80%; /* Use 80% of the screen width */
+    justify-content: center; /* Centers the elements horizontally */
+    align-items: center; /* Aligns elements vertically */
+    text-align: center; /* Centers text within each element */
+}
+
+#filter-section label {
+    margin-right: 5px; /* Space between label and input */
+    font-weight: bold; /* Makes labels bold for emphasis */
+}
+
+#filter-section select,
+#filter-section input[type="text"] {
+    padding: 5px; /* Inner padding for elements */
+    font-size: 1em; /* Text size */
+    background-color: #444; /* Element background */
+    color: #fff; /* Text color */
+    border: 1px solid #555; /* Border for elements */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    margin-bottom: 10px; /* Space below each input */
+    width: 180px; /* Fixed width for uniformity */
+}
+
+#filter-section select:hover,
+#filter-section input[type="text"]:hover {
+    background-color: #555; /* Darker background on hover */
+    color: #fff; /* Text color remains white */
+}
+
+#filter-section input[type="text"] {
+    width: 200px; /* Slightly wider input for search box */
+}
+
+.light-mode #filter-section {
+    background-color: #f0f0f0; /* Light mode background color */
+    color: #000; /* Light mode text color */
+}
+
+.light-mode #filter-section select,
+.light-mode #filter-section input[type="text"] {
+    background-color: #fff; /* Light mode element background */
+    color: #000; /* Light mode text color */
+    border: 1px solid #ccc; /* Light mode border */
+}
+
+.light-mode #filter-section select:hover,
+.light-mode #filter-section input[type="text"]:hover {
+    background-color: #e0e0e0; /* Light mode hover background */
+    color: #000; /* Light mode text color remains black */
+}
+
+
+
+/* Loading Indicator Styles */
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 1000;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #09f;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Search Feedback Message */
+#search-feedback {
+    font-size: 0.9em;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.light-mode #search-feedback {
+    color: #000;
+}
+
+/* Reflections Section Styles */
+#reflections {
+    padding: 20px; /* Add padding around the text */
+    margin: 20px auto; /* Add vertical space and center the section horizontally */
+    background-color: #1e1e1e; /* Match with the dark mode background */
+    color: #e0e0e0; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    text-align: justify; /* Justifies the text for a clean look */
+    width: 80%; /* Use 80% of the screen width */
+}
+
+#reflections h2 {
+    font-size: 1.8em; /* Adjusted heading size */
+    margin-bottom: 15px; /* Space below the main heading */
+    text-align: center; /* Centers the main heading text */
+}
+
+#reflections h3 {
+    font-size: 1.5em; /* Heading size for sub-sections */
+    margin-top: 20px; /* Space above sub-section headings */
+    margin-bottom: 10px; /* Space below sub-section headings */
+    color: #e0e0e0; /* Consistent color for headings */
+}
+
+#reflections h4 {
+    font-size: 1.2em; /* Heading size for section items */
+    margin-top: 15px; /* Space above section item headings */
+    margin-bottom: 5px; /* Space below section item headings */
+    color: #f8f8f8; /* Slightly lighter color for item headings */
+}
+
+#reflections p {
+    line-height: 1.6; /* Improves readability by adjusting line height */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+.reflection-item {
+    margin-bottom: 20px; /* Space between reflection items */
+    padding: 10px; /* Padding inside reflection items */
+    border-left: 3px solid #333; /* Add left border for visual separation */
+    padding-left: 15px; /* Padding inside border */
+}
+
+
+/* Introductory Section Styles */
+#intro {
+    padding: 20px; /* Add padding around the text */
+    margin: 20px auto; /* Add vertical space and center the section horizontally */
+    background-color: #1e1e1e; /* Match with the dark mode background */
+    color: #e0e0e0; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    text-align: justify; /* Justifies the text for a clean look */
+    width: 80%; /* Use 80% of the screen width */
+}
+
+#intro h1 {
+    font-size: 2em; /* Main heading size */
+    margin-bottom: 15px; /* Space below the main heading */
+    text-align: center; /* Centers the main heading text */
+}
+
+#intro p {
+    line-height: 1.6; /* Improves readability by adjusting line height */
+    margin-bottom: 10px; /* Space between paragraphs */
+}
+
+#intro-image-container {
+    text-align: center; /* Centers the image */
+    margin: 20px 0; /* Vertical margin around the image */
+}
+
+.intro-image {
+    max-width: 80%; /* Use 80% of available width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+}
+
+.intro-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* More pronounced shadow on hover */
+}
