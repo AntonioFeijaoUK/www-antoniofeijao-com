@@ -62,25 +62,28 @@ tags:
 </div>
 
 
-<p>I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.</p>
-
+<p>I’m an expert with over 16 years in Linux, networking, cybersecurity, and infrastructure, alongside 8 years focused on AWS security, automation, and networking.</p>
 <p>I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.</p>
+<p>My skills span AWS IAM and SSO concepts, with Senior Principal Engineer-level expertise.</p>
+<br>
+<p>In cybersecurity, I have extensive experience with reverse malware investigations, forensic analysis, and incident response.</p>
+<p>I’ve worked on troubleshooting and automating installations with CrowdStrike Falcon and Raptor forensics collector.</p>
+<p>With Cloudflare, I specialise in WAF rules, rate limiting, payload decryption, managed rule sets, Zero Trust authentication, and posture management checks.</p>
+<p>I also have significant experience managing Okta groups, rules, and access controls.</p>
+<br>
+<p>Additionally, I lead deep-dive technical demos, mentor teams, and enjoy working hands-on with offensive security and penetration testing.</p>
+<br>
+<p>Outside of work, I’m passionate about space physics, scientific exploration, and time travel theories.</p>
+<p>I’m also an avid runner, swimmer, snowboarder, skier, and motorbike enthusiast, regularly taking on Tough Mudder challenges.</p>
+<br>
+<p>Though not active on social media, I enjoy tech, cybersecurity, and history podcasts.</p>
+<p>I’m selective with TV but appreciate superhero films, science documentaries, and sci-fi comedies.</p>
+<p>Travel and family are central to my personal life.</p>
+<br>
 
-<p>Over the past 8 years, I’ve specialised in AWS security, automation, networking, and infrastructure at an expert level.</p>
+---
 
-<p>My expertise extends to engineering and architecture roles with CrowdStrike and Cloudflare, alongside offensive security and penetration testing experience. I also lead deep-dive technical demos and mentor others, helping to cultivate the next generation of tech professionals.</p>
-
-<p>Outside of tech, I’m passionate about space physics, scientific exploration, and time travel theories.</p>
-
-<p>I keep active with running, swimming, snowboarding, skiing, and tackling Tough Mudder challenges. Motorbiking and outdoor adventures are a big part of my life as well.</p>
-
-<p>Though I’m not very active on social media, I’m an avid listener of tech, cybersecurity, and history podcasts.</p>
-
-<p>I appreciate a good movie—particularly superhero films, science documentaries, and sci-fi comedies.</p>
-
-<p>Travel and family are central to my life.</p>
-
-<p>More about what I do on my website - <https://www.AntonioFeijao.com/></p>
+More about what I do on my personal website <https://www.AntonioFeijao.com/>.
 
 ---
 
