@@ -10,6 +10,29 @@ tags:
 
 `Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
+> I’m an expert with over 16 years in Linux, networking, cybersecurity, and infrastructure, alongside 8 years focused on AWS security, automation, and networking.
+> 
+> Before the "Cloud", I certified in Linux RedHat Administrator, Cisco CCNP Firewal and Security.
+> 
+> I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
+> My skills also inclide AWS IAM and SSO concepts and integration with <https://www.okta.com/uk/>
+> 
+> In cybersecurity, I have extensive experience with reverse malware investigations, forensic analysis, and incident response.
+> I designed and lead work related to automation with [CrowdStrike falcon](https://www.crowdstrike.com/platform/), [Crowdstrike Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), [Crowdstrike Threat Intelligence](https://www.crowdstrike.com/platform/threat-intelligence/), [Crowdstrike Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/) and more.
+> 
+> With Cloudflare, I specialise in WAF rules, rate limiting, payload decryption, managed rule sets, Zero Trust authentication, and posture management checks.
+> 
+> I also have significant experience managing Okta groups, rules, and access controls.
+>
+> Additionally, I lead deep-dive technical demos, mentor teams, and enjoy working hands-on with offensive security and penetration testing, including serverless and web applications.
+> 
+> Outside of work, I’m passionate about space physics, scientific exploration, and time travel theories.
+> I’m also an avid runner, swimmer, snowboarder, skier, and motorbike enthusiast, regularly taking on Tough Mudder challenges.
+> 
+> Though not active on social media, I enjoy tech, cybersecurity, and history podcasts.
+> I’m selective with TV but appreciate superhero films, science documentaries, and sci-fi comedies.
+> Travel and family are central to my personal life.
+
 <style>
     .container {
         position: relative;
@@ -60,29 +83,6 @@ tags:
         <div class="text">Antonio Feijao</div>
     </div>
 </div>
-
-
-<p>I’m an expert with over 16 years in Linux, networking, cybersecurity, and infrastructure, alongside 8 years focused on AWS security, automation, and networking.</p>
-<p>Before cloud, I certified in Linux RedHat Administrator, Cisco CCNP Firewal and Security.</p>
-
-<p>I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.</p>
-<p>My skills also inclide AWS IAM and SSO concepts and integration with <https://www.okta.com/uk/></p>
-
-<p>In cybersecurity, I have extensive experience with reverse malware investigations, forensic analysis, and incident response.</p>
-<p>I designed and lead work related to automation with [CrowdStrike falcon](https://www.crowdstrike.com/platform/), [Crowdstrike Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), [Crowdstrike Threat Intelligence](https://www.crowdstrike.com/platform/threat-intelligence/), [Crowdstrike Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/) and more.</p>
-
-<p>With Cloudflare, I specialise in WAF rules, rate limiting, payload decryption, managed rule sets, Zero Trust authentication, and posture management checks.</p>
-
-<p>I also have significant experience managing Okta groups, rules, and access controls.</p>
-
-<p>Additionally, I lead deep-dive technical demos, mentor teams, and enjoy working hands-on with offensive security and penetration testing, including serverless and web applications.</p>
-
-<p>Outside of work, I’m passionate about space physics, scientific exploration, and time travel theories.</p>
-<p>I’m also an avid runner, swimmer, snowboarder, skier, and motorbike enthusiast, regularly taking on Tough Mudder challenges.</p>
-
-<p>Though not active on social media, I enjoy tech, cybersecurity, and history podcasts.</p>
-<p>I’m selective with TV but appreciate superhero films, science documentaries, and sci-fi comedies.</p>
-<p>Travel and family are central to my personal life.</p>
 
 ---
 
