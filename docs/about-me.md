@@ -62,7 +62,7 @@ tags:
 </div>
 
 
-I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.
+<p>I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.
 
 I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
 
@@ -80,7 +80,7 @@ I appreciate a good movie—particularly superhero films, science documentaries,
 
 Travel and family are central to my life.
 
-More about what I do on my website - <https://www.AntonioFeijao.com/>
+More about what I do on my website - <https://www.AntonioFeijao.com/></p>
 
 ---
 
