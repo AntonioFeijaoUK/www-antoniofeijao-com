@@ -10,9 +10,16 @@ tags:
 
 `Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
-> I’m an expert with over 16 years in Linux, networking, cybersecurity, and infrastructure, alongside 8 years focused on AWS security, automation, and networking.
+
+> I’m a seasoned expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.
+>
+> With AWS Specialty certifications in Advanced Networking and Security, I have architected complex solutions, aligning with frameworks like CIS, NIST, and the AWS Well-Architected Framework.
 > 
-> Before the "Cloud", I certified in Linux RedHat Administrator, Cisco CCNP Firewal and Security.
+> My hands-on experience extends to tools like CrowdStrike, Okta, and Cloudflare, where I lead projects in incident response, automation, and Zero Trust security.
+> 
+> Beyond work, I continually sharpen my skills, running personal projects like [HackerClub.Net](https://www.hackerclub.net/), a JavaScript playground, and tracking industry advancements through my tech timeline <https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/>.
+> 
+> Before the "Cloud", I also certified in Linux RedHat Administrator, Cisco CCNA Security and CCNP ASA Firewals.
 > 
 > I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
 > My skills also inclide AWS IAM and SSO concepts and integration with <https://www.okta.com/uk/>
