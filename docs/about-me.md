@@ -62,25 +62,25 @@ tags:
 </div>
 
 
-<p>I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.
+<p>I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.</p>
 
-I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
+<p>I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.</p>
 
-Over the past 8 years, I’ve specialised in AWS security, automation, networking, and infrastructure at an expert level.
+<p>Over the past 8 years, I’ve specialised in AWS security, automation, networking, and infrastructure at an expert level.</p>
 
-My expertise extends to engineering and architecture roles with CrowdStrike and Cloudflare, alongside offensive security and penetration testing experience. I also lead deep-dive technical demos and mentor others, helping to cultivate the next generation of tech professionals.
+<p>My expertise extends to engineering and architecture roles with CrowdStrike and Cloudflare, alongside offensive security and penetration testing experience. I also lead deep-dive technical demos and mentor others, helping to cultivate the next generation of tech professionals.</p>
 
-Outside of tech, I’m passionate about space physics, scientific exploration, and time travel theories.
+<p>Outside of tech, I’m passionate about space physics, scientific exploration, and time travel theories.</p>
 
-I keep active with running, swimming, snowboarding, skiing, and tackling Tough Mudder challenges. Motorbiking and outdoor adventures are a big part of my life as well.
+<p>I keep active with running, swimming, snowboarding, skiing, and tackling Tough Mudder challenges. Motorbiking and outdoor adventures are a big part of my life as well.</p>
 
-Though I’m not very active on social media, I’m an avid listener of tech, cybersecurity, and history podcasts.
+<p>Though I’m not very active on social media, I’m an avid listener of tech, cybersecurity, and history podcasts.</p>
 
-I appreciate a good movie—particularly superhero films, science documentaries, and sci-fi comedies.
+<p>I appreciate a good movie—particularly superhero films, science documentaries, and sci-fi comedies.</p>
 
-Travel and family are central to my life.
+<p>Travel and family are central to my life.</p>
 
-More about what I do on my website - <https://www.AntonioFeijao.com/></p>
+<p>More about what I do on my website - <https://www.AntonioFeijao.com/></p>
 
 ---
 
