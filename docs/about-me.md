@@ -61,13 +61,24 @@ tags:
     </div>
 </div>
 
-- Portuguese-Portugal.
-- passionate about Linux, networking, cyber-security, electronics, space physics, physics exploration, time travel and the dinosaurs.
-- prefer outdoors, running, swimming, snowboarding, skiing, motorbikes, tough mudder...
-- don't use FB, rarely on social media, and block ads where possible.
-- a follower of tech news and podcast
-- rarely watch TV but I like a good movie at home or cinema (superheroes, science documentaries, comedies, sci-fi).
-- love travel and family
+
+I’m a seasoned professional with over 16 years of expert-level experience in Linux, networking, cybersecurity, and infrastructure.
+
+I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
+
+Over the past 8 years, I’ve specialised in AWS security, automation, networking, and infrastructure at an expert level.
+
+My expertise extends to engineering and architecture roles with CrowdStrike and Cloudflare, alongside offensive security and penetration testing experience. I also lead deep-dive technical demos and mentor others, helping to cultivate the next generation of tech professionals.
+
+Outside of tech, I’m passionate about space physics, scientific exploration, and time travel theories.
+
+I keep active with running, swimming, snowboarding, skiing, and tackling Tough Mudder challenges. Motorbiking and outdoor adventures are a big part of my life as well.
+
+Though I’m not very active on social media, I’m an avid listener of tech, cybersecurity, and history podcasts.
+
+I appreciate a good movie—particularly superhero films, science documentaries, and sci-fi comedies.
+
+Travel and family are central to my life.
 
 More about what I do on my website - <https://www.AntonioFeijao.com/>
 
