@@ -10,6 +10,34 @@ tags:
 
 `Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
 
+> I am an expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.  
+>  
+> I hold AWS Specialty certifications in Advanced Networking and Security, designing and reviewing complex infrastructure solutions while ensuring alignment with CIS, NIST, and AWS Well-Architected Frameworks.
+> I regularly collaborate with C-level executives and engineering teams, providing architectural oversight and strategic input.  
+>  
+> I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
+>  
+> My hands-on expertise spans CrowdStrike, Okta, and Cloudflare, where I have led automation, incident response, and Zero Trust initiatives.  
+>  
+> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), a JavaScript playground, and maintain my tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/).  
+>  
+> Pre-cloud, I earned certifications as a RedHat Linux Administrator and Cisco CCNA Security/CCNP ASA specialist.  
+>  
+> I have comprehensive expertise in AWS IAM, Single Sign-On, Okta integration.
+> 
+> I possess deep expertise in automation using Bash shell-cripting and Python.
+>
+> I bring a wealth of knowledge in designing, troubleshooting and inplemeting [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
+>  
+> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigatoin, and Zero Trust designs, authenticaiton policies.  
+>  
+> My leadership extends to offensive security, penetration testing, and mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
+>  
+> Outside of work, I am passionate about space physics and scientific exploration. I am an avid runner, swimmer, snowboarder, and Tough Mudder enthusiast.  
+>  
+> Though not active on social media, I enjoy technology and history podcasts, as well as a good science-fiction film or documentary.
+
+
 
 > I’m a seasoned expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.
 >
