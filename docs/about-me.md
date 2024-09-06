@@ -6,49 +6,7 @@ tags:
     - about
 ---
 
-
 ## About Antonio Feijao UK
-
-`Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
-
-> I am an expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.  
->  
-> I hold AWS Specialty certifications in Advanced Networking and Security, designing and reviewing complex infrastructure solutions while ensuring alignment with CIS, NIST, and AWS Well-Architected Frameworks.
-> 
-> I regularly collaborate with C-level executives and engineering teams, providing architectural oversight and strategic input.  
->  
-> I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
->  
-> My comprehensive hands-on expertise spans:
-> 
-> * [AWS Security](https://aws.amazon.com/products/security/), [AWS Networking](https://aws.amazon.com/products/networking/), [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/), and way more...
-> * [CrowdStrike](https://www.crowdstrike.com/), and more ...
-> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/), and more...
-> * [Okta](https://www.okta.com/uk/), and more...
-> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall), and more...
-> * [Amazon Linux](https://aws.amazon.com/amazon-linux-2/), [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/), and more...
-> 
-> With these technologies, I have created and led architectural designs and architectural reviews.
-> I designed, planned and implemented automation with these services
-> I lead incident responses.
-> I designed, planned and implemented Zero Trust initiatives, integration of services for authentication and devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
->  
-> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/) and [CyberAntonio.com](https://www.cyberantonio.com/), which are some of my cyber security notes and a JavaScript playground.
->  
-> Pre-cloud, I earned certifications of [Red Hat Certified System Administrator - RHCSA](https://www.redhat.com/en/services/certification/rhcsa), [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and [Cisco CCNP Security](https://learningnetwork.cisco.com/s/ccnp-security) - Cisco Firewall Security Specialist.
-> 
-> I possess deep expertise in automation using Bash shell scripting and Python.
->
-> I bring a wealth of knowledge in designing, troubleshooting and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
->  
-> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigation and reverse engineering, Zero Trust designs, and authentication policies.  
->  
-> My leadership extends to offensive security, penetration testing, mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
->  
-> Outside of work, I am passionate about space physics and scientific exploration. I am an avid runner, swimmer, snowboarder, and Tough Mudder enthusiast.  
->  
-> Though not active on social media, I enjoy technology and history podcasts, as well as a good science-fiction film or documentary.
-
 
 <style>
     .container {
@@ -100,6 +58,48 @@ tags:
         <div class="text">Antonio Feijao</div>
     </div>
 </div>
+
+`Antonio Feijao` || `Antonio Feijao UK`
+
+> Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/).
+> 
+> I am an expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.  
+>  
+> I hold AWS Specialty certifications in Advanced Networking and Security, designing and reviewing complex infrastructure solutions while ensuring alignment with CIS, NIST, and AWS Well-Architected Frameworks.
+> 
+> I regularly collaborate with C-level executives and engineering teams, providing architectural oversight and strategic input.  
+>  
+> I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
+>  
+> My comprehensive hands-on expertise spans:
+> 
+> * [AWS Security](https://aws.amazon.com/products/security/), [AWS Networking](https://aws.amazon.com/products/networking/), [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/), and way more...
+> * [CrowdStrike](https://www.crowdstrike.com/), and more ...
+> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/), and more...
+> * [Okta](https://www.okta.com/uk/), and more...
+> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall), and more...
+> * [Amazon Linux](https://aws.amazon.com/amazon-linux-2/), [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/), and more...
+> 
+> With these technologies, I have created and led architectural designs and architectural reviews.
+> I designed, planned and implemented automation with these services
+> I lead incident responses.
+> I designed, planned and implemented Zero Trust initiatives, integration of services for authentication and devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
+>  
+> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/) and [CyberAntonio.com](https://www.cyberantonio.com/), which are some of my cyber security notes and a JavaScript playground.
+>  
+> Pre-cloud, I earned certifications of [Red Hat Certified System Administrator - RHCSA](https://www.redhat.com/en/services/certification/rhcsa), [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and [Cisco CCNP Security](https://learningnetwork.cisco.com/s/ccnp-security) - Cisco Firewall Security Specialist.
+> 
+> I possess deep expertise in automation using Bash shell scripting and Python.
+>
+> I bring a wealth of knowledge in designing, troubleshooting and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
+>  
+> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigation and reverse engineering, Zero Trust designs, and authentication policies.  
+>  
+> My leadership extends to offensive security, penetration testing, mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
+>  
+> Outside of work, I am passionate about space physics and scientific exploration. I am an avid runner, swimmer, snowboarder, and Tough Mudder enthusiast.  
+>  
+> Though not active on social media, I enjoy technology and history podcasts, as well as a good science-fiction film or documentary.
 
 ---
 
