@@ -20,12 +20,12 @@ tags:
 > I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
 >  
 > My comprehensive hands-on expertise spans:
-> * [AWS](https://aws.amazon.com/products/security/), including [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/),
-> * [CrowdStrike](https://www.crowdstrike.com/),
-> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/),
-> * [Okta](https://www.okta.com/uk/),
-> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall),
-> * and much more.
+>    - [AWS](https://aws.amazon.com/products/security/), including [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/),
+>    - [CrowdStrike](https://www.crowdstrike.com/),
+>    - [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/),
+>    - [Okta](https://www.okta.com/uk/),
+>    - [Fortinet](https://www.fortinet.com/products/next-generation-firewall),
+>    - and much more.
 > With these technologies, I have created and led architectural designs and architectural reviews.
 > I designed, planned and implemented automation with these services
 > I lead incident responses.
