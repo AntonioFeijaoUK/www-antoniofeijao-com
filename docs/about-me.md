@@ -6,6 +6,7 @@ tags:
     - about
 ---
 
+
 ## About Antonio Feijao UK
 
 `Antonio Feijao` || `Antonio Feijao UK`, is a Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/). With expertise in `AWS Infrastructure Architect`, `Cyber Security Architect`, `AWS Advanced Cloud Networking`, `AWS Security Specialism`, and `AWS Cloud Professional Architect`.
@@ -17,56 +18,24 @@ tags:
 >  
 > I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
 >  
-> My hands-on expertise spans CrowdStrike, Okta, and Cloudflare, where I have led automation, incident response, and Zero Trust initiatives.  
+> My comprehensive hands-on expertise spans [AWS](https://aws.amazon.com/products/security/), including [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/), [CrowdStrike](https://www.crowdstrike.com/), [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/), [Okta](https://www.okta.com/uk/), [Fortinet](https://www.fortinet.com/products/next-generation-firewall), and much more, where I have created and led architectural designs and reviews, planned and implemented automation, lead incident responses, and designed and implemented Zero Trust initiatives.  
 >  
 > I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), a JavaScript playground, and maintain my tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/).  
 >  
 > Pre-cloud, I earned certifications as a RedHat Linux Administrator and Cisco CCNA Security/CCNP ASA specialist.  
->  
-> I have comprehensive expertise in AWS IAM, Single Sign-On, Okta integration.
 > 
-> I possess deep expertise in automation using Bash shell-cripting and Python.
+> I possess deep expertise in automation using Bash shell-scripting and Python.
 >
-> I bring a wealth of knowledge in designing, troubleshooting and inplemeting [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
+> I bring a wealth of knowledge in designing, troubleshooting and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
 >  
-> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigatoin, and Zero Trust designs, authenticaiton policies.  
+> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigation and reverse engineering, Zero Trust designs, and authentication policies.  
 >  
-> My leadership extends to offensive security, penetration testing, and mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
+> My leadership extends to offensive security, penetration testing, mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
 >  
 > Outside of work, I am passionate about space physics and scientific exploration. I am an avid runner, swimmer, snowboarder, and Tough Mudder enthusiast.  
 >  
 > Though not active on social media, I enjoy technology and history podcasts, as well as a good science-fiction film or documentary.
 
-
-
-> I’m a seasoned expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.
->
-> With AWS Specialty certifications in Advanced Networking and Security, I have architected complex solutions, aligning with frameworks like CIS, NIST, and the AWS Well-Architected Framework.
-> 
-> My hands-on experience extends to tools like CrowdStrike, Okta, and Cloudflare, where I lead projects in incident response, automation, and Zero Trust security.
-> 
-> Beyond work, I continually sharpen my skills, running personal projects like [HackerClub.Net](https://www.hackerclub.net/), a JavaScript playground, and tracking industry advancements through my tech timeline <https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/>.
-> 
-> Before the "Cloud", I also certified in Linux RedHat Administrator, Cisco CCNA Security and CCNP ASA Firewals.
-> 
-> I hold AWS Specialty certifications in Advanced Networking and Security, as well as Professional Architect and DevOps certifications.
-> My skills also inclide AWS IAM and SSO concepts and integration with <https://www.okta.com/uk/>
-> 
-> In cybersecurity, I have extensive experience with reverse malware investigations, forensic analysis, and incident response.
-> I designed and lead work related to automation with [CrowdStrike falcon](https://www.crowdstrike.com/platform/), [Crowdstrike Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), [Crowdstrike Threat Intelligence](https://www.crowdstrike.com/platform/threat-intelligence/), [Crowdstrike Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/) and more.
-> 
-> With Cloudflare, I specialise in WAF rules, rate limiting, payload decryption, managed rule sets, Zero Trust authentication, and posture management checks.
-> 
-> I also have significant experience managing Okta groups, rules, and access controls.
->
-> Additionally, I lead deep-dive technical demos, mentor teams, and enjoy working hands-on with offensive security and penetration testing, including serverless and web applications.
-> 
-> Outside of work, I’m passionate about space physics, scientific exploration, and time travel theories.
-> I’m also an avid runner, swimmer, snowboarder, skier, and motorbike enthusiast, regularly taking on Tough Mudder challenges.
-> 
-> Though not active on social media, I enjoy tech, cybersecurity, and history podcasts.
-> I’m selective with TV but appreciate superhero films, science documentaries, and sci-fi comedies.
-> Travel and family are central to my personal life.
 
 <style>
     .container {
