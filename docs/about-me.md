@@ -14,17 +14,28 @@ tags:
 > I am an expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.  
 >  
 > I hold AWS Specialty certifications in Advanced Networking and Security, designing and reviewing complex infrastructure solutions while ensuring alignment with CIS, NIST, and AWS Well-Architected Frameworks.
+> 
 > I regularly collaborate with C-level executives and engineering teams, providing architectural oversight and strategic input.  
 >  
 > I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
 >  
-> My comprehensive hands-on expertise spans [AWS](https://aws.amazon.com/products/security/), including [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/), [CrowdStrike](https://www.crowdstrike.com/), [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/), [Okta](https://www.okta.com/uk/), [Fortinet](https://www.fortinet.com/products/next-generation-firewall), and much more, where I have created and led architectural designs and reviews, planned and implemented automation, lead incident responses, and designed and implemented Zero Trust initiatives.  
+> My comprehensive hands-on expertise spans:
+> * [AWS](https://aws.amazon.com/products/security/), including [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/),
+> * [CrowdStrike](https://www.crowdstrike.com/),
+> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/),
+> * [Okta](https://www.okta.com/uk/),
+> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall),
+> * and much more.
+> With these technologies, I have created and led architectural designs and architectural reviews.
+> I designed, planned and implemented automation with these services
+> I lead incident responses.
+> I designed, planned and implemented Zero Trust initiatives, integration of services for authentication and devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
 >  
-> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), a JavaScript playground, and maintain my tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/).  
+> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/) and [CyberAntonio.com](https://www.cyberantonio.com/), which are some of my cyber security notes and a JavaScript playground.
 >  
-> Pre-cloud, I earned certifications as a RedHat Linux Administrator and Cisco CCNA Security/CCNP ASA specialist.  
+> Pre-cloud, I earned certifications of [Red Hat Certified System Administrator - RHCSA](https://www.redhat.com/en/services/certification/rhcsa), [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and [Cisco CCNP Security](https://learningnetwork.cisco.com/s/ccnp-security) - Cisco Firewall Security Specialist.
 > 
-> I possess deep expertise in automation using Bash shell-scripting and Python.
+> I possess deep expertise in automation using Bash shell scripting and Python.
 >
 > I bring a wealth of knowledge in designing, troubleshooting and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
 >  
