@@ -26,6 +26,7 @@ tags:
 >    - [Okta](https://www.okta.com/uk/),
 >    - [Fortinet](https://www.fortinet.com/products/next-generation-firewall),
 >    - and much more.
+> 
 > With these technologies, I have created and led architectural designs and architectural reviews.
 > I designed, planned and implemented automation with these services
 > I lead incident responses.
