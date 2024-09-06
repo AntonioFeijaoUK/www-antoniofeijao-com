@@ -83,7 +83,7 @@ tags:
 > With these technologies, I have created and led architectural designs and architectural reviews.
 > I designed, planned and implemented automation with these services
 > I lead incident responses.
-> I designed, planned and implemented Zero Trust initiatives, integration of services for authentication and devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
+> I designed, planned and implemented Zero Trust initiatives, and integration of services for authentication with devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
 >  
 > I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/) and [CyberAntonio.com](https://www.cyberantonio.com/), which are some of my cyber security notes and a JavaScript playground.
 >  
