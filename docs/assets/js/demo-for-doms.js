@@ -1,11 +1,13 @@
+// Function to toggle fullscreen mode when the Enter key is pressed
 function toggleFullScreen() {
     if (!document.fullscreenElement) {
-        document.documentElement.requestFullscreen();
+        document.documentElement.requestFullscreen();  // Enter fullscreen mode
     } else if (document.exitFullscreen) {
-        document.exitFullscreen();
+        document.exitFullscreen();  // Exit fullscreen mode
     }
 }
 
+// Event listener to toggle fullscreen on Enter key press
 document.addEventListener(
     "keydown",
     (e) => {
@@ -13,98 +15,51 @@ document.addEventListener(
             toggleFullScreen();
         }
     },
-    false,
+    false
 );
 
+// Track mouse movement and log its position
+document.addEventListener("mousemove", (event) => {
+    let x = event.clientX;  // Get X position of the mouse
+    let y = event.clientY;  // Get Y position of the mouse
 
-// // code source https://github.com/evg-zhabotinsky/RandomStuff/blob/gh-pages/webexperiments/fullscreen/w3s.html
-// // note, page needs a div with id='main_frame'
-// function goFullscreen() {
-//   // Must be called as a result of user interaction to work
-//   mf = document.getElementById("main_frame");
-//   mf.webkitRequestFullscreen();
-//   mf.style.display = "";
-// }
+    // Display mouse position in console
+    let cursorPosition = `Your Mouse Position Is: ${x} and ${y}`;
+    console.log(cursorPosition);
+});
 
-// function fullscreenChanged() {
-//   if (document.webkitFullscreenElement == null) {
-//     mf = document.getElementById("main_frame");
-//     mf.style.display = "none";
-//   }
-// }
-
-// document.onwebkitfullscreenchange = fullscreenChanged;
-// document.documentElement.onclick = goFullscreen;
-// document.onkeydown = goFullscreen;
-// document.onmousemove = goFullscreen;
-
-
-
-// source code https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
-addEventListener("mousemove", (event) => { });
-onmousemove = (event) => {
-    //toggleFullScreen();
-    
-    // inspired by https://jsfiddle.net/7P8Rr/
-    x = event.clientX;
-    y = event.clientY;
-    
-    cursor="Your Mouse Position Is : " + x + " and " + y ;
-    
-    console.log(cursor);
-};
-
-
-addEventListener("mouseup", (event) => { });
-onmouseup = (event) => {
+// Alert the user when they click the mouse
+document.addEventListener("mouseup", () => {
     alert('Why are you clicking your mouse?');
-};
+});
 
-
-// defines the "image" variable
+// Get the image element for mouseover and mouseout events
 const image = document.getElementById("image");
 
-// mouse moves into the image
-image.addEventListener("mouseover", (event) => {
-        // highlight the mouseover target
-        //event.target.style.color = "orange";
-        //alert('Move you mouse away!\nWe do not want to wake up the cat!');
+// Event listener for mouseover on the image
+image.addEventListener("mouseover", () => {
+    const catAlert = document.getElementById("cat_alert");
+    // Show the alert with the message about the cat
+    catAlert.style.display = "block";
+    catAlert.style.color = "orange";
+    
+    setTimeout(() => {
+        catAlert.style.display = "none";  // Hide alert after 2 seconds
+        console.log('Hiding cat alert after 2 seconds');
+    }, 2000);
+}, false);
 
-        var x = document.getElementById("cat_alert");
-        x.style.display = "visible";
-        x.style.color = "orange";
-        
-        if (x.style.display == "none") {
-            x.style.display = "block";
-            x.style.color = "orange";
-        } else {
-            setTimeout(() => {
-                console.log('x.style.display = "none"; \\ line 81"')
-            }, 2000);
-        }
-    },
-    false,
-);
+// Event listener for mouseout from the image
+image.addEventListener("mouseout", () => {
+    const catAlert = document.getElementById("cat_alert");
+    // Hide the alert when mouse moves out of the image
+    catAlert.style.display = "none";
+    catAlert.style.color = "transparent";
+}, false);
 
-// mouse moves away from images
-image.addEventListener( "mouseout", (event) => {
-        // highlight the mouseover target
-        //event.target.style.color = "orange";
-        //alert('Move you mouse away!\nWe do not want to wake up the cat!');
-
-        var x = document.getElementById("cat_alert");
-        x.style.display = "hidden";
-        x.style.color = "transparent";
-        
-        if (x.style.display == "block") {
-            x.style.display = "none";
-            x.style.color = "green";
-        } else {
-            setTimeout(() => {
-                console.log('x.style.display = "none"; \\ line 102"')
-            }, 2000);
-        }
-    },
-    false,
-);
-
+// Event listener for the copy event to modify clipboard data
+document.addEventListener('copy', (event) => {
+    // Modify the copied data to include a warning message
+    event.clipboardData.setData('text/plain', '#this is a comment - but it could be *** COPY ALL YOUR SECRET FILES TO MY SECRET VAULTS! ***');
+    event.preventDefault();  // Prevent the default copy behaviour
+});
