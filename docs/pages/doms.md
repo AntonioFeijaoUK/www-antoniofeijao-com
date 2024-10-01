@@ -50,7 +50,7 @@ Did something just happen to your browser? If not, press the `Enter` key and sho
 </div>
 
 <div id="cat_alert"; style="display:hidden; color:transparent";>
-    <h2>Move your mouse away from the cat!</h2>
+    <span><h2>Move your mouse away from the cat!</h2></span>
 </div>
 
 <script src="/assets/js/demo-for-doms.js"></script>
