@@ -29,9 +29,9 @@ document.addEventListener("mousemove", (event) => {
 });
 
 // Alert the user when they click the mouse
-document.addEventListener("mouseup", () => {
-    alert('Why are you clicking your mouse?');
-});
+// document.addEventListener("mouseup", () => {
+//     alert('Why are you clicking your mouse?');
+// });
 
 // Get the image element for mouseover and mouseout events
 const image = document.getElementById("image");
