@@ -15,8 +15,11 @@ Learning by doing!
 
 **Buy-me a coffee**
 
-Hi! I believe on the open shared knowledge, I share my learnings tips here for free. Use at your own responsibility.  
-If you like any of my content, please consider buying me a coffee ☕️ :)
+Hello! I believe in openly sharing knowledge, and I offer my insights and tips here for free.
+
+**Please use them at your own discretion.**
+
+If you find my content helpful, I would greatly appreciate your support by buying me a coffee ☕️ – it keeps the ideas flowing!
 
 <a href='https://ko-fi.com/B0B019526' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
 
