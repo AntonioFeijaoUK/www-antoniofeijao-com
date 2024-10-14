@@ -19,7 +19,7 @@ Hello! I believe in openly sharing knowledge, and I offer my insights and tips h
 
 **Please use them at your own discretion.**
 
-If you find my content helpful, I would greatly appreciate your support by buying me a coffee ☕️ – it keeps the ideas flowing!
+If you find my content helpful, I would greatly appreciate your support by buying me a coffee ☕️ – it keeps the ideas flowing!😊
 
 <a href='https://ko-fi.com/B0B019526' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
 
