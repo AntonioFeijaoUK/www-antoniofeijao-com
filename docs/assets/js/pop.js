@@ -3,6 +3,8 @@ const codeBox1 = document.getElementById('codeBox1');
 const codeBox2 = document.getElementById('codeBox2');
 const pasteName = document.getElementById('pasteName');
 
+let lastClipboardContent = ""; // To track changes in clipboard content
+
 // Store and retrieve user name in cookies
 function setCookie(name, value, days) {
     const date = new Date();
@@ -48,14 +50,26 @@ async function updateUserInfo() {
     codeBox2.textContent = `${browserInfo}\n${screenInfo}\n${ipInfo}\n${uptime}\n${storedName}`;
 }
 
-balloon.addEventListener('click', async () => {
+async function updateClipboardContent() {
     try {
-        const text = await navigator.clipboard.readText(); // Request clipboard permission here
-        balloon.style.display = 'none'; // Hide the balloon
-        codeBox1.style.display = 'block'; // Show the clipboard code box
-        codeBox1.textContent = text; // Display clipboard content
+        const text = await navigator.clipboard.readText();
+        if (text !== lastClipboardContent) {
+            lastClipboardContent = text;
+            codeBox1.textContent = text; // Display clipboard content
+        }
     } catch (err) {
         console.error('Failed to read clipboard: ', err);
     }
-    updateUserInfo(); // Update browser info after clipboard access
+}
+
+// Update clipboard content and user info every 2 seconds
+setInterval(() => {
+    updateClipboardContent();
+    updateUserInfo();
+}, 2000);
+
+balloon.addEventListener('click', () => {
+    balloon.style.display = 'none'; // Hide the balloon
+    codeBox1.style.display = 'block'; // Show the clipboard code box
+    updateClipboardContent(); // Initial clipboard content fetch
 });
