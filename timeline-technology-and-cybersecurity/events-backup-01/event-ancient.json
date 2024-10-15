@@ -1,0 +1,173 @@
+{
+    "events": [
+        {
+            "title": "Formation of the Earth",
+            "description": "The Earth formed around 4.54 billion years ago.",
+            "date": "4540000000 BC",
+            "image": "/images/earth.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Single-Celled Life",
+            "description": "The first single-celled life forms appeared on Earth.",
+            "date": "4000000000 BC",
+            "image": "/images/single_cell.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Multicellular Life",
+            "description": "The first multicellular life forms appeared on Earth.",
+            "date": "2000000000 BC",
+            "image": "/images/multicellular.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Cambrian Explosion",
+            "description": "A period of rapid evolutionary development where most major animal phyla appeared.",
+            "date": "541000000 BC",
+            "image": "/images/cambrian_explosion.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Land Plants",
+            "description": "The first land plants appeared on Earth.",
+            "date": "470000000 BC",
+            "image": "/images/land_plants.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Fish",
+            "description": "The first fish appeared in Earth's oceans.",
+            "date": "530000000 BC",
+            "image": "/images/fish.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Amphibians",
+            "description": "The first amphibians emerged from the water and began living on land.",
+            "date": "370000000 BC",
+            "image": "/images/amphibians.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Reptiles",
+            "description": "The first reptiles appeared on Earth.",
+            "date": "310000000 BC",
+            "image": "/images/reptiles.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Mammals",
+            "description": "The first mammals appeared on Earth.",
+            "date": "200000000 BC",
+            "image": "/images/mammals.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Birds",
+            "description": "The first birds evolved from theropod dinosaurs.",
+            "date": "150000000 BC",
+            "image": "/images/birds.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Dinosaur Extinction",
+            "description": "The mass extinction event that led to the demise of the dinosaurs.",
+            "date": "65000000 BC",
+            "image": "/images/dinosaurs.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Primates",
+            "description": "The first primates appeared on Earth.",
+            "date": "55000000 BC",
+            "image": "/images/primates.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Hominids",
+            "description": "The first hominids, ancestors of modern humans, appeared in Africa.",
+            "date": "6000000 BC",
+            "image": "/images/hominids.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Use of Fire by Early Humans",
+            "description": "Early humans began to use fire for cooking and warmth.",
+            "date": "1000000 BC",
+            "image": "/images/fire.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Homo Sapiens",
+            "description": "Homo sapiens first appeared around 300,000 years ago.",
+            "date": "300000 BC",
+            "image": "/images/human.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Neanderthals Extinction",
+            "description": "Neanderthals went extinct, leaving Homo sapiens as the sole human species.",
+            "date": "40000 BC",
+            "image": "/images/neanderthal.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Development of Agriculture",
+            "description": "The development of agriculture allowed humans to settle in one place and form civilizations.",
+            "date": "10000 BC",
+            "image": "/images/agriculture.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Writing Systems",
+            "description": "The first writing systems were developed in ancient Mesopotamia and Egypt.",
+            "date": "3500 BC",
+            "image": "/images/writing.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Construction of the Pyramids",
+            "description": "The Great Pyramid of Giza, one of the Seven Wonders of the Ancient World, was constructed.",
+            "date": "2560 BC",
+            "image": "/images/pyramids.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Code of Hammurabi",
+            "description": "The Code of Hammurabi, one of the oldest deciphered writings of significant length in the world, was created.",
+            "date": "1754 BC",
+            "image": "/images/hammurabi.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Founding of Rome",
+            "description": "According to legend, Rome was founded by Romulus and Remus.",
+            "date": "753 BC",
+            "image": "/images/rome.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Greek Democracy Established",
+            "description": "The concept of democracy was established in Athens, Greece.",
+            "date": "508 BC",
+            "image": "/images/democracy.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Birth of Alexander the Great",
+            "description": "Alexander the Great, one of history's greatest military minds, was born.",
+            "date": "356 BC",
+            "image": "/images/alexander.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Julius Caesar Assassinated",
+            "description": "Julius Caesar was assassinated, leading to the end of the Roman Republic.",
+            "date": "44 BC",
+            "image": "/images/caesar.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

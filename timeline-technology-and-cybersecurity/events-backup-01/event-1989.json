@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Invention of the World Wide Web",
+            "description": "Tim Berners-Lee invented the World Wide Web.",
+            "date": "1989-03-12",
+            "image": "/images/www.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of the First Commercial Internet Service",
+            "description": "The first commercial dial-up internet service, The World, was launched.",
+            "date": "1989-11-01",
+            "image": "/images/dialup.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Ransomware Attack",
+            "description": "The first known ransomware attack occurred, encrypting users' files and demanding payment.",
+            "date": "1989-12-24",
+            "image": "/images/ransomware.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

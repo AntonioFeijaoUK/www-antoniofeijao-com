@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Introduction of Google Search",
+            "description": "Google launched its search engine, which became the most widely used search tool.",
+            "date": "1998-09-04",
+            "image": "/images/google.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Establishment of ICANN",
+            "description": "The Internet Corporation for Assigned Names and Numbers (ICANN) was established.",
+            "date": "1998-09-18",
+            "image": "/images/icann.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Introduction of the iMac",
+            "description": "Apple introduced the iMac, revitalizing the company's fortunes.",
+            "date": "1998-08-15",
+            "image": "/images/imac.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

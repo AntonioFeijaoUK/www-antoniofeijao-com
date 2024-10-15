@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "Launch of Windows 11",
+            "description": "Microsoft released Windows 11, introducing a new user interface, enhanced performance, and updated productivity tools.",
+            "date": "2021-10-05",
+            "image": "/images/windows11.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Colonial Pipeline Ransomware Attack",
+            "description": "A ransomware attack on Colonial Pipeline caused widespread fuel shortages across the eastern United States.",
+            "date": "2021-05-07",
+            "image": "/images/colonial_pipeline.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Facebook Outage",
+            "description": "A major outage affected Facebook and its associated services, including Instagram and WhatsApp, for several hours.",
+            "date": "2021-10-04",
+            "image": "/images/facebook_outage.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Google AI LaMDA Announcement",
+            "description": "Google announced LaMDA, a breakthrough in conversational AI technology capable of engaging in natural conversations on various topics.",
+            "date": "2021-05-18",
+            "image": "/images/google_lamda.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

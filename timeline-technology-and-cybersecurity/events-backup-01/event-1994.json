@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Release of Red Hat Linux",
+            "description": "Red Hat released its first version of Linux.",
+            "date": "1994-11-03",
+            "image": "/images/redhat.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

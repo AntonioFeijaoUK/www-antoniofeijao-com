@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Apple vs. FBI Encryption Dispute",
+            "description": "Apple refused to help the FBI unlock an iPhone, highlighting the debate over privacy and security.",
+            "date": "2016-02-16",
+            "image": "/images/apple_fbi.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "DDoS Attack on Dyn",
+            "description": "A massive DDoS attack on Dyn disrupted major internet services.",
+            "date": "2016-10-21",
+            "image": "/images/dyn.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Yahoo Data Breach",
+            "description": "Yahoo disclosed a data breach affecting over 3 billion accounts.",
+            "date": "2016-12-14",
+            "image": "/images/yahoo.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

@@ -1,0 +1,224 @@
+{
+    "events": [
+        {
+            "title": "Microsoft Launches Windows 11 Update",
+            "description": "Microsoft released a major update for Windows 11, bringing new features and enhancements.",
+            "detailed_description": "On September 20th, 2022, Microsoft released a major update for Windows 11 known as the Windows 11 2022 Update (version 22H2). This update included new features like improved taskbar functionality, Start menu folders, Snap Layouts, and enhancements to File Explorer.",
+            "date": "2022-09-20",
+            "image": "/images/windows11_update.jpg",
+            "duration": "N/A",
+            "categories": ["Technology", "Software", "Innovation"],
+            "read_more_urls": [
+                "https://blogs.windows.com/windowsexperience/2022/09/20/how-to-get-the-windows-11-2022-update/",
+                "https://www.theverge.com/2022/9/20/23361828/microsoft-windows-11-update-release-features",
+                "https://www.zdnet.com/article/windows-11-2022-update-review-microsofts-os-upgrade-is-all-about-fit-and-finish/"
+            ],
+            "location": "Global",
+            "event_type": "Technology Release",
+            "speakers": ["Panos Panay"],
+            "contact_information": {
+                "email": "support@microsoft.com",
+                "phone": "+1-800-642-7676"
+            },
+            "target_audience": ["IT Professionals", "Tech Enthusiasts", "General Public"]
+        },
+        {
+            "title": "Massive Facebook Data Leak",
+            "description": "A massive data leak exposed the personal information of over 500 million Facebook users.",
+            "detailed_description": "In April 2021, a data leak exposed the personal information of over 533 million Facebook users. The data resurfaced in 2022, raising new concerns about data privacy and security on social media platforms.",
+            "date": "2022-04-03",
+            "image": "/images/facebook_leak.jpg",
+            "duration": "N/A",
+            "categories": ["Cybersecurity", "Data Breach", "Social Media"],
+            "read_more_urls": [
+                "https://www.businessinsider.com/stolen-data-of-533-million-facebook-users-leaked-online-2021-4",
+                "https://www.bbc.com/news/technology-56646978",
+                "https://www.theguardian.com/technology/2021/apr/06/facebook-data-leak-details-personal-information"
+            ],
+            "location": "Global",
+            "event_type": "Cybersecurity Incident",
+            "speakers": ["Facebook Security Team"],
+            "contact_information": {
+                "email": "security@fb.com",
+                "phone": "+1-650-543-4800"
+            },
+            "target_audience": ["Social Media Users", "Privacy Advocates", "Security Professionals"]
+        },
+        {
+            "title": "Apple Introduces M2 Chip",
+            "description": "Apple announced its new M2 chip, featuring significant performance improvements over the M1.",
+            "detailed_description": "On June 6th, 2022, Apple announced the M2 chip during its Worldwide Developers Conference (WWDC). The M2 chip offers improved performance and efficiency over the M1, with a new design that enhances Apple's devices.",
+            "date": "2022-06-06",
+            "image": "/images/apple_m2.jpg",
+            "duration": "N/A",
+            "categories": ["Technology", "Hardware", "Innovation"],
+            "read_more_urls": [
+                "https://www.apple.com/newsroom/2022/06/apple-unveils-new-m2-chip-with-next-gen-performance/",
+                "https://www.cnet.com/tech/computing/wwdc-2022-apple-m2-chip-powers-new-macbook-air/",
+                "https://techcrunch.com/2022/06/06/apple-announces-the-next-generation-m2-chip/"
+            ],
+            "location": "Cupertino, CA, USA",
+            "event_type": "Technology Release",
+            "speakers": ["Tim Cook", "Johny Srouji"],
+            "contact_information": {
+                "email": "pr@apple.com",
+                "phone": "+1-408-996-1010"
+            },
+            "target_audience": ["Developers", "Tech Enthusiasts", "Consumers"]
+        },
+        {
+            "title": "Amazon Completes Acquisition of MGM",
+            "description": "Amazon completed its acquisition of MGM, adding a vast library of content to its streaming service.",
+            "detailed_description": "On March 17th, 2022, Amazon finalized its acquisition of MGM for $8.45 billion. This acquisition added MGM’s extensive catalog of films and TV shows to Amazon Prime Video, significantly boosting Amazon's content offerings.",
+            "date": "2022-03-17",
+            "image": "/images/amazon_mgm.jpg",
+            "duration": "N/A",
+            "categories": ["Business", "Entertainment", "Streaming"],
+            "read_more_urls": [
+                "https://www.aboutamazon.com/news/company-news/amazon-and-mgm-have-signed-an-agreement-for-amazon-to-acquire-mgm",
+                "https://variety.com/2022/film/news/amazon-mgm-acquisition-closes-1235201533/",
+                "https://www.hollywoodreporter.com/business/business-news/amazon-closes-mgm-acquisition-1235113313/"
+            ],
+            "location": "Seattle, WA, USA",
+            "event_type": "Business Acquisition",
+            "speakers": ["Andy Jassy"],
+            "contact_information": {
+                "email": "press@amazon.com",
+                "phone": "+1-206-266-1000"
+            },
+            "target_audience": ["Investors", "Media Professionals", "General Public"]
+        },
+        {
+            "title": "Uber Data Breach",
+            "description": "A hacker breached Uber's systems, gaining access to sensitive internal information.",
+            "detailed_description": "On September 15th, 2022, Uber experienced a data breach where a hacker gained access to sensitive internal systems, including its email dashboard and Slack server. The hacker posted messages on Uber's Slack, claiming to have breached the company’s databases.",
+            "date": "2022-09-15",
+            "image": "/images/uber-data-breach.jpg",
+            "duration": "N/A",
+            "categories": ["Cybersecurity", "Data Breach", "Technology"],
+            "read_more_urls": [
+                "https://www.nytimes.com/2022/09/15/technology/uber-hack.html",
+                "https://www.bbc.com/news/technology-62928742",
+                "https://www.theverge.com/2022/9/16/23356811/uber-hack-2022-incident-explained"
+            ],
+            "location": "Global",
+            "event_type": "Cybersecurity Incident",
+            "speakers": ["Uber Security Team"],
+            "contact_information": {
+                "email": "security@uber.com",
+                "phone": "+1-415-986-2104"
+            },
+            "target_audience": ["IT Professionals", "Security Analysts", "General Public"]
+        },
+        {
+            "title": "Costa Rica Ransomware Attack",
+            "description": "A ransomware attack targeted Costa Rican government institutions, causing widespread disruptions.",
+            "detailed_description": "In April 2022, Costa Rica was hit by a ransomware attack that targeted multiple government agencies, including the Ministry of Finance. The attack caused severe disruptions to public services and highlighted the vulnerability of national infrastructures to cyber threats.",
+            "date": "2022-04-18",
+            "image": "/images/costa-rica-ransomware.jpg",
+            "duration": "Several weeks",
+            "categories": ["Cybersecurity", "Ransomware", "Government"],
+            "read_more_urls": [
+                "https://www.reuters.com/technology/costa-rica-declares-national-emergency-after-ransomware-attacks-2022-05-08/",
+                "https://www.bbc.com/news/world-latin-america-61524674",
+                "https://www.zdnet.com/article/costa-rica-declares-national-emergency-as-ransomware-attacks-government/"
+            ],
+            "location": "Costa Rica",
+            "event_type": "Cybersecurity Incident",
+            "speakers": ["Carlos Alvarado, President of Costa Rica"],
+            "contact_information": {
+                "email": "info@gobierno.cr",
+                "phone": "+506-2248-6000"
+            },
+            "target_audience": ["Government Officials", "Security Experts", "General Public"]
+        },
+        {
+            "title": "Russia-Ukraine Cyberwarfare Escalation",
+            "description": "Cyberattacks increased significantly between Russia and Ukraine amidst geopolitical tensions.",
+            "detailed_description": "Throughout 2022, cyberwarfare between Russia and Ukraine escalated, involving various attacks on critical infrastructure, government networks, and financial institutions. This escalation highlighted the role of cyber tactics in modern warfare.",
+            "date": "2022-02-24",
+            "image": "/images/russia-ukraine-cyberwarfare.jpg",
+            "duration": "Ongoing",
+            "categories": ["Cybersecurity", "Geopolitics", "Cyberwarfare"],
+            "read_more_urls": [
+                "https://www.theguardian.com/technology/2022/feb/24/ukraine-russia-cyber-attacks-internet-disruption",
+                "https://www.bbc.com/news/technology-60517947",
+                "https://www.nytimes.com/2022/02/23/technology/ukraine-russia-cyberattacks.html"
+            ],
+            "location": "Ukraine",
+            "event_type": "Geopolitical Conflict",
+            "speakers": ["Cybersecurity Analysts"],
+            "contact_information": {
+                "email": "cybersecurity@ukraine.gov.ua",
+                "phone": "+380-44-255-6512"
+            },
+            "target_audience": ["Government Officials", "Security Experts", "General Public"]
+        },
+        {
+            "title": "Google AI Language Model Release",
+            "description": "Google released its new AI language model, Pathways Language Model (PaLM), advancing natural language processing capabilities.",
+            "detailed_description": "In April 2022, Google announced the release of the Pathways Language Model (PaLM), which significantly advanced the capabilities of natural language processing. PaLM demonstrated breakthrough abilities in various language tasks, marking a major step forward in AI research.",
+            "date": "2022-04-04",
+            "image": "/images/google-palm.jpg",
+            "duration": "N/A",
+            "categories": ["AI", "Technology", "Research"],
+            "read_more_urls": [
+                "https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html",
+                "https://www.theverge.com/2022/4/5/23011255/google-palm-ai-language-model-natural-processing",
+                "https://techcrunch.com/2022/04/05/google-unveils-palm-the-largest-ai-language-model-yet/"
+            ],
+            "location": "Mountain View, CA, USA",
+            "event_type": "Technology Release",
+            "speakers": ["Jeff Dean"],
+            "contact_information": {
+                "email": "ai-research@google.com",
+                "phone": "+1-650-253-0000"
+            },
+            "target_audience": ["AI Researchers", "Developers", "Tech Enthusiasts"]
+        },
+        {
+            "title": "Log4j Vulnerability Discovery",
+            "description": "A critical vulnerability in the Log4j logging library was discovered, affecting millions of systems worldwide.",
+            "detailed_description": "In December 2021, a critical vulnerability known as Log4Shell was discovered in the Log4j logging library. The vulnerability continued to be a significant security threat throughout 2022, affecting millions of systems globally and requiring urgent patches.",
+            "date": "2022-01-01",
+            "image": "/images/log4j-vulnerability.jpg",
+            "duration": "Ongoing",
+            "categories": ["Cybersecurity", "Vulnerability", "Open Source"],
+            "read_more_urls": [
+                "https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance",
+                "https://www.wired.com/story/log4j-flaw-hacking-internet/",
+                "https://www.zdnet.com/article/log4j-flaw-what-you-need-to-know/"
+            ],
+            "location": "Global",
+            "event_type": "Cybersecurity Alert",
+            "speakers": ["Security Experts"],
+            "contact_information": {
+                "email": "security@apache.org",
+                "phone": "+1-503-123-4567"
+            },
+            "target_audience": ["IT Administrators", "Developers", "Security Professionals"]
+        },
+        {
+            "title": "SpaceX Starship Orbital Test Flight",
+            "description": "SpaceX conducted its first orbital test flight of the Starship rocket, marking a significant milestone in space exploration.",
+            "detailed_description": "On July 21st, 2022, SpaceX launched its first orbital test flight of the Starship rocket from Boca Chica, Texas. This test flight marked a major milestone in the development of SpaceX's reusable spacecraft, designed to carry humans to Mars and beyond.",
+            "date": "2022-07-21",
+            "image": "/images/spacex-starship.jpg",
+            "duration": "Several hours",
+            "categories": ["Space Exploration", "Technology", "Innovation"],
+            "read_more_urls": [
+                "https://www.spacex.com/updates/",
+                "https://www.nasaspaceflight.com/2022/07/starship-orbital-test-flight/",
+                "https://www.theverge.com/2022/7/21/23156482/spacex-starship-orbital-launch-nasa"
+            ],
+            "location": "Boca Chica, TX, USA",
+            "event_type": "Space Launch",
+            "speakers": ["Elon Musk"],
+            "contact_information": {
+                "email": "media@spacex.com",
+                "phone": "+1-310-420-2100"
+            },
+            "target_audience": ["Space Enthusiasts", "Scientists", "General Public"]
+        }
+    ]
+}

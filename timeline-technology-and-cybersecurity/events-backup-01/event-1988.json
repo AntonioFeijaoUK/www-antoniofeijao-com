@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Morris Worm Incident",
+            "description": "The Morris Worm, one of the first computer worms distributed via the internet, was launched.",
+            "date": "1988-11-02",
+            "image": "/images/morris.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

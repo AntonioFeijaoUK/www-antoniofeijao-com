@@ -1,0 +1,907 @@
+{
+    "events": [
+      {
+        "title": "Moon Landing",
+        "description": "Apollo 11, the spaceflight that first landed humans on the Moon, was launched by NASA.",
+        "detailed_description": "On July 20th, 1969, NASA's Apollo 11 mission successfully landed the first humans on the Moon. The mission was commanded by Neil Armstrong, who, along with Lunar Module Pilot Buzz Aldrin, became the first and second humans to walk on the lunar surface. Command Module Pilot Michael Collins orbited above in the Command Module. This historic event was broadcast live to millions of viewers around the world and is considered a monumental achievement in space exploration.",
+        "date": "1969-07-20",
+        "image": "/images/moon.jpg",
+        "duration": "8 days",
+        "categories": ["Space Exploration", "NASA"],
+        "read_more_urls": [
+          "https://www.nasa.gov/mission_pages/apollo/apollo11.html",
+          "https://www.history.com/topics/space-exploration/moon-landing-1969"
+        ],
+        "location": "Lunar Surface",
+        "event_type": "Space Mission",
+        "speakers": ["Neil Armstrong", "Buzz Aldrin"],
+        "contact_information": {
+          "email": "public-inquiries@hq.nasa.gov",
+          "phone": "+1-202-358-0001"
+        },
+        "target_audience": ["Space Enthusiasts", "Historians", "Scientists"]
+      },
+      {
+        "title": "First Use of ARPANET",
+        "description": "The ARPANET, the precursor to the modern internet, sent its first message.",
+        "detailed_description": "On October 29, 1969, the first message was sent over ARPANET from a computer at the University of California, Los Angeles (UCLA) to a computer at the Stanford Research Institute (SRI). The message was intended to be the word 'LOGIN,' but only the first two letters were successfully transmitted before the system crashed. This marked the beginning of the development of global digital communication and the foundation of what would become the modern internet.",
+        "date": "1969-10-29",
+        "image": "/images/arpanet.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.livescience.com/20727-arpanet.html",
+          "https://www.computerhistory.org/revolution/networking/19/314"
+        ],
+        "location": "Los Angeles, CA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Leonard Kleinrock"],
+        "contact_information": {
+          "email": "info@computerhistory.org",
+          "phone": "+1-650-810-1010"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "Introduction of UNIX",
+        "description": "The UNIX operating system, a revolutionary multitasking and multiuser computer operating system, was developed at Bell Labs.",
+        "detailed_description": "In November 1969, the UNIX operating system was developed by Ken Thompson, Dennis Ritchie, and others at Bell Labs. UNIX was designed as a simple and elegant operating system for programmers, and its portability, flexibility, and power made it one of the most influential operating systems of all time. It introduced many concepts and tools that have become standards in computing.",
+        "date": "1969-11-03",
+        "image": "/images/unix.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.britannica.com/technology/UNIX",
+          "https://www.linuxfoundation.org/blog/a-brief-history-of-unix/"
+        ],
+        "location": "Murray Hill, NJ, USA",
+        "event_type": "Software Development",
+        "speakers": ["Ken Thompson", "Dennis Ritchie"],
+        "contact_information": {
+          "email": "info@unix.org",
+          "phone": "+1-908-582-3000"
+        },
+        "target_audience": ["Software Developers", "Historians", "Tech Enthusiasts"]
+      },
+      {
+        "title": "First Email Sent",
+        "description": "Ray Tomlinson, a computer engineer, sent the first email over a network.",
+        "detailed_description": "In 1971, Ray Tomlinson, an engineer at Bolt, Beranek, and Newman (BBN), sent the first email using ARPANET. This pioneering communication featured the '@' symbol to separate the user's name from their machine name, establishing a standard for email addresses still in use today. This development paved the way for the future of electronic communication.",
+        "date": "1971-01-01",
+        "image": "/images/email.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Communication"],
+        "read_more_urls": [
+          "https://www.raytomlinson.com/",
+          "https://computerhistory.org/blog/ray-tomlinson-and-the-first-network-email/"
+        ],
+        "location": "Cambridge, MA, USA",
+        "event_type": "Communication Milestone",
+        "speakers": ["Ray Tomlinson"],
+        "contact_information": {
+          "email": "info@computerhistory.org",
+          "phone": "+1-650-810-1010"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "Introduction of the Floppy Disk",
+        "description": "IBM introduced the 8-inch floppy disk, a portable storage medium widely used for data storage and transfer.",
+        "detailed_description": "On June 23, 1971, IBM introduced the first 8-inch floppy disk, designed by David Noble under the supervision of Alan Shugart. This portable storage medium revolutionized data storage and transfer, becoming the primary data storage solution for computers for decades. It enabled easy sharing and backup of digital data, contributing significantly to the computer industry's growth.",
+        "date": "1971-06-23",
+        "image": "/images/floppy_disk.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Storage"],
+        "read_more_urls": [
+          "https://www.ibm.com/ibm/history/exhibits/storage/storage_350.html",
+          "https://computerhistory.org/blog/the-rise-and-fall-of-the-floppy-disk/"
+        ],
+        "location": "San Jose, CA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Alan Shugart"],
+        "contact_information": {
+          "email": "info@ibm.com",
+          "phone": "+1-914-499-1900"
+        },
+        "target_audience": ["Tech Enthusiasts", "Historians", "Researchers"]
+      },
+      {
+        "title": "Intel Releases the 4004 Microprocessor",
+        "description": "Intel released the 4004 microprocessor, the first commercially available microprocessor.",
+        "detailed_description": "On November 15, 1971, Intel launched the 4004 microprocessor, marking a significant milestone in computing technology. Developed by Federico Faggin, Ted Hoff, and Stanley Mazor, the 4004 was the first commercially available microprocessor. It laid the foundation for the development of modern computing by enabling the creation of more powerful and compact electronic devices.",
+        "date": "1971-11-15",
+        "image": "/images/intel_4004.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Computing"],
+        "read_more_urls": [
+          "https://www.intel.com/content/www/us/en/history/museum-story-of-intel-4004.html",
+          "https://computerhistory.org/blog/the-legacy-of-the-intel-4004/"
+        ],
+        "location": "Santa Clara, CA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Federico Faggin", "Ted Hoff"],
+        "contact_information": {
+          "email": "info@intel.com",
+          "phone": "+1-408-765-8080"
+        },
+        "target_audience": ["Tech Enthusiasts", "Engineers", "Historians"]
+      },
+      {
+        "title": "Creation of the First Computer Virus",
+        "description": "The Creeper virus, considered the first computer virus, was created by Bob Thomas at BBN.",
+        "detailed_description": "In 1971, the Creeper virus was created by Bob Thomas at BBN Technologies. It was the first known computer virus, infecting DEC PDP-10 computers running the TENEX operating system. The Creeper virus displayed the message 'I'm the creeper: catch me if you can.' Its creation highlighted the need for cybersecurity measures to protect computer systems.",
+        "date": "1971-01-01",
+        "image": "/images/creeper.jpg",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Technology"],
+        "read_more_urls": [
+          "https://www.computerworld.com/article/2783750/security0-happy-40th-birthday--creeper--the-world-s-first-computer-virus.html",
+          "https://www.historyofinformation.com/detail.php?entryid=3935"
+        ],
+        "location": "Cambridge, MA, USA",
+        "event_type": "Cybersecurity Milestone",
+        "speakers": ["Bob Thomas"],
+        "contact_information": {
+          "email": "info@bbn.com",
+          "phone": "+1-617-873-3000"
+        },
+        "target_audience": ["Cybersecurity Professionals", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Introduction of the RSA Algorithm",
+        "description": "The RSA algorithm, a public-key cryptosystem widely used for secure data transmission, was introduced.",
+        "detailed_description": "In April 1977, Ron Rivest, Adi Shamir, and Leonard Adleman introduced the RSA algorithm. This public-key cryptosystem became a foundational technology for secure data transmission, enabling secure communication over the internet. It remains widely used today in various security protocols, including SSL/TLS, to protect data privacy.",
+        "date": "1977-04-01",
+        "image": "/images/rsa.jpg",
+        "duration": "N/A",
+        "categories": ["Cryptography", "Technology"],
+        "read_more_urls": [
+          "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+          "https://www.computerhistory.org/revolution/digital-logic/12/312/107"
+        ],
+        "location": "Cambridge, MA, USA",
+        "event_type": "Cryptography Milestone",
+        "speakers": ["Ron Rivest", "Adi Shamir", "Leonard Adleman"],
+        "contact_information": {
+          "email": "info@mit.edu",
+          "phone": "+1-617-253-1000"
+        },
+        "target_audience": ["Cryptographers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Apple II Released",
+        "description": "Apple released the Apple II, one of the first highly successful mass-produced microcomputers.",
+        "detailed_description": "On June 10, 1977, Apple released the Apple II, a revolutionary personal computer that became one of the first highly successful mass-produced microcomputers. Designed by Steve Wozniak, the Apple II featured a color display, expansion slots, and a BASIC programming language interpreter, making it popular among hobbyists and educational institutions.",
+        "date": "1977-06-10",
+        "image": "/images/apple2.jpg",
+        "duration": "N/A",
+        "categories": ["Computing", "Technology"],
+        "read_more_urls": [
+          "https://www.apple.com/education/it/vintage/",
+          "https://www.computerhistory.org/revolution/personal-computers/17/300"
+        ],
+        "location": "Cupertino, CA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Steve Jobs", "Steve Wozniak"],
+        "contact_information": {
+          "email": "info@apple.com",
+          "phone": "+1-408-996-1010"
+        },
+        "target_audience": ["Tech Enthusiasts", "Historians", "Consumers"]
+      },
+      {
+        "title": "Release of Atari 2600",
+        "description": "Atari released the Atari 2600, a home video game console that popularized the use of microprocessor-based hardware.",
+        "detailed_description": "On September 11, 1977, Atari released the Atari 2600, a groundbreaking home video game console. The Atari 2600 popularized the use of microprocessor-based hardware and game cartridges, transforming the video game industry. It introduced iconic games like 'Space Invaders' and 'Pac-Man,' becoming a cultural phenomenon and establishing video games as a mainstream entertainment medium.",
+        "date": "1977-09-11",
+        "image": "/images/atari2600.jpg",
+        "duration": "N/A",
+        "categories": ["Gaming", "Technology"],
+        "read_more_urls": [
+          "https://www.atari.com/",
+          "https://www.computerhistory.org/revolution/video-games/17/292"
+        ],
+        "location": "Sunnyvale, CA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Nolan Bushnell"],
+        "contact_information": {
+          "email": "info@atari.com",
+          "phone": "+1-212-726-6500"
+        },
+        "target_audience": ["Gamers", "Tech Enthusiasts", "Historians"]
+      },
+      {
+        "title": "Launch of BSD",
+        "description": "The first version of BSD (Berkeley Software Distribution) UNIX was released.",
+        "detailed_description": "In 1977, the University of California, Berkeley released the first version of BSD (Berkeley Software Distribution) UNIX. Developed by Bill Joy and others, BSD UNIX introduced numerous innovations, including the C shell, job control, and networking capabilities. BSD's open-source nature and advanced features made it a critical platform for research and development in the UNIX community.",
+        "date": "1977-01-01",
+        "image": "/images/bsd.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.bsd.org/",
+          "https://www.computerhistory.org/revolution/digital-logic/12/327"
+        ],
+        "location": "Berkeley, CA, USA",
+        "event_type": "Software Development",
+        "speakers": ["Bill Joy"],
+        "contact_information": {
+          "email": "info@berkeley.edu",
+          "phone": "+1-510-642-6000"
+        },
+        "target_audience": ["Software Developers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Apple Macintosh Introduction",
+        "description": "Apple introduced the Macintosh computer, revolutionizing personal computing.",
+        "detailed_description": "On January 24, 1984, Apple introduced the Macintosh computer, marking a revolution in personal computing. Featuring a graphical user interface, a mouse, and a sleek design, the Macintosh made computing more accessible to the general public. Apple's famous '1984' Super Bowl commercial introduced the Macintosh, emphasizing its role as a game-changer in the tech industry.",
+        "date": "1984-01-24",
+        "image": "/images/macintosh.jpg",
+        "duration": "N/A",
+        "categories": ["Computing", "Technology"],
+        "read_more_urls": [
+          "https://www.apple.com/education/it/vintage/",
+          "https://www.computerhistory.org/revolution/personal-computers/17/314"
+        ],
+        "location": "Cupertino, CA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Steve Jobs"],
+        "contact_information": {
+          "email": "info@apple.com",
+          "phone": "+1-408-996-1010"
+        },
+        "target_audience": ["Tech Enthusiasts", "Historians", "Consumers"]
+      },
+      {
+        "title": "First Release of SQL",
+        "description": "SQL, a language for managing and manipulating databases, was first released.",
+        "detailed_description": "In June 1986, SQL (Structured Query Language) was first released, providing a standardized way to manage and manipulate relational databases. Developed by IBM researchers Donald D. Chamberlin and Raymond F. Boyce, SQL became a cornerstone of database management, enabling the development of complex data-driven applications and contributing to the growth of the database industry.",
+        "date": "1986-06-01",
+        "image": "/images/sql.jpg",
+        "duration": "N/A",
+        "categories": ["Database", "Technology"],
+        "read_more_urls": [
+          "https://www.oracle.com/database/what-is-sql/",
+          "https://www.computerhistory.org/revolution/memory-storage/10/314"
+        ],
+        "location": "USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Donald D. Chamberlin"],
+        "contact_information": {
+          "email": "info@oracle.com",
+          "phone": "+1-650-506-7000"
+        },
+        "target_audience": ["Database Administrators", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Launch of the First Commercial Antivirus",
+        "description": "The first commercial antivirus software was launched by McAfee.",
+        "detailed_description": "In July 1987, McAfee launched the first commercial antivirus software, addressing the growing threat of computer viruses. Founded by John McAfee, the company developed antivirus solutions to detect and remove malicious software, providing essential protection for computer systems. This marked the beginning of the cybersecurity industry, which has since evolved into a multi-billion-dollar market.",
+        "date": "1987-07-01",
+        "image": "/images/mcafee.jpg",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Technology"],
+        "read_more_urls": [
+          "https://www.mcafee.com/",
+          "https://www.wired.com/2009/03/0311mcafeevirus/"
+        ],
+        "location": "Santa Clara, CA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["John McAfee"],
+        "contact_information": {
+          "email": "info@mcafee.com",
+          "phone": "+1-866-622-3911"
+        },
+        "target_audience": ["Cybersecurity Professionals", "Tech Enthusiasts", "Consumers"]
+      },
+      {
+        "title": "Morris Worm Incident",
+        "description": "The Morris Worm, one of the first computer worms distributed via the internet, was launched.",
+        "detailed_description": "On November 2, 1988, the Morris Worm was launched by Robert Tappan Morris, a graduate student at Cornell University. It quickly spread across the internet, infecting thousands of computers and causing significant disruptions. This incident highlighted the vulnerabilities of networked systems and led to increased awareness of cybersecurity threats and the importance of securing computer networks.",
+        "date": "1988-11-02",
+        "image": "/images/morris.jpg",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Technology"],
+        "read_more_urls": [
+          "https://www.computerhistory.org/tdih/november/2/",
+          "https://www.csoonline.com/article/2130877/the-morris-worm--the-first-cyber-attack-on-the-internet.html"
+        ],
+        "location": "Cambridge, MA, USA",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Robert Tappan Morris"],
+        "contact_information": {
+          "email": "info@mit.edu",
+          "phone": "+1-617-253-1000"
+        },
+        "target_audience": ["Cybersecurity Professionals", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Invention of the World Wide Web",
+        "description": "Tim Berners-Lee invented the World Wide Web.",
+        "detailed_description": "On March 12, 1989, Tim Berners-Lee, a British scientist at CERN, proposed a new information management system that became the World Wide Web. This revolutionary idea connected hypertext with the internet, enabling the sharing of information across the globe. Berners-Lee's invention transformed how people access and interact with information, leading to the digital age we know today.",
+        "date": "1989-03-12",
+        "image": "/images/www.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.w3.org/History/1989/proposal.html",
+          "https://home.cern/science/computing/birth-web"
+        ],
+        "location": "Geneva, Switzerland",
+        "event_type": "Technology Milestone",
+        "speakers": ["Tim Berners-Lee"],
+        "contact_information": {
+          "email": "info@cern.ch",
+          "phone": "+41-22-767-6111"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "Launch of the First Commercial Internet Service",
+        "description": "The first commercial dial-up internet service, The World, was launched.",
+        "detailed_description": "In November 1989, Barry Shein founded The World, the first commercial dial-up internet service. Based in Brookline, Massachusetts, The World provided users with internet access, enabling them to connect to the global network and explore its vast potential. This marked the beginning of widespread internet usage and set the stage for the internet's explosive growth in the 1990s.",
+        "date": "1989-11-01",
+        "image": "/images/dialup.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.cerf.net/the-world.html",
+          "https://computerhistory.org/blog/the-first-commercial-dial-up-internet-service-is-launched/"
+        ],
+        "location": "Brookline, MA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Barry Shein"],
+        "contact_information": {
+          "email": "info@cerf.net",
+          "phone": "+1-617-731-5000"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "First Ransomware Attack",
+        "description": "The first known ransomware attack occurred, encrypting users' files and demanding payment.",
+        "detailed_description": "On December 24, 1989, the first known ransomware attack was launched by Dr. Joseph Popp. Known as the 'AIDS Trojan,' this malicious software encrypted files on victims' computers and demanded payment to restore access. This incident highlighted the potential dangers of malicious software and foreshadowed the rise of ransomware as a significant cybersecurity threat.",
+        "date": "1989-12-24",
+        "image": "/images/ransomware.jpg",
+        "duration": "N/A",
+        "categories": ["Cybersecurity", "Technology"],
+        "read_more_urls": [
+          "https://www.wired.com/2008/07/ff-code/",
+          "https://www.securitymagazine.com/articles/77473-the-evolution-of-ransomware"
+        ],
+        "location": "USA",
+        "event_type": "Cybersecurity Incident",
+        "speakers": ["Joseph Popp"],
+        "contact_information": {
+          "email": "info@securitymagazine.com",
+          "phone": "+1-630-571-4088"
+        },
+        "target_audience": ["Cybersecurity Professionals", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Introduction of Python",
+        "description": "Guido van Rossum released Python, a powerful and versatile programming language.",
+        "detailed_description": "On February 20, 1991, Guido van Rossum released Python, an interpreted high-level programming language known for its readability and versatility. Python quickly gained popularity among developers for its ease of use and extensive libraries, becoming a go-to language for web development, data analysis, artificial intelligence, and more.",
+        "date": "1991-02-20",
+        "image": "/images/python.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Programming"],
+        "read_more_urls": [
+          "https://www.python.org/doc/essays/foreword/",
+          "https://www.computerhistory.org/revolution/software/13/296"
+        ],
+        "location": "Amsterdam, Netherlands",
+        "event_type": "Software Development",
+        "speakers": ["Guido van Rossum"],
+        "contact_information": {
+          "email": "info@python.org",
+          "phone": "+1-888-567-4478"
+        },
+        "target_audience": ["Developers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Release of Linux Kernel",
+        "description": "Linus Torvalds released the first version of the Linux kernel.",
+        "detailed_description": "On September 17, 1991, Linus Torvalds released the first version of the Linux kernel, a free and open-source operating system kernel. Linux quickly gained traction in the tech community, becoming a cornerstone of open-source software development. It powers a wide range of systems today, from personal computers to enterprise servers and mobile devices.",
+        "date": "1991-09-17",
+        "image": "/images/linux.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.linuxfoundation.org/blog/history-of-linux/",
+          "https://www.computerhistory.org/revolution/software/13/288"
+        ],
+        "location": "Helsinki, Finland",
+        "event_type": "Software Development",
+        "speakers": ["Linus Torvalds"],
+        "contact_information": {
+          "email": "info@linuxfoundation.org",
+          "phone": "+1-503-906-2300"
+        },
+        "target_audience": ["Developers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Launch of the First Website",
+        "description": "The first website, created by Tim Berners-Lee, was launched at CERN.",
+        "detailed_description": "On August 6, 1991, Tim Berners-Lee launched the first website at CERN. The site provided information about the World Wide Web project, explaining the concept of hypertext and how to create web pages. This marked the beginning of the web's public availability and paved the way for the internet revolution.",
+        "date": "1991-08-06",
+        "image": "/images/first_website.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.w3.org/History.html",
+          "https://home.cern/science/computing/birth-web"
+        ],
+        "location": "Geneva, Switzerland",
+        "event_type": "Technology Milestone",
+        "speakers": ["Tim Berners-Lee"],
+        "contact_information": {
+          "email": "info@cern.ch",
+          "phone": "+41-22-767-6111"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "Launch of Windows 3.1",
+        "description": "Microsoft launched Windows 3.1, a significant step in the evolution of the Windows OS.",
+        "detailed_description": "On April 6, 1992, Microsoft launched Windows 3.1, a major update to its operating system. Windows 3.1 introduced improved graphics, support for TrueType fonts, and enhanced multimedia capabilities. It became one of the best-selling software products, solidifying Microsoft's dominance in the personal computer market.",
+        "date": "1992-04-06",
+        "image": "/images/windows31.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.microsoft.com/en-us/news/features/2012/apr12/04-06windows.aspx",
+          "https://www.computerhistory.org/tdih/april/6/"
+        ],
+        "location": "Redmond, WA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Bill Gates"],
+        "contact_information": {
+          "email": "info@microsoft.com",
+          "phone": "+1-425-882-8080"
+        },
+        "target_audience": ["Consumers", "Tech Enthusiasts", "Historians"]
+      },
+      {
+        "title": "Release of Red Hat Linux",
+        "description": "Red Hat released its first version of Linux.",
+        "detailed_description": "On November 3, 1994, Red Hat released its first version of the Linux operating system, Red Hat Linux. Founded by Marc Ewing and Bob Young, Red Hat quickly became a leader in the open-source software industry. The release of Red Hat Linux played a crucial role in popularizing Linux and open-source software in enterprise environments.",
+        "date": "1994-11-03",
+        "image": "/images/redhat.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.redhat.com/en/about/history",
+          "https://www.computerhistory.org/revolution/software/13/334"
+        ],
+        "location": "Raleigh, NC, USA",
+        "event_type": "Software Development",
+        "speakers": ["Marc Ewing", "Bob Young"],
+        "contact_information": {
+          "email": "info@redhat.com",
+          "phone": "+1-919-754-3700"
+        },
+        "target_audience": ["Developers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Introduction of Java",
+        "description": "Sun Microsystems introduced Java, a high-level, class-based, object-oriented programming language.",
+        "detailed_description": "On May 23, 1995, Sun Microsystems introduced Java, a programming language designed to be platform-independent and versatile. Developed by James Gosling and his team, Java quickly gained popularity for its 'write once, run anywhere' capabilities, making it ideal for web development, mobile applications, and enterprise software.",
+        "date": "1995-05-23",
+        "image": "/images/java.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Programming"],
+        "read_more_urls": [
+          "https://www.oracle.com/java/",
+          "https://www.computerhistory.org/revolution/software/13/332"
+        ],
+        "location": "Palo Alto, CA, USA",
+        "event_type": "Software Development",
+        "speakers": ["James Gosling"],
+        "contact_information": {
+          "email": "info@oracle.com",
+          "phone": "+1-650-506-7000"
+        },
+        "target_audience": ["Developers", "Tech Enthusiasts", "Researchers"]
+      },
+      {
+        "title": "Release of Windows 95",
+        "description": "Microsoft released Windows 95, a significant update to the Windows operating system.",
+        "detailed_description": "On August 24, 1995, Microsoft launched Windows 95, a groundbreaking operating system that integrated MS-DOS and Windows into a single product. Windows 95 introduced the Start menu, taskbar, and support for 32-bit applications, revolutionizing the user experience and setting new standards for personal computing.",
+        "date": "1995-08-24",
+        "image": "/images/windows95.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Software"],
+        "read_more_urls": [
+          "https://www.microsoft.com/en-us/news/press/1995/aug95/95launchpr.aspx",
+          "https://www.computerhistory.org/revolution/software/13/327"
+        ],
+        "location": "Redmond, WA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Bill Gates"],
+        "contact_information": {
+          "email": "info@microsoft.com",
+          "phone": "+1-425-882-8080"
+        },
+        "target_audience": ["Consumers", "Tech Enthusiasts", "Historians"]
+      },
+      {
+        "title": "Introduction of Google Search",
+        "description": "Google launched its search engine, which became the most widely used search tool.",
+        "detailed_description": "On September 4, 1998, Larry Page and Sergey Brin founded Google and launched its search engine. Google's innovative algorithm, PageRank, revolutionized web search by prioritizing results based on relevance and popularity. The search engine quickly gained popularity, becoming the most widely used tool for finding information on the internet.",
+        "date": "1998-09-04",
+        "image": "/images/google.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.google.com/search/howsearchworks/our-story/",
+          "https://www.computerhistory.org/revolution/digital-logic/12/299"
+        ],
+        "location": "Menlo Park, CA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Larry Page", "Sergey Brin"],
+        "contact_information": {
+          "email": "info@google.com",
+          "phone": "+1-650-253-0000"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Consumers"]
+      },
+      {
+        "title": "Establishment of ICANN",
+        "description": "The Internet Corporation for Assigned Names and Numbers (ICANN) was established.",
+        "detailed_description": "On September 18, 1998, the Internet Corporation for Assigned Names and Numbers (ICANN) was established to oversee the global domain name system (DNS) and IP address allocation. ICANN's creation marked a significant step in internet governance, ensuring the stability and security of the internet's infrastructure and promoting competition in the domain name industry.",
+        "date": "1998-09-18",
+        "image": "/images/icann.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://www.icann.org/en/about/archives/icann-formation",
+          "https://www.computerhistory.org/revolution/digital-logic/12/326"
+        ],
+        "location": "Los Angeles, CA, USA",
+        "event_type": "Organization Establishment",
+        "speakers": ["Jon Postel"],
+        "contact_information": {
+          "email": "info@icann.org",
+          "phone": "+1-310-823-9358"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "Introduction of the iMac",
+        "description": "Apple introduced the iMac, revitalizing the company's fortunes.",
+        "detailed_description": "On August 15, 1998, Apple unveiled the iMac, a groundbreaking all-in-one computer designed by Jonathan Ive. With its vibrant colors and innovative design, the iMac revitalized Apple's fortunes and set new standards for computer aesthetics. The iMac's success marked a turning point for Apple, helping the company regain its position as a leader in the tech industry.",
+        "date": "1998-08-15",
+        "image": "/images/imac.jpg",
+        "duration": "N/A",
+        "categories": ["Computing", "Technology"],
+        "read_more_urls": [
+          "https://www.apple.com/newsroom/1998/08/15Apple-Unveils-iMac/",
+          "https://www.computerhistory.org/revolution/personal-computers/17/334"
+        ],
+        "location": "Cupertino, CA, USA",
+        "event_type": "Product Launch",
+        "speakers": ["Steve Jobs"],
+        "contact_information": {
+          "email": "info@apple.com",
+          "phone": "+1-408-996-1010"
+        },
+        "target_audience": ["Consumers", "Tech Enthusiasts", "Historians"]
+      },
+      {
+        "title": "First Transatlantic Radio Signal",
+        "description": "Guglielmo Marconi successfully transmitted the first transatlantic radio signal from Cornwall, England, to Newfoundland, Canada.",
+        "detailed_description": "On December 12, 1901, Guglielmo Marconi achieved a groundbreaking feat by successfully transmitting a radio signal across the Atlantic Ocean. This historic event marked the first time a wireless signal had bridged the vast distance between Europe and North America, specifically from Poldhu in Cornwall, England, to Signal Hill in St. John's, Newfoundland. The transmission, which consisted of a simple Morse code letter 'S,' was a monumental achievement in the field of wireless communication and demonstrated the potential of radio technology to overcome geographical barriers.",
+        "date": "1901-12-12",
+        "image": "/images/marconi.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Communication"],
+        "read_more_urls": [
+          "https://www.bbc.com/news/uk-england-cornwall-16152925",
+          "https://www.britannica.com/biography/Guglielmo-Marconi"
+        ],
+        "location": "Poldhu, Cornwall, England",
+        "event_type": "Communication Milestone",
+        "speakers": ["Guglielmo Marconi"],
+        "contact_information": {
+          "email": "info@marconicalling.com",
+          "phone": "+44-20-7234-0567"
+        },
+        "target_audience": ["Historians", "Engineers", "Communication Enthusiasts"]
+      },
+      {
+        "title": "First Feature-Length Film",
+        "description": "The world's first feature-length film, 'The Story of the Kelly Gang,' premiered in Melbourne, Australia.",
+        "detailed_description": "'The Story of the Kelly Gang,' the world's first feature-length narrative film, premiered in Melbourne, Australia, on December 26, 1906. Directed by Charles Tait, the film ran for over an hour, making it the longest narrative film produced at the time. It depicted the exploits of the notorious Australian outlaw Ned Kelly and his gang, blending drama and real-life events to captivate audiences. This pioneering film paved the way for the development of feature-length cinema and showcased the potential of film as a medium for storytelling.",
+        "date": "1906-12-26",
+        "image": "/images/kellygang.jpg",
+        "duration": "70 minutes",
+        "categories": ["Film", "Entertainment"],
+        "read_more_urls": [
+          "https://www.nfsa.gov.au/latest/story-kelly-gang-worlds-first-feature-film",
+          "https://www.bfi.org.uk/features/what-was-first-feature-film"
+        ],
+        "location": "Melbourne, Australia",
+        "event_type": "Film Milestone",
+        "speakers": ["Charles Tait"],
+        "contact_information": {
+          "email": "info@nfsa.gov.au",
+          "phone": "+61-2-6248-2000"
+        },
+        "target_audience": ["Film Enthusiasts", "Historians", "Cinematographers"]
+      },
+      {
+        "title": "First Powered Flight",
+        "description": "The Wright brothers achieved the first powered, controlled, and sustained flight with their aircraft, the Wright Flyer.",
+        "detailed_description": "On December 17, 1903, Orville and Wilbur Wright achieved the first powered, controlled, and sustained flight with their aircraft, the Wright Flyer. The historic flight took place at Kitty Hawk, North Carolina, with Orville piloting the plane for 12 seconds over a distance of 120 feet. This remarkable achievement marked the birth of modern aviation and laid the foundation for the development of aircraft technology. The Wright brothers' innovation and perseverance paved the way for the future of air travel and exploration.",
+        "date": "1903-12-17",
+        "image": "/images/wrightbrothers.jpg",
+        "duration": "12 seconds",
+        "categories": ["Aviation", "Technology"],
+        "read_more_urls": [
+          "https://www.nasa.gov/topics/aeronautics/features/wright_brothers.html",
+          "https://www.history.com/topics/inventions/wright-brothers"
+        ],
+        "location": "Kitty Hawk, NC, USA",
+        "event_type": "Aviation Milestone",
+        "speakers": ["Orville Wright", "Wilbur Wright"],
+        "contact_information": {
+          "email": "info@wright-brothers.org",
+          "phone": "+1-937-225-7705"
+        },
+        "target_audience": ["Aviation Enthusiasts", "Historians", "Engineers"]
+      },
+      {
+        "title": "First World War Begins",
+        "description": "World War I began following the assassination of Archduke Franz Ferdinand of Austria.",
+        "detailed_description": "World War I, also known as the Great War, began on July 28, 1914, after the assassination of Archduke Franz Ferdinand of Austria-Hungary. The conflict quickly escalated into a global war involving major powers and alliances, including the Allies and the Central Powers. Over the next four years, the war saw unprecedented levels of destruction and loss of life, reshaping political landscapes and leading to significant social and economic changes worldwide. The war concluded on November 11, 1918, with the signing of the Armistice, setting the stage for geopolitical shifts and the eventual outbreak of World War II.",
+        "date": "1914-07-28",
+        "image": "/images/ww1.jpg",
+        "duration": "4 years",
+        "categories": ["History", "War"],
+        "read_more_urls": [
+          "https://www.history.com/topics/world-war-i/world-war-i-history",
+          "https://www.britannica.com/event/World-War-I"
+        ],
+        "location": "Global",
+        "event_type": "Historical Event",
+        "speakers": [],
+        "contact_information": {
+          "email": "info@historychannel.com",
+          "phone": "+1-212-210-1400"
+        },
+        "target_audience": ["Historians", "Students", "Military Enthusiasts"]
+      },
+      {
+        "title": "Introduction of the Television",
+        "description": "Philo Farnsworth successfully demonstrated the first electronic television system.",
+        "detailed_description": "On September 7, 1927, Philo Farnsworth, an American inventor, successfully demonstrated the first fully electronic television system. This breakthrough technology revolutionized the way information and entertainment were delivered, laying the foundation for the modern television industry. Farnsworth's invention utilized electronic scanning and display techniques, offering a more reliable and higher quality image than previous mechanical television systems. This milestone marked a significant advancement in communication technology and paved the way for the widespread adoption of television in households worldwide.",
+        "date": "1927-09-07",
+        "image": "/images/television.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Communication"],
+        "read_more_urls": [
+          "https://www.smithsonianmag.com/smithsonian-institution/history-philo-farnsworths-electronic-television-180960505/",
+          "https://www.history.com/news/philo-farnsworth-television-history"
+        ],
+        "location": "San Francisco, CA, USA",
+        "event_type": "Technology Milestone",
+        "speakers": ["Philo Farnsworth"],
+        "contact_information": {
+          "email": "info@smithsonianmag.com",
+          "phone": "+1-202-633-1000"
+        },
+        "target_audience": ["Tech Enthusiasts", "Historians", "Students"]
+      },
+      {
+        "title": "Penicillin Discovered",
+        "description": "Alexander Fleming discovered penicillin, the first true antibiotic, revolutionizing medicine.",
+        "detailed_description": "On September 28, 1928, Alexander Fleming, a Scottish bacteriologist, discovered penicillin, the first true antibiotic. While conducting experiments at St. Mary's Hospital in London, Fleming observed that a mold called Penicillium notatum had killed bacteria in a petri dish. This accidental discovery led to the development of penicillin as a powerful antibiotic, transforming the treatment of bacterial infections and saving countless lives. Fleming's work laid the foundation for the antibiotic revolution, profoundly impacting the field of medicine and revolutionizing healthcare worldwide.",
+        "date": "1928-09-28",
+        "image": "/images/penicillin.jpg",
+        "duration": "N/A",
+        "categories": ["Medicine", "Science"],
+        "read_more_urls": [
+          "https://www.acs.org/content/acs/en/education/whatischemistry/landmarks/flemingpenicillin.html",
+          "https://www.bbc.com/news/magazine-24119267"
+        ],
+        "location": "London, England",
+        "event_type": "Medical Breakthrough",
+        "speakers": ["Alexander Fleming"],
+        "contact_information": {
+          "email": "info@flemingmuseum.com",
+          "phone": "+44-20-7882-5555"
+        },
+        "target_audience": ["Scientists", "Medical Professionals", "Historians"]
+      },
+      {
+        "title": "Stock Market Crash",
+        "description": "The Wall Street Crash of 1929 marked the beginning of the Great Depression.",
+        "detailed_description": "On October 29, 1929, known as 'Black Tuesday,' the Wall Street stock market crashed, signaling the onset of the Great Depression. This catastrophic economic event wiped out millions of investors, leading to widespread financial ruin and economic turmoil. The crash was preceded by a speculative boom during the 1920s, with stock prices reaching unsustainable levels. As the market collapsed, banks failed, businesses shuttered, and unemployment soared, plunging the United States and the world into a prolonged economic depression that lasted over a decade.",
+        "date": "1929-10-29",
+        "image": "/images/stockmarket.jpg",
+        "duration": "N/A",
+        "categories": ["Economics", "History"],
+        "read_more_urls": [
+          "https://www.history.com/topics/great-depression/1929-stock-market-crash",
+          "https://www.britannica.com/event/stock-market-crash-of-1929"
+        ],
+        "location": "New York, NY, USA",
+        "event_type": "Economic Event",
+        "speakers": [],
+        "contact_information": {
+          "email": "info@history.com",
+          "phone": "+1-212-210-1400"
+        },
+        "target_audience": ["Economists", "Historians", "Students"]
+      },
+      {
+        "title": "First Nuclear Bomb Detonated",
+        "description": "The United States conducted the first successful test of an atomic bomb at the Trinity Site in New Mexico.",
+        "detailed_description": "On July 16, 1945, the United States conducted the first successful test of an atomic bomb at the Trinity Site in New Mexico as part of the Manhattan Project. This groundbreaking scientific experiment, led by J. Robert Oppenheimer and a team of brilliant physicists, marked the dawn of the atomic age. The detonation released an unprecedented amount of energy, forever altering the course of warfare and international relations. The success of the Trinity test paved the way for the use of atomic weapons in World War II and ignited global debates about the ethics and consequences of nuclear warfare.",
+        "date": "1945-07-16",
+        "image": "/images/trinity.jpg",
+        "duration": "N/A",
+        "categories": ["Military", "Science"],
+        "read_more_urls": [
+          "https://www.atomicarchive.com/resources/documents/trinity/index.html",
+          "https://www.history.com/topics/world-war-ii/trinity-test"
+        ],
+        "location": "Alamogordo, NM, USA",
+        "event_type": "Scientific Experiment",
+        "speakers": ["J. Robert Oppenheimer"],
+        "contact_information": {
+          "email": "info@atomicarchive.com",
+          "phone": "+1-202-456-1414"
+        },
+        "target_audience": ["Scientists", "Historians", "Military Enthusiasts"]
+      },
+      {
+        "title": "First Man in Space",
+        "description": "Yuri Gagarin, a Soviet cosmonaut, became the first human to journey into outer space.",
+        "detailed_description": "On April 12, 1961, Yuri Gagarin, a Soviet cosmonaut, made history as the first human to travel into space. Gagarin's spacecraft, Vostok 1, completed an orbit of Earth in 108 minutes, marking a significant milestone in space exploration. Launched from the Baikonur Cosmodrome in Kazakhstan, Gagarin's mission demonstrated the Soviet Union's space capabilities and advanced the space race between the USSR and the United States. Gagarin's successful mission earned him worldwide acclaim and solidified his place as a pioneering figure in the history of space exploration.",
+        "date": "1961-04-12",
+        "image": "/images/gagarin.jpg",
+        "duration": "108 minutes",
+        "categories": ["Space Exploration", "Science"],
+        "read_more_urls": [
+          "https://www.nasa.gov/feature/60-years-ago-yuri-gagarin-becomes-the-first-human-to-fly-in-space",
+          "https://www.bbc.com/news/world-europe-13040211"
+        ],
+        "location": "Baikonur Cosmodrome, Kazakhstan",
+        "event_type": "Space Mission",
+        "speakers": ["Yuri Gagarin"],
+        "contact_information": {
+          "email": "info@roscosmos.ru",
+          "phone": "+7-495-631-92-00"
+        },
+        "target_audience": ["Space Enthusiasts", "Historians", "Scientists"]
+      },
+      {
+        "title": "Fall of the Berlin Wall",
+        "description": "The Berlin Wall, a symbol of the Cold War, fell, leading to the reunification of Germany.",
+        "detailed_description": "On November 9, 1989, the Berlin Wall, a symbol of division between East and West Germany and the Cold War, fell. This historic event marked the beginning of the reunification of Germany and the collapse of communist regimes in Eastern Europe. The peaceful revolution in East Germany, combined with international pressure and changing political dynamics, led to the opening of the Berlin Wall and the end of decades of separation. The fall of the Berlin Wall remains a powerful symbol of freedom, unity, and the triumph of democracy over oppression.",
+        "date": "1989-11-09",
+        "image": "/images/berlinwall.jpg",
+        "duration": "N/A",
+        "categories": ["History", "Politics"],
+        "read_more_urls": [
+          "https://www.history.com/topics/cold-war/berlin-wall",
+          "https://www.dw.com/en/november-9-1989-the-day-the-berlin-wall-fell/a-51034882"
+        ],
+        "location": "Berlin, Germany",
+        "event_type": "Political Event",
+        "speakers": ["Mikhail Gorbachev", "Helmut Kohl"],
+        "contact_information": {
+          "email": "info@berlin.de",
+          "phone": "+49-30-9026-0"
+        },
+        "target_audience": ["Historians", "Political Analysts", "Students"]
+      },
+      {
+        "title": "Discovery of DNA Structure",
+        "description": "James Watson and Francis Crick discovered the double helix structure of DNA.",
+        "detailed_description": "On April 25, 1953, James Watson and Francis Crick published their groundbreaking paper on the double helix structure of DNA in the journal *Nature*. This discovery revolutionized the field of genetics by revealing the molecular structure that carries genetic information in living organisms. The double helix model, supported by Rosalind Franklin's X-ray crystallography data, provided insight into the mechanisms of DNA replication and genetic inheritance, laying the foundation for modern genetics and biotechnology.",
+        "date": "1953-04-25",
+        "image": "/images/dna.jpg",
+        "duration": "N/A",
+        "categories": ["Science", "Genetics"],
+        "read_more_urls": [
+          "https://www.nature.com/articles/171737a0",
+          "https://www.genome.gov/human-genome-project/An-Overview/An-History-of-the-HGP"
+        ],
+        "location": "Cambridge, England",
+        "event_type": "Scientific Discovery",
+        "speakers": ["James Watson", "Francis Crick", "Rosalind Franklin"],
+        "contact_information": {
+          "email": "info@nature.com",
+          "phone": "+44-20-7833-4000"
+        },
+        "target_audience": ["Scientists", "Researchers", "Students"]
+      },
+      {
+        "title": "Introduction of the World Wide Web to the Public",
+        "description": "The World Wide Web became publicly accessible, revolutionizing global communication.",
+        "detailed_description": "In April 1993, CERN announced that the World Wide Web would be free to use by the public, leading to the widespread adoption of the internet. This decision allowed users around the globe to access and share information via web browsers, transforming how people communicated, conducted business, and accessed information. The Web's introduction to the public marked the beginning of the digital age, fundamentally altering the economic, social, and cultural landscapes.",
+        "date": "1993-04-30",
+        "image": "/images/www-public.jpg",
+        "duration": "N/A",
+        "categories": ["Technology", "Internet"],
+        "read_more_urls": [
+          "https://home.cern/science/computing/birth-web",
+          "https://www.w3.org/People/Berners-Lee/FAQ.html"
+        ],
+        "location": "Geneva, Switzerland",
+        "event_type": "Technology Milestone",
+        "speakers": ["Tim Berners-Lee"],
+        "contact_information": {
+          "email": "info@cern.ch",
+          "phone": "+41-22-767-6111"
+        },
+        "target_audience": ["Tech Enthusiasts", "Researchers", "Historians"]
+      },
+      {
+        "title": "First Synthetic Polio Vaccine",
+        "description": "Dr. Jonas Salk developed the first effective polio vaccine.",
+        "detailed_description": "On April 12, 1955, Dr. Jonas Salk announced the development of the first effective polio vaccine, a breakthrough that significantly reduced the incidence of poliomyelitis worldwide. The vaccine, using an inactivated virus, was proven to be safe and effective during large-scale field trials, leading to its widespread adoption. This medical milestone marked a turning point in public health, contributing to the eventual eradication of polio in many parts of the world.",
+        "date": "1955-04-12",
+        "image": "/images/polio-vaccine.jpg",
+        "duration": "N/A",
+        "categories": ["Medicine", "Public Health"],
+        "read_more_urls": [
+          "https://www.historyofvaccines.org/content/blog/jonas-salk-and-first-polio-vaccine",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1383764/"
+        ],
+        "location": "Pittsburgh, PA, USA",
+        "event_type": "Medical Breakthrough",
+        "speakers": ["Dr. Jonas Salk"],
+        "contact_information": {
+          "email": "info@salk.edu",
+          "phone": "+1-858-453-4100"
+        },
+        "target_audience": ["Medical Professionals", "Scientists", "Historians"]
+      },
+      {
+        "title": "First Man on the Moon",
+        "description": "Neil Armstrong became the first human to set foot on the Moon during NASA's Apollo 11 mission.",
+        "detailed_description": "On July 20, 1969, Neil Armstrong made history as the first human to step onto the lunar surface during NASA's Apollo 11 mission. Armstrong's famous words, 'That's one small step for man, one giant leap for mankind,' echoed as he descended from the Lunar Module Eagle. This historic event, broadcast live to millions worldwide, represented the culmination of the space race and a major milestone in human exploration, showcasing the potential for further space exploration.",
+        "date": "1969-07-20",
+        "image": "/images/first-moonwalk.jpg",
+        "duration": "8 days",
+        "categories": ["Space Exploration", "NASA"],
+        "read_more_urls": [
+          "https://www.nasa.gov/mission_pages/apollo/apollo11.html",
+          "https://www.history.com/topics/space-exploration/moon-landing-1969"
+        ],
+        "location": "Lunar Surface",
+        "event_type": "Space Mission",
+        "speakers": ["Neil Armstrong", "Buzz Aldrin"],
+        "contact_information": {
+          "email": "public-inquiries@hq.nasa.gov",
+          "phone": "+1-202-358-0001"
+        },
+        "target_audience": ["Space Enthusiasts", "Historians", "Scientists"]
+      },
+      {
+        "title": "Formation of the United Nations",
+        "description": "The United Nations was established to promote peace and cooperation among nations.",
+        "detailed_description": "On October 24, 1945, the United Nations (UN) was officially established following the conclusion of World War II, aiming to prevent future global conflicts and promote international cooperation. With representatives from 51 countries, the UN Charter was ratified, setting forth the principles and structure of the organization. The UN plays a crucial role in addressing global challenges, maintaining peace and security, and fostering sustainable development, becoming a central platform for diplomatic efforts and humanitarian assistance.",
+        "date": "1945-10-24",
+        "image": "/images/united-nations.jpg",
+        "duration": "N/A",
+        "categories": ["International Relations", "Politics"],
+        "read_more_urls": [
+          "https://www.un.org/en/about-us/history-of-the-un",
+          "https://www.britannica.com/topic/United-Nations"
+        ],
+        "location": "San Francisco, CA, USA",
+        "event_type": "Political Event",
+        "speakers": ["Various World Leaders"],
+        "contact_information": {
+          "email": "info@un.org",
+          "phone": "+1-212-963-1234"
+        },
+        "target_audience": ["Historians", "Political Analysts", "Students"]
+      }
+    ]
+  }

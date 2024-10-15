@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Apple Macintosh Introduction",
+            "description": "Apple introduced the Macintosh computer, revolutionizing personal computing.",
+            "date": "1984-01-24",
+            "image": "/images/macintosh.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

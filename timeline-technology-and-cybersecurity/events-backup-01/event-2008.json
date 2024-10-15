@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "Introduction of the Apple App Store",
+            "description": "Apple launched the App Store, revolutionizing mobile app distribution.",
+            "date": "2008-07-10",
+            "image": "/images/appstore.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of Google Chrome",
+            "description": "Google launched its web browser, Chrome, which quickly became one of the most popular browsers.",
+            "date": "2008-09-02",
+            "image": "/images/chrome.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of GitHub",
+            "description": "GitHub, a web-based platform for version control using Git, was launched.",
+            "date": "2008-04-10",
+            "image": "/images/github_launch.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of the First Android Phone",
+            "description": "The first Android phone, the HTC Dream, was released.",
+            "date": "2008-09-23",
+            "image": "/images/android.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

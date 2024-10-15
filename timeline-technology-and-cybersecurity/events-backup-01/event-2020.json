@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "SolarWinds Cyberattack",
+            "description": "A major cyberattack targeting SolarWinds affected multiple government agencies and private companies.",
+            "date": "2020-12-13",
+            "image": "/images/solarwinds.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Zoom Security Issues",
+            "description": "Zoom faced significant security and privacy concerns as its usage surged during the COVID-19 pandemic.",
+            "date": "2020-04-01",
+            "image": "/images/zoom.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Twitter Bitcoin Scam",
+            "description": "A major Twitter hack compromised high-profile accounts to promote a Bitcoin scam.",
+            "date": "2020-07-15",
+            "image": "/images/twitter_hack.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Introduction of Apple Silicon Macs",
+            "description": "Apple introduced its first Macs powered by the new Apple Silicon M1 chip, marking a significant shift in its hardware strategy.",
+            "date": "2020-11-10",
+            "image": "/images/apple_silicon.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

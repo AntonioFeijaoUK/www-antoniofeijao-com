@@ -1,0 +1,19 @@
+{
+    "events": [
+        {
+            "title": "Launch of Windows 10",
+            "description": "Microsoft launched Windows 10, which became one of the most widely used operating systems.",
+            "date": "2015-07-29",
+            "image": "/images/windows10.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of the Apple Watch",
+            "description": "Apple launched the Apple Watch, entering the wearable technology market.",
+            "date": "2015-04-24",
+            "image": "/images/applewatch.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

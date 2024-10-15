@@ -1,0 +1,40 @@
+{
+    "events": [
+        {
+            "title": "Discovery of Meltdown and Spectre",
+            "description": "Meltdown and Spectre, two critical security vulnerabilities in modern processors, were disclosed.",
+            "date": "2018-01-03",
+            "image": "/images/meltdown_spectre.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Cambridge Analytica Scandal",
+            "description": "The Cambridge Analytica data scandal revealed the misuse of Facebook data.",
+            "date": "2018-03-17",
+            "image": "/images/cambridge.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Establishment of the GDPR",
+            "description": "The General Data Protection Regulation (GDPR) was implemented in the European Union.",
+            "date": "2018-05-25",
+            "image": "/images/gdpr.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Facebook Data Breach",
+            "description": "Facebook disclosed a data breach affecting 50 million users.",
+            "date": "2018-09-28",
+            "image": "/images/facebook.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Microsoft Acquires GitHub",
+            "description": "Microsoft acquired GitHub, a popular code hosting platform.",
+            "date": "2018-10-26",
+            "image": "/images/github.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Launch of the iPad",
+            "description": "Apple launched the iPad, creating a new category of mobile devices.",
+            "date": "2010-04-03",
+            "image": "/images/ipad.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Stuxnet Discovery",
+            "description": "Stuxnet, the first known cyber weapon, was discovered.",
+            "date": "2010-06-17",
+            "image": "/images/stuxnet.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Adobe Flash Vulnerabilities",
+            "description": "Multiple security vulnerabilities were discovered in Adobe Flash, leading to its decline.",
+            "date": "2010-06-29",
+            "image": "/images/adobeflash.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+
