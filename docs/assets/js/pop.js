@@ -27,8 +27,13 @@ async function updateUserInfo() {
     const browserInfo = `Browser: ${navigator.userAgent}`;
     const screenInfo = `Screen Resolution: ${screen.width}x${screen.height}`;
     
-    // Fetch public IP using ipwhois.app
-    const ipInfo = await fetch('https://ipwhois.app/json/')
+    // Fetch public IP using ipinfo.io with request headers
+    const ipInfo = await fetch('https://ipinfo.io/json', {
+        headers: {
+            'Accept': 'application/json',
+            'User-Agent': 'Mozilla/5.0'
+        }
+    })
         .then(response => response.json())
         .then(data => `Public IP: ${data.ip}\nLocation: ${data.city}, ${data.region}, ${data.country}`)
         .catch(() => 'Failed to fetch IP.');
