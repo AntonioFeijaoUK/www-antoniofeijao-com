@@ -7,11 +7,19 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
+        }
+        #inputName, #pasteName {
+            margin-bottom: 20px;
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
         }
         #balloon {
             width: 150px;
@@ -37,19 +45,28 @@
 </head>
 <body>
 
+    <!-- Name Input and Paste Section -->
+    <input id="inputName" type="text" placeholder="Write your name here">
+    <input id="pasteName" type="text" placeholder="Paste your name here">
+
+    <!-- Balloon Image -->
     <img id="balloon" src="/assets/images/shamblen-studios-pJ_DCj9KswI-unsplash.jpg" alt="Pop the balloon">
+
+    <!-- Code Box for clipboard content -->
     <div id="codeBox"></div>
 
     <script>
         const balloon = document.getElementById('balloon');
         const codeBox = document.getElementById('codeBox');
+        const pasteName = document.getElementById('pasteName');
 
         balloon.addEventListener('click', async () => {
             try {
                 const text = await navigator.clipboard.readText();
+                pasteName.value = text; // Paste clipboard content into the pasteName input field
                 balloon.style.display = 'none'; // Hide the balloon
                 codeBox.style.display = 'block'; // Show the code box
-                codeBox.textContent = text;
+                codeBox.textContent = text; // Display the clipboard content in the code box
             } catch (err) {
                 console.error('Failed to read clipboard: ', err);
             }
