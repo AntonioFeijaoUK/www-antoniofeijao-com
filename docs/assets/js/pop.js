@@ -22,7 +22,8 @@ async function updateUserInfo() {
     const screenInfo = `Screen Resolution: ${screen.width}x${screen.height}`;
     
     // Fetch public IP using ipinfo.io
-    const ipInfo = await fetch('https://ipinfo.io/json?token=YOUR_TOKEN_HERE') // Replace with your token
+    //const ipInfo = await fetch('https://ipinfo.io/json?token=YOUR_TOKEN_HERE') // Replace with your token
+    const ipInfo = await fetch('https://ipinfo.io/json')
         .then(response => response.json())
         .then(data => `Public IP: ${data.ip}\nLocation: ${data.city}, ${data.region}, ${data.country}`)
         .catch(() => 'Failed to fetch IP.');
