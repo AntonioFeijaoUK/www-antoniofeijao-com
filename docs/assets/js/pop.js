@@ -43,12 +43,14 @@ async function updateUserInfo() {
     codeBox2.textContent = `${browserInfo}\n${screenInfo}\n${ipInfo}\n${uptime}\n${storedName}`;
 }
 
-// Balloon click event
 balloon.addEventListener('click', async () => {
-    balloon.style.display = 'none'; // Hide the balloon after clicking
-    codeBox1.style.display = 'block'; // Show the clipboard code box
-
-    // Start updating clipboard content and user info
-    setInterval(updateClipboardContent, 3000); // Update clipboard content every 3 seconds
-    updateUserInfo(); // Fetch user info once after balloon pop
+    try {
+        const text = await navigator.clipboard.readText(); // Request clipboard permission here
+        balloon.style.display = 'none'; // Hide the balloon
+        codeBox1.style.display = 'block'; // Show the clipboard code box
+        codeBox1.textContent = text; // Display clipboard content
+    } catch (err) {
+        console.error('Failed to read clipboard: ', err);
+    }
+    updateUserInfo(); // Update browser info after clipboard access
 });
