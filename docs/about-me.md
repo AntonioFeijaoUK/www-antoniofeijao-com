@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "about-me"
 categories:
     - about
 tags:
