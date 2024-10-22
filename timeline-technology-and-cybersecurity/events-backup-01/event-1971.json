@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "First Email Sent",
+            "description": "Ray Tomlinson, a computer engineer, sent the first email over a network. He is also credited with introducing the use of the '@' symbol in email addresses.",
+            "date": "1971-01-01",
+            "image": "/images/email.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Introduction of the Floppy Disk",
+            "description": "IBM introduced the 8-inch floppy disk, a portable storage medium that would become widely used for data storage and transfer.",
+            "date": "1971-06-23",
+            "image": "/images/floppy_disk.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Intel Releases the 4004 Microprocessor",
+            "description": "Intel released the 4004 microprocessor, the first commercially available microprocessor, marking a significant milestone in computing technology.",
+            "date": "1971-11-15",
+            "image": "/images/intel_4004.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Creation of the First Computer Virus",
+            "description": "The Creeper virus, considered the first computer virus, was created by Bob Thomas at BBN. It infected DEC PDP-10 computers running the TENEX operating system.",
+            "date": "1971-01-01",
+            "image": "/images/creeper.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

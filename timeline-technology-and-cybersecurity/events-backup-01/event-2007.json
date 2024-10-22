@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "First iPhone Release",
+            "description": "Apple Inc. released the first iPhone, revolutionizing the smartphone industry with its touch interface and integrated ecosystem of hardware and software.",
+            "date": "2007-01-09",
+            "image": "/images/iphone.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

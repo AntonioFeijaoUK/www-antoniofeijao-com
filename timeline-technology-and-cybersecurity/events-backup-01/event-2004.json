@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "Launch of Facebook",
+            "description": "Mark Zuckerberg launched Facebook, now the world's largest social network.",
+            "date": "2004-02-04",
+            "image": "/images/facebook_launch.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Release of Ubuntu",
+            "description": "Canonical released the first version of the Ubuntu operating system.",
+            "date": "2004-10-20",
+            "image": "/images/ubuntu.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Public Release of Firefox",
+            "description": "Mozilla Firefox, an open-source web browser, was publicly released.",
+            "date": "2004-11-09",
+            "image": "/images/firefox.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Release of Ruby on Rails",
+            "description": "Ruby on Rails, a popular web application framework, was released.",
+            "date": "2004-12-13",
+            "image": "/images/rails.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

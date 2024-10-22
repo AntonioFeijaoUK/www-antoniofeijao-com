@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Introduction of Google Docs",
+            "description": "Google launched Google Docs, a cloud-based document editing platform.",
+            "date": "2006-03-09",
+            "image": "/images/googledocs.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of the First Amazon Web Services (AWS)",
+            "description": "Amazon launched its first AWS services, revolutionizing cloud computing.",
+            "date": "2006-03-14",
+            "image": "/images/aws.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Establishment of the Tor Project",
+            "description": "The Tor Project was founded to develop and maintain the Tor anonymity network.",
+            "date": "2006-12-01",
+            "image": "/images/tor.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

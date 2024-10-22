@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "Introduction of the RSA Algorithm",
+            "description": "The RSA algorithm, a public-key cryptosystem widely used for secure data transmission, was introduced by Ron Rivest, Adi Shamir, and Leonard Adleman.",
+            "date": "1977-04-01",
+            "image": "/images/rsa.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Apple II Released",
+            "description": "Apple released the Apple II, one of the first highly successful mass-produced microcomputers.",
+            "date": "1977-06-10",
+            "image": "/images/apple2.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Release of Atari 2600",
+            "description": "Atari released the Atari 2600, a home video game console that popularized the use of microprocessor-based hardware and cartridges containing games.",
+            "date": "1977-09-11",
+            "image": "/images/atari2600.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of BSD",
+            "description": "The first version of BSD (Berkeley Software Distribution) UNIX was released, laying the groundwork for future Unix development.",
+            "date": "1977-01-01",
+            "image": "/images/bsd.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+
