@@ -83,6 +83,7 @@ extra:
 
       
 plugins:
+  - privacy
   - social:
       enabled: true
   - blog:
