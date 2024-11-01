@@ -4,6 +4,62 @@ https://keybase.io/antoniofeijaouk
 
 I hereby claim:
 
+  * I am an admin of https://antoniofeijao.com
+  * I am antoniofeijaouk (https://keybase.io/antoniofeijaouk) on keybase.
+  * I have a public key ASC7YO-RuSSSfWQs9wLWAV1OMyXN-uYhKIILrm5aGsfPfwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e2bd631d1b5295fa8c6acaa74eadc7cd2910e90ddffb79299e6609c23d3574c00a",
+      "host": "keybase.io",
+      "kid": "0120bb60ef91b924927d642cf702d6015d4e3325cdfae62128820bae6e5a1ac7cf7f0a",
+      "uid": "cedc36164283852f8b5a88d5e4b70119",
+      "username": "antoniofeijaouk"
+    },
+    "merkle_root": {
+      "ctime": 1730478112,
+      "hash": "c48f4ec6eaaf06ae4470e019296f4f60f7addd529a5805a45dd00858cb27ae7322e6c91a334b8b547729967059093a757cddd4fa682fff23ace2cd487669c259",
+      "hash_meta": "c443fb60d1e56fe929be1d9edde7800c649aceec179583f60e5d067efb67b17c",
+      "seqno": 26260264
+    },
+    "service": {
+      "entropy": "61TJc2PTM9EVC4FLjWjuBaUb",
+      "hostname": "antoniofeijao.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.5.0"
+  },
+  "ctime": 1730478181,
+  "expire_in": 504576000,
+  "prev": "0cec256c150c23f36fdec8ec90c2bb51be1e57acf08ad7fcf3ab13c9bc2f273f",
+  "seqno": 57,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu2Dvkbkkkn1kLPcC1gFdTjMlzfrmISiCC65uWhrHz38Kp3BheWxvYWTESpcCOcQgDOwlbBUMI/Nv3sjskMK7Ub4eV6zwitf886sTybwvJz/EIDo1dOlssJ8eBY3YP+UhKVS6Ym/XCCQmW2zSal6Zx/NtAgHCo3NpZ8RApjlSFF6jHKsf6WJO0/mbqhUz5Lw6HDcmIFEGCAFxRL+W0w5vx0KMuw/6fylkN9UfAPKBNdZdbYUxMiy/4I5MBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEEpUKygoieOKmv2BQQtmmatQEdsm6EzH6twBGyx0Yeno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antoniofeijaouk
+
+==================================================================
+==================================================================
+https://keybase.io/antoniofeijaouk
+--------------------------------------------------------------------
+
+I hereby claim:
+
   * I am an admin of https://www.antoniofeijao.com
   * I am antoniofeijaouk (https://keybase.io/antoniofeijaouk) on keybase.
   * I have a public key ASC7YO-RuSSSfWQs9wLWAV1OMyXN-uYhKIILrm5aGsfPfwo
