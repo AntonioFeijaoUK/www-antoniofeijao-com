@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://antoniofeijao.com
   * I am antoniofeijaouk (https://keybase.io/antoniofeijaouk) on keybase.
-  * I have a public key ASC2tTUHyIDUHxlXoOHNgNSOODJqcGNQ8ayFkrc3d-sZoQo
+  * I have a public key ASC7YO-RuSSSfWQs9wLWAV1OMyXN-uYhKIILrm5aGsfPfwo
 
 To do so, I am signing this object:
 
@@ -15,18 +15,18 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "0120e2bd631d1b5295fa8c6acaa74eadc7cd2910e90ddffb79299e6609c23d3574c00a",
       "host": "keybase.io",
-      "kid": "0120b6b53507c880d41f1957a0e1cd80d48e38326a706350f1ac8592b73777eb19a10a",
+      "kid": "0120bb60ef91b924927d642cf702d6015d4e3325cdfae62128820bae6e5a1ac7cf7f0a",
       "uid": "cedc36164283852f8b5a88d5e4b70119",
       "username": "antoniofeijaouk"
     },
     "merkle_root": {
-      "ctime": 1651014781,
-      "hash": "22346d212b986c1af4bad7f39d295a280e41ccc4f6e70d45339f79fe53a0d1875f98d7a49a3bbf1917d3ca59b01e6a2d0ce8269891f651d00559ad729793ef20",
-      "hash_meta": "5c4b34f8cb724233be13a5c4ddfe57ec9d86c6feb308554d77b65134ffee5edc",
-      "seqno": 22369578
+      "ctime": 1730469617,
+      "hash": "10261d1a59c1a2259d78ae551fba319e326b63d5477dec7514b4a2cf2b485f6466a35b9e88ce8869aa520bcbb8e6fb8e596d570a48702fb0f8da17a540a49e88",
+      "hash_meta": "fe7fefc129a256dba5f91307c9f8c91c360378c637092584d2650167bc050794",
+      "seqno": 26259972
     },
     "service": {
-      "entropy": "DdKddsVbWTAKGWZRrbzDCULs",
+      "entropy": "LyIN648zdklVLLmF+gWMa6S1",
       "hostname": "antoniofeijao.com",
       "protocol": "https:"
     },
@@ -35,18 +35,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.9.0"
+    "version": "6.5.0"
   },
-  "ctime": 1651014808,
+  "ctime": 1730469629,
   "expire_in": 504576000,
-  "prev": "466259b86c13e379565ce1e8025c50b2f5bb10f61b02526d415eff1a56bf6d51",
-  "seqno": 26,
+  "prev": "ef3b84c8cfc932001240136e2fee3a7a2c56affc216003eed25218f5d569bb41",
+  "seqno": 54,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtrU1B8iA1B8ZV6DhzYDUjjgyanBjUPGshZK3N3frGaEKp3BheWxvYWTESpcCGsQgRmJZuGwT43lWXOHoAlxQsvW7EPYbAlJtQV7/Gla/bVHEIIh6X0XPd6u+YtgoN2Qkn8iMNWEUB/PJwPVHW46RrF+dAgHCo3NpZ8RAf/44QPDfW63uXB8cdLa7srnOIFpbE90Ns8dyTAG3PbNRCBIA5j3e0NgT5kyguOGaDZ+rVi+q3wcLfe2virWVCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG4l/FXU0fO3YADuP8V89OMaUneSebjCb/jNvH4NlE/7o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgu2Dvkbkkkn1kLPcC1gFdTjMlzfrmISiCC65uWhrHz38Kp3BheWxvYWTESpcCNsQg7zuEyM/JMgASQBNuL+46eixWr/whYAPu0lIY9dVpu0HEILKGDMF3x7NY76q4e9cZAxIIFPo7OO5cBi1uYxFzSoazAgHCo3NpZ8RANycgG7oGVhOdvE5TFrb8M3flxbocp7jrcPb1c+HJI18XDVcE4+46qceLMh/IHTQX0/vcZAmOw/J+A0ITYknjCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGr0A0sLdIBmxfnm5Za2EiU3KED1KhPXyPH56asuBf6Do3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
