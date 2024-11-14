@@ -2,6 +2,10 @@
 date: 2024-05-29
 title: "List all AWS VPCs or subnets with theirs tags and list them using jquery"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - aws
   - ec2
