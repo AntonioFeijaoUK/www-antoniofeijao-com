@@ -37,7 +37,7 @@ tags:
 
 ### Historical Context
 
-The Library of Alexandria, established in the 3rd century BC in Egypt, was one of the largest and most significant libraries of the ancient world. It housed countless works of literature, science, philosophy, and other fields of knowledge. The library was a symbol of the Hellenistic quest for knowledge and intellectual curiosity.
+The Library of Alexandria, established in <!--more-->the 3rd century BC in Egypt, was one of the largest and most significant libraries of the ancient world. It housed countless works of literature, science, philosophy, and other fields of knowledge. The library was a symbol of the Hellenistic quest for knowledge and intellectual curiosity.
 
 ### Potential Change
 
