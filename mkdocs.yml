@@ -71,8 +71,8 @@ plugins:
       lang: en
   - git-revision-date-localized:
       enabled: true
-      enable_creation_date: iso_datetime
-      type: date
+      enable_creation_date: true
+      type: iso_datetime
       fallback_to_build_date: true
   - tags:
       enabled: true
