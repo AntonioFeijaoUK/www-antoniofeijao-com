@@ -18,7 +18,7 @@ tags:
 ---
 
 Basics web scraping using Python3 with BeautifulSoup4 and then converting to Markdown
-
+<!--more-->
 ## Basic Python BeautifulSoup4 web scraping and then Markdown
 
 
