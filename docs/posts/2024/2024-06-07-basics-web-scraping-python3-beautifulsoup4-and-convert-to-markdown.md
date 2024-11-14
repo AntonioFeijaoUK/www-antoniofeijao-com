@@ -2,6 +2,10 @@
 date: 2024-06-07
 title: "Basics web scraping using Python3 with BeautifulSoup4 and then convert to Markdown"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - linux
   - python
