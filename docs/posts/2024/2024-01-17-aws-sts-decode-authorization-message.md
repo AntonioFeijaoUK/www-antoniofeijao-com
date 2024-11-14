@@ -21,7 +21,7 @@ tags:
 Decoding the `aws sts decode-authorization-message`
 
 I included `jq` and `tr` commands to "clean up"  and make the decoded message easier to read.
-
+<!--more-->
 Note:
 - One of the command is `jq`, from `jquery`, which usually doesn't come installed by default in some OS, keep that in mind in case you might need to install it.
 - You need to have the sts permission to run the decode message - `sts:DecodeAuthorizationMessage`
