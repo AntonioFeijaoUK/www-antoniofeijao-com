@@ -2,6 +2,10 @@
 date: 2024-02-18
 title: "lime-linux-ubuntu-step-by-step"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - linux
   - forensics
