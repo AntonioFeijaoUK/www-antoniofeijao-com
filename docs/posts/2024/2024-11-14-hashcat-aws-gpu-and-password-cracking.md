@@ -5,7 +5,7 @@ last_modified_at: 2024-11-14
 title: "Hashcat in AWS GPUs NVIDIA and password cracking, including performance benchmarks"
 
 #layout: splash
-#excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 #permalink: /plugins/
 
 categories:
@@ -37,7 +37,7 @@ Cracking Passwords with Hashcat - Performance Benchmarks and Security Implicatio
 Its versatility across various platforms, including local machines and cloud instances, highlights how quickly seemingly complex passwords can be broken.
 
 This post delves into the practical applications of Hashcat, explores password security risks, and presents benchmark comparisons between Apple's M1 chip and AWS GPU instances.
-
+<!--more-->
 ---
 
 ## What is Hashcat?
