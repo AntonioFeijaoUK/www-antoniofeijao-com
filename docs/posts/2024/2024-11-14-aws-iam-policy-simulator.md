@@ -5,7 +5,7 @@ last_modified_at: 2024-11-14
 title: "AWS IAM Policy Simulator"
 
 #layout: splash
-#excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 #permalink: /plugins/
 
 categories:
