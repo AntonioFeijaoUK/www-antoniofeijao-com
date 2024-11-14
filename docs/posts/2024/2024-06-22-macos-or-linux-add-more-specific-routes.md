@@ -2,6 +2,10 @@
 date: 2024-06-07
 title: "MacOS CLI Linux, add a more specific network route"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - macos
   - linux
