@@ -28,7 +28,7 @@ Below, content by [ChatGPT-4o](https://openai.com/index/chatgpt/) and tweaked by
 
 - **Be Clear:** Clearly state what you need help with.
 - **Be Specific:** Include all relevant details to avoid ambiguity.
-
+<!--more-->
 **Example:**
 
 - Less effective: "Tell me about history."
