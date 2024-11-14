@@ -22,7 +22,7 @@ tags:
 Example AWS cli command with listing using [.jq(https://jqlang.github.io/jq/)].
 
 This commands list all AWS VPCs within the account with their `VpcId`, `CidrBlock` and their `Tags`.
-
+<!--more-->
 ```bash
 
 aws ec2 describe-vpcs | jq -r '.Vpcs[] | "\(.VpcId) \t \(.CidrBlock) \t \(.Tags[])" '
