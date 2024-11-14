@@ -2,6 +2,10 @@
 date: 2024-07-31
 title: "CrowdStrike - Leading Cybersecurity through Major Incidents"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - crowdstrike
   - cybersecurity
