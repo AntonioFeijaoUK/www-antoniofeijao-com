@@ -76,9 +76,9 @@ plugins:
       fallback_to_build_date: true
   - tags:
       enabled: true
-  - sitemap:
-      changefreq: daily
-      priority: 0.5
+  # - sitemap:
+  #     changefreq: daily
+  #     priority: 0.5
   - mkdocs-seo-plugin:
       site_name: "Antonio Feijao UK"
       description: "Cyber Security Architect Blog"
