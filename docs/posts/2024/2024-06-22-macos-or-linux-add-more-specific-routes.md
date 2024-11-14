@@ -18,7 +18,7 @@ tags:
 MacOS CLI Linux, add a more specific network route.
 
 Bellow is just an example.
-
+<!--more-->
 Replace with your IP and specific interface.
 
 ```bash
