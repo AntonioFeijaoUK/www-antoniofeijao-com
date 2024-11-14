@@ -32,7 +32,7 @@ sources and learning material:
 ## LiME step by step
 
 My adaptation for manually testing [LiME](https://github.com/504ensicsLabs/LiME/) in a step-by-step method.
-
+<!--more-->
 **USE AT YOUR RISK**
 
 ```bash
