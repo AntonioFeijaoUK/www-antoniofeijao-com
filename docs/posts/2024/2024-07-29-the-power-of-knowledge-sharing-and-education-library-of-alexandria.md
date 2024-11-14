@@ -2,6 +2,10 @@
 date: 2024-07-29
 title: "The Power of Knowledge Sharing and Education Library of Alexandria"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - chatgpt
   - knowledge
