@@ -57,6 +57,8 @@ extra:
 # Plugins
 plugins:
   - privacy
+  - mkdocstrings
+  - search
   - social:
       enabled: true
   - blog:
