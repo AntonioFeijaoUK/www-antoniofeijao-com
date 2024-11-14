@@ -28,6 +28,7 @@ jobs:
       #- run: pip install mkdocs-material 
       - run: pip install "mkdocs-material[imaging]"
       - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install mkdocs-seo-plugin sitemap
+      - run: pip install mkdocs-pagetree-plugin
+      #- run: pip install 
       - run: mkdocs gh-deploy --force
       
