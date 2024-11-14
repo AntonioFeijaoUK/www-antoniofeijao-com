@@ -2,6 +2,10 @@
 date: 2024-07-20
 title: "Best Practices for Creating Effective ChatGPT Prompts"
 
+#layout: splash
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
 categories:
   - chatgpt
   - prompts
