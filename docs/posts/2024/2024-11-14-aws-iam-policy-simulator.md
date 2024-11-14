@@ -1,6 +1,6 @@
 ---
-date: 2024-01-17
-last_modified_at: 2024-01-17
+date: 2024-11-14
+last_modified_at: 2024-11-14
 
 title: "AWS IAM Policy Simulator"
 
