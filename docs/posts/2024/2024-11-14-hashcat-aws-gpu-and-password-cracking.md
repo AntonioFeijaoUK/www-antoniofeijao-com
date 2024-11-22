@@ -37,7 +37,8 @@ Cracking Passwords with Hashcat - Performance Benchmarks and Security Implicatio
 Its versatility across various platforms, including local machines and cloud instances, highlights how quickly seemingly complex passwords can be broken.
 
 This post delves into the practical applications of Hashcat, explores password security risks, and presents benchmark comparisons between Apple's M1 chip and AWS GPU instances.
-<!--more-->
+<!-- more -->
+
 ---
 
 ## What is Hashcat?
