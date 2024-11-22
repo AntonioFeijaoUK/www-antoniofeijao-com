@@ -29,7 +29,7 @@ The company’s emphasis on automation and scalability makes it a go-to solution
 
 ## The Importance of Learning and Practice in Cloudflare’s Ecosystem
 
-Understanding the capabilities of Cloudflare is essential for leveraging its potential.  
+Understanding the capabilities of Cloudflare is essential for <!-- more -->leveraging its potential.  
 
 - **Continuous Learning**
     - Cloudflare regularly evolves its offerings, introducing new features and optimisations.
