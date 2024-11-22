@@ -5,7 +5,7 @@ last_modified_at: 2024-11-14
 title: "AWS IAM Policy Simulator"
 
 #layout: splash
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 #permalink: /plugins/
 
 categories:
@@ -28,7 +28,8 @@ Brief overview of the AWS Policy Simulator
 An underutilised yet powerful tool that helps verify the impact of IAM policies before deployment.
 
 Highlight the importance of policy validation to ensure the principle of least privilege, especially in environments with strict compliance requirements.
-<!--more-->
+<!-- more -->
+
 ---
 
 ## Key Use Cases
