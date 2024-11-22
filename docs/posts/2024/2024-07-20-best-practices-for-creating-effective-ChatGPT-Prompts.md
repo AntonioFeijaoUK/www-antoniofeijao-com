@@ -3,7 +3,7 @@ date: 2024-07-20
 title: "Best Practices for Creating Effective ChatGPT Prompts"
 
 #layout: splash
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 #permalink: /plugins/
 
 categories:
@@ -32,7 +32,7 @@ Below, content by [ChatGPT-4o](https://openai.com/index/chatgpt/) and tweaked by
 
 - **Be Clear:** Clearly state what you need help with.
 - **Be Specific:** Include all relevant details to avoid ambiguity.
-<!--more-->
+<!-- more -->
 **Example:**
 
 - Less effective: "Tell me about history."
