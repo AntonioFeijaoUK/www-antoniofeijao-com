@@ -3,7 +3,7 @@ date: 2024-07-31
 title: "CrowdStrike - Leading Cybersecurity through Major Incidents"
 
 #layout: splash
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 #permalink: /plugins/
 
 categories:
@@ -39,7 +39,7 @@ CrowdStrike is a leading cybersecurity company specializing in endpoint protecti
 
 ### Major Events and Contributions
 
-- **2023: Healthcare Sector Ransomware Attacks** - <!--more-->Assisted multiple healthcare organisations in responding to targeted ransomware attacks, ensuring patient data security and operational continuity.
+- **2023: Healthcare Sector Ransomware Attacks** - <!-- more -->Assisted multiple healthcare organisations in responding to targeted ransomware attacks, ensuring patient data security and operational continuity.
   
 - **2023: MOVEit Transfer Vulnerability Exploitation** - Played a crucial role in identifying and mitigating the exploitation of a zero-day vulnerability, aiding organisations in avoiding data breaches and operational disruptions.
   
