@@ -17,13 +17,14 @@ tags:
   - summary
 ---
 
-## play with ai api
+## play with OpenAI API
 
 Generatting a daily Cyber Security news summary from various sources.
 
 ---
 
-## news summaries 
+## 2025-02-10 - cyber news summary
+
 The most commonly mentioned topics in these articles include cybersecurity threats and malicious activities, endpoint detection and response and host-based intrusion detection tools, government demands for backdoor access to data, and new cybersecurity practices and tools.
 
 In particular, the XE Group has shifted from credit card skimming to exploiting zero-days, evidenced by a recent attack involved a VeraCore zero-day to deploy reverse shells and web shells ([source](https://securityaffairs.com/174045/cyber-crime/xe-group-exploiting-zero-days.html)).
