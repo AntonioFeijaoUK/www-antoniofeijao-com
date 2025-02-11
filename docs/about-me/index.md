@@ -1,3 +1,3 @@
 ## About Me
 
-{{ pagetree(all) }}
+{{ pagetree(children) }}
