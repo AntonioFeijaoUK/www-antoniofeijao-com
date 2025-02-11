@@ -1,3 +1,3 @@
 ## About Me
 
-{{ pagetree(siblings) }}
+{{ pagetree(siblings root="about-me") }}
