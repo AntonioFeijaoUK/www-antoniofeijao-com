@@ -43,6 +43,33 @@ jobs:
             title="${filename%.md}"
             echo "- [${title}](${filename})" >> "$INDEX_FILE"
           done
+      - name: Generate Pages Index
+        run: |
+          NEWS_DIR=docs/pages
+          INDEX_FILE=${NEWS_DIR}/index.md
+          echo "# News" > "$INDEX_FILE"
+          echo "" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
+      - name: Generate About-Me Index
+        run: |
+          NEWS_DIR=docs/about-me
+          INDEX_FILE=${NEWS_DIR}/index.md
+          echo "# News" > "$INDEX_FILE"
+          echo "" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
       #- run: pip install mkdocstrings
       - run: mkdocs gh-deploy --force
-      
