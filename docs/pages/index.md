@@ -1,3 +1,3 @@
 ## Pages
 
-{{ pagetree(root="pages") }}
+{% pagetree root="news" %}
