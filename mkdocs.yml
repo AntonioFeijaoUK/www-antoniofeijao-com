@@ -81,7 +81,9 @@ plugins:
       fallback_to_build_date: true
   - tags:
       enabled: true
-  - pagetree  # Plugin to auto-generate the page tree.
+  - pagetree: # Plugin to auto-generate the page tree.
+      enabled: true
+      #root: news
   # - sitemap:
   #     changefreq: daily
   #     priority: 0.5
