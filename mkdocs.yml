@@ -83,7 +83,7 @@ plugins:
       enabled: true
   - pagetree: # Plugin to auto-generate the page tree.
       enabled: true
-      #root: news
+      root: news
   # - sitemap:
   #     changefreq: daily
   #     priority: 0.5
