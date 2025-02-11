@@ -31,21 +31,42 @@ jobs:
           INDEX_FILE=${NEWS_DIR}/index.md
           echo "# News" > "$INDEX_FILE"
           echo "" >> "$INDEX_FILE"
-          echo "{{ pagetree(root='news') }}" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
       - name: Generate Pages Index
         run: |
-          DIR=docs/pages
-          INDEX_FILE=${DIR}/index.md
+          NEWS_DIR=docs/pages
+          INDEX_FILE=${NEWS_DIR}/index.md
           echo "# Pages" > "$INDEX_FILE"
           echo "" >> "$INDEX_FILE"
-          echo "{{ pagetree(root='pages') }}" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
       - name: Generate About-Me Index
         run: |
-          DIR=docs/about-me
-          INDEX_FILE=${DIR}/index.md
+          NEWS_DIR=docs/about-me
+          INDEX_FILE=${NEWS_DIR}/index.md
           echo "# About-Me" > "$INDEX_FILE"
           echo "" >> "$INDEX_FILE"
-          echo "{{ pagetree(root='about-me') }}" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
       #- run: pip install mkdocstrings
       #- run: pip install mkdocs-material 
       - run: pip install "mkdocs-material[imaging]"
