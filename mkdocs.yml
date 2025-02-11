@@ -128,7 +128,7 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
-  - News: !glob news/*.md  # Automatically include all Markdown files in the 'news' folder.
+  - News: news/index.md  # The index file will list all news articles.
   - Blog: blog/index.md
   - Contact: contact.md
   - About: about.md
