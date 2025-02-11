@@ -1,0 +1,3 @@
+## Pages
+
+{{ pagetree(root="pages") }}
