@@ -61,7 +61,7 @@ extra:
 plugins:
   - privacy  # Plugin for privacy compliance.
   # - mkdocstrings  # Uncomment if documentation string extraction is required.
-  - glob  # Plugin to enable glob patterns in the navigation.
+  #- glob  # Plugin to enable glob patterns in the navigation.
   - social:
       enabled: true  # Enable social plugin.
   - blog:
