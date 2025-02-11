@@ -1,3 +1,3 @@
 ## Pages
 
-{{ pagetree(children) }}
+{{ pagetree(subtree) }}
