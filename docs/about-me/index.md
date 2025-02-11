@@ -1,3 +1,3 @@
 ## About Me
 
-{{ pagetree(root="about-me") }}
+{% pagetree root="news" %}
