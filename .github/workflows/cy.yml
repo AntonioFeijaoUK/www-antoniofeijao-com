@@ -25,10 +25,6 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      #- run: pip install mkdocs-material 
-      - run: pip install "mkdocs-material[imaging]"
-      - run: pip install mkdocs-git-revision-date-localized-plugin
-      - run: pip install mkdocs-pagetree-plugin
       - name: Generate News Index
         run: |
           NEWS_DIR=docs/news
@@ -47,7 +43,7 @@ jobs:
         run: |
           NEWS_DIR=docs/pages
           INDEX_FILE=${NEWS_DIR}/index.md
-          echo "# News" > "$INDEX_FILE"
+          echo "# Pages" > "$INDEX_FILE"
           echo "" >> "$INDEX_FILE"
           for file in "$NEWS_DIR"/*.md; do
             if [ "$(basename "$file")" = "index.md" ]; then
@@ -61,7 +57,7 @@ jobs:
         run: |
           NEWS_DIR=docs/about-me
           INDEX_FILE=${NEWS_DIR}/index.md
-          echo "# News" > "$INDEX_FILE"
+          echo "# About-Me" > "$INDEX_FILE"
           echo "" >> "$INDEX_FILE"
           for file in "$NEWS_DIR"/*.md; do
             if [ "$(basename "$file")" = "index.md" ]; then
@@ -72,4 +68,8 @@ jobs:
             echo "- [${title}](${filename})" >> "$INDEX_FILE"
           done
       #- run: pip install mkdocstrings
+      #- run: pip install mkdocs-material 
+      - run: pip install "mkdocs-material[imaging]"
+      - run: pip install mkdocs-git-revision-date-localized-plugin
+      - run: pip install mkdocs-pagetree-plugin
       - run: mkdocs gh-deploy --force
