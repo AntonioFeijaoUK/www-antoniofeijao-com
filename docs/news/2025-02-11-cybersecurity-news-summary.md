@@ -17,7 +17,7 @@ tags:
   - summary
 ---
 
-## Key Stories
+## Key Stories - 2025-02-11 - Cybersecurity News Summary
 
 1. [**Apple fixes iPhone and iPad bug exploited in ‘extremely sophisticated attacks’**](https://securityaffairs.com/174066/hacking/apple-fixes-iphone-and-ipad-bug-exploited-in-extremely-sophisticated-attacks.html):
 Apple has released iOS and iPadOS updates to address a critical zero-day vulnerability (CVE-2025-24200), which has been exploited in sophisticated targeted attacks. The vulnerability could allow an attacker to disable USB Restricted Mode on a locked device.
