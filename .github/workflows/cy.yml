@@ -29,7 +29,20 @@ jobs:
       - run: pip install "mkdocs-material[imaging]"
       - run: pip install mkdocs-git-revision-date-localized-plugin
       - run: pip install mkdocs-pagetree-plugin
-      - run: pip install mkdocs-glob
+      - name: Generate News Index
+        run: |
+          NEWS_DIR=docs/news
+          INDEX_FILE=${NEWS_DIR}/index.md
+          echo "# News" > "$INDEX_FILE"
+          echo "" >> "$INDEX_FILE"
+          for file in "$NEWS_DIR"/*.md; do
+            if [ "$(basename "$file")" = "index.md" ]; then
+              continue
+            fi
+            filename=$(basename "$file")
+            title="${filename%.md}"
+            echo "- [${title}](${filename})" >> "$INDEX_FILE"
+          done
       #- run: pip install mkdocstrings
       - run: mkdocs gh-deploy --force
       
