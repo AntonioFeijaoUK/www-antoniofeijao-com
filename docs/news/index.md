@@ -1,3 +1,3 @@
-## Cyber Security news daily summaries
+## Cyber Security News Daily Summaries
 
 {{ pagetree(root="news") }}
