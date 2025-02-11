@@ -1,3 +1,3 @@
 ## About Me
 
-{% pagetree root="news" %}
+{{ pagetree(all) }}
