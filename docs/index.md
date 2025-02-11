@@ -9,13 +9,15 @@ title: "Home"
   #- footer
 ---
 
-## Antonio Feijao UK
+## Hi there!
 
-Hi! I believe in openly sharing educational knowledge, and here, I offer my insights and tips here for free. **Please use them at your own discretion.** While doing so, I am also **learning by doing!**
+I believe in openly sharing educational knowledge, and here, I offer my insights and tips here for free. While doing so, I am also **learning by doing!**
 
-If you find my content helpful, I would greatly appreciate your support by buying me a coffee ☕️ – it keeps the ideas flowing!😊
+**Feel free to use the information on my website AT YOUR OWN RISK!**
 
-**Buy-me a coffee**: <a href='https://ko-fi.com/B0B019526' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
+If you find my content helpful, I would greatly appreciate your support, you could buy me a coffee ☕️ – it keeps the ideas flowing!😊
+
+<a href='https://ko-fi.com/B0B019526' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee' /></a>
 
 ---
 
