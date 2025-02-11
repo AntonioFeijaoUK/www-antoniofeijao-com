@@ -25,13 +25,13 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - name: Generate News Index
-        run: |
-          NEWS_DIR=docs/news
-          INDEX_FILE=${NEWS_DIR}/index.md
-          echo "# News" > "$INDEX_FILE"
-          echo "" >> "$INDEX_FILE"
-          echo "{{ pagetree(root='news') }}" >> "$INDEX_FILE"
+      # - name: Generate News Index
+      #   run: |
+      #     NEWS_DIR=docs/news
+      #     INDEX_FILE=${NEWS_DIR}/index.md
+      #     echo "# News" > "$INDEX_FILE"
+      #     echo "" >> "$INDEX_FILE"
+      #     echo "{{ pagetree(root='news') }}" >> "$INDEX_FILE"
       # - name: Generate News Index
       #   run: |
       #     NEWS_DIR=docs/news
