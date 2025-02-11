@@ -127,8 +127,8 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: index.md
-  - News: news/index.md  # The index file will list all news articles.
-  - Blog: blog/index.md
-  - Contact: contact.md
-  - About: about.md
+  - Home:  index.md
+  - News:  news/index.md  # The index file will list all news articles.
+  - Pages: pages/index.md
+  #- Contact: contact.md
+  - About: about-me/index.md
