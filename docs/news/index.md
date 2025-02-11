@@ -1,0 +1,1 @@
+{{ pagetree(root="news") }}
