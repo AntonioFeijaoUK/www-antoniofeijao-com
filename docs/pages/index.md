@@ -1,3 +1,3 @@
 ## Pages
 
-{{ pagetree(siblings root="/pages/") }}
+{{ pagetree(children, root="pages") }}
