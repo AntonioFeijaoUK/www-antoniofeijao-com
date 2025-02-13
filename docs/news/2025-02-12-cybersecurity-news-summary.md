@@ -13,7 +13,7 @@ categories:
   - cybernews
 tags:
   - cybernewssummary2025
-  - cybernewssummary2025-02-11
+  - cybernewssummary2025-02-12
   - summary
 ---
 
