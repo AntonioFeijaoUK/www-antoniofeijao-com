@@ -1,7 +1,9 @@
 ---
-category: about-me
-
----
+categories:
+  - about-me
+tags:
+  - about-me
+------
 
 Senior level expertises skills in AWS services, cyber-security, security architect, AWS advanced networking, infrastructure, security and cryptography.
 
