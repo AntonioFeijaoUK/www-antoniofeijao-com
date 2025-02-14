@@ -1,3 +1,5 @@
 # Cyber Security News Daily Summaries
 
-{{ pagetree }}
+{% for post in blog.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}
