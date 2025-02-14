@@ -1,9 +1,11 @@
 ---
 title: "Sample background"
 categories:
+  - pages
   - background
   - images
 tags:
+  - pages
   - background
   - images
 ---
