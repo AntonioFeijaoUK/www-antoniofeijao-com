@@ -1,15 +1,14 @@
 # Cyber Security News Daily Summaries
 
-## section 1
+## section 0
 
-{% for post in blog.posts if 'news' in post.categories %}
+{% for post in blog.posts if 'cybernews' in post.categories %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
+---
 
-----
-
-## section 2
+## section 1
 {% for post in blog.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
