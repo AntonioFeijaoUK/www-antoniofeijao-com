@@ -1,3 +1,3 @@
 ## News
 
-Daily summary of top cyber news (TBD!)
+Daily summary of top cyber news
