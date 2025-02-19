@@ -2,6 +2,7 @@
 
 ---
 
+```python
 ### section 1
 
 {% for year in ['2025', '2024'] %}
@@ -27,6 +28,7 @@
 
 {{ cybernews_articles(blog.pages) }}
 
+```
 ---
 
 ### section 4
