@@ -74,6 +74,8 @@ plugins:
   - search:
       enabled: true
       lang: en
+  - macros:
+      enabled: true
   - git-revision-date-localized:
       enabled: true
       enable_creation_date: true
