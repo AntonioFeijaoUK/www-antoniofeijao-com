@@ -59,8 +59,12 @@ def debug_globals():
    import pprint
    return "<pre>" + pprint.pformat(globals()) + "</pre>"
 
-```
+
 
 @env.macro
 def debug_context(context):
    return "<pre>" + "\n".join(sorted(context.keys())) + "</pre>"
+
+
+```
+
