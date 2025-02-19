@@ -1,6 +1,8 @@
 # Cybernews Articles
 
+```
 {{ cybernews_articles(blog.posts) }}
+```
 
 ---
 
