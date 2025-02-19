@@ -9,12 +9,3 @@ Iterate over keys (if supported):
 - **{{ key }}:** {{ value }}
 {% endfor %}
 
-Convert to a dictionary:
-
-{{ config.to_dict() | tojson }}
-
-
-Inspect available methods:
-You can print a list of available attributes to guide further debugging:
-
-Available keys: {{ config.__dir__() | tojson }}
