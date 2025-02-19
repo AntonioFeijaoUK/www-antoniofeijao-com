@@ -28,7 +28,7 @@
 
 {{ cybernews_articles(blog.pages) }}
 
-```
+
 ---
 
 ### section 4
@@ -59,7 +59,7 @@ def debug_globals():
    import pprint
    return "<pre>" + pprint.pformat(globals()) + "</pre>"
 
-
+```
 
 @env.macro
 def debug_context(context):
