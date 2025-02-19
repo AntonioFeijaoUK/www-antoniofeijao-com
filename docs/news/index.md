@@ -13,6 +13,6 @@
 * {{ navigation.pages }} returns a flattened list of all pages
 * {{ plugin.module }} name of the Python module
 
-{{ cybernews_articles(pages) }}
+{{ cybernews_articles(blog.pages) }}
 
 
