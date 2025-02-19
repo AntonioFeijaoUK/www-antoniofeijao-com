@@ -130,9 +130,9 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Navigation
-#nav:
-#  - Home:  index.md
-#  - News:  news/index.md  # The index file will now render a dynamic tree of news articles.
-#  - Pages: pages/index.md
-  #- Contact: contact.md
-#  - About: about-me/index.md
+nav:
+  - Home:  index.md
+  - News:  news/index.md  # The index file will now render a dynamic tree of news articles.
+  - Pages: pages/index.md
+  - Contact: contact.md
+  - About: about-me/index.md
