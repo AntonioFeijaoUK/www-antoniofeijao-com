@@ -4,7 +4,6 @@ def define_env(env):
         filtered = []
         for post in posts:
             cats = post.meta.get('categories', [])
-            #if any(cat.lower() == 'cybernews' for cat in cats):
-            if any(cat.lower() == 'aws' for cat in cats):
+            if any(cat.lower() == 'cybernews' for cat in cats):
                 filtered.append(f"- [{post.title}]({post.url})")
         return "\n".join(filtered)
