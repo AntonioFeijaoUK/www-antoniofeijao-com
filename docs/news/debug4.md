@@ -1,11 +1,11 @@
 ## 1
 
-{{ config | tojson }}
+{{ config }}
 
 ## 2
 
-{{ page | tojson }}
+{{ page }}
 
 ## 3
 
-{{ globals() | tojson }}
+{{ globals() }}
