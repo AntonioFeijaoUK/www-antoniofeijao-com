@@ -3,6 +3,7 @@ date: 2025-02-11
 last_modified_at: 2025-02-11
 
 title: "AI generated - 2025-02-11 - Cybersecurity News Summary"
+blog: true
 
 #layout: splash
 excerpt_separator: <!--more-->
