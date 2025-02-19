@@ -1,3 +1,8 @@
+---
+title: Cybernews
+blog: true
+---
+
 # Cybernews Articles
 
 ```
