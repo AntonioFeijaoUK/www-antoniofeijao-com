@@ -1,8 +1,6 @@
 ---
-title: Cybernews Articles
+title: News
 blog: true
 ---
-
-# Cybernews Articles
 
 {{ list_cybernews(blog.posts) }}
