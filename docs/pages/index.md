@@ -3,12 +3,6 @@ title: News
 blog: true
 ---
 
-{{ list_cybernews(blog.posts) }}
-
----
-
-## for post in blog-posts
-
-{% for post in blog.posts %}
-- {{ post.title }}: {{ post.config.categories }}
+{% for page in pages %}
+  - {{ page.title }}: {{ page.meta }}
 {% endfor %}
