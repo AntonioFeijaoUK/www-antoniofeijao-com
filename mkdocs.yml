@@ -82,8 +82,8 @@ plugins:
   - search:
       enabled: true
       lang: en
-  - macros:
-      enabled: true
+  #- macros:
+  #    enabled: true
   - git-revision-date-localized:
       enabled: true
       enable_creation_date: true
@@ -91,8 +91,8 @@ plugins:
       fallback_to_build_date: true
   - tags:
       enabled: true
-  - pagetree: # Plugin to auto-generate the page tree.
-      enabled: true
+  #- pagetree: # Plugin to auto-generate the page tree.
+  #    enabled: true
       #root: news
   # - sitemap:
   #     changefreq: daily
