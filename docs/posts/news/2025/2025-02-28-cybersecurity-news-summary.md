@@ -1,5 +1,9 @@
 ---
-date: 2025-02-28
+date:
+  created: 2025-02-28 # <- must be set when using this syntax
+  updated: 2025-02-28
+  verified: 2025-02-28
+
 last_modified_at: 2025-02-28
 
 title: "AI generated - 2025-02-28 - Cybersecurity News Summary"
