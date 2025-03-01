@@ -26,7 +26,7 @@ If you find my content helpful, I would greatly appreciate your support, you cou
 
 ## video-playbackRate-speed-change
 
-These single lines JavaScript increase, or change, the video playbackRate speed.
+One liner JavaScript to increase, or decrease, the video playbackRate speed. Change the value in the playbackRate to your preference.
 
 ```js
 document.querySelector('video').playbackRate = 2.0;
