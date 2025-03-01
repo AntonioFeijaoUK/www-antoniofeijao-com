@@ -19,6 +19,15 @@ tags:
   - cybernewssummary2025
   - cybernewssummary2025-02-28
   - summary
+  - Prospero
+  - Kaspersky Lab
+  - U.S. Army soldier
+  - risk
+  - treason
+  - zero-day vulnerability
+  - Cellebrit
+  - abuse
+
 ---
 
 # AI generated - 2025-02-28 v2 - CyberSecurity News Summary
