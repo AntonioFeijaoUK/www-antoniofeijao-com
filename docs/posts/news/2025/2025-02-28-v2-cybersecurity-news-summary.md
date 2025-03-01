@@ -59,14 +59,7 @@ tags:
 
 ## Highlighted Keywords
 
-- **Prospero**
-- **Kaspersky Lab**
-- **U.S. Army soldier**
-- **risk**
-- **treason**
-- **zero-day vulnerability**
-- **Cellebrite**
-- **abuse**
+**Prospero**, **Kaspersky Lab**, **U.S. Army soldier**, **risk**, **treason**, **zero-day vulnerability**, **Cellebrite**, **abuse**
 
 ---
 
