@@ -22,6 +22,7 @@ tags:
 ## Top Stories
 
 - **Android's New Feature Blocks Fraudsters from Sideloading Apps During Calls**
+<!-- more -->
   - **Insight:** Google is enhancing Android's security by introducing a feature that prevents changes to sensitive settings, such as installing apps from unknown sources or granting accessibility access, while a phone call is in progress. This measure aims to thwart fraud attempts during voice calls.
   - **Action:** Organizations and individuals should stay updated with this feature's rollout to understand the enhanced security measures and adopt them once available.
   - **Source:** [The Hacker News](https://thehackernews.com/2025/02/androids-new-feature-blocks-fraudsters.html)
