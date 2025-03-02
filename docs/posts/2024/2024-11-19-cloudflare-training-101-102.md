@@ -21,7 +21,7 @@ tags:
 
 Cloudflare has emerged as a critical player in enhancing the performance, reliability, and security of the internet.
 
-Its suite of tools, including web application firewalls (WAFs), content delivery networks (CDNs), DDoS mitigation, and Zero Trust services, addresses the diverse needs of businesses in a digitally transforming world.
+Its suite of tools, including web application firewalls (WAFs), content delivery networks (CDNs), DDoS mitigation, and Zero Trust services, addresses the diverse needs of businesses in a digitally transforming world. <!-- more -->
 
 The company’s emphasis on automation and scalability makes it a go-to solution for both small enterprises and global corporations.
 
@@ -29,7 +29,7 @@ The company’s emphasis on automation and scalability makes it a go-to solution
 
 ## The Importance of Learning and Practice in Cloudflare’s Ecosystem
 
-Understanding the capabilities of Cloudflare is essential for <!-- more -->leveraging its potential.  
+Understanding the capabilities of Cloudflare is essential for leveraging its potential.  
 
 - **Continuous Learning**
     - Cloudflare regularly evolves its offerings, introducing new features and optimisations.
