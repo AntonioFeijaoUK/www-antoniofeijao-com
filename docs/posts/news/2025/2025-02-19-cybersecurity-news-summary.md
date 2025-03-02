@@ -21,7 +21,7 @@ tags:
 ## AI generated - 2025-02-19 - Cybersecurity News Summary
 
 * **Story 1**: Chinese Cybercrime Groups Inhale Fresh Life into Carding Industry - Cybercriminals transform card data, obtained via phishing, into mobile wallets for online and physical store use [[source]](https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/).
-
+<!-- more -->
 * **Story 2**: Snake Keylogger Malware Evolves, Now uses AutoIt Scripting for Evasion - Windows users in China, Turkey, Indonesia, Taiwan, and Spain are especially targeted.
 
 Over 280 million infection attempts have been blocked worldwide since the start of the year [[source]](https://thehackernews.com/2025/02/new-snake-keylogger-variant-leverages.html).
