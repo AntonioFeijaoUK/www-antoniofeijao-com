@@ -19,7 +19,7 @@ tags:
 ---
 
 Cracking Passwords with Hashcat - Performance Benchmarks and Security Implications
-
+<!-- more -->
 !!! Important
     DISCLAIMER - this is for educational porpuses only!
     You are responsable for your own actions.
