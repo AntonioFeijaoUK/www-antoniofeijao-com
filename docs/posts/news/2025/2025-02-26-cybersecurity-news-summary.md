@@ -24,7 +24,7 @@ tags:
 1. [Hackers Exploit Krpano Framework Flaw: Over 350 Websites Affected](https://thehackernews.com/2025/02/hackers-exploited-krpano-framework-flaw.html)
    - Hackers have successfully exploited a **cross-site scripting (XSS) vulnerability** in a virtual tour framework, according to security researcher Oleg Zaytsev.
    - The attack has affected over 350 websites, aiming to manipulate search results, and fuel a large-scale spam ad campaign.
-
+<!-- more -->
 3. [Black Basta Ransomware Group: Chat Logs Leaked](https://thehackernews.com/2025/02/leaked-black-basta-chat-logs-reveal.html)
    - A year's worth of internal chat logs from the ransomware gang *Black Basta* have been leaked online, providing unprecedented insight into their **tactics** and internal **conflicts**.
 
