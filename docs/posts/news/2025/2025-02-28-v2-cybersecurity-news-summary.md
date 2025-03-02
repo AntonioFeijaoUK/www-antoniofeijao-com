@@ -35,6 +35,7 @@ tags:
 ## Top Stories
 
 - **Prospero**, a notorious provider of "bulletproof" web hosting for cybercriminals, starts routing operations through networks run by Russian antivirus and security firm **Kaspersky Lab**.
+<!-- more -->
   - This move puts Kaspersky Lab in a controversial position and potentially increases risks for its users.
   - [https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/](https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/)
 
