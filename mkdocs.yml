@@ -78,7 +78,9 @@ plugins:
       post_date_format: full
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 3
+      post_excerpt: optional
       excerpt_separator: <!-- more -->
+      post_excerpt_separator: <!-- more -->
   - search:
       enabled: true
       lang: en
