@@ -26,6 +26,7 @@ tags:
 ## Top Three Stories:
 
 - **U.S. Soldier Charged in AT&T Hack Searched “Can Hacking Be Treason”**
+<!-- more -->
   - A U.S. Army soldier was charged after pleading guilty to the leaking of phone records of high-ranking U.S. officials.
   - The government wants to keep him in custody until his discharge from the army.
   - The case brings up questions about **cyber treason.**
