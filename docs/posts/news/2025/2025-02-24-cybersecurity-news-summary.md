@@ -22,7 +22,7 @@ tags:
 ## Top Stories
 
 **Federal Cybersecurity and Consumer Protection Efforts in Turmoil** - Trump 2.0 administration's moves to downsize government have significantly impacted federal cybersecurity and consumer protection programs.
-
+<!-- more -->
 Agency networks face a **risk** from the world's wealthiest individual's attempts for control.
 
 [https://krebsonsecurity.com/2025/02/trump-2-0-brings-cuts-to-cyber-consumer-protections/](https://krebsonsecurity.com/2025/02/trump-2-0-brings-cuts-to-cyber-consumer-protections/)
