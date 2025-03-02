@@ -22,6 +22,7 @@ tags:
 
 1. [**Apple fixes iPhone and iPad bug exploited in ‘extremely sophisticated attacks’**](https://securityaffairs.com/174066/hacking/apple-fixes-iphone-and-ipad-bug-exploited-in-extremely-sophisticated-attacks.html):
 Apple has released iOS and iPadOS updates to address a critical zero-day vulnerability (CVE-2025-24200), which has been exploited in sophisticated targeted attacks. The vulnerability could allow an attacker to disable USB Restricted Mode on a locked device.
+<!-- more -->
 
 2. [**Operation Phobos Aetor: Police dismantled 8Base ransomware gang**](https://securityaffairs.com/174078/cyber-crime/police-dismantled-8base-ransomware-gang.html):
 Authorities conducted an international operation, codenamed Operation Phobos Aetor, leading to the dismantling of the 8Base ransomware gang. The dark web data leak and negotiation sites used by the gang were taken offline.
