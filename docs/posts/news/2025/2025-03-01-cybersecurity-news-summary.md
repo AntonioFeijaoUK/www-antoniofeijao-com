@@ -39,7 +39,7 @@ tags:
 **Mozilla revises Firefox's data license language due to backlash**
 
   - In response to criticism over broad language in its Terms of Use, Mozilla issued a second update within a week specifying that Mozilla only requires rights necessary to operate Firefox.
-  - Users are advised to remain knowledgeable about these changes and understand the implications it might have on their data privacy.
+  - Users are advised to remain knowledgeable about these changes and understand the <!--more-->implications it might have on their data privacy.
   - [https://thehackernews.com/2025/03/mozilla-updates-firefox-terms-again.html](https://thehackernews.com/2025/03/mozilla-updates-firefox-terms-again.html)
 
 **Android phone exploited with Cellebrite's zero-day**
