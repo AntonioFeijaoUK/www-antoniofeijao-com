@@ -31,7 +31,7 @@ tags:
 ## Top Stories
 
 **Prospero, the notorious malware spam host shifts operations to Kaspersky Lab**
-  
+<!-- more -->
   - Known provider of malware-friendly web hosting for cybercriminals, Prospero, has moved its operations through networks overseen by Russian antivirus and security firm, Kaspersky Lab.
   - It's crucial to stay vigilant as Kaspersky could potentially be leveraged as a conduit for cyber-attacks carried out by Prospero.
   - [https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/](https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/)
