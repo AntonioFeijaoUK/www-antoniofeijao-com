@@ -5,7 +5,7 @@ last_modified_at: 2025-03-02
 title: "AI generated - 2025-03-02 - Cybersecurity News Summary"
 
 #layout: splash
-excerpt_separator: <!--more-->
+#excerpt_separator: <!--more-->
 #permalink: /plugins/
 
 categories:
