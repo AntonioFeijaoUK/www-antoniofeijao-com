@@ -2,7 +2,7 @@
 date: 2025-03-02
 last_modified_at: 2025-03-02
 
-title: "AI generated - 2025-03-02 - Cybersecurity News Summary"
+title: "AI generated - 2025-03-02 (v1) - Cybersecurity News Summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -24,7 +24,7 @@ tags:
   - MITRE ATT&CK
 ---
 
-# AI generated - 2025-03-02 - Cybersecurity News Summary
+# AI generated - 2025-03-02 (v1) - Cybersecurity News Summary
 
 **Top Stories**
 
