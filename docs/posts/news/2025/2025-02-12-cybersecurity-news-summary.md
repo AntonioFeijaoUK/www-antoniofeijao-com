@@ -20,7 +20,7 @@ tags:
 # AI generated - 2025-02-12 - Cybersecurity News Summary
 
 ## 1. **North Korea-linked APT Emerald Sleet New Tactic** - [source](https://securityaffairs.com/174142/apt/emerald-sleet-is-using-a-new-tactic.html)
-
+<!-- more -->
 Microsoft Threat Intelligence reported **North Korea-linked APT Emerald Sleet** using **new tactics**, fooling targets into running PowerShell as an administrator and executing harmful code.
 
 ## 2. **U.S. CISA Updates Known Exploited Vulnerabilities Catalog** - [source](https://securityaffairs.com/174135/security/u-s-cisa-adds-microsoft-windows-zyxel-device-flaws-known-exploited-vulnerabilities-catalog.html)
