@@ -5,7 +5,7 @@ last_modified_at: 2025-03-02
 title: "AI generated - 2025-03-02 - Cybersecurity News Summary"
 
 #layout: splash
-#excerpt_separator: <!--more-->
+excerpt_separator: <!--more-->
 #permalink: /plugins/
 
 categories:
@@ -29,6 +29,7 @@ tags:
 **Top Stories**
 
 - **Mozilla updates Firefox terms after data privacy backlash**
+<!-- more -->
   - Mozilla's recent update to its Firefox terms of use has sparked concern over unnecessary data access it seemed to grant to the company.
   - The MITRE ATT&CK technique T1200 (Exploit Public-Facing Application) may be relevant if users' data is not appropriately protected.
   - Users are advised to read terms of use and privacy statements of software to ensure data security.
@@ -38,7 +39,7 @@ tags:
 - **Operational halt on US' cyber defensive measures against Russia**
   - Recent commands issued by the US Department of Defense have called for a cessation to all cyber operations against Russia.
   - This raises concerns about potential exploits using techniques like T1562 (Impair Defenses), further increasing the already significant geopolitical cybersecurity tensions.
-  - Cyber experts are advised to maintain vigilance, especially organizations with interests "<!--more-->"tied to the relative regions' threat landscapes.
+  - Cyber experts are advised to maintain vigilance, especially organizations with interests tied to the relative regions' threat landscapes.
   - source
     - [https://www.reddit.com/r/cybersecurity/comments/1j1xs54/trumps_defense_secretary_hegseth_orders_cyber/](https://www.reddit.com/r/cybersecurity/comments/1j1xs54/trumps_defense_secretary_hegseth_orders_cyber/)
     - [https://intelnews.org/2025/03/01/01-3388/](https://intelnews.org/2025/03/01/01-3388/)
