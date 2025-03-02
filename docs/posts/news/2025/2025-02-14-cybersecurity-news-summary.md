@@ -22,7 +22,7 @@ tags:
 ## Top Stories 
 
 **PostgreSQL flaw combined with BeyondTrust zero-day exploited in targeted attacks**: Cybersecurity firm Rapid7 discovered a severe SQL injection vulnerability (CVE-2025-1094) in PostgreSQL's psql tool.
-
+<!-- more -->
 * This flaw has been exploited in combination with another zero-day vulnerability from BeyondTrust, which was already patched in December.
 
 * [https://securityaffairs.com/174218/hacking/postgresql-flaw-chained-with-beyondtrust-zeroday.html](https://securityaffairs.com/174218/hacking/postgresql-flaw-chained-with-beyondtrust-zeroday.html)
