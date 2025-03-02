@@ -20,7 +20,7 @@ tags:
 # AI generated - 2025-02-13 - Cybersecurity News Summary
 
 ## 1. Russia-linked APT Seashell Blizzard behind the global access operation BadPilot campaign
-
+<!-- more -->
 Microsoft has exposed an aggressive cyber-espionage campaign run by **Seashell Blizzard**, a subgroup of a Russia-linked Advanced Persistent Threat (APT).
 
 Termed **BadPilot**, the operation uses infrastructure compromises to support various Russian cyber operations.
