@@ -3,9 +3,9 @@ title: "Home"
 # search:
 #   exclude: true
 
-#hide:
+hide:
   #- navigation
-  #- toc
+  - toc
   #- footer
 ---
 
