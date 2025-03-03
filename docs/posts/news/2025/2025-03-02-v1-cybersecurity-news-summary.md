@@ -29,8 +29,8 @@ tags:
 **Top Stories**
 
 - **Mozilla updates Firefox terms after data privacy backlash**
-<!-- more -->
-  - Mozilla's recent update to its Firefox terms of use has sparked concern over unnecessary data access it seemed to grant to the company.
+
+  - Mozilla's recent update to its Firefox terms of use has sparked concern over unnecessary data access it seemed <!-- more -->to grant to the company.
   - The MITRE ATT&CK technique T1200 (Exploit Public-Facing Application) may be relevant if users' data is not appropriately protected.
   - Users are advised to read terms of use and privacy statements of software to ensure data security.
   - source
