@@ -5,7 +5,7 @@ last_modified_at: 2025-03-03
 title: "2025-03-03 - Daily Cybersecurity News Summary"
 
 #layout: splash
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 #permalink: /plugins/
 
 categories:
