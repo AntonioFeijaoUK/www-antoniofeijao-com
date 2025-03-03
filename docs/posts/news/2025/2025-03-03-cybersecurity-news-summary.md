@@ -29,9 +29,9 @@ tags:
 ## Top Stories
 
 ### **Vo1d Botnet Infects Over 1.59M Android TVs Across 226 Countries**
-"<!-- more -->"
+
 - **Brief Summary:**
-  - An advanced variant of Vo1d botnet has infected Android TV devices in Brazil, South Africa, Indonesia, Argentina, and Thailand.
+  - An advanced variant of Vo1d botnet has infected Android TV devices in <!-- more -->Brazil, South Africa, Indonesia, Argentina, and Thailand.
   - By February 25, the botnet hit a peak with 1,590,299 infections across 226 countries.
 
 - **MITRE ATT&CK Mapping:**
