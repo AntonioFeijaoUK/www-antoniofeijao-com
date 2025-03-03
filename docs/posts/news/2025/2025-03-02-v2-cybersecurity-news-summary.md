@@ -34,9 +34,9 @@ tags:
 **Top Stories**
 
 - **Mozilla Updates Firefox Terms:**
-<!-- more -->
+
   - **Summary:**
-    - After widespread criticism regarding overbroad language in its Terms of Use, Mozilla has updated them for the second time within a week to clarify the rights they have to users' uploaded data.
+    - After widespread criticism regarding overbroad language in its Terms of Use, Mozilla has updated <!-- more -->them for the second time within a week to clarify the rights they have to users' uploaded data.
 
   - **MITRE ATT&CK Mapping:**
     - `TA0027` - [Information Gathering](https://attack.mitre.org/tactics/TA0010/)
