@@ -88,11 +88,11 @@ tags:
 
 ## **Tags**
 
-- #CyberAttack
-- #Ransomware
-- #IoTSecurity
-- #RemoteCodeExecution
-- #DDoS
+- CyberAttack
+- Ransomware
+- IoTSecurity
+- RemoteCodeExecution
+- DDoS
 
 ---
 
