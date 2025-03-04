@@ -2,7 +2,7 @@
 date: 2025-03-01
 last_modified_at: 2025-03-01
 
-title: "AI generated - 2025-03-01 - Cybersecurity News Summary"
+title: "2025-03-01-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -26,7 +26,7 @@ tags:
   - TheHackerNews
 ---
 
-# AI generated - 2025-03-01 - Cybersecurity News Summary
+# 2025-03-01-cybersecurity-news-summary
 
 ## Top Stories
 
