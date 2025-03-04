@@ -2,7 +2,7 @@
 date: 2025-03-02
 last_modified_at: 2025-03-02
 
-title: "AI generated - 2025-03-02 (v2) - Cybersecurity News Summary"
+title: "2025-03-02-v2-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -29,7 +29,7 @@ tags:
 
 ---
 
-# AI generated - 2025-03-02 (v2) - Cybersecurity News Summary
+# 2025-03-02-v2-cybersecurity-news-summary
 
 **Top Stories**
 
