@@ -2,7 +2,7 @@
 date: 2025-03-03
 last_modified_at: 2025-03-03
 
-title: "2025-03-03 - Daily Cybersecurity News Summary"
+title: "2025-03-03-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!-- more -->
@@ -24,7 +24,7 @@ tags:
 
 ---
 
-# 2025-03-03 - Daily Cybersecurity News Summary
+# 2025-03-03-cybersecurity-news-summary
 
 ## Top Stories
 
