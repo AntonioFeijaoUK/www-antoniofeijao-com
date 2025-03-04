@@ -2,7 +2,7 @@
 date: 2025-02-12
 last_modified_at: 2025-02-12
 
-title: "AI generated - 2025-02-12 - Cybersecurity News Summary"
+title: "2025-02-12-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -17,7 +17,7 @@ tags:
   - summary
 ---
 
-# AI generated - 2025-02-12 - Cybersecurity News Summary
+# 2025-02-12-cybersecurity-news-summary
 
 ## 1. **North Korea-linked APT Emerald Sleet New Tactic** - [source](https://securityaffairs.com/174142/apt/emerald-sleet-is-using-a-new-tactic.html)
 <!-- more -->
