@@ -6,7 +6,7 @@ date:
 
 last_modified_at: 2025-02-28
 
-title: "AI generated - 2025-02-28 - Cybersecurity News Summary"
+title: "2025-02-28-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -21,7 +21,7 @@ tags:
   - summary
 ---
 
-# AI generated - 2025-02-28 - Cybersecurity News Summary
+# 2025-02-28-cybersecurity-news-summary
 
 ## Top Three Stories:
 
