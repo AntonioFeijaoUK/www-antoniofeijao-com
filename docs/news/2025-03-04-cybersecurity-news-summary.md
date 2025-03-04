@@ -2,15 +2,15 @@
 date: 2025-03-04
 last_modified_at: 2025-03-04
 
-title: "AI generated - 2025-03-04 - Cybersecurity News Summary"
+title: "2025-03-04-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
 #permalink: /plugins/
 
 categories:
-  - ai-generated
   - cybernews
+  - ai-generated
 tags:
   - cybernewssummary2025
   - cybernewssummary2025-03-04
@@ -22,7 +22,7 @@ tags:
   - DDoS
 ---
 
-# AI generated - 2025-03-04 - Cybersecurity News Summary
+# 2025-03-04-cybersecurity-news-summary
 
 ## **Top Stories**  
 
