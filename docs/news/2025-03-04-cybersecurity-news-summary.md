@@ -15,6 +15,11 @@ tags:
   - cybernewssummary2025
   - cybernewssummary2025-03-04
   - summary
+  - CyberAttack
+  - Ransomware
+  - IoTSecurity
+  - RemoteCodeExecution
+  - DDoS
 ---
 
 # AI generated - 2025-03-04 - Cybersecurity News Summary
