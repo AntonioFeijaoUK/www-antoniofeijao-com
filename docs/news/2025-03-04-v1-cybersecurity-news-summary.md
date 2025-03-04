@@ -2,7 +2,7 @@
 date: 2025-03-04
 last_modified_at: 2025-03-04
 
-title: "2025-03-04-cybersecurity-news-summary"
+title: "2025-03-04-v1-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -22,7 +22,7 @@ tags:
   - DDoS
 ---
 
-# 2025-03-04-cybersecurity-news-summary
+# 2025-03-04-v1-cybersecurity-news-summary
 
 ## **Top Stories**  
 
