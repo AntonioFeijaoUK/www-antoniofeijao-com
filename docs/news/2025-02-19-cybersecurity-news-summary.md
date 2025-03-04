@@ -2,7 +2,7 @@
 date: 2025-02-19
 last_modified_at: 2025-02-19
 
-title: "AI generated - 2025-02-19 - Cybersecurity News Summary"
+title: "2025-02-19-cybersecurity-news-summary"
 blog: true
 
 #layout: splash
@@ -18,7 +18,7 @@ tags:
   - summary
 ---
 
-## AI generated - 2025-02-19 - Cybersecurity News Summary
+# 2025-02-19-cybersecurity-news-summary
 
 * **Story 1**: Chinese Cybercrime Groups Inhale Fresh Life into Carding Industry - Cybercriminals transform card data, obtained via phishing, into mobile wallets for online and physical store use [[source]](https://krebsonsecurity.com/2025/02/how-phished-data-turns-into-apple-google-wallets/).
 <!-- more -->
