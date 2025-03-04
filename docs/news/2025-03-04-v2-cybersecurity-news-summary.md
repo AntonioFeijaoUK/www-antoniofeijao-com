@@ -86,10 +86,10 @@ tags:
 
 ## **Tags**
 
-  - APT  
-  - ZeroDay  
-  - CloudSecurity  
-  - Ransomware  
+- APT  
+- ZeroDay  
+- CloudSecurity  
+- Ransomware  
 
 ## **Articles**  
 
