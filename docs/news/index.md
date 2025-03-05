@@ -1,20 +1,13 @@
 ---
-title: News
-blog: true
+title: news
 ---
 
-{% for page in pages %}
-  - {{ page.title }}: {{ page.meta }}
-{% endfor %}
+A daily script that summarises the top cyber news across various sources.
 
-
-Here is a list of sources that the script collects from.
-//''* https://www.nccoe.nist.gov/publication/1800-26/_images/image1.png\\
-
-## current source of articles that are reviewed and summarised
+Below, sources that the script uses.
 
 * <https://0dayfans.com/>
-* <ttps://blog.netizen.watch/>
+* <https://blog.netizen.watch/>
 * <https://blogs.juniper.net/threat-research/>
 * <https://feeds.arstechnica.com/arstechnica/>
 * <https://feeds.feedburner.com/TheHackersNews>
@@ -36,3 +29,13 @@ Here is a list of sources that the script collects from.
 * <https://www.troyhunt.com/>
 * <https://www.welivesecurity.com/>
 * <https://www.wired.com/feed/category/security/latest/>
+
+---
+
+Let me know if you know how to display the news here in reverse order (newest to oldest) :)
+
+```js
+{% for page in pages %}
+  - {{ page.title }}: {{ page.meta }}
+{% endfor %}
+```
