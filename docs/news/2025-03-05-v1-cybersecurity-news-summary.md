@@ -2,7 +2,7 @@
 date: 2025-03-05
 last_modified_at: 2025-03-05
 
-title: "2025-03-05-cybersecurity-news-summary"
+title: "2025-03-05-v1-cybersecurity-news-summary"
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -17,7 +17,7 @@ tags:
   - summary
 ---
 
-# 2025-03-05-cybersecurity-news-summary
+# 2025-03-05-v1-cybersecurity-news-summary
 
 ## **Top Stories**
 
