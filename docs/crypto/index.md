@@ -1,4 +1,6 @@
-# cypto learning by doing
+# cypto
+
+>> learning by doing
 
 ---
 
