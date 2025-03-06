@@ -2,21 +2,18 @@
 title: news
 ---
 
-A daily script that summarises the top cyber news across various sources.
-
-Below, sources that the script uses.
+A daily script that summarises the top cyber news across sources below:
 
 * <https://0dayfans.com/>
 * <https://blog.netizen.watch/>
 * <https://blogs.juniper.net/threat-research/>
-* <https://feeds.arstechnica.com/arstechnica/>
-* <https://feeds.feedburner.com/TheHackersNews>
+* <https://arstechnica.com/security/>
+* <https://thehackernews.com/>
 * <https://isc.sans.edu/>
 * <https://krebsonsecurity.com/>
-* <https://lwn.net/headlines/>
+* <https://lwn.net/Security/>
 * <https://news.sophos.com/en-us/category/security-operations/>
-* <https://securelist.com/>
-* <https://techcrunch.com/>
+* <https://techcrunch.com/category/security/>
 * <https://threatpost.com/>
 * <https://unit42.paloaltonetworks.com/>
 * <https://www.bleepingcomputer.com/>
@@ -28,7 +25,7 @@ Below, sources that the script uses.
 * <https://www.theguardian.com/uk/technology/>
 * <https://www.troyhunt.com/>
 * <https://www.welivesecurity.com/>
-* <https://www.wired.com/feed/category/security/latest/>
+* <https://www.wired.com/category/security/>
 
 ---
 
