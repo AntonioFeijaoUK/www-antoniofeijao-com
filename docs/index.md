@@ -4,8 +4,8 @@ title: "Home"
 #   exclude: true
 
 hide:
-  - navigation
-  - toc
+  #- navigation
+  #- toc
   #- footer
 ---
 
