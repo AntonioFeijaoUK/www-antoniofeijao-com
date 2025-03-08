@@ -1,8 +1,8 @@
 ---
 title: crypto
 
-hide:
-  - navigation
+#hide:
+ #- navigation
   #- toc
   #- footer
 ---
