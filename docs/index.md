@@ -1,12 +1,29 @@
 ---
-title: "Home"
+date: 2020-01-01
+last_modified_at: 2025-03-08
+
+title: "home"
+
 # search:
 #   exclude: true
 
-hide:
+#hide:
   #- navigation
   #- toc
   #- footer
+
+layout: page
+
+excerpt_separator: <!--more-->
+#permalink: /plugins/
+
+categories:
+  - cloudflare
+  - training
+tags:
+  - cloudflare
+  - training
+  - waf
 ---
 
 ## Hi there!
