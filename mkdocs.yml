@@ -30,6 +30,8 @@ theme:
   highlightjs: true
   hljs_languages:
     - yaml
+    - python
+    - bash
   shortcuts:
     help: 72      # h
     next: 78      # n
