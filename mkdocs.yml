@@ -21,7 +21,7 @@ theme:
     - navigation.tracking
     - content.code.annotate
     - navigation.tabs
-    - navigation.sections
+    #- navigation.sections
     - navigation.expand
     - navigation.indexes
     - navigation.top
