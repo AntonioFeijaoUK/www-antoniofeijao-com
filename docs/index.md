@@ -7,9 +7,9 @@ title: "home"
 # search:
 #   exclude: true
 
-#hide:
+hide:
   #- navigation
-  #- toc
+  - toc
   #- footer
 
 layout: page
