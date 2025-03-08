@@ -1,6 +1,11 @@
 ---
 title: news
 
+hide:
+  #- navigation
+  - toc
+  #- footer
+
 ---
 
 A daily script that summarises the top cyber news across sources below:
