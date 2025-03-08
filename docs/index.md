@@ -12,7 +12,7 @@ hide:
   - toc
   #- footer
 
-layout: page
+#layout: page
 
 excerpt_separator: <!--more-->
 #permalink: /plugins/
