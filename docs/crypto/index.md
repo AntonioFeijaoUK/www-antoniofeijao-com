@@ -1,13 +1,13 @@
 ---
-title: learning crypto
+title: crypto
 
 hide:
-  #- navigation
-  - toc
+  - navigation
+  #- toc
   #- footer
 ---
 
-# cypto
+# crypto
 
 > learning by doing
 
