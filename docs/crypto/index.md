@@ -3,7 +3,7 @@ title: learning crypto
 
 hide:
   #- navigation
-  #- toc
+  - toc
   #- footer
 ---
 
