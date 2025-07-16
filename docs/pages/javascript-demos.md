@@ -1,6 +1,6 @@
 ---
-title: "Javascript demo for Doms"
-slug: doms
+title: "javascript demos for cyber awareness"
+slug: javascript-demos
 categories:
     - javascript
     - demos
@@ -9,7 +9,7 @@ tags:
     - demos
 ---
 
-# Javascript page demo for Doms
+# javascript demos for cyber awareness
 
 ---
 
