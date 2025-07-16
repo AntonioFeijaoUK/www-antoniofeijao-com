@@ -8,7 +8,7 @@ tags:
   - training
 ---
 
-Webpage with links to study material and other websites
+Webpage with links to study material and other websites. Links study cyber security linux networking.
 
 Remember to `learn by doing` - <https://www.iberdrola.com/talent/learning-by-doing>
 
