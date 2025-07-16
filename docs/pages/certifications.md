@@ -1,5 +1,5 @@
 ---
-title: "Certifications. Antonio Feijao UK. AWS, linux, networking  and cyber security certifications."
+title: "Certifications Antonio Feijao UK. AWS, linux, networking  and cyber security certifications."
 slug: certifications
 categories:
   - certifications
