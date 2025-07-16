@@ -1,5 +1,5 @@
 ---
-title: "background - sample"
+title: "background-sample"
 categories:
   - pages
   - background
