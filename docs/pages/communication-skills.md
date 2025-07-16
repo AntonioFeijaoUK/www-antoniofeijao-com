@@ -12,9 +12,11 @@ tags:
 
 Mastery of dialogue underpins every successful negotiation, team decision, and client engagement.
 
-The following ten principles form a compact operating code for high‑stakes conversation: they cultivate trust, surface hidden interests, and accelerate mutually valuable outcomes.
+The following ten principles form a compact operating code for high‑stakes conversation: **they cultivate trust**, **surface hidden interests**, and **accelerate mutually valuable outcomes**.
 
 Adopt them consciously and you convert speaking time from mere exchange of words into strategic leverage.
+
+![communications-skills](../assets/images/communications-skills-image-v2025-07-16-v-header.jp2)
 
 
 ## Summary take‑aways
