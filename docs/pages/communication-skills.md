@@ -1,19 +1,56 @@
 ---
-title: "10 ways to have a better conversation. Communication skills"
+title: "10 ways to have a better conversation. Communication skills."
 slug: communication
 categories:
-  - communication
+  - communication-skills
 tags:
   - communication
   - soft-skills
 ---
+
+## intro
+
+Mastery of dialogue underpins every successful negotiation, team decision, and client engagement.
+
+The following ten principles form a compact operating code for high‑stakes conversation: they cultivate trust, surface hidden interests, and accelerate mutually valuable outcomes.
+
+Adopt them consciously and you convert speaking time from mere exchange of words into strategic leverage.
+
+
+## Summary take‑aways
+
+**Presence** – undivided attention curbs misinterpretation and signals respect.
+
+**Humility** – avoid dogma; frame views as hypotheses, not verdicts.
+
+**Curiosity** – open questions unlock drivers, constraints, and creative options.
+
+**Conciseness** – say it once, stay on the main issues, keep momentum.
+
+**Perspective** – recognise that your experience is unique, not universal.
+
+**Flexibility** – follow conversational currents, adapt offers in real time.
+
+**Integrity** – declare knowledge gaps promptly and commit to verification.
+
+**Active listening** – reflect, paraphrase, and detect underlying concerns early.
+
+**Empathy** – brevity and respect for time demonstrate regard for others’ goals.
+
+**Strategic focus** – reserve energy for decisions that materially affect value.
+
+**Applied together**, these guidelines transform dialogue from transactional to transformational, turning every interaction into an opportunity for insight and durable agreement.
+
+---
+
+## ted video by Celeste Headlee
 
 10 ways to have a better conversation. Communication skills.
 
 source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation>
 
   * 10 ways to have a better conversation
-  * Celeste Headlee |
+  * Celeste Headlee
   * TEDxCreativeCoast
   * May 2015
 
