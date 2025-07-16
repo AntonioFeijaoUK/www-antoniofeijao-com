@@ -1,11 +1,13 @@
 ---
-title: "Antonio Feijao AWS Linux and Cyber Security certifications"
+title: "Certifications. Antonio Feijao UK. AWS, linux, networking  and cyber security certifications."
 slug: certifications
 categories:
   - certifications
 tags:
   - certifications
 ---
+
+Antonio Feijao UK - AWS, linux, networking  and cyber security certifications.
 
 Antonio Feijao UK certification, achieved, active and expired.
 
