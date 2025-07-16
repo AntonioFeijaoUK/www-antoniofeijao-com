@@ -1,5 +1,5 @@
 ---
-title: "High-Impact Curriculum for a Computer Science Degree, Machine Learning, Cybersecurity, IoT, Quantum and much more"
+title: "degree - High-Impact Curriculum for a Computer Science Degree, Machine Learning, Cybersecurity, IoT, Quantum and much more"
 slug: computer-science-degree-and-more
 categories:
   - computer-science-degree-and-more
