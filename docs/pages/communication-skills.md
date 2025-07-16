@@ -1,6 +1,6 @@
 ---
-title: "10 ways to have a better conversation. Communication skills."
-slug: communication
+title: "Communication skills. 10 ways to have a better conversation."
+#slug: communication
 categories:
   - communication-skills
 tags:
