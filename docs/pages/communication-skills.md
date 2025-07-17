@@ -58,7 +58,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Do not multitask
+## 1 - Do not multitask
 
 **Core principle** – give undivided attention
 
@@ -73,7 +73,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Do not pontificate
+## 2 - Do not pontificate
 
 **Core principle** – avoid preaching or certitude
 
@@ -88,7 +88,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Ask open‑ended questions
+## 3 - Ask open‑ended questions
 
 **Core principle** – explore with “what, how, why” - even better if you use "Tell me..", "Can you describe...", "How do you fell..."
 
@@ -103,7 +103,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Do not repeat yourself
+## 4 - Do not repeat yourself
 
 **Core principle** – trust that a point made once is heard
 
@@ -118,7 +118,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Stay out of the weeds
+## 5 - Stay out of the weeds
 
 **Core principle** – focus on high‑value issues
 
@@ -133,7 +133,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Do not equate your experience with theirs
+## 6 - Do not equate your experience with theirs
 
 **Core principle** – avoid “I know exactly how you feel”
 
@@ -148,7 +148,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Go with the flow
+## 7 - Go with the flow
 
 **Core principle** – follow conversational currents
 
@@ -163,7 +163,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## If you do not know, say so
+## 8 - If you do not know, say so
 
 **Core principle** – admit uncertainty promptly
 
@@ -178,7 +178,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Listen
+## 9 - Listen
 
 **Core principle** – practise active, reflective listening
 
@@ -193,7 +193,7 @@ source <https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conve
 
 ---
 
-## Be brief
+## 10 - Be brief
 
 **Core principle** – pursue clarity and economy
 
