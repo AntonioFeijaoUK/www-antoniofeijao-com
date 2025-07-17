@@ -16,7 +16,7 @@ The following ten principles form a compact operating code for high‑stakes con
 
 Adopt them consciously and you convert speaking time from mere exchange of words into strategic leverage.
 
-![communications-skills](/assets/images/communications-skills-image-v2025-07-16-v-header.jp2)
+![communications-skills](/assets/images/communications-skills-image-v2025-07-16-v-header.jpg)
 
 
 ## Summary take‑aways
