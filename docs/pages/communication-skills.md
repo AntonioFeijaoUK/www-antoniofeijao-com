@@ -1,6 +1,15 @@
 ---
 title: "Communication skills. 10 ways to have a better conversation."
 #slug: communication
+
+toc: false
+toc_sticky: true
+toc_label: "Communication skills"
+toc_icon: "address-card"
+
+tagline: "Communication skills. 10 ways to have a better conversation."
+
+
 categories:
   - communication-skills
 tags:
