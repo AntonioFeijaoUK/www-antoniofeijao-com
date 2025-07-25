@@ -21,12 +21,12 @@ tags:
 Cracking Passwords with Hashcat - Performance Benchmarks and Security Implications
 <!-- more -->
 !!! Important
-    DISCLAIMER - this is for educational porpuses only!
-    You are responsable for your own actions.
+    DISCLAIMER - this is for educational proposes only!
+    You are responsible for your own actions.
 
 !!! Alert
     GPUs instances can be expensive!
-    Make sure you know and you can affort the cost of the instances you are selecting
+    Make sure you know and you can afford the cost of the instances you are selecting
 
 ---
 
@@ -47,9 +47,9 @@ This post delves into the practical applications of Hashcat, explores password s
 
 - **Supported Hashes**: Works with multiple hash algorithms (e.g., MD5, SHA-1, bcrypt).
 
-- **Common Use Cases**: 
+- **Common Use Cases**:
   - Security assessments and penetration testing.
-  - Auditing password strength in organisational environments.
+  - Auditing password strength in organisation environments.
   - Educating users on the risks of weak passwords.
 
 ---
@@ -60,7 +60,7 @@ Hashcat supports multiple attack modes, making it highly flexible:
 
 - **Brute-Force Attack** (`-a3`): Attempts every possible combination of characters.
 
-- **Dictionary Attack** (`-a0`): Uses a precompiled list of potential passwords (wordlists).
+- **Dictionary Attack** (`-a0`): Uses a precompiled list of potential passwords (wordlist).
 
 - **Hybrid Attack** (`-a6` or `-a7`): Combines dictionary and brute-force techniques.
 
@@ -88,13 +88,13 @@ In this section, I demonstrate how to use `Hashcat` to crack `MD5` hashes using 
 hashcat -m0 hashes-file.txt -a3 -1'?l?d!$' '?1?1?1?1?1?1?1?1' --increment --increment-min 1
 ```
 
-* `-m0` - Specifies MD5 hash mode.
+- `-m0` - Specifies MD5 hash mode.
 
-* `-a3` - Uses a brute-force mask attack.
+- `-a3` - Uses a brute-force mask attack.
 
-* `-1 '?l?d!$'` - Defines a custom character set (lowercase letters, digits, and special characters `!` and `$`).
+- `-1 '?l?d!$'` - Defines a custom character set (lowercase letters, digits, and special characters `!` and `$`).
 
-* `'?1?1?1?1?1?1?1?1'` - Tests all combinations up to 8 characters.
+- `'?1?1?1?1?1?1?1?1'` - Tests all combinations up to 8 characters.
 
 ---
 
@@ -111,23 +111,23 @@ Speed: ~1414.1 MH/s
 ## Time to crack: Less than 4 minutes for all combinations of 8 characters, including special characters.
 ```
 
-### AWS Instances:
+### AWS Instances
 
-* Without CUDA drivers
+- Without CUDA drivers
 
 ```bash
 Speed.#1.........:   173.7 MH/s (5.13ms) @ Accel:1024 Loops:128 Thr:1 Vec:8
 ```
 
-* After installing CUDA drivers:
+- After installing CUDA drivers:
 
 ```bash
 sudo apt install -y cuda-drivers
 ```
 
-* GPU Performance (NVIDIA enabled):
+- GPU Performance (NVIDIA enabled):
 
-```
+```txt
 Initial speed: ~7812.4 MH/s
 
 Optimised speed: ~22261.4 MH/s
@@ -178,7 +178,7 @@ Avoid using dictionary words or common phrases.
 Implement multi-factor authentication (MFA) to reduce risks.
 
 Best of the best - **use a trusted password manager with integrated PassKey**.
- 
+
 Best best best - Password Manager + hardward Passkey
 
 ---
@@ -205,14 +205,13 @@ Advanced attack strategies for red team assessments.
 
 Useful sources that I used
 
-* <https://hashcat.net/hashcat/>
-* <https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html>
-* <https://security.stackexchange.com/questions/201931/hashcat-specify-number-of-characters>
-* <https://github.com/initstring/passphrase-wordlist>
+- <https://hashcat.net/hashcat/>
+- <https://docs.aws.amazon.com/dlami/latest/devguide/gpu.html>
+- <https://security.stackexchange.com/questions/201931/hashcat-specify-number-of-characters>
+- <https://github.com/initstring/passphrase-wordlist>
   
 ---
 
 Happy learning,
 
 [Antonio Feijao UK](https://www.antoniofeijao.com/)
-
