@@ -1,0 +1,57 @@
+# ============================================================
+# MkDocs Material CI/CD – GitHub Pages Deployment
+# ============================================================
+name: Build and Deploy MkDocs Site
+
+on:
+  push:
+    branches:
+      - www-mkdocs-material-v01
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git credentials
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+
+      - name: Cache MkDocs build assets
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ github.run_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install dependencies
+        run: pip install -r mkdocs-requirements.txt
+
+      - name: Build MkDocs site
+        run: mkdocs build --clean
+
+      - name: Disable Jekyll
+        run: touch site/.nojekyll
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
