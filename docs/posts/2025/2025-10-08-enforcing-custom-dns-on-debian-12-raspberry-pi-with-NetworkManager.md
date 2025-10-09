@@ -42,7 +42,7 @@ In this guide, we explore a reliable approach to enforce specific DNS servers ac
 ## Detailed Technical Steps
 
 ### 1. Initial State
-<!--more-->
+<!-- more -->
 The default resolv.conf looked like this:
 
 ```bash
