@@ -1,0 +1,5 @@
+mkdocs-material[imaging]==9.5.16
+mkdocs-git-revision-date-localized-plugin==1.2.5
+mkdocs-blog-plugin==0.25.0
+mkdocs-seo-plugin==0.5.0
+mkdocs-sitemap-plugin==0.1.2
