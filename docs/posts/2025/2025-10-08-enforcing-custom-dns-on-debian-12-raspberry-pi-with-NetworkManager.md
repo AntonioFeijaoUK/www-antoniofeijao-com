@@ -5,7 +5,7 @@ last_modified_at: 2025-10-08
 title: "Enforcing Custom DNS on Debian 12 Raspberry Pi with NetworkManager"
 
 #layout: splash
-excerpt_separator: <!--more-->
+excerpt_separator: <!-- more -->
 #permalink: /plugins/
 
 categories:
