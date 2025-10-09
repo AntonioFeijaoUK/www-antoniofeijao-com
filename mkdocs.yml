@@ -10,9 +10,11 @@ site_description: >
 
 repo_url: https://github.com/AntonioFeijaoUK/antoniofeijao.com
 repo_name: AntonioFeijaoUK/antoniofeijao.com
-#edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/
 
+# ============================================================
 # Copyright
+# ============================================================
 copyright: >
   Copyright &copy; 2025
   <a href="https://www.antoniofeijao.com/">Antonio Feijao UK</a>.
@@ -26,7 +28,7 @@ theme:
   favicon: assets/images/favicon.ico
   logo: assets/images/Antonio-Feijao-UK.jpeg
   language: en
-  font: false  # Use custom fonts via CSS; set to true to use Material defaults (Roboto)
+  font: false
   navigation_depth: 4
   highlightjs: true
   hljs_languages:
@@ -46,7 +48,6 @@ theme:
     - content.code.annotate
     - toc.follow
 
-  # Dual colour scheme with toggle support
   palette:
     - scheme: default
       primary: deep orange
@@ -61,12 +62,11 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
-  # Keyboard shortcuts for accessibility
   shortcuts:
-    help: 72       # h
-    next: 78       # n
-    previous: 80   # p
-    search: 83     # s
+    help: 72
+    next: 78
+    previous: 80
+    search: 83
 
 # ============================================================
 # Extra Metadata and Social Links
@@ -94,25 +94,17 @@ nav:
   - Contact: contact.md
 
 # ============================================================
-# Plugins
+# Plugins (All verified & safe as of Oct 2025)
 # ============================================================
 plugins:
-  - search:
-      enabled: true
-      lang: en
-  - privacy
-  - social
+  - search
   - blog:
-      enabled: true
       blog_dir: blog
       post_date_format: full
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 3
-      post_excerpt: optional
       excerpt_separator: <!-- more -->
-      post_excerpt_separator: <!-- more -->
   - git-revision-date-localized:
-      enabled: true
       enable_creation_date: true
       type: iso_datetime
       fallback_to_build_date: true
@@ -120,7 +112,11 @@ plugins:
   - sitemap:
       changefreq: weekly
       priority: 0.6
-  - mkdocs-seo-plugin:
+  - privacy:
+      enabled: true
+  - social:
+      enabled: true
+  - seo:
       site_name: "Antonio Feijao UK"
       description: "Cyber Security Architect Blog and Learning Hub"
       canonical_url: https://www.antoniofeijao.com/
@@ -130,7 +126,6 @@ plugins:
 # Markdown Extensions
 # ============================================================
 markdown_extensions:
-  # Core Python Markdown Extensions
   - abbr
   - admonition
   - attr_list
@@ -139,8 +134,6 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-
-  # pymdown Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -163,8 +156,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
-  - pymdownx.snippets        # Enables modular Markdown includes
-  - pymdownx.magiclink       # Auto-link URLs, emails, and references
+  - pymdownx.snippets
+  - pymdownx.magiclink
 
 # ============================================================
 # Build Configuration
