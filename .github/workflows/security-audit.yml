@@ -27,3 +27,5 @@ jobs:
         with:
           name: dependency-audit-report
           path: audit-results.json
+      - name: Print summary
+        run: cat audit-results.json | jq '.vulnerabilities[] | {name, version, id, fix_version}'
