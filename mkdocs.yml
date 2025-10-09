@@ -1,0 +1,174 @@
+# ============================================================
+# Project Information
+# ============================================================
+site_name: "Antonio Feijao UK – Cyber Security Architect Learning by Doing"
+site_url: https://www.antoniofeijao.com/
+site_author: "Antonio Feijao UK"
+site_description: >
+  Insights and projects by Antonio Feijao, UK Security Architect at Genomics England.
+  Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3.
+
+repo_url: https://github.com/AntonioFeijaoUK/antoniofeijao.com
+repo_name: AntonioFeijaoUK/antoniofeijao.com
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: >
+  Copyright &copy; 2025
+  <a href="https://www.antoniofeijao.com/">Antonio Feijao UK</a>.
+  All rights reserved.
+
+# ============================================================
+# Theme Configuration
+# ============================================================
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: assets/images/Antonio-Feijao-UK.jpeg
+  language: en
+  font: false  # Use custom fonts via CSS; set to true to use Material defaults (Roboto)
+  navigation_depth: 4
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - bash
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - content.code.annotate
+    - toc.follow
+
+  # Dual colour scheme with toggle support
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # Keyboard shortcuts for accessibility
+  shortcuts:
+    help: 72       # h
+    next: 78       # n
+    previous: 80   # p
+    search: 83     # s
+
+# ============================================================
+# Extra Metadata and Social Links
+# ============================================================
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/house
+      link: https://www.antoniofeijao.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/antoniofeijaouk
+    - icon: fontawesome/brands/github
+      link: https://github.com/AntonioFeijaoUK
+
+# ============================================================
+# Navigation Structure
+# ============================================================
+nav:
+  - Home: index.md
+  - Blog:
+      - posts/*
+  - News: news/index.md
+  - Projects: pages/index.md
+  - About: about-me/index.md
+  - Contact: contact.md
+
+# ============================================================
+# Plugins
+# ============================================================
+plugins:
+  - search:
+      enabled: true
+      lang: en
+  - privacy
+  - social
+  - blog:
+      enabled: true
+      blog_dir: blog
+      post_date_format: full
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 3
+      post_excerpt: optional
+      excerpt_separator: <!-- more -->
+      post_excerpt_separator: <!-- more -->
+  - git-revision-date-localized:
+      enabled: true
+      enable_creation_date: true
+      type: iso_datetime
+      fallback_to_build_date: true
+  - tags
+  - sitemap:
+      changefreq: weekly
+      priority: 0.6
+  - mkdocs-seo-plugin:
+      site_name: "Antonio Feijao UK"
+      description: "Cyber Security Architect Blog and Learning Hub"
+      canonical_url: https://www.antoniofeijao.com/
+      twitter_site: "@AntonioFeijaoUK"
+
+# ============================================================
+# Markdown Extensions
+# ============================================================
+markdown_extensions:
+  # Core Python Markdown Extensions
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # pymdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      preserve_tabs: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.snippets        # Enables modular Markdown includes
+  - pymdownx.magiclink       # Auto-link URLs, emails, and references
+
+# ============================================================
+# Build Configuration
+# ============================================================
+site_dir: site
+use_directory_urls: true
+strict: true
