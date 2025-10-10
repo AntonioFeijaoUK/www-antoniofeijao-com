@@ -139,6 +139,6 @@ markdown_extensions:
 # ============================================================
 # Build Configuration
 # ============================================================
-site_dir: site
-use_directory_urls: true
-strict: true
+#site_dir: site
+#use_directory_urls: true
+#strict: true
