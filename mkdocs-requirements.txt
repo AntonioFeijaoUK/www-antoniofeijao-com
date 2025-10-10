@@ -3,7 +3,7 @@ mkdocs
 mkdocs-blog-plugin
 mkdocs-git-revision-date-localized-plugin
 #mkdocs-sitemap-plugin
-mkdocs-seo-plugin
+#mkdocs-seo-plugin
 mkdocs-privacy-plugin
 mkdocs-social-plugin
 pymdown-extensions
