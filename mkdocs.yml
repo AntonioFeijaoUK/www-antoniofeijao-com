@@ -109,9 +109,9 @@ plugins:
       type: iso_datetime
       fallback_to_build_date: true
   - tags
-  - sitemap:
-      changefreq: weekly
-      priority: 0.6
+  #- sitemap:
+  #    changefreq: weekly
+  #    priority: 0.6
   - privacy:
       enabled: true
   - social:
