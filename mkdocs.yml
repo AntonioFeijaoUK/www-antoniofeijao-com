@@ -54,14 +54,14 @@ theme:
     - toc.integrate
     
   palette:
-    - scheme: slate            # Dark mode first → default
-      primary: deep orange
-      accent: orange
+    - scheme: slate            # Dark mode default
+      primary: black            # Dark header bar
+      accent: deep orange       # Accent highlights
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-    - scheme: default          # Light mode second
-      primary: deep orange
+    - scheme: default           # Light mode
+      primary: deep orange      # Orange header in light mode
       accent: orange
       toggle:
         icon: material/weather-night
