@@ -1,57 +1,32 @@
-# ============================================================
-# MkDocs Material CI/CD – GitHub Pages Deployment
-# ============================================================
-name: Build and Deploy MkDocs Site
+- name: Set up Python
+  uses: actions/setup-python@v5
+  with:
+    python-version: '3.11'
 
-on:
-  push:
-    branches:
-      - www-mkdocs-material-v01
-  workflow_dispatch:
+- name: Cache pip
+  uses: actions/cache@v4
+  with:
+    path: ~/.cache/pip
+    key: ${{ runner.os }}-pip-${{ hashFiles('**/mkdocs-requirements.txt') }}
 
-permissions:
-  contents: write
+- name: Install dependencies
+  run: |
+    python -m pip install --upgrade pip setuptools wheel
+    pip install -r mkdocs-requirements.txt
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+- name: Install pip-audit
+  run: pip install pip-audit
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+- name: Security audit (fail on known vuln)
+  run: pip-audit --strict
 
-      - name: Configure Git credentials
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+- name: Build site (verify)
+  run: mkdocs build --clean
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+- name: Ensure .nojekyll for GitHub Pages
+  run: touch site/.nojekyll
 
-      - name: Cache pip packages
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/mkdocs-requirements.txt') }}
-
-      - name: Cache MkDocs build assets
-        uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ github.run_id }}
-          path: .cache
-          restore-keys: |
-            mkdocs-material-
-
-      - name: Install dependencies
-        run: pip install -r mkdocs-requirements.txt
-
-      - name: Build MkDocs site
-        run: mkdocs build --clean
-
-      - name: Disable Jekyll
-        run: touch site/.nojekyll
-
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+- name: Deploy to GitHub Pages
+  env:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: mkdocs gh-deploy --force
