@@ -10,7 +10,7 @@ site_description: >
 
 repo_url: https://github.com/AntonioFeijaoUK/antoniofeijao.com
 repo_name: AntonioFeijaoUK/antoniofeijao.com
-#edit_uri: edit/main/docs/
+# edit_uri: edit/main/docs/
 
 # ============================================================
 # Copyright
@@ -28,7 +28,7 @@ theme:
   favicon: assets/images/favicon.ico
   logo: assets/images/Antonio-Feijao-UK.jpeg
   language: en
-  font: false
+  font: false               # using custom fonts/CSS; set true to use Material defaults
   navigation_depth: 4
   highlightjs: true
   hljs_languages:
@@ -69,7 +69,7 @@ theme:
     search: 83
 
 # ============================================================
-# Extra Metadata and Social Links
+# Extra Metadata and Social Links (theme-level)
 # ============================================================
 extra:
   generator: false
@@ -82,48 +82,25 @@ extra:
       link: https://github.com/AntonioFeijaoUK
 
 # ============================================================
-# Navigation Structure
+# Navigation Structure (no globs, strict-mode compatible)
 # ============================================================
 nav:
   - Home: index.md
   - Blog:
-      - posts/*
+      - Index: blog/index.md
   - News: news/index.md
   - Projects: pages/index.md
   - About: about-me/index.md
   - Contact: contact.md
 
 # ============================================================
-# Plugins (All verified & safe as of Oct 2025)
+# Plugins (core + minimal)
 # ============================================================
 plugins:
   - search
-  - blog:
-      blog_dir: blog
-      post_date_format: full
-      post_url_format: "{categories}/{slug}"
-      post_url_max_categories: 3
-      excerpt_separator: <!-- more -->
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: iso_datetime
-      fallback_to_build_date: true
-  - tags
-  #- sitemap:
-  #    changefreq: weekly
-  #    priority: 0.6
-  - privacy:
-      enabled: true
-  - social:
-      enabled: true
-  - seo:
-      site_name: "Antonio Feijao UK"
-      description: "Cyber Security Architect Blog and Learning Hub"
-      canonical_url: https://www.antoniofeijao.com/
-      twitter_site: "@AntonioFeijaoUK"
 
 # ============================================================
-# Markdown Extensions
+# Markdown Extensions (unchanged)
 # ============================================================
 markdown_extensions:
   - abbr
