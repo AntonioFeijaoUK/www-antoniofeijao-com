@@ -50,18 +50,18 @@ theme:
 
   palette:
     - scheme: default
-      primary: deep orange
-      accent: orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
       primary: black
       accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-
+    - scheme: light
+      primary: deep orange
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    
   shortcuts:
     help: 72
     next: 78
@@ -97,7 +97,33 @@ extra:
 # Plugins (core + minimal)
 # ============================================================
 plugins:
-  - search
+  - privacy  # Plugin for privacy compliance.
+  # - mkdocstrings  # Uncomment if documentation string extraction is required.
+  #- glob  # Plugin to enable glob patterns in the navigation.
+  - social:
+      enabled: true  # Enable social plugin.
+  - blog:
+      enabled: true
+      blog_dir: .
+      post_date_format: full
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 3
+      post_excerpt: optional
+      excerpt_separator: <!-- more -->
+      post_excerpt_separator: <!-- more -->
+  - search:
+      enabled: true
+      lang: en
+  #- macros:
+  #    enabled: true
+  - git-revision-date-localized:
+      enabled: true
+      enable_creation_date: true
+      type: iso_datetime
+      fallback_to_build_date: true
+  - tags:
+      enabled: true
+  #- pagetree: # Plugin to auto-generate the page tre
 
 # ============================================================
 # Markdown Extensions (unchanged)
