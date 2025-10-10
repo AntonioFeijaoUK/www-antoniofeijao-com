@@ -37,6 +37,8 @@ theme:
     - bash
 
   features:
+    - content.code.copy
+    - content.tabs.link
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
@@ -46,16 +48,19 @@ theme:
     - navigation.indexes
     - navigation.top
     - content.code.annotate
+    - search.highlight
+    - search.share
     - toc.follow
-
+    - toc.integrate
+    
   palette:
-    - scheme: default
-      primary: black
-      accent: deep orange
+    - scheme: slate            # Dark mode first → default
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-    - scheme: light
+    - scheme: default          # Light mode second
       primary: deep orange
       accent: orange
       toggle:
@@ -73,6 +78,8 @@ theme:
 # ============================================================
 extra:
   generator: false
+  extra_css:
+    - styles/extra.css
   social:
     - icon: fontawesome/solid/house
       link: https://www.antoniofeijao.com/
