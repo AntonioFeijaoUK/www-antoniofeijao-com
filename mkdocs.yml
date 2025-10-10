@@ -79,7 +79,7 @@ theme:
 extra:
   generator: false
   extra_css:
-    - styles/extra.css
+    - assets/extra.css
   social:
     - icon: fontawesome/solid/house
       link: https://www.antoniofeijao.com/
