@@ -37,12 +37,14 @@ In this guide, we explore a reliable approach to enforce specific DNS servers ac
 - **Solution:** Use **connection-level DNS configuration in NetworkManager** for persistence.  
 - **Outcome:** DNS is enforced across all interfaces, survives reboots, and benefits from NextDNS privacy and security features.
 
+<!-- more -->
+
 ---
 
 ## Detailed Technical Steps
 
 ### 1. Initial State
-<!-- more -->
+
 The default resolv.conf looked like this:
 
 ```bash
