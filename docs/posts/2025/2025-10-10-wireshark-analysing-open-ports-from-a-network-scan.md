@@ -31,10 +31,10 @@ This guide demonstrates how to filter, interpret, and extract open ports from a 
 
 ## **Understanding the Scan Type**
 
-<!-- more -->
 Different scan techniques produce different network signatures.
 
 The way open ports are confirmed depends on the **transport protocol** and **scan method** used:
+<!-- more -->
 
 | Scan Type | Protocol | Typical Open-Port Response |
 |------------|-----------|----------------------------|
