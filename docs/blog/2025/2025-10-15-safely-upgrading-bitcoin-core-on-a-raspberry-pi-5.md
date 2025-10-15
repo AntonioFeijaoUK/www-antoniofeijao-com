@@ -203,6 +203,8 @@ In essence:
 - [Bitcoin Developer RPC Reference](https://developer.bitcoin.org/reference/rpc/index.html)
 - [RaspiBolt: Bitcoin Client Guide](https://raspibolt.org/guide/bitcoin/bitcoin-client.html)
 
+and to check online for the latest blocks - <https://www.blockchain.com/explorer/blocks/btc?page=1>
+
 ---
 
 Happy learning,
