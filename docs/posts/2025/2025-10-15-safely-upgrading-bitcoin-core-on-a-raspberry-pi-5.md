@@ -26,7 +26,7 @@ This concise guide outlines the **safe, auditable procedure** for upgrading your
 
 ---
 
-## 🧩 Why Upgrading Matters
+## Why Upgrading Matters
 
 Each Bitcoin Core release introduces performance improvements, consensus safety refinements, and peer-to-peer network hardening.  
 Skipping upgrades exposes nodes to known vulnerabilities, deprecated RPCs, or network divergence.  
@@ -36,7 +36,7 @@ The guiding principle: *verify everything, trust nothing implicitly.*
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Before proceeding, ensure:
 - You are running a **64-bit Raspberry Pi OS**.
@@ -50,7 +50,7 @@ Optional but recommended:
 
 ---
 
-## 🔒 Step 1: Gracefully Stop the Node
+## Step 1: Gracefully Stop the Node
 
 Stop the daemon to preserve database consistency:
 
@@ -62,7 +62,7 @@ Wait until the process fully terminates (`pgrep bitcoind` should return nothing)
 
 ---
 
-## 📦 Step 2: Download the Official Release
+## Step 2: Download the Official Release
 
 Retrieve the latest **ARM64** binaries from the official Bitcoin Core website:
 
@@ -77,7 +77,7 @@ Reference:
 
 ---
 
-## 🧾 Step 3: Verify Authenticity and Integrity
+## Step 3: Verify Authenticity and Integrity
 
 Import and refresh the developer signing keys:
 
@@ -102,7 +102,7 @@ References:
 
 ---
 
-## 🧰 Step 4: Extract and Install
+## Step 4: Extract and Install
 
 Extract the verified binaries:
 
@@ -120,7 +120,7 @@ This ensures correct ownership, permissions, and atomic replacement—preferred 
 
 ---
 
-## 🚀 Step 5: Restart and Verify
+## Step 5: Restart and Verify
 
 Start the daemon:
 
@@ -141,7 +141,7 @@ Bitcoin Core version v30.0
 
 ---
 
-## 🧠 Step 6: Validate Node Health
+## Step 6: Validate Node Health
 
 Use the following RPC checks to confirm stability and synchronisation:
 
@@ -178,7 +178,7 @@ Make it executable with `chmod +x`.
 
 ---
 
-## 🛡️ Security Notes
+## Security Notes
 
 - Never install from unofficial mirrors or Snap packages unless you verify maintainers’ trust chains.
 - Always validate signatures—never trust checksums alone.
@@ -187,7 +187,7 @@ Make it executable with `chmod +x`.
 
 ---
 
-## 🧭 Conclusion
+## Conclusion
 
 A Bitcoin node’s integrity rests on disciplined operational hygiene.  
 By verifying signatures, ensuring correct permissions, and performing cryptographically sound upgrades, you contribute to the network’s resilience while maintaining personal sovereignty over your infrastructure.
