@@ -1,0 +1,33 @@
+{
+    "events": [
+        {
+            "title": "First Use of Blockchain",
+            "description": "Blockchain technology was used for the first Bitcoin transaction.",
+            "date": "2009-01-03",
+            "image": "/images/blockchain.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Bitcoin Transaction",
+            "description": "The first Bitcoin transaction was made by Satoshi Nakamoto to Hal Finney, marking the start of the cryptocurrency era.",
+            "date": "2009-01-12",
+            "image": "/images/bitcoin.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of WhatsApp",
+            "description": "WhatsApp, a popular messaging app, was launched.",
+            "date": "2009-01-01",
+            "image": "/images/whatsapp.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of Windows 7",
+            "description": "Microsoft released Windows 7, which quickly became popular for its performance improvements over Vista.",
+            "date": "2009-10-22",
+            "image": "/images/windows7.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

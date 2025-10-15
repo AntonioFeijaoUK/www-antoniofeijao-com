@@ -1,0 +1,654 @@
+{
+    "events": [
+        {
+            "title": "Assassination of Archduke Franz Ferdinand",
+            "description": "The assassination of Archduke Franz Ferdinand of Austria-Hungary by Gavrilo Princip in Sarajevo sparked the beginning of World War 1.",
+            "date": "1914-06-28",
+            "image": "/images/franz_ferdinand.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 1",
+                "European History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/assassination-of-archduke-franz-ferdinand"
+            ],
+            "location": "Sarajevo, Bosnia and Herzegovina",
+            "event_type": "Assassination",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Military Enthusiasts"
+            ]
+        },
+        {
+            "title": "Battle of the Somme",
+            "description": "The Battle of the Somme was one of the largest battles of World War 1, resulting in over one million casualties.",
+            "date": "1916-07-01",
+            "image": "/images/battle_of_the_somme.jpg",
+            "duration": "141 days",
+            "categories": [
+                "World War 1",
+                "Military History"
+            ],
+            "read_more_urls": [
+                "https://www.iwm.org.uk/history/what-you-need-to-know-about-the-battle-of-the-somme"
+            ],
+            "location": "Somme, France",
+            "event_type": "Battle",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Military Enthusiasts"
+            ]
+        },
+        {
+            "title": "Russian Revolution",
+            "description": "The Russian Revolution of 1917 led to the overthrow of the Russian monarchy and the establishment of the Soviet Union.",
+            "date": "1917-11-07",
+            "image": "/images/russian_revolution.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Russian History",
+                "Political History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Russian-Revolution"
+            ],
+            "location": "Petrograd, Russia",
+            "event_type": "Revolution",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@russianhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Treaty of Versailles",
+            "description": "The Treaty of Versailles officially ended World War 1, imposing heavy reparations and territorial losses on Germany.",
+            "date": "1919-06-28",
+            "image": "/images/treaty_of_versailles.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 1",
+                "European History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/world-war-i/treaty-of-versailles-1"
+            ],
+            "location": "Versailles, France",
+            "event_type": "Peace Treaty",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@worldwar1.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Rise of Adolf Hitler",
+            "description": "Adolf Hitler rose to power as the leader of the Nazi Party, becoming Chancellor of Germany in 1933.",
+            "date": "1933-01-30",
+            "image": "/images/adolf_hitler.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 2",
+                "European History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/world-war-ii/adolf-hitler-1"
+            ],
+            "location": "Berlin, Germany",
+            "event_type": "Political Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Political Scientists"
+            ]
+        },
+        {
+            "title": "Invasion of Poland",
+            "description": "Germany's invasion of Poland marked the beginning of World War 2, leading to Britain and France declaring war on Germany.",
+            "date": "1939-09-01",
+            "image": "/images/invasion_of_poland.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 2",
+                "Military History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Invasion-of-Poland"
+            ],
+            "location": "Poland",
+            "event_type": "Military Invasion",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Military Enthusiasts"
+            ]
+        },
+        {
+            "title": "Battle of Britain",
+            "description": "The Battle of Britain was a significant air campaign fought between the German Luftwaffe and the British Royal Air Force.",
+            "date": "1940-07-10",
+            "image": "/images/battle_of_britain.jpg",
+            "duration": "3 months and 3 weeks",
+            "categories": [
+                "World War 2",
+                "Aviation History"
+            ],
+            "read_more_urls": [
+                "https://www.iwm.org.uk/history/what-you-need-to-know-about-the-battle-of-britain"
+            ],
+            "location": "United Kingdom",
+            "event_type": "Battle",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Aviation Enthusiasts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Pearl Harbor Attack",
+            "description": "The Japanese attack on Pearl Harbor led to the United States' entry into World War 2.",
+            "date": "1941-12-07",
+            "image": "/images/pearl_harbor.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 2",
+                "American History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/world-war-ii/pearl-harbor"
+            ],
+            "location": "Pearl Harbor, Hawaii, USA",
+            "event_type": "Military Attack",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@history.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Military Enthusiasts"
+            ]
+        },
+        {
+            "title": "D-Day Invasion",
+            "description": "The D-Day invasion, known as Operation Overlord, was a massive Allied assault on Nazi-occupied France.",
+            "date": "1944-06-06",
+            "image": "/images/d_day.jpg",
+            "duration": "N/A",
+            "categories": [
+                "World War 2",
+                "Military History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/world-war-ii/d-day"
+            ],
+            "location": "Normandy, France",
+            "event_type": "Military Operation",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Military Enthusiasts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Yalta Conference",
+            "description": "The Yalta Conference brought together Allied leaders to discuss post-war plans for Europe.",
+            "date": "1945-02-04",
+            "image": "/images/yalta_conference.jpg",
+            "duration": "8 days",
+            "categories": [
+                "World War 2",
+                "Political History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Yalta-Conference"
+            ],
+            "location": "Yalta, Crimea",
+            "event_type": "Political Conference",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@politicalhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Hiroshima and Nagasaki Bombings",
+            "description": "The United States dropped atomic bombs on Hiroshima and Nagasaki, leading to Japan's surrender and the end of World War 2.",
+            "date": "1945-08-06",
+            "image": "/images/hiroshima_nagasaki.jpg",
+            "duration": "3 days",
+            "categories": [
+                "World War 2",
+                "Nuclear History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/world-war-ii/bombing-of-hiroshima-and-nagasaki"
+            ],
+            "location": "Hiroshima and Nagasaki, Japan",
+            "event_type": "Nuclear Bombing",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nuclearhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Nuclear Enthusiasts"
+            ]
+        },
+        {
+            "title": "Creation of the United Nations",
+            "description": "The United Nations was established to promote international cooperation and prevent future conflicts.",
+            "date": "1945-10-24",
+            "image": "/images/united_nations.jpg",
+            "duration": "N/A",
+            "categories": [
+                "International Relations",
+                "Post-War History"
+            ],
+            "read_more_urls": [
+                "https://www.un.org/en/sections/history/history-united-nations/index.html"
+            ],
+            "location": "San Francisco, USA",
+            "event_type": "International Organisation",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@un.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Diplomats",
+                "Students",
+                "Historians"
+            ]
+        },
+        {
+            "title": "Iron Curtain Speech",
+            "description": "Winston Churchill's Iron Curtain speech warned of the division between Western democracies and Eastern communist countries.",
+            "date": "1946-03-05",
+            "image": "/images/iron_curtain_speech.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Cold War",
+                "Political History"
+            ],
+            "read_more_urls": [
+                "https://winstonchurchill.org/resources/speeches/1946-1963-elder-statesman/the-sinews-of-peace/"
+            ],
+            "location": "Fulton, Missouri, USA",
+            "event_type": "Political Speech",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@politicalhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Political Scientists"
+            ]
+        },
+        {
+            "title": "Berlin Airlift",
+            "description": "The Berlin Airlift was a response to the Soviet blockade of West Berlin, supplying the city with vital supplies.",
+            "date": "1948-06-24",
+            "image": "/images/berlin_airlift.jpg",
+            "duration": "11 months",
+            "categories": [
+                "Cold War",
+                "Aviation History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/cold-war/berlin-airlift"
+            ],
+            "location": "Berlin, Germany",
+            "event_type": "Humanitarian Operation",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@coldwarhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Aviation Enthusiasts"
+            ]
+        },
+        {
+            "title": "Formation of NATO",
+            "description": "The North Atlantic Treaty Organization (NATO) was formed as a military alliance to counter Soviet expansion.",
+            "date": "1949-04-04",
+            "image": "/images/nato.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Cold War",
+                "International Relations"
+            ],
+            "read_more_urls": [
+                "https://www.nato.int/cps/en/natolive/topics_52044.htm"
+            ],
+            "location": "Washington, D.C., USA",
+            "event_type": "Military Alliance",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@nato.int",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Diplomats",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "Korean War Begins",
+            "description": "The Korean War began with North Korea's invasion of South Korea, leading to a conflict between communist and Western forces.",
+            "date": "1950-06-25",
+            "image": "/images/korean_war.jpg",
+            "duration": "3 years",
+            "categories": [
+                "Cold War",
+                "Military History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Korean-War"
+            ],
+            "location": "Korean Peninsula",
+            "event_type": "Military Conflict",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Military Enthusiasts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Death of Joseph Stalin",
+            "description": "Joseph Stalin, the leader of the Soviet Union, died in 1953, leading to a power struggle within the Soviet government.",
+            "date": "1953-03-05",
+            "image": "/images/joseph_stalin.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Cold War",
+                "Soviet History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/biography/Joseph-Stalin"
+            ],
+            "location": "Moscow, Soviet Union",
+            "event_type": "Political Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@soviethistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Suez Crisis",
+            "description": "The Suez Crisis was a diplomatic and military confrontation over control of the Suez Canal, involving Egypt, Israel, Britain, and France.",
+            "date": "1956-10-29",
+            "image": "/images/suez_crisis.jpg",
+            "duration": "9 days",
+            "categories": [
+                "Cold War",
+                "International Relations"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Suez-Crisis"
+            ],
+            "location": "Suez Canal, Egypt",
+            "event_type": "Military Conflict",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@internationalrelations.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Diplomats",
+                "Students"
+            ]
+        },
+        {
+            "title": "Launch of Sputnik 1",
+            "description": "The Soviet Union launched Sputnik 1, the first artificial satellite, marking the beginning of the Space Age.",
+            "date": "1957-10-04",
+            "image": "/images/sputnik1.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Space Exploration",
+                "Cold War"
+            ],
+            "read_more_urls": [
+                "https://www.nasa.gov/multimedia/imagegallery/image_feature_924.html"
+            ],
+            "location": "Baikonur Cosmodrome, Soviet Union",
+            "event_type": "Space Launch",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@spacehistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Space Enthusiasts",
+                "Historians",
+                "Students"
+            ]
+        },
+        {
+            "title": "Cuban Missile Crisis",
+            "description": "The Cuban Missile Crisis was a tense 13-day standoff between the United States and the Soviet Union over Soviet missiles in Cuba.",
+            "date": "1962-10-16",
+            "image": "/images/cuban_missile_crisis.jpg",
+            "duration": "13 days",
+            "categories": [
+                "Cold War",
+                "Nuclear History"
+            ],
+            "read_more_urls": [
+                "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis"
+            ],
+            "location": "Cuba",
+            "event_type": "Political Crisis",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@coldwarhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Assassination of John F. Kennedy",
+            "description": "The assassination of U.S. President John F. Kennedy in Dallas, Texas, shocked the nation and the world.",
+            "date": "1963-11-22",
+            "image": "/images/jfk_assassination.jpg",
+            "duration": "N/A",
+            "categories": [
+                "American History",
+                "Cold War"
+            ],
+            "read_more_urls": [
+                "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-assassination-of-president-john-f-kennedy"
+            ],
+            "location": "Dallas, Texas, USA",
+            "event_type": "Assassination",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@americanhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Political Scientists"
+            ]
+        },
+        {
+            "title": "Vietnam War Escalation",
+            "description": "The Vietnam War escalated with increased U.S. military involvement, leading to a prolonged and controversial conflict.",
+            "date": "1965-03-08",
+            "image": "/images/vietnam_war.jpg",
+            "duration": "20 years",
+            "categories": [
+                "Cold War",
+                "Military History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/vietnam-war/vietnam-war-history"
+            ],
+            "location": "Vietnam",
+            "event_type": "Military Conflict",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@militaryhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Military Enthusiasts",
+                "Students"
+            ]
+        },
+        {
+            "title": "Prague Spring",
+            "description": "The Prague Spring was a period of political liberalization in Czechoslovakia, crushed by Soviet-led Warsaw Pact troops.",
+            "date": "1968-01-05",
+            "image": "/images/prague_spring.jpg",
+            "duration": "8 months",
+            "categories": [
+                "Cold War",
+                "European History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Prague-Spring"
+            ],
+            "location": "Czechoslovakia",
+            "event_type": "Political Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@europeanhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        },
+        {
+            "title": "Fall of the Berlin Wall",
+            "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany.",
+            "date": "1989-11-09",
+            "image": "/images/berlin_wall.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Cold War",
+                "European History"
+            ],
+            "read_more_urls": [
+                "https://www.history.com/topics/cold-war/berlin-wall"
+            ],
+            "location": "Berlin, Germany",
+            "event_type": "Historical Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@europeanhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Students",
+                "Political Scientists"
+            ]
+        },
+        {
+            "title": "Dissolution of the Soviet Union",
+            "description": "The dissolution of the Soviet Union marked the end of the Cold War, resulting in the independence of former Soviet republics.",
+            "date": "1991-12-26",
+            "image": "/images/soviet_union.jpg",
+            "duration": "N/A",
+            "categories": [
+                "Cold War",
+                "Russian History"
+            ],
+            "read_more_urls": [
+                "https://www.britannica.com/event/Dissolution-of-the-Soviet-Union"
+            ],
+            "location": "Moscow, Russia",
+            "event_type": "Political Event",
+            "speakers": [],
+            "contact_information": {
+                "email": "info@russianhistory.org",
+                "phone": "N/A"
+            },
+            "target_audience": [
+                "Historians",
+                "Political Scientists",
+                "Students"
+            ]
+        }
+    ]
+}

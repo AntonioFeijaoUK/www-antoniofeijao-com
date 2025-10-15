@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Introduction of Python",
+            "description": "Guido van Rossum released Python, a powerful and versatile programming language.",
+            "date": "1991-02-20",
+            "image": "/images/python.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Release of Linux Kernel",
+            "description": "Linus Torvalds released the first version of the Linux kernel.",
+            "date": "1991-09-17",
+            "image": "/images/linux.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of the First Website",
+            "description": "The first website, created by Tim Berners-Lee, was launched at CERN.",
+            "date": "1991-08-06",
+            "image": "/images/first_website.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

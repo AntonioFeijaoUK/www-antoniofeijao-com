@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "WannaCry Ransomware Attack",
+            "description": "The WannaCry ransomware attack affected thousands of computers worldwide.",
+            "date": "2017-05-12",
+            "image": "/images/wannacry.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "NotPetya Cyberattack",
+            "description": "The NotPetya cyberattack caused widespread disruption across multiple countries.",
+            "date": "2017-06-27",
+            "image": "/images/notpetya.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Equifax Data Breach",
+            "description": "Equifax announced a data breach affecting over 147 million people.",
+            "date": "2017-09-07",
+            "image": "/images/equifax.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

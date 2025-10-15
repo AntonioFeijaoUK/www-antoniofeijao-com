@@ -1,0 +1,5607 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Insights and projects by Antonio Feijao, UK Security Architect at Genomics England. Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3.
+">
+      
+      
+        <meta name="author" content="Antonio Feijao UK">
+      
+      
+        <link rel="canonical" href="https://www.antoniofeijao.com/crypto/2025/101-learning-bitcoin-basics/">
+      
+      
+        <link rel="prev" href="../../2017/2017-bitcoin-prize-to-who-solves-it/">
+      
+      
+        <link rel="next" href="../102-bitcoin-core-bitcoin-full-node/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Bitcoin Basics & Advanced Node Operations for Cyber Security Architects - Antonio Feijao UK – Cyber Security Architect Learning by Doing</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects - Antonio Feijao UK – Cyber Security Architect Learning by Doing" >
+      
+        <meta  property="og:description"  content="Insights and projects by Antonio Feijao, UK Security Architect at Genomics England. Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3.
+" >
+      
+        <meta  property="og:image"  content="https://www.antoniofeijao.com/assets/images/social/crypto/2025/101-learning-bitcoin-basics.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://www.antoniofeijao.com/crypto/2025/101-learning-bitcoin-basics/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects - Antonio Feijao UK – Cyber Security Architect Learning by Doing" >
+      
+        <meta  name="twitter:description"  content="Insights and projects by Antonio Feijao, UK Security Architect at Genomics England. Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3.
+" >
+      
+        <meta  name="twitter:image"  content="https://www.antoniofeijao.com/assets/images/social/crypto/2025/101-learning-bitcoin-basics.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bitcoin-basics-advanced-node-operations-for-cyber-security-architects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Antonio Feijao UK – Cyber Security Architect Learning by Doing" class="md-header__button md-logo" aria-label="Antonio Feijao UK – Cyber Security Architect Learning by Doing" data-md-component="logo">
+      
+  <img src="../../../assets/images/Antonio-Feijao-UK.jpeg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Antonio Feijao UK – Cyber Security Architect Learning by Doing
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/AntonioFeijaoUK/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AntonioFeijaoUK/
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../about-me/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About me
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../blog/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Blog
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../2017/2017-bitcoin-prize-to-who-solves-it/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Crypto
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../news/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  News
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pages/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Pages
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../archive/2025/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Archive
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../category/aws-organizations/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Categories
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Antonio Feijao UK – Cyber Security Architect Learning by Doing" class="md-nav__button md-logo" aria-label="Antonio Feijao UK – Cyber Security Architect Learning by Doing" data-md-component="logo">
+      
+  <img src="../../../assets/images/Antonio-Feijao-UK.jpeg" alt="logo">
+
+    </a>
+    Antonio Feijao UK – Cyber Security Architect Learning by Doing
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/AntonioFeijaoUK/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AntonioFeijaoUK/
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../about-me/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    About me
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            About me
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about-me/02-about-me-by-ChatGPT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    about-me-by-ChatGPT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about-me/03-about-me-backup-v2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    03 about me backup v2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../blog/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Crypto
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Crypto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    2017
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            2017
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2017/2017-bitcoin-prize-to-who-solves-it/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bitcoin puzzle transaction ~32 BTC prize to who solves it
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            2025
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-bitcoin-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Bitcoin Fundamentals
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Bitcoin Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-decentralized-digital-currency" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1. Decentralized Digital Currency
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-asymmetric-cryptography-in-bitcoin" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2. Asymmetric Cryptography in Bitcoin
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-creating-your-own-bitcoin-address" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Creating Your Own Bitcoin Address
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Creating Your Own Bitcoin Address">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-key-generation-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Key Generation Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-example-code-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Example Code (Python)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-running-your-own-bitcoin-full-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Running Your Own Bitcoin Full Node
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Running Your Own Bitcoin Full Node">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-what-is-a-full-node" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1. What Is a Full Node?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-setting-up-bitcoin-core-on-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2. Setting Up Bitcoin Core on Linux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2. Setting Up Bitcoin Core on Linux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-environment-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hardware &amp; Environment Considerations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation Steps
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-configuring-bitcoinconf" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Configuring bitcoin.conf
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Configuring bitcoin.conf">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-essential-configuration-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1. Essential Configuration Options
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-creating-and-signing-transactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Creating and Signing Transactions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Creating and Signing Transactions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-offline-signing-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1. Offline Signing Workflow
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-understanding-tokens-and-multi-currency-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Understanding Tokens and Multi-Currency Concepts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Understanding Tokens and Multi-Currency Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-bitcoins-native-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1. Bitcoin’s Native Model
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-tokens-via-additional-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2. Tokens via Additional Protocols
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-multi-token-blockchains" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.3. Multi-Token Blockchains
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Additional Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../102-bitcoin-core-bitcoin-full-node/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    102-bitcoin-core-bitcoin-full-node
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2025-03-bybit-hacker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025 03 bybit hacker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../news/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    News
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            News
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/01-notes-about-daily-summary-of-top-cybernews-using-ChatGPT-OpenAI-API/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    01-notes-about-daily-summary-of-top-cybernews-using-ChatGPT-OpenAI-API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-11-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-11-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-12-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-12-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-13-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-13-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-14-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-14-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-16-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-16-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-19-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-19-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-24-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-24-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-26-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-26-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-28-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-28-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-02-28-v2-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-02-28-v2-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-01-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-01-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-02-v1-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-02-v1-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-02-v2-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-02-v2-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-03-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-03-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-04-v1-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-04-v1-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-04-v2-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-04-v2-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-05-v1-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-05-v1-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-05-v2-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-05-v2-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-06-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-06-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-10-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-10-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../news/2025-03-11-cybersecurity-news-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025-03-11-cybersecurity-news-summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../pages/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Pages
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Pages
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/101-javascript-video-playbackRate-speed-change/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    101-javascript video playbackRate speed change
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/af-cartoon2025-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    af-cartoon2025-04
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/background-sample/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    background-sample
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/certifications-cyber-security-certifications-basic-to-good-to-have/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    certifications - Antonio Feijao UK, AWS Linux and Cyber Security 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/certifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Certifications Antonio Feijao UK. AWS, linux, networking  and cyber security certifications.
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/communication-skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Communication skills. 10 ways to have a better conversation.
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to contact Antonio Feijao UK
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/degree-computer-science-and-more-degree/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    degree - High-Impact Curriculum for a Computer Science Degree, Machine Learning, Cybersecurity, IoT, Quantum and much more
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/experience/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Work experience Antonio Feijao AWS Linux and Cyber Security certifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feedback on Antonio Feijao AWS Linux and Cyber Security work
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/javascript-demos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    javascript demos for cyber awareness
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/links-study-cyber-security-linux-networking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Webpage with links to study material and other websites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/list-of-links-cyber-security-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    List of links and websites with updates on Cyber Security and Computer Science Knowledge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/nist-cyberframework-topics-reminders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reminder of NIST framework topcs - Identify, Protect, Detect, Respond, Recover
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Privacy plugins sample and javascript helpers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/quotes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    quotes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Antonio Feijao AWS Linux and Cyber Security certifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/study-aws-certified-security-specialty-exam-guide-and-study-notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWS Certified Security Specialty exam guide and study notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/study-ethical-hacker-and-cyber-security-study-and-notes-on-osint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ethical Hacker and Cyber Security study notes on OSINT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/topics-cyber-security-topics-of-interest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    topics - Cyber Security and topics of interest
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pages/training-links/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    training
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2023/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2022/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2022
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2021/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2021
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2020/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2020
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2019/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2019
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../archive/2018/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2018
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Categories
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Categories
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/aws-organizations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AWS Organizations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/apple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apple
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/bash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Bash
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/blackhat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    BlackHat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/coding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coding
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/containers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Containers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/databases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Databases
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Domains
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/electronics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Electronics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/finance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Finance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/gatewayloadbalancer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    GatewayLoadBalancer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/google/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Google
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hacking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/javascript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Javascript
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/lambda/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lambda
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Learning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/lime/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LiME
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/math/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Math
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/migration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Migration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/multimedia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multimedia
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/organizations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organizations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/page/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Page
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Projects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/proxy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proxy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/puzzles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Puzzles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/python-3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python-3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/python3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/raspberrypi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    RaspberryPi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/route53/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Route53
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/rubik-cube/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rubik-cube
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/s3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    S3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/sns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SNS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/ssh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SSH
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/ssm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SSM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/science/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Science
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/script/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Script
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/security-hub/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Security-Hub
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/services/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Session
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/tunnel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tunnel
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/webpage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Webpage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/websites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Websites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/wifi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wifi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/allregions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    allregions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/authentication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    authentication
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/aws/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    aws
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/beautifulsoup4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    beautifulsoup4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/bitcoin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    bitcoin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/boto3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    boto3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/chatgpt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    chatgpt
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/cli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    cli
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/cloudflare/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    cloudflare
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/cookie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    cookie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/crowdstrike/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    crowdstrike
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/cybersecurity/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    cybersecurity
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/decode-authorization-message/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    decode-authorization-message
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/defaulvpc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    defaulvpc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/describe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    describe
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/dns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    dns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/dnsmasq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    dnsmasq
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/ec2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ec2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/education/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    education
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/first-commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    first-commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/forensics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    forensics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/gpu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    gpu
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/hashcat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    hashcat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/iam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    iam
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/incident-response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    incident-response
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/jq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    jq
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/knowledge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    knowledge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/library-of-alexandria/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    library-of-alexandria
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/linux/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    linux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/macos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    macos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/memory-dump/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    memory-dump
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/monitor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    monitor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/networking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    networking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    policy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/prompts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    prompts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/raspberry-pi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    raspberry-pi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/routing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    routing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/sts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    sts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/subnets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    subnets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/threat-intelligence/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    threat-intelligence
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/training/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    training
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/vpcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    vpcs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/webscraping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    webscraping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/wireshark/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    wireshark
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../category/workshops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    workshops
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="bitcoin-basics-advanced-node-operations-for-cyber-security-architects">Bitcoin Basics &amp; Advanced Node Operations for Cyber Security Architects<a class="headerlink" href="#bitcoin-basics-advanced-node-operations-for-cyber-security-architects" title="Permanent link">&para;</a></h1>
+<p>This document provides an overview of Bitcoin’s fundamentals, cryptographic underpinnings, running your own full node, configuring Bitcoin Core (including the <code>bitcoin.conf</code> file), transaction signing (including offline signing), and an explanation of tokens and multi-currency concepts on Bitcoin.</p>
+<p>Each section includes links to reliable sources for further reading.</p>
+<hr />
+<h2 id="1-bitcoin-fundamentals">1. Bitcoin Fundamentals<a class="headerlink" href="#1-bitcoin-fundamentals" title="Permanent link">&para;</a></h2>
+<h3 id="11-decentralized-digital-currency">1.1. Decentralized Digital Currency<a class="headerlink" href="#11-decentralized-digital-currency" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>Blockchain &amp; Decentralization:</strong><br />
+  Bitcoin operates on a distributed ledger (blockchain) where each block contains a list of transactions. Every node in the network verifies these transactions independently.</p>
+</li>
+<li>
+<p><strong>Peer-to-Peer (P2P) Network:</strong><br />
+  Nodes communicate directly (typically over TCP, using port 8333 for mainnet) to propagate transactions and blocks.<br />
+<em>For more details, see <a href="https://bitcoin.org/en/how-it-works">Bitcoin.org – How Bitcoin Works</a>.</em></p>
+</li>
+</ul>
+<h3 id="12-asymmetric-cryptography-in-bitcoin">1.2. Asymmetric Cryptography in Bitcoin<a class="headerlink" href="#12-asymmetric-cryptography-in-bitcoin" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Private and Public Keys:</strong>  </li>
+<li>A <strong>private key</strong> is a large random number kept secret—similar to an SSH private key.</li>
+<li>A <strong>public key</strong> is derived from the private key using elliptic curve multiplication (specifically the secp256k1 curve).</li>
+<li>
+<p>A <strong>Bitcoin address</strong> is produced by hashing the public key (using SHA-256 followed by RIPEMD-160), then encoding it in Base58Check.</p>
+</li>
+<li>
+<p><strong>Digital Signatures:</strong><br />
+  Transactions are signed using the private key; the signature is verified with the public key, ensuring authenticity and integrity.<br />
+<em>Learn more at <a href="https://bitcoin.org/en/developer-guide#cryptography">Bitcoin.org – Cryptography</a>.</em></p>
+</li>
+</ul>
+<hr />
+<h2 id="2-creating-your-own-bitcoin-address">2. Creating Your Own Bitcoin Address<a class="headerlink" href="#2-creating-your-own-bitcoin-address" title="Permanent link">&para;</a></h2>
+<h3 id="21-key-generation-process">2.1. Key Generation Process<a class="headerlink" href="#21-key-generation-process" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Concept:</strong><br />
+  Similar to creating an SSH key pair, you generate a random private key, derive the corresponding public key, and then generate a Bitcoin address.</li>
+</ul>
+<h3 id="22-example-code-python">2.2. Example Code (Python)<a class="headerlink" href="#22-example-code-python" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">import</span><span class="w"> </span><span class="nn">os</span><span class="o">,</span><span class="w"> </span><span class="nn">hashlib</span><span class="o">,</span><span class="w"> </span><span class="nn">ecdsa</span><span class="o">,</span><span class="w"> </span><span class="nn">base58</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="c1"># Generate a random 32-byte private key</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">private_key</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">urandom</span><span class="p">(</span><span class="mi">32</span><span class="p">)</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># Generate the signing key using secp256k1 curve</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="n">sk</span> <span class="o">=</span> <span class="n">ecdsa</span><span class="o">.</span><span class="n">SigningKey</span><span class="o">.</span><span class="n">from_string</span><span class="p">(</span><span class="n">private_key</span><span class="p">,</span> <span class="n">curve</span><span class="o">=</span><span class="n">ecdsa</span><span class="o">.</span><span class="n">SECP256k1</span><span class="p">)</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="n">vk</span> <span class="o">=</span> <span class="n">sk</span><span class="o">.</span><span class="n">get_verifying_key</span><span class="p">()</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">public_key</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x04</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">vk</span><span class="o">.</span><span class="n">to_string</span><span class="p">()</span>  <span class="c1"># Uncompressed public key format</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1"># Generate Bitcoin address</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="n">sha256_bpk</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">public_key</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="n">ripemd160_bpk</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s1">&#39;ripemd160&#39;</span><span class="p">,</span> <span class="n">sha256_bpk</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">()</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="n">network_byte</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x00</span><span class="s1">&#39;</span> <span class="o">+</span> <span class="n">ripemd160_bpk</span>  <span class="c1"># 0x00 is the version byte for mainnet</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="n">checksum</span> <span class="o">=</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">(</span><span class="n">network_byte</span><span class="p">)</span><span class="o">.</span><span class="n">digest</span><span class="p">())</span><span class="o">.</span><span class="n">digest</span><span class="p">()[:</span><span class="mi">4</span><span class="p">]</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="n">binary_address</span> <span class="o">=</span> <span class="n">network_byte</span> <span class="o">+</span> <span class="n">checksum</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="n">address</span> <span class="o">=</span> <span class="n">base58</span><span class="o">.</span><span class="n">b58encode</span><span class="p">(</span><span class="n">binary_address</span><span class="p">)</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Bitcoin Address:&quot;</span><span class="p">,</span> <span class="n">address</span><span class="o">.</span><span class="n">decode</span><span class="p">())</span>
+</code></pre></div>
+<em>This script demonstrates key generation and address creation. Use it as a basis for developing your own non-custodial wallet.</em></p>
+<hr />
+<h2 id="3-running-your-own-bitcoin-full-node">3. Running Your Own Bitcoin Full Node<a class="headerlink" href="#3-running-your-own-bitcoin-full-node" title="Permanent link">&para;</a></h2>
+<h3 id="31-what-is-a-full-node">3.1. What Is a Full Node?<a class="headerlink" href="#31-what-is-a-full-node" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p><strong>Definition:</strong><br />
+  A full node downloads and verifies the entire Bitcoin blockchain, enforcing all consensus rules.</p>
+</li>
+<li>
+<p><strong>Benefits:</strong></p>
+</li>
+<li><strong>Autonomy:</strong> Independent verification of transactions and blocks.</li>
+<li><strong>Privacy &amp; Security:</strong> No reliance on third-party services to query transaction data.</li>
+<li><strong>Network Health:</strong> Contributes to the decentralization and resilience of the network.</li>
+</ul>
+<h3 id="32-setting-up-bitcoin-core-on-linux">3.2. Setting Up Bitcoin Core on Linux<a class="headerlink" href="#32-setting-up-bitcoin-core-on-linux" title="Permanent link">&para;</a></h3>
+<h4 id="hardware-environment-considerations">Hardware &amp; Environment Considerations<a class="headerlink" href="#hardware-environment-considerations" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Requirements:</strong>  </li>
+<li>Adequate disk space (the blockchain is hundreds of gigabytes; consider a pruned node if necessary).</li>
+<li>A stable internet connection.</li>
+<li>A secure and hardened Linux system.</li>
+</ul>
+<h4 id="installation-steps">Installation Steps<a class="headerlink" href="#installation-steps" title="Permanent link">&para;</a></h4>
+<ol>
+<li>
+<p><strong>Download &amp; Verify Bitcoin Core:</strong><br />
+   Get the latest release from the <a href="https://bitcoincore.org/en/download/">Bitcoin Core official website</a>. Verify the signature for authenticity.</p>
+</li>
+<li>
+<p><strong>Install Bitcoin Core:</strong>  </p>
+</li>
+</ol>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>update
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>sudo<span class="w"> </span>apt-get<span class="w"> </span>install<span class="w"> </span>bitcoin-core
+</code></pre></div>
+3. <strong>Configure Your Node:</strong>  </p>
+<p>Create or edit <code>~/.bitcoin/bitcoin.conf</code> (see next section for details).</p>
+<ol>
+<li><strong>Start the Node:</strong>  </li>
+</ol>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>bitcoind<span class="w"> </span>-daemon
+</code></pre></div>
+   Verify synchronization:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>bitcoin-cli<span class="w"> </span>getblockchaininfo
+</code></pre></div></p>
+<p><em>More details available in the <a href="https://bitcoincore.org/en/doc/">Bitcoin Core Documentation</a>.</em></p>
+<hr />
+<h2 id="4-configuring-bitcoinconf">4. Configuring bitcoin.conf<a class="headerlink" href="#4-configuring-bitcoinconf" title="Permanent link">&para;</a></h2>
+<h3 id="41-essential-configuration-options">4.1. Essential Configuration Options<a class="headerlink" href="#41-essential-configuration-options" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>server=1
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>daemon=1
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>txindex=1
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>rpcuser=yourusername
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>rpcpassword=yoursecurepassword
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>rpcallowip=127.0.0.1
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>rpcport=8332
+</code></pre></div>
+<ul>
+<li><strong><code>rpcuser</code> and <code>rpcpassword</code></strong>: Used for authentication when querying your node via <code>bitcoin-cli</code> or external applications.</li>
+<li><strong><code>txindex=1</code></strong>: Enables full transaction indexing, allowing faster queries.</li>
+</ul>
+<p><em>For more, refer to the <a href="https://bitcoincore.org/en/doc/">Bitcoin Core Configuration Documentation</a>.</em></p>
+<hr />
+<h2 id="5-creating-and-signing-transactions">5. Creating and Signing Transactions<a class="headerlink" href="#5-creating-and-signing-transactions" title="Permanent link">&para;</a></h2>
+<h3 id="51-offline-signing-workflow">5.1. Offline Signing Workflow<a class="headerlink" href="#51-offline-signing-workflow" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Create a Raw Transaction (Online):</strong></li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>bitcoin-cli<span class="w"> </span>createrawtransaction<span class="w"> </span><span class="s1">&#39;[{&quot;txid&quot;:&quot;&lt;UTXO_txid&gt;&quot;, &quot;vout&quot;:&lt;index&gt;}]&#39;</span><span class="w"> </span><span class="s1">&#39;{&quot;&lt;destination_address&gt;&quot;:amount}&#39;</span>
+</code></pre></div>
+<ol>
+<li><strong>Sign the Transaction (Offline):</strong></li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>bitcoin-cli<span class="w"> </span>signrawtransactionwithkey<span class="w"> </span>&lt;unsigned_tx_hex&gt;<span class="w"> </span><span class="s1">&#39;[&quot;&lt;your_private_key&gt;&quot;]&#39;</span>
+</code></pre></div>
+<ol>
+<li><strong>Broadcast the Signed Transaction (Online):</strong></li>
+</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>bitcoin-cli<span class="w"> </span>sendrawtransaction<span class="w"> </span>&lt;signed_tx_hex&gt;
+</code></pre></div>
+<hr />
+<h2 id="6-understanding-tokens-and-multi-currency-concepts">6. Understanding Tokens and Multi-Currency Concepts<a class="headerlink" href="#6-understanding-tokens-and-multi-currency-concepts" title="Permanent link">&para;</a></h2>
+<h3 id="61-bitcoins-native-model">6.1. Bitcoin’s Native Model<a class="headerlink" href="#61-bitcoins-native-model" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Single Asset (BTC):</strong><br />
+  Bitcoin addresses natively hold BTC represented as UTXOs. The blockchain itself does not differentiate between multiple tokens or currencies.</li>
+</ul>
+<h3 id="62-tokens-via-additional-protocols">6.2. Tokens via Additional Protocols<a class="headerlink" href="#62-tokens-via-additional-protocols" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Colored Coins &amp; Omni Layer:</strong><br />
+  Protocols like Colored Coins and Omni Layer allow extra data (metadata) to be embedded in Bitcoin transactions, “coloring” some satoshis to represent other assets.<br />
+<em>More details: <a href="https://github.com/OmniLayer/spec">Omni Layer Specification</a>.</em></li>
+</ul>
+<h3 id="63-multi-token-blockchains">6.3. Multi-Token Blockchains<a class="headerlink" href="#63-multi-token-blockchains" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Ethereum Example:</strong><br />
+  Blockchains with smart contracts (e.g., Ethereum) natively support multiple tokens (ERC-20, ERC-721, etc.) on a single address.<br />
+  In these ecosystems, the address’s balance for various tokens is tracked by smart contracts rather than the blockchain protocol itself.</li>
+</ul>
+<p><em>For more insight, check out the <a href="https://ethereum.org/en/whitepaper/">Ethereum Whitepaper</a>.</em></p>
+<hr />
+<h2 id="7-additional-resources">7. Additional Resources<a class="headerlink" href="#7-additional-resources" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://bitcoin.org/en/how-it-works">Bitcoin.org – How Bitcoin Works</a></li>
+<li><a href="https://bitcoin.org/en/developer-guide">Bitcoin Developer Guide</a></li>
+<li><a href="https://bitcoincore.org/en/doc/">Bitcoin Core Documentation</a></li>
+<li><a href="https://github.com/OmniLayer/spec">Omni Layer GitHub Repository</a></li>
+<li><a href="https://ethereum.org/en/whitepaper/">Ethereum Whitepaper</a></li>
+</ul>
+<hr />
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
+<p>By leveraging your expertise in cybersecurity, Linux, and networking, you can confidently manage Bitcoin’s cryptographic model—from generating your own private key and Bitcoin address to running a full node and securely signing transactions offline. Understanding the <code>bitcoin.conf</code> file and RPC configuration further empowers you to operate a self-reliant, secure Bitcoin environment. Additionally, knowing how Bitcoin handles tokens through external protocols or comparing it with multi-token platforms like Ethereum provides valuable context for exploring broader blockchain applications.</p>
+<p>Refer to the linked sources for deeper dives into each topic, and reach out with any further questions.</p>
+<hr />
+<p>Happy learning,
+<a href="https://www.antoniofeijao.com/">Antonio Feijao UK</a></p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime" title="October 15, 2025 15:49:23 UTC">2025-10-15 15:49:23</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime" title="October 15, 2025 15:49:23 UTC">2025-10-15 15:49:23</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 <a href="https://www.antoniofeijao.com/">Antonio Feijao UK</a>. All rights reserved.
+
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.antoniofeijao.com/" target="_blank" rel="noopener" title="www.antoniofeijao.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M277.8 8.6c-12.3-11.4-31.3-11.4-43.5 0l-224 208c-9.6 9-12.8 22.9-8 35.1S18.8 272 32 272h16v176c0 35.3 28.7 64 64 64h288c35.3 0 64-28.7 64-64V272h16c13.2 0 25-8.1 29.8-20.3s1.6-26.2-8-35.1zM240 320h32c26.5 0 48 21.5 48 48v96H192v-96c0-26.5 21.5-48 48-48"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/antoniofeijaouk" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/AntonioFeijaoUK" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "content.tabs.link", "navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "content.code.annotate", "search.highlight", "search.share", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

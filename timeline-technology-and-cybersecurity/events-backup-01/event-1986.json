@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "First Release of SQL",
+            "description": "SQL, a language for managing and manipulating databases, was first released.",
+            "date": "1986-06-01",
+            "image": "/images/sql.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

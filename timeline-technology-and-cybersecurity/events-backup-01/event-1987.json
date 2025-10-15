@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "title": "Launch of the First Commercial Antivirus",
+            "description": "The first commercial antivirus software was launched by McAfee.",
+            "date": "1987-07-01",
+            "image": "/images/mcafee.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

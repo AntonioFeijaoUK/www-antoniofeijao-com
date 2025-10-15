@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Heartbleed Bug",
+            "description": "The Heartbleed bug, a major security vulnerability in the OpenSSL cryptographic software library, was discovered.",
+            "date": "2014-04-07",
+            "image": "/images/heartbleed.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Launch of Kubernetes",
+            "description": "Google open-sourced Kubernetes, a container orchestration platform.",
+            "date": "2014-06-07",
+            "image": "/images/kubernetes.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Introduction of HTML5",
+            "description": "HTML5, the latest version of the HTML standard, was officially released.",
+            "date": "2014-10-28",
+            "image": "/images/html5.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

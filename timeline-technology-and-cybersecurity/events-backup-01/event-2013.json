@@ -1,0 +1,26 @@
+{
+    "events": [
+        {
+            "title": "Adobe Creative Cloud Launch",
+            "description": "Adobe launched Creative Cloud, a subscription-based service for its software suite.",
+            "date": "2013-06-17",
+            "image": "/images/creativecloud.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "First Release of Slack",
+            "description": "Slack, a team collaboration tool, was released.",
+            "date": "2013-08-14",
+            "image": "/images/slack.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Introduction of Docker",
+            "description": "Docker, a platform for containerization, was introduced.",
+            "date": "2013-03-20",
+            "image": "/images/docker.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+

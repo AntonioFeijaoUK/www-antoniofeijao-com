@@ -1,0 +1,19 @@
+{
+    "events": [
+        {
+            "title": "Introduction of Java",
+            "description": "Sun Microsystems introduced Java, a high-level, class-based, object-oriented programming language that is now widely used in software development.",
+            "date": "1995-05-23",
+            "image": "/images/java.jpg",
+            "duration": "N/A"
+        },
+        {
+            "title": "Release of Windows 95",
+            "description": "Microsoft released Windows 95, a significant update to the Windows operating system.",
+            "date": "1995-08-24",
+            "image": "/images/windows95.jpg",
+            "duration": "N/A"
+        }
+    ]
+}
+
