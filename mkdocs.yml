@@ -12,6 +12,9 @@ repo_url: https://github.com/AntonioFeijaoUK/
 repo_name: AntonioFeijaoUK/
 # edit_uri: edit/main/docs/
 
+include:
+  - ".well-known"
+
 # ============================================================
 # Copyright
 # ============================================================
