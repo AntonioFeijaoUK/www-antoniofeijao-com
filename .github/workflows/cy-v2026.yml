@@ -2,7 +2,8 @@ name: ci
 on:
   push:
     branches:
-      - main
+      #- main
+      - www-mkdocs-material-v01
 jobs:
   deploy:
     runs-on: ubuntu-latest
