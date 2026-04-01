@@ -1,13 +1,14 @@
 # technical cybersecurity glossary, information security, networking, linux and identify management
 
 ---
+
 ## intro
 
 ### glossary credits
 
 glossary credits to <https://www.sans.edu/> and <https://dshield.org/>.
 
-Follow the source page for more updated glossary -  - <https://dshield.org/tools/glossary/>
+Follow the source page for more updated glossary - <https://dshield.org/tools/glossary/>
 
 What I have here is just a snapshop from 2026-04-01.
 
@@ -15,16 +16,24 @@ What I have here is just a snapshop from 2026-04-01.
 
 When in the source page, the website sends the full glossary to the client browser as a json file.
 
-The javascript builts up the search and "mouse.over" event to show the definition.
+The javascript builds up the search and on the JavaScript event `onmouseover="termdisplay(...` it show the definition.
 
-I personally found it difficult to read for me.
+JavaScript example:
+
+```js
+addEventListener("mouseover", (event) => { })
+
+onmouseover = (event) => { }
+```
+
+I personally found it difficult to read.
 
 I copied the file that was download into my client browser.  
 Converted to a markdown format and tweaked the definition to be easier to read in a wider screen.
 
-### how I converter from json to markdown
+### how I converted from json to markdown
 
-simple bash command with jq
+with 2 simple bash command with jq
 
 ```bash
 cat glossary-v1.json | jq -r -R '.| fromjson' >> glossary-v2.json
@@ -36,9 +45,11 @@ jq -r '.[] | "## \(.term)\n\n> \(.definition)\n"' glossary-v2.json
 
 ## technical glossary cybersecurity
 
+starts here...
+
 ## 3-WAY HANDSHAKE
 
- > TCP connections are established using a 3 way handshake.
+> TCP connections are established using a 3 way handshake.
 > A client sends a packet with a SYN flag set to a server.
 > The server acknowledges the client's SYN with a SYN/ACK.
 > The client acknowledges the server's SYN/ACK with an ACK.
@@ -83,467 +94,558 @@ jq -r '.[] | "## \(.term)\n\n> \(.definition)\n"' glossary-v2.json
 
 ## ADDRESS RESOLUTION PROTOCOL (ARP)
 
- > Address Resolution Protocol (ARP) is a protocol for mapping an Internet Protocol address to a physical machine address that is recognized in the local network. A table, usually called the ARP cache, is used to maintain a correlation between each MAC address and its corresponding IP address. ARP provides the protocol rules for making this correlation and providing address conversion in both directions.
+> Address Resolution Protocol (ARP) is a protocol for mapping an Internet Protocol address to a physical machine address that is recognized in the local network.
+> A table, usually called the ARP cache, is used to maintain a correlation between each MAC address and its corresponding IP address.
+> ARP provides the protocol rules for making this correlation and providing address conversion in both directions.
 
 ## ADVANCED ENCRYPTION STANDARD (AES)
 
- > An encryption standard being developed by NIST. Intended to specify an unclassified, publicly-disclosed, symmetric encryption algorithm.
+> An encryption standard being developed by NIST.
+> Intended to specify an unclassified, publicly-disclosed, symmetric encryption algorithm.
 
 ## ALGORITHM
 
- > A finite set of step-by-step instructions for a problem-solving or computation procedure, especially one that can be implemented by a computer.
+> A finite set of step-by-step instructions for a problem-solving or computation procedure, especially one that can be implemented by a computer.
 
 ## APPLET
 
- > Java programs; an application program that uses the client's web browser to provide a user interface.
+> Java programs; an application program that uses the client's web browser to provide a user interface.
 
 ## ARPANET
 
- > Advanced Research Projects Agency Network, a pioneer packet-switched network that was built in the early 1970s under contract to the US Government, led to the development of today's Internet, and was decommissioned in June 1990.
+> Advanced Research Projects Agency Network, a pioneer packet-switched network that was built in the early 1970s under contract to the US Government, led to the development of today's Internet, and was decommissioned in June 1990.
 
 ## ASYMMETRIC CRYPTOGRAPHY
 
- > Public-key cryptography; A modern branch of cryptography in which the algorithms employ a pair of keys (a public key and a private key) and use a different component of the pair for different steps of the algorithm.
+> Public-key cryptography;
+> A modern branch of cryptography in which the algorithms employ a pair of keys (a public key and a private key) and use a different component of the pair for different steps of the algorithm.
 
 ## ASYMMETRIC WARFARE
 
- > Asymmetric warfare is the application of dissimilar strategies, tactics, capabilities and approaches used to circumvent or negate an opponent's strengths while exploiting his weaknesses.
+> Asymmetric warfare is the application of dissimilar strategies, tactics, capabilities and approaches used to circumvent or negate an opponent's strengths while exploiting his weaknesses.
 
 ## AUDITING
 
- > Auditing is the information gathering and analysis of assets to ensure such things as policy compliance and security from vulnerabilities.
+> Auditing is the information gathering and analysis of assets to ensure such things as policy compliance and security from vulnerabilities.
 
 ## AUTHENTICATION
 
- > Authentication is the process of confirming the correctness of the claimed identity.
+> Authentication is the process of confirming the correctness of the claimed identity.
 
 ## AUTHENTICITY
 
- > Authenticity is the validity and conformance of the original information.
+> Authenticity is the validity and conformance of the original information.
 
 ## AUTHORIZATION
 
- > Authorization is the approval, permission, or empowerment for someone or something to do something.
+> Authorization is the approval, permission, or empowerment for someone or something to do something.
 
 ## AUTONOMOUS SYSTEM
 
- > One network or series of networks that are all under one administrative control. An autonomous system is also sometimes referred to as a routing domain. For the purposes of Internet routing, an autonomous system is assigned a globally unique number by a registrar, called an Autonomous System Number (ASN).
+> One network or series of networks that are all under one administrative control.
+> An autonomous system is also sometimes referred to as a routing domain.
+> For the purposes of Internet routing, an autonomous system is assigned a globally unique number by a registrar, called an Autonomous System Number (ASN).
 
 ## AVAILABILITY
 
- > Availability is the need to ensure that the business purpose of the system can be met and that it is accessible to those who need to use it.
+> Availability is the need to ensure that the business purpose of the system can be met and that it is accessible to those who need to use it.
 
 ## BACKDOOR
 
- > A backdoor is a tool installed after a compromise to give an attacker easier access to the compromised system around any security mechanisms that are in place.
+> A backdoor is a tool installed after a compromise to give an attacker easier access to the compromised system around any security mechanisms that are in place.
 
 ## BANDWIDTH
 
- > Commonly used to mean the capacity of a communication channel to pass data through the channel in a given amount of time. Usually expressed in bits per second.
+> Commonly used to mean the capacity of a communication channel to pass data through the channel in a given amount of time. Usually expressed in bits per second.
 
 ## BANNER
 
- > A banner is the information that is displayed to a remote user trying to connect to a service. This may include version information, system information, or a warning about authorized use.
+> A banner is the information that is displayed to a remote user trying to connect to a service.
+> This may include version information, system information, or a warning about authorized use.
 
 ## BASIC AUTHENTICATION
 
- > Basic Authentication is the simplest web-based authentication scheme that works by sending the username and password with each request.
+> Basic Authentication is the simplest web-based authentication scheme that works by sending the username and password with each request.
 
 ## BASTION HOST
 
- > A bastion host has been hardened in anticipation of vulnerabilities that have not been discovered yet.
+> A bastion host has been hardened in anticipation of vulnerabilities that have not been discovered yet.
 
 ## BIND
 
- > BIND stands for Berkeley Internet Name Domain and is an implementation of DNS. DNS is used for domain name to IP address resolution.
-
-BIND is also a verb used in the context of 'binding' a service or application to a specific IP, PORT, or SOCKET for network or inter-process communication.
+> BIND stands for Berkeley Internet Name Domain and is an implementation of DNS.
+> DNS is used for domain name to IP address resolution.
+>
+> BIND is also a verb used in the context of 'binding' a service or application to a specific IP, PORT, or SOCKET for network or inter-process communication.
 
 ## BIOMETRICS
 
- > Biometrics use physical characteristics of the users to identify the user.
+> Biometrics use physical characteristics of the users to identify the user.
 
 ## BIT
 
- > The smallest unit of information storage; a contraction of the term "binary digit;" one of two symbols "0" (zero) and "1" (one) - that are used to represent binary numbers.
+> The smallest unit of information storage;
+> a contraction of the term "binary digit;"
+> one of two symbols "0" (zero) and "1" (one) - that are used to represent binary numbers.
 
 ## BLOCK CIPHER
 
- > A block cipher encrypts one block of data at a time.
+> A block cipher encrypts one block of data at a time.
 
 ## BOOT RECORD INFECTOR
 
- > A boot record infector is a piece of malware that inserts malicious code into the boot sector of a disk.
+> A boot record infector is a piece of malware that inserts malicious code into the boot sector of a disk.
 
 ## BORDER GATEWAY PROTOCOL (BGP)
 
- > An inter-autonomous system routing protocol. BGP is used to exchange routing information for the Internet and is the protocol used between Internet service providers (ISP).
+> An inter-autonomous system routing protocol.
+> BGP is used to exchange routing information for the Internet and is the protocol used between Internet service providers (ISP).
 
 ## BOTNET
 
- > A botnet is a large number of compromised computers that are used to create and send spam or viruses or flood a network with messages as a denial of service attack.
+> A botnet is a large number of compromised computers that are used to create and send spam or viruses or flood a network with messages as a denial of service attack.
 
 ## BRIDGE
 
- > A mechanism (software or hardware) which connect two communication segments. Bridges generally operate at OSI Layer 2 or 3, but may operate from the physical layer up to the application layer. Some examples of bridging technologies: serial bridge (bridge multiple RS485 bus); wireless access bridge (bridge a wireless segment and a wired segment); Ethernet software bridge (OS level network interface bridging)
+> A mechanism (software or hardware) which connect two communication segments.
+> Bridges generally operate at OSI Layer 2 or 3, but may operate from the physical layer up to the application layer.
+> Some examples of bridging technologies:
+    > serial bridge (bridge multiple RS485 bus);
+    > wireless access bridge (bridge a wireless segment and a wired segment);
+    > Ethernet software bridge (OS level network interface bridging)
 
 ## BRITISH STANDARD 7799
 
- > A standard code of practice and provides guidance on how to secure an information system. It includes the management framework, objectives, and control requirements for information security management systems.
+> A standard code of practice and provides guidance on how to secure an information system.
+> It includes the management framework, objectives, and control requirements for information security management systems.
 
 ## BROADCAST
 
- > To send the same message to an unknown number of destinations without addressing. Examples: ARP, Radio. See also multicast.
+> To send the same message to an unknown number of destinations without addressing.
+> Examples:
+    > ARP,
+    > Radio.
+    > See also multicast.
 
 ## BROADCAST ADDRESS
 
- > An address used to broadcast a datagram to all hosts on a given network using UDP or ICMP protocol.
+> An address used to broadcast a datagram to all hosts on a given network using UDP or ICMP protocol.
 
 ## BROWSER
 
- > A client computer program that can retrieve and display information from servers on the World Wide Web.
+> A client computer program that can retrieve and display information from servers on the World Wide Web.
 
 ## BRUTE FORCE
 
- > A cryptanalysis technique or other kind of attack method involving an exhaustive procedure that tries all possibilities, one-by-one.
+> A cryptanalysis technique or other kind of attack method involving an exhaustive procedure that tries all possibilities, one-by-one.
 
 ## BUFFER OVERFLOW
 
- > A buffer overflow occurs when a program or process tries to store more data in a buffer (temporary data storage area) than it was intended to hold. Since buffers are created to contain a finite amount of data, the extra information - which has to go somewhere - can overflow into adjacent buffers, corrupting or overwriting the valid data held in them.
+> A buffer overflow occurs when a program or process tries to store more data in a buffer (temporary data storage area) than it was intended to hold.
+> Since buffers are created to contain a finite amount of data, the extra information - which has to go somewhere - can overflow into adjacent buffers, corrupting or overwriting the valid data held in them.
 
 ## BUSINESS CONTINUITY PLAN (BCP)
 
- > A Business Continuity Plan is the plan for emergency response, backup operations, and post-disaster recovery steps that will ensure the availability of critical resources and facilitate the continuity of operations in an emergency situation.
+> A Business Continuity Plan is the plan for emergency response, backup operations, and post-disaster recovery steps that will ensure the availability of critical resources and facilitate the continuity of operations in an emergency situation.
 
 ## BUSINESS IMPACT ANALYSIS (BIA)
 
- > A Business Impact Analysis determines what levels of impact to a system are tolerable.
+> A Business Impact Analysis determines what levels of impact to a system are tolerable.
 
 ## BYTE
 
- > A fundamental unit of computer storage; the smallest addressable unit in a computer's architecture. Usually holds one character of information and usually means eight bits.
+> A fundamental unit of computer storage;
+> the smallest addressable unit in a computer's architecture.
+> Usually holds one character of information and usually means 8 (eight) bits.
 
 ## CACHE
 
- > Pronounced cash, a special high-speed storage mechanism. It can be either a reserved section of main memory or an independent high-speed storage device. Two types of caching are commonly used in personal computers: memory caching and disk caching.
+> Pronounced cash, a special high-speed storage mechanism.
+> It can be either a reserved section of main memory or an independent high-speed storage device.
+> Two types of caching are commonly used in personal computers:
+    > memory caching and
+    > disk caching.
 
 ## CACHE CRAMMING
 
- > Cache Cramming is the technique of tricking a browser to run cached Java code from the local disk, instead of the internet zone, so it runs with less restrictive permissions.
-
+> Cache Cramming is the technique of tricking a browser to run cached Java code from the local disk, instead of the internet zone, so it runs with less restrictive permissions.
 
 ## CALL ADMISSION CONTROL (CAC)
 
- > The inspection and control all inbound and outbound voice network activity by a voice firewall based on user-defined policies.
+> The inspection and control all inbound and outbound voice network activity by a voice firewall based on user-defined policies.
 
 ## CELL
 
- > A cell is a unit of data transmitted over an ATM network. A cell is also a single physical memory location within flash memory.
+> A cell is a unit of data transmitted over an ATM network.
+> A cell is also a single physical memory location within flash memory.
 
 ## CERTIFICATE-BASED AUTHENTICATION
 
- > Certificate-Based Authentication is the use of SSL and certificates to authenticate and encrypt HTTP traffic.
+> Certificate-Based Authentication is the use of SSL and certificates to authenticate and encrypt HTTP traffic.
 
 ## CGI
 
- > Common Gateway Interface. This mechanism is used by HTTP servers (web servers) to pass parameters to executable scripts in order to generate responses dynamically.
+> Common Gateway Interface.
+> This mechanism is used by HTTP servers (web servers) to pass parameters to executable scripts in order to generate responses dynamically.
 
 ## CHAIN OF CUSTODY
 
- > Chain of Custody is the important application of the Federal rules of evidence and its handling.
+> Chain of Custody is the important application of the Federal rules of evidence and its handling.
 
 ## CHALLENGE-HANDSHAKE AUTHENTICATION PROTOCOL (CHAP)
 
- > The Challenge-Handshake Authentication Protocol uses a challenge/response authentication mechanism where the response varies every challenge to prevent replay attacks.
+> The Challenge-Handshake Authentication Protocol uses a challenge/response authentication mechanism where the response varies every challenge to prevent replay attacks.
 
 ## CHECKSUM
 
- > A value that is computed by a function that is dependent on the contents of a data object and is stored or transmitted together with the object, for the purpose of detecting changes in the data.
+> A value that is computed by a function that is dependent on the contents of a data object and is stored or transmitted together with the object, for the purpose of detecting changes in the data.
 
 ## CIPHER
 
- > A cryptographic algorithm for encryption and decryption.
+> A cryptographic algorithm for encryption and decryption.
 
 ## CIPHERTEXT
 
- > Ciphertext is the encrypted form of the message being sent.
+> Ciphertext is the encrypted form of the message being sent.
 
 ## CIRCUIT SWITCHED NETWORK
 
- > A circuit switched network is where a single continuous physical circuit connected two endpoints where the route was immutable once set up.
+> A circuit switched network is where a single continuous physical circuit connected two endpoints where the route was immutable once set up.
 
 ## CLIENT
 
- > A system entity that requests and uses a service provided by another system entity, called a "server." In some cases, the server may itself be a client of some other server.
+> A system entity that requests and uses a service provided by another system entity, called a "server."
+> In some cases, the server may itself be a client of some other server.
 
 ## COLD/WARM/HOT DISASTER RECOVERY SITE
 
- > * Hot site.
-It contains fully redundant hardware and software, with telecommunications, telephone and utility connectivity to continue all primary site operations. Failover occurs within minutes or hours, following a disaster. Daily data synchronization usually occurs between the primary and hot site, resulting in minimum or no data loss. Offsite data backup tapes might be obtained and delivered to the hot site to help restore operations. Backup tapes should be regularly tested to detect data corruption, malicious code and environmental damage. A hot site is the most expensive option.
+**Hot-site**
 
-* Warm site.
-It contains partially redundant hardware and software, with telecommunications, telephone and utility connectivity to continue some, but not all primary site operations. Failover occurs within hours or days, following a disaster. Daily or weekly data synchronization usually occurs between the primary and warm site, resulting in minimum data loss. Offsite data backup tapes must be obtained and delivered to the warm site to restore operations. A warm site is the second most expensive option.
+> It contains fully redundant hardware and software, with telecommunications, telephone and utility connectivity to continue all primary site operations.
+> Failover occurs within minutes or hours, following a disaster.
+> Daily data synchronization usually occurs between the primary and hot site, resulting in minimum or no data loss.
+> Offsite data backup tapes might be obtained and delivered to the hot site to help restore operations.
+> Backup tapes should be regularly tested to detect data corruption, malicious code and environmental damage.
+> A Hot-site is the most expensive option.
 
-* Cold site.
-Hardware is ordered, shipped and installed, and software is loaded. Basic telecommunications, telephone and utility connectivity might need turning on to continue some, but not all primary site operations. Relocation occurs within weeks or longer, depending on hardware arrival time, following a disaster. No data synchronization occurs between the primary and cold site, and could result in significant data loss. Offsite data backup tapes must be obtained and delivered to the cold site to restore operations. A cold site is the least expensive option.
+**Warm-site**
+
+> It contains partially redundant hardware and software, with telecommunications, telephone and utility connectivity to continue some, but not all primary site operations.
+> Failover occurs within hours or days, following a disaster.
+> Daily or weekly data synchronization usually occurs between the primary and warm site, resulting in minimum data loss.
+> Offsite data backup tapes must be obtained and delivered to the warm site to restore operations.
+> A warm-site is the second most expensive option.
+
+**Cold-site**
+
+> Hardware is ordered, shipped and installed, and software is loaded.
+> Basic telecommunications, telephone and utility connectivity might need turning on to continue some, but not all primary site operations.
+> Relocation occurs within weeks or longer, depending on hardware arrival time, following a disaster.
+> No data synchronization occurs between the primary and cold site, and could result in significant data loss.
+> Offsite data backup tapes must be obtained and delivered to the cold site to restore operations.
+> A cold-site is the least expensive option.
 
 ## COLLISION
 
- > A collision occurs when multiple systems transmit simultaneously on the same wire.
+> A collision occurs when multiple systems transmit simultaneously on the same wire.
 
 ## COMPETITIVE INTELLIGENCE
 
- > Competitive Intelligence is espionage using legal, or at least not obviously illegal, means.
+> Competitive Intelligence is espionage using legal, or at least not obviously illegal, means.
 
 ## COMPUTER EMERGENCY RESPONSE TEAM (CERT)
 
- > An organization that studies computer and network INFOSEC in order to provide incident response services to victims of attacks, publish alerts concerning vulnerabilities and threats, and offer other information to help improve computer and network security.
+> An organization that studies computer and network INFOSEC in order to provide incident response services to victims of attacks, publish alerts concerning vulnerabilities and threats, and offer other information to help improve computer and network security.
 
 ## COMPUTER NETWORK
 
- > A collection of host computers together with the sub-network or inter-network through which they can exchange data.
+> A collection of host computers together with the sub-network or inter-network through which they can exchange data.
 
 ## CONFIDENTIALITY
 
- > Confidentiality is the need to ensure that information is disclosed only to those who are authorized to view it.
+> Confidentiality is the need to ensure that information is disclosed only to those who are authorized to view it.
 
 ## CONFIGURATION MANAGEMENT
 
- > Establish a known baseline condition and manage it.
+> Establish a known baseline condition and manage it.
 
 ## COOKIE
 
- > Data exchanged between an HTTP server and a browser (a client of the server) to store state information on the client side and retrieve it later for server use. An HTTP server, when sending data to a client, may send along a cookie, which the client retains after the HTTP connection closes. A server can use this mechanism to maintain persistent client-side state information for HTTP-based applications, retrieving the state information in later connections.
+> Data exchanged between an HTTP server and a browser (a client of the server) to store state information on the client side and retrieve it later for server use.
+> An HTTP server, when sending data to a client, may send along a cookie, which the client retains after the HTTP connection closes.
+> A server can use this mechanism to maintain persistent client-side state information for HTTP-based applications, retrieving the state information in later connections.
 
 ## CORRUPTION
 
- > A threat action that undesirably alters system operation by adversely modifying system functions or data.
+> A threat action that undesirably alters system operation by adversely modifying system functions or data.
 
 ## COST BENEFIT ANALYSIS
 
- > A cost benefit analysis compares the cost of implementing countermeasures with the value of the reduced risk.
+> A cost benefit analysis compares the cost of implementing countermeasures with the value of the reduced risk.
 
 ## COUNTERMEASURE
 
- > Reactive methods used to prevent an exploit from successfully occurring once a threat has been detected. Intrusion Prevention Systems (IPS) commonly employ countermeasures to prevent intruders form gaining further access to a computer network. Other counter measures are patches, access control lists and malware filters.
+> Reactive methods used to prevent an exploit from successfully occurring once a threat has been detected.
+> Intrusion Prevention Systems (IPS) commonly employ countermeasures to prevent intruders form gaining further access to a computer network.
+> Other counter measures are patches, access control lists and malware filters.
 
 ## COVERT CHANNELS
 
- > Covert Channels are the means by which information can be communicated between two parties in a covert fashion using normal system operations. For example by changing the amount of hard drive space that is available on a file server can be used to communicate information.
+> Covert Channels are the means by which information can be communicated between two parties in a covert fashion using normal system operations.
+> For example by changing the amount of hard drive space that is available on a file server can be used to communicate information.
 
 ## CRON
 
- > Cron is a Unix application that runs jobs for users and administrators at scheduled times of the day.
+> Cron is a Unix application that runs jobs for users and administrators at scheduled times of the day.
 
 ## CROSSOVER CABLE
 
- > A crossover cable connects transmit (TX) pins on one end to the receive (RX) pins on the other end. This way, the cable can connect to systems without the need for a hub or switch.
+> A crossover cable connects transmit (TX) pins on one end to the receive (RX) pins on the other end.
+> This way, the cable can connect to systems without the need for a hub or switch.
 
 ## CRYPTANALYSIS
 
- > The mathematical science that deals with analysis of a cryptographic system in order to gain knowledge needed to break or circumvent the protection that the system is designed to provide. In other words, convert the cipher text to plaintext without knowing the key.
+> The mathematical science that deals with analysis of a cryptographic system in order to gain knowledge needed to break or circumvent the protection that the system is designed to provide.
+> In other words, convert the cipher text to plaintext without knowing the key.
 
 ## CRYPTOGRAPHIC ALGORITHM OR HASH
 
- > An algorithm that employs the science of cryptography, including encryption algorithms, cryptographic hash algorithms, digital signature algorithms, and key agreement algorithms.
+> An algorithm that employs the science of cryptography, including encryption algorithms, cryptographic hash algorithms, digital signature algorithms, and key agreement algorithms.
 
 ## CUT-THROUGH
 
- > Cut-Through is a method of switching where only the header of a packet is read before it is forwarded to its destination.
+> Cut-Through is a method of switching where only the header of a packet is read before it is forwarded to its destination.
 
 ## CYCLIC REDUNDANCY CHECK (CRC)
 
- > Sometimes called "cyclic redundancy code." A type of checksum algorithm that is not a cryptographic hash but is used to implement data integrity service where accidental changes to data are expected.
+> Sometimes called "cyclic redundancy code".
+> A type of checksum algorithm that is not a cryptographic hash but is used to implement data integrity service where accidental changes to data are expected.
 
 ## DAEMON
 
- > A program which is often started at the time the system boots and runs continuously without intervention from any of the users on the system. The daemon program forwards the requests to other programs (or processes) as appropriate. The term daemon is a Unix term, though many other operating systems provide support for daemons, though they're sometimes called other names. Windows, for example, refers to daemons and System Agents and services.
+> A program which is often started at the time the system boots and runs continuously without intervention from any of the users on the system.
+> The daemon program forwards the requests to other programs (or processes) as appropriate.
+> The term daemon is a Unix term, though many other operating systems provide support for daemons, though they are sometimes called other names.
+> Windows, for example, refers to daemons and System Agents and services.
 
 ## DATA AGGREGATION
 
- > Data Aggregation is the ability to get a more complete picture of the information by analyzing several different types of records at once.
+> Data Aggregation is the ability to get a more complete picture of the information by analysing several different types of records at once.
 
 ## DATA CUSTODIAN
 
- > A Data Custodian is the entity currently using or manipulating the data, and therefore, temporarily taking responsibility for the data.
+> A Data Custodian is the entity currently using or manipulating the data, and therefore, temporarily taking responsibility for the data.
 
 ## DATA ENCRYPTION STANDARD (DES)
 
- > A widely-used method of data encryption using a private (secret) key. There are 72,000,000,000,000,000 (72 quadrillion) or more possible encryption keys that can be used. For each given message, the key is chosen at random from among this enormous number of keys. Like other private key cryptographic methods, both the sender and the receiver must know and use the same private key.
+> A widely-used method of data encryption using a private (secret) key.
+> There are 72,000,000,000,000,000 (72 quadrillion) or more possible encryption keys that can be used
+> For each given message, the key is chosen at random from among this enormous number of keys.
+> Like other private key cryptographic methods, both the sender and the receiver must know and use the same private key.
 
 ## DATA MINING
 
- > Data Mining is a technique used to analyze existing information, usually with the intention of pursuing new avenues to pursue business.
+> Data Mining is a technique used to analyze existing information, usually with the intention of pursuing new avenues to pursue business.
 
 ## DATA OWNER
 
- > A Data Owner is the entity having responsibility and authority for the data.
+> A Data Owner is the entity having responsibility and authority for the data.
 
 ## DATA WAREHOUSING
 
- > Data Warehousing is the consolidation of several previously independent databases into one location.
+> Data Warehousing is the consolidation of several previously independent databases into one location.
 
 ## DATAGRAM
 
- > Request for Comment 1594 says, "a self-contained, independent entity of data carrying sufficient information to be routed from the source to the destination computer without reliance on earlier exchanges between this source and destination computer and the transporting network." The term has been generally replaced by the term packet. Datagrams or packets are the message units that the Internet Protocol deals with and that the Internet transports. A datagram or packet needs to be self-contained without reliance on earlier exchanges because there is no connection of fixed duration between the two communicating points as there is, for example, in most voice telephone conversations. (This kind of protocol is referred to as connectionless.)
+> Request for Comment 1594 says, "a self-contained, independent entity of data carrying sufficient information to be routed from the source to the destination computer without reliance on earlier exchanges between this source and destination computer and the transporting network."
+> The term has been generally replaced by the term packet.
+> Datagrams or packets are the message units that the Internet Protocol deals with and that the Internet transports.
+> A datagram or packet needs to be self-contained without reliance on earlier exchanges because there is no connection of fixed duration between the two communicating points as there is, for example, in most voice telephone conversations.
+> (This kind of protocol is referred to as connectionless.)
 
 ## DAY ZERO
 
- > The "Day Zero" or "Zero Day" is the day a new vulnerability is made known. In some cases, a "zero day" exploit is referred to an exploit for which no patch is available yet. ("day one" - day at which the patch is made available).
+> The "Day Zero" or "Zero Day" is the day a new vulnerability is made known.
+> In some cases, a "zero day" exploit is referred to an exploit for which no patch is available yet.
+> ("day one" - day at which the patch is made available).
 
 ## DECAPSULATION
 
- > Decapsulation is the process of stripping off one layer's headers and passing the rest of the packet up to the next higher layer on the protocol stack.
+> Decapsulation is the process of stripping off one layer's headers and passing the rest of the packet up to the next higher layer on the protocol stack.
 
 ## DECRYPTION
 
- > Decryption is the process of transforming an encrypted message into its original plaintext.
+> Decryption is the process of transforming an encrypted message into its original plaintext.
 
 ## DEFACEMENT
 
- > Defacement is the method of modifying the content of a website in such a way that it becomes "vandalized" or embarrassing to the website owner.
+> Defacement is the method of modifying the content of a website in such a way that it becomes "vandalized" or embarrassing to the website owner.
 
 ## DEFENSE IN-DEPTH
 
- > Defense In-Depth is the approach of using multiple layers of security to guard against failure of a single security component.
+> Defense In-Depth is the approach of using multiple layers of security to guard against failure of a single security component.
 
 ## DEMILITARIZED ZONE (DMZ)
 
- > In computer security, in general a demilitarized zone (DMZ) or perimeter network is a network area (a subnetwork) that sits between an organization's internal network and an external network, usually the Internet.  DMZ's help to enable the layered security model in that they provide subnetwork segmentation based on security requirements or policy.  DMZ's provide either a transit mechanism from a secure source to an insecure destination or from an insecure source to a more secure destination. In some cases, a screened subnet which is used for servers accessible from the outside is referred to as a DMZ.
+> In computer security, in general a demilitarized zone (DMZ) or perimeter network is a network area (a subnetwork) that sits between an organization's internal network and an external network, usually the Internet.
+> DMZ's help to enable the layered security model in that they provide subnetwork segmentation based on security requirements or policy.
+> DMZ's provide either a transit mechanism from a secure source to an insecure destination or from an insecure source to a more secure destination.
+> In some cases, a screened subnet which is used for servers accessible from the outside is referred to as a DMZ.
 
 ## DENIAL OF SERVICE
 
- > The prevention of authorized access to a system resource or the delaying of system operations and functions.
+> The prevention of authorized access to a system resource or the delaying of system operations and functions.
 
 ## DICTIONARY ATTACK
 
- > An attack that tries all of the phrases or words in a dictionary, trying to crack a password or key. A dictionary attack uses a predefined list of words compared to a brute force attack that tries all possible combinations.
+> An attack that tries all of the phrases or words in a dictionary, trying to crack a password or key.
+> A dictionary attack uses a predefined list of words compared to a brute force attack that tries all possible combinations.
 
 ## DIFFIE-HELLMAN
 
- > A key agreement algorithm published in 1976 by Whitfield Diffie and Martin Hellman. Diffie-Hellman does key establishment, not encryption. However, the key that it produces may be used for encryption, for further key management operations, or for any other cryptography.
+> A key agreement algorithm published in 1976 by Whitfield Diffie and Martin Hellman.
+> Diffie-Hellman does key establishment, not encryption.
+> However, the key that it produces may be used for encryption, for further key management operations, or for any other cryptography.
 
 ## DIGEST AUTHENTICATION
 
- > Digest Authentication allows a web client to compute MD5 hashes of the password to prove it has the password.
+> Digest Authentication allows a web client to compute MD5 hashes of the password to prove it has the password.
 
 ## DIGITAL CERTIFICATE
 
- > A digital certificate is an electronic "credit card" that establishes your credentials when doing business or other transactions on the Web. It is issued by a certification authority. It contains your name, a serial number, expiration dates, a copy of the certificate holder's public key (used for encrypting messages and digital signatures), and the digital signature of the certificate-issuing authority so that a recipient can verify that the certificate is real.
+> A digital certificate is an electronic "credit card" that establishes your credentials when doing business or other transactions on the Web.
+> It is issued by a certification authority.
+> It contains your name, a serial number, expiration dates, a copy of the certificate holder's public key (used for encrypting messages and digital signatures), and the digital signature of the certificate-issuing authority so that a recipient can verify that the certificate is real.
 
 ## DIGITAL ENVELOPE
 
- > A digital envelope is an encrypted message with the encrypted session key.
+> A digital envelope is an encrypted message with the encrypted session key.
 
 ## DIGITAL SIGNATURE
 
- > A digital signature is a hash of a message that uniquely identifies the sender of the message and proves the message hasn't changed since transmission.
+> A digital signature is a hash of a message that uniquely identifies the sender of the message and proves the message has not changed since transmission.
 
 ## DIGITAL SIGNATURE ALGORITHM (DSA)
 
- > An asymmetric cryptographic algorithm that produces a digital signature in the form of a pair of large numbers. The signature is computed using rules and parameters such that the identity of the signer and the integrity of the signed data can be verified.
+> An asymmetric cryptographic algorithm that produces a digital signature in the form of a pair of large numbers.
+> The signature is computed using rules and parameters such that the identity of the signer and the integrity of the signed data can be verified.
 
 ## DIGITAL SIGNATURE STANDARD (DSS)
 
- > The US Government standard that specifies the Digital Signature Algorithm (DSA), which involves asymmetric cryptography.
+> The US Government standard that specifies the Digital Signature Algorithm (DSA), which involves asymmetric cryptography.
 
 ## DISASSEMBLY
 
- > The process of taking a binary program and deriving the source code from it.
+> The process of taking a binary program and deriving the source code from it.
 
 ## DISASTER RECOVERY PLAN (DRP)
 
- > A Disaster Recovery Plan is the process of recovery of IT systems in the event of a disruption or disaster.
+> A Disaster Recovery Plan is the process of recovery of IT systems in the event of a disruption or disaster.
 
 ## DISCRETIONARY ACCESS CONTROL (DAC)
 
- > Discretionary Access Control consists of something the user can manage, such as a document password.
+> Discretionary Access Control consists of something the user can manage, such as a document password.
 
 ## DISRUPTION
 
- > A circumstance or event that interrupts or prevents the correct operation of system services and functions.
+> A circumstance or event that interrupts or prevents the correct operation of system services and functions.
 
 ## DISTANCE VECTOR
 
- > Distance vectors measure the cost of routes to determine the best route to all known networks.
+> Distance vectors measure the cost of routes to determine the best route to all known networks.
 
 ## DISTRIBUTED SCANS
 
- > Distributed Scans are scans that use multiple source addresses to gather information.
+> Distributed Scans are scans that use multiple source addresses to gather information.
 
 ## DNS CACHE POISONING
 
- > Malicious or misleading data from a remote name server is saved [cached] by another name server. Typically used with DNS cache poisoning attacks.
-
-The attacker will typically flood the victim with malicious DNS responses, hoping that one of them will arrive just after the victim requested a particular name. The attacker needs to spoof the authoritative name server's IP address and guess the right query ID in order for the response to be accepted.
+> Malicious or misleading data from a remote name server is saved [cached] by another name server.
+> Typically used with DNS cache poisoning attacks.
+>
+> The attacker will typically flood the victim with malicious DNS responses, hoping that one of them will arrive just after the victim requested a particular name.
+> The attacker needs to spoof the authoritative name server's IP address and guess the right query ID in order for the response to be accepted.
 
 ## DOMAIN
 
- > A sphere of knowledge, or a collection of facts about some program entities or a number of network points or addresses, identified by a name. On the Internet, a domain consists of a set of network addresses. In the Internet's domain name system, a domain is a name with which name server records are associated that describe sub-domains or host. In Windows NT and Windows 2000, a domain is a set of network resources (applications, printers, and so forth) for a group of users. The user need only to log in to the domain to gain access to the resources, which may be located on a number of different servers in the network.
+> A sphere of knowledge, or a collection of facts about some program entities or a number of network points or addresses, identified by a name.
+> On the Internet, a domain consists of a set of network addresses.
+> In the Internet's domain name system, a domain is a name with which name server records are associated that describe sub-domains or host.
+> In Windows NT and Windows 2000, a domain is a set of network resources (applications, printers, and so forth) for a group of users.
+> The user need only to log in to the domain to gain access to the resources, which may be located on a number of different servers in the network.
 
 ## DOMAIN HIJACKING
 
- > Domain hijacking is an attack by which an attacker takes over a domain by first blocking access to the domain's DNS server and then putting his own server up in its place.
+> Domain hijacking is an attack by which an attacker takes over a domain by first blocking access to the domain's DNS server and then putting his own server up in its place.
 
 ## DOMAIN NAME
 
- > A domain name locates an organization or other entity on the Internet. For example, the domain name "www.sans.org" locates an Internet address for "sans.org" at Internet point 199.0.0.2 and a particular host server named "www". The "org" part of the domain name reflects the purpose of the organization or entity (in this example, "organization") and is called the top-level domain name. The "sans" part of the domain name defines the organization or entity and together with the top-level is called the second-level domain name.
+> A domain name locates an organization or other entity on the Internet.
+> For example, the domain name "www.sans.org" locates an Internet address for "sans.org" at Internet point 199.0.0.2 and a particular host server named "www".
+> The "org" part of the domain name reflects the purpose of the organization or entity (in this example, "organization") and is called the top-level domain name.
+> The "sans" part of the domain name defines the organization or entity and together with the top-level is called the second-level domain name.
 
 ## DOMAIN NAME SYSTEM (DNS)
 
- > The domain name system (DNS) is the way that Internet domain names are located and translated into Internet Protocol addresses. A domain name is a meaningful and easy-to-remember "handle" for an Internet address.
+> The domain name system (DNS) is the way that Internet domain names are located and translated into Internet Protocol addresses.
+> A domain name is a meaningful and easy-to-remember "handle" for an Internet address.
 
 ## DUE CARE
 
- > Due care ensures that a minimal level of protection is in place in accordance with the best practice in the industry.
+> Due care ensures that a minimal level of protection is in place in accordance with the best practice in the industry.
 
 ## DUE DILIGENCE
 
- > Due diligence is the requirement that organizations must develop and deploy a protection plan to prevent fraud, abuse, and additionally deploy a means to detect them if they occur.
+> Due diligence is the requirement that organizations must develop and deploy a protection plan to prevent fraud, abuse, and additionally deploy a means to detect them if they occur.
 
 ## DUMPSEC
 
- > DumpSec is a security tool that dumps a variety of information about a system's users, file system, registry, permissions, password policy, and services.
+> DumpSec is a security tool that dumps a variety of information about a system's users, file system, registry, permissions, password policy, and services.
 
 ## DUMPSTER DIVING
 
- > Dumpster Diving is obtaining passwords and corporate directories by searching through discarded media.
+> Dumpster Diving is obtaining passwords and corporate directories by searching through discarded media.
 
 ## DYNAMIC LINK LIBRARY
 
- > A collection of small programs, any of which can be called when needed by a larger program that is running in the computer. The small program that lets the larger program communicate with a specific device such as a printer or scanner is often packaged as a DLL program (usually referred to as a DLL file).
+> A collection of small programs, any of which can be called when needed by a larger program that is running in the computer.
+> The small program that lets the larger program communicate with a specific device such as a printer or scanner is often packaged as a DLL program (usually referred to as a DLL file).
 
 ## DYNAMIC ROUTING PROTOCOL
 
- > Allows network devices to learn routes. Ex. RIP, EIGRP Dynamic routing occurs when routers talk to adjacent routers, informing each other of what networks each router is currently connected to. The routers must communicate using a routing protocol, of which there are many to choose from. The process on the router that is running the routing protocol, communicating with its neighbor routers, is usually called a routing daemon. The routing daemon updates the kernel's routing table with information it receives from neighbor routers.
+> Allows network devices to learn routes.
+> Ex. RIP, EIGRP Dynamic routing occurs when routers talk to adjacent routers, informing each other of what networks each router is currently connected to.
+> The routers must communicate using a routing protocol, of which there are many to choose from.
+> The process on the router that is running the routing protocol, communicating with its neighbour routers, is usually called a routing daemon.
+> The routing daemon updates the kernel's routing table with information it receives from neighbour routers.
 
 ## EAVESDROPPING
 
- > Eavesdropping is simply listening to a private conversation which may reveal information which can provide access to a facility or network.
+> Eavesdropping is simply listening to a private conversation which may reveal information which can provide access to a facility or network.
 
 ## ECHO REPLY
 
- > An echo reply is the response a machine that has received an echo request sends over ICMP.
+> An echo reply is the response a machine that has received an echo request sends over ICMP.
 
 ## ECHO REQUEST
 
- > An echo request is an ICMP message sent to a machine to determine if it is online and how long traffic takes to get to it.
+> An echo request is an ICMP message sent to a machine to determine if it is online and how long traffic takes to get to it.
 
 ## EGRESS FILTERING
 
- > Filtering outbound traffic.
+> Filtering outbound traffic.
 
 ## EMANATIONS ANALYSIS
 
- > Gaining direct knowledge of communicated data by monitoring and resolving a signal that is emitted by a system and that contains the data but is not intended to communicate the data.
+> Gaining direct knowledge of communicated data by monitoring and resolving a signal that is emitted by a system and that contains the data but is not intended to communicate the data.
 
 ## ENCAPSULATION
 
- > The inclusion of one data structure within another structure so that the first data structure is hidden for the time being.
+> The inclusion of one data structure within another structure so that the first data structure is hidden for the time being.
 
 ## ENCRYPTION
 
- > Cryptographic transformation of data (called "plaintext") into a form (called "cipher text") that conceals the data's original meaning to prevent it from being known or used.
+> Cryptographic transformation of data (called "plaintext") into a form (called "cipher text") that conceals the data's original meaning to prevent it from being known or used.
 
 ## EPHEMERAL PORT
 
@@ -580,7 +682,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 ## EXTERIOR GATEWAY PROTOCOL (EGP)
 
  > A protocol which distributes routing information to the routers which connect autonomous systems.
-
 
 ## FALSE REJECTS
 
@@ -751,7 +852,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
  > A hub is a network device that operates by repeating data that it receives on one port to all the other ports. As a result, data transmitted by one host is retransmitted to all other hosts on the hub.
 
 ## HYBRID ATTACK
-
 
  > A Hybrid Attack builds on the dictionary attack method by adding numerals and symbols to dictionary words.
 
@@ -1087,7 +1187,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
  > Password Authentication Protocol is a simple, weak authentication mechanism where a user enters the password and it is then sent across the network, usually in the clear.
 
-
 ## PASSWORD CRACKING
 
  > Password cracking is the process of attempting to guess passwords, given the password file information.
@@ -1126,7 +1225,7 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
 ## PHARMING
 
- > This is a more sophisticated form of MITM attack. A user's session is redirected to a masquerading website. This can be achieved by corrupting a DNS server on the Internet and pointing a URL to the masquerading website's IP. Almost all users use a URL like www.worldbank.com instead of the real IP (192.86.99.140) of the website. Changing the pointers on a DNS server, the URL can be redirected to send traffic to the IP of the pseudo website. At the pseudo website, transactions can be mimicked and information like login credentials can be gathered. With this the attacker can access the real www.worldbank.com site and conduct transactions using the credentials of a valid user on that website.
+ > This is a more sophisticated form of MITM attack. A user's session is redirected to a masquerading website. This can be achieved by corrupting a DNS server on the Internet and pointing a URL to the masquerading website's IP. Almost all users use a URL like <www.worldbank.com> instead of the real IP (192.86.99.140) of the website. Changing the pointers on a DNS server, the URL can be redirected to send traffic to the IP of the pseudo website. At the pseudo website, transactions can be mimicked and information like login credentials can be gathered. With this the attacker can access the real <www.worldbank.com> site and conduct transactions using the credentials of a valid user on that website.
 
 ## PHISHING
 
@@ -1163,7 +1262,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 ## POLYINSTANTIATION
 
  > Polyinstantiation is the ability of a database to maintain multiple records with the same key. It is used to prevent inference attacks.
-
 
 ## POLYMORPHISM
 
@@ -1371,7 +1469,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
 ## SECURE SOCKETS LAYER (SSL)
 
-
  > SSL was originally created by Netscape around 1994. SSL provides an encrypted tunnel that can be used to protect various application layer protocols like HTTP. HTTPS is probably the most prominent use of SSL and its successor, TLS (Transport Layer Security). SSL combines the best parts of asymmetric (public/private key) and symmetric cryptography. Computationally expensive asymmetric cryptography is only used to configure a symmetric key and encryption algorithm, as well as for authentication. The bulk of the data is encrypted using the unique session key and a cheaper symmetric encryption algorithm negotiated during the initial setup.
 
 ## SECURITY POLICY
@@ -1480,7 +1577,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
 ## SOURCE PORT
 
-
  > The port that a host uses to connect to a server. It is usually a number greater than or equal to 1024. It is randomly generated and is different each time a connection is made.
 
 ## SPAM
@@ -1578,7 +1674,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 ## SWITCH
 
  > A switch is a networking device that keeps track of MAC addresses attached to each of its ports so that data is only transmitted on the ports that are the intended recipient of the data.
-
 
 ## SWITCHED NETWORK
 
@@ -1720,7 +1815,6 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
  > Trunking is connecting switched together so that they can share VLAN information between them.
 
-
 ## TRUST
 
  > Trust determine which permissions and what actions other systems or users can perform on remote machines.
@@ -1747,7 +1841,7 @@ The attacker will typically flood the victim with malicious DNS responses, hopin
 
 ## UNIFORM RESOURCE LOCATOR (URL)
 
- > The global address of documents and other resources on the World Wide Web. The first part of the address indicates what protocol to use, and the second part specifies the IP address or the domain name where the resource is located. For example, http://www.pcwebopedia.com/index.html .
+ > The global address of documents and other resources on the World Wide Web. The first part of the address indicates what protocol to use, and the second part specifies the IP address or the domain name where the resource is located. For example, <http://www.pcwebopedia.com/index.html> .
 
 ## UNIX
 
