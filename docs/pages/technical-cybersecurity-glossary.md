@@ -1,5 +1,7 @@
-# technical cybersecurity glossary, information security, networking, linux and identify management
-
+---
+title: technical cybersecurity glossary, information security, networking, linux and identify management
+categories: ["glossary", "cybersecurity"]
+tags:       ["glossary", "cybersecurity", "networking", "linux", "identify", "json", "javascript"]
 ---
 
 ## intro
