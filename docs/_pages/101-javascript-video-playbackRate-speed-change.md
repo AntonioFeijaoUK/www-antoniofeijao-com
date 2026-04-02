@@ -1,5 +1,6 @@
 ---
 title: "101-javascript video playbackRate speed change"
+date: 2023-03-03
 categories:
   - pages
   - javascript
