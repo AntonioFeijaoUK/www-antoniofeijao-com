@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        {% include site-header.html %}
+        {% include nav.html %}
+      </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <main id="main_content" class="inner" aria-label="Main content">
+
+        {% if page.collection == "stories" and page.cover %}
+  <div class="story-hero">
+    <img
+      src="{{ page.cover | relative_url }}"
+      alt="Cover image for {{ page.title }}"
+      loading="lazy">
+
+    <div class="story-hero-title">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+{% else %}
+  {% if page.title %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
+{% endif %}
+
+        {% if page.collection == "stories" %}
+          <div class="story-meta">
+            {% if page.author %}
+              <strong>Author:</strong> {{ page.author }}<br>
+            {% endif %}
+
+            {% if page.date %}
+              <strong>Published:</strong> {{ page.date | date: "%-d %B %Y" }}<br>
+            {% endif %}
+
+            {% if page.licence %}
+              <strong>Licence:</strong> {{ page.licence }}<br>
+            {% endif %}
+
+            <strong>Permanent link:</strong>
+            <a href="{{ page.url | absolute_url }}">Permanent link</a>
+          </div>
+        {% endif %}
+
+        {{ content }}
+
+      </main>
+    </div>
+  </body>
+</html>
