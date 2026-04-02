@@ -1,0 +1,34 @@
+locale: en_GB
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+  - scope:
+      path: ""
+      type: "stories"
+    values:
+      layout: default
+
+# SEO / metadata improvements
+author: "Antonio Feijao"
+twitter:
+  card: summary
+
+exclude:
+  - README.md
+  - LICENSE
