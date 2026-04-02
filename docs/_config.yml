@@ -1,3 +1,9 @@
+title: "Antonio Feijao UK – Cyber Security Architect Learning by Doing"
+description: "Insights and projects by Antonio Feijao, UK Security Architect at Genomics England. Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3."
+
+url: "https://www.antoniofeijao.com/"
+baseurl: ""
+
 locale: en_GB
 
 markdown: kramdown
