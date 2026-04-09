@@ -9,6 +9,7 @@ tags:
     - bash
     - shell-scripting
     - parallel
+description: "Linux tee command explained with practical examples for writing command output to files while keeping output visible in terminal."
 ---
 
 # linux-command-tee-examples-how-it-works

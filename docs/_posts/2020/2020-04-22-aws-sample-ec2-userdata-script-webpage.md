@@ -2,6 +2,7 @@
 date: 2020-04-21
 last_modified_at: 2021-12-16
 title: AWS EC2 userdata sample script to build an Webpage
+description: "AWS EC2 user-data script example that installs Apache and builds a dynamic landing page with instance metadata."
 categories:
     - AWS
     - Linux

@@ -1,6 +1,7 @@
 ---
 date: 2022-06-17
 title: Rubik's cube solved in 3 minutes by Antonio Feijao
+description: "Personal milestone post featuring a Rubik’s Cube solve in under three minutes with embedded video showcase."
 categories: ["Puzzles", "Rubik-cube"]
 tags:       ["puzzle", "rubik-cube", "problem-solving"]
 ---

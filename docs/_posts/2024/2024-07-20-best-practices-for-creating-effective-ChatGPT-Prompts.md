@@ -1,6 +1,7 @@
 ---
 date: 2024-07-20
 title: "Best Practices for Creating Effective ChatGPT Prompts"
+description: "Practical prompt-writing guide discussing best practices for creating clearer, more effective ChatGPT requests and outputs."
 
 #layout: splash
 excerpt_separator: <!-- more -->
@@ -26,7 +27,6 @@ Well, why don't you just ask [ChatGPT](https://openai.com/index/chatgpt/)?
 
 Below, content by [ChatGPT-4o](https://openai.com/index/chatgpt/) and tweaked by [Antonio Feijao UK](https://www.antoniofeijao.com/).
 
-# Best Practices for Creating Effective ChatGPT Prompts
 
 ## 1. Clarity and Specificity
 

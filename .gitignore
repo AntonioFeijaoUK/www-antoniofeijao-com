@@ -20,6 +20,7 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+docs/_site/
 
 # Ruby / Bundler
 .bundle-cache/

@@ -3,6 +3,7 @@ date: 2020-11-18
 last_modified_at: 2021-08-02
 
 title: "Install and connect to a Raspberry Pi without monitor"
+description: "Headless Raspberry Pi setup guide showing OS installation, Wi-Fi preconfiguration, and SSH access without attaching a monitor."
 
 categories:
     - Linux
@@ -172,7 +173,7 @@ pi@raspberrypi:~ $ sudo raspi-config
 
 ![sudo-raspi-config.png](/assets/images/sudo-raspi-config.png)
 
-For example, change hostname, update config for your needs, check my other post on category [raspberry-pi](https://antonio.cloud/categories/#raspberry-pi)
+For example, change hostname, update config for your needs, check my other post on category [raspberry-pi](https://antoniofeijao.com/categories/#raspberry-pi)
 
 ---
 

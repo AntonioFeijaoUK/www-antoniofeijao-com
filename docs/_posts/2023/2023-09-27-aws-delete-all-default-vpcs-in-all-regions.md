@@ -1,6 +1,7 @@
 ---
 date: 2023-09-27
 title: "AWS CLI command-line script - How to automatically delete the Default-VPCs in all AWS regions"
+description: "AWS CLI script walkthrough for deleting default VPCs across regions, with dependency caveats and permission considerations."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

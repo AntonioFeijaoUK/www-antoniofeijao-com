@@ -8,6 +8,7 @@ tags:
     - linux
     - security
     - networking
+description: "Linux iptables cheat sheet covering IP and port blocking, rule removal, and saving firewall changes for persistent host-level traffic control."
 ---
 
 # linux-iptables-block-ip

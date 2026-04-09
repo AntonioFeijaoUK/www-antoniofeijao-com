@@ -12,6 +12,7 @@ tags:
   - linux
   - apache
   - migration
+description: "Project summary describing Linux, MySQL, and Wikimedia content recovery and decoupling work for migration and service separation goals."
 ---
 
 # project-ninjapt

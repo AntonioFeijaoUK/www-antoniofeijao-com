@@ -8,6 +8,7 @@ tags:
     - training
     - cloud
     - finance
+description: "Short finance learning note linking to online training resources and video content for foundational self-study."
 ---
 
 # Financial learning

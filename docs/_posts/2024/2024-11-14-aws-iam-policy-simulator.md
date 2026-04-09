@@ -3,6 +3,7 @@ date: 2024-11-14
 last_modified_at: 2024-11-14
 
 title: "AWS IAM Policy Simulator"
+description: "Practical guide to AWS IAM Policy Simulator for validating least-privilege access, testing policy changes safely, and troubleshooting denied permissions before production rollout."
 
 #layout: splash
 excerpt_separator: <!-- more -->

@@ -9,6 +9,7 @@ tags:
     - linux
     - internet
     - networking
+description: "Simple Linux command reference using ipinfo.io and curl to verify public IP details over HTTP and HTTPS for quick connectivity checks."
 ---
 
 # linux-what-is-my-ip-ipinfo

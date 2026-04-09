@@ -10,6 +10,7 @@ tags:
     - python-3
     - bash
     - shell-scripting
+description: "Personal Python 3 learning journey from shell scripting foundations to practical projects, including beginner workflow notes and study resources."
 ---
 
 # python3-learning

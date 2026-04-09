@@ -1,6 +1,7 @@
 ---
 date: 2022-10-06
 title: "HACKING GOOGLE"
+description: "Reference post highlighting the Hacking Google security series and related learning content."
 categories: ["Google", "Hacking", "Learning"]
 tags:       ["hacker", "security", "learning"]
 ---

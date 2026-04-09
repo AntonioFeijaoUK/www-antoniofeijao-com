@@ -8,6 +8,7 @@ tags:
     - security
     - internet
     - advertising
+description: "Quick guide to integrating Fail2Ban with AbuseIPDB to automatically report malicious IPs and strengthen Linux host defence workflows."
 ---
 
 # linux-fail2ban-integration-with-abuseipdb

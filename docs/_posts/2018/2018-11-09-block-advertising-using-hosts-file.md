@@ -1,5 +1,6 @@
 ---
-title: block-advertising-using-hosts-file
+title: "Block Advertising with a Hosts File on Linux"
+description: "Linux bash walkthrough for building a hosts-based domain blocklist to reduce ads and malicious lookups by aggregating public sources and normalising entries."
 date: 2018-11-09
 categories:
     - Linux

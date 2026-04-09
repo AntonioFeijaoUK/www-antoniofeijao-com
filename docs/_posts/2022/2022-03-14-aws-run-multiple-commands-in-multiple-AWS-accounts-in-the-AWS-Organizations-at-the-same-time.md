@@ -1,6 +1,7 @@
 ---
 date: 2022-03-14
-title: AWS run multiple commands in multiple AWS accounts in the AWS Organizations at the same time
+title: "Run AWS CLI Commands Across Multiple AWS Organization Accounts"
+description: "AWS CLI automation approach to execute commands across multiple AWS Organization accounts with parallelised operational workflows."
 categories: ["AWS", "CLI", "commands", "AWS Organizations"]
 tags:       ["aws", "cli", "commands", "linux", "bash", "scripting", "aws organizations", "coding"]
 ---

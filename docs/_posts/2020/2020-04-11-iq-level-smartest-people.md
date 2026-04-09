@@ -2,6 +2,7 @@
 date: 2020-04-11
 last_modified_at: 2024-02-19
 title: Level of IQ of the smartest people on Earth
+description: "Curated educational list of historically notable high-IQ figures with references, created for inspiration and general learning."
 categories:
     - Knowledge
     - Science
@@ -355,4 +356,4 @@ Images from [wikipedia.org](https://en.wikipedia.org)
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

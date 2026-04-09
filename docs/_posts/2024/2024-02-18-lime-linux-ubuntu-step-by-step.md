@@ -1,6 +1,7 @@
 ---
 date: 2024-02-18
-title: "lime-linux-ubuntu-step-by-step"
+title: "LiME on Ubuntu: Live Memory Capture Step by Step"
+description: "Step-by-step LiME setup on Ubuntu for live memory acquisition, with command sequence and reference materials for forensics practice."
 
 #layout: splash
 excerpt_separator: <!--more-->

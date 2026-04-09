@@ -9,6 +9,7 @@ tags:
     - security
     - authentication
     - linux
+description: "AWS STS assume-role command example that converts temporary credentials into exportable environment variables for CLI sessions and automation use."
 ---
 
 # aws-cli-iam-roles-and-tokes

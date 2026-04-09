@@ -1,5 +1,6 @@
 ---
 title: "AWS pages with dark-theme feature"
+description: "Tip for enabling AWS website dark theme via browser cookie settings, including simple test instructions."
 
 date: 2021-12-15
 last_modified_at: 2021-12-15
@@ -69,4 +70,4 @@ then found it in here <https://twitter.com/rpadovani93/status/141958350029085900
 
 Happy learning!
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

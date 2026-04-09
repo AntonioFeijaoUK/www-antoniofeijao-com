@@ -11,6 +11,7 @@ tags:
     - python-3
     - electronics
     - raspberry-pi
+description: "Raspberry Pi and Python 3 hobby build for Stranger Things-style alphabet wall lights using addressable LEDs and basic electronics components."
 ---
 
 # raspberry-pi-stranger-things-alphabet-wall-lights

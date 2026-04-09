@@ -3,6 +3,7 @@ date: 2024-11-14
 last_modified_at: 2024-11-14
 
 title: "Hashcat in AWS GPUs NVIDIA and password cracking, including performance benchmarks"
+description: "Educational Hashcat walkthrough with attack modes and AWS GPU benchmarks, showing password cracking speed differences and practical defensive recommendations for stronger authentication."
 
 #layout: splash
 excerpt_separator: <!--more-->

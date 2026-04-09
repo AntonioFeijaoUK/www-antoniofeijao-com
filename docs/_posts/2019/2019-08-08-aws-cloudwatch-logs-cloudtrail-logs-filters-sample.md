@@ -8,6 +8,7 @@ tags:
     - aws
     - linux
     - security
+description: "Collection of AWS CloudWatch and CloudTrail filter pattern examples for VPC flow logs, failed sign-ins, non-MFA logins, and source IP exclusions."
 ---
 
 # aws-cloudwatch-logs-cloudtrail-logs-filters-sample

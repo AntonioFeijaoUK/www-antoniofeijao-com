@@ -1,6 +1,7 @@
 ---
 date: 2023-01-30
 title: "AWS SSM documents and SSM session-start command to ssh directly to an instance without using the ssh keys"
+description: "AWS SSM start-session and document usage notes for instance access without SSH keys, with supporting CLI query examples."
 #layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 #permalink: /plugins/

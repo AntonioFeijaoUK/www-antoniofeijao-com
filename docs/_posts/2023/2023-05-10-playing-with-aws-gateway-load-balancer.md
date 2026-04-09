@@ -1,6 +1,7 @@
 ---
 date: 2023-05-10
-title: "AWS advanced networking playing with AWS Gateway Load balancer"
+title: "AWS Gateway Load Balancer Hands-On Notes"
+description: "Hands-on AWS Gateway Load Balancer workshop notes with networking and firewall-focused experimentation steps."
 #layout: splash
 excerpt_separator: <!--more-->
 #permalink: /plugins/

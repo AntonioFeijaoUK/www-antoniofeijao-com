@@ -1,6 +1,7 @@
 ---
 date: 2023-01-13
 title: "AWS SSM command to tunnel proxy network traffic to another remote instance"
+description: "AWS SSM port-forwarding command examples to proxy traffic through one instance and securely reach internal remote services."
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 #permalink: /plugins/
 categories: ["AWS", "SSM", "Tunnel", "Proxy"]

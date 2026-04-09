@@ -1,6 +1,7 @@
 ---
 date: 2023-06-09
-title: "Raspberry Pi 4 as a router with ufw rules"
+title: "Raspberry Pi 4 Router Setup with UFW Rules"
+description: "Raspberry Pi 4 router setup using UFW rules, including NAT and firewall configuration workflow for home lab networking."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

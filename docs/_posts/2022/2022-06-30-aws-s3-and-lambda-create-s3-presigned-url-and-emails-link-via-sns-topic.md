@@ -1,6 +1,7 @@
 ---
 date: 2022-06-30
 title: "AWS S3 PutObject automatically creates a S3 Presigned URl and emails the link via SNS topic"
+description: "AWS Lambda workflow triggered by S3 uploads to generate presigned URLs and send notification links via SNS."
 categories: ["AWS", "S3", "Lambda", "SNS"]
 tags:       ["automation", "security", "file-sharing"]
 ---

@@ -1,6 +1,7 @@
 ---
 date: 2023-02-11
 title: "Linux bash script, basic script that records the website availability HTTP code 200s, 300s, 400s, 500s"
+description: "Bash script example to monitor website availability and log HTTP response status classes for basic uptime tracking."
 #layout: splash
 excerpt_separator: <!--more-->
 #permalink: /plugins/

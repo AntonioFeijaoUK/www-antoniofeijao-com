@@ -1,0 +1,40 @@
+<article class="content-card">
+  {% if include.item.cover %}
+    <div class="content-card-image">
+      <a href="{{ include.item.url | relative_url }}">
+        <img
+          src="{{ include.item.cover | relative_url }}"
+          alt="Cover image for {{ include.item.title }}"
+          loading="lazy">
+      </a>
+    </div>
+  {% endif %}
+
+  <div class="content-card-body">
+    {% if include.section_label %}
+      <p class="content-card-section-label">{{ include.section_label }}</p>
+    {% endif %}
+
+    <h2>
+      <a href="{{ include.item.url | relative_url }}">{{ include.item.title }}</a>
+    </h2>
+
+    {% if include.item.date %}
+      <p class="content-meta">
+        Published: {{ include.item.date | date: "%-d %B %Y" }}
+      </p>
+    {% endif %}
+
+    {% if include.item.description %}
+      <p>{{ include.item.description }}</p>
+    {% elsif include.item.excerpt %}
+      <p>{{ include.item.excerpt | strip_html | truncate: 220 }}</p>
+    {% endif %}
+
+    <p>
+      <a href="{{ include.item.url | relative_url }}">
+        {{ include.link_label | default: "Read more" }}
+      </a>
+    </p>
+  </div>
+</article>

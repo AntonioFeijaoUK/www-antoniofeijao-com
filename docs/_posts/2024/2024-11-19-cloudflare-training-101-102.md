@@ -3,6 +3,7 @@ date: 2024-11-19
 last_modified_at: 2024-11-19
 
 title: "Introduction to Cloudflare - Empowering Secure and Efficient Internet Experiences"
+description: "Introduction to Cloudflare fundamentals covering performance, security, CDN, WAF, DDoS protection, and Zero Trust concepts."
 
 #layout: splash
 excerpt_separator: <!--more-->
@@ -17,7 +18,6 @@ tags:
   - waf
 ---
 
-# Introduction to Cloudflare: Empowering Secure and Efficient Internet Experiences
 
 Cloudflare has emerged as a critical player in enhancing the performance, reliability, and security of the internet.
 

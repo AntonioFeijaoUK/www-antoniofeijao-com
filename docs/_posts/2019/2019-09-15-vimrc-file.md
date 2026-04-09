@@ -7,6 +7,7 @@ tags:
     - linux
     - coding
     - vim
+description: "Practical .vimrc configuration notes covering useful Vim options, editor behaviour tweaks, and customisation tips for daily terminal editing."
 ---
 
 # vim and vimrc file options

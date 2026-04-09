@@ -1,6 +1,7 @@
 ---
 date: 2023-06-23
-title: "Using a Raspberry Pi 4 as a router with iptables"
+title: "Raspberry Pi 4 Router Setup with iptables"
+description: "Detailed Raspberry Pi 4 routing guide using native iptables rules to learn packet flow, NAT, and stateful filtering."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

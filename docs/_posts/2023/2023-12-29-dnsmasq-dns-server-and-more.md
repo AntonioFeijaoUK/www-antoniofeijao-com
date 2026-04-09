@@ -1,6 +1,7 @@
 ---
 date: 2023-12-29
 title: "Linux dnsmasq options, dns-server and more"
+description: "Practical dnsmasq notes and options overview for lightweight DNS server setup and local network resolution management."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

@@ -1,6 +1,7 @@
 ---
 date: 2023-05-22
 title: "AWS hands-on self-paced workshops"
+description: "Curated list of AWS self-paced hands-on workshops, focused on practical cloud and security learning paths."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

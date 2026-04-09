@@ -9,6 +9,7 @@ tags:
     - raspberry-pi
     - bash
     - shell-scripting
+description: "Linux command examples using lsusb, grep, awk, and v4l2-ctl to inspect and compare supported webcam resolutions on Raspberry Pi systems."
 ---
 
 # raspberry-pi-camera-resolution

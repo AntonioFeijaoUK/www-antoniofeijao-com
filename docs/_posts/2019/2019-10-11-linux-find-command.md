@@ -6,6 +6,7 @@ tags:
     - linux
     - security
     - bash
+description: "Linux find command notes with practical examples and warnings, including safer usage patterns for powerful options like -exec."
 ---
 
 # linux-find-command

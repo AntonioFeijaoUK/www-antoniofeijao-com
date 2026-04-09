@@ -1,6 +1,7 @@
 ---
 date: 2022-03-18
 title: Python3 start learning first commands
+description: "Python 3 beginner notes with first commands, simple exercises, and foundational guidance for early hands-on learning."
 categories: ["Python3", "Learning", "first-commands"]
 tags:       ["python", "python3", "learning", "first-command"]
 ---

@@ -3,6 +3,7 @@ date: 2020-02-27
 last_modified_at: 2020-02-27
 
 title: "Practice Python 3 with the fibonacci sequence"
+description: "Beginner Python 3 practice using Fibonacci sequence logic to build problem-solving skills and reinforce coding fundamentals."
 
 categories:
     - Python-3
@@ -15,7 +16,6 @@ tags:
     
 ---
 
-# practice-python-3-with-the-fibonacci-sequence
 
 Learn Python with a simple "do it yourself" challenges. I went to bed thinking "how could I do the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) without looking on the internet. Next day, getting python skills into practice, I came up with the below basic python code:
 
@@ -41,5 +41,5 @@ Let me know if this was useful.
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)
 

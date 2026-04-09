@@ -9,6 +9,7 @@ tags:
     - coding
     - reinvent
     - devops
+description: "Short DevSecOps awareness note encouraging security-first culture by embedding development, operations, and security practices into organisational workflows."
 ---
 
 # devsecops-in-your-company-dna

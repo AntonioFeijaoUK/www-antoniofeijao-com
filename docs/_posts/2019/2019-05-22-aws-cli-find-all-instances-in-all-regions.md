@@ -7,6 +7,7 @@ tags:
     - aws
     - ec2
     - command-line
+description: "AWS CLI loop script to enumerate EC2 instances across all regions with account owner, availability zone, VPC, instance type, and state."
 ---
 
 # aws-cli-find-all-instances-in-all-regions

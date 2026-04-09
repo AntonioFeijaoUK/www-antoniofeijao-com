@@ -8,6 +8,7 @@ tags:
     - aws
     - cloud
     - services
+description: "AWS CLI and jq method to extract and list available AWS services from policy metadata, including command examples for filtering and counting."
 ---
 
 # aws-list-of-services.md

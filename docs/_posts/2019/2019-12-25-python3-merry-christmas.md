@@ -7,6 +7,7 @@ tags:
     - python-3
     - christmas
     - coding
+description: "Simple Python 3 festive script example that prints a holiday message, intended as a beginner-friendly coding exercise."
 ---
 
 # python3-merry-christmas

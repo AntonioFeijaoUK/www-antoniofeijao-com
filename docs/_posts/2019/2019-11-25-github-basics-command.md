@@ -9,6 +9,7 @@ tags:
     - linux
     - coding
     - github
+description: "GitHub and git basics cheat sheet with common commands and SSH key setup references for secure repository access."
 ---
 
 # github-basics-command

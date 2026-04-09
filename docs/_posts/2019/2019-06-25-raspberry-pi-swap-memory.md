@@ -6,6 +6,7 @@ categories:
 tags:
     - linux
     - raspberry-pi
+description: "Step-by-step guide to increasing Raspberry Pi swap memory via dphys-swapfile, restarting the service, and validating changes with system tools."
 ---
 
 # raspberry-pi-swap-memory

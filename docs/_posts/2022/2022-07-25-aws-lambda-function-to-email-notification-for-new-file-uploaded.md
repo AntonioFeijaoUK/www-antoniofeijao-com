@@ -1,5 +1,6 @@
 ---
 date: 2022-07-25
+description: "Python AWS Lambda sample for processing S3 object-created events and sending email-style upload notifications."
 ---
 
 # aws-lambda-function-to-email-notification-for-new-file-uploaded

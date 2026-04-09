@@ -3,6 +3,7 @@ date: 2025-10-15
 last_modified_at: 2025-10-15
 
 title: "Safely Upgrading Bitcoin Core on a Raspberry Pi 5 (v27.0 → v30.0)"
+description: "Step-by-step guide to upgrade Bitcoin Core on Raspberry Pi from v27.0 to v30.0 using GPG signature checks, SHA256 verification, secure install, and health validation."
 
 #layout: splash
 excerpt_separator: <!-- more -->
@@ -16,8 +17,6 @@ tags:
   - bitcoin-node
   - raspberry-pi
 ---
-
-# Safely Upgrading Bitcoin Core on a Raspberry Pi (v27.0 → v30.0)
 
 Maintaining a Bitcoin node is both a responsibility and a privilege.  
 For security-conscious operators—particularly those running full nodes on Raspberry Pi—upgrading Bitcoin Core demands precision, verification, and adherence to cryptographic trust.  

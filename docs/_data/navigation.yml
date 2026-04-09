@@ -1,0 +1,19 @@
+main:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/
+  - title: Cyber
+    url: /cyber/
+  - title: Crypto
+    url: /crypto/
+  - title: Timeline
+    url: /timeline/
+  - title: Pages
+    url: /pages/
+  - title: Search
+    url: /search/
+  - title: About
+    url: /about/
+  - title: Licence
+    url: /licence/

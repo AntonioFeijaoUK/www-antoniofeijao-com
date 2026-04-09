@@ -8,6 +8,7 @@ tags:
     - aws
     - linux
     - dns
+description: "Brief note introducing AWS Database Migration Service and database conversion tooling for migration planning and execution."
 ---
 
 # aws-database-conversion-tool

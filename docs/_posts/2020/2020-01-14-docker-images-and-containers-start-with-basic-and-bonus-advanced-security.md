@@ -13,6 +13,7 @@ tags:
     - aws
     - security
     - best-practices
+description: "Docker basics and security-focused starter notes covering image/container commands and practical hardening considerations for safer container usage."
 ---
 
 # docker-images-and-containers-start-with-basic-and-bonus-advanced-security
@@ -67,4 +68,4 @@ Docker images and containers start with basic and bonus advanced security ![Dock
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

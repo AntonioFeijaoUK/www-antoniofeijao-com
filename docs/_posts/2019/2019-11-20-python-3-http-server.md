@@ -10,6 +10,7 @@ tags:
     - aws
     - linux
     - dns
+description: "Quick Python 3 tip for starting a simple local HTTP server from the current directory using the built-in http.server module."
 ---
 
 # python-3-http-server
@@ -29,6 +30,6 @@ python3 -m http.server 8000 --directory .`
 ---
 
 
-Happy learning and keep practicing!
+Happy learning and keep practising!
 
-[Antonio.Cloud](https://antonio.cloud)
+[Antonio Feijao UK](https://antoniofeijao.com)

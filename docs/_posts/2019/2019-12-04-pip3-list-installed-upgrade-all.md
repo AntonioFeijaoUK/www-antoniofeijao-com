@@ -8,6 +8,7 @@ tags:
     - linux
     - pip3
     - shell-scripting
+description: "Python pip3 command examples to list installed packages and batch-upgrade them, with practical terminal workflow snippets."
 ---
 
 # pip3-list-installed-upgrade-all

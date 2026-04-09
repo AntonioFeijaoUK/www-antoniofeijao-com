@@ -1,5 +1,5 @@
 ---
-title: "degree - High-Impact Curriculum for a Computer Science Degree, Machine Learning, Cybersecurity, IoT, Quantum and much more"
+title: "High-Impact Computer Science Curriculum: AI, Cybersecurity, IoT and Quantum"
 slug: computer-science-degree-and-more
 categories:
   - computer-science-degree-and-more
@@ -19,7 +19,6 @@ tags:
   
 ---
 
-# High-Impact Curriculum for a Computer Science Degree
 
 ## Core Skills (80/20 Prioritisation)
 
@@ -433,7 +432,7 @@ tags:
 
 ---
 
-# Curriculum Focus
+## Curriculum Focus
 
 By concentrating on the core skills, particularly those identified as high-impact through the Pareto Principle, you can build a strong foundational knowledge that applies broadly across many areas of Computer Science.
 

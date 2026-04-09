@@ -1,5 +1,6 @@
 ---
 title: "Micro-SD cards write speed test"
+description: "Practical microSD write-speed comparison notes from Raspberry Pi imaging workflows to evaluate card performance differences."
 
 date: 2021-08-15
 last_modified_at: 2021-08-15
@@ -89,5 +90,5 @@ sd-card - Sandisk Ultra, 64 GB, (10)
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)
 

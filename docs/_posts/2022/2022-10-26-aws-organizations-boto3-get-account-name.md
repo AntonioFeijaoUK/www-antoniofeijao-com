@@ -1,6 +1,7 @@
 ---
 date: 2022-10-26
 title: "AWS Organisation get only the account name from the account id"
+description: "Boto3 snippet for AWS Organizations to retrieve account name details from account identifiers."
 #layout: splash
 #excerpt: "Sample of some privacy plugins that can be used in Google Chrome, Mozilla Firefox and others."
 #permalink: /plugins/

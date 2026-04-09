@@ -1,5 +1,6 @@
 ---
 title: dns-root-zone-database
+description: "Introductory DNS reference to IANA resources and root zone management, with links to top-level domain registries and core Internet protocol coordination services."
 date: 2019-01-10
 categories:
     - Networking

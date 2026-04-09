@@ -120,6 +120,63 @@ hr {
 }
 
 /* =========================
+   Code
+   ========================= */
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.92em;
+}
+
+p code,
+li code,
+td code {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  padding: 0.1em 0.35em;
+  color: #ffe7a6;
+}
+
+pre,
+.highlight pre {
+  background: #0d1117;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  padding: 0.95rem 1rem;
+  overflow-x: auto;
+  line-height: 1.55;
+  color: #e6edf3;
+}
+
+pre code,
+.highlight pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.highlight {
+  margin: 1rem 0 1.25rem 0;
+}
+
+/* Rouge token colors (dark theme, minimal set) */
+.highlight .c { color: #8b949e; }  /* comment */
+.highlight .k,
+.highlight .kd,
+.highlight .kn { color: #ff7b72; } /* keyword */
+.highlight .s,
+.highlight .s1,
+.highlight .s2 { color: #a5d6ff; } /* string */
+.highlight .nf,
+.highlight .nc { color: #d2a8ff; } /* names */
+.highlight .nb { color: #79c0ff; } /* builtin */
+.highlight .mi,
+.highlight .mf { color: #79c0ff; } /* numbers */
+.highlight .o { color: #ff9b5e; }  /* operator */
+
+/* =========================
    Links
    ========================= */
 
@@ -148,7 +205,7 @@ a:focus-visible {
   margin-bottom: 10px;
 }
 
-.site-header h1 {
+.site-header .site-title {
   margin: 0;
   font-size: clamp(1.8rem, 4vw, 2.6rem);
   line-height: 1.15;
@@ -171,10 +228,18 @@ a:focus-visible {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   gap: 14px 20px;
   margin: 18px 0 26px 0;
   padding-bottom: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.site-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
 }
 
 .site-nav a {
@@ -186,6 +251,35 @@ a:focus-visible {
 .site-nav a:hover,
 .site-nav a:focus {
   text-decoration: underline;
+}
+
+.site-nav-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.site-nav-search input[type="search"] {
+  width: min(280px, 45vw);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #f7f1e8;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* =========================
@@ -413,6 +507,20 @@ img {
     padding-bottom: 10px;
   }
 
+  .site-nav-links {
+    width: 100%;
+    gap: 10px 16px;
+  }
+
+  .site-nav-search {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .site-nav-search input[type="search"] {
+    width: 100%;
+  }
+
   #main_content {
     padding: 18px 16px 24px 16px;
     border-radius: 10px;
@@ -472,4 +580,223 @@ img {
   .story-hero-title h1 {
     font-size: 1.75rem;
   }
+}
+
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #aaa;
+}
+
+.site-footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.content-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.content-card {
+  padding: 1.25rem;
+  border: 1px solid #444;
+  border-radius: 10px;
+}
+
+.content-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.content-card h2 a {
+  text-decoration: none;
+}
+
+.content-card h2 a:hover {
+  text-decoration: underline;
+}
+
+.search-panel {
+  margin-top: 1rem;
+}
+
+.search-panel label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-weight: 600;
+}
+
+.search-panel input[type="search"] {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  color: #f7f1e8;
+  padding: 0.65rem 0.75rem;
+  font-size: 1rem;
+}
+
+.search-panel input[type="search"]::placeholder {
+  color: rgba(242, 234, 223, 0.75);
+}
+
+.search-panel input[type="search"]:focus-visible {
+  outline: 2px solid #6aa9ff;
+  outline-offset: 1px;
+}
+
+.search-results {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.search-result {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.search-result h2 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.25rem;
+}
+
+.search-result p {
+  margin-bottom: 0.55rem;
+}
+
+.search-result p:last-child {
+  margin-bottom: 0;
+}
+
+.search-snippet {
+  opacity: 0.92;
+}
+
+.search-hit {
+  background: rgba(255, 208, 77, 0.35);
+  color: #fff7ec;
+  padding: 0 0.15em;
+  border-radius: 0.2em;
+}
+
+.content-meta {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+
+/* Cyber / Blog / Crypto listing pages */
+
+.content-list {
+  display: grid;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.content-card {
+  padding: 1rem 1.2rem;
+  border: 1px solid #444;
+  border-radius: 8px;
+}
+
+/* Title (reduce from ~38px → ~22px) */
+.content-card h2 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.4rem;   /* ~22px */
+  line-height: 1.3;
+}
+
+/* Body text (reduce from ~18px → ~15px) */
+.content-card p {
+  font-size: 0.95rem;  /* ~15px */
+  line-height: 1.5;
+  margin: 0.4rem 0;
+}
+
+/* Metadata (subtle, smaller) */
+.content-meta {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+/* Links */
+.content-card a {
+  text-decoration: none;
+}
+
+.content-card a:hover {
+  text-decoration: underline;
+}
+
+
+/* Expand main content width */
+
+.inner {
+  max-width: 1200px;   /* increase from default (~800–960px) */
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Reduce typography inside content pages */
+
+#main_content {
+  font-size: 0.95rem;   /* slightly reduce base text */
+  line-height: 1.6;
+}
+
+/* Reduce main title */
+#main_content h1 {
+  font-size: 1.8rem;   /* ~28px instead of ~38px */
+  margin-bottom: 0.8rem;
+}
+
+/* Reduce section headers */
+#main_content h2 {
+  font-size: 1.4rem;
+}
+
+#main_content h3 {
+  font-size: 1.2rem;
+}
+
+/* Paragraph tuning */
+#main_content p {
+  font-size: 0.95rem;
+}
+
+
+.content-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.content-card-image img {
+  display: block;
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.content-card-section-label {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #999;
 }

@@ -1,6 +1,7 @@
 ---
 date: 2024-06-07
-title: "Basics web scraping using Python3 with BeautifulSoup4 and then convert to Markdown"
+title: "Web Scraping with Python and BeautifulSoup: Convert HTML to Markdown"
+description: "Basic Python web scraping tutorial using requests and BeautifulSoup, plus conversion of extracted HTML content into Markdown."
 
 #layout: splash
 excerpt_separator: <!--more-->

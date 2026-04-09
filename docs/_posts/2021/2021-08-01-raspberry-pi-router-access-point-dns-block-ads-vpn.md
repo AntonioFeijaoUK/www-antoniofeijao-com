@@ -1,5 +1,6 @@
 ---
-title: "Project Raspbery Pi running Router DHCP NAT Access Point DNS Block advertising VPN"
+title: "Raspberry Pi Router Project: DHCP, NAT, Access Point, DNS Ad Blocking and VPN"
+description: "Comprehensive Raspberry Pi project for router, DHCP, NAT, access point, DNS filtering, and VPN-focused home lab networking."
 
 date: 2021-08-01
 last_modified_at: 2021-08-05
@@ -19,24 +20,22 @@ tags:
     - block-ads
     - vpn
     - openvpn
-    - encryptio
+    - encryption
     - privacy
     - security
 ---
-
-Project-raspberry-pi-router-dhcp-nat-access-point-dns-block-ads-vpn.md
 
 Please note:<br>
 <br>
     This post is still in "WORK IN PROGRESS" mode..<br>
 <br>
-    **USE AT YOUR OWN RESPONSABILITY**<br>
+    **USE AT YOUR OWN RESPONSIBILITY**<br>
 <br>
 {: .notice--warning}
 
 ----
 
-## Download latest Raspeberry Pi OS version
+## Download latest Raspberry Pi OS version
 
 - <https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit>
 
@@ -58,16 +57,13 @@ diskutil list
    0:     FDisk_partition_scheme                        *31.9 GB    disk4
    1:             Windows_FAT_32 boot                    46.0 MB    disk4s1
    2:                      Linux                         31.9 GB    disk4s2
-   
-````
+```
 
 Unmount the disk
 
 ```bash
-
 diskutil unmountDisk /dev/disk4
   Unmount of all volumes on disk4 was successful
-  
 ```
 
 
@@ -76,16 +72,14 @@ copy it using `dd` command into the SD-card disk.
 
 Note the **/dev/rdisk4/**, rdisk is the "raw disk", this speeds up the copying.
 
-> You can check my other post about micro-sd writing speed test in here [https://antonio.cloud/linux/raspberry-pi/micro-sd-card-write-speed-test/](https://antonio.cloud/linux/raspberry-pi/micro-sd-card-write-speed-test/).
+> You can check my other post about micro-sd writing speed test in here [https://antoniofeijao.com/linux/raspberry-pi/micro-sd-card-write-speed-test/](https://antoniofeijao.com/linux/raspberry-pi/micro-sd-card-write-speed-test/).
 
 ```bash
-
 sudo dd bs=1m if=2021-05-07-raspios-buster-armhf-lite.img of=/dev/rdisk4; sync
 
 1788+0 records in
 1788+0 records out
 1874853888 bytes transferred in 27.184011 secs (68968994 bytes/sec)
-
 ```
 
 ----
@@ -94,16 +88,15 @@ sudo dd bs=1m if=2021-05-07-raspios-buster-armhf-lite.img of=/dev/rdisk4; sync
 
 - <https://antonio.cloud/linux/raspberry-pi/raspberry-pi-install-and-connect-without-monitor/>
 
-While I have the micro-sd card in the laptop, I want the Raspberry Pi to have SSH Server enabled and conncet to a wifi (wireless) network.
+While I have the micro-sd card in the laptop, I want the Raspberry Pi to have SSH Server enabled and connect to a WiFi (wireless) network.
 
 ### enable ssh and add wpa_supplicant.conf config file
 
-Remeber to update for your settings, update for your wifi name, password and country.
+Remember to update for your settings, update for your wireless name, password and country.
 
 In `priority`, then highest wins.
 
 ```bash
-
 touch /Volumes/boot/ssh
 
 touch /Volumes/boot/wpa_supplicant.conf
@@ -138,7 +131,6 @@ network={
 }
 
 EOF
-
 ```
 
 ----
@@ -152,24 +144,20 @@ While in here, you can disable IPv6 for the Raspberry Pi.
 add `ipv6.disable=1` at the almost end of the file `cmdline.txt` , add it just before the `ini=/....` script that will run on first boot.
 
 ```bash
-
 vim /Volumes/boot/cmdline.txt
 
 console=serial0,115200 console=tty1 root=PARTUUID=xxxxaxxxa-xx rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet ipv6.disable=1 init=/usr/lib/raspi-config/init_resize.sh
-
 ```
 
 #### disable Bluetooth
 
 and to disable Bluetooth, add the below to the end of `config.txt` file
- 
-```bash
 
+```bash
 vim /Volumes/boot/config.txt
 
 # Disable Bluetooth
 dtoverlay=disable-bt
-
 ```
 
 #### unmountDisk
@@ -177,10 +165,8 @@ dtoverlay=disable-bt
 Then `eject` the "*disk*", the micro-sd card
 
 ```bash
-
 diskutil eject /dev/disk4
   Disk /dev/disk4 ejected
-  
 ```
 
 ----
@@ -195,7 +181,6 @@ I my case, I used `nmap` to find the new device on the network.
 
 `nmap -sT -p 22 --open 192.168.1.0/24`
 
-
 when you find your new device
 
 `ssh pi@192.168.1.XXX` <<--- IP of the new device, Raspberry Pi
@@ -205,32 +190,27 @@ Raspberry Pi default password if `raspberry`
 1) As soon as you connect to the Raspberry Pi, change the default with `sudo passwd pi` command
 
 ```bash
-
 sudo passwd pi
 
   New password:
   Retype new password:
   passwd: password updated successfully
-  
 ```
 
 2) Make sure your Raspberry Pi is up-to-date
 
 ```bash
-
 sudo apt-get update
   (...)
   
   
 sudo apt-get upgrade
-  (...)
-  
+  (...) 
 ```
 
 or shorter version if some extras
 
 ```bash
-
 sudo su
 #set +x
 
@@ -243,16 +223,13 @@ apt full-upgrade -y
 apt autoremove -y
 
 apt install vim -y
-
 ```
 
 add your favourite alias is you have some
 
 ```bash
-
  echo "alias ll='ls -alhF --group-directories-first --color=always'" >> /etc/bash.bashrc
- 
- ```
+```
 
 Reboot and reconnect
 
@@ -261,9 +238,7 @@ Reboot and reconnect
 Update the Raspberry Pi firmware is option
 
 ```bash
-
 sudo rpi-update
-
 ```
 
 4) Use own Raspberry Pi config command 
@@ -273,9 +248,7 @@ Review configurations and change what is meanful for you.
 I recommend to give a name to the Raspberry Pi to meaninful.
 
 ```bash
-
 sudo raspi-config
-
 ```
 
 Reboot
@@ -304,12 +277,9 @@ If you don't need Bluetooth, you can disable it and remove unnecessary files
 Edit the file `/boot/config.txt` and to the end the following
 
 ```bash
-
 sudo vim /boot/config.txt
 
-# Disable Bluetooth
 dtoverlay=disable-bt
-
 ```
 
 save and exit file
@@ -317,21 +287,16 @@ save and exit file
 ### disable on systemctl
 
 ```bash
-
 sudo systemctl disable hciuart.service
 sudo systemctl disable bluealsa.service
 sudo systemctl disable bluetooth.service
-
 ```
 
 ### remove bluez files
 
 ```bash
-
 apt purge bluez
-
 ```
-
 
 Reboot
 
@@ -350,19 +315,16 @@ Just physically connect the additional external USB
 I followed these instructions - <https://github.com/aircrack-ng/rtl8812au>>
 
 ```bash
-
 sudo apt-get install raspberrypi-kernel-headers
 
 sudo apt install make gcc git
 
 sudo apt install dkms
-
 ```
 
 ### clone repository for driver rtl8812au
 
 ```bash
-
 git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git
 cd rtl*
 
@@ -384,7 +346,6 @@ In this project I used the Raspberri Pi 4 onboard wireless as Access Point, devi
 for this, I used (and adopted to my setup) this guide <https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md>
 
 ```bash
-
 sudo apt install hostapd
 
 sudo systemctl unmask hostapd
@@ -394,8 +355,7 @@ sudo apt install dnsmasq
 
 sudo apt install -y netfilter-persistent iptables-persistent
 
-# sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent
-
+## sudo DEBIAN_FRONTEND=noninteractive apt install -y netfilter-persistent iptables-persistent
 ```
 
 ### Wireless static IP for wlan0
@@ -403,13 +363,11 @@ sudo apt install -y netfilter-persistent iptables-persistent
 Define the wireless interface IP configuration
 
 ```bash
-
 sudo vim /etc/dhcpcd.conf
 
 interface wlan0
     static ip_address=192.168.4.1/24
     nohook wpa_supplicant
-    
 ```
 
 ## Raspberry Pi with multiple wireless devices
@@ -418,7 +376,6 @@ interface wlan0
 ### Use one wpa_supplicant.conf file per device wlan0 and wlan1
 
 ```bash
-
 ll /etc/wpa_supplicant/
 
 -rwxr-xr-x  1 root root  937 Apr 16 14:07 action_wpa.sh*
@@ -427,13 +384,11 @@ ll /etc/wpa_supplicant/
 -rw-------  1 root root  506 Aug 20 16:38 wpa_supplicant.conf
 -rw-------  1 root root  496 Aug 20 16:37 wpa_supplicant-wlan0.conf
 -rw-------  1 root root  477 Aug 20 16:35 wpa_supplicant-wlan1.conf
-
 ```
 
 ### Enable wpa_supplicant service per device wlan0 and wlan1
 
 ```bash
-
 systemctl enable wpa_supplicant@wlan0.service  
 systemctl enable wpa_supplicant@wlan1.service  
 systemctl disable wpa_supplicant.service  
@@ -451,9 +406,7 @@ systemctl | grep wpa
 wpa_supplicant@wlan0.service        loaded active running   WPA supplicant daemon (interface-specific version)
 wpa_supplicant@wlan1.service        loaded active running   WPA supplicant daemon (interface-specific version)
 system-wpa_supplicant.slice         loaded active active    system-wpa_supplicant.slice
-
 ```
-
 
 ### Persistent wifi wireless device 
 
@@ -462,10 +415,9 @@ Raspberry Pi, randomly the onboard wireles device wlan0 becomed wlan1, below was
 > source and thank you to <https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=198946>
 
 ```bash
-
 cat /etc/udev/rules.d/72-wlan-geo-dependent.rules
 
-# source
+## source
 #      https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=198946
 #
 ##
@@ -487,7 +439,6 @@ ACTION=="add", SUBSYSTEM=="net", SUBSYSTEMS=="usb",  KERNELS=="1-1.2",       NAM
 # when using the lines below, only one WiFi device type can be used at a time
 #ACTION=="add", SUBSYSTEM=="net", DRIVERS=="brcmfmac", NAME="wlan0"
 #ACTION=="add", SUBSYSTEM=="net", DRIVERS=="rtl8192cu", NAME="wlan1"
-
 ```
 
 ----
@@ -495,13 +446,11 @@ ACTION=="add", SUBSYSTEM=="net", SUBSYSTEMS=="usb",  KERNELS=="1-1.2",       NAM
 ## Enable routing and IP masquerading
 
 ```bash
-
 sudo vim /etc/sysctl.d/routed-ap.conf
 
 # https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
 # Enable IPv4 routing
 net.ipv4.ip_forward=1
-
 ```
 
 "Mask" your Access point clients leaving your network.
@@ -509,7 +458,6 @@ net.ipv4.ip_forward=1
 Meaninig, mask the `eth0` or `wlan0` or whatever interface your Raspberry PI is connect to the internet side.
 
 ```bash
-
 sudo iptables -t nat -A POSTROUTING -o wlan1 -j MASQUERADE
 sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
@@ -517,7 +465,6 @@ sudo netfilter-persistent save
 
 
 sudo cat /etc/iptables/rules.v4
-
 ```
 
 Filtering rules are saved to the directory /etc/iptables/.  
@@ -529,7 +476,6 @@ If in the future you change the configuration of your firewall, make sure to sav
 ## Configure the DHCP and DNS services for the wireless network
 
 ```bash
-
 sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.orig
 
 sudo vim /etc/dnsmasq.conf
@@ -546,15 +492,12 @@ domain=wlan03
 
 address=/gw.wlan03/192.168.3.1
 # Alias for this router
-
 ```
 
 To ensure WiFi radio is not blocked on your Raspberry Pi, execute the following command:
 
 ```bash
-
 sudo rfkill unblock wlan
-
 ```
 
 ----
@@ -565,15 +508,12 @@ Create the hostapd configuration file, located at `/etc/hostapd/hostapd.conf`,
 to add the various parameters for your new wireless network.
 
 ```bash
-
 sudo vim /etc/hostapd/hostapd.conf
-
 ```
 
 Add the information below to the configuration file.  
 
 ```bash
-
 country_code=GB
 
 interface=wlan1
@@ -597,7 +537,6 @@ wpa_key_mgmt=WPA-PSK
 
 wpa_pairwise=TKIP
 rsn_pairwise=CCMP
-
 ```
 
 Note the line country_code=GB:  
@@ -611,22 +550,18 @@ To use the 5 GHz band, you can change the operations mode from `hw_mode=g` to `h
 Possible values for hw_mode are:
 
 ```bash
-
 a = IEEE 802.11a (5 GHz) (Raspberry Pi 3B+ onwards)
 b = IEEE 802.11b (2.4 GHz)
 g = IEEE 802.11g (2.4 GHz)
-
 ```
 
 Note that when changing the hw_mode, you may need to also change the channel - see Wikipedia for a list of allowed combinations.
-
 
 ### Setup up hostapd.conf for a specific interface
 
 To avoid conflits with wlan0 and wlan1, I want the `hostapd` service to run only on the wlan0
 
 ```bash
-
 cd /etc/hostapd/
 
 sudo mv hostapd.conf wlan0.conf
@@ -648,7 +583,6 @@ sudo systemctl enable  hostapd@wlan0.service
 ifconfig
 
 sudo reboot
-
 ```
 
 ----
@@ -658,9 +592,7 @@ sudo reboot
 Now restart your Raspberry Pi and verify that the wireless access point becomes automatically available.
 
 ```bash
-
 sudo systemctl reboot
-
 ```
 
 Once your Raspberry Pi has restarted, search for wireless networks with your wireless client.
@@ -682,7 +614,6 @@ eth0 <-- if connected to local network, will also provide internet for the wirel
 
 
 ```bash
-
 ls -alhF /etc/wpa_supplicant/
 
   total 52K
@@ -693,10 +624,7 @@ ls -alhF /etc/wpa_supplicant/
   -rwxr-xr-x  1 root root 4.6K Apr 16 14:07 ifupdown.sh*
   -rw-r--r--  1 root root    0 Aug  2 09:19 wpa_supplicant.conf  <---- default wireless setup for all interfaces (I left this file empty)
   -rw-r--r--  1 root root  237 Aug  2 09:19 wpa_supplicant-wlan1.conf <------ this is the interface that I want the Raspberry Pi to use to connect to the wireless internet.
-
 ```
-
-
 
 WORK-IN-PROGRESS
 
@@ -707,14 +635,8 @@ next to do
 
 - OpenVPN - managed to make it work, just do document it.
 
-
-
-
-
-
 ---
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
-
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

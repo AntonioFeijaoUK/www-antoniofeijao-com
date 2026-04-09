@@ -8,6 +8,7 @@ tags:
     - security
     - sudo
     - root
+description: "Vim tip for recovering and saving a file when you forgot to open it with sudo, including practical command-line workaround steps."
 ---
 
 # vim-forgot-sudo-to-save

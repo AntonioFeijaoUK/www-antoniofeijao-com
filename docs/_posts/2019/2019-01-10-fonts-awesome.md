@@ -8,6 +8,7 @@ tags:
     - fontawesome
     - markdown
     - webpage
+description: "Practical reference for installing Font Awesome in Markdown workflows and a large icon catalogue generated for MkDocs Material documentation use."
 ---
 
 Fonts Awesome install

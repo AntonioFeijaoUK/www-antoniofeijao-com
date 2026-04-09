@@ -7,6 +7,7 @@ tags:
     - aws
     - cloud
     - training
+description: "Overview of AWS global infrastructure concepts including regions, availability zones, points of presence, and edge locations with official references."
 ---
 
 # aws-global-infrastructure-and-network-backbone

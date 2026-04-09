@@ -3,6 +3,7 @@ date: 2025-10-10
 last_modified_at: 2025-10-10
 
 title: "Analysing Open Ports from a Network Scan using Wireshark"
+description: "Learn to identify open TCP and UDP ports from packet captures using Wireshark filters and tshark commands, with practical examples for SYN, ACK, ICMP and scan validation."
 
 #layout: splash
 excerpt_separator: <!-- more -->
@@ -17,7 +18,6 @@ tags:
   - networking
 ---
 
-# **Analysing Open Ports from a Network Scan using Wireshark**
 
 ## **Introduction**
 

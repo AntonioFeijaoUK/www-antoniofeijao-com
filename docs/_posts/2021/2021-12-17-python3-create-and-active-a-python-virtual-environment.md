@@ -1,5 +1,6 @@
 ---
 title: "Python3 create and active a python virtual environment"
+description: "Beginner guide for creating and activating Python 3 virtual environments to isolate dependencies and improve project hygiene."
 
 date: 2021-12-17
 last_modified_at: 2021-12-17
@@ -44,4 +45,4 @@ Official page and documentation <https://docs.python.org/3/library/venv.html>
 
 Happy learning!
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

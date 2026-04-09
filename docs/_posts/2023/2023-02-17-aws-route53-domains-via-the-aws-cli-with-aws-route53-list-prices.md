@@ -1,6 +1,7 @@
 ---
 date: 2023-02-17
 title: "AWS Route53 Domains via the AWS CLI with aws route53 list-prices"
+description: "AWS Route53 Domains CLI guide for listing domain pricing and processing API output locally for faster analysis."
 #layout: splash
 excerpt_separator: <!--more-->
 #permalink: /plugins/

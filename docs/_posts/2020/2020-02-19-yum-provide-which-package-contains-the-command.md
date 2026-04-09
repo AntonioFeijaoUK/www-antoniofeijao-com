@@ -12,6 +12,7 @@ tags:
     - shell-scripting
     - networking
     - wireshark
+description: "How to identify which yum package provides a missing Linux command, demonstrated with troubleshooting steps on Amazon Linux."
 ---
 
 # yum-provide-which-package-contains-the-command
@@ -37,4 +38,4 @@ Try with other commands. Was this useful to you?
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

@@ -1,5 +1,6 @@
 ---
-title: "Raspberry Pi 4 testing USB Wireless"
+title: "Raspberry Pi 4 USB Wi-Fi Adapters That Work Out of the Box"
+description: "Raspberry Pi 4 USB Wi-Fi adapter compatibility notes with driver detection tests and practical troubleshooting outputs."
 
 date: 2021-08-21
 last_modified_at: 2021-08-21
@@ -164,4 +165,4 @@ CONFIG_PLATFORM_ARM_RPI3 = n
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)

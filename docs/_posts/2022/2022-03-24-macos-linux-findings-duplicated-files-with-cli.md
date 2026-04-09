@@ -1,6 +1,7 @@
 ---
 date: 2022-03-24
 title: Finding duplicated files using command line CLI in Linux MacOS Ubuntu
+description: "CLI method for finding duplicate files on macOS and Linux using find, shasum, sort, and uniq."
 categories: ["MacOS", "Linux", "CLI"]
 tags:       ["cli", "script", "command-line"]
 ---

@@ -1,6 +1,7 @@
 ---
 date: 2023-07-04
 title: "AWS userInfo cookie extra account and username or role information"
+description: "Technique for extracting AWS console userInfo cookie data to display account and role context in custom browser workflows."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

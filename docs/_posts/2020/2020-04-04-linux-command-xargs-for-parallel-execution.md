@@ -9,6 +9,7 @@ tags:
     - bash
     - shell-scripting
     - parallel
+description: "Quick introduction to xargs parallel execution in Linux for speeding repeated commands over lists of inputs."
 ---
 
 # linux-command-xargs-for-parallel-execution

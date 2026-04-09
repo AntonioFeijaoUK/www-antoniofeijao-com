@@ -3,6 +3,7 @@ date: 2020-09-11
 last_modified_at: 2022-10-26-23:03:00
 
 title: How to reinstall MacOS with an external bootable disk
+description: "Step-by-step guidance for reinstalling macOS using an external bootable installer, with update notes and official Apple references."
 
 categories:
     - macOS
@@ -78,5 +79,5 @@ Always have a backup of your data. Use at your own responsibility and happy lear
 
 Happy learning
 
-[Antonio Feijao UK](https://antonio.cloud)
+[Antonio Feijao UK](https://www.antoniofeijao.com/)
 

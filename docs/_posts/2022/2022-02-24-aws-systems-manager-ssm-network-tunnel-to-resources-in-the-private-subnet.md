@@ -1,6 +1,7 @@
 ---
 date: 2022-02-24
-title: AWS Systems Manager or AWS SSM to create a private Networking tunnel to resources in the private subnet
+title: "AWS Systems Manager Port Forwarding to Private Subnet Resources"
+description: "AWS Systems Manager tunnelling guide for accessing private subnet resources securely from local machines without direct network exposure."
 categories: ["AWS", "SSM", "Networking", "Tunnel", "Security"]
 tags:       ["aws", "security", "ssm", "networking", "linux"]
 ---

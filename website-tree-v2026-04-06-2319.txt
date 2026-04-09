@@ -1,0 +1,2199 @@
+.
+├── Gemfile
+├── Gemfile.lock
+├── LICENSE
+├── README.md
+├── docs
+│   ├── CNAME
+│   ├── _config.yml
+│   ├── _crypto
+│   │   ├── 2017
+│   │   │   └── 2017-bitcoin-prize-to-who-solves-it.md
+│   │   └── 2025
+│   │       ├── 101-learning-bitcoin-basics.md
+│   │       ├── 102-bitcoin-core-bitcoin-full-node.md
+│   │       └── 2025-03-bybit-hacker.md
+│   ├── _cyber
+│   │   ├── 01-notes-about-daily-summary-of-top-cybernews-using-ChatGPT-OpenAI-API.md
+│   │   ├── 2025
+│   │   │   ├── 2025-02-11-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-12-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-13-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-14-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-16-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-19-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-24-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-26-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-28-cybersecurity-news-summary.md
+│   │   │   ├── 2025-02-28-v2-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-01-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-02-v1-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-02-v2-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-03-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-04-v1-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-04-v2-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-05-v1-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-05-v2-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-06-cybersecurity-news-summary.md
+│   │   │   ├── 2025-03-10-cybersecurity-news-summary.md
+│   │   │   └── 2025-03-11-cybersecurity-news-summary.md
+│   │   └── about-cyber.md
+│   ├── _includes
+│   │   ├── footer.html
+│   │   ├── nav.html
+│   │   ├── site-header.html
+│   │   └── story-card.html
+│   ├── _layouts
+│   │   └── default.html
+│   ├── _pages
+│   │   ├── 02-about-me-by-ChatGPT.md
+│   │   ├── 03-about-me-backup-v2023.md
+│   │   ├── 101-javascript-video-playbackRate-speed-change.md
+│   │   ├── about.md
+│   │   ├── af-cartoon2025-04.md
+│   │   ├── background-sample.md
+│   │   ├── certifications-cyber-security-certifications-basic-to-good-to-have.md
+│   │   ├── certifications.md
+│   │   ├── communication-skills.md
+│   │   ├── contact.md
+│   │   ├── degree-computer-science-and-more-degree.md
+│   │   ├── experience.md
+│   │   ├── feedback.md
+│   │   ├── javascript-demos.md
+│   │   ├── links-study-cyber-security-linux-networking.md
+│   │   ├── list-of-links-cyber-security-updates.md
+│   │   ├── nist-cyberframework-topics-reminders.md
+│   │   ├── plugins.md
+│   │   ├── pop.html
+│   │   ├── quotes.md
+│   │   ├── skills.md
+│   │   ├── study-aws-certified-security-specialty-exam-guide-and-study-notes.md
+│   │   ├── study-ethical-hacker-and-cyber-security-study-and-notes-on-osint.md
+│   │   ├── technical-cybersecurity-glossary.md
+│   │   ├── topics-cyber-security-topics-of-interest.md
+│   │   └── training-links.md
+│   ├── _posts
+│   │   ├── 2018
+│   │   │   └── 2018-11-09-block-advertising-using-hosts-file.md
+│   │   ├── 2019
+│   │   │   ├── 2019-01-10-dns-root-zone-database.md
+│   │   │   ├── 2019-01-10-fonts-awesome.md
+│   │   │   ├── 2019-01-11-learning-finance.md
+│   │   │   ├── 2019-01-16-linux-fail2ban-integration-with-abuseipdb.md
+│   │   │   ├── 2019-01-24-linux-iptables-block-ip.md
+│   │   │   ├── 2019-01-30-linux-what-is-my-ip-ipinfo.md
+│   │   │   ├── 2019-01-31-aws-list-of-services.md
+│   │   │   ├── 2019-01-31-linux-dig-troubleshooting-dns-records-and-domain.md
+│   │   │   ├── 2019-01-31-s3-copy-sync-filter-files.md
+│   │   │   ├── 2019-05-22-aws-cli-find-all-instances-in-all-regions.md
+│   │   │   ├── 2019-05-22-aws-cli-iam-roles-and-tokes.md
+│   │   │   ├── 2019-05-22-aws-database-conversion-tool.md
+│   │   │   ├── 2019-05-22-project-ninjapt.md
+│   │   │   ├── 2019-05-29-raspberry-pi-stranger-things-alphabet-wall-lights.md
+│   │   │   ├── 2019-06-05-python3-learning.md
+│   │   │   ├── 2019-06-19-aws-global-infrastructure-and-network-backbone.md
+│   │   │   ├── 2019-06-25-raspberry-pi-swap-memory.md
+│   │   │   ├── 2019-06-26-aws-network-transit-gateway-to-vpc.md
+│   │   │   ├── 2019-06-29-raspberry-pi-camera-resolution.md
+│   │   │   ├── 2019-08-08-aws-cloudwatch-logs-cloudtrail-logs-filters-sample.md
+│   │   │   ├── 2019-09-15-vim-forgot-sudo-to-save.md
+│   │   │   ├── 2019-09-15-vimrc-file.md
+│   │   │   ├── 2019-10-08-clamav-linux-free-antivuris-scan.md
+│   │   │   ├── 2019-10-11-linux-find-command.md
+│   │   │   ├── 2019-11-20-python-3-http-server.md
+│   │   │   ├── 2019-11-21-raspberry-pi-as-a-router-nat.md
+│   │   │   ├── 2019-11-25-devsecops-in-your-company-dna.md
+│   │   │   ├── 2019-11-25-github-basics-command.md
+│   │   │   ├── 2019-12-04-pip3-list-installed-upgrade-all.md
+│   │   │   └── 2019-12-25-python3-merry-christmas.md
+│   │   ├── 2020
+│   │   │   ├── 2020-01-14-docker-images-and-containers-start-with-basic-and-bonus-advanced-security.md
+│   │   │   ├── 2020-02-19-yum-provide-which-package-contains-the-command.md
+│   │   │   ├── 2020-02-27-practice-python-3-with-the-fibonacci-sequence.md
+│   │   │   ├── 2020-04-04-linux-command-tee-examples-how-it-works.md
+│   │   │   ├── 2020-04-04-linux-command-xargs-for-parallel-execution.md
+│   │   │   ├── 2020-04-11-iq-level-smartest-people.md
+│   │   │   ├── 2020-04-22-aws-sample-ec2-userdata-script-webpage.md
+│   │   │   ├── 2020-09-11-how-to-reinstall-macos-with-external-bootable-disk.md
+│   │   │   └── 2020-11-18-raspberry-pi-install-and-connect-without-monitor.md
+│   │   ├── 2021
+│   │   │   ├── 2021-08-01-raspberry-pi-router-access-point-dns-block-ads-vpn.md
+│   │   │   ├── 2021-08-15-micro-sd-card-write-speed-test.md
+│   │   │   ├── 2021-08-21-raspberry-pi-4-usb-wireless-drivers-that-work-out-of-the-box.md
+│   │   │   ├── 2021-12-15-aws-pages-with-dark-theme.md
+│   │   │   └── 2021-12-17-python3-create-and-active-a-python-virtual-environment.md
+│   │   ├── 2022
+│   │   │   ├── 2022-02-16-change-video-playback-speed-rate-with-javascript.md
+│   │   │   ├── 2022-02-24-aws-systems-manager-ssm-network-tunnel-to-resources-in-the-private-subnet.md
+│   │   │   ├── 2022-03-14-aws-run-multiple-commands-in-multiple-AWS-accounts-in-the-AWS-Organizations-at-the-same-time.md
+│   │   │   ├── 2022-03-18-python3-start-learning-first-commands.md
+│   │   │   ├── 2022-03-24-aws-security-hub-work-in-python-3-and-boto3.md
+│   │   │   ├── 2022-03-24-macos-linux-findings-duplicated-files-with-cli.md
+│   │   │   ├── 2022-06-17-rubik-cube-solved-in-3-minutes-by-antonio-feijao.md
+│   │   │   ├── 2022-06-30-aws-s3-and-lambda-create-s3-presigned-url-and-emails-link-via-sns-topic.md
+│   │   │   ├── 2022-07-25-aws-lambda-function-to-email-notification-for-new-file-uploaded.md
+│   │   │   ├── 2022-10-06-hacking-google-series.md
+│   │   │   ├── 2022-10-26-aws-organizations-boto3-get-account-name.md
+│   │   │   └── 2022-12-12-hacking-videos-from-black-hat-usa-2022.md
+│   │   ├── 2023
+│   │   │   ├── 2023-01-13-aws-ssm-command-to-tunnel-to-another-instance.md
+│   │   │   ├── 2023-01-30-aws-ssm-start-session-and-ssm-documents.md
+│   │   │   ├── 2023-02-11-linux-bash-script-monitoring-website-availability.md
+│   │   │   ├── 2023-02-17-aws-route53-domains-via-the-aws-cli-with-aws-route53-list-prices.md
+│   │   │   ├── 2023-05-10-playing-with-aws-gateway-load-balancer.md
+│   │   │   ├── 2023-05-22-aws-hands-on-workshops.md
+│   │   │   ├── 2023-06-09-raspberry-pi-4-as-a-router-with-ufw-rules.md
+│   │   │   ├── 2023-06-23-raspberry-pi-4-as-a-router-with-iptables-rules.md
+│   │   │   ├── 2023-07-04-aws-cookie-userinfo-extract-info.md
+│   │   │   ├── 2023-07-21-aws-boto3-credentials-and-available-clientes.md
+│   │   │   ├── 2023-09-27-aws-delete-all-default-vpcs-in-all-regions.md
+│   │   │   └── 2023-12-29-dnsmasq-dns-server-and-more.md
+│   │   ├── 2024
+│   │   │   ├── 2024-01-17-aws-sts-decode-authorization-message.md
+│   │   │   ├── 2024-02-18-lime-linux-ubuntu-step-by-step.md
+│   │   │   ├── 2024-05-29-aws-cli-aws-ec2-describe-vpcs-and-subnets-with-tags.md
+│   │   │   ├── 2024-06-07-basics-web-scraping-python3-beautifulsoup4-and-convert-to-markdown.md
+│   │   │   ├── 2024-06-22-macos-or-linux-add-more-specific-routes.md
+│   │   │   ├── 2024-07-20-best-practices-for-creating-effective-ChatGPT-Prompts.md
+│   │   │   ├── 2024-07-29-the-power-of-knowledge-sharing-and-education-library-of-alexandria.md
+│   │   │   ├── 2024-07-31-crowdstrike-leading-cybersecurity-through-major-contributions.md
+│   │   │   ├── 2024-11-14-aws-iam-policy-simulator.md
+│   │   │   ├── 2024-11-14-hashcat-aws-gpu-and-password-cracking.md
+│   │   │   └── 2024-11-19-cloudflare-training-101-102.md
+│   │   ├── 2025
+│   │   ├── 2025-10-08-enforcing-custom-dns-on-debian-12-raspberry-pi-with-NetworkManager.md
+│   │   ├── 2025-10-10-wireshark-analysing-open-ports-from-a-network-scan.md
+│   │   ├── 2025-10-15-safely-upgrading-bitcoin-core-on-a-raspberry-pi-5.md
+│   │   ├── code
+│   │   │   ├── 2022-01-01-jf.md
+│   │   │   ├── 2022-06-25-paintball25.md
+│   │   │   └── check-code.html
+│   │   └── script-files
+│   │       ├── block-ads-v3.sh.txt
+│   │       ├── get-icons-v2.log.json
+│   │       └── get-icons.log.json
+│   ├── _site
+│   │   ├── 01-notes-about-daily-summary-of-top-cybernews-using-ChatGPT-OpenAI-API.md
+│   │   ├── 02-about-me-by-chatgpt
+│   │   │   └── index.html
+│   │   ├── 03-about-me-backup-v2023
+│   │   │   └── index.html
+│   │   ├── 101-javascript-video-playbackrate-speed-change
+│   │   │   └── index.html
+│   │   ├── CNAME
+│   │   ├── about
+│   │   │   └── index.html
+│   │   ├── af-cartoon2025-04.md
+│   │   ├── assets
+│   │   │   ├── code
+│   │   │   │   ├── check-code.html
+│   │   │   │   └── check-event-code.js
+│   │   │   ├── css
+│   │   │   │   └── style.css
+│   │   │   ├── images
+│   │   │   │   ├── 00-awsc-color-theme-cookies.png
+│   │   │   │   ├── 01-awsc-color-theme-s3-light.png
+│   │   │   │   ├── 02-awsc-color-theme-s3-dark.png
+│   │   │   │   ├── 2022-06-15-duplicated-photos.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-Advanced-Networking-Specialty.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-Cloud-Practitioner.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-Developer-Associate.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-Security-Specialty.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-Solutions-Architect-Associate.png
+│   │   │   │   ├── Antonio-Feijao-AWS-Certified-SysOps-Administrator-Associate.png
+│   │   │   │   ├── Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg
+│   │   │   │   ├── Antonio-Feijao-Genomics-headshot-35-square_small.jpeg
+│   │   │   │   ├── Antonio-Feijao-UK.jpeg
+│   │   │   │   ├── Antonio-Feijao-cover-photo.jpg
+│   │   │   │   ├── AntonioFeijao-photo0001-320x320.jpeg
+│   │   │   │   ├── AntonioFeijao-photo0001-640x640.jpeg
+│   │   │   │   ├── AntonioFeijao-photo0001-800x800.jpg
+│   │   │   │   ├── Cert-Roadmap-v9.1.png
+│   │   │   │   ├── alexandru-zdrobau-4bmtMXGuVqo-unsplash-small.jpg
+│   │   │   │   ├── alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg
+│   │   │   │   ├── android-chrome-192x192.png
+│   │   │   │   ├── android-chrome-512x512.png
+│   │   │   │   ├── antonio-cloud-logo.jpg
+│   │   │   │   ├── antonio-feijao-redhat-certified-sys-admin.png
+│   │   │   │   ├── antonio-feijao-sololearn-python3.png
+│   │   │   │   ├── antonio-feijao-sololearn-sql-fundamentals.png
+│   │   │   │   ├── antonio-feijao-uk-logo.jpg
+│   │   │   │   ├── antonio-feijao-uk-snorkeling.jpg
+│   │   │   │   ├── apple-touch-icon.png
+│   │   │   │   ├── aws-certifications-v2022-02-03.png
+│   │   │   │   ├── aws-certified-logo-1176x600-color.png
+│   │   │   │   ├── aws-map.png
+│   │   │   │   ├── cisco-ccna-r-26s.png
+│   │   │   │   ├── cisco-ccna-security.png
+│   │   │   │   ├── communications-skills-image-v2025-07-16-v-header.jpg
+│   │   │   │   ├── crowdstrike-logo-red-and-black.png
+│   │   │   │   ├── devsecops-in-your-company-dna.png
+│   │   │   │   ├── dima-pechurin-JUbjYFvCv00-unsplash-medium-door.jpeg
+│   │   │   │   ├── external-disk-with-various-macOS-versions.jpg
+│   │   │   │   ├── favicon-16x16.png
+│   │   │   │   ├── favicon-32x32.png
+│   │   │   │   ├── favicon.ico
+│   │   │   │   ├── gebhartyler-AQpOwYbm_Jg-unsplash.jpeg
+│   │   │   │   ├── hacking-google-series-2022.jpg
+│   │   │   │   ├── image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp.webp
+│   │   │   │   ├── ko-fi-icon-RGB-rounded.png
+│   │   │   │   ├── ko-fi-logo-RGB.png
+│   │   │   │   ├── lambda-sample-code-s3presign-url-and-sns.jpg
+│   │   │   │   ├── linkedin-logo.png
+│   │   │   │   ├── linux-bash-script-monitor-website-availability.jpg
+│   │   │   │   ├── logo.jpg
+│   │   │   │   ├── nasa-rTZW4f02zY8-unsplash-small.jpg
+│   │   │   │   ├── philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+│   │   │   │   ├── power-of-knowledge-by-gpt-image-generator.webp
+│   │   │   │   ├── python-fibonacci-sequence-v2020-02-27.jpg
+│   │   │   │   ├── rubik-cube
+│   │   │   │   │   ├── 01-all-white-middles-to-the-top.png
+│   │   │   │   │   ├── 02-turn-whites-middles-to-white-center.png
+│   │   │   │   │   ├── 03-yellow-up-fix-white-corners.png
+│   │   │   │   │   ├── 04-yellow-up-fix-the-middle-colors.png
+│   │   │   │   │   ├── 05-do-yellow-cross.png
+│   │   │   │   │   ├── 06-put-the-yellow-middles-in-the-right-place.png
+│   │   │   │   │   ├── 07-put-the-yellow-corners-in-the-right-place.png
+│   │   │   │   │   ├── 08-rotate-the-yellow-corner-to-fix-position.png
+│   │   │   │   │   └── 09-you-have-solved-the-rubik-cube.png
+│   │   │   │   ├── s3-object-created-trigger-lambda-and-sns-notification.jpg
+│   │   │   │   ├── s3-object-created-trigger-lambda-and-sns-notification.png
+│   │   │   │   ├── shamblen-studios-pJ_DCj9KswI-unsplash.jpg
+│   │   │   │   ├── sudo-raspi-config.png
+│   │   │   │   ├── tshark-install-yum-whatprovides.jpg
+│   │   │   │   ├── twitter-logo.png
+│   │   │   │   └── unmount-micro-sd-card-to-install-raspberry-pi.jpg
+│   │   │   ├── js
+│   │   │   │   ├── demo-for-doms.js
+│   │   │   │   └── pop.js
+│   │   │   ├── pdf
+│   │   │   │   └── Markdown_1page.pdf
+│   │   │   └── script-files
+│   │   │       ├── block-ads-v3.sh.txt
+│   │   │       ├── get-icons-v2.log.json
+│   │   │       └── get-icons.log.json
+│   │   ├── background-sample
+│   │   │   └── index.html
+│   │   ├── blog
+│   │   │   ├── 2018
+│   │   │   │   └── 11
+│   │   │   │       └── 09
+│   │   │   │           └── block-advertising-using-hosts-file
+│   │   │   │               └── index.html
+│   │   │   ├── 2019
+│   │   │   │   ├── 01
+│   │   │   │   │   ├── 10
+│   │   │   │   │   │   ├── dns-root-zone-database
+│   │   │   │   │   │   │   └── index.html
+│   │   │   │   │   │   └── fonts-awesome
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 11
+│   │   │   │   │   │   └── learning-finance
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 16
+│   │   │   │   │   │   └── linux-fail2ban-integration-with-abuseipdb
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 24
+│   │   │   │   │   │   └── linux-iptables-block-ip
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 30
+│   │   │   │   │   │   └── linux-what-is-my-ip-ipinfo
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 31
+│   │   │   │   │       ├── aws-list-of-services
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       ├── linux-dig-troubleshooting-dns-records-and-domain
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       └── s3-copy-sync-filter-files
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 05
+│   │   │   │   │   ├── 22
+│   │   │   │   │   │   ├── aws-cli-find-all-instances-in-all-regions
+│   │   │   │   │   │   │   └── index.html
+│   │   │   │   │   │   ├── aws-cli-iam-roles-and-tokes
+│   │   │   │   │   │   │   └── index.html
+│   │   │   │   │   │   ├── aws-database-conversion-tool
+│   │   │   │   │   │   │   └── index.html
+│   │   │   │   │   │   └── project-ninjapt
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 29
+│   │   │   │   │       └── raspberry-pi-stranger-things-alphabet-wall-lights
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 06
+│   │   │   │   │   ├── 05
+│   │   │   │   │   │   └── python3-learning
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 19
+│   │   │   │   │   │   └── aws-global-infrastructure-and-network-backbone
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 25
+│   │   │   │   │   │   └── raspberry-pi-swap-memory
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 26
+│   │   │   │   │   │   └── aws-network-transit-gateway-to-vpc
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 29
+│   │   │   │   │       └── raspberry-pi-camera-resolution
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 08
+│   │   │   │   │   └── 08
+│   │   │   │   │       └── aws-cloudwatch-logs-cloudtrail-logs-filters-sample
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 09
+│   │   │   │   │   └── 15
+│   │   │   │   │       ├── vim-forgot-sudo-to-save
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       └── vimrc-file
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 10
+│   │   │   │   │   ├── 08
+│   │   │   │   │   │   └── clamav-linux-free-antivuris-scan
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 11
+│   │   │   │   │       └── linux-find-command
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 11
+│   │   │   │   │   ├── 20
+│   │   │   │   │   │   └── python-3-http-server
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 21
+│   │   │   │   │   │   └── raspberry-pi-as-a-router-nat
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 25
+│   │   │   │   │       ├── devsecops-in-your-company-dna
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       └── github-basics-command
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 12
+│   │   │   │       ├── 04
+│   │   │   │       │   └── pip3-list-installed-upgrade-all
+│   │   │   │       │       └── index.html
+│   │   │   │       └── 25
+│   │   │   │           └── python3-merry-christmas
+│   │   │   │               └── index.html
+│   │   │   ├── 2020
+│   │   │   │   ├── 01
+│   │   │   │   │   └── 14
+│   │   │   │   │       └── docker-images-and-containers-start-with-basic-and-bonus-advanced-security
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 02
+│   │   │   │   │   ├── 19
+│   │   │   │   │   │   └── yum-provide-which-package-contains-the-command
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 27
+│   │   │   │   │       └── practice-python-3-with-the-fibonacci-sequence
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 04
+│   │   │   │   │   ├── 04
+│   │   │   │   │   │   ├── linux-command-tee-examples-how-it-works
+│   │   │   │   │   │   │   └── index.html
+│   │   │   │   │   │   └── linux-command-xargs-for-parallel-execution
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 11
+│   │   │   │   │   │   └── iq-level-smartest-people
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 21
+│   │   │   │   │       └── aws-sample-ec2-userdata-script-webpage
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 09
+│   │   │   │   │   └── 11
+│   │   │   │   │       └── how-to-reinstall-macos-with-external-bootable-disk
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 11
+│   │   │   │       └── 18
+│   │   │   │           └── raspberry-pi-install-and-connect-without-monitor
+│   │   │   │               └── index.html
+│   │   │   ├── 2021
+│   │   │   │   ├── 08
+│   │   │   │   │   ├── 01
+│   │   │   │   │   │   └── raspberry-pi-router-access-point-dns-block-ads-vpn
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 15
+│   │   │   │   │   │   └── micro-sd-card-write-speed-test
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 21
+│   │   │   │   │       └── raspberry-pi-4-usb-wireless-drivers-that-work-out-of-the-box
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 12
+│   │   │   │       ├── 15
+│   │   │   │       │   └── aws-pages-with-dark-theme
+│   │   │   │       │       └── index.html
+│   │   │   │       └── 17
+│   │   │   │           └── python3-create-and-active-a-python-virtual-environment
+│   │   │   │               └── index.html
+│   │   │   ├── 2022
+│   │   │   │   ├── 02
+│   │   │   │   │   ├── 16
+│   │   │   │   │   │   └── change-video-playback-speed-rate-with-javascript
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 24
+│   │   │   │   │       └── aws-systems-manager-ssm-network-tunnel-to-resources-in-the-private-subnet
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 03
+│   │   │   │   │   ├── 14
+│   │   │   │   │   │   └── aws-run-multiple-commands-in-multiple-AWS-accounts-in-the-AWS-Organizations-at-the-same-time
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 18
+│   │   │   │   │   │   └── python3-start-learning-first-commands
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 24
+│   │   │   │   │       ├── aws-security-hub-work-in-python-3-and-boto3
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       └── macos-linux-findings-duplicated-files-with-cli
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 06
+│   │   │   │   │   ├── 17
+│   │   │   │   │   │   └── rubik-cube-solved-in-3-minutes-by-antonio-feijao
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 30
+│   │   │   │   │       └── aws-s3-and-lambda-create-s3-presigned-url-and-emails-link-via-sns-topic
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 07
+│   │   │   │   │   └── 25
+│   │   │   │   │       └── aws-lambda-function-to-email-notification-for-new-file-uploaded
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 10
+│   │   │   │   │   ├── 06
+│   │   │   │   │   │   └── hacking-google-series
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 26
+│   │   │   │   │       └── aws-organizations-boto3-get-account-name
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 12
+│   │   │   │       └── 12
+│   │   │   │           └── hacking-videos-from-black-hat-usa-2022
+│   │   │   │               └── index.html
+│   │   │   ├── 2023
+│   │   │   │   ├── 01
+│   │   │   │   │   ├── 13
+│   │   │   │   │   │   └── aws-ssm-command-to-tunnel-to-another-instance
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 30
+│   │   │   │   │       └── aws-ssm-start-session-and-ssm-documents
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 02
+│   │   │   │   │   ├── 11
+│   │   │   │   │   │   └── linux-bash-script-monitoring-website-availability
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 17
+│   │   │   │   │       └── aws-route53-domains-via-the-aws-cli-with-aws-route53-list-prices
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 05
+│   │   │   │   │   ├── 10
+│   │   │   │   │   │   └── playing-with-aws-gateway-load-balancer
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 22
+│   │   │   │   │       └── aws-hands-on-workshops
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 06
+│   │   │   │   │   ├── 09
+│   │   │   │   │   │   └── raspberry-pi-4-as-a-router-with-ufw-rules
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 23
+│   │   │   │   │       └── raspberry-pi-4-as-a-router-with-iptables-rules
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 07
+│   │   │   │   │   ├── 04
+│   │   │   │   │   │   └── aws-cookie-userinfo-extract-info
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 21
+│   │   │   │   │       └── aws-boto3-credentials-and-available-clientes
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 09
+│   │   │   │   │   └── 27
+│   │   │   │   │       └── aws-delete-all-default-vpcs-in-all-regions
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 12
+│   │   │   │       └── 29
+│   │   │   │           └── dnsmasq-dns-server-and-more
+│   │   │   │               └── index.html
+│   │   │   ├── 2024
+│   │   │   │   ├── 01
+│   │   │   │   │   └── 17
+│   │   │   │   │       └── aws-sts-decode-authorization-message
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 02
+│   │   │   │   │   └── 18
+│   │   │   │   │       └── lime-linux-ubuntu-step-by-step
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 05
+│   │   │   │   │   └── 29
+│   │   │   │   │       └── aws-cli-aws-ec2-describe-vpcs-and-subnets-with-tags
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 06
+│   │   │   │   │   └── 07
+│   │   │   │   │       ├── basics-web-scraping-python3-beautifulsoup4-and-convert-to-markdown
+│   │   │   │   │       │   └── index.html
+│   │   │   │   │       └── macos-or-linux-add-more-specific-routes
+│   │   │   │   │           └── index.html
+│   │   │   │   ├── 07
+│   │   │   │   │   ├── 20
+│   │   │   │   │   │   └── best-practices-for-creating-effective-ChatGPT-Prompts
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   ├── 29
+│   │   │   │   │   │   └── the-power-of-knowledge-sharing-and-education-library-of-alexandria
+│   │   │   │   │   │       └── index.html
+│   │   │   │   │   └── 31
+│   │   │   │   │       └── crowdstrike-leading-cybersecurity-through-major-contributions
+│   │   │   │   │           └── index.html
+│   │   │   │   └── 11
+│   │   │   │       ├── 14
+│   │   │   │       │   ├── aws-iam-policy-simulator
+│   │   │   │       │   │   └── index.html
+│   │   │   │       │   └── hashcat-aws-gpu-and-password-cracking
+│   │   │   │       │       └── index.html
+│   │   │   │       └── 19
+│   │   │   │           └── cloudflare-training-101-102
+│   │   │   │               └── index.html
+│   │   │   ├── 2025
+│   │   │   │   └── 10
+│   │   │   │       ├── 08
+│   │   │   │       │   └── enforcing-custom-dns-on-debian-12-raspberry-pi-with-NetworkManager
+│   │   │   │       │       └── index.html
+│   │   │   │       ├── 10
+│   │   │   │       │   └── wireshark-analysing-open-ports-from-a-network-scan
+│   │   │   │       │       └── index.html
+│   │   │   │       └── 15
+│   │   │   │           └── safely-upgrading-bitcoin-core-on-a-raspberry-pi-5
+│   │   │   │               └── index.html
+│   │   │   └── index.html
+│   │   ├── certifications
+│   │   │   └── index.html
+│   │   ├── certifications-cyber-security-certifications-basic-to-good-to-have
+│   │   │   └── index.html
+│   │   ├── code
+│   │   │   ├── 2022-jf
+│   │   │   │   └── index.html
+│   │   │   └── 2022-painball25
+│   │   │       └── index.html
+│   │   ├── communication-skills
+│   │   │   └── index.html
+│   │   ├── contact
+│   │   │   └── index.html
+│   │   ├── crypto
+│   │   │   ├── 2017
+│   │   │   │   └── 2017-bitcoin-prize-to-who-solves-it.md
+│   │   │   ├── 2025
+│   │   │   │   ├── 101-learning-bitcoin-basics.md
+│   │   │   │   ├── 102-bitcoin-core-bitcoin-full-node.md
+│   │   │   │   └── 2025-03-bybit-hacker.md
+│   │   │   └── index.html
+│   │   ├── cyber
+│   │   │   ├── 2025-02-11-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-12-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-13-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-14-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-16-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-19-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-24-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-26-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-28-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-02-28-v2-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-01-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-02-v1-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-02-v2-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-03-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-04-v1-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-04-v2-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-05-v1-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-05-v2-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-06-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-10-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   ├── 2025-03-11-cybersecurity-news-summary
+│   │   │   │   └── index.html
+│   │   │   └── about-cyber
+│   │   │       └── index.html
+│   │   ├── degree-computer-science-and-more-degree
+│   │   │   └── index.html
+│   │   ├── experience
+│   │   │   └── index.html
+│   │   ├── favicon.ico
+│   │   ├── feedback
+│   │   │   └── index.html
+│   │   ├── index.html
+│   │   ├── javascript-demos
+│   │   │   └── index.html
+│   │   ├── keybase.txt
+│   │   ├── licence
+│   │   │   └── index.html
+│   │   ├── links-study-cyber-security-linux-networking
+│   │   │   └── index.html
+│   │   ├── list-of-links-cyber-security-updates
+│   │   │   └── index.html
+│   │   ├── manifest.webmanifest
+│   │   ├── nist-cyberframework-topics-reminders
+│   │   │   └── index.html
+│   │   ├── pages
+│   │   │   └── index.html
+│   │   ├── plugins
+│   │   │   └── index.html
+│   │   ├── pop.html
+│   │   ├── private-dont-touch.html
+│   │   ├── quotes
+│   │   │   └── index.html
+│   │   ├── robots.txt
+│   │   ├── security.txt
+│   │   ├── site.webmanifest
+│   │   ├── sitemap.xml
+│   │   ├── skills
+│   │   │   └── index.html
+│   │   ├── study-aws-certified-security-specialty-exam-guide-and-study-notes
+│   │   │   └── index.html
+│   │   ├── study-ethical-hacker-and-cyber-security-study-and-notes-on-osint
+│   │   │   └── index.html
+│   │   ├── technical-cybersecurity-glossary
+│   │   │   └── index.html
+│   │   ├── timeline
+│   │   │   ├── css
+│   │   │   │   └── styles.css
+│   │   │   ├── events
+│   │   │   │   ├── event-1900-1999.json
+│   │   │   │   ├── event-2000-2009.json
+│   │   │   │   ├── event-2010-2019.json
+│   │   │   │   ├── event-2020.json
+│   │   │   │   ├── event-2021.json
+│   │   │   │   ├── event-2022.json
+│   │   │   │   ├── event-2023.json
+│   │   │   │   ├── event-2024.json
+│   │   │   │   ├── event-ancient.json
+│   │   │   │   ├── event-nasa-space.json
+│   │   │   │   └── event-ww1-ww2-cold-war.json
+│   │   │   ├── events-backup-01
+│   │   │   │   ├── event-1969.json
+│   │   │   │   ├── event-1971.json
+│   │   │   │   ├── event-1977.json
+│   │   │   │   ├── event-1984.json
+│   │   │   │   ├── event-1986.json
+│   │   │   │   ├── event-1987.json
+│   │   │   │   ├── event-1988.json
+│   │   │   │   ├── event-1989.json
+│   │   │   │   ├── event-1991.json
+│   │   │   │   ├── event-1992.json
+│   │   │   │   ├── event-1994.json
+│   │   │   │   ├── event-1995.json
+│   │   │   │   ├── event-1998.json
+│   │   │   │   ├── event-2000.json
+│   │   │   │   ├── event-2001.json
+│   │   │   │   ├── event-2003.json
+│   │   │   │   ├── event-2004.json
+│   │   │   │   ├── event-2005.json
+│   │   │   │   ├── event-2006.json
+│   │   │   │   ├── event-2007.json
+│   │   │   │   ├── event-2008.json
+│   │   │   │   ├── event-2009.json
+│   │   │   │   ├── event-2010.json
+│   │   │   │   ├── event-2012.json
+│   │   │   │   ├── event-2013.json
+│   │   │   │   ├── event-2014.json
+│   │   │   │   ├── event-2015.json
+│   │   │   │   ├── event-2016.json
+│   │   │   │   ├── event-2017.json
+│   │   │   │   ├── event-2018.json
+│   │   │   │   ├── event-2020.json
+│   │   │   │   ├── event-2021.json
+│   │   │   │   ├── event-2022.json
+│   │   │   │   ├── event-2023.json
+│   │   │   │   ├── event-2024.json
+│   │   │   │   ├── event-ancient.json
+│   │   │   │   └── event-nasa-space.json
+│   │   │   ├── events.json
+│   │   │   ├── images
+│   │   │   │   ├── 51_pegasi_b.jpg
+│   │   │   │   ├── activision.jpg
+│   │   │   │   ├── adobeflash.jpg
+│   │   │   │   ├── adolf_hitler.jpg
+│   │   │   │   ├── afghan-war-diary.jpg
+│   │   │   │   ├── agriculture.jpg
+│   │   │   │   ├── ai-ethics-conference.webp
+│   │   │   │   ├── ai-ethics-symposium.webp
+│   │   │   │   ├── alan_shepard.jpg
+│   │   │   │   ├── alexander.jpg
+│   │   │   │   ├── alibaba_ipo.jpg
+│   │   │   │   ├── amazon_fires.jpg
+│   │   │   │   ├── amazon_mgm.jpg
+│   │   │   │   ├── amphibians.jpg
+│   │   │   │   ├── android.jpg
+│   │   │   │   ├── apollo13.jpg
+│   │   │   │   ├── apple2.jpg
+│   │   │   │   ├── apple_app_store.jpg
+│   │   │   │   ├── apple_card.jpg
+│   │   │   │   ├── apple_fbi.jpg
+│   │   │   │   ├── apple_m2.jpg
+│   │   │   │   ├── apple_silicon.jpg
+│   │   │   │   ├── applewatch.jpg
+│   │   │   │   ├── appstore.jpg
+│   │   │   │   ├── apt-critical-infrastructure.webp
+│   │   │   │   ├── arab-spring.jpg
+│   │   │   │   ├── arpanet.jpg
+│   │   │   │   ├── atari2600.jpg
+│   │   │   │   ├── australia_bushfires.jpg
+│   │   │   │   ├── aws-reinvent.webp
+│   │   │   │   ├── aws.jpg
+│   │   │   │   ├── battle_of_britain.jpg
+│   │   │   │   ├── battle_of_the_somme.jpg
+│   │   │   │   ├── berlin_airlift.jpg
+│   │   │   │   ├── berlin_wall.jpg
+│   │   │   │   ├── berlinwall.jpg
+│   │   │   │   ├── birds.jpg
+│   │   │   │   ├── bitcoin-conference.webp
+│   │   │   │   ├── bitcoin.jpg
+│   │   │   │   ├── black_hole.jpg
+│   │   │   │   ├── black_lives_matter.jpg
+│   │   │   │   ├── blm_protests.jpg
+│   │   │   │   ├── blockchain-forum.webp
+│   │   │   │   ├── blockchain.jpg
+│   │   │   │   ├── boeing_737_max.jpg
+│   │   │   │   ├── brexit.jpg
+│   │   │   │   ├── bsd.jpg
+│   │   │   │   ├── caesar.jpg
+│   │   │   │   ├── cambrian_explosion.jpg
+│   │   │   │   ├── cambridge.jpg
+│   │   │   │   ├── cassini.jpg
+│   │   │   │   ├── cassini_huygens.jpg
+│   │   │   │   ├── challenger.jpg
+│   │   │   │   ├── chandra.jpg
+│   │   │   │   ├── chatgpt.jpg
+│   │   │   │   ├── chilean_protests.jpg
+│   │   │   │   ├── china_cryptocurrency_ban.jpg
+│   │   │   │   ├── chrome.jpg
+│   │   │   │   ├── climate_strikes.jpg
+│   │   │   │   ├── clubhouse_app.jpg
+│   │   │   │   ├── colonial-pipeline-attack.webp
+│   │   │   │   ├── colonial_pipeline.jpg
+│   │   │   │   ├── cop26_climate_change.jpg
+│   │   │   │   ├── costa-rica-ransomware.jpg
+│   │   │   │   ├── create-image-replica.sh
+│   │   │   │   ├── create-thumbnails.sh
+│   │   │   │   ├── creativecloud.jpg
+│   │   │   │   ├── creeper.jpg
+│   │   │   │   ├── crew_dragon.jpg
+│   │   │   │   ├── crowdstrike.jpg
+│   │   │   │   ├── crowdstrike.webp
+│   │   │   │   ├── cuban_missile_crisis.jpg
+│   │   │   │   ├── curiosity.jpg
+│   │   │   │   ├── cybersecurity-awareness.webp
+│   │   │   │   ├── cybersecurity-summit.webp
+│   │   │   │   ├── d_day.jpg
+│   │   │   │   ├── darkside-arrests.webp
+│   │   │   │   ├── dawn.jpg
+│   │   │   │   ├── defcon.webp
+│   │   │   │   ├── democracy.jpg
+│   │   │   │   ├── dialup.jpg
+│   │   │   │   ├── dinosaurs.jpg
+│   │   │   │   ├── dna.jpg
+│   │   │   │   ├── docker.jpg
+│   │   │   │   ├── dyn.jpg
+│   │   │   │   ├── earth.jpg
+│   │   │   │   ├── ebola.jpg
+│   │   │   │   ├── email.jpg
+│   │   │   │   ├── equifax.jpg
+│   │   │   │   ├── exchange-server-vulnerability.webp
+│   │   │   │   ├── facebook-500-million.jpg
+│   │   │   │   ├── facebook-ipo.jpg
+│   │   │   │   ├── facebook.jpg
+│   │   │   │   ├── facebook_launch.jpg
+│   │   │   │   ├── facebook_leak.jpg
+│   │   │   │   ├── facebook_libra.jpg
+│   │   │   │   ├── facebook_outage.jpg
+│   │   │   │   ├── falcon9_landing.jpg
+│   │   │   │   ├── falcon_heavy.jpg
+│   │   │   │   ├── female_spacewalk.jpg
+│   │   │   │   ├── fire.jpg
+│   │   │   │   ├── firefox.jpg
+│   │   │   │   ├── first-moonwalk.jpg
+│   │   │   │   ├── first_spacewalk.jpg
+│   │   │   │   ├── first_website.jpg
+│   │   │   │   ├── fish.jpg
+│   │   │   │   ├── flint_water_crisis.jpg
+│   │   │   │   ├── floppy_disk.jpg
+│   │   │   │   ├── franz_ferdinand.jpg
+│   │   │   │   ├── frb.jpg
+│   │   │   │   ├── fukushima.jpg
+│   │   │   │   ├── future-electronics.webp
+│   │   │   │   ├── future-of-work.webp
+│   │   │   │   ├── gagarin.jpg
+│   │   │   │   ├── galileo.jpg
+│   │   │   │   ├── gangnam-style.jpg
+│   │   │   │   ├── gdpr.jpg
+│   │   │   │   ├── git.jpg
+│   │   │   │   ├── github.jpg
+│   │   │   │   ├── github_launch.jpg
+│   │   │   │   ├── google-ai-summit.webp
+│   │   │   │   ├── google-cloud-outage.webp
+│   │   │   │   ├── google-palm.jpg
+│   │   │   │   ├── google-plus.jpg
+│   │   │   │   ├── google.jpg
+│   │   │   │   ├── google_duplex.jpg
+│   │   │   │   ├── google_lamda.jpg
+│   │   │   │   ├── google_stadia.jpg
+│   │   │   │   ├── googledocs.jpg
+│   │   │   │   ├── googlemaps.jpg
+│   │   │   │   ├── gravitational_waves.jpg
+│   │   │   │   ├── greta_thunberg.jpg
+│   │   │   │   ├── hammurabi.jpg
+│   │   │   │   ├── heartbleed.jpg
+│   │   │   │   ├── higgs-boson.jpg
+│   │   │   │   ├── hiroshima_nagasaki.jpg
+│   │   │   │   ├── hominids.jpg
+│   │   │   │   ├── hong_kong_protests.jpg
+│   │   │   │   ├── html5.jpg
+│   │   │   │   ├── huawei_trade_restrictions.jpg
+│   │   │   │   ├── hubble.jpg
+│   │   │   │   ├── hubble_space_telescope.jpg
+│   │   │   │   ├── human.jpg
+│   │   │   │   ├── huygens.jpg
+│   │   │   │   ├── icann.jpg
+│   │   │   │   ├── ics-2024.webp
+│   │   │   │   ├── imac.jpg
+│   │   │   │   ├── ingenuity.jpg
+│   │   │   │   ├── ingenuity_mars.jpg
+│   │   │   │   ├── insight.jpg
+│   │   │   │   ├── intel_4004.jpg
+│   │   │   │   ├── invasion_of_poland.jpg
+│   │   │   │   ├── ipad.jpg
+│   │   │   │   ├── iphone.jpg
+│   │   │   │   ├── iphone16.jpg
+│   │   │   │   ├── iphone16.webp
+│   │   │   │   ├── iphone_x.jpg
+│   │   │   │   ├── ipod.jpg
+│   │   │   │   ├── iron_curtain_speech.jpg
+│   │   │   │   ├── iss.jpg
+│   │   │   │   ├── iss_crew.jpg
+│   │   │   │   ├── james_webb.jpg
+│   │   │   │   ├── java.jpg
+│   │   │   │   ├── jfk_assassination.jpg
+│   │   │   │   ├── john_glenn.jpg
+│   │   │   │   ├── joseph_stalin.jpg
+│   │   │   │   ├── juno.jpg
+│   │   │   │   ├── jwst.jpg
+│   │   │   │   ├── kellygang.jpg
+│   │   │   │   ├── kepler.jpg
+│   │   │   │   ├── korean_war.jpg
+│   │   │   │   ├── kubernetes.jpg
+│   │   │   │   ├── land_plants.jpg
+│   │   │   │   ├── lebanon_protests.jpg
+│   │   │   │   ├── lhc.jpg
+│   │   │   │   ├── linkedin.jpg
+│   │   │   │   ├── linux-kernel.webp
+│   │   │   │   ├── linux.jpg
+│   │   │   │   ├── list-of-images.txt
+│   │   │   │   ├── log4j-vulnerability.jpg
+│   │   │   │   ├── log4j-vulnerability.webp
+│   │   │   │   ├── lro.jpg
+│   │   │   │   ├── lunar_module.jpg
+│   │   │   │   ├── macintosh.jpg
+│   │   │   │   ├── macosx.jpg
+│   │   │   │   ├── mammals.jpg
+│   │   │   │   ├── marconi.jpg
+│   │   │   │   ├── mars-exploration-conference.webp
+│   │   │   │   ├── mars_odyssey.jpg
+│   │   │   │   ├── mars_pathfinder.jpg
+│   │   │   │   ├── mars_rover.jpg
+│   │   │   │   ├── mars_rover_curiosity.jpg
+│   │   │   │   ├── mcafee.jpg
+│   │   │   │   ├── medibank-breach.webp
+│   │   │   │   ├── medtech-summit.webp
+│   │   │   │   ├── meltdown_spectre.jpg
+│   │   │   │   ├── meta-vr.jpg
+│   │   │   │   ├── meta-vr.webp
+│   │   │   │   ├── meta.jpg
+│   │   │   │   ├── mgs.jpg
+│   │   │   │   ├── moon.jpg
+│   │   │   │   ├── morris.jpg
+│   │   │   │   ├── mro.jpg
+│   │   │   │   ├── msl.jpg
+│   │   │   │   ├── multicellular.jpg
+│   │   │   │   ├── nasa.jpg
+│   │   │   │   ├── nato.jpg
+│   │   │   │   ├── neanderthal.jpg
+│   │   │   │   ├── near_shoemaker.jpg
+│   │   │   │   ├── net_neutrality.jpg
+│   │   │   │   ├── new_horizons.jpg
+│   │   │   │   ├── next-gen-electronics.webp
+│   │   │   │   ├── note7.jpg
+│   │   │   │   ├── notpetya.jpg
+│   │   │   │   ├── notre_dame_fire.jpg
+│   │   │   │   ├── osama-bin-laden.jpg
+│   │   │   │   ├── osiris_rex.jpg
+│   │   │   │   ├── paris_agreement.jpg
+│   │   │   │   ├── parker_solar_probe.jpg
+│   │   │   │   ├── pearl_harbor.jpg
+│   │   │   │   ├── penicillin.jpg
+│   │   │   │   ├── perseverance.jpg
+│   │   │   │   ├── perseverance_rover.jpg
+│   │   │   │   ├── placeholder-image-for-all.webp
+│   │   │   │   ├── polio-vaccine.jpg
+│   │   │   │   ├── prague_spring.jpg
+│   │   │   │   ├── primates.jpg
+│   │   │   │   ├── proxima_centauri_b.jpg
+│   │   │   │   ├── pycon.webp
+│   │   │   │   ├── pyramids.jpg
+│   │   │   │   ├── python.jpg
+│   │   │   │   ├── quantum-computing-forum.webp
+│   │   │   │   ├── quantum-symposium.webp
+│   │   │   │   ├── quantum.jpg
+│   │   │   │   ├── quantum.webp
+│   │   │   │   ├── rails.jpg
+│   │   │   │   ├── ransomware.jpg
+│   │   │   │   ├── raspberry-pi.jpg
+│   │   │   │   ├── redhat.jpg
+│   │   │   │   ├── representation-of-major-events-in-it-v02.webp
+│   │   │   │   ├── representation-of-major-events-in-it-v03.webp
+│   │   │   │   ├── representation-of-major-events-in-it.webp
+│   │   │   │   ├── reptiles.jpg
+│   │   │   │   ├── robotics-expo.webp
+│   │   │   │   ├── rome.jpg
+│   │   │   │   ├── rosetta.jpg
+│   │   │   │   ├── rosetta_comet.jpg
+│   │   │   │   ├── rsa.jpg
+│   │   │   │   ├── russia-ukraine-cyberwarfare.jpg
+│   │   │   │   ├── russian_revolution.jpg
+│   │   │   │   ├── safari.jpg
+│   │   │   │   ├── salyut1.jpg
+│   │   │   │   ├── sandy_hook.jpg
+│   │   │   │   ├── single_cell.jpg
+│   │   │   │   ├── skylab.jpg
+│   │   │   │   ├── slack.jpg
+│   │   │   │   ├── snowden.jpg
+│   │   │   │   ├── solarwinds-hack.webp
+│   │   │   │   ├── solarwinds.jpg
+│   │   │   │   ├── soviet_union.jpg
+│   │   │   │   ├── space_shuttle.jpg
+│   │   │   │   ├── space_shuttle_columbia.jpg
+│   │   │   │   ├── space_tourist.jpg
+│   │   │   │   ├── spaceshipone.jpg
+│   │   │   │   ├── spacex-starship.jpg
+│   │   │   │   ├── spitzer.jpg
+│   │   │   │   ├── sputnik.jpg
+│   │   │   │   ├── sputnik1.jpg
+│   │   │   │   ├── sql.jpg
+│   │   │   │   ├── steve-jobs-resigns.jpg
+│   │   │   │   ├── stockmarket.jpg
+│   │   │   │   ├── stuxnet.jpg
+│   │   │   │   ├── suez_crisis.jpg
+│   │   │   │   ├── television.jpg
+│   │   │   │   ├── tesla-fsd.webp
+│   │   │   │   ├── tesla_autopilot.jpg
+│   │   │   │   ├── tess.jpg
+│   │   │   │   ├── thumbnail.jpg
+│   │   │   │   ├── tmobile-data-breach.webp
+│   │   │   │   ├── tor.jpg
+│   │   │   │   ├── trappist1.jpg
+│   │   │   │   ├── treaty_of_versailles.jpg
+│   │   │   │   ├── trinity.jpg
+│   │   │   │   ├── twitter-data-breach.webp
+│   │   │   │   ├── twitter_hack.jpg
+│   │   │   │   ├── uber-data-breach.jpg
+│   │   │   │   ├── ubuntu.jpg
+│   │   │   │   ├── united-nations.jpg
+│   │   │   │   ├── united_nations.jpg
+│   │   │   │   ├── unix.jpg
+│   │   │   │   ├── us_election.jpg
+│   │   │   │   ├── vietnam_war.jpg
+│   │   │   │   ├── viking1.jpg
+│   │   │   │   ├── viking1_lander.jpg
+│   │   │   │   ├── visionpro.jpg
+│   │   │   │   ├── volkswagen.jpg
+│   │   │   │   ├── voyager1.jpg
+│   │   │   │   ├── voyager1_interstellar.jpg
+│   │   │   │   ├── voyager2.jpg
+│   │   │   │   ├── voyager2_grand_tour.jpg
+│   │   │   │   ├── wannacry.jpg
+│   │   │   │   ├── water_moon.jpg
+│   │   │   │   ├── whatsapp.jpg
+│   │   │   │   ├── who_covid19.jpg
+│   │   │   │   ├── windows10.jpg
+│   │   │   │   ├── windows11.jpg
+│   │   │   │   ├── windows11_update.jpg
+│   │   │   │   ├── windows31.jpg
+│   │   │   │   ├── windows7.jpg
+│   │   │   │   ├── windows8.jpg
+│   │   │   │   ├── windows95.jpg
+│   │   │   │   ├── windowsxp.jpg
+│   │   │   │   ├── wrightbrothers.jpg
+│   │   │   │   ├── writing.jpg
+│   │   │   │   ├── ww1.jpg
+│   │   │   │   ├── www-public.jpg
+│   │   │   │   ├── www.jpg
+│   │   │   │   ├── y2k.jpg
+│   │   │   │   ├── yahoo.jpg
+│   │   │   │   ├── yalta_conference.jpg
+│   │   │   │   ├── yellow_vests.jpg
+│   │   │   │   ├── youtube.jpg
+│   │   │   │   ├── yuri_gagarin.jpg
+│   │   │   │   └── zoom.jpg
+│   │   │   ├── images-thumbnails
+│   │   │   │   ├── 51_pegasi_b.jpg
+│   │   │   │   ├── activision.jpg
+│   │   │   │   ├── adobeflash.jpg
+│   │   │   │   ├── adolf_hitler.jpg
+│   │   │   │   ├── afghan-war-diary.jpg
+│   │   │   │   ├── agriculture.jpg
+│   │   │   │   ├── ai-ethics-conference.webp
+│   │   │   │   ├── ai-ethics-symposium.webp
+│   │   │   │   ├── alan_shepard.jpg
+│   │   │   │   ├── alexander.jpg
+│   │   │   │   ├── alibaba_ipo.jpg
+│   │   │   │   ├── amazon_fires.jpg
+│   │   │   │   ├── amazon_mgm.jpg
+│   │   │   │   ├── amphibians.jpg
+│   │   │   │   ├── android.jpg
+│   │   │   │   ├── apollo13.jpg
+│   │   │   │   ├── apple2.jpg
+│   │   │   │   ├── apple_app_store.jpg
+│   │   │   │   ├── apple_card.jpg
+│   │   │   │   ├── apple_fbi.jpg
+│   │   │   │   ├── apple_m2.jpg
+│   │   │   │   ├── apple_silicon.jpg
+│   │   │   │   ├── applewatch.jpg
+│   │   │   │   ├── appstore.jpg
+│   │   │   │   ├── apt-critical-infrastructure.webp
+│   │   │   │   ├── arab-spring.jpg
+│   │   │   │   ├── arpanet.jpg
+│   │   │   │   ├── atari2600.jpg
+│   │   │   │   ├── australia_bushfires.jpg
+│   │   │   │   ├── aws-reinvent.webp
+│   │   │   │   ├── aws.jpg
+│   │   │   │   ├── battle_of_britain.jpg
+│   │   │   │   ├── battle_of_the_somme.jpg
+│   │   │   │   ├── berlin_airlift.jpg
+│   │   │   │   ├── berlin_wall.jpg
+│   │   │   │   ├── berlinwall.jpg
+│   │   │   │   ├── birds.jpg
+│   │   │   │   ├── bitcoin-conference.webp
+│   │   │   │   ├── bitcoin.jpg
+│   │   │   │   ├── black_hole.jpg
+│   │   │   │   ├── black_lives_matter.jpg
+│   │   │   │   ├── blm_protests.jpg
+│   │   │   │   ├── blockchain-forum.webp
+│   │   │   │   ├── blockchain.jpg
+│   │   │   │   ├── boeing_737_max.jpg
+│   │   │   │   ├── brexit.jpg
+│   │   │   │   ├── bsd.jpg
+│   │   │   │   ├── caesar.jpg
+│   │   │   │   ├── cambrian_explosion.jpg
+│   │   │   │   ├── cambridge.jpg
+│   │   │   │   ├── cassini.jpg
+│   │   │   │   ├── cassini_huygens.jpg
+│   │   │   │   ├── challenger.jpg
+│   │   │   │   ├── chandra.jpg
+│   │   │   │   ├── chatgpt.jpg
+│   │   │   │   ├── chilean_protests.jpg
+│   │   │   │   ├── china_cryptocurrency_ban.jpg
+│   │   │   │   ├── chrome.jpg
+│   │   │   │   ├── climate_strikes.jpg
+│   │   │   │   ├── clubhouse_app.jpg
+│   │   │   │   ├── colonial-pipeline-attack.webp
+│   │   │   │   ├── colonial_pipeline.jpg
+│   │   │   │   ├── cop26_climate_change.jpg
+│   │   │   │   ├── costa-rica-ransomware.jpg
+│   │   │   │   ├── creativecloud.jpg
+│   │   │   │   ├── creeper.jpg
+│   │   │   │   ├── crew_dragon.jpg
+│   │   │   │   ├── crowdstrike.jpg
+│   │   │   │   ├── crowdstrike.webp
+│   │   │   │   ├── cuban_missile_crisis.jpg
+│   │   │   │   ├── curiosity.jpg
+│   │   │   │   ├── cybersecurity-awareness.webp
+│   │   │   │   ├── cybersecurity-summit.webp
+│   │   │   │   ├── d_day.jpg
+│   │   │   │   ├── darkside-arrests.webp
+│   │   │   │   ├── dawn.jpg
+│   │   │   │   ├── defcon.webp
+│   │   │   │   ├── democracy.jpg
+│   │   │   │   ├── dialup.jpg
+│   │   │   │   ├── dinosaurs.jpg
+│   │   │   │   ├── dna.jpg
+│   │   │   │   ├── docker.jpg
+│   │   │   │   ├── dyn.jpg
+│   │   │   │   ├── earth.jpg
+│   │   │   │   ├── ebola.jpg
+│   │   │   │   ├── email.jpg
+│   │   │   │   ├── equifax.jpg
+│   │   │   │   ├── exchange-server-vulnerability.webp
+│   │   │   │   ├── facebook-500-million.jpg
+│   │   │   │   ├── facebook-ipo.jpg
+│   │   │   │   ├── facebook.jpg
+│   │   │   │   ├── facebook_launch.jpg
+│   │   │   │   ├── facebook_leak.jpg
+│   │   │   │   ├── facebook_libra.jpg
+│   │   │   │   ├── facebook_outage.jpg
+│   │   │   │   ├── falcon9_landing.jpg
+│   │   │   │   ├── falcon_heavy.jpg
+│   │   │   │   ├── female_spacewalk.jpg
+│   │   │   │   ├── fire.jpg
+│   │   │   │   ├── firefox.jpg
+│   │   │   │   ├── first-moonwalk.jpg
+│   │   │   │   ├── first_spacewalk.jpg
+│   │   │   │   ├── first_website.jpg
+│   │   │   │   ├── fish.jpg
+│   │   │   │   ├── flint_water_crisis.jpg
+│   │   │   │   ├── floppy_disk.jpg
+│   │   │   │   ├── franz_ferdinand.jpg
+│   │   │   │   ├── frb.jpg
+│   │   │   │   ├── fukushima.jpg
+│   │   │   │   ├── future-electronics.webp
+│   │   │   │   ├── future-of-work.webp
+│   │   │   │   ├── gagarin.jpg
+│   │   │   │   ├── galileo.jpg
+│   │   │   │   ├── gangnam-style.jpg
+│   │   │   │   ├── gdpr.jpg
+│   │   │   │   ├── git.jpg
+│   │   │   │   ├── github.jpg
+│   │   │   │   ├── github_launch.jpg
+│   │   │   │   ├── google-ai-summit.webp
+│   │   │   │   ├── google-cloud-outage.webp
+│   │   │   │   ├── google-palm.jpg
+│   │   │   │   ├── google-plus.jpg
+│   │   │   │   ├── google.jpg
+│   │   │   │   ├── google_duplex.jpg
+│   │   │   │   ├── google_lamda.jpg
+│   │   │   │   ├── google_stadia.jpg
+│   │   │   │   ├── googledocs.jpg
+│   │   │   │   ├── googlemaps.jpg
+│   │   │   │   ├── gravitational_waves.jpg
+│   │   │   │   ├── greta_thunberg.jpg
+│   │   │   │   ├── hammurabi.jpg
+│   │   │   │   ├── heartbleed.jpg
+│   │   │   │   ├── higgs-boson.jpg
+│   │   │   │   ├── hiroshima_nagasaki.jpg
+│   │   │   │   ├── hominids.jpg
+│   │   │   │   ├── hong_kong_protests.jpg
+│   │   │   │   ├── html5.jpg
+│   │   │   │   ├── huawei_trade_restrictions.jpg
+│   │   │   │   ├── hubble.jpg
+│   │   │   │   ├── hubble_space_telescope.jpg
+│   │   │   │   ├── human.jpg
+│   │   │   │   ├── huygens.jpg
+│   │   │   │   ├── icann.jpg
+│   │   │   │   ├── ics-2024.webp
+│   │   │   │   ├── imac.jpg
+│   │   │   │   ├── ingenuity.jpg
+│   │   │   │   ├── ingenuity_mars.jpg
+│   │   │   │   ├── insight.jpg
+│   │   │   │   ├── intel_4004.jpg
+│   │   │   │   ├── invasion_of_poland.jpg
+│   │   │   │   ├── ipad.jpg
+│   │   │   │   ├── iphone.jpg
+│   │   │   │   ├── iphone16.jpg
+│   │   │   │   ├── iphone16.webp
+│   │   │   │   ├── iphone_x.jpg
+│   │   │   │   ├── ipod.jpg
+│   │   │   │   ├── iron_curtain_speech.jpg
+│   │   │   │   ├── iss.jpg
+│   │   │   │   ├── iss_crew.jpg
+│   │   │   │   ├── james_webb.jpg
+│   │   │   │   ├── java.jpg
+│   │   │   │   ├── jfk_assassination.jpg
+│   │   │   │   ├── john_glenn.jpg
+│   │   │   │   ├── joseph_stalin.jpg
+│   │   │   │   ├── juno.jpg
+│   │   │   │   ├── jwst.jpg
+│   │   │   │   ├── kellygang.jpg
+│   │   │   │   ├── kepler.jpg
+│   │   │   │   ├── korean_war.jpg
+│   │   │   │   ├── kubernetes.jpg
+│   │   │   │   ├── land_plants.jpg
+│   │   │   │   ├── lebanon_protests.jpg
+│   │   │   │   ├── lhc.jpg
+│   │   │   │   ├── linkedin.jpg
+│   │   │   │   ├── linux-kernel.webp
+│   │   │   │   ├── linux.jpg
+│   │   │   │   ├── log4j-vulnerability.jpg
+│   │   │   │   ├── log4j-vulnerability.webp
+│   │   │   │   ├── lro.jpg
+│   │   │   │   ├── lunar_module.jpg
+│   │   │   │   ├── macintosh.jpg
+│   │   │   │   ├── macosx.jpg
+│   │   │   │   ├── mammals.jpg
+│   │   │   │   ├── marconi.jpg
+│   │   │   │   ├── mars-exploration-conference.webp
+│   │   │   │   ├── mars_odyssey.jpg
+│   │   │   │   ├── mars_pathfinder.jpg
+│   │   │   │   ├── mars_rover.jpg
+│   │   │   │   ├── mars_rover_curiosity.jpg
+│   │   │   │   ├── mcafee.jpg
+│   │   │   │   ├── medibank-breach.webp
+│   │   │   │   ├── medtech-summit.webp
+│   │   │   │   ├── meltdown_spectre.jpg
+│   │   │   │   ├── meta-vr.jpg
+│   │   │   │   ├── meta-vr.webp
+│   │   │   │   ├── meta.jpg
+│   │   │   │   ├── mgs.jpg
+│   │   │   │   ├── moon.jpg
+│   │   │   │   ├── morris.jpg
+│   │   │   │   ├── mro.jpg
+│   │   │   │   ├── msl.jpg
+│   │   │   │   ├── multicellular.jpg
+│   │   │   │   ├── nasa.jpg
+│   │   │   │   ├── nato.jpg
+│   │   │   │   ├── neanderthal.jpg
+│   │   │   │   ├── near_shoemaker.jpg
+│   │   │   │   ├── net_neutrality.jpg
+│   │   │   │   ├── new_horizons.jpg
+│   │   │   │   ├── next-gen-electronics.webp
+│   │   │   │   ├── note7.jpg
+│   │   │   │   ├── notpetya.jpg
+│   │   │   │   ├── notre_dame_fire.jpg
+│   │   │   │   ├── osama-bin-laden.jpg
+│   │   │   │   ├── osiris_rex.jpg
+│   │   │   │   ├── paris_agreement.jpg
+│   │   │   │   ├── parker_solar_probe.jpg
+│   │   │   │   ├── pearl_harbor.jpg
+│   │   │   │   ├── penicillin.jpg
+│   │   │   │   ├── perseverance.jpg
+│   │   │   │   ├── perseverance_rover.jpg
+│   │   │   │   ├── polio-vaccine.jpg
+│   │   │   │   ├── prague_spring.jpg
+│   │   │   │   ├── primates.jpg
+│   │   │   │   ├── proxima_centauri_b.jpg
+│   │   │   │   ├── pycon.webp
+│   │   │   │   ├── pyramids.jpg
+│   │   │   │   ├── python.jpg
+│   │   │   │   ├── quantum-computing-forum.webp
+│   │   │   │   ├── quantum-symposium.webp
+│   │   │   │   ├── quantum.jpg
+│   │   │   │   ├── quantum.webp
+│   │   │   │   ├── rails.jpg
+│   │   │   │   ├── ransomware.jpg
+│   │   │   │   ├── raspberry-pi.jpg
+│   │   │   │   ├── redhat.jpg
+│   │   │   │   ├── reptiles.jpg
+│   │   │   │   ├── robotics-expo.webp
+│   │   │   │   ├── rome.jpg
+│   │   │   │   ├── rosetta.jpg
+│   │   │   │   ├── rosetta_comet.jpg
+│   │   │   │   ├── rsa.jpg
+│   │   │   │   ├── russia-ukraine-cyberwarfare.jpg
+│   │   │   │   ├── russian_revolution.jpg
+│   │   │   │   ├── safari.jpg
+│   │   │   │   ├── salyut1.jpg
+│   │   │   │   ├── sandy_hook.jpg
+│   │   │   │   ├── single_cell.jpg
+│   │   │   │   ├── skylab.jpg
+│   │   │   │   ├── slack.jpg
+│   │   │   │   ├── snowden.jpg
+│   │   │   │   ├── solarwinds-hack.webp
+│   │   │   │   ├── solarwinds.jpg
+│   │   │   │   ├── soviet_union.jpg
+│   │   │   │   ├── space_shuttle.jpg
+│   │   │   │   ├── space_shuttle_columbia.jpg
+│   │   │   │   ├── space_tourist.jpg
+│   │   │   │   ├── spaceshipone.jpg
+│   │   │   │   ├── spacex-starship.jpg
+│   │   │   │   ├── spitzer.jpg
+│   │   │   │   ├── sputnik.jpg
+│   │   │   │   ├── sputnik1.jpg
+│   │   │   │   ├── sql.jpg
+│   │   │   │   ├── steve-jobs-resigns.jpg
+│   │   │   │   ├── stockmarket.jpg
+│   │   │   │   ├── stuxnet.jpg
+│   │   │   │   ├── suez_crisis.jpg
+│   │   │   │   ├── television.jpg
+│   │   │   │   ├── tesla-fsd.webp
+│   │   │   │   ├── tesla_autopilot.jpg
+│   │   │   │   ├── tess.jpg
+│   │   │   │   ├── tmobile-data-breach.webp
+│   │   │   │   ├── tor.jpg
+│   │   │   │   ├── trappist1.jpg
+│   │   │   │   ├── treaty_of_versailles.jpg
+│   │   │   │   ├── trinity.jpg
+│   │   │   │   ├── twitter-data-breach.webp
+│   │   │   │   ├── twitter_hack.jpg
+│   │   │   │   ├── uber-data-breach.jpg
+│   │   │   │   ├── ubuntu.jpg
+│   │   │   │   ├── united-nations.jpg
+│   │   │   │   ├── united_nations.jpg
+│   │   │   │   ├── unix.jpg
+│   │   │   │   ├── us_election.jpg
+│   │   │   │   ├── vietnam_war.jpg
+│   │   │   │   ├── viking1.jpg
+│   │   │   │   ├── viking1_lander.jpg
+│   │   │   │   ├── visionpro.jpg
+│   │   │   │   ├── volkswagen.jpg
+│   │   │   │   ├── voyager1.jpg
+│   │   │   │   ├── voyager1_interstellar.jpg
+│   │   │   │   ├── voyager2.jpg
+│   │   │   │   ├── voyager2_grand_tour.jpg
+│   │   │   │   ├── wannacry.jpg
+│   │   │   │   ├── water_moon.jpg
+│   │   │   │   ├── whatsapp.jpg
+│   │   │   │   ├── who_covid19.jpg
+│   │   │   │   ├── windows10.jpg
+│   │   │   │   ├── windows11.jpg
+│   │   │   │   ├── windows11_update.jpg
+│   │   │   │   ├── windows31.jpg
+│   │   │   │   ├── windows7.jpg
+│   │   │   │   ├── windows8.jpg
+│   │   │   │   ├── windows95.jpg
+│   │   │   │   ├── windowsxp.jpg
+│   │   │   │   ├── wrightbrothers.jpg
+│   │   │   │   ├── writing.jpg
+│   │   │   │   ├── ww1.jpg
+│   │   │   │   ├── www-public.jpg
+│   │   │   │   ├── www.jpg
+│   │   │   │   ├── y2k.jpg
+│   │   │   │   ├── yahoo.jpg
+│   │   │   │   ├── yalta_conference.jpg
+│   │   │   │   ├── yellow_vests.jpg
+│   │   │   │   ├── youtube.jpg
+│   │   │   │   ├── yuri_gagarin.jpg
+│   │   │   │   └── zoom.jpg
+│   │   │   ├── index copy.html
+│   │   │   ├── index.html
+│   │   │   ├── js
+│   │   │   │   ├── data-fetching.js
+│   │   │   │   ├── event-rendering.js
+│   │   │   │   ├── main.js
+│   │   │   │   ├── search.js
+│   │   │   │   └── theme-switcher.js
+│   │   │   ├── script.js
+│   │   │   ├── styles.css
+│   │   │   ├── technology-evolution-v01.webp
+│   │   │   └── time-travel-what-event-would-you-change.webp
+│   │   ├── tip-ChatGPT-prompt-for-timelines.txt
+│   │   ├── topics-cyber-security-topics-of-interest
+│   │   │   └── index.html
+│   │   └── training-links
+│   │       └── index.html
+│   ├── _timeline
+│   │   ├── css
+│   │   │   └── styles.css
+│   │   ├── events
+│   │   │   ├── event-1900-1999.json
+│   │   │   ├── event-2000-2009.json
+│   │   │   ├── event-2010-2019.json
+│   │   │   ├── event-2020.json
+│   │   │   ├── event-2021.json
+│   │   │   ├── event-2022.json
+│   │   │   ├── event-2023.json
+│   │   │   ├── event-2024.json
+│   │   │   ├── event-ancient.json
+│   │   │   ├── event-nasa-space.json
+│   │   │   └── event-ww1-ww2-cold-war.json
+│   │   ├── events-backup-01
+│   │   │   ├── event-1969.json
+│   │   │   ├── event-1971.json
+│   │   │   ├── event-1977.json
+│   │   │   ├── event-1984.json
+│   │   │   ├── event-1986.json
+│   │   │   ├── event-1987.json
+│   │   │   ├── event-1988.json
+│   │   │   ├── event-1989.json
+│   │   │   ├── event-1991.json
+│   │   │   ├── event-1992.json
+│   │   │   ├── event-1994.json
+│   │   │   ├── event-1995.json
+│   │   │   ├── event-1998.json
+│   │   │   ├── event-2000.json
+│   │   │   ├── event-2001.json
+│   │   │   ├── event-2003.json
+│   │   │   ├── event-2004.json
+│   │   │   ├── event-2005.json
+│   │   │   ├── event-2006.json
+│   │   │   ├── event-2007.json
+│   │   │   ├── event-2008.json
+│   │   │   ├── event-2009.json
+│   │   │   ├── event-2010.json
+│   │   │   ├── event-2012.json
+│   │   │   ├── event-2013.json
+│   │   │   ├── event-2014.json
+│   │   │   ├── event-2015.json
+│   │   │   ├── event-2016.json
+│   │   │   ├── event-2017.json
+│   │   │   ├── event-2018.json
+│   │   │   ├── event-2020.json
+│   │   │   ├── event-2021.json
+│   │   │   ├── event-2022.json
+│   │   │   ├── event-2023.json
+│   │   │   ├── event-2024.json
+│   │   │   ├── event-ancient.json
+│   │   │   └── event-nasa-space.json
+│   │   ├── events.json
+│   │   ├── images
+│   │   │   ├── 51_pegasi_b.jpg
+│   │   │   ├── activision.jpg
+│   │   │   ├── adobeflash.jpg
+│   │   │   ├── adolf_hitler.jpg
+│   │   │   ├── afghan-war-diary.jpg
+│   │   │   ├── agriculture.jpg
+│   │   │   ├── ai-ethics-conference.webp
+│   │   │   ├── ai-ethics-symposium.webp
+│   │   │   ├── alan_shepard.jpg
+│   │   │   ├── alexander.jpg
+│   │   │   ├── alibaba_ipo.jpg
+│   │   │   ├── amazon_fires.jpg
+│   │   │   ├── amazon_mgm.jpg
+│   │   │   ├── amphibians.jpg
+│   │   │   ├── android.jpg
+│   │   │   ├── apollo13.jpg
+│   │   │   ├── apple2.jpg
+│   │   │   ├── apple_app_store.jpg
+│   │   │   ├── apple_card.jpg
+│   │   │   ├── apple_fbi.jpg
+│   │   │   ├── apple_m2.jpg
+│   │   │   ├── apple_silicon.jpg
+│   │   │   ├── applewatch.jpg
+│   │   │   ├── appstore.jpg
+│   │   │   ├── apt-critical-infrastructure.webp
+│   │   │   ├── arab-spring.jpg
+│   │   │   ├── arpanet.jpg
+│   │   │   ├── atari2600.jpg
+│   │   │   ├── australia_bushfires.jpg
+│   │   │   ├── aws-reinvent.webp
+│   │   │   ├── aws.jpg
+│   │   │   ├── battle_of_britain.jpg
+│   │   │   ├── battle_of_the_somme.jpg
+│   │   │   ├── berlin_airlift.jpg
+│   │   │   ├── berlin_wall.jpg
+│   │   │   ├── berlinwall.jpg
+│   │   │   ├── birds.jpg
+│   │   │   ├── bitcoin-conference.webp
+│   │   │   ├── bitcoin.jpg
+│   │   │   ├── black_hole.jpg
+│   │   │   ├── black_lives_matter.jpg
+│   │   │   ├── blm_protests.jpg
+│   │   │   ├── blockchain-forum.webp
+│   │   │   ├── blockchain.jpg
+│   │   │   ├── boeing_737_max.jpg
+│   │   │   ├── brexit.jpg
+│   │   │   ├── bsd.jpg
+│   │   │   ├── caesar.jpg
+│   │   │   ├── cambrian_explosion.jpg
+│   │   │   ├── cambridge.jpg
+│   │   │   ├── cassini.jpg
+│   │   │   ├── cassini_huygens.jpg
+│   │   │   ├── challenger.jpg
+│   │   │   ├── chandra.jpg
+│   │   │   ├── chatgpt.jpg
+│   │   │   ├── chilean_protests.jpg
+│   │   │   ├── china_cryptocurrency_ban.jpg
+│   │   │   ├── chrome.jpg
+│   │   │   ├── climate_strikes.jpg
+│   │   │   ├── clubhouse_app.jpg
+│   │   │   ├── colonial-pipeline-attack.webp
+│   │   │   ├── colonial_pipeline.jpg
+│   │   │   ├── cop26_climate_change.jpg
+│   │   │   ├── costa-rica-ransomware.jpg
+│   │   │   ├── create-image-replica.sh
+│   │   │   ├── create-thumbnails.sh
+│   │   │   ├── creativecloud.jpg
+│   │   │   ├── creeper.jpg
+│   │   │   ├── crew_dragon.jpg
+│   │   │   ├── crowdstrike.jpg
+│   │   │   ├── crowdstrike.webp
+│   │   │   ├── cuban_missile_crisis.jpg
+│   │   │   ├── curiosity.jpg
+│   │   │   ├── cybersecurity-awareness.webp
+│   │   │   ├── cybersecurity-summit.webp
+│   │   │   ├── d_day.jpg
+│   │   │   ├── darkside-arrests.webp
+│   │   │   ├── dawn.jpg
+│   │   │   ├── defcon.webp
+│   │   │   ├── democracy.jpg
+│   │   │   ├── dialup.jpg
+│   │   │   ├── dinosaurs.jpg
+│   │   │   ├── dna.jpg
+│   │   │   ├── docker.jpg
+│   │   │   ├── dyn.jpg
+│   │   │   ├── earth.jpg
+│   │   │   ├── ebola.jpg
+│   │   │   ├── email.jpg
+│   │   │   ├── equifax.jpg
+│   │   │   ├── exchange-server-vulnerability.webp
+│   │   │   ├── facebook-500-million.jpg
+│   │   │   ├── facebook-ipo.jpg
+│   │   │   ├── facebook.jpg
+│   │   │   ├── facebook_launch.jpg
+│   │   │   ├── facebook_leak.jpg
+│   │   │   ├── facebook_libra.jpg
+│   │   │   ├── facebook_outage.jpg
+│   │   │   ├── falcon9_landing.jpg
+│   │   │   ├── falcon_heavy.jpg
+│   │   │   ├── female_spacewalk.jpg
+│   │   │   ├── fire.jpg
+│   │   │   ├── firefox.jpg
+│   │   │   ├── first-moonwalk.jpg
+│   │   │   ├── first_spacewalk.jpg
+│   │   │   ├── first_website.jpg
+│   │   │   ├── fish.jpg
+│   │   │   ├── flint_water_crisis.jpg
+│   │   │   ├── floppy_disk.jpg
+│   │   │   ├── franz_ferdinand.jpg
+│   │   │   ├── frb.jpg
+│   │   │   ├── fukushima.jpg
+│   │   │   ├── future-electronics.webp
+│   │   │   ├── future-of-work.webp
+│   │   │   ├── gagarin.jpg
+│   │   │   ├── galileo.jpg
+│   │   │   ├── gangnam-style.jpg
+│   │   │   ├── gdpr.jpg
+│   │   │   ├── git.jpg
+│   │   │   ├── github.jpg
+│   │   │   ├── github_launch.jpg
+│   │   │   ├── google-ai-summit.webp
+│   │   │   ├── google-cloud-outage.webp
+│   │   │   ├── google-palm.jpg
+│   │   │   ├── google-plus.jpg
+│   │   │   ├── google.jpg
+│   │   │   ├── google_duplex.jpg
+│   │   │   ├── google_lamda.jpg
+│   │   │   ├── google_stadia.jpg
+│   │   │   ├── googledocs.jpg
+│   │   │   ├── googlemaps.jpg
+│   │   │   ├── gravitational_waves.jpg
+│   │   │   ├── greta_thunberg.jpg
+│   │   │   ├── hammurabi.jpg
+│   │   │   ├── heartbleed.jpg
+│   │   │   ├── higgs-boson.jpg
+│   │   │   ├── hiroshima_nagasaki.jpg
+│   │   │   ├── hominids.jpg
+│   │   │   ├── hong_kong_protests.jpg
+│   │   │   ├── html5.jpg
+│   │   │   ├── huawei_trade_restrictions.jpg
+│   │   │   ├── hubble.jpg
+│   │   │   ├── hubble_space_telescope.jpg
+│   │   │   ├── human.jpg
+│   │   │   ├── huygens.jpg
+│   │   │   ├── icann.jpg
+│   │   │   ├── ics-2024.webp
+│   │   │   ├── imac.jpg
+│   │   │   ├── ingenuity.jpg
+│   │   │   ├── ingenuity_mars.jpg
+│   │   │   ├── insight.jpg
+│   │   │   ├── intel_4004.jpg
+│   │   │   ├── invasion_of_poland.jpg
+│   │   │   ├── ipad.jpg
+│   │   │   ├── iphone.jpg
+│   │   │   ├── iphone16.jpg
+│   │   │   ├── iphone16.webp
+│   │   │   ├── iphone_x.jpg
+│   │   │   ├── ipod.jpg
+│   │   │   ├── iron_curtain_speech.jpg
+│   │   │   ├── iss.jpg
+│   │   │   ├── iss_crew.jpg
+│   │   │   ├── james_webb.jpg
+│   │   │   ├── java.jpg
+│   │   │   ├── jfk_assassination.jpg
+│   │   │   ├── john_glenn.jpg
+│   │   │   ├── joseph_stalin.jpg
+│   │   │   ├── juno.jpg
+│   │   │   ├── jwst.jpg
+│   │   │   ├── kellygang.jpg
+│   │   │   ├── kepler.jpg
+│   │   │   ├── korean_war.jpg
+│   │   │   ├── kubernetes.jpg
+│   │   │   ├── land_plants.jpg
+│   │   │   ├── lebanon_protests.jpg
+│   │   │   ├── lhc.jpg
+│   │   │   ├── linkedin.jpg
+│   │   │   ├── linux-kernel.webp
+│   │   │   ├── linux.jpg
+│   │   │   ├── list-of-images.txt
+│   │   │   ├── log4j-vulnerability.jpg
+│   │   │   ├── log4j-vulnerability.webp
+│   │   │   ├── lro.jpg
+│   │   │   ├── lunar_module.jpg
+│   │   │   ├── macintosh.jpg
+│   │   │   ├── macosx.jpg
+│   │   │   ├── mammals.jpg
+│   │   │   ├── marconi.jpg
+│   │   │   ├── mars-exploration-conference.webp
+│   │   │   ├── mars_odyssey.jpg
+│   │   │   ├── mars_pathfinder.jpg
+│   │   │   ├── mars_rover.jpg
+│   │   │   ├── mars_rover_curiosity.jpg
+│   │   │   ├── mcafee.jpg
+│   │   │   ├── medibank-breach.webp
+│   │   │   ├── medtech-summit.webp
+│   │   │   ├── meltdown_spectre.jpg
+│   │   │   ├── meta-vr.jpg
+│   │   │   ├── meta-vr.webp
+│   │   │   ├── meta.jpg
+│   │   │   ├── mgs.jpg
+│   │   │   ├── moon.jpg
+│   │   │   ├── morris.jpg
+│   │   │   ├── mro.jpg
+│   │   │   ├── msl.jpg
+│   │   │   ├── multicellular.jpg
+│   │   │   ├── nasa.jpg
+│   │   │   ├── nato.jpg
+│   │   │   ├── neanderthal.jpg
+│   │   │   ├── near_shoemaker.jpg
+│   │   │   ├── net_neutrality.jpg
+│   │   │   ├── new_horizons.jpg
+│   │   │   ├── next-gen-electronics.webp
+│   │   │   ├── note7.jpg
+│   │   │   ├── notpetya.jpg
+│   │   │   ├── notre_dame_fire.jpg
+│   │   │   ├── osama-bin-laden.jpg
+│   │   │   ├── osiris_rex.jpg
+│   │   │   ├── paris_agreement.jpg
+│   │   │   ├── parker_solar_probe.jpg
+│   │   │   ├── pearl_harbor.jpg
+│   │   │   ├── penicillin.jpg
+│   │   │   ├── perseverance.jpg
+│   │   │   ├── perseverance_rover.jpg
+│   │   │   ├── placeholder-image-for-all.webp
+│   │   │   ├── polio-vaccine.jpg
+│   │   │   ├── prague_spring.jpg
+│   │   │   ├── primates.jpg
+│   │   │   ├── proxima_centauri_b.jpg
+│   │   │   ├── pycon.webp
+│   │   │   ├── pyramids.jpg
+│   │   │   ├── python.jpg
+│   │   │   ├── quantum-computing-forum.webp
+│   │   │   ├── quantum-symposium.webp
+│   │   │   ├── quantum.jpg
+│   │   │   ├── quantum.webp
+│   │   │   ├── rails.jpg
+│   │   │   ├── ransomware.jpg
+│   │   │   ├── raspberry-pi.jpg
+│   │   │   ├── redhat.jpg
+│   │   │   ├── representation-of-major-events-in-it-v02.webp
+│   │   │   ├── representation-of-major-events-in-it-v03.webp
+│   │   │   ├── representation-of-major-events-in-it.webp
+│   │   │   ├── reptiles.jpg
+│   │   │   ├── robotics-expo.webp
+│   │   │   ├── rome.jpg
+│   │   │   ├── rosetta.jpg
+│   │   │   ├── rosetta_comet.jpg
+│   │   │   ├── rsa.jpg
+│   │   │   ├── russia-ukraine-cyberwarfare.jpg
+│   │   │   ├── russian_revolution.jpg
+│   │   │   ├── safari.jpg
+│   │   │   ├── salyut1.jpg
+│   │   │   ├── sandy_hook.jpg
+│   │   │   ├── single_cell.jpg
+│   │   │   ├── skylab.jpg
+│   │   │   ├── slack.jpg
+│   │   │   ├── snowden.jpg
+│   │   │   ├── solarwinds-hack.webp
+│   │   │   ├── solarwinds.jpg
+│   │   │   ├── soviet_union.jpg
+│   │   │   ├── space_shuttle.jpg
+│   │   │   ├── space_shuttle_columbia.jpg
+│   │   │   ├── space_tourist.jpg
+│   │   │   ├── spaceshipone.jpg
+│   │   │   ├── spacex-starship.jpg
+│   │   │   ├── spitzer.jpg
+│   │   │   ├── sputnik.jpg
+│   │   │   ├── sputnik1.jpg
+│   │   │   ├── sql.jpg
+│   │   │   ├── steve-jobs-resigns.jpg
+│   │   │   ├── stockmarket.jpg
+│   │   │   ├── stuxnet.jpg
+│   │   │   ├── suez_crisis.jpg
+│   │   │   ├── television.jpg
+│   │   │   ├── tesla-fsd.webp
+│   │   │   ├── tesla_autopilot.jpg
+│   │   │   ├── tess.jpg
+│   │   │   ├── thumbnail.jpg
+│   │   │   ├── tmobile-data-breach.webp
+│   │   │   ├── tor.jpg
+│   │   │   ├── trappist1.jpg
+│   │   │   ├── treaty_of_versailles.jpg
+│   │   │   ├── trinity.jpg
+│   │   │   ├── twitter-data-breach.webp
+│   │   │   ├── twitter_hack.jpg
+│   │   │   ├── uber-data-breach.jpg
+│   │   │   ├── ubuntu.jpg
+│   │   │   ├── united-nations.jpg
+│   │   │   ├── united_nations.jpg
+│   │   │   ├── unix.jpg
+│   │   │   ├── us_election.jpg
+│   │   │   ├── vietnam_war.jpg
+│   │   │   ├── viking1.jpg
+│   │   │   ├── viking1_lander.jpg
+│   │   │   ├── visionpro.jpg
+│   │   │   ├── volkswagen.jpg
+│   │   │   ├── voyager1.jpg
+│   │   │   ├── voyager1_interstellar.jpg
+│   │   │   ├── voyager2.jpg
+│   │   │   ├── voyager2_grand_tour.jpg
+│   │   │   ├── wannacry.jpg
+│   │   │   ├── water_moon.jpg
+│   │   │   ├── whatsapp.jpg
+│   │   │   ├── who_covid19.jpg
+│   │   │   ├── windows10.jpg
+│   │   │   ├── windows11.jpg
+│   │   │   ├── windows11_update.jpg
+│   │   │   ├── windows31.jpg
+│   │   │   ├── windows7.jpg
+│   │   │   ├── windows8.jpg
+│   │   │   ├── windows95.jpg
+│   │   │   ├── windowsxp.jpg
+│   │   │   ├── wrightbrothers.jpg
+│   │   │   ├── writing.jpg
+│   │   │   ├── ww1.jpg
+│   │   │   ├── www-public.jpg
+│   │   │   ├── www.jpg
+│   │   │   ├── y2k.jpg
+│   │   │   ├── yahoo.jpg
+│   │   │   ├── yalta_conference.jpg
+│   │   │   ├── yellow_vests.jpg
+│   │   │   ├── youtube.jpg
+│   │   │   ├── yuri_gagarin.jpg
+│   │   │   └── zoom.jpg
+│   │   ├── images-thumbnails
+│   │   │   ├── 51_pegasi_b.jpg
+│   │   │   ├── activision.jpg
+│   │   │   ├── adobeflash.jpg
+│   │   │   ├── adolf_hitler.jpg
+│   │   │   ├── afghan-war-diary.jpg
+│   │   │   ├── agriculture.jpg
+│   │   │   ├── ai-ethics-conference.webp
+│   │   │   ├── ai-ethics-symposium.webp
+│   │   │   ├── alan_shepard.jpg
+│   │   │   ├── alexander.jpg
+│   │   │   ├── alibaba_ipo.jpg
+│   │   │   ├── amazon_fires.jpg
+│   │   │   ├── amazon_mgm.jpg
+│   │   │   ├── amphibians.jpg
+│   │   │   ├── android.jpg
+│   │   │   ├── apollo13.jpg
+│   │   │   ├── apple2.jpg
+│   │   │   ├── apple_app_store.jpg
+│   │   │   ├── apple_card.jpg
+│   │   │   ├── apple_fbi.jpg
+│   │   │   ├── apple_m2.jpg
+│   │   │   ├── apple_silicon.jpg
+│   │   │   ├── applewatch.jpg
+│   │   │   ├── appstore.jpg
+│   │   │   ├── apt-critical-infrastructure.webp
+│   │   │   ├── arab-spring.jpg
+│   │   │   ├── arpanet.jpg
+│   │   │   ├── atari2600.jpg
+│   │   │   ├── australia_bushfires.jpg
+│   │   │   ├── aws-reinvent.webp
+│   │   │   ├── aws.jpg
+│   │   │   ├── battle_of_britain.jpg
+│   │   │   ├── battle_of_the_somme.jpg
+│   │   │   ├── berlin_airlift.jpg
+│   │   │   ├── berlin_wall.jpg
+│   │   │   ├── berlinwall.jpg
+│   │   │   ├── birds.jpg
+│   │   │   ├── bitcoin-conference.webp
+│   │   │   ├── bitcoin.jpg
+│   │   │   ├── black_hole.jpg
+│   │   │   ├── black_lives_matter.jpg
+│   │   │   ├── blm_protests.jpg
+│   │   │   ├── blockchain-forum.webp
+│   │   │   ├── blockchain.jpg
+│   │   │   ├── boeing_737_max.jpg
+│   │   │   ├── brexit.jpg
+│   │   │   ├── bsd.jpg
+│   │   │   ├── caesar.jpg
+│   │   │   ├── cambrian_explosion.jpg
+│   │   │   ├── cambridge.jpg
+│   │   │   ├── cassini.jpg
+│   │   │   ├── cassini_huygens.jpg
+│   │   │   ├── challenger.jpg
+│   │   │   ├── chandra.jpg
+│   │   │   ├── chatgpt.jpg
+│   │   │   ├── chilean_protests.jpg
+│   │   │   ├── china_cryptocurrency_ban.jpg
+│   │   │   ├── chrome.jpg
+│   │   │   ├── climate_strikes.jpg
+│   │   │   ├── clubhouse_app.jpg
+│   │   │   ├── colonial-pipeline-attack.webp
+│   │   │   ├── colonial_pipeline.jpg
+│   │   │   ├── cop26_climate_change.jpg
+│   │   │   ├── costa-rica-ransomware.jpg
+│   │   │   ├── creativecloud.jpg
+│   │   │   ├── creeper.jpg
+│   │   │   ├── crew_dragon.jpg
+│   │   │   ├── crowdstrike.jpg
+│   │   │   ├── crowdstrike.webp
+│   │   │   ├── cuban_missile_crisis.jpg
+│   │   │   ├── curiosity.jpg
+│   │   │   ├── cybersecurity-awareness.webp
+│   │   │   ├── cybersecurity-summit.webp
+│   │   │   ├── d_day.jpg
+│   │   │   ├── darkside-arrests.webp
+│   │   │   ├── dawn.jpg
+│   │   │   ├── defcon.webp
+│   │   │   ├── democracy.jpg
+│   │   │   ├── dialup.jpg
+│   │   │   ├── dinosaurs.jpg
+│   │   │   ├── dna.jpg
+│   │   │   ├── docker.jpg
+│   │   │   ├── dyn.jpg
+│   │   │   ├── earth.jpg
+│   │   │   ├── ebola.jpg
+│   │   │   ├── email.jpg
+│   │   │   ├── equifax.jpg
+│   │   │   ├── exchange-server-vulnerability.webp
+│   │   │   ├── facebook-500-million.jpg
+│   │   │   ├── facebook-ipo.jpg
+│   │   │   ├── facebook.jpg
+│   │   │   ├── facebook_launch.jpg
+│   │   │   ├── facebook_leak.jpg
+│   │   │   ├── facebook_libra.jpg
+│   │   │   ├── facebook_outage.jpg
+│   │   │   ├── falcon9_landing.jpg
+│   │   │   ├── falcon_heavy.jpg
+│   │   │   ├── female_spacewalk.jpg
+│   │   │   ├── fire.jpg
+│   │   │   ├── firefox.jpg
+│   │   │   ├── first-moonwalk.jpg
+│   │   │   ├── first_spacewalk.jpg
+│   │   │   ├── first_website.jpg
+│   │   │   ├── fish.jpg
+│   │   │   ├── flint_water_crisis.jpg
+│   │   │   ├── floppy_disk.jpg
+│   │   │   ├── franz_ferdinand.jpg
+│   │   │   ├── frb.jpg
+│   │   │   ├── fukushima.jpg
+│   │   │   ├── future-electronics.webp
+│   │   │   ├── future-of-work.webp
+│   │   │   ├── gagarin.jpg
+│   │   │   ├── galileo.jpg
+│   │   │   ├── gangnam-style.jpg
+│   │   │   ├── gdpr.jpg
+│   │   │   ├── git.jpg
+│   │   │   ├── github.jpg
+│   │   │   ├── github_launch.jpg
+│   │   │   ├── google-ai-summit.webp
+│   │   │   ├── google-cloud-outage.webp
+│   │   │   ├── google-palm.jpg
+│   │   │   ├── google-plus.jpg
+│   │   │   ├── google.jpg
+│   │   │   ├── google_duplex.jpg
+│   │   │   ├── google_lamda.jpg
+│   │   │   ├── google_stadia.jpg
+│   │   │   ├── googledocs.jpg
+│   │   │   ├── googlemaps.jpg
+│   │   │   ├── gravitational_waves.jpg
+│   │   │   ├── greta_thunberg.jpg
+│   │   │   ├── hammurabi.jpg
+│   │   │   ├── heartbleed.jpg
+│   │   │   ├── higgs-boson.jpg
+│   │   │   ├── hiroshima_nagasaki.jpg
+│   │   │   ├── hominids.jpg
+│   │   │   ├── hong_kong_protests.jpg
+│   │   │   ├── html5.jpg
+│   │   │   ├── huawei_trade_restrictions.jpg
+│   │   │   ├── hubble.jpg
+│   │   │   ├── hubble_space_telescope.jpg
+│   │   │   ├── human.jpg
+│   │   │   ├── huygens.jpg
+│   │   │   ├── icann.jpg
+│   │   │   ├── ics-2024.webp
+│   │   │   ├── imac.jpg
+│   │   │   ├── ingenuity.jpg
+│   │   │   ├── ingenuity_mars.jpg
+│   │   │   ├── insight.jpg
+│   │   │   ├── intel_4004.jpg
+│   │   │   ├── invasion_of_poland.jpg
+│   │   │   ├── ipad.jpg
+│   │   │   ├── iphone.jpg
+│   │   │   ├── iphone16.jpg
+│   │   │   ├── iphone16.webp
+│   │   │   ├── iphone_x.jpg
+│   │   │   ├── ipod.jpg
+│   │   │   ├── iron_curtain_speech.jpg
+│   │   │   ├── iss.jpg
+│   │   │   ├── iss_crew.jpg
+│   │   │   ├── james_webb.jpg
+│   │   │   ├── java.jpg
+│   │   │   ├── jfk_assassination.jpg
+│   │   │   ├── john_glenn.jpg
+│   │   │   ├── joseph_stalin.jpg
+│   │   │   ├── juno.jpg
+│   │   │   ├── jwst.jpg
+│   │   │   ├── kellygang.jpg
+│   │   │   ├── kepler.jpg
+│   │   │   ├── korean_war.jpg
+│   │   │   ├── kubernetes.jpg
+│   │   │   ├── land_plants.jpg
+│   │   │   ├── lebanon_protests.jpg
+│   │   │   ├── lhc.jpg
+│   │   │   ├── linkedin.jpg
+│   │   │   ├── linux-kernel.webp
+│   │   │   ├── linux.jpg
+│   │   │   ├── log4j-vulnerability.jpg
+│   │   │   ├── log4j-vulnerability.webp
+│   │   │   ├── lro.jpg
+│   │   │   ├── lunar_module.jpg
+│   │   │   ├── macintosh.jpg
+│   │   │   ├── macosx.jpg
+│   │   │   ├── mammals.jpg
+│   │   │   ├── marconi.jpg
+│   │   │   ├── mars-exploration-conference.webp
+│   │   │   ├── mars_odyssey.jpg
+│   │   │   ├── mars_pathfinder.jpg
+│   │   │   ├── mars_rover.jpg
+│   │   │   ├── mars_rover_curiosity.jpg
+│   │   │   ├── mcafee.jpg
+│   │   │   ├── medibank-breach.webp
+│   │   │   ├── medtech-summit.webp
+│   │   │   ├── meltdown_spectre.jpg
+│   │   │   ├── meta-vr.jpg
+│   │   │   ├── meta-vr.webp
+│   │   │   ├── meta.jpg
+│   │   │   ├── mgs.jpg
+│   │   │   ├── moon.jpg
+│   │   │   ├── morris.jpg
+│   │   │   ├── mro.jpg
+│   │   │   ├── msl.jpg
+│   │   │   ├── multicellular.jpg
+│   │   │   ├── nasa.jpg
+│   │   │   ├── nato.jpg
+│   │   │   ├── neanderthal.jpg
+│   │   │   ├── near_shoemaker.jpg
+│   │   │   ├── net_neutrality.jpg
+│   │   │   ├── new_horizons.jpg
+│   │   │   ├── next-gen-electronics.webp
+│   │   │   ├── note7.jpg
+│   │   │   ├── notpetya.jpg
+│   │   │   ├── notre_dame_fire.jpg
+│   │   │   ├── osama-bin-laden.jpg
+│   │   │   ├── osiris_rex.jpg
+│   │   │   ├── paris_agreement.jpg
+│   │   │   ├── parker_solar_probe.jpg
+│   │   │   ├── pearl_harbor.jpg
+│   │   │   ├── penicillin.jpg
+│   │   │   ├── perseverance.jpg
+│   │   │   ├── perseverance_rover.jpg
+│   │   │   ├── polio-vaccine.jpg
+│   │   │   ├── prague_spring.jpg
+│   │   │   ├── primates.jpg
+│   │   │   ├── proxima_centauri_b.jpg
+│   │   │   ├── pycon.webp
+│   │   │   ├── pyramids.jpg
+│   │   │   ├── python.jpg
+│   │   │   ├── quantum-computing-forum.webp
+│   │   │   ├── quantum-symposium.webp
+│   │   │   ├── quantum.jpg
+│   │   │   ├── quantum.webp
+│   │   │   ├── rails.jpg
+│   │   │   ├── ransomware.jpg
+│   │   │   ├── raspberry-pi.jpg
+│   │   │   ├── redhat.jpg
+│   │   │   ├── reptiles.jpg
+│   │   │   ├── robotics-expo.webp
+│   │   │   ├── rome.jpg
+│   │   │   ├── rosetta.jpg
+│   │   │   ├── rosetta_comet.jpg
+│   │   │   ├── rsa.jpg
+│   │   │   ├── russia-ukraine-cyberwarfare.jpg
+│   │   │   ├── russian_revolution.jpg
+│   │   │   ├── safari.jpg
+│   │   │   ├── salyut1.jpg
+│   │   │   ├── sandy_hook.jpg
+│   │   │   ├── single_cell.jpg
+│   │   │   ├── skylab.jpg
+│   │   │   ├── slack.jpg
+│   │   │   ├── snowden.jpg
+│   │   │   ├── solarwinds-hack.webp
+│   │   │   ├── solarwinds.jpg
+│   │   │   ├── soviet_union.jpg
+│   │   │   ├── space_shuttle.jpg
+│   │   │   ├── space_shuttle_columbia.jpg
+│   │   │   ├── space_tourist.jpg
+│   │   │   ├── spaceshipone.jpg
+│   │   │   ├── spacex-starship.jpg
+│   │   │   ├── spitzer.jpg
+│   │   │   ├── sputnik.jpg
+│   │   │   ├── sputnik1.jpg
+│   │   │   ├── sql.jpg
+│   │   │   ├── steve-jobs-resigns.jpg
+│   │   │   ├── stockmarket.jpg
+│   │   │   ├── stuxnet.jpg
+│   │   │   ├── suez_crisis.jpg
+│   │   │   ├── television.jpg
+│   │   │   ├── tesla-fsd.webp
+│   │   │   ├── tesla_autopilot.jpg
+│   │   │   ├── tess.jpg
+│   │   │   ├── tmobile-data-breach.webp
+│   │   │   ├── tor.jpg
+│   │   │   ├── trappist1.jpg
+│   │   │   ├── treaty_of_versailles.jpg
+│   │   │   ├── trinity.jpg
+│   │   │   ├── twitter-data-breach.webp
+│   │   │   ├── twitter_hack.jpg
+│   │   │   ├── uber-data-breach.jpg
+│   │   │   ├── ubuntu.jpg
+│   │   │   ├── united-nations.jpg
+│   │   │   ├── united_nations.jpg
+│   │   │   ├── unix.jpg
+│   │   │   ├── us_election.jpg
+│   │   │   ├── vietnam_war.jpg
+│   │   │   ├── viking1.jpg
+│   │   │   ├── viking1_lander.jpg
+│   │   │   ├── visionpro.jpg
+│   │   │   ├── volkswagen.jpg
+│   │   │   ├── voyager1.jpg
+│   │   │   ├── voyager1_interstellar.jpg
+│   │   │   ├── voyager2.jpg
+│   │   │   ├── voyager2_grand_tour.jpg
+│   │   │   ├── wannacry.jpg
+│   │   │   ├── water_moon.jpg
+│   │   │   ├── whatsapp.jpg
+│   │   │   ├── who_covid19.jpg
+│   │   │   ├── windows10.jpg
+│   │   │   ├── windows11.jpg
+│   │   │   ├── windows11_update.jpg
+│   │   │   ├── windows31.jpg
+│   │   │   ├── windows7.jpg
+│   │   │   ├── windows8.jpg
+│   │   │   ├── windows95.jpg
+│   │   │   ├── windowsxp.jpg
+│   │   │   ├── wrightbrothers.jpg
+│   │   │   ├── writing.jpg
+│   │   │   ├── ww1.jpg
+│   │   │   ├── www-public.jpg
+│   │   │   ├── www.jpg
+│   │   │   ├── y2k.jpg
+│   │   │   ├── yahoo.jpg
+│   │   │   ├── yalta_conference.jpg
+│   │   │   ├── yellow_vests.jpg
+│   │   │   ├── youtube.jpg
+│   │   │   ├── yuri_gagarin.jpg
+│   │   │   └── zoom.jpg
+│   │   ├── index copy.html
+│   │   ├── index.html
+│   │   ├── js
+│   │   │   ├── data-fetching.js
+│   │   │   ├── event-rendering.js
+│   │   │   ├── main.js
+│   │   │   ├── search.js
+│   │   │   └── theme-switcher.js
+│   │   ├── script.js
+│   │   ├── styles.css
+│   │   ├── technology-evolution-v01.webp
+│   │   └── time-travel-what-event-would-you-change.webp
+│   ├── assets
+│   │   ├── code
+│   │   │   ├── 2022-01-01-jf.md
+│   │   │   ├── 2022-06-25-paintball25.md
+│   │   │   ├── check-code.html
+│   │   │   └── check-event-code.js
+│   │   ├── css
+│   │   │   └── style.scss
+│   │   ├── images
+│   │   │   ├── 00-awsc-color-theme-cookies.png
+│   │   │   ├── 01-awsc-color-theme-s3-light.png
+│   │   │   ├── 02-awsc-color-theme-s3-dark.png
+│   │   │   ├── 2022-06-15-duplicated-photos.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-Advanced-Networking-Specialty.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-Cloud-Practitioner.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-Developer-Associate.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-Security-Specialty.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-Solutions-Architect-Associate.png
+│   │   │   ├── Antonio-Feijao-AWS-Certified-SysOps-Administrator-Associate.png
+│   │   │   ├── Antonio-Feijao-Genomics-headshot-35-square_small-640x640.jpeg
+│   │   │   ├── Antonio-Feijao-Genomics-headshot-35-square_small.jpeg
+│   │   │   ├── Antonio-Feijao-UK.jpeg
+│   │   │   ├── Antonio-Feijao-cover-photo.jpg
+│   │   │   ├── AntonioFeijao-photo0001-320x320.jpeg
+│   │   │   ├── AntonioFeijao-photo0001-640x640.jpeg
+│   │   │   ├── AntonioFeijao-photo0001-800x800.jpg
+│   │   │   ├── Cert-Roadmap-v9.1.png
+│   │   │   ├── alexandru-zdrobau-4bmtMXGuVqo-unsplash-small.jpg
+│   │   │   ├── alexandru-zdrobau-_STvosrG-pw-unsplash-small.jpg
+│   │   │   ├── android-chrome-192x192.png
+│   │   │   ├── android-chrome-512x512.png
+│   │   │   ├── antonio-cloud-logo.jpg
+│   │   │   ├── antonio-feijao-redhat-certified-sys-admin.png
+│   │   │   ├── antonio-feijao-sololearn-python3.png
+│   │   │   ├── antonio-feijao-sololearn-sql-fundamentals.png
+│   │   │   ├── antonio-feijao-uk-logo.jpg
+│   │   │   ├── antonio-feijao-uk-snorkeling.jpg
+│   │   │   ├── apple-touch-icon.png
+│   │   │   ├── aws-certifications-v2022-02-03.png
+│   │   │   ├── aws-certified-logo-1176x600-color.png
+│   │   │   ├── aws-map.png
+│   │   │   ├── cisco-ccna-r-26s.png
+│   │   │   ├── cisco-ccna-security.png
+│   │   │   ├── communications-skills-image-v2025-07-16-v-header.jpg
+│   │   │   ├── crowdstrike-logo-red-and-black.png
+│   │   │   ├── devsecops-in-your-company-dna.png
+│   │   │   ├── dima-pechurin-JUbjYFvCv00-unsplash-medium-door.jpeg
+│   │   │   ├── external-disk-with-various-macOS-versions.jpg
+│   │   │   ├── favicon-16x16.png
+│   │   │   ├── favicon-32x32.png
+│   │   │   ├── favicon.ico
+│   │   │   ├── gebhartyler-AQpOwYbm_Jg-unsplash.jpeg
+│   │   │   ├── hacking-google-series-2022.jpg
+│   │   │   ├── image-of-2-teenagers-amazed-and-pointing-at-the-computer-while-learning-about-chatgpt-promp.webp
+│   │   │   ├── ko-fi-icon-RGB-rounded.png
+│   │   │   ├── ko-fi-logo-RGB.png
+│   │   │   ├── lambda-sample-code-s3presign-url-and-sns.jpg
+│   │   │   ├── linkedin-logo.png
+│   │   │   ├── linux-bash-script-monitor-website-availability.jpg
+│   │   │   ├── logo.jpg
+│   │   │   ├── nasa-rTZW4f02zY8-unsplash-small.jpg
+│   │   │   ├── philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg
+│   │   │   ├── power-of-knowledge-by-gpt-image-generator.webp
+│   │   │   ├── python-fibonacci-sequence-v2020-02-27.jpg
+│   │   │   ├── rubik-cube
+│   │   │   │   ├── 01-all-white-middles-to-the-top.png
+│   │   │   │   ├── 02-turn-whites-middles-to-white-center.png
+│   │   │   │   ├── 03-yellow-up-fix-white-corners.png
+│   │   │   │   ├── 04-yellow-up-fix-the-middle-colors.png
+│   │   │   │   ├── 05-do-yellow-cross.png
+│   │   │   │   ├── 06-put-the-yellow-middles-in-the-right-place.png
+│   │   │   │   ├── 07-put-the-yellow-corners-in-the-right-place.png
+│   │   │   │   ├── 08-rotate-the-yellow-corner-to-fix-position.png
+│   │   │   │   └── 09-you-have-solved-the-rubik-cube.png
+│   │   │   ├── s3-object-created-trigger-lambda-and-sns-notification.jpg
+│   │   │   ├── s3-object-created-trigger-lambda-and-sns-notification.png
+│   │   │   ├── shamblen-studios-pJ_DCj9KswI-unsplash.jpg
+│   │   │   ├── sudo-raspi-config.png
+│   │   │   ├── tshark-install-yum-whatprovides.jpg
+│   │   │   ├── twitter-logo.png
+│   │   │   └── unmount-micro-sd-card-to-install-raspberry-pi.jpg
+│   │   ├── js
+│   │   │   ├── demo-for-doms.js
+│   │   │   └── pop.js
+│   │   ├── pdf
+│   │   │   └── Markdown_1page.pdf
+│   │   └── script-files
+│   │       ├── block-ads-v3.sh.txt
+│   │       ├── get-icons-v2.log.json
+│   │       └── get-icons.log.json
+│   ├── blog
+│   │   └── index.md
+│   ├── crypto
+│   │   └── index.md
+│   ├── cyber
+│   │   └── index.md
+│   ├── favicon.ico
+│   ├── index.md
+│   ├── keybase.txt
+│   ├── licence.md
+│   ├── manifest.webmanifest
+│   ├── pages
+│   │   └── index.md
+│   ├── private-dont-touch.html
+│   ├── security.txt
+│   ├── site.webmanifest
+│   ├── timeline
+│   │   └── index.md
+│   └── tip-ChatGPT-prompt-for-timelines.txt
+├── website-tree-v2026-04-06-2044.txt
+└── website-tree=v2026-04-06-2319.txt
+
+311 directories, 1886 files

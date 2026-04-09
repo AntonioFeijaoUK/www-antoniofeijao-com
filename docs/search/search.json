@@ -1,0 +1,22 @@
+---
+layout: null
+permalink: /search/search.json
+---
+[
+{% assign docs = site.posts | concat: site.cyber | concat: site.crypto | concat: site.pages %}
+{% assign first = true %}
+{% for item in docs %}
+  {% if item.url and item.title and item.search_exclude != true %}
+    {% unless first %},{% endunless %}
+    {
+      "title": {{ item.title | strip_html | strip_newlines | normalize_whitespace | jsonify }},
+      "url": {{ item.url | relative_url | jsonify }},
+      "collection": {{ item.collection | default: "pages" | jsonify }},
+      "date": {{ item.date | date: "%Y-%m-%d" | jsonify }},
+      "description": {{ item.description | default: item.excerpt | default: "" | strip_html | strip_newlines | normalize_whitespace | jsonify }},
+      "content": {{ item.content | strip_html | strip_newlines | normalize_whitespace | jsonify }}
+    }
+    {% assign first = false %}
+  {% endif %}
+{% endfor %}
+]

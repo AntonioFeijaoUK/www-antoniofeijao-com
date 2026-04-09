@@ -1,6 +1,7 @@
 ---
 date: 2023-07-21
 title: "AWS boto3 credentials, boto session and  boto3 available clients in python for the region the session was created."
+description: "In-depth boto3 credential and session notes, including methods to inspect available AWS clients and token-based runtime context."
 #layout: splash
 #excerpt_separator: <!--more-->
 #permalink: /plugins/

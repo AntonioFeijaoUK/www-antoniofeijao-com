@@ -8,6 +8,7 @@ tags:
     - linux
     - raspberry-pi
     - networking
+description: "Raspberry Pi networking project notes for configuring router and NAT functionality, with references to extended project documentation."
 ---
 
 # raspberry-pi-as-a-router-nat

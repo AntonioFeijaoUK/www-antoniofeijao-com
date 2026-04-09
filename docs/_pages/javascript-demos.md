@@ -1,5 +1,6 @@
 ---
 title: "javascript demos for cyber awareness"
+date: 2026-01-01
 slug: javascript-demos
 categories:
     - javascript
@@ -9,7 +10,6 @@ tags:
     - demos
 ---
 
-# javascript demos for cyber awareness
 
 ---
 

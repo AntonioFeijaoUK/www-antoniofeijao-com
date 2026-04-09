@@ -3,6 +3,7 @@ date: 2024-01-17
 last_modified_at: 2024-01-17
 
 title: "aws sts decode-authorization-message"
+description: "AWS STS decode-authorization-message usage with jq-based output cleanup to make permission error diagnostics easier to interpret."
 
 #layout: splash
 excerpt_separator: <!--more-->

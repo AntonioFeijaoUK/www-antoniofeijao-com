@@ -8,6 +8,7 @@ tags:
     - linux
     - s3
     - bash
+description: "AWS S3 sync examples demonstrating include and exclude filters for selective file transfer, plus a quick presign command reference."
 ---
 
 # s3-copy-sync-filter-files

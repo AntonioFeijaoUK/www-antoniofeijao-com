@@ -1,6 +1,7 @@
 ---
 date: 2024-06-07
 title: "MacOS CLI Linux, add a more specific network route"
+description: "Networking command examples for adding more specific routes on macOS or Linux for targeted traffic path control."
 
 #layout: splash
 excerpt_separator: <!--more-->

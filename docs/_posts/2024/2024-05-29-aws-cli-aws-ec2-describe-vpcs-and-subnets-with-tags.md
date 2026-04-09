@@ -1,6 +1,7 @@
 ---
 date: 2024-05-29
 title: "List all AWS VPCs or subnets with theirs tags and list them using jquery"
+description: "AWS CLI and jq examples to list VPCs and subnets with tags for inventory and infrastructure visibility."
 
 #layout: splash
 excerpt_separator: <!--more-->

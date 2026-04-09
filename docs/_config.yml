@@ -1,22 +1,39 @@
-title: "Antonio Feijao UK – Cyber Security Architect Learning by Doing"
-description: "Insights and projects by Antonio Feijao, UK Security Architect at Genomics England. Expertise in AWS, Networking, Security, Infrastructure, Linux, macOS, and Python 3."
+title: "Antonio Feijao | Cyber Security Architect, AWS & Linux"
 
-url: "https://www.antoniofeijao.com/"
+description: "Hands-on cybersecurity notes, AWS cloud security architecture, Linux and networking tutorials, incident response insights, and Bitcoin/cryptography learning."
+
+url: "https://www.antoniofeijao.com"
 baseurl: ""
-
 locale: en_GB
+timezone: Europe/London
+
+author: "Antonio Feijao UK"
 
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
+
+highlighter: rouge
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
-  stories:
+  pages:
     output: true
-    permalink: /stories/:name/
+    permalink: /:name/
+  cyber:
+    output: true
+    permalink: /cyber/:path/
+  crypto:
+    output: true
+    permalink: /crypto/:path/
+  timeline:
+    output: false
+
+permalink: /blog/:year/:month/:day/:title/
 
 defaults:
   - scope:
@@ -26,15 +43,51 @@ defaults:
 
   - scope:
       path: ""
-      type: "stories"
+      type: "posts"
     values:
       layout: default
 
-# SEO / metadata improvements
-author: "Antonio Feijao"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+  - scope:
+      path: ""
+      type: "cyber"
+    values:
+      layout: default
+      section: cyber
+
+  - scope:
+      path: ""
+      type: "crypto"
+    values:
+      layout: default
+      section: crypto
+
 twitter:
-  card: summary
+  card: summary_large_image
+
+include:
+  - .well-known
 
 exclude:
   - README.md
   - LICENSE
+  - .DS_Store
+  - "**/.DS_Store"
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  
+sass:
+  style: compressed
+
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+

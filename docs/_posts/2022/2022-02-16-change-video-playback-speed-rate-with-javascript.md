@@ -1,6 +1,7 @@
 ---
 date: 2022-02-16
 title: "Change video playback speed rate with javascript"
+description: "JavaScript snippet references for changing HTML video playback speed directly from browser console."
 categories: ["Javascript", "Multimedia"]
 tags: ["playbackRate", "video", "javascript"]
 ---

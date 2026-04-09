@@ -1,6 +1,7 @@
 ---
 date: 2022-03-24
 title: AWS Security Hub work in Python 3 and Boto3
+description: "Hands-on Python and boto3 experimentation with AWS Security Hub APIs, client discovery, and automation-focused command testing."
 categories: ["AWS", "Security-Hub", "Python3", "Boto3"]
 tags:       ["python", "python3", "aws", "security hub", "boto3"]
 ---

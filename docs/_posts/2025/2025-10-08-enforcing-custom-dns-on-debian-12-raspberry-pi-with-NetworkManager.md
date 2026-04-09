@@ -3,6 +3,7 @@ date: 2025-10-08
 last_modified_at: 2025-10-08
 
 title: "Enforcing Custom DNS on Debian 12 Raspberry Pi with NetworkManager"
+description: "How to enforce persistent custom DNS on Debian 12 Raspberry Pi with NetworkManager, ignore DHCP DNS injection, and apply stable NextDNS settings across interfaces."
 
 #layout: splash
 excerpt_separator: <!-- more -->
@@ -19,7 +20,6 @@ tags:
   - NextDNS
 ---
 
-# Enforcing Custom DNS on Debian 12 Raspberry Pi with NetworkManager
 
 ## Introduction
 

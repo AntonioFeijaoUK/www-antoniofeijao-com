@@ -1,6 +1,7 @@
 ---
 date: 2024-07-31
 title: "CrowdStrike - Leading Cybersecurity through Major Incidents"
+description: "Overview of CrowdStrike’s cybersecurity role across major incidents, highlighting endpoint protection, threat intelligence, and response capabilities."
 
 #layout: splash
 excerpt_separator: <!-- more -->

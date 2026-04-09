@@ -7,6 +7,7 @@ tags:
     - linux
     - security
     - bash
+description: "Linux ClamAV quick guide for free antivirus scanning, basic installation commands, and practical host-level malware check usage."
 ---
 
 # clamav-linux-free-antivuris-scan
