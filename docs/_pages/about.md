@@ -58,39 +58,36 @@ date: 2025-04-02
 
 `Antonio Feijao` || `Antonio Feijao UK`
 
-> Security Architect at [https://www.genomicsengland.co.uk/](https://www.genomicsengland.co.uk/).
+> Security Architect at [Genomics England](https://www.genomicsengland.co.uk/).
 > 
-> I am an expert with 16 years of experience in Linux, networking, cybersecurity, and infrastructure.  
+> I am a security and infrastructure professional with 16 years of experience across Linux, networking, cybersecurity, and cloud platforms.  
 >  
-> I hold AWS Specialty certifications in Advanced Networking and Security, designing and reviewing complex infrastructure solutions while ensuring alignment with CIS, NIST, and AWS Well-Architected Frameworks.
+> I hold AWS Specialty certifications in Advanced Networking and Security, and I design and review complex infrastructure solutions aligned with CIS, NIST, and the AWS Well-Architected Framework.
 > 
 > I regularly collaborate with C-level executives and engineering teams, providing architectural oversight and strategic input.  
 >  
-> I am a key member of various cybersecurity committees, influencing decisions on risk factors and security strategies.  
+> I contribute to cybersecurity committees, helping shape decisions on risk and security strategy.  
 >  
 > My comprehensive hands-on expertise spans:
 > 
-> * [AWS Security](https://aws.amazon.com/products/security/), [AWS Networking](https://aws.amazon.com/products/networking/), [AWS IAM Identity Center, SSO](https://aws.amazon.com/iam/identity-center/), and way more...
-> * [CrowdStrike](https://www.crowdstrike.com/), and more ...
-> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/), and more...
-> * [Okta](https://www.okta.com/uk/), and more...
-> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall), and more...
-> * [Amazon Linux](https://aws.amazon.com/amazon-linux-2/), [RedHat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/), and more...
+> * [AWS Security](https://aws.amazon.com/products/security/), [AWS Networking](https://aws.amazon.com/products/networking/), and [AWS IAM Identity Center](https://aws.amazon.com/iam/identity-center/)
+> * [CrowdStrike](https://www.crowdstrike.com/)
+> * [Cloudflare](https://www.cloudflare.com/en-gb/application-services/products/)
+> * [Okta](https://www.okta.com/uk/)
+> * [Fortinet](https://www.fortinet.com/products/next-generation-firewall)
+> * [Amazon Linux](https://aws.amazon.com/amazon-linux-2/), [Red Hat Enterprise Linux](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux), [Ubuntu](https://ubuntu.com/), and [Debian](https://www.debian.org/)
 > 
-> With these technologies, I have created and led architectural designs and architectural reviews.
-> I designed, planned and implemented automation with these services
-> I lead incident responses.
-> I designed, planned and implemented Zero Trust initiatives, and integration of services for authentication with devices posture validation - [Cloudflare ZTNA](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
+> Across these technologies, I have led architecture design and review activities, implemented automation, and supported incident response. I have also designed and delivered Zero Trust initiatives, including authentication integration and device posture validation using [Cloudflare Zero Trust](https://www.cloudflare.com/en-gb/zero-trust/), [CrowdStrike](https://www.crowdstrike.com/), and [Okta](https://www.okta.com/uk/).
 >  
-> I also run personal projects like [HackerClub.Net](https://www.hackerclub.net/), tech timeline [https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/) and [CyberAntonio.com](https://www.cyberantonio.com/), which are some of my cyber security notes and a JavaScript playground.
+> I also run personal projects such as [HackerClub.Net](https://www.hackerclub.net/), the [technology and cybersecurity timeline](https://www.antoniofeijao.com/timeline-technology-and-cybersecurity/), and [CyberAntonio.com](https://www.cyberantonio.com/), where I publish cybersecurity notes and experiments.
 >  
-> Pre-cloud, I earned certifications of [Red Hat Certified System Administrator - RHCSA](https://www.redhat.com/en/services/certification/rhcsa), [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html) and [Cisco CCNP Security](https://learningnetwork.cisco.com/s/ccnp-security) - Cisco Firewall Security Specialist.
+> Before moving into cloud-focused roles, I earned the [Red Hat Certified System Administrator (RHCSA)](https://www.redhat.com/en/services/certification/rhcsa), [Cisco CCNA](https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html), and [Cisco CCNP Security](https://learningnetwork.cisco.com/s/ccnp-security) certifications, including Cisco Firewall Security Specialist.
 > 
-> I possess deep expertise in automation using Bash shell scripting and Python.
+> I have strong automation experience using Bash and Python.
 >
-> I bring a wealth of knowledge in designing, troubleshooting and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
+> I also have strong experience designing, troubleshooting, and implementing [CrowdStrike Falcon](https://www.crowdstrike.com/platform/), [Cloud Security](https://www.crowdstrike.com/platform/cloud-security/), and [Falcon Forensics](https://www.crowdstrike.com/products/endpoint-security/falcon-forensics/).
 >  
-> With Cloudflare, I possess deep expertise in custom and managed Web Application Firewall (AWF) rules, rate limiting, payload decryption investigation and reverse engineering, Zero Trust designs, and authentication policies.  
+> With Cloudflare, I have deep experience in custom and managed Web Application Firewall (WAF) rules, rate limiting, payload decryption investigation and reverse engineering, Zero Trust design, and authentication policies.  
 >  
 > My leadership extends to offensive security, penetration testing, mentoring teams, securing serverless and web applications, and delivering deep-dive technical demos.  
 >  
@@ -104,25 +101,25 @@ More about what I do on my personal website <https://www.AntonioFeijao.com/>.
 
 ---
 
-## what-i-do
+## What I Do
 
-Currently working as `AWS Infrastructure Architect` and `Cyber Security Architect` at [Genomics England](https://www.genomicsengland.co.uk/).
+Currently working as an `AWS Infrastructure Architect` and `Cyber Security Architect` at [Genomics England](https://www.genomicsengland.co.uk/).
 
-My role is focused on enabling other squads to create applications in the genomic healthcare space to accelerate genomic research.
+My role focuses on enabling other squads to build applications in the genomic healthcare space and accelerate genomic research.
 
-My role is also focused on enabling other squads to create applications in a security infrastructure.
+I also provide security architecture support for shared infrastructure and application platforms.
 
 ---
 
-## what-i-sdudy
+## What I Study
 
-* [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory and one hands-on: `CEHv11`
+* [Master Ethical Hacking Security](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/) certification, which consists of two exams, one theory-based and one hands-on: `CEHv11`
     * [Certified Ethical Hacker - `C|EH` exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/) and
     * [Certified Ethical Hacker - `C|EH` practical exam](https://www.eccouncil.org/programs/certified-ethical-hacker-ceh-master/).
 
 ---
 
-also studying for certifications of
+Also studying for the following certifications:
 
 * [Certified Network Defender - `C|ND`](https://www.eccouncil.org/programs/certified-network-security-course/)
 
@@ -130,16 +127,16 @@ also studying for certifications of
 
 * [Certified Cloud Security Professional - `CCSP by ISC²`](https://enroll.isc2.org/product?catalog=CCSP-SPT-GLOBAL)
 
-* [overview ccsp by infosecinstitute](https://resources.infosecinstitute.com/overview/ccsp/)
+* [CCSP overview by Infosec Institute](https://resources.infosecinstitute.com/overview/ccsp/)
 
-* [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification) - DONE with `PASS`
+* [NSE 6 Cloud Security 7.0 for AWS](https://www.fortinet.com/training-certification) - completed with `PASS`
 
 > Learn about the different components that make up the Amazon Web Services (AWS) infrastructure and the security challenges these environments present, including high availability (HA), autoscaling, and software defined networking (SDN) connectors, and how to manage traffic in the cloud with Fortinet products.
 
 
 ---
 
-## i-learn-with
+## I Learn With
 
 * [ippsec](https://www.youtube.com/@ippsec/videos) - `@ippsec` from `HackTheBox`
 
@@ -165,7 +162,7 @@ also studying for certifications of
 
 ---
 
-and also practising hands-on with
+And also practising hands-on with:
 
 * <https://www.immersivelabs.com/> - try labs with code `GIMMEFREELABS` or `FREEDEFENSIVE`
 
@@ -179,13 +176,13 @@ and also practising hands-on with
 
 ---
 
-Career progressing towards `Principal Cyber Security Architect`, [Principal Security Architect](https://www.gov.uk/guidance/security-architect#principal-security-architect)
+Career progressing towards `Principal Cyber Security Architect`, aligned with the [Principal Security Architect](https://www.gov.uk/guidance/security-architect#principal-security-architect) profile.
 
 * Good reading on <https://www.rebeccawestburns.com/my-blog-3/notes/five-stages-of-acquiring-expertise-novice-to-expert>
 
 ---
 
-A curious fact about me - I memorised the first `100 digits of pi`! Yes, really!
+A curious fact about me: I memorised the first `100 digits of pi`. Yes, really!
 
 ----
 
