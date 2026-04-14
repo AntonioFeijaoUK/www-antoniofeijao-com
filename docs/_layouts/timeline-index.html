@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/timeline/timeline-app.css' | relative_url }}">
+  </head>
+
+  <body>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        {% include site-header.html %}
+        {% include nav.html %}
+      </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <main
+        id="main_content"
+        class="inner timeline-index-page"
+        aria-label="Main content"
+        data-timeline-index-url="{{ '/timeline/data.json' | relative_url }}"
+      >
+        {{ content }}
+      </main>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{ '/assets/script-files/site-nav-search.js' | relative_url }}" defer></script>
+    <script src="{{ '/timeline/timeline-app.js' | relative_url }}" defer></script>
+  </body>
+</html>

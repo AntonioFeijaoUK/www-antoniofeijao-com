@@ -1,0 +1,28 @@
+---
+layout: null
+permalink: /timeline/data.json
+---
+{
+  "items": [
+    {% assign timeline_items = site.timeline | sort: "date_sort" | reverse %}
+    {% for item in timeline_items %}
+    {
+      "id": {{ item.id | jsonify }},
+      "title": {{ item.title | jsonify }},
+      "url": {{ item.url | relative_url | jsonify }},
+      "date_display": {{ item.date_display | jsonify }},
+      "date_sort": {{ item.date_sort | jsonify }},
+      "date_precision": {{ item.date_precision | jsonify }},
+      "summary": {{ item.summary | jsonify }},
+      "topics": {{ item.topics | jsonify }},
+      "region": {{ item.region | jsonify }},
+      "people": {{ item.people | jsonify }},
+      "source_urls": {{ item.source_urls | jsonify }},
+      "image": {{ item.image | relative_url | jsonify }},
+      "type": {{ item.type | jsonify }},
+      "status": {{ item.status | jsonify }},
+      "confidence": {{ item.confidence | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}

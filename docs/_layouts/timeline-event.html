@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/timeline/timeline-app.css' | relative_url }}">
+  </head>
+
+  <body>
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        {% include site-header.html %}
+        {% include nav.html %}
+      </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+      <main id="main_content" class="inner timeline-event-page" aria-label="Main content">
+        <p class="timeline-breadcrumb">
+          <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
+        </p>
+
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+
+        <div class="timeline-event-meta">
+          {% if page.date_display %}
+            <p><strong>Date:</strong> {{ page.date_display }}</p>
+          {% endif %}
+          {% if page.type %}
+            <p><strong>Type:</strong> {{ page.type }}</p>
+          {% endif %}
+          {% if page.region %}
+            <p><strong>Region:</strong> {{ page.region }}</p>
+          {% endif %}
+          {% if page.status %}
+            <p><strong>Status:</strong> {{ page.status }}</p>
+          {% endif %}
+          {% if page.confidence %}
+            <p><strong>Confidence:</strong> {{ page.confidence }}</p>
+          {% endif %}
+        </div>
+
+        {% if page.summary %}
+          <p class="timeline-summary">{{ page.summary }}</p>
+        {% endif %}
+
+        {% if page.image %}
+          <figure class="timeline-figure">
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+          </figure>
+        {% endif %}
+
+        {% if page.topics and page.topics.size > 0 %}
+          <div class="timeline-taxonomy">
+            <strong>Topics:</strong>
+            {% for topic in page.topics %}
+              <span class="timeline-chip">{{ topic }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if page.people and page.people.size > 0 %}
+          <div class="timeline-taxonomy">
+            <strong>People:</strong>
+            {% for person in page.people %}
+              <span class="timeline-chip">{{ person }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.recent_updates and page.recent_updates.size > 0 %}
+          <section class="timeline-recent-updates">
+            <h2>Recent Updates</h2>
+            <ul>
+              {% for update in page.recent_updates %}
+                <li>
+                  {% if update.date %}
+                    <strong>{{ update.date }}:</strong>
+                  {% endif %}
+                  {{ update.summary }}
+                  {% if update.source_url %}
+                    (<a href="{{ update.source_url }}">
+                      {% if update.source_label %}
+                        {{ update.source_label }}
+                      {% else %}
+                        Source
+                      {% endif %}
+                    </a>)
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+
+        {% if page.source_urls and page.source_urls.size > 0 %}
+          <section class="timeline-sources">
+            <h2>Sources</h2>
+            <ul>
+              {% for source_url in page.source_urls %}
+                <li><a href="{{ source_url }}">{{ source_url }}</a></li>
+              {% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      </main>
+    </div>
+
+    {% include footer.html %}
+    <script src="{{ '/assets/script-files/site-nav-search.js' | relative_url }}" defer></script>
+  </body>
+</html>
