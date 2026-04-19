@@ -21,7 +21,7 @@ tags:
   - llm
   - security
   - developer productivity
-reading_time: "18 min read"
+reading_time: "40 min read"
 toc: true
 toc_sticky: true
 comments: false
@@ -46,9 +46,8 @@ seo:
     - llm
     - enterprise security
     - developer productivity
-//canonical_url: "https://www.antoniofeijao.com/blog/enterprise-ai-opportunity-risk-and-responsible-adoption/"
+canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-opportunity-risk-and-responsible-adoption/"
 ---
-
 
 # Enterprise AI: Opportunity, Risk, and Responsible Adoption
 
@@ -142,7 +141,6 @@ The real question is whether adoption will be:
 
 > The right response is controlled adoption, not panic and not passivity.
 
-> The real near-term risk is not AI itself. It is unmanaged AI adoption.
 
 ---
 
@@ -306,7 +304,7 @@ The safest way to understand it is neither to dismiss it nor to romanticise it. 
 ### Memorable messages
 
 > An LLM is best understood as a probabilistic pattern engine for language, not as a human mind.
- 
+
 > Fluency is not the same as truth.
 
 > A useful output is not automatically a correct output.
@@ -1693,11 +1691,11 @@ The organisation should therefore aim for:
 
 ---
 
-## EXTRA — What are AI tokens?
+##  What are AI tokens?
 
 ### Intro
 
-One of the most common and least clearly explained ideas in modern AI is the token.
+One of the most common and least clearly explained ideas in modern AI is the **token**.
 
 People often hear phrases such as:
 
@@ -1705,14 +1703,14 @@ People often hear phrases such as:
 - _input tokens_
 - _output tokens_
 - _context window_
-- token usage_
-- cost per token_
+- *token usage*
+- *cost per token*
 
 Yet for many users, the term still feels abstract.
 
 A simple way to understand it is this:
 
-- tokens are the small pieces of text that an AI model processes
+- **tokens are the small pieces of text that an AI model processes**
 - they are not always whole words
 - they are the units the model uses to read, remember, and generate language
 
@@ -1735,7 +1733,7 @@ Think of tokens as something between:
 - word fragments
 - words
 
-They are not exactly the same as words.
+They are **not exactly the same as words**.
 
 For example, a short sentence such as:
 
@@ -2026,7 +2024,7 @@ These habits usually improve both quality and efficiency.
 
 Tokens are one of the hidden mechanics of AI.
 
-- They affect what the model can read, what it can remember, what it can produce, how much it costs, and how well it performs. They are not just an implementation detail for engineers. They are part of how every serious user should think about prompt design, model limits, and responsible AI usage.
+They affect what the model can read, what it can remember, what it can produce, how much it costs, and how well it performs. They are not just an implementation detail for engineers. They are part of how every serious user should think about prompt design, model limits, and responsible AI usage.
 
 If you understand tokens, many other AI concepts start to make more sense:
 
@@ -2053,7 +2051,7 @@ If you understand tokens, many other AI concepts start to make more sense:
 
 ---
 
-## EXTRA — How to get the best from AI
+## How to get the best from AI
 
 ### Intro
 
