@@ -1690,3 +1690,764 @@ The organisation should therefore aim for:
 > Good leadership does not only accelerate adoption. It makes adoption safe, sustainable, and accountable.
 
 > Enable. Govern. Educate.
+
+---
+
+## EXTRA — What are AI tokens?
+
+### Intro
+
+One of the most common and least clearly explained ideas in modern AI is the token.
+
+People often hear phrases such as:
+
+- _token limit_
+- _input tokens_
+- _output tokens_
+- _context window_
+- token usage_
+- cost per token_
+
+Yet for many users, the term still feels abstract.
+
+A simple way to understand it is this:
+
+- tokens are the small pieces of text that an AI model processes
+- they are not always whole words
+- they are the units the model uses to read, remember, and generate language
+
+If you want to understand how AI systems work in practice, tokens matter a great deal.
+
+### Key points
+
+- tokens are the units of text an AI model consumes and generates
+- a token may be a whole word, part of a word, punctuation, or even whitespace patterns depending on the tokenizer
+- both your prompt and the model’s reply consume tokens
+- token usage affects cost, speed, and how much context the model can handle at once
+- understanding tokens helps explain context windows, limits, and why some prompts work better than others
+
+### A simple mental model
+
+Think of tokens as something between:
+
+- characters
+- syllables
+- word fragments
+- words
+
+They are not exactly the same as words.
+
+For example, a short sentence such as:
+
+`The sky is blue.`
+
+might be split into tokens roughly like:
+
+- `The`
+- `sky`
+- `is`
+- `blue`
+- `.`
+
+Another word might be split differently.
+
+For example:
+
+`unbelievable`
+
+could be represented as one token in some cases, or as smaller parts such as:
+
+- `un`
+- `believ`
+- `able`
+
+The exact split depends on the model’s tokenizer.
+
+### Why AI uses tokens instead of words
+
+AI models do not read language the way humans do.
+
+They need text to be converted into a form that can be processed mathematically. Tokens are the first practical step in that process.
+
+The rough flow looks like this:
+
+- text is split into tokens
+- tokens are mapped to numeric identifiers
+- those identifiers are turned into vectors
+- the model processes those vectors through mathematical operations
+- the model predicts the next most likely token or sequence of tokens
+
+So when you type a prompt, the model is not “seeing sentences” in the human sense. It is processing token sequences.
+
+### Examples of what counts as tokens
+
+Here are some practical examples.
+
+#### Example 1 — a normal sentence
+
+Text:
+
+`AI helps developers write code faster.`
+
+This may be broken into token-like pieces such as:
+
+- `AI`
+- `helps`
+- `developers`
+- `write`
+- `code`
+- `faster`
+- `.`
+
+Even in this simple example, punctuation is usually its own token, and spaces may be embedded into the token representation.
+
+#### Example 2 — a longer or more complex word
+
+Text:
+
+`responsibility`
+
+This may be one token, or it may be split into smaller chunks such as:
+
+- `respons`
+- `ibility`
+
+Again, the exact token split depends on the model and tokenizer.
+
+#### Example 3 — code
+
+Text:
+
+```python
+if user.is_admin():
+    return True
+```
+
+Code also becomes tokens. For example:
+
+- `if`
+- `user`
+- `.`
+- `is_admin`
+- `(`
+- `)`
+- `:`
+- `return`
+- `True`
+
+This is one reason coding prompts can consume tokens quickly: code contains many symbols, fragments, and structural elements.
+
+#### Example 4 — lists, JSON, or markup
+
+Structured text often consumes tokens rapidly because every bracket, quote, comma, and key name may contribute to token count.
+
+For example:
+
+`{"role":"admin","active":true}`
+
+may consume tokens for:
+
+- `{`
+- `"role"`
+- `:`
+- `"admin"`
+- `,`
+- `"active"`
+- `:`
+- `true`
+- `}`
+
+This is one reason large configuration files, logs, JSON payloads, and source code can fill context windows faster than expected.
+
+### Input tokens and output tokens
+
+There are two main ways tokens are consumed.
+
+#### Input tokens
+
+These are the tokens in what you send to the model, such as:
+
+- your prompt
+- pasted text
+- uploaded content converted to text
+- system instructions
+- prior conversation context
+- tool results included in the context
+
+#### Output tokens
+
+These are the tokens the model generates in response.
+
+So if you send a long prompt and receive a long answer, you are consuming tokens in both directions.
+
+A practical way to think about it is:
+
+- **input tokens** = what the model has to read
+- **output tokens** = what the model has to write
+
+### Why tokens matter
+
+Tokens matter for three main reasons:
+
+- context
+- cost
+- performance
+
+#### 1. Context
+
+Every model has a limit on how many tokens it can handle at once, often called the **context window**.
+
+That context window includes:
+
+- your current prompt
+- earlier messages or conversation history
+- system instructions
+- retrieved documents
+- tool output
+- the model’s own generated reply budget
+
+If the context becomes too large, several things can happen:
+
+- older content may be dropped or compressed
+- the model may lose important earlier details
+- the prompt may need trimming
+- performance may degrade
+- some requests may fail if they exceed the model’s limit
+
+This is why token awareness matters when working with:
+
+- long chats
+- pasted reports
+- code files
+- legal documents
+- logs
+- multi-step agent workflows
+
+#### 2. Cost
+
+Many AI systems are priced partly based on token usage.
+
+That means:
+
+- longer prompts usually cost more than shorter prompts
+- longer replies usually cost more than shorter replies
+- repeated retries or agent loops can increase total token consumption significantly
+- very large documents or codebases can become expensive to process repeatedly
+
+In other words, tokens are often part of the economic unit of AI usage.
+
+#### 3. Performance and latency
+
+More tokens usually mean more work for the model.
+
+That can affect:
+
+- response time
+- throughput
+- interactive usability
+- agent workflow efficiency
+
+A concise, well-structured prompt often performs better than a long, repetitive one, not only because it is clearer, but also because it uses fewer tokens and reduces processing overhead.
+
+### Why token consumption can surprise people
+
+People often underestimate token usage because they think in words, not token fragments.
+
+A few things can increase token usage quickly:
+
+- long pasted documents
+- verbose instructions
+- repeated examples
+- code blocks
+- logs and stack traces
+- JSON, YAML, and XML
+- full chat history
+- asking for very long outputs
+- multi-step agent chains that keep reusing context
+
+This is why a prompt that does not look very long can still consume a large number of tokens.
+
+### A practical example of token consumption
+
+Imagine this interaction:
+
+- you paste a 2,000-word internal document
+- you add a 300-word instruction block
+- the conversation already contains prior context
+- the model returns a detailed 1,000-word answer
+
+In practice, token consumption comes from:
+
+- the document itself
+- your instruction text
+- any hidden system or platform instructions
+- previous conversation history still in context
+- the generated answer
+
+So token use is not only about what you can visibly see in your prompt box.
+
+### Why tokens matter in enterprise use
+
+In enterprise environments, token awareness matters because it affects:
+
+- prompt design
+- cost management
+- model selection
+- agent workflow design
+- context-window strategy
+- document chunking and retrieval
+- performance of coding and analysis tasks
+
+For example:
+
+- a developer pasting large code files may consume many tokens very quickly
+- a knowledge assistant searching many internal documents may need careful chunking
+- an agent that loops through tools repeatedly may multiply token usage
+- a team using long prompts carelessly may increase cost without improving quality
+
+Understanding tokens is therefore not only a technical detail. It is part of using AI efficiently and responsibly.
+
+### Good practical habits
+
+A few simple habits help keep token usage under control:
+
+- write prompts clearly and directly
+- avoid unnecessary repetition
+- paste only the relevant part of a document when possible
+- ask for the format you need rather than an overly long answer
+- summarise large material before asking follow-up questions
+- break very large tasks into stages
+- design agent workflows so they do not repeatedly carry unnecessary context
+- remember that both input and output consume tokens
+
+These habits usually improve both quality and efficiency.
+
+### Closing reflection
+
+Tokens are one of the hidden mechanics of AI.
+
+- They affect what the model can read, what it can remember, what it can produce, how much it costs, and how well it performs. They are not just an implementation detail for engineers. They are part of how every serious user should think about prompt design, model limits, and responsible AI usage.
+
+If you understand tokens, many other AI concepts start to make more sense:
+
+- context windows
+- truncation
+- pricing
+- prompt efficiency
+- long-document strategies
+- agent design
+- model limitations
+
+
+### Memorable messages
+
+> Tokens are the small pieces of text an AI model reads and writes.
+
+> Tokens are not always words.
+
+> Both your prompt and the model’s reply consume tokens.
+
+> Tokens affect context, cost, and performance.
+
+> If you understand tokens, you understand much more of how AI behaves in practice.
+
+---
+
+## EXTRA — How to get the best from AI
+
+### Intro
+
+AI is most useful when it is treated as a tool for amplification, not as a substitute for judgement.
+
+Used well, it can help people think faster, explore more options, reduce repetitive effort, and improve the speed of drafting, analysis, coding, and research. Used poorly, it can produce shallow work, weak decisions, unnecessary cost, and avoidable risk.
+
+The difference is rarely the model alone. The difference is usually how the human uses it.
+
+### Key points
+
+- good AI use starts with clear intent
+- better prompts usually produce better results
+- AI works best when combined with context, constraints, and review
+- human judgement remains essential
+- the goal is not to ask AI to think instead of you, but to help you think better and work more effectively
+
+### Start with the right mindset
+
+The best way to use AI is to think of it as:
+
+- a **copilot**, not an autopilot
+- a **drafting partner**, not a final approver
+- a **thinking aid**, not a replacement for expertise
+- an **accelerator**, not a source of guaranteed truth
+
+This mindset matters because it shapes behaviour.
+
+If someone treats AI as a shortcut around judgement, quality will usually drop. If they treat AI as a support tool within a disciplined workflow, quality often improves.
+
+### 1. Be clear about what you want
+
+A vague prompt usually produces a vague answer.
+
+Before using AI, it helps to decide:
+
+- what outcome you actually want
+- what format you need
+- what level of detail is appropriate
+- what constraints matter
+- what success looks like
+
+For example, instead of asking:
+
+- `Explain cloud security`
+
+a better prompt might be:
+
+- `Explain the top five cloud security risks for a senior product manager in plain English, using concise bullet points and practical examples.`
+
+The second version gives the model:
+
+- a clearer audience
+- a clearer scope
+- a clearer format
+- a clearer level of detail
+
+That usually leads to a better result.
+
+### 2. Give context, but only relevant context
+
+AI performs better when it has enough context to understand the task.
+
+Useful context may include:
+
+- the intended audience
+- the goal of the task
+- the desired tone
+- the format required
+- the relevant background
+- constraints or exclusions
+- examples of what “good” looks like
+
+However, more context is not always better. Irrelevant or excessive context can:
+
+- dilute the focus
+- waste tokens
+- slow the response
+- increase cost
+- make the answer less precise
+
+The goal is not maximum context. The goal is **relevant context**.
+
+### 3. Ask for a specific format
+
+One of the easiest ways to improve AI output is to ask for the structure you want.
+
+For example, you can ask for:
+
+- bullet points
+- a table
+- a summary
+- a step-by-step plan
+- an executive briefing
+- a blog section
+- a risk register
+- pseudocode
+- a checklist
+- pros and cons
+
+This matters because AI often does better when the shape of the answer is made explicit.
+
+For example:
+
+- `Summarise this in five bullet points for an executive audience.`
+- `Turn this into a markdown section with an intro, key points, explanation, and closing message.`
+- `Provide a table comparing the risks, controls, and likely impact.`
+
+Good format instructions reduce friction and save editing time.
+
+### 4. Break large tasks into stages
+
+Many people get weak results because they ask AI to solve a large, complex task in one step.
+
+A better pattern is to work in stages.
+
+For example:
+
+- first, ask for a structure
+- then refine one section
+- then improve tone
+- then tighten the logic
+- then do a final consistency pass
+
+This is often better than asking:
+
+- `Write the perfect final article in one go.`
+
+The staged approach usually gives:
+
+- higher quality
+- better control
+- easier review
+- less repetition
+- more predictable results
+
+This is especially true for:
+
+- long documents
+- technical writing
+- code generation
+- presentations
+- analysis
+- policy drafting
+
+### 5. Use AI for draft generation, then apply human review
+
+AI is particularly strong at helping with first drafts.
+
+It can help with:
+
+- starting from a blank page
+- creating rough structures
+- rewording material
+- generating examples
+- summarising long inputs
+- suggesting alternatives
+- translating between technical and non-technical language
+
+But a first draft is not the same as a final output.
+
+Human review is still needed for:
+
+- correctness
+- nuance
+- security
+- legal implications
+- architecture quality
+- organisational fit
+- tone and judgement
+
+A practical principle is:
+
+- let AI help you start faster
+- do not let it remove the review step
+
+### 6. Challenge and iterate
+
+Good AI use is interactive.
+
+The first answer is often not the best answer. Strong users improve output by iterating.
+
+Useful follow-up patterns include:
+
+- `Make this more concise.`
+- `Add stronger examples.`
+- `Reframe this for a non-technical audience.`
+- `Challenge the assumptions in this answer.`
+- `What important risks are missing?`
+- `Rewrite this in British English.`
+- `Turn this into a table.`
+- `Give me a stronger version with more depth.`
+
+Iteration is one of the biggest advantages of AI. The quality often comes from the dialogue, not just the first response.
+
+### 7. Verify important outputs
+
+AI can sound confident and still be wrong.
+
+That means important outputs should be verified, especially when they relate to:
+
+- security
+- law
+- compliance
+- medicine
+- finance
+- architecture
+- code safety
+- operational decision-making
+- public claims
+
+Verification may involve:
+
+- checking primary sources
+- reviewing calculations
+- validating code
+- confirming product details
+- testing assumptions
+- involving subject-matter experts
+- comparing against known standards
+
+A useful habit is:
+
+- trust usefulness
+- verify correctness
+
+### 8. Protect sensitive information
+
+One of the most important AI best practices is knowing what not to share.
+
+Do not paste sensitive information into unapproved tools.
+
+That may include:
+
+- internal source code
+- credentials or secrets
+- customer data
+- commercially sensitive plans
+- internal documents
+- legal material
+- security architecture
+- incident details
+- regulated data
+
+Convenience is never a good reason to bypass data handling rules.
+
+If a task involves sensitive information, use only approved enterprise pathways with appropriate controls.
+
+### 9. Use AI where it adds real value
+
+AI is not equally useful for every task.
+
+It usually adds strong value where the work involves:
+
+- drafting
+- summarisation
+- transformation
+- brainstorming
+- pattern extraction
+- option generation
+- explanation
+- translation across audiences
+- repetitive cognitive work
+
+It is less suitable when the task depends heavily on:
+
+- final accountability
+- sensitive judgement
+- incomplete context
+- legal certainty
+- deep domain nuance without review
+- high-impact decisions without human oversight
+
+A good rule is:
+
+- use AI to accelerate the parts of work that are repetitive, exploratory, or structurally heavy
+- keep humans firmly responsible for decisions, approval, and consequences
+
+### 10. Use AI to improve thinking, not just speed
+
+One of the best uses of AI is not merely faster output. It is better thinking.
+
+For example, AI can help you:
+
+- compare options
+- identify missing risks
+- generate alternative approaches
+- simplify complex concepts
+- challenge weak assumptions
+- draft questions you had not considered
+- translate technical material for different audiences
+
+This is often more valuable than asking it only to “write something quickly”.
+
+The strongest users tend to use AI not just as a writer, but as:
+
+- a thought partner
+- a reviewer
+- a structuring aid
+- an idea generator
+- a challenge mechanism
+
+### 11. Keep humans in the driver’s seat
+
+AI can assist. It cannot own responsibility.
+
+The human remains responsible for:
+
+- what was asked
+- what was accepted
+- what was deployed
+- what data was shared
+- what advice was followed
+- what users ultimately experienced
+- what risk was introduced
+
+This is true whether the task is:
+
+- writing
+- coding
+- analysis
+- planning
+- summarisation
+- decision support
+
+The more useful AI becomes, the more important this principle becomes.
+
+### 12. Build good habits as a team
+
+The best AI usage patterns are not only individual. They are also team habits.
+
+Useful team practices include:
+
+- agreeing which tools are approved
+- defining what data can and cannot be used
+- sharing effective prompt patterns
+- requiring review for sensitive outputs
+- documenting where AI helped and where human validation was applied
+- encouraging questions when a use case feels unclear or high-risk
+- rewarding quality and judgement, not only speed
+
+This helps teams get value from AI without drifting into unmanaged experimentation.
+
+### A practical workflow for getting the best from AI
+
+A strong pattern for many tasks is:
+
+- define the goal
+- provide relevant context
+- ask for a clear format
+- generate a draft
+- challenge and refine it
+- verify important points
+- apply human judgement before final use
+
+That workflow works well for:
+
+- writing
+- coding
+- research
+- presentations
+- summaries
+- risk analysis
+- design exploration
+
+### Closing reflection
+
+The best results from AI usually do not come from asking it to replace human effort entirely. They come from using it deliberately to support thinking, reduce friction, and accelerate the parts of work that benefit from structure and iteration.
+
+Good AI use is therefore not only about prompting technique. It is about mindset, discipline, review, context, and responsibility.
+
+Used well, AI can extend human capability significantly. Used poorly, it can amplify confusion, overconfidence, and weak judgement just as quickly.
+
+### Memorable messages
+
+> Treat AI as a copilot, not an autopilot.
+
+> Better prompts usually produce better results.
+
+> Relevant context is more useful than maximum context.
+
+> Let AI help you start faster, but do not let it remove the review step.
+
+> Trust usefulness. Verify correctness.
+
+> The human remains in the driver’s seat.
+
+---
+
+## Final Comments
+
+AI can amplify our capability, but human judgement, responsibility, and care must remain at the centre.
+
+Use AI responsibly. Stay curious. Watch out for each other.
+
+Happy learning,  
+[Antonio Feijao UK](https://www.antoniofeijao.com/)
