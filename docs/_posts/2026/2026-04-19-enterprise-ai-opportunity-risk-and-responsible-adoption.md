@@ -51,6 +51,8 @@ canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-oppo
 
 # Enterprise AI: Opportunity, Risk, and Responsible Adoption
 
+!["enterprise-ai-opportunity-risk-responsible-adoption-executive-hero"](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero.png)
+
 **A practical guide to AI fundamentals, bots, copilots, agents, enterprise risk, human impact, and controlled adoption**
 
 Artificial Intelligence is moving rapidly from novelty to normality. It is already influencing how people research, write, code, analyse, summarise, plan, and make decisions across the workplace. For most organisations, the question is no longer whether employees, developers, and product teams will use AI. The real question is whether they will use it through trusted, governed, and responsible pathways.
