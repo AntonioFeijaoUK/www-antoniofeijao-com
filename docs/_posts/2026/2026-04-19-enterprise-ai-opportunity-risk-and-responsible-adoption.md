@@ -27,7 +27,7 @@ toc_sticky: true
 comments: false
 share: true
 published: true
-image: "/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption.png"
+image: "/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero.png"
 seo:
   type: "Article"
   name: "Enterprise AI: Opportunity, Risk, and Responsible Adoption"
