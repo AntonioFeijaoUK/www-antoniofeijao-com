@@ -1,5 +1,13 @@
 # Timeline Triage - 15 April 2026
 
+## Status
+
+This triage note is now historical reference material.
+
+As of `19 April 2026`, the `93` keeper items derived from this triage pass are fully covered in `docs/_timeline/`, with some raw labels replaced by cleaner canonical entries.
+
+For the current migration state and per-item status, use `additional-notes/timeline-priority-reconciliation-v2026-04-19.md`.
+
 ## Scope
 
 This is a first triage pass across the legacy source pool in `docs/_timeline/events/*.json`.

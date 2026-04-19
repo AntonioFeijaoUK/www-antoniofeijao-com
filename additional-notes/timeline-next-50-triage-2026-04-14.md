@@ -1,5 +1,13 @@
 # Timeline Next 50 Triage
 
+## Status
+
+This early working note is now historical reference material.
+
+Its candidate window has been overtaken by later triage, batching, and reconciliation work.
+
+For the current migration state and per-item status, use `additional-notes/timeline-priority-reconciliation-v2026-04-19.md`. If more migration planning is needed beyond the completed April backlog, create a new backlog note rather than treating this file as a live queue.
+
 Prepared: 14 April 2026
 
 This note records the next 50-event candidate window taken from the legacy timeline data after the current migration batch. The purpose is to preserve quality while still moving at scale.

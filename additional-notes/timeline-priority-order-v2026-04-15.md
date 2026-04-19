@@ -1,5 +1,13 @@
 # Timeline Priority Order - 15 April 2026
 
+## Status
+
+This planning note is now historical reference material.
+
+As of `19 April 2026`, the original `12`-batch plan recorded here is fully covered in `docs/_timeline/`.
+
+For the current migration state and per-item status, use `additional-notes/timeline-priority-reconciliation-v2026-04-19.md`, which records `64` direct matches, `29` canonical replacements, and `0` missing items from this plan.
+
 ## Purpose
 
 This file turns the `93` keeper records from the first triage pass into a practical migration order.
