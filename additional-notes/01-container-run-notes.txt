@@ -1,7 +1,7 @@
 docker run --rm -it -p 4000:4000 -v "$PWD:/srv/jekyll" -w /srv/jekyll ruby:3.3-bookworm bash
 
 
-# create cache folder, otherwise docker will download it everytime
+# create cache folder, otherwise docker will download it every time
 mkdir -p "$HOME/.bundle-cache-jekyll"
 
 

@@ -4,7 +4,7 @@ permalink: /timeline/data.json
 ---
 {
   "items": [
-    {% assign timeline_items = site.timeline | sort: "date_sort" | reverse %}
+    {% assign timeline_items = site.timeline %}
     {% for item in timeline_items %}
     {
       "id": {{ item.id | jsonify }},

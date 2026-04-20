@@ -9,6 +9,8 @@ main:
     url: /crypto/
   - title: Timeline
     url: /timeline/
+  - title: Utilities
+    url: /utilities/
   - title: Pages
     url: /pages/
   - title: Search
