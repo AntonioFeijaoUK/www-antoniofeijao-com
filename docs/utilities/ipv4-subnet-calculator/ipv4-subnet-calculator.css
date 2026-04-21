@@ -17,7 +17,7 @@
 }
 
 .subnet-input-form {
-  max-width: 560px;
+  max-width: 1040px;
   margin: 0 auto;
   text-align: center;
   font-size: 12px;
@@ -34,6 +34,8 @@
   gap: 0.45rem;
   align-items: center;
   justify-content: center;
+  max-width: 560px;
+  margin: 0 auto;
 }
 
 .subnet-input-row input {
@@ -105,7 +107,10 @@
 }
 
 .subnet-example-panel {
+  max-width: 980px;
   margin-top: 0.45rem;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
 }
 
@@ -117,7 +122,9 @@
 
 .subnet-example-groups {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 0.5rem;
+  align-items: start;
 }
 
 .subnet-example-group {
@@ -126,11 +133,11 @@
 
 .subnet-example-group-title {
   margin: 0 0 0.15rem 0;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: 700;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: rgba(242, 234, 223, 0.72);
+  color: rgba(242, 234, 223, 0.62);
 }
 
 .subnet-example-list {
@@ -337,11 +344,12 @@
 
 .subnet-calculator-page .subnet-node-cidr {
   margin: 0;
-  color: #fff7ec;
+  color: #ffe08a;
   font-size: 11px !important;
   font-weight: 700;
   line-height: 1.25 !important;
   word-break: break-word;
+  text-shadow: 0 0 10px rgba(255, 208, 77, 0.12);
 }
 
 .subnet-node-badge {
@@ -422,42 +430,66 @@
     flex-direction: column;
   }
 
+  .subnet-example-groups {
+    grid-template-columns: 1fr;
+  }
+
   .subnet-input-row button {
     width: 100%;
   }
 
   .subnet-tree-header {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
   }
 
   .subnet-tree-actions {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    width: 100%;
   }
 
   .subnet-reset-button,
   .subnet-expand-level-button,
   .subnet-collapse-level-button {
-    width: 100%;
+    width: auto;
+    min-width: 0;
+    padding: 0.18rem 0.38rem;
+    font-size: 10px;
+    line-height: 1.15;
   }
 
   .subnet-node-row {
-    padding: 0.26rem 0.4rem;
+    align-items: center;
+    gap: 0.18rem 0.28rem;
+    padding: 0.22rem 0.34rem;
   }
 
   .subnet-node-main {
-    flex-basis: 100%;
+    flex: 1 1 auto;
+    flex-basis: auto;
   }
 
   .subnet-node-actions {
-    width: 100%;
-    justify-content: flex-start;
+    width: auto;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    gap: 0.16rem;
   }
 
   .subnet-action-button,
   .subnet-details-button {
-    flex: 1 1 140px;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 0.12rem 0.28rem;
+    border-radius: 7px;
+    font-size: 9px;
+    line-height: 1.1;
   }
 
   .subnet-outline-children {
@@ -476,4 +508,26 @@
   .subnet-node-details {
     margin-left: 0.25rem;
   }
+}
+
+/* Final page-scoped overrides for site-wide typography. */
+.subnet-calculator-page .subnet-example-group-title {
+  margin: 0 0 0.12rem 0 !important;
+  color: rgba(242, 234, 223, 0.58) !important;
+  font-size: 8px !important;
+  font-weight: 700 !important;
+  line-height: 1.15 !important;
+}
+
+.subnet-calculator-page .subnet-example-button,
+.subnet-calculator-page .subnet-example-button span,
+.subnet-calculator-page .subnet-example-button code {
+  font-size: 10px !important;
+  line-height: 1.25 !important;
+}
+
+.subnet-calculator-page .subnet-node .subnet-node-cidr {
+  color: #ffe08a !important;
+  font-size: 11px !important;
+  line-height: 1.25 !important;
 }
