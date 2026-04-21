@@ -16,6 +16,7 @@ tags:
   - bitcoin
   - bitcoin-node
   - raspberry-pi
+toc: true
 ---
 
 Maintaining a Bitcoin node is both a responsibility and a privilege.  
@@ -161,7 +162,7 @@ Key indicators of health:
 
 ---
 
-## 🧾 Optional: Create a Health-Check Script
+## Optional: Create a Health-Check Script
 
 For convenience, create a script such as `/usr/local/bin/bitcoin-status.sh`:
 
@@ -197,6 +198,7 @@ In essence:
 ---
 
 ### References
+
 - [Bitcoin Core Official Downloads](https://bitcoincore.org/en/download/)
 - [Bitcoin Core Guix Signatures](https://github.com/bitcoin-core/guix.sigs)
 - [Bitcoin Developer RPC Reference](https://developer.bitcoin.org/reference/rpc/index.html)

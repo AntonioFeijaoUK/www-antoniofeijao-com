@@ -49,8 +49,6 @@ seo:
 canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-opportunity-risk-and-responsible-adoption/"
 ---
 
-# Enterprise AI: Opportunity, Risk, and Responsible Adoption
-
 !["enterprise-ai-opportunity-risk-responsible-adoption-executive-hero"](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero.png)
 
 **A practical guide to AI fundamentals, bots, copilots, agents, enterprise risk, human impact, and controlled adoption**

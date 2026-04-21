@@ -20,15 +20,6 @@ If you find my content helpful, please consider supporting my work. It helps me 
   <span>Buy Me a Coffee</span>
 </a>
 
-<div class="home-section-links">
-  <a href="{{ '/blog/' | relative_url }}">Blog</a>
-  <a href="{{ '/cyber/' | relative_url }}">Cyber</a>
-  <a href="{{ '/crypto/' | relative_url }}">Crypto</a>
-  <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
-  <a href="{{ '/pages/' | relative_url }}">Pages</a>
-  <a href="{{ '/about/' | relative_url }}">About</a>
-</div>
-
 ---
 
 ## Latest from Blog
