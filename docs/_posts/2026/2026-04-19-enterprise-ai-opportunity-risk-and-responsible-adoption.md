@@ -215,7 +215,7 @@ If we can accept that a structured relationship allows us to estimate the height
 
 ### Intro
 
-Once the basic idea of inference is clear, the next step is to understand what modern AI, especially Large Language Models, is actually doing.
+Once the basic idea of inference is clear, the next step is to understand what modern AI, especially large language models (LLMs), is actually doing.
 
 AI often appears intelligent because the outputs can be fluent, fast, and useful. It can answer questions, draft text, summarise documents, suggest code, and help structure ideas. That can make it feel as though the system truly understands the material in a human way.
 
@@ -465,7 +465,7 @@ That progression matters because each step upward brings more power, more value,
 
 ---
 
-## AI assistants
+## The current market landscape: AI assistants
 
 ![Diagram showing easy access to AI assistants, work data, trusted pathways, shadow AI risk, and the need for guardrails](/assets/images/blog/enterprise-ai-current-market-ai-assistants.png)
 
@@ -587,7 +587,7 @@ The lesson is not that these tools are inherently unsafe. The lesson is that wid
 
 ---
 
-## Enterprise copilots
+## The current market landscape: Enterprise copilots
 
 ![Infographic showing enterprise copilots embedded in documents, meetings, tickets, code, permissions, governance, and human review](/assets/images/blog/enterprise-ai-current-market-enterprise-copilots.png)
 
@@ -730,12 +730,12 @@ The right conclusion is not to fear enterprise copilots. It is to govern them pr
 
 > The closer AI gets to enterprise context, the more important governance becomes.
 > Enterprise copilots are powerful because they work where real work happens.
-> Embedded AI can reduce friction, but it can also increase exposure.ß
+> Embedded AI can reduce friction, but it can also increase exposure.
 > Being inside the enterprise stack does not remove the need for caution.
 
 ---
 
-## Model platforms
+## The current market landscape: Model platforms
 
 ![Infographic showing model platforms as governed AI architecture for models, enterprise data, orchestration, apps, workflows, evaluation, monitoring, and scale](/assets/images/blog/enterprise-ai-current-market-model-platforms.png)
 
@@ -882,7 +882,7 @@ The right lesson is not simply to adopt a platform because it is powerful. The r
 
 ---
 
-## Coding agents
+## The current market landscape: Coding agents
 
 ![Infographic showing coding agents working across codebases, files, tests, commands, secrets, human review, security checks, and pipeline gates](/assets/images/blog/enterprise-ai-current-market-coding-agents.png)
 
@@ -1044,6 +1044,8 @@ The right conclusion is not to avoid them blindly. It is to recognise that power
 ---
 
 ## Why enterprise use changes the risk
+
+![Infographic comparing personal AI use with enterprise AI use and showing that enterprise risk comes from data, systems, permissions, plugins, workflows, and customer information around the same model](/assets/images/blog/enterprise-ai-why-enterprise-use-changes-the-risk.png)
 
 ### Intro
 
@@ -1207,6 +1209,8 @@ The safest organisations will not be the ones that ignore AI, nor the ones that 
 ---
 
 ## Enablement with guardrails, not unmanaged experimentation
+
+![Infographic contrasting unmanaged experimentation with controlled enablement through approved tools, sandboxing, access control, policy, monitoring, and human review](/assets/images/blog/enterprise-ai-enablement-with-guardrails-not-unmanaged-experimentation.png)
 
 ### Intro
 
@@ -1375,6 +1379,8 @@ The safest organisations will not be the ones that say no to everything. They wi
 ---
 
 ## AI, productivity pressure, and the human factor
+
+![Infographic showing always-available AI, fast output, and the tension between machine speed and human judgement, review, reflection, boundaries, and sustainable pace](/assets/images/blog/enterprise-ai-productivity-pressure-and-human-factor.png)
 
 ### Intro
 
@@ -1570,6 +1576,8 @@ Humans remain in the driver’s seat. We are still responsible for judgement, re
 
 ## Leadership ask: support controlled adoption
 
+![Infographic showing leadership supporting controlled AI adoption through approved tools, sandboxing, policy, training, access control, monitoring, escalation, and healthy working norms](/assets/images/blog/enterprise-ai-leadership-support-controlled-adoption.png)
+
 ### Intro
 
 Leadership has a decisive role here.
@@ -1669,6 +1677,8 @@ The organisation should therefore aim for:
 ---
 
 ## What are AI tokens?
+
+![Infographic explaining AI tokens with a flow from text to token pieces to IDs and model processing, and showing how tokens affect context, cost, and performance](/assets/images/blog/enterprise-ai-what-are-ai-tokens.png)
 
 ### Intro
 
@@ -2025,6 +2035,8 @@ If you understand tokens, many other AI concepts start to make more sense:
 ---
 
 ## How to get the best from AI
+
+![Infographic showing a practical AI workflow with goal, relevant context, format, draft, iterate, verify, and human judgement, plus the message copilot not autopilot](/assets/images/blog/enterprise-ai-how-to-get-the-best-from-ai.png)
 
 ### Intro
 
@@ -2411,6 +2423,8 @@ Used well, AI can extend human capability significantly. Used poorly, it can amp
 
 ## Learn more and dive deeper into LLMs and AI
 
+![Infographic showing a learning roadmap from core computer science through mathematics, machine learning, NLP and LLM foundations, to practical LLM engineering beneath the chat interface](/assets/images/blog/enterprise-ai-learn-more-and-dive-deeper-into-llms-and-ai.png)
+
 ### Intro
 
 If this article has helped clarify the landscape, the natural next step is deeper learning.
@@ -2539,19 +2553,12 @@ Why this matters:
 
 A sensible route for deeper study includes well-known academic foundations and then practical applied work.
 
-Examples include:
+The next section lists concrete starting points. A useful way to think about them is:
 
-- **Harvard CS50x** for computer science refresh and problem-solving foundations
-- **Harvard CS50 AI with Python** for broader AI and machine learning foundations
-- **MIT deep learning material** for stronger technical grounding in neural networks and representation
-- practical LLM engineering courses and documentation that cover APIs, prompting, embeddings, retrieval, and evaluation
-
-A useful way to think about these is:
-
-- CS50x gives you computational thinking
+- computer science courses build computational thinking
 - AI and deep learning courses explain how models learn
 - NLP and transformer study explains how LLMs work
-- API and application-focused study explains how modern assistants, copilots, and agents are actually built
+- application-focused study explains how assistants, copilots, and agents are built in practice
 
 ### A strong learning principle
 
@@ -2588,6 +2595,8 @@ That is where AI starts to become understandable, practical, and professionally 
 
 ## Suggested courses and learning resources
 
+![Infographic showing a layered AI learning path from computer science and Python through machine learning, deep learning, and LLM engineering, with example milestones such as CS50x, CS50 Python, CS50 AI, and MIT Deep Learning](/assets/images/blog/enterprise-ai-suggested-courses-and-learning-resources.png)
+
 For readers who want to study this space more seriously, the best approach is to learn it in layers rather than through hype, shortcuts, or prompt tricks alone.
 
 A solid path starts with computer science fundamentals, then progresses through Python, machine learning, deep learning, and finally the engineering patterns that sit behind modern LLM-based systems.
@@ -2618,6 +2627,8 @@ The resources below are well-known starting points that help build that progress
 ---
 
 ## Final Comments
+
+![Infographic showing AI amplifying capability while human judgement, responsibility, governance, review, and care remain central to responsible adoption](/assets/images/blog/enterprise-ai-final-comments.png)
 
 AI can amplify our capability, but human judgement, responsibility, and care must remain at the centre.
 

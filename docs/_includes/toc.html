@@ -2,6 +2,9 @@
 
 {% if toc_sections.size > 1 %}
   <nav class="page-toc{% if page.toc_sticky %} page-toc-sticky{% endif %}" aria-label="Table of contents">
+    {% if page.title %}
+      <p class="page-toc-page-title">{{ page.title }}</p>
+    {% endif %}
     <h2>{{ page.toc_label | default: "Contents" }}</h2>
     <ul>
       {% for section in toc_sections offset:1 %}

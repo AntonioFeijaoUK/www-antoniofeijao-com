@@ -474,6 +474,14 @@ img {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.page-toc-page-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: rgba(255, 247, 236, 0.84);
+}
+
 .page-toc h2 {
   margin: 0 0 0.5rem 0;
   font-size: 1rem;
@@ -490,13 +498,26 @@ img {
   margin-bottom: 0.25rem;
 }
 
+.page-toc-item-h2 > a {
+  background: rgba(106, 169, 255, 0.08);
+  border-left: 2px solid rgba(106, 169, 255, 0.34);
+  font-weight: 600;
+}
+
 .page-toc-item-h3 {
-  margin-left: 1.4rem;
+  margin-left: 1.15rem;
+}
+
+.page-toc-item-h3 > a {
+  background: rgba(255, 255, 255, 0.03);
+  border-left: 2px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.9em;
+  color: #d5e5fb;
 }
 
 .page-toc a {
   display: block;
-  padding: 0.05rem 0.18rem;
+  padding: 0.12rem 0.35rem;
   border-radius: 4px;
   color: #b7d7ff;
 }
@@ -549,6 +570,18 @@ img {
   .page-toc-sticky li {
     margin-bottom: 0.16rem;
     line-height: 1.3;
+  }
+
+  .page-toc-sticky .page-toc-item-h2 > a {
+    font-size: 0.84rem;
+  }
+
+  .page-toc-sticky .page-toc-item-h3 > a {
+    font-size: 0.76rem;
+  }
+
+  .page-toc-sticky .page-toc-page-title {
+    font-size: 0.78rem;
   }
 
   .page-toc-sticky a {
