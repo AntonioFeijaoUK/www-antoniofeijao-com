@@ -375,6 +375,8 @@ Healthy adoption also requires personal and team norms:
 
 AI should reduce toil, not increase unhealthy expectations. The right use of AI is to support and amplify human capability while preserving accountability, boundaries, and critical thinking.
 
+The goal is to free up human time and energy for more creative, strategic, and high-value work.
+
 ---
 
 ## Leadership ask: support controlled adoption
