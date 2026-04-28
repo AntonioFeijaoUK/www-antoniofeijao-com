@@ -5,7 +5,7 @@
 - Use British English.
 - Be concise, precise, and technical.
 - Prefer minimal, high-confidence changes over broad refactors.
-- Work one file at a time unless explicitly told otherwise.
+- Work one file at a time where practical; when a small coherent change requires multiple files, keep the edit set minimal and explain why.
 - Before editing, inspect the current file and preserve existing working behaviour.
 - Do not rename, move, or delete files unless explicitly instructed.
 - Do not introduce new dependencies unless explicitly justified and approved.
@@ -19,6 +19,7 @@
 - Preserve existing URLs, permalinks, and working navigation unless explicitly asked to change them.
 - Do not overwrite working layouts, includes, or content structures with speculative alternatives.
 - Do not remove front matter fields unless they are clearly obsolete for Jekyll and the change is intentional.
+- Preserve `layout`, `permalink`, `redirect_from`, and collection-specific front matter unless intentionally changing page behaviour.
 - Do not make hidden assumptions; state them clearly.
 
 ## Architecture expectations
@@ -73,6 +74,10 @@
 
 - After changes, validate that the site still builds with Jekyll.
 - Prefer checking the smallest relevant surface first.
+- For build-only validation, prefer:
+
+  `bundle exec jekyll build --source docs --destination docs/_site`
+
 - Do not claim something works unless it has been verified from the available evidence.
 - If something cannot be verified, say so explicitly.
 
@@ -84,7 +89,7 @@
   `bundle exec jekyll serve --source docs --destination docs/_site --host 0.0.0.0 --livereload`
 
 - Treat `docs/_site/` as build output, not source.
-- Do not edit generated files in `_site/`.
+- Never edit `docs/_site/`; regenerate it via Jekyll when needed.
 
 ## Preferred workflow for complex tasks
 
@@ -104,6 +109,13 @@ A change is done when:
 - it avoids unnecessary dependency or structure changes
 - it is easy to review
 - it is technically correct and appropriately cautious
+- the relevant `git diff` has been inspected before finalising and only intentional changes are summarised
+
+## Assets
+
+- Optimise new images before adding them.
+- Prefer existing assets where suitable.
+- Avoid large media files unless explicitly approved.
 
 ## Task prompt pattern
 
