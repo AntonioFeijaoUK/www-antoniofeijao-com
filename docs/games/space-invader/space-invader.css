@@ -1,0 +1,255 @@
+#main_content.space-invader-page {
+  max-width: 900px;
+}
+
+#main_content.space-invader-page h1 {
+  text-align: center;
+}
+
+.game-intro {
+  margin-bottom: 1.5rem;
+}
+
+.game-shell {
+  background: #101820;
+  border: 1px solid #26384a;
+  color: #f4f7fb;
+  padding: 1rem;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.game-header {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.game-header h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0.2rem 0 0;
+}
+
+.game-label,
+.game-status,
+.game-notes {
+  color: #b7c7d9;
+}
+
+.game-label {
+  font-size: 0.8rem;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.game-status {
+  margin: 0;
+  text-align: right;
+}
+
+.pilot-form {
+  align-items: end;
+  border: 1px solid #26384a;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(180px, 1fr) minmax(220px, 1fr) minmax(220px, 1fr) auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.pilot-field {
+  border: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+.pilot-field label,
+.pilot-field legend {
+  color: #d8e4f0;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.nickname-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nickname-row input {
+  background: #05070a;
+  border: 1px solid #3b536d;
+  color: #ffffff;
+  min-width: 0;
+  padding: 0.55rem;
+  width: 100%;
+}
+
+.game-actions button,
+.nickname-row button,
+.primary-game-button {
+  background: #26384a;
+  border: 1px solid #4d6988;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0.55rem 0.8rem;
+}
+
+.game-actions button:focus,
+.game-actions button:hover,
+.nickname-row button:focus,
+.nickname-row button:hover,
+.primary-game-button:focus,
+.primary-game-button:hover {
+  background: #34506b;
+}
+
+.emoji-picker {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.emoji-picker legend {
+  flex-basis: 100%;
+}
+
+.emoji-picker label {
+  cursor: pointer;
+  margin: 0;
+}
+
+.emoji-picker input {
+  position: absolute;
+  opacity: 0;
+}
+
+.emoji-picker span {
+  align-items: center;
+  background: #05070a;
+  border: 1px solid #3b536d;
+  display: flex;
+  font-size: 1.25rem;
+  height: 2.25rem;
+  justify-content: center;
+  width: 2.25rem;
+}
+
+.emoji-picker input:checked + span,
+.emoji-picker input:focus + span {
+  border-color: #9ee493;
+  box-shadow: 0 0 0 2px rgba(158, 228, 147, 0.25);
+}
+
+.enemy-picker input:checked + span,
+.enemy-picker input:focus + span {
+  border-color: #f4d35e;
+  box-shadow: 0 0 0 2px rgba(244, 211, 94, 0.25);
+}
+
+.score-strip {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 1rem;
+}
+
+.score-strip p {
+  background: #05070a;
+  border: 1px solid #26384a;
+  margin: 0;
+  padding: 0.65rem;
+}
+
+.score-strip span,
+.score-strip strong {
+  display: block;
+}
+
+.score-strip span {
+  color: #b7c7d9;
+  font-size: 0.8rem;
+}
+
+.score-strip strong {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-top: 0.2rem;
+}
+
+.game-canvas {
+  background: #05070a;
+  border: 1px solid #3b536d;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+.game-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.game-notes {
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+.game-notes p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .game-header {
+    display: block;
+  }
+
+  .game-status {
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .pilot-form,
+  .score-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .nickname-row {
+    display: block;
+  }
+
+  .nickname-row button {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .primary-game-button,
+  .game-actions button {
+    width: 100%;
+  }
+
+  .game-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  #main_content.space-invader-page.inner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    width: 90%;
+  }
+}

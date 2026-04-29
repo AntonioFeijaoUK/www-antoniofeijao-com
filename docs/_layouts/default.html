@@ -29,12 +29,12 @@
       loading="lazy">
 
     <div class="story-hero-title">
-      <h1>{{ page.title }}</h1>
+      <h1><a class="page-title-link" href="{{ page.url | relative_url }}">{{ page.title }}</a></h1>
     </div>
   </div>
 {% else %}
   {% if page.title %}
-    <h1>{{ page.title }}</h1>
+    <h1><a class="page-title-link" href="{{ page.url | relative_url }}">{{ page.title }}</a></h1>
   {% endif %}
 {% endif %}
 

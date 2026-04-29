@@ -11,6 +11,8 @@ main:
     url: /timeline/
   - title: Utilities
     url: /utilities/
+  - title: Games
+    url: /games/
   - title: Pages
     url: /pages/
   - title: Search

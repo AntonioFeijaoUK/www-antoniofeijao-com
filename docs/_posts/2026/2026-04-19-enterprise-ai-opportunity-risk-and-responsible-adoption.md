@@ -1,24 +1,32 @@
 ---
-title: "Enterprise AI: Opportunity, Risk, and Responsible Adoption"
-description: "A practical guide to AI fundamentals, bots, copilots, agents, enterprise risk, human impact, and controlled adoption."
-excerpt: "A practical guide to understanding enterprise AI, the current market landscape, operational and human risks, and how to adopt AI responsibly with guardrails."
+title: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
+description: "A practical AI and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, and responsible adoption."
+excerpt: "A practical guide to understanding AI and LLMs, from core concepts and technical foundations to enterprise risk, governance, and responsible adoption."
 author: "Antonio Feijao UK"
 date: 2026-04-19
-last_modified_at: 2026-04-28
+last_modified_at: 2026-04-29
 categories:
   - AI
   - Enterprise
   - Security
   - Governance
 tags:
+  - ai 101
   - enterprise ai
   - artificial intelligence
+  - large language models
+  - llm
+  - ai fundamentals
   - ai governance
   - responsible ai
   - ai risk
   - ai agents
   - copilots
-  - llm
+  - ai tokens
+  - context windows
+  - rag
+  - prompt injection
+  - mcp
   - security
   - developer productivity
 reading_time: "40 min read"
@@ -27,31 +35,39 @@ toc_sticky: true
 comments: false
 share: true
 published: true
-image: "/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero.png"
+image: "/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero-v2.png"
 seo:
   type: "Article"
-  name: "Enterprise AI: Opportunity, Risk, and Responsible Adoption"
-  headline: "Enterprise AI: Opportunity, Risk, and Responsible Adoption"
-  description: "A practical guide to AI fundamentals, bots, copilots, agents, enterprise risk, human impact, and controlled adoption."
+  name: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
+  headline: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
+  description: "A practical AI and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, and responsible adoption."
   author: "Antonio Feijao UK"
   date_published: 2026-04-19
-  date_modified: 2026-04-28
+  date_modified: 2026-04-29
   keywords:
+    - ai 101
+    - ai fundamentals
+    - large language models
+    - llm
     - enterprise ai
     - ai governance
     - responsible ai adoption
     - ai risk
     - ai agents
     - copilots
-    - llm
+    - ai tokens
+    - context windows
+    - rag
+    - prompt injection
+    - model context protocol
     - enterprise security
     - developer productivity
 canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-opportunity-risk-and-responsible-adoption/"
 ---
 
-![Executive infographic showing enterprise AI opportunity, risk, governance, trusted pathways, human review, and responsible adoption](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero.png)
+![Sleek 3D executive infographic showing enterprise AI balanced between opportunity, risk, governance, trusted pathways, human review, and responsible adoption](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero-v2.png)
 
-**A practical guide to enterprise AI: fundamentals, risks, human impact, and responsible adoption.**
+**A practical AI and LLMs 101 guide for professionals: fundamentals, technical foundations, enterprise risk, and responsible adoption.**
 
 Artificial Intelligence is moving from novelty to normality. It is already shaping how people research, write, code, analyse, summarise, plan, and make decisions at work.
 
@@ -518,9 +534,11 @@ The best results from AI usually do not come from asking it to replace human eff
 
 ## Technical appendix: How LLM systems work
 
-![Infographic explaining AI tokens with a flow from text to token pieces to IDs and model processing, and showing how tokens affect context, cost, and performance](/assets/images/blog/enterprise-ai-what-are-ai-tokens.png)
+![Introductory infographic explaining AI tokens as a flow from text and code through tokenisation, token IDs, vectors, model prediction, output tokens, and practical impacts on context, cost, and performance](/assets/images/blog/enterprise-ai-what-are-ai-tokens-v2.png)
 
 ### What is an LLM?
+
+![Architecture-style infographic explaining an LLM as the prediction engine inside a larger AI system, with inputs, context window, parameters, token sequences, inference, outputs, human review, and surrounding product controls](/assets/images/blog/enterprise-ai-what-is-an-llm.png)
 
 An **LLM**, or **large language model**, is a trained neural network designed to process and generate language-like sequences. It is not the same thing as a chatbot, application, database, search engine, or agent. Those are systems that may use an LLM as one component.
 
@@ -569,6 +587,8 @@ The important point is that the model is not a document database full of answers
 
 ### Training versus inference
 
+![Infographic comparing AI training and inference, showing training as large datasets, compute, weight adjustment, and trained model creation, and inference as prompt plus context, trained model use, output tokens, and enterprise review](/assets/images/blog/enterprise-ai-training-versus-inference.png)
+
 It helps to separate two different phases: **training** and **inference**.
 
 During **training**, a model is built or adapted. The system processes large amounts of data and repeatedly adjusts its internal weights so it becomes better at predicting useful outputs. Training is computationally expensive, data-intensive, and usually performed by model providers, research teams, or specialised platform teams.
@@ -580,6 +600,8 @@ For most enterprise adoption, the daily activity is inference, not training. Tea
 This distinction matters because many enterprise problems do not require training a new model. Often the safer and more maintainable approach is to use an approved model with better prompts, retrieval, access controls, evaluation, and workflow design.
 
 ### What are AI tokens?
+
+![Detailed infographic explaining AI tokens by showing human text, tokenisation, token pieces, token IDs, vectors, input tokens, output tokens, and why token usage affects context, cost, latency, and quality](/assets/images/blog/enterprise-ai-what-are-ai-tokens-detail.png)
 
 One of the most common and least clearly explained ideas in modern AI is the **token**.
 
@@ -630,6 +652,8 @@ There are two main ways tokens are consumed:
 - **output tokens**: what the model has to write in response
 
 ### Context windows
+
+![Infographic explaining context windows as a token-limited working area containing system instructions, prompt, history, retrieved documents, files, tool results, and reply budget, with enterprise design trade-offs](/assets/images/blog/enterprise-ai-context-windows.png)
 
 A **context window** is the amount of information a model can consider at once, measured in tokens. It is not just the text typed into the prompt box. It can include:
 
@@ -690,6 +714,8 @@ Tokens are one of the hidden mechanics of AI. They affect what the model can rea
 
 ### Retrieval, grounding, and RAG
 
+![Infographic explaining retrieval, grounding, and RAG as a flow from user question through search, approved sources, relevant chunks, context window, LLM generation, grounded answer, citations, confidence signals, and human review](/assets/images/blog/enterprise-ai-retrieval-grounding-rag.png)
+
 An LLM does not automatically know an organisation’s latest policies, tickets, documents, repositories, or customer records. To use private or current information, the system must provide relevant context at request time.
 
 This is where **retrieval** and **grounding** matter:
@@ -711,6 +737,8 @@ RAG does not make AI automatically correct. Search quality, document quality, pe
 For enterprise use, the key question is not just “which model are we using?” It is also “what information is the model allowed to see, where did that information come from, and how do we know the answer is grounded in approved sources?”
 
 ### Prompt injection
+
+![Infographic explaining prompt injection as untrusted external content crossing a trust boundary into an AI application, with defences such as instruction separation, least privilege, validation, human approval, logs, and testing](/assets/images/blog/enterprise-ai-prompt-injection.png)
 
 **Prompt injection** happens when untrusted content tries to influence the AI system’s behaviour. The risky instruction may be hidden inside a web page, document, email, ticket, code comment, retrieved knowledge-base article, or tool output.
 
@@ -737,6 +765,8 @@ Useful defences include:
 The practical rule is simple: external content should inform the model, not control the system.
 
 ### Tools, agents, and MCP
+
+![Infographic explaining tools, agents, and MCP as an AI host application with an MCP client, agent loop, LLM, MCP servers, external systems, and controls for least privilege, schemas, approvals, audit logs, and prompt injection defence](/assets/images/blog/enterprise-ai-tools-agents-mcp.png)
 
 Some AI systems do more than generate text. They can call tools, read resources, run searches, query systems, create tickets, analyse repositories, or trigger workflows. This is where the difference between a chatbot, a copilot, and an agent becomes more practical.
 
