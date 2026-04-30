@@ -1,10 +1,10 @@
 ---
 title: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
-description: "A practical AI and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, and responsible adoption."
-excerpt: "A practical guide to understanding AI and LLMs, from core concepts and technical foundations to enterprise risk, governance, and responsible adoption."
+description: "A practical AI, GenAI, and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, security, and responsible adoption."
+excerpt: "A practical guide to understanding AI, GenAI, and LLMs, from core concepts and technical foundations to enterprise security, risk, governance, and responsible adoption."
 author: "Antonio Feijao UK"
 date: 2026-04-19
-last_modified_at: 2026-04-29
+last_modified_at: 2026-04-30
 categories:
   - AI
   - Enterprise
@@ -12,6 +12,8 @@ categories:
   - Governance
 tags:
   - ai 101
+  - genai
+  - generative ai
   - enterprise ai
   - artificial intelligence
   - large language models
@@ -20,7 +22,10 @@ tags:
   - ai governance
   - responsible ai
   - ai risk
+  - ai security
   - ai agents
+  - vibe coding
+  - spec coding
   - copilots
   - ai tokens
   - context windows
@@ -29,7 +34,7 @@ tags:
   - mcp
   - security
   - developer productivity
-reading_time: "40 min read"
+reading_time: "45 min read"
 toc: true
 toc_sticky: true
 comments: false
@@ -40,12 +45,14 @@ seo:
   type: "Article"
   name: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
   headline: "AI and LLMs 101: From Fundamentals to Responsible Enterprise Adoption"
-  description: "A practical AI and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, and responsible adoption."
+  description: "A practical AI, GenAI, and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, security, and responsible adoption."
   author: "Antonio Feijao UK"
   date_published: 2026-04-19
-  date_modified: 2026-04-29
+  date_modified: 2026-04-30
   keywords:
     - ai 101
+    - genai
+    - generative ai
     - ai fundamentals
     - large language models
     - llm
@@ -53,7 +60,10 @@ seo:
     - ai governance
     - responsible ai adoption
     - ai risk
+    - ai security
     - ai agents
+    - vibe coding
+    - spec coding
     - copilots
     - ai tokens
     - context windows
@@ -67,11 +77,11 @@ canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-oppo
 
 ![Sleek 3D executive infographic showing enterprise AI balanced between opportunity, risk, governance, trusted pathways, human review, and responsible adoption](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero-v2.png)
 
-**A practical AI and LLMs 101 guide for professionals: fundamentals, technical foundations, enterprise risk, and responsible adoption.**
+**A practical AI, GenAI, and LLMs 101 guide for professionals: fundamentals, technical foundations, enterprise security, risk, and responsible adoption.**
 
 Artificial Intelligence is moving from novelty to normality. It is already shaping how people research, write, code, analyse, summarise, plan, and make decisions at work.
 
-This article demystifies enterprise AI from first principles: what it is, how bots, copilots, and agents differ, why enterprise use changes the risk, and how organisations can adopt AI responsibly.
+This article demystifies AI, GenAI, and LLMs from first principles: what they are, how bots, copilots, and agents differ, why enterprise use changes the risk, and how organisations can adopt AI responsibly.
 
 The aim is practical clarity: secure adoption, real guardrails, and human-centred use.
 
@@ -98,6 +108,23 @@ This is how shadow AI begins. Not usually through malicious behaviour, but throu
 This is not a reason for panic. AI can bring real value: faster research, better drafting, stronger brainstorming, support for coding and documentation, and less repetitive effort. But value without governance creates avoidable exposure.
 
 The practical question is whether AI adoption will be deliberate or fragmented, supported or improvised, governed or unmanaged. The safest path is to make responsible use easier than unsafe workarounds.
+
+---
+
+## AI, GenAI, and LLMs: what do these terms mean?
+
+Before going deeper, it helps to separate a few terms that are often used interchangeably.
+
+- **AI** is the broad field of systems that perform tasks associated with intelligence, such as recognising patterns, making predictions, classifying information, planning, or generating content.
+- **Machine learning** is a subset of AI where systems learn patterns from data instead of being programmed only with explicit rules.
+- **Generative AI**, often shortened to **GenAI**, is AI that creates new content: text, images, code, summaries, audio, video, plans, or structured outputs.
+- **Large Language Models**, or **LLMs**, are AI models commonly used in GenAI systems. They focus on language and code, using tokens and learned patterns to predict and generate text-like outputs.
+- **Copilots** are applications that package AI assistance inside a workflow, such as writing, coding, searching, summarising, analysing, or operating a business application.
+- **Agents** are applications that go further by using tools, following multi-step plans, reading context, calling APIs, or taking actions with some level of autonomy.
+
+A simple mental model is: **AI is the broad field, GenAI creates content, LLMs are a common engine behind text-based GenAI, and copilots or agents are applications built around models, tools, data access, and user experience.**
+
+This matters because risk changes with capability. A simple AI classifier, a public chatbot, a document copilot, and an agent with access to code repositories and internal APIs need different controls.
 
 ---
 
@@ -253,6 +280,54 @@ Coding agents change the developer experience from *help me write this function*
 
 ---
 
+## Vibe coding, spec coding, and engineering judgement
+
+AI has made it easier for people to create software by describing what they want in natural language. This is sometimes called **vibe coding**: exploring, prompting, and iterating with an AI assistant until the result appears to work or feels close to the desired outcome.
+
+That can be useful for prototypes, learning, experiments, and small internal tools. But vibe coding without enough technical grounding has limits.
+
+- the user may not know whether the architecture is sound
+- security, privacy, accessibility, and performance issues may be missed
+- generated code may work in the happy path but fail in edge cases
+- dependencies, licences, secrets, and deployment risks may be overlooked
+- debugging becomes difficult if the user does not understand the code
+- the AI may optimise for plausible output rather than maintainable systems
+
+The difference is not whether AI is used, but whether the user can steer and verify the work. Vibe coding becomes more effective when the person using AI has enough skill to ask better questions, recognise weak answers, define constraints, review trade-offs, and decide when to stop, test, or redesign.
+
+A more disciplined pattern is **spec coding**. Instead of asking the AI to “build something like this”, the user provides a clearer specification:
+
+- what problem the system should solve
+- who will use it
+- what inputs, outputs, and workflows matter
+- what constraints must be respected
+- what security and data rules apply
+- what tests or acceptance criteria must pass
+- what code style, architecture, or platform patterns should be followed
+
+The two patterns are not enemies: exploration can help discover the idea, while specification helps make it reliable.
+
+The practical lesson is that AI can reduce the distance between idea and implementation, but it does not remove the need for judgement. The better the user understands the domain, the architecture, and the risks, the more useful the AI becomes.
+
+---
+
+## Attackers, defenders, and the AI acceleration gap
+
+AI changes the economics of both attack and defence.
+
+- less experienced attackers can learn faster, generate convincing phishing content, write scripts, translate instructions into commands, and iterate more quickly
+- experienced attackers can use AI to scale reconnaissance, social engineering, malware variation, vulnerability research, and operational planning
+- defenders can use AI to triage alerts, analyse logs, review code, detect anomalies, inspect CI/CD pipelines, classify emails, and summarise incidents
+- the balance depends on adoption speed, data access, tooling quality, review discipline, and operational maturity
+
+Think of this as a capability scale. AI can move less experienced actors up the scale faster by helping them research, script, adapt examples, and test ideas. It does not make every actor advanced, but it can compress the time between curiosity and capability.
+
+Defenders face the same acceleration opportunity. AI can help inspect CI/CD pipelines, identify risky code changes, summarise pull requests, detect leaked secrets, classify suspicious emails, enrich alerts, compare logs, draft incident timelines, and guide analysts through response playbooks.
+
+The security lesson is clear: organisations should not treat AI only as a productivity tool. They should treat it as part of the security landscape. Attackers will use it to move faster; defenders need governed AI capabilities that help them see more, decide faster, and act with evidence while keeping humans accountable.
+
+---
+
 ## Why enterprise use changes the risk
 
 ![Infographic comparing personal AI use with enterprise AI use and showing that enterprise risk comes from data, systems, permissions, plugins, workflows, and customer information around the same model](/assets/images/blog/enterprise-ai-why-enterprise-use-changes-the-risk.png)
@@ -280,6 +355,28 @@ The risk equation is therefore:
 That is why organisations should assess AI by operational context, not only by intelligence or convenience. The practical governance questions are: what data can be used, what systems can be connected, what permissions are allowed, where human review is required, and what happens when the output is wrong, unsafe, or misunderstood.
 
 Without clear answers, enterprise AI can expand faster than enterprise control. The safest organisations are not the ones that ignore AI or embrace it blindly, but the ones that understand how quickly useful tools can become high-risk tools inside real business environments.
+
+---
+
+## Collaboration AI versus personal AI: different data-leakage risks
+
+Enterprise risk is not only about whether an AI tool is “approved” or “unapproved”. The access model matters.
+
+Personal AI risk is often about what a user chooses to paste, upload, install, or connect. A user may paste confidential text, upload files, install browser extensions, or use an account with unclear retention, training, logging, and contractual protections. The exposure is often driven by individual behaviour and weak organisational visibility.
+
+Collaboration AI risk is different. If AI is connected to platforms such as chat, whiteboards, documents, tickets, file shares, or knowledge bases, it may inherit broad access to company context. For example, a tool that can search chat messages, summarise whiteboards, inspect shared documents, or answer questions across a workspace may expose information that was already over-shared, poorly classified, or visible to the wrong group.
+
+Neither pattern is automatically safer. The risk depends on:
+
+- **data scope**: what content the AI can read, search, summarise, or retain
+- **permissions**: whether the AI respects existing access controls and least privilege
+- **permission hygiene**: whether shared channels, boards, folders, and workspaces are already over-exposed
+- **retention and training**: whether prompts, files, outputs, or logs are stored or used to improve models
+- **auditability**: whether usage, access, and tool actions can be reviewed
+- **user behaviour**: whether people understand what should not be pasted, uploaded, summarised, or shared
+- **vendor and contract controls**: whether the organisation has reviewed privacy, security, region, deletion, and support commitments
+
+This is why “approved enterprise tool” should not mean “safe by default”, and “personal AI use” should not be dismissed as a small individual issue. The enterprise task is to understand where data flows, what the AI can see, who can ask questions, what is logged, and how access is governed.
 
 ---
 
