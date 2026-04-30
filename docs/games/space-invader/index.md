@@ -4,7 +4,6 @@ title: Space Invader
 permalink: /games/space-invader/
 description: A browser-rendered arcade game experiment coded with the help of AI agents.
 utility_stylesheet: /games/space-invader/space-invader.css
-utility_script: /games/space-invader/space-invader.js
 main_class: space-invader-page
 ---
 
@@ -38,174 +37,12 @@ main_class: space-invader-page
 
     <fieldset class="pilot-field emoji-picker">
       <legend>Spaceship</legend>
-      <div class="emoji-options">
-      <label>
-        <input type="radio" name="ship" value="🚀" checked>
-        <span>🚀</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🛸">
-        <span>🛸</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="✨">
-        <span>✨</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🔺">
-        <span>🔺</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🛰️">
-        <span>🛰️</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🛩️">
-        <span>🛩️</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="⚡">
-        <span>⚡</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🌟">
-        <span>🌟</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="💫">
-        <span>💫</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🔥">
-        <span>🔥</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="💎">
-        <span>💎</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🧭">
-        <span>🧭</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🛡️">
-        <span>🛡️</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🎯">
-        <span>🎯</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🔷">
-        <span>🔷</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🔶">
-        <span>🔶</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🟣">
-        <span>🟣</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🟢">
-        <span>🟢</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🔴">
-        <span>🔴</span>
-      </label>
-      <label>
-        <input type="radio" name="ship" value="🟡">
-        <span>🟡</span>
-      </label>
-      </div>
+      <div class="emoji-options" data-emoji-options="ship"></div>
     </fieldset>
 
     <fieldset class="pilot-field emoji-picker enemy-picker">
       <legend>Enemy</legend>
-      <div class="emoji-options">
-      <label>
-        <input type="radio" name="enemy" value="👾" checked>
-        <span>👾</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🛸">
-        <span>🛸</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🎈">
-        <span>🎈</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🎁">
-        <span>🎁</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🍩">
-        <span>🍩</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🍕">
-        <span>🍕</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🍄">
-        <span>🍄</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🌵">
-        <span>🌵</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🌙">
-        <span>🌙</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="⭐">
-        <span>⭐</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="☁️">
-        <span>☁️</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🌈">
-        <span>🌈</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🎲">
-        <span>🎲</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🎮">
-        <span>🎮</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🧩">
-        <span>🧩</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="💎">
-        <span>💎</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🟣">
-        <span>🟣</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🟢">
-        <span>🟢</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🟡">
-        <span>🟡</span>
-      </label>
-      <label>
-        <input type="radio" name="enemy" value="🔷">
-        <span>🔷</span>
-      </label>
-      </div>
+      <div class="emoji-options" data-emoji-options="enemy"></div>
     </fieldset>
   </form>
 
@@ -283,4 +120,26 @@ main_class: space-invader-page
   </div>
 </section>
 
+<section class="game-version-notes" aria-label="Version and build notes">
+  <h2>Version and Build Notes</h2>
+  <p><strong>Game version:</strong> 2.0.0<br>
+  <strong>Published:</strong> 2026-04-30</p>
+  <p>
+    <strong>AI-assisted build:</strong> Version 2.0.0 of this browser game was designed, coded, refactored, and reviewed
+    with assistance from OpenAI Codex using GPT-5.5-class large language models. Human guidance, review, testing,
+    publishing decisions, and final responsibility remain with the site owner.
+  </p>
+  <p>
+    This game runs client-side in the browser. Gameplay state, browser stats, and local best scores are shown locally
+    and are not sent anywhere by this static page.
+  </p>
+</section>
+
+<script src="{{ '/games/space-invader/space-invader-config.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader-profile.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader-levels.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader-renderer.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader-input.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader-storage.js' | relative_url }}" defer></script>
 <script src="{{ '/games/space-invader/space-invader-browser-stats.js' | relative_url }}" defer></script>
+<script src="{{ '/games/space-invader/space-invader.js' | relative_url }}" defer></script>

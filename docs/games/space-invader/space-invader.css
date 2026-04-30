@@ -21,7 +21,10 @@
 
 .game-shell:fullscreen {
   border: 0;
+  box-sizing: border-box;
+  height: 100vh;
   min-height: 100vh;
+  overflow: hidden;
   padding: 1rem;
 }
 
@@ -131,7 +134,12 @@ input {
   flex-wrap: wrap;
   gap: 0.45rem;
   grid-column: 2;
+  max-height: 10.5rem;
   min-width: 0;
+  overflow-y: auto;
+  padding-right: 0.2rem;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
   width: 100%;
 }
 
@@ -197,6 +205,7 @@ input {
   color: #ffffff;
   font-size: 1.1rem;
   margin-top: 0.2rem;
+  overflow-wrap: anywhere;
 }
 
 .game-canvas {
@@ -215,21 +224,37 @@ input {
   min-height: 0;
 }
 
+.game-shell:fullscreen.is-game-active .pilot-form,
+.game-shell:fullscreen.is-game-active .game-notes {
+  display: none;
+}
+
 .touch-controls {
   display: none;
   gap: 0.75rem;
   grid-template-columns: 1fr 1fr 1.25fr;
   margin-top: 1rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  touch-action: none;
+  user-select: none;
 }
 
 .touch-controls button {
+  appearance: none;
   background: #26384a;
   border: 1px solid #4d6988;
+  border-radius: 6px;
   color: #ffffff;
   cursor: pointer;
+  font-size: 1.35rem;
+  font-weight: 700;
   min-height: 3rem;
   padding: 0.7rem 0.9rem;
-  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  touch-action: none;
   user-select: none;
 }
 
@@ -354,6 +379,89 @@ input {
 }
 
 @media (max-width: 640px) {
+  #main_content.space-invader-page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .game-shell {
+    padding: 0.75rem;
+  }
+
+  .game-header {
+    order: 1;
+  }
+
+  .pilot-form {
+    order: 2;
+  }
+
+  .game-shell.is-game-active .pilot-form {
+    display: none;
+  }
+
+  .game-actions {
+    order: 3;
+  }
+
+  .game-canvas {
+    aspect-ratio: auto;
+    height: clamp(360px, 52svh, 540px);
+    order: 4;
+  }
+
+  .game-shell.is-game-active .game-canvas {
+    height: clamp(390px, 60svh, 620px);
+  }
+
+  .game-shell:fullscreen .game-canvas,
+  .game-shell:fullscreen.is-game-active .game-canvas {
+    flex: 0 0 auto;
+    height: clamp(390px, 60svh, 620px);
+    min-height: 0;
+  }
+
+  .touch-controls {
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+    order: 5;
+  }
+
+  .touch-controls button {
+    min-height: 2.8rem;
+    padding: 0.45rem 0.6rem;
+  }
+
+  .score-strip {
+    gap: 0.45rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    order: 6;
+  }
+
+  .score-strip p {
+    line-height: 1.25;
+    padding: 0.45rem 0.5rem;
+  }
+
+  .score-strip span {
+    font-size: 0.72rem;
+  }
+
+  .score-strip strong {
+    font-size: 0.95rem;
+    margin-top: 0.12rem;
+  }
+
+  .browser-stats-panel {
+    order: 7;
+  }
+
+  .game-notes {
+    order: 8;
+  }
+
   .game-status {
     margin-left: 0;
     margin-top: 0.5rem;
@@ -361,8 +469,7 @@ input {
   }
 
   .pilot-field,
-  .emoji-picker,
-  .score-strip {
+  .emoji-picker {
     grid-template-columns: 1fr;
   }
 
@@ -381,12 +488,23 @@ input {
   }
 
   .game-actions button {
+    font-size: 0.82rem;
+    line-height: 1.2;
+    min-height: 2.15rem;
+    padding: 0.35rem 0.45rem;
     width: 100%;
   }
 
   .game-actions {
+    gap: 0.45rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .game-actions button:nth-of-type(n + 4) {
+    font-size: 0.72rem;
+    min-height: 1.9rem;
+    padding: 0.25rem 0.35rem;
   }
 
   .browser-stats-list {
@@ -397,10 +515,6 @@ input {
     grid-template-columns: 1fr;
   }
 
-  .touch-controls {
-    display: grid;
-  }
-
   .game-status {
     grid-column: 1 / -1;
   }
@@ -409,6 +523,117 @@ input {
 @media (pointer: coarse) {
   .touch-controls {
     display: grid;
+  }
+}
+
+@media (orientation: landscape) and (pointer: coarse) and (max-height: 520px) {
+  #main_content.space-invader-page {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  #main_content.space-invader-page h1,
+  .game-intro {
+    display: none;
+  }
+
+  .game-shell {
+    padding: 0.5rem;
+  }
+
+  .game-header {
+    margin-bottom: 0.35rem;
+    order: 1;
+  }
+
+  .game-header h2 {
+    font-size: 1.05rem;
+    margin: 0;
+  }
+
+  .pilot-form {
+    order: 2;
+  }
+
+  .game-shell.is-game-active .pilot-form {
+    display: none;
+  }
+
+  .game-actions {
+    display: grid;
+    gap: 0.35rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    margin-bottom: 0.4rem;
+    order: 3;
+  }
+
+  .game-actions button,
+  .game-actions button:nth-of-type(n + 4) {
+    font-size: 0.68rem;
+    line-height: 1.1;
+    min-height: 1.7rem;
+    padding: 0.2rem 0.25rem;
+  }
+
+  .game-status {
+    font-size: 0.78rem;
+    grid-column: 1 / -1;
+    margin: 0;
+    text-align: left;
+  }
+
+  .game-canvas,
+  .game-shell.is-game-active .game-canvas,
+  .game-shell:fullscreen .game-canvas,
+  .game-shell:fullscreen.is-game-active .game-canvas {
+    aspect-ratio: auto;
+    flex: 0 0 auto;
+    height: clamp(210px, 54svh, 330px);
+    min-height: 0;
+    order: 4;
+  }
+
+  .touch-controls {
+    display: grid;
+    gap: 0.4rem;
+    margin-bottom: 0.45rem;
+    margin-top: 0.45rem;
+    order: 5;
+  }
+
+  .touch-controls button {
+    font-size: 1.05rem;
+    min-height: 2.15rem;
+    padding: 0.3rem 0.45rem;
+  }
+
+  .score-strip {
+    gap: 0.35rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    margin-bottom: 0.45rem;
+    order: 6;
+  }
+
+  .score-strip p {
+    line-height: 1.15;
+    padding: 0.3rem 0.35rem;
+  }
+
+  .score-strip span {
+    font-size: 0.62rem;
+  }
+
+  .score-strip strong {
+    font-size: 0.78rem;
+    margin-top: 0.08rem;
+  }
+
+  .game-notes {
+    display: none;
+  }
+
+  .browser-stats-panel {
+    order: 7;
   }
 }
 

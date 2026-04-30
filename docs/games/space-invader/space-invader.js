@@ -23,6 +23,7 @@
   var touchLeftButton = document.getElementById("space-invader-touch-left");
   var touchFireButton = document.getElementById("space-invader-touch-fire");
   var touchRightButton = document.getElementById("space-invader-touch-right");
+  var gameShell = document.querySelector(".game-shell");
 
   if (!canvas || !canvas.getContext) {
     if (status) {
@@ -32,25 +33,43 @@
   }
 
   var context = canvas.getContext("2d");
+  var config = window.SpaceInvaderConfig || {};
   var gameWidth = 640;
   var gameHeight = 360;
-  var storageKey = "space-invader-best-record";
+  var storageKey = config.storageKey || "space-invader-best-record";
+  var storage = window.SpaceInvaderStorage
+    ? window.SpaceInvaderStorage.create(storageKey)
+    : null;
+  var levels = window.SpaceInvaderLevels || null;
   var keys = {};
   var animationId = null;
   var lastTime = 0;
   var game = null;
   var browserStats = null;
-
-  var pilotNames = [
-    "Nova Pilot",
-    "Orbit Ace",
-    "Pixel Ranger",
-    "Star Cadet",
-    "Cosmic Byte",
-    "Lunar Scout",
-    "Solar Spark",
-    "Astro Coder"
-  ];
+  var profileManager = window.SpaceInvaderProfile
+    ? window.SpaceInvaderProfile.create({
+        enemyEmojiOptions: config.enemyEmojiOptions || ["👾", "🎈", "🍕", "🌵"],
+        form: form,
+        nicknameInput: nicknameInput,
+        pilotNames: config.pilotNames || ["Nova Pilot", "Orbit Ace", "Pixel Ranger", "Star Cadet"],
+        randomNameButton: randomNameButton,
+        shipEmojiOptions: config.shipEmojiOptions || ["🚀", "🛸", "✨", "🦄"]
+      })
+    : null;
+  var renderer = window.SpaceInvaderRenderer
+    ? window.SpaceInvaderRenderer.create({
+        context: context,
+        getGame: function () {
+          return game;
+        },
+        getHeight: function () {
+          return gameHeight;
+        },
+        getWidth: function () {
+          return gameWidth;
+        }
+      })
+    : null;
 
   function resizeCanvas() {
     var pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
@@ -75,104 +94,24 @@
     updateStatsIfVisible();
   }
 
-  function getBestRecord() {
-    var fallback = {
-      enemy: "",
-      nickname: "",
-      ship: "",
-      score: 0
-    };
-
-    try {
-      var saved = JSON.parse(localStorage.getItem(storageKey));
-      if (saved && Number.isFinite(Number(saved.score))) {
-        saved.score = Number(saved.score);
-        return saved;
-      }
-    } catch (error) {
-      return fallback;
-    }
-
-    return fallback;
-  }
-
-  function setBestRecord() {
-    if (game.score > getBestRecord().score) {
-      try {
-        localStorage.setItem(storageKey, JSON.stringify({
-          enemy: game.profile.enemy,
-          nickname: game.profile.nickname,
-          ship: game.profile.ship,
-          score: game.score
-        }));
-      } catch (error) {
-        return;
-      }
-    }
-  }
-
-  function getRandomName() {
-    return pilotNames[Math.floor(Math.random() * pilotNames.length)] + " " + Math.floor(10 + Math.random() * 90);
-  }
-
-  function getSelectedShip() {
-    var selected = form.querySelector("input[name='ship']:checked");
-    return selected ? selected.value : "🚀";
-  }
-
-  function getSelectedEnemy() {
-    var selected = form.querySelector("input[name='enemy']:checked");
-    return selected ? selected.value : "👾";
-  }
-
-  function selectRandomOption(name) {
-    var options = form.querySelectorAll("input[name='" + name + "']");
-    if (options.length === 0) {
-      return;
-    }
-
-    options[Math.floor(Math.random() * options.length)].checked = true;
-  }
-
   function selectRandomEmojis() {
-    selectRandomOption("ship");
-    selectRandomOption("enemy");
-  }
-
-  function bindHoldButton(button, keyName) {
-    if (!button) {
+    if (!profileManager) {
       return;
     }
 
-    function hold(event) {
-      event.preventDefault();
-      keys[keyName] = true;
-    }
-
-    function release(event) {
-      event.preventDefault();
-      keys[keyName] = false;
-    }
-
-    button.addEventListener("pointerdown", hold);
-    button.addEventListener("pointerup", release);
-    button.addEventListener("pointercancel", release);
-    button.addEventListener("pointerleave", release);
+    profileManager.selectRandomEmojis();
+    updateActiveProfile(profileManager.getProfile());
   }
 
-  function bindFireButton(button) {
-    if (!button) {
+  function updateActiveProfile(profile) {
+    if (!game) {
       return;
     }
 
-    button.addEventListener("pointerdown", function (event) {
-      event.preventDefault();
-      if (resumeAfterHit()) {
-        return;
-      }
-
-      firePlayerBullet();
-    });
+    game.profile.ship = profile.ship;
+    game.profile.enemy = profile.enemy;
+    updateScoreboard();
+    draw();
   }
 
   function getCurrentGameSummary() {
@@ -198,11 +137,6 @@
     }
   }
 
-  function normaliseNickname(value) {
-    var nickname = value.trim().replace(/\s+/g, " ");
-    return nickname || getRandomName();
-  }
-
   function formatTime(seconds) {
     var safeSeconds = Math.max(0, Math.floor(seconds));
     var minutes = Math.floor(safeSeconds / 60);
@@ -224,60 +158,12 @@
   }
 
   function getEnemyCountForLevel(level) {
-    return Math.min(getLevelEnemyTarget(level), getLevelCapacity());
-  }
-
-  function getLevelEnemyTarget(level) {
-    return 10 * Math.pow(2, level - 1);
-  }
-
-  function getLevelCapacity() {
-    var horizontalSlots = Math.max(1, Math.floor((gameWidth - 80) / 52));
-    var verticalSlots = Math.max(1, Math.floor((gameHeight * 0.42) / 38));
-
-    return horizontalSlots * verticalSlots;
-  }
-
-  function createEnemies(level) {
-    var enemies = [];
-    var count = getEnemyCountForLevel(level);
-    var maxColumns = Math.max(1, Math.floor((gameWidth - 80) / 52));
-    var columns = Math.min(maxColumns, count);
-    var rows = Math.ceil(count / columns);
-    var usedColumns = Math.min(columns, count);
-    var startX = Math.max(40, Math.round((gameWidth - ((usedColumns - 1) * 52 + 28)) / 2));
-    var startY = 60;
-    var gapX = 52;
-    var gapY = 38;
-    var created = 0;
-
-    for (var row = 0; row < rows; row += 1) {
-      for (var column = 0; column < columns; column += 1) {
-        if (created >= count) {
-          break;
-        }
-
-        enemies.push({
-          x: startX + column * gapX,
-          y: startY + row * gapY,
-          width: 28,
-          height: 20,
-          alive: true
-        });
-        created += 1;
-      }
-    }
-
-    return enemies;
-  }
-
-  function getLevelSpeed(level) {
-    return 32 * Math.pow(1.22, level - 1);
+    return levels ? levels.getEnemyCountForLevel(level, gameWidth, gameHeight) : 0;
   }
 
   function getEnemyAccuracyRange() {
-    var minimum = Math.min(0.5 + (game.level - 1) * 0.05, 0.78);
-    var maximum = Math.min(0.65 + (game.level - 1) * 0.05, 0.9);
+    var minimum = Math.min(0.38 + (game.level - 1) * 0.05, 0.78);
+    var maximum = Math.min(0.55 + (game.level - 1) * 0.05, 0.9);
 
     return {
       minimum: minimum,
@@ -285,8 +171,12 @@
     };
   }
 
+  function getEnemyShotDelay() {
+    return Math.max(0.7, 2.2 - (game.level - 1) * 0.18);
+  }
+
   function createEnemyBullet(shooter) {
-    var speed = Math.max(190, gameHeight * 0.42);
+    var speed = Math.max(150, gameHeight * (0.28 + Math.min(game.level - 1, 8) * 0.025));
     var originX = shooter.x + shooter.width / 2;
     var originY = shooter.y + shooter.height;
     var targetX = game.player.x + game.player.width / 2;
@@ -313,13 +203,13 @@
 
   function loadLevel(level, previousBonus) {
     game.level = level;
-    game.enemies = createEnemies(level);
+    game.enemies = levels ? levels.createEnemies(level, gameWidth, gameHeight) : [];
     game.enemyDirection = 1;
-    game.enemySpeed = getLevelSpeed(level);
-    game.enemyDrop = Math.min(26, 16 + level);
+    game.enemySpeed = levels ? levels.getLevelSpeed(level) : 32;
+    game.enemyDrop = levels ? levels.getEnemyDrop(level) : 16;
     game.bullets = [];
     game.enemyBullets = [];
-    game.enemyShotTimer = Math.max(0.45, 1.2 - level * 0.04);
+    game.enemyShotTimer = getEnemyShotDelay();
     game.levelElapsed = 0;
     if (previousBonus) {
       setStatus("Efficiency bonus: " + previousBonus + ". Level " + level + ": " + game.enemies.length + " targets.");
@@ -364,7 +254,9 @@
   }
 
   function updateScoreboard() {
-    var bestRecord = getBestRecord();
+    var bestRecord = storage
+      ? storage.getBestRecord()
+      : { enemy: "", nickname: "", ship: "", score: 0 };
 
     if (!game) {
       bestDisplay.textContent = bestRecord.score ? bestRecord.ship + " " + bestRecord.score : "0";
@@ -399,6 +291,11 @@
       cancelAnimationFrame(animationId);
     }
 
+    if (gameShell) {
+      gameShell.classList.add("is-game-active");
+    }
+
+    resizeCanvas();
     game = createGame(profile);
     lastTime = performance.now();
     updateScoreboard();
@@ -465,21 +362,6 @@
     lastTime = performance.now();
   }
 
-  function toggleFullscreen() {
-    var shell = document.querySelector(".game-shell");
-
-    if (!shell || !shell.requestFullscreen) {
-      setStatus("Fullscreen is not available in this browser.");
-      return;
-    }
-
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-    } else {
-      shell.requestFullscreen();
-    }
-  }
-
   function getAliveEnemies() {
     return game.enemies.filter(function (enemy) {
       return enemy.alive;
@@ -530,18 +412,28 @@
   function updateEnemies(delta) {
     var aliveEnemies = getAliveEnemies();
     var shouldDrop = false;
+    var leftEdge = Infinity;
+    var rightEdge = -Infinity;
+    var correction = 0;
 
     aliveEnemies.forEach(function (enemy) {
       enemy.x += game.enemyDirection * game.enemySpeed * delta;
+      leftEdge = Math.min(leftEdge, enemy.x);
+      rightEdge = Math.max(rightEdge, enemy.x + enemy.width);
 
-      if (enemy.x < 18 || enemy.x + enemy.width > gameWidth - 18) {
-        shouldDrop = true;
-      }
+      shouldDrop = shouldDrop || enemy.x < 18 || enemy.x + enemy.width > gameWidth - 18;
     });
 
     if (shouldDrop) {
+      if (leftEdge < 18) {
+        correction = 18 - leftEdge;
+      } else if (rightEdge > gameWidth - 18) {
+        correction = gameWidth - 18 - rightEdge;
+      }
+
       game.enemyDirection *= -1;
       aliveEnemies.forEach(function (enemy) {
+        enemy.x += correction;
         enemy.y += game.enemyDrop;
       });
     }
@@ -550,7 +442,7 @@
     if (game.enemyShotTimer <= 0 && aliveEnemies.length > 0) {
       var shooter = aliveEnemies[Math.floor(Math.random() * aliveEnemies.length)];
       game.enemyBullets.push(createEnemyBullet(shooter));
-      game.enemyShotTimer = Math.max(0.45, 1.4 - game.score / 1200);
+      game.enemyShotTimer = getEnemyShotDelay();
     }
   }
 
@@ -593,7 +485,9 @@
 
     if (game.lives <= 0) {
       game.state = "lost";
-      setBestRecord();
+      if (storage) {
+        storage.setBestRecord(game);
+      }
       setStatus("Game over. Restart when ready.");
     } else if (game.hitEffect) {
       game.state = "hit";
@@ -627,124 +521,10 @@
     updateScoreboard();
   }
 
-  function drawBackground() {
-    context.fillStyle = "#05070a";
-    context.fillRect(0, 0, gameWidth, gameHeight);
-
-    context.fillStyle = "#203040";
-    for (var i = 0; i < 40; i += 1) {
-      var x = (i * 83) % gameWidth;
-      var y = (i * 47) % gameHeight;
-      context.fillRect(x, y, 2, 2);
-    }
-  }
-
-  function drawPlayer() {
-    context.font = "28px sans-serif";
-    context.textAlign = "center";
-    context.textBaseline = "middle";
-    context.fillText(game.profile.ship, game.player.x + game.player.width / 2, game.player.y + game.player.height / 2);
-  }
-
-  function drawEnemies() {
-    game.enemies.forEach(function (enemy) {
-      if (!enemy.alive) {
-        return;
-      }
-
-      context.font = "22px sans-serif";
-      context.textAlign = "center";
-      context.textBaseline = "middle";
-      context.fillText(game.profile.enemy, enemy.x + enemy.width / 2, enemy.y + enemy.height / 2);
-    });
-  }
-
-  function drawBullets() {
-    context.fillStyle = "#f4d35e";
-    game.bullets.forEach(function (bullet) {
-      context.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
-    });
-
-    context.fillStyle = "#ff6b6b";
-    game.enemyBullets.forEach(function (bullet) {
-      context.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
-    });
-  }
-
-  function drawHitEffect() {
-    if (!game || !game.hitEffect) {
-      return;
-    }
-
-    context.font = "42px sans-serif";
-    context.textAlign = "center";
-    context.textBaseline = "middle";
-    context.fillText("💥", game.hitEffect.x, game.hitEffect.y);
-  }
-
-  function drawOverlay() {
-    if (!game || game.state === "running") {
-      return;
-    }
-
-    context.fillStyle = "rgba(5, 7, 10, 0.72)";
-    context.fillRect(0, 0, gameWidth, gameHeight);
-    context.fillStyle = "#ffffff";
-    context.font = "26px sans-serif";
-    context.textAlign = "center";
-    context.textBaseline = "middle";
-
-    if (game.state === "paused") {
-      context.fillText("Paused", gameWidth / 2, gameHeight / 2);
-    } else if (game.state === "hit") {
-      context.fillText("Direct hit", gameWidth / 2, gameHeight / 2 - 12);
-      context.font = "16px sans-serif";
-      context.fillText("Press Enter or Play to continue.", gameWidth / 2, gameHeight / 2 + 22);
-    } else if (game.state === "level-clear" && game.levelClear) {
-      context.fillText("Level clear", gameWidth / 2, gameHeight / 2 - 44);
-      context.font = "16px sans-serif";
-      context.fillText("Efficiency bonus: " + game.levelClear.bonus, gameWidth / 2, gameHeight / 2 - 10);
-      context.fillText(
-        "Next level: " + game.levelClear.nextLevel + " with " + game.levelClear.nextEnemyCount + " targets.",
-        gameWidth / 2,
-        gameHeight / 2 + 18
-      );
-      context.fillText("Press Enter or Play to continue.", gameWidth / 2, gameHeight / 2 + 50);
-    } else if (game.state === "won") {
-      context.fillText("Sector clear", gameWidth / 2, gameHeight / 2 - 12);
-      context.font = "16px sans-serif";
-      context.fillText("Press Restart to play again.", gameWidth / 2, gameHeight / 2 + 22);
-    } else if (game.state === "lost") {
-      context.fillText("Game over", gameWidth / 2, gameHeight / 2 - 12);
-      context.font = "16px sans-serif";
-      context.fillText("Press Restart to try again.", gameWidth / 2, gameHeight / 2 + 22);
-    }
-  }
-
-  function drawStartScreen() {
-    drawBackground();
-    context.fillStyle = "#9ee493";
-    context.font = "24px sans-serif";
-    context.textAlign = "center";
-    context.textBaseline = "middle";
-    context.fillText("Choose a pilot and launch", gameWidth / 2, gameHeight / 2 - 12);
-    context.fillStyle = "#b7c7d9";
-    context.font = "16px sans-serif";
-    context.fillText("Nickname and ship emoji can later feed a leaderboard.", gameWidth / 2, gameHeight / 2 + 20);
-  }
-
   function draw() {
-    if (!game) {
-      drawStartScreen();
-      return;
+    if (renderer) {
+      renderer.draw();
     }
-
-    drawBackground();
-    drawEnemies();
-    drawBullets();
-    drawPlayer();
-    drawHitEffect();
-    drawOverlay();
   }
 
   function loop(currentTime) {
@@ -754,6 +534,11 @@
     update(delta);
     draw();
     animationId = requestAnimationFrame(loop);
+  }
+
+  if (profileManager) {
+    profileManager.renderEmojiPickers();
+    profileManager.bind(updateActiveProfile);
   }
 
   form.addEventListener("submit", function (event) {
@@ -766,22 +551,11 @@
       return;
     }
 
-    startGame({
-      enemy: getSelectedEnemy(),
-      nickname: normaliseNickname(nicknameInput.value),
-      ship: getSelectedShip()
-    });
+    if (profileManager) {
+      startGame(profileManager.getProfile());
+    }
   });
 
-  randomNameButton.addEventListener("click", function () {
-    nicknameInput.value = getRandomName();
-    nicknameInput.focus();
-  });
-
-  pauseButton.addEventListener("click", togglePause);
-  restartButton.addEventListener("click", restartGame);
-  fullscreenButton.addEventListener("click", toggleFullscreen);
-  randomEmojisButton.addEventListener("click", selectRandomEmojis);
   if (window.SpaceInvaderBrowserStats) {
     browserStats = window.SpaceInvaderBrowserStats.create({
       canvas: canvas,
@@ -797,33 +571,30 @@
       toggleButton: statsToggleButton
     });
   }
-  bindHoldButton(touchLeftButton, "touchLeft");
-  bindHoldButton(touchRightButton, "touchRight");
-  bindFireButton(touchFireButton);
-
-  window.addEventListener("keydown", function (event) {
-    if (event.key === " " || event.key === "ArrowLeft" || event.key === "ArrowRight" || event.key === "Enter") {
-      event.preventDefault();
-    }
-
-    if (event.key === "Enter" && (resumeAfterHit() || continueAfterLevelClear())) {
-      return;
-    }
-
-    if (event.key === " ") {
-      firePlayerBullet();
-    } else if (event.key.toLowerCase() === "p") {
-      togglePause();
-    } else {
-      keys[event.key] = true;
-      keys[event.key.toLowerCase()] = true;
-    }
-  });
-
-  window.addEventListener("keyup", function (event) {
-    keys[event.key] = false;
-    keys[event.key.toLowerCase()] = false;
-  });
+  if (window.SpaceInvaderInput) {
+    window.SpaceInvaderInput.bind({
+      buttons: {
+        fullscreen: fullscreenButton,
+        pause: pauseButton,
+        randomEmojis: randomEmojisButton,
+        restart: restartButton,
+        touchFire: touchFireButton,
+        touchLeft: touchLeftButton,
+        touchRight: touchRightButton
+      },
+      callbacks: {
+        continueAfterLevelClear: continueAfterLevelClear,
+        firePlayerBullet: firePlayerBullet,
+        restartGame: restartGame,
+        resumeAfterHit: resumeAfterHit,
+        selectRandomEmojis: selectRandomEmojis,
+        setStatus: setStatus,
+        togglePause: togglePause
+      },
+      fullscreenShell: gameShell,
+      keys: keys
+    });
+  }
 
   window.addEventListener("resize", resizeCanvas);
   document.addEventListener("fullscreenchange", resizeCanvas);
