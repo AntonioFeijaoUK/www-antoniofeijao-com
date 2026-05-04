@@ -15,6 +15,15 @@ The games here are small experiments, but each one is also a learning opportunit
   <article class="content-card">
     <div class="content-card-body">
       <p class="content-card-section-label">Game</p>
+      <h2><a href="{{ '/games/interactive-maths-and-physics-playground/' | relative_url }}">Interactive Maths and Physics Playground</a></h2>
+      <p>Explore maths and physics with sliders, diagrams, formulas, and live visual feedback, starting with a triangle angle solver.</p>
+      <p><a href="{{ '/games/interactive-maths-and-physics-playground/' | relative_url }}">Open playground</a></p>
+    </div>
+  </article>
+
+  <article class="content-card">
+    <div class="content-card-body">
+      <p class="content-card-section-label">Game</p>
       <h2><a href="{{ '/games/space-rocket-physics-explorer/' | relative_url }}">Space Rocket Physics Explorer</a></h2>
       <p>Explore rocket physics through playable missions about lunar sample return, Earth launch, gravity, drag, and momentum.</p>
       <p><a href="{{ '/games/space-rocket-physics-explorer/' | relative_url }}">Play game</a></p>

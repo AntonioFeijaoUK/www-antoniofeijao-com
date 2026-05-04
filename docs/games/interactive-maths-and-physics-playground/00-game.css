@@ -1,0 +1,208 @@
+#main_content.interactive-maths-physics-playground-page {
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: min(96vw, 1180px);
+}
+
+#main_content.interactive-maths-physics-playground-page h1 {
+  text-align: center;
+}
+
+.playground-intro {
+  margin-bottom: 1.5rem;
+}
+
+.playground-shell {
+  background: #07111d;
+  border: 1px solid #31465f;
+  color: #f4f7fb;
+  padding: 1rem;
+}
+
+.playground-header {
+  align-items: start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.playground-kicker {
+  color: #8ee0ff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.25rem;
+  text-transform: uppercase;
+}
+
+#main_content.interactive-maths-physics-playground-page .playground-header h2 {
+  border-left: 0;
+  color: #ffffff;
+  font-size: 1.45rem;
+  margin: 0;
+  padding: 0;
+}
+
+.playground-status {
+  color: #b7c7d9;
+  margin: 0;
+  max-width: 32rem;
+  text-align: right;
+}
+
+.playground-layout {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(230px, 320px) minmax(0, 1fr);
+}
+
+.playground-controls {
+  background: #05070a;
+  border: 1px solid #26384a;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.85rem;
+}
+
+.playground-controls label,
+.playground-result,
+.playground-formula,
+.playground-pythagorean,
+.playground-sides {
+  display: block;
+}
+
+.playground-controls label span,
+.playground-result span,
+.playground-formula span,
+.playground-pythagorean span,
+.playground-sides span {
+  color: #b7c7d9;
+  display: block;
+  font-size: 0.8rem;
+}
+
+.playground-controls label strong,
+.playground-result strong,
+.playground-formula strong,
+.playground-pythagorean strong,
+.playground-sides strong {
+  color: #ffffff;
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin-top: 0.2rem;
+}
+
+.playground-controls input[type="range"] {
+  accent-color: #8ee0ff;
+  width: 100%;
+}
+
+.playground-toggle {
+  align-items: center;
+  background: #07111d;
+  border: 1px solid #26384a;
+  display: flex;
+  gap: 0.55rem;
+  padding: 0.55rem 0.6rem;
+}
+
+.playground-toggle input {
+  accent-color: #9ee493;
+}
+
+.playground-toggle span {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.playground-result,
+.playground-formula,
+.playground-pythagorean,
+.playground-sides {
+  border-top: 1px solid #26384a;
+  padding-top: 0.75rem;
+}
+
+.playground-result strong {
+  color: #9ee493;
+  font-size: 1.45rem;
+}
+
+.playground-formula strong {
+  color: #f4d35e;
+  font-size: 0.95rem;
+}
+
+.playground-pythagorean strong,
+.playground-sides strong {
+  color: #8ee0ff;
+  font-size: 0.9rem;
+}
+
+.playground-canvas-wrap {
+  background: #f8fafc;
+  border: 1px solid #3b536d;
+  min-height: 360px;
+}
+
+.playground-canvas {
+  display: block;
+  height: min(58vh, 620px);
+  max-width: 100%;
+  width: 100%;
+}
+
+.playground-notes {
+  margin-top: 1rem;
+}
+
+#main_content.interactive-maths-physics-playground-page .playground-notes h2,
+#main_content.interactive-maths-physics-playground-page .playground-version-notes h2 {
+  color: #ffffff;
+}
+
+.playground-notes li,
+.playground-version-notes p {
+  color: #d8e4f0;
+}
+
+.playground-version-notes {
+  max-width: 860px;
+}
+
+@media (max-width: 760px) {
+  #main_content.interactive-maths-physics-playground-page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .playground-shell {
+    padding: 0.75rem;
+  }
+
+  .playground-header {
+    display: block;
+  }
+
+  .playground-status {
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .playground-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .playground-controls {
+    gap: 0.65rem;
+  }
+
+  .playground-canvas {
+    height: clamp(340px, 52svh, 520px);
+  }
+}
