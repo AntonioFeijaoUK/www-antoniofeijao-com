@@ -4,7 +4,7 @@ description: "A practical AI, GenAI, and LLMs 101 guide for professionals, cover
 excerpt: "A practical guide to understanding AI, GenAI, and LLMs, from core concepts and technical foundations to enterprise security, risk, governance, and responsible adoption."
 author: "Antonio Feijao UK"
 date: 2026-04-19
-last_modified_at: 2026-04-30
+last_modified_at: 2026-05-04
 categories:
   - AI
   - Enterprise
@@ -26,6 +26,8 @@ tags:
   - ai agents
   - vibe coding
   - spec coding
+  - transformers
+  - looped transformers
   - copilots
   - ai tokens
   - context windows
@@ -34,7 +36,7 @@ tags:
   - mcp
   - security
   - developer productivity
-reading_time: "45 min read"
+reading_time: "50 min read"
 toc: true
 toc_sticky: true
 comments: false
@@ -48,7 +50,7 @@ seo:
   description: "A practical AI, GenAI, and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, security, and responsible adoption."
   author: "Antonio Feijao UK"
   date_published: 2026-04-19
-  date_modified: 2026-04-30
+  date_modified: 2026-05-04
   keywords:
     - ai 101
     - genai
@@ -64,6 +66,8 @@ seo:
     - ai agents
     - vibe coding
     - spec coding
+    - transformers
+    - looped transformers
     - copilots
     - ai tokens
     - context windows
@@ -384,16 +388,9 @@ This is why “approved enterprise tool” should not mean “safe by default”
 
 ![Infographic contrasting unmanaged experimentation with controlled enablement through approved tools, sandboxing, access control, policy, monitoring, and human review](/assets/images/blog/enterprise-ai-enablement-with-guardrails-not-unmanaged-experimentation.png)
 
-The wrong response to enterprise AI is either panic or passivity.
+The wrong response to enterprise AI is either panic or passivity. Blanket prohibition is rarely realistic, and passive tolerance is even less safe.
 
-- provide approved tools and safe experimentation paths
-- apply identity, access, data, and monitoring controls
-- define clear policy and acceptable-use guidance
-- restrict unsafe plugins, extensions, and unmanaged integrations
-- train teams to recognise high-risk situations
-- make secure adoption easier than shadow adoption
-
-Blanket prohibition is rarely realistic. Passive tolerance is even less safe. People usually adopt AI for understandable reasons: speed, convenience, delivery pressure, and help with drafting, coding, summarising, or analysis. If the organisation leaves that demand unanswered, individuals may turn to personal accounts, public tools, unapproved browser extensions, or unmanaged coding assistants.
+People usually adopt AI for understandable reasons: speed, convenience, delivery pressure, and help with drafting, coding, summarising, or analysis. If the organisation leaves that demand unanswered, individuals may turn to personal accounts, public tools, unapproved browser extensions, or unmanaged coding assistants.
 
 Controlled enablement means creating trusted pathways for learning, experimentation, and adoption:
 
@@ -452,7 +449,6 @@ For developers and engineers, controlled enablement is especially important. Tec
 - safe environments for experimentation
 - clear rules on what code and data may be shared
 - human review requirements for production-impacting outputs
-- guidance on secrets, dependencies, licences, and architecture exposure
 - confidence that responsible use is supported, not punished
 
 The objective is not to block AI. It is to make secure adoption easier than insecure adoption, especially for teams already under delivery pressure.
@@ -463,32 +459,29 @@ The objective is not to block AI. It is to make secure adoption easier than inse
 
 ![Infographic showing always-available AI, fast output, and the tension between machine speed and human judgement, review, reflection, boundaries, and sustainable pace](/assets/images/blog/enterprise-ai-productivity-pressure-and-human-factor.png)
 
-The human factor should be framed carefully: not as **AI is bad for mental health**, but as **AI can unintentionally increase pressure, unhealthy expectations, and always-on behaviour if leadership and teams do not set healthy norms**.
+AI is not inherently bad for wellbeing, but it can change the pressure inside work. If leaders and teams do not set healthy norms, always-available tools can create always-on expectations.
 
 - AI is always available, but people should not be measured against machine availability
 - fast output can create pressure to respond faster and produce more than is sustainable
 - speed is not the same as quality, correctness, security, or judgement
 - AI should reduce toil, not remove thinking, reflection, review, or peer challenge
-- accountability, professional judgement, and healthy boundaries must remain human responsibilities
+- accountability and healthy boundaries must remain human responsibilities
 
 AI changes the psychological environment of work because it reduces the friction of starting, drafting, coding, summarising, and iterating. That can be valuable, but it can also create the false impression that humans should operate at machine pace.
 
 For developers and engineers, the pressure can become intense because AI now assists with code generation, debugging, documentation, tests, research, refactoring, design suggestions, and ticket drafting. The expectation can quietly shift from **deliver high-quality work** to **deliver continuously because AI can keep going**. That is not healthy, and it is not technically sound.
 
-The professional message is simple: treat AI as a **copilot, not an autopilot**. Use it to accelerate exploration, drafts, scaffolding, repetitive transformations, and option generation, but do not bypass judgement. Generated code still needs review. Assumptions, dependencies, licences, security implications, and production-impacting decisions still need human discipline.
+The professional message is simple: treat AI as a **copilot, not an autopilot**. Use it to accelerate exploration, drafts, scaffolding, repetitive transformations, and option generation, but do not bypass review, testing, security checks, or architectural thinking.
 
 Healthy adoption also requires personal and team norms:
 
-- do not measure human worth by machine speed
-- preserve time for deep thinking without constant prompting
+- protect time for deep thinking
 - set boundaries around availability and response expectations
 - define where AI is helpful and where human review is mandatory
 - reward quality, safety, and judgement, not only speed
 - include wellbeing and workload considerations in AI adoption
 
-AI should reduce toil, not increase unhealthy expectations. The right use of AI is to support and amplify human capability while preserving accountability, boundaries, and critical thinking.
-
-The goal is to free up human time and energy for more creative, strategic, and high-value work.
+The goal is to reduce toil and free up human time for more creative, strategic, and high-value work without normalising unsustainable expectations.
 
 ---
 
@@ -649,6 +642,66 @@ A practical way to think about it is this: the LLM is the prediction engine, whi
 
 An LLM can produce useful explanations, drafts, summaries, code, and analysis, but it does not verify truth, own consequences, or carry organisational accountability. That is why enterprise systems must wrap the model with context management, access control, evaluation, monitoring, and human review.
 
+### What are transformers, and why do variants matter?
+
+![Infographic comparing transformer variants, including a standard GPT-style decoder-only autoregressive transformer, a Mixture of Experts router with selected experts, and a looped transformer with recurrent blocks, plus enterprise evaluation criteria](/assets/images/blog/enterprise-ai-transformer-variants.png)
+
+- transformers are the core architecture behind many modern LLMs
+- GPT-style models are usually described as **decoder-only autoregressive transformers**
+- standard transformers process tokens through a stack of layers, usually once per layer
+- variants such as **Mixture of Experts** and **recurrent-depth transformers** change how computation is routed or repeated
+- a **recurrent-depth transformer**, also called a **looped transformer**, reuses part of the network multiple times during one forward pass
+- claims about unreleased model internals should be treated carefully unless the vendor has confirmed them
+
+The original transformer idea made it practical for models to process token relationships using attention. Instead of reading text strictly one word at a time, a transformer can learn which other visible tokens matter most for the current prediction. This is one reason transformers became the foundation for modern language models, code models, copilots, and chat assistants.
+
+A simple GPT-style model is commonly explained as a **decoder-only autoregressive transformer**:
+
+```text
+input tokens
+  -> causal self-attention layer
+  -> feed-forward layer
+  -> more transformer layers
+  -> next-token probabilities
+  -> output token
+```
+
+**Decoder-only** means it uses the generation side of the transformer pattern. **Autoregressive** means it predicts the next token from the tokens before it. **Causal attention** means the model should not look ahead to future tokens while predicting the next token.
+
+That is the broad family behind early GPT models and many ChatGPT-style systems. Modern production models may add many engineering improvements, but the basic mental model is still: read the current context, process it through transformer blocks, and predict the next token.
+
+Other transformer variants change the computation pattern.
+
+**Mixture of Experts**, or **MoE**, uses routing. Instead of every token using the same full feed-forward pathway, the model can route tokens to selected expert sub-networks. A simplified view is:
+
+```text
+token representation
+  -> router
+  -> selected expert 1
+  -> selected expert 2
+  -> combined result
+```
+
+MoE is usually a variation inside transformer blocks, not a replacement for transformers. The goal is often to increase model capacity without activating every parameter for every token. That can improve efficiency, but it also adds routing complexity, load-balancing challenges, and more operational behaviour to evaluate.
+
+**Recurrent-depth transformers**, sometimes called **looped transformers**, reuse a transformer block multiple times inside one forward pass. Instead of only increasing depth by stacking more unique layers, the model can run a shared block repeatedly and refine the hidden state:
+
+```text
+input tokens
+  -> prelude block
+  -> recurrent block, loop 1
+  -> recurrent block, loop 2
+  -> recurrent block, loop 3
+  -> coda block
+  -> output token probabilities
+```
+
+The intuition is that the model spends more internal computation on the same representation before producing output. It is a bit like revising an internal draft several times before speaking. The loops happen inside the model’s hidden state, not as visible text. That means looped internal computation is not the same thing as chain-of-thought output.
+
+This is why recent discussion around models such as Anthropic’s Claude Mythos Preview should be handled cautiously. Community projects have hypothesised that Mythos may use a recurrent-depth or looped-transformer style architecture, but Anthropic has not publicly confirmed the full architecture. The safe statement is: **looped transformers are an active architecture idea, and some people suspect they may explain some newer reasoning-focused behaviour, but vendor internals are not always public.**
+
+For enterprise readers, the practical lesson is not to over-focus on architecture names. Whether a model is dense, MoE, looped, or uses another variant, the organisation still needs to evaluate behaviour: accuracy, latency, cost, security, data handling, tool use, failure modes, and human review requirements.
+
 ### What does a model look like on disk?
 
 When people use a hosted AI service, they usually never see the model files. The model runs inside the provider’s infrastructure, behind an API or application interface. But if a model is downloaded or deployed locally, it is usually made of files on disk.
@@ -710,38 +763,138 @@ One of the most common and least clearly explained ideas in modern AI is the **t
 
 Think of tokens as something between characters, syllables, word fragments, and words. They are not exactly the same as words.
 
+The examples below use the `cl100k_base` tokenizer to show the shape of tokenisation. The token numbers show the order of the pieces in the sequence. Other tokenizers may split the same text differently and assign different token IDs. You can reproduce this with a small Python script using `tiktoken`.
+
 For example, a short sentence such as:
 
 `The sky is blue.`
 
-might be split into tokens roughly like:
+might be split into tokens like this:
 
-- `The`
-- `sky`
-- `is`
-- `blue`
-- `.`
+```text
+1. 'The'   -> token ID 791
+2. ' sky'  -> token ID 13180
+3. ' is'   -> token ID 374
+4. ' blue' -> token ID 6437
+5. '.'     -> token ID 13
+```
 
-Another word might be split differently.
+The leading spaces are intentional. Many tokenizers treat `'sky'` and `' sky'` as different token pieces because words often appear with spaces before them.
 
-For example:
+Another word might be split into smaller parts. For example:
 
 `unbelievable`
 
-could be represented as one token in some cases, or as smaller parts such as:
+could be represented as:
 
-- `un`
-- `believ`
-- `able`
+```text
+1. 'un'    -> token ID 359
+2. 'belie' -> token ID 32898
+3. 'vable' -> token ID 24694
+```
 
-The exact split depends on the model’s tokenizer.
+Or, in another tokenizer, it might be one token or a different set of fragments.
 
 AI models do not read language the way humans do. Text is split into tokens, tokens are mapped to numeric identifiers, those identifiers are turned into vectors, and the model processes those vectors mathematically to predict likely output tokens.
 
 Code, JSON, logs, and markup can consume tokens quickly because symbols, punctuation, whitespace, and structure all contribute. For example:
 
-- `if user.is_admin(): return True`
-- `{"role":"admin","active":true}`
+```python
+if user.is_admin(): return True
+```
+
+might be split into token pieces such as:
+
+```text
+1. 'if'      -> token ID 333
+2. ' user'   -> token ID 1217
+3. '.is'     -> token ID 2124
+4. '_admin'  -> token ID 12485
+5. '():'     -> token ID 4658
+6. ' return' -> token ID 471
+7. ' True'   -> token ID 3082
+```
+
+The same happens with structured data:
+
+```json
+{"role":"admin","active":true}
+```
+
+Using the same tokenizer, that JSON becomes:
+
+```text
+1. '{"'     -> token ID 5018
+2. 'role'   -> token ID 5898
+3. '":"'    -> token ID 3332
+4. 'admin'  -> token ID 2953
+5. '","'    -> token ID 2247
+6. 'active' -> token ID 3104
+7. '":'     -> token ID 794
+8. 'true'   -> token ID 1904
+9. '}'      -> token ID 92
+```
+
+That is why a compact-looking JSON object, stack trace, HTML page, or source file can still consume many tokens.
+
+You can test this locally with a small Python script. I recommend using a Python virtual environment so the experiment does not modify your system Python packages:
+
+```bash
+python3 -m venv .venv-tokens
+source .venv-tokens/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install tiktoken
+```
+
+The `source` command activates the environment for the current terminal session. When you finish, you can leave it with `deactivate`. Then create a file such as `testing-tiktoken-tokenizer.py`:
+
+```python
+import tiktoken
+
+# Choose an encoding.
+#
+# cl100k_base is used by many GPT-3.5/GPT-4-era models and is useful
+# for learning because many examples online use it.
+#
+# o200k_base is used by newer OpenAI model families and can split text
+# differently, so compare both if you want to see how tokenizers vary.
+#
+# p50k_base and r50k_base are older encodings, useful mainly when
+# comparing legacy model behaviour.
+encoding_name = "cl100k_base"
+# encoding_name = "o200k_base"
+# encoding_name = "p50k_base"
+# encoding_name = "r50k_base"
+
+enc = tiktoken.get_encoding(encoding_name)
+
+examples = [
+    "The sky is blue.",
+    "unbelievable",
+    "if user.is_admin(): return True",
+    '{"role":"admin","active":true}',
+]
+
+print(f"Encoding: {encoding_name}")
+
+for text in examples:
+    print("\nTEXT:", text)
+
+    # Convert text into token IDs.
+    token_ids = enc.encode(text)
+
+    # Decode each token ID back into its visible text piece so we can
+    # inspect the token split. repr() makes leading spaces visible.
+    for index, token_id in enumerate(token_ids, start=1):
+        piece = enc.decode([token_id])
+        print(f"{index}. {piece!r} -> token ID {token_id}")
+```
+
+Run it with:
+
+```bash
+python3 testing-tiktoken-tokenizer.py
+```
 
 There are two main ways tokens are consumed:
 
@@ -967,39 +1120,28 @@ These practices do not remove every risk, but they make risks visible, discussab
 
 ---
 
-## Learn more and dive deeper into LLMs and AI
+## Learn more: from prompt use to AI engineering judgement
 
 ![Infographic showing a learning roadmap from core computer science through mathematics, machine learning, NLP and LLM foundations, to practical LLM engineering beneath the chat interface](/assets/images/blog/enterprise-ai-learn-more-and-dive-deeper-into-llms-and-ai.png)
 
-If this article has helped clarify the landscape, the natural next step is deeper learning.
-
-- core computer science fundamentals
-- mathematics for AI
-- machine learning and deep learning fundamentals
-- NLP and LLM foundations
-- practical LLM engineering and safe enterprise usage
-
-A good understanding of AI does not come from prompt tips alone. It comes from building the concepts in the right order. Many people encounter AI through chat interfaces first, but the real understanding sits underneath the interface.
+A good understanding of AI does not come from prompt tips alone. It comes from building the concepts underneath the interface: computing fundamentals, mathematical intuition, machine learning, LLM foundations, and practical system design.
 
 Start with core computer science fundamentals:
 
 - abstraction
 - algorithms
 - data structures
-- memory and representation
 - programming discipline
 - decomposition of complex problems into smaller ones
 
-AI systems still run on software, data structures, compute, and engineering trade-offs. A strong computing foundation makes model behaviour, limitations, and implementation choices easier to reason about.
+AI systems still run on software, data structures, compute, and engineering trade-offs. A strong computing foundation also makes AI-assisted coding more effective because the user can give clearer specifications and recognise weak output.
 
 Build the mathematical intuition:
 
 - linear algebra
-- vectors and matrices
 - probability
 - statistics
 - optimisation basics
-- a light understanding of calculus
 
 You do not need to become a mathematician, but you need enough intuition to understand how language becomes numbers, why embeddings and similarity rely on vector spaces, and why model training depends on optimisation and statistical learning.
 
@@ -1008,8 +1150,6 @@ Learn machine learning and deep learning fundamentals:
 - supervised and unsupervised learning
 - training versus inference
 - neural networks
-- gradient descent
-- loss functions
 - overfitting
 - evaluation and validation
 
@@ -1023,7 +1163,6 @@ Then learn NLP and LLM foundations:
 - attention
 - transformers
 - next-token prediction
-- inference behaviour
 - why prompts influence output
 
 Do not jump straight into prompt tricks. First understand the path from text, to tokens, to vectors, to attention, to probabilistic output generation.
@@ -1037,7 +1176,6 @@ Finally, learn practical LLM engineering:
 - context design
 - evaluation
 - guardrails
-- logging and governance
 - secure enterprise integration
 
 Many real-world AI systems are not standalone models. They are products and workflows built around models. Practical value comes from combining model capability with engineering discipline, security, review, and operational control.
