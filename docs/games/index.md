@@ -15,6 +15,15 @@ The games here are small experiments, but each one is also a learning opportunit
   <article class="content-card">
     <div class="content-card-body">
       <p class="content-card-section-label">Game</p>
+      <h2><a href="{{ '/games/space-rocket-physics-explorer/' | relative_url }}">Space Rocket Physics Explorer</a></h2>
+      <p>Explore rocket physics through playable missions about lunar sample return, Earth launch, gravity, drag, and momentum.</p>
+      <p><a href="{{ '/games/space-rocket-physics-explorer/' | relative_url }}">Play game</a></p>
+    </div>
+  </article>
+
+  <article class="content-card">
+    <div class="content-card-body">
+      <p class="content-card-section-label">Game</p>
       <h2><a href="{{ '/games/space-invader/' | relative_url }}">Space Invader</a></h2>
       <p>Defend the sector in a small canvas-rendered arcade game with a nickname, emoji spaceship, score, lives, and local best score.</p>
       <p><a href="{{ '/games/space-invader/' | relative_url }}">Play game</a></p>
