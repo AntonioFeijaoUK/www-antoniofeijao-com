@@ -4,12 +4,14 @@
   var inputs = {
     angleA: document.getElementById("angle-a"),
     angleB: document.getElementById("angle-b"),
+    angleC: document.getElementById("angle-c"),
     rightMode: document.getElementById("right-triangle-mode")
   };
   var displays = {
     angleA: document.getElementById("angle-a-value"),
     angleB: document.getElementById("angle-b-value"),
     angleC: document.getElementById("angle-c-value"),
+    angleCSlider: document.getElementById("angle-c-slider-value"),
     formula: document.getElementById("angle-formula"),
     pythagorean: document.getElementById("pythagorean-formula"),
     sideLengths: document.getElementById("side-lengths")

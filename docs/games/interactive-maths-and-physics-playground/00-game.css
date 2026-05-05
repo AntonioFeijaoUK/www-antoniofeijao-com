@@ -120,6 +120,10 @@
   font-weight: 700;
 }
 
+.playground-pythagorean .playground-toggle {
+  margin-bottom: 0.7rem;
+}
+
 .playground-result,
 .playground-formula,
 .playground-pythagorean,

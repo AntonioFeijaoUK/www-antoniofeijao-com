@@ -51,22 +51,46 @@
     function updateFromInputs(changedInput) {
       var angleA = parseInt(inputs.angleA.value, 10);
       var angleB = parseInt(inputs.angleB.value, 10);
+      var angleC = parseInt(inputs.angleC.value, 10);
+      var remainingAngles;
+      var previousABTotal;
 
       state.rightMode = Boolean(inputs.rightMode && inputs.rightMode.checked);
 
       if (state.rightMode) {
-        angleA = clamp(angleA, 15, 75);
-        angleB = 90 - angleA;
-        inputs.angleA.max = "75";
-        inputs.angleB.disabled = true;
+        angleA = 90;
+        if (changedInput === inputs.angleC) {
+          angleC = clamp(angleC, 15, 75);
+          angleB = 90 - angleC;
+        } else {
+          angleB = clamp(angleB, 15, 75);
+          angleC = 90 - angleB;
+        }
+        inputs.angleA.max = "90";
+        inputs.angleA.disabled = true;
+        inputs.angleB.disabled = false;
+        inputs.angleC.disabled = false;
         inputs.angleA.value = angleA;
         inputs.angleB.value = angleB;
+        inputs.angleC.value = angleC;
       } else {
         inputs.angleA.max = "145";
+        inputs.angleA.disabled = false;
         inputs.angleB.disabled = false;
+        inputs.angleC.disabled = false;
       }
 
-      if (!state.rightMode && angleA + angleB > 165) {
+      if (!state.rightMode && changedInput === inputs.angleC) {
+        angleC = clamp(angleC, 15, 150);
+        remainingAngles = 180 - angleC;
+        previousABTotal = Math.max(1, state.angleA + state.angleB);
+        angleA = Math.round(remainingAngles * state.angleA / previousABTotal);
+        angleA = clamp(angleA, 15, remainingAngles - 15);
+        angleB = remainingAngles - angleA;
+        inputs.angleA.value = angleA;
+        inputs.angleB.value = angleB;
+        inputs.angleC.value = angleC;
+      } else if (!state.rightMode && angleA + angleB > 165) {
         if (changedInput === inputs.angleA) {
           angleB = 165 - angleA;
           inputs.angleB.value = angleB;
@@ -78,7 +102,10 @@
 
       state.angleA = clamp(angleA, 15, 145);
       state.angleB = clamp(angleB, 15, 145);
-      state.angleC = state.rightMode ? 90 : 180 - state.angleA - state.angleB;
+      state.angleC = state.rightMode ? angleC : 180 - state.angleA - state.angleB;
+      inputs.angleA.value = state.angleA;
+      inputs.angleB.value = state.angleB;
+      inputs.angleC.value = state.angleC;
       updateDisplays();
       draw();
     }
@@ -87,13 +114,14 @@
       var classification = getClassification();
       var article = classification === "right triangle" ? "a" : "an";
       var sides = getSideLengths();
-      var adjacentSquared = sides.ac * sides.ac;
-      var oppositeSquared = sides.bc * sides.bc;
-      var hypotenuseSquared = sides.ab * sides.ab;
+      var legABSquared = sides.ab * sides.ab;
+      var legACSquared = sides.ac * sides.ac;
+      var hypotenuseSquared = sides.bc * sides.bc;
 
       displays.angleA.textContent = state.angleA + " degrees";
       displays.angleB.textContent = state.angleB + " degrees";
       displays.angleC.textContent = state.angleC + " degrees";
+      displays.angleCSlider.textContent = state.angleC + " degrees";
       displays.formula.textContent = state.angleA + " + " + state.angleB + " + " + state.angleC + " = 180 degrees";
       displays.sideLengths.textContent =
         "AB " +
@@ -103,15 +131,15 @@
         " | BC " +
         formatLength(sides.bc);
       displays.pythagorean.textContent = state.rightMode
-        ? formatLength(sides.ac) +
+        ? formatLength(sides.ab) +
           " squared + " +
-          formatLength(sides.bc) +
+          formatLength(sides.ac) +
           " squared = " +
-          formatLength(sides.ab) +
+          formatLength(sides.bc) +
           " squared (" +
-          formatLength(adjacentSquared) +
+          formatLength(legABSquared) +
           " + " +
-          formatLength(oppositeSquared) +
+          formatLength(legACSquared) +
           " = " +
           formatLength(hypotenuseSquared) +
           ")"
@@ -124,6 +152,9 @@
 
     function getTrianglePoints(width, height) {
       var margin = 88;
+      var topAnnotationSpace = state.rightMode ? 128 : 92;
+      var bottomLabelSpace = 76;
+      var availableHeight = height - topAnnotationSpace - bottomLabelSpace;
       var baseLength = 1;
       var pointA = {
         x: 0,
@@ -170,9 +201,9 @@
       maxY = Math.max(rawPoints.a.y, rawPoints.b.y, rawPoints.c.y);
       rawWidth = Math.max(0.01, maxX - minX);
       rawHeight = Math.max(0.01, maxY - minY);
-      scale = Math.min((width - margin * 2) / rawWidth, (height - margin * 2) / rawHeight);
+      scale = Math.min((width - margin * 2) / rawWidth, availableHeight / rawHeight);
       offsetX = (width - rawWidth * scale) / 2 - minX * scale;
-      offsetY = (height - rawHeight * scale) / 2 - minY * scale + 18;
+      offsetY = topAnnotationSpace + (availableHeight - rawHeight * scale) / 2 - minY * scale;
 
       return {
         a: {
@@ -255,8 +286,8 @@
 
       if (state.rightMode) {
         context.beginPath();
-        context.moveTo(points.a.x, points.a.y);
-        context.lineTo(points.b.x, points.b.y);
+        context.moveTo(points.b.x, points.b.y);
+        context.lineTo(points.c.x, points.c.y);
         context.strokeStyle = "#dc2626";
         context.lineWidth = 7;
         context.stroke();
@@ -272,16 +303,16 @@
         context.fill();
       });
 
-      drawAngleArc(points.a, -toRadians(state.angleA), 0, 48, "#2563eb", "A = " + state.angleA + " degrees", points.a.x + 78, points.a.y - 18);
-      drawAngleArc(points.b, Math.PI, Math.PI + toRadians(state.angleB), 48, "#16a34a", "B = " + state.angleB + " degrees", points.b.x - 78, points.b.y - 18);
-      drawAngleArc(points.c, angleCStart, angleCEnd, 44, "#d97706", "C = " + state.angleC + " degrees", points.c.x, points.c.y - 54, true);
+      drawAngleArc(points.a, -toRadians(state.angleA), 0, 48, "#2563eb", "A = " + state.angleA + " degrees", points.a.x - 4, points.a.y + 54);
+      drawAngleArc(points.b, Math.PI, Math.PI + toRadians(state.angleB), 48, "#16a34a", "B = " + state.angleB + " degrees", points.b.x + 4, points.b.y + 54);
+      drawAngleArc(points.c, angleCStart, angleCEnd, 44, "#d97706", "C = " + state.angleC + " degrees", points.c.x, points.c.y - 30, true);
 
       drawLabel("A", points.a, -20, 28);
       drawLabel("B", points.b, 20, 28);
       drawLabel("C", points.c, 0, -18);
-      drawSideLabel(state.rightMode ? "AB hypotenuse" : "AB", points.a, points.b, 0, 34, state.rightMode ? "#dc2626" : "#334155");
+      drawSideLabel("AB", points.a, points.b, 0, 34, "#334155");
       drawSideLabel("AC", points.a, points.c, -28, -12, "#334155");
-      drawSideLabel("BC", points.b, points.c, 28, -12, "#334155");
+      drawSideLabel(state.rightMode ? "BC hypotenuse" : "BC", points.b, points.c, 28, -12, state.rightMode ? "#dc2626" : "#334155");
 
       context.fillStyle = "#334155";
       context.font = "16px sans-serif";
@@ -305,7 +336,7 @@
     }
 
     function bind() {
-      [inputs.angleA, inputs.angleB].forEach(function (input) {
+      [inputs.angleA, inputs.angleB, inputs.angleC].forEach(function (input) {
         input.addEventListener("input", function () {
           updateFromInputs(input);
         });

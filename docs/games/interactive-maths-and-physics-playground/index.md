@@ -45,13 +45,8 @@ toc_sticky: false
       </label>
       <input id="angle-c" type="range" min="15" max="145" value="60" step="1">
 
-      <label class="playground-toggle" for="right-triangle-mode">
-        <input id="right-triangle-mode" type="checkbox">
-        <span>Right triangle mode</span>
-      </label>
-
       <div class="playground-result" aria-label="Solved angle">
-        <span>Missing angle C</span>
+        <span>Angle C</span>
         <strong id="angle-c-value">60 degrees</strong>
       </div>
 
@@ -66,6 +61,10 @@ toc_sticky: false
       </div>
 
       <div class="playground-pythagorean" aria-label="Pythagorean theorem">
+        <label class="playground-toggle" for="right-triangle-mode">
+          <input id="right-triangle-mode" type="checkbox">
+          <span>Right triangle mode: A = 90 degrees</span>
+        </label>
         <span>Pythagorean theorem</span>
         <strong id="pythagorean-formula">Turn on right triangle mode.</strong>
       </div>
