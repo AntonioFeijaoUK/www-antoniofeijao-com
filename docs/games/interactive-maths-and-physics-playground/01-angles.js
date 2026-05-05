@@ -67,6 +67,8 @@
           angleC = 90 - angleB;
         }
         inputs.angleA.max = "90";
+        inputs.angleB.max = "75";
+        inputs.angleC.max = "75";
         inputs.angleA.disabled = true;
         inputs.angleB.disabled = false;
         inputs.angleC.disabled = false;
@@ -75,13 +77,15 @@
         inputs.angleC.value = angleC;
       } else {
         inputs.angleA.max = "145";
+        inputs.angleB.max = "145";
+        inputs.angleC.max = "145";
         inputs.angleA.disabled = false;
         inputs.angleB.disabled = false;
         inputs.angleC.disabled = false;
       }
 
       if (!state.rightMode && changedInput === inputs.angleC) {
-        angleC = clamp(angleC, 15, 150);
+        angleC = clamp(angleC, 15, 145);
         remainingAngles = 180 - angleC;
         previousABTotal = Math.max(1, state.angleA + state.angleB);
         angleA = Math.round(remainingAngles * state.angleA / previousABTotal);

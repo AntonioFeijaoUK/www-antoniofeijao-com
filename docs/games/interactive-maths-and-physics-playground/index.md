@@ -22,7 +22,7 @@ toc_sticky: false
       <p class="playground-kicker">Module 1</p>
       <h2 id="playground-module-title">Triangle Angle Solver</h2>
     </div>
-    <p class="playground-status" id="playground-status" aria-live="polite">Move the sliders to solve the missing angle.</p>
+    <p class="playground-status" id="playground-status" aria-live="polite">Move the sliders to explore the angle sum.</p>
   </div>
 
   <div class="playground-layout">
@@ -85,8 +85,8 @@ toc_sticky: false
     <h2>What This Module Teaches</h2>
     <ul>
       <li>The three inside angles of any triangle always add up to 180 degrees.</li>
-      <li>If two angles are known, the missing angle is found with C = 180 degrees - A - B.</li>
-      <li>Changing one angle changes the shape of the triangle, but the total angle sum stays the same.</li>
+      <li>If two angles are known, the third angle is found with C = 180 degrees - A - B.</li>
+      <li>Changing one angle changes the shape of the triangle, and the other angles rebalance to keep the total at 180 degrees.</li>
       <li>A triangle with one 90 degree angle is a right triangle; all angles below 90 degrees make an acute triangle.</li>
       <li>In a right triangle, the hypotenuse is the longest side. It sits opposite the 90 degree angle.</li>
       <li>The Pythagorean theorem works only for right triangles: a squared plus b squared equals c squared.</li>
