@@ -116,6 +116,8 @@ A change is done when:
 - Optimise new images before adding them.
 - Prefer existing assets where suitable.
 - Avoid large media files unless explicitly approved.
+- For article images, prefer a modern cinematic 3D enterprise infographic style: strong depth, polished glass-like interface panels, subtle cyan/blue/teal lighting, realistic professional workspace or security context, clean icon-led workflow, minimal readable text, and a calm trustworthy AI/security aesthetic.
+- Use visual storytelling rather than dense labels. Avoid clutter, brand logos, cartoon style, stock-photo feel, tiny unreadable text, fear imagery, and humanoid robot cliches unless explicitly requested.
 
 ## Task prompt pattern
 

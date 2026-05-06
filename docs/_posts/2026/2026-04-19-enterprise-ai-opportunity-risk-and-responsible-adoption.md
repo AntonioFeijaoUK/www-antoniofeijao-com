@@ -4,7 +4,7 @@ description: "A practical AI, GenAI, and LLMs 101 guide for professionals, cover
 excerpt: "A practical guide to understanding AI, GenAI, and LLMs, from core concepts and technical foundations to enterprise security, risk, governance, and responsible adoption."
 author: "Antonio Feijao UK"
 date: 2026-04-19
-last_modified_at: 2026-05-04
+last_modified_at: 2026-05-07
 categories:
   - AI
   - Enterprise
@@ -50,7 +50,7 @@ seo:
   description: "A practical AI, GenAI, and LLMs 101 guide for professionals, covering fundamentals, tokens, context windows, agents, enterprise risk, governance, security, and responsible adoption."
   author: "Antonio Feijao UK"
   date_published: 2026-04-19
-  date_modified: 2026-05-04
+  date_modified: 2026-05-07
   keywords:
     - ai 101
     - genai
@@ -77,6 +77,328 @@ seo:
     - enterprise security
     - developer productivity
 canonical_url: "https://www.antoniofeijao.com/blog/2026/04/19/enterprise-ai-opportunity-risk-and-responsible-adoption/"
+---
+
+## Quick glossary
+
+![Futuristic 3D iceberg infographic showing AI glossary terms as the visible tip of a deeper technical foundation](/assets/images/blog/enterprise-ai-glossary-tip-of-iceberg.png)
+
+This glossary is here as a quick reference. You can skim it first, or return to it later when a term appears in the article.
+
+### High-level AI terms
+
+**Artificial Intelligence / AI**  
+Systems that perform tasks associated with intelligence, such as recognising patterns, generating content, planning, or making predictions.
+
+**Machine learning**  
+A subset of AI where systems learn patterns from data instead of relying only on explicit rules.
+
+**Deep learning**  
+Machine learning based on neural networks with many layers, often used for language, vision, speech, and generative systems.
+
+**Generative AI / GenAI**  
+AI that creates, transforms, or extends content such as text, code, images, audio, video, summaries, or structured outputs.
+
+**Large Language Model / LLM**  
+A model trained to process and generate language-like sequences, including text, code, markup, and structured content.
+
+**Foundation model**  
+A large general-purpose model trained at scale that can be adapted or prompted for many different tasks.
+
+**Small Language Model / SLM**  
+A smaller language model designed to use less compute, memory, or latency than larger LLMs, often for narrower or local use cases.
+
+**Open-weight model**  
+A model whose learned weights are available for others to download, inspect, run, or adapt under its licence terms.
+
+**Hosted model**  
+A model that runs in a provider-managed service and is accessed through an application or API.
+
+**Local model**  
+A model that runs on a user's device, workstation, server, or private environment rather than only through a hosted service.
+
+**On-device AI**  
+AI that runs directly on a device such as a laptop, phone, workstation, browser, or embedded system.
+
+**Edge AI**  
+AI that runs close to where data is produced, such as on devices, gateways, sensors, or local infrastructure.
+
+**Multimodal AI**  
+AI that can work across more than one content type, such as text, images, audio, video, documents, or screenshots.
+
+**Diffusion model**  
+A generative model often used for image and video creation, where content is produced by gradually refining noise into a coherent output.
+
+**Embedding model**  
+A model that turns content into vectors so similarity, retrieval, clustering, or search can work mathematically.
+
+**Speech model**  
+A model designed to process, generate, transcribe, or translate spoken audio.
+
+**Vision model**  
+A model designed to process or interpret images, screenshots, diagrams, video frames, or other visual input.
+
+**Synthetic media**  
+AI-generated or AI-edited media, such as images, voices, video, avatars, screenshots, or documents.
+
+**AI assistant**  
+An AI product that helps users with tasks such as drafting, summarising, research, analysis, or brainstorming.
+
+**Bot**  
+A narrower automated system that usually performs a defined task or follows a predictable workflow.
+
+**Copilot**  
+An AI assistant embedded into a human workflow, where the person remains responsible for review and decisions.
+
+**Agent**  
+An AI system that can pursue a goal across multiple steps, often using tools, files, APIs, or other systems.
+
+**Agentic AI**  
+AI behaviour where the system plans, acts, observes results, and continues working towards a goal with some autonomy.
+
+---
+
+### Prompting and AI workflows
+
+**Prompt**  
+The instruction, question, or request given to an AI system.
+
+**System instructions**  
+High-level instructions that define the model's role, boundaries, and expected behaviour.
+
+**Developer instructions**  
+Application-level instructions that shape how a product or workflow wants the model to behave.
+
+**Context**  
+The information available to the model when it generates a response.
+
+**Retrieved context**  
+Information fetched from sources such as documents, repositories, tickets, or databases and added to the model's input.
+
+**Context window**  
+The limited working area of tokens the model can consider at one time.
+
+**Structured outputs**  
+Responses formatted in a predictable structure, such as JSON, tables, lists, schemas, or templates.
+
+**Function calling**  
+A pattern where an AI system produces a structured request to call a tool, API, or function instead of only returning free-form text.
+
+**AI support files**  
+Files that provide extra instructions, context, rules, or examples to help an AI agent work in a specific project or workflow.
+
+**Agent instruction file**  
+A project-level file that tells an AI agent how to behave in a repository, such as coding style, architecture rules, test commands, and safety constraints.
+
+**Rules file**  
+A tool-specific file that defines constraints, standards, or preferences the AI should follow.
+
+**Skill file**  
+A reusable task-specific instruction file that teaches an AI agent how to handle a specialised workflow.
+
+**Project context**  
+Background information about the current codebase, content, architecture, data, or workflow that helps the AI produce more relevant output.
+
+**Repository instructions**  
+Guidance stored in or near a repository so AI tools can follow local conventions and constraints.
+
+**Vibe coding**  
+Using AI to explore and build software through informal prompting and iteration.
+
+**Spec coding**  
+Using AI to build software from clearer specifications, constraints, acceptance criteria, and review expectations.
+
+---
+
+### Model and LLM mechanics
+
+**Model**  
+The trained mathematical system that maps inputs to likely outputs.
+
+**Neural network / neural networks**  
+A layered mathematical structure that learns patterns by adjusting internal values during training.
+
+**Layers**  
+Parts of a neural network that transform information step by step.
+
+**Hidden state**  
+The model's internal representation while it processes context.
+
+**Forward pass**  
+One run of input through the model to produce an output or next-token probabilities.
+
+**Next-token prediction**  
+The common LLM pattern of predicting the next token from the previous context.
+
+**Probabilistic output**  
+Output based on likelihoods rather than guaranteed facts.
+
+**Hallucination**  
+An AI output that sounds plausible but is incorrect, unsupported, fabricated, or misleading.
+
+**Sampling**  
+The process of choosing output tokens from the model's probability distribution during generation.
+
+**Temperature**  
+A generation setting that controls how predictable or varied the model's sampled output is.
+
+**Top-p**  
+A generation setting that limits sampling to a selected group of likely next tokens.
+
+**Feed-forward layer**  
+A transformer component that further transforms token representations after attention.
+
+**Parameters**  
+The internal numerical values a model learns during training.
+
+**Weights**  
+Learned parameters that shape how signals move through a neural network.
+
+**Dataset**  
+A collection of examples, records, text, images, code, or other data used for training, evaluation, or analysis.
+
+**Training data**  
+The data used to teach a model patterns during training or fine-tuning.
+
+**Training**  
+The process of building or adapting a model by adjusting its weights using data.
+
+**Inference**  
+Using a trained model to generate an output from current input and context.
+
+**Fine-tuning**  
+Further training an existing model on more specific data or tasks.
+
+**Token**  
+A unit of text or code consumed or generated by a model, often a word fragment, whole word, symbol, or whitespace pattern.
+
+**Tokenisation**  
+The process of splitting text into tokens.
+
+**Tokenizer**  
+The component that turns text into token IDs and token IDs back into text.
+
+**Token ID**  
+The numeric identifier assigned to a token by a tokenizer.
+
+**Input tokens**  
+Tokens the model reads, including prompts, context, retrieved material, tool output, and conversation history.
+
+**Output tokens**  
+Tokens the model generates in its response.
+
+**Embeddings**  
+Numerical representations that capture useful meaning or similarity relationships between pieces of content.
+
+**Vectors**  
+Lists of numbers used to represent tokens, words, documents, images, or other data mathematically.
+
+**Attention**  
+A mechanism that helps a model decide which visible tokens are most relevant while processing context.
+
+**Transformer**  
+The model architecture behind many modern LLMs, built around attention and layered computation.
+
+**Decoder-only transformer**  
+A transformer design commonly used for text generation, where the model predicts the next token from previous tokens.
+
+**Autoregressive model**  
+A model that generates output step by step, predicting the next token from what came before.
+
+**Causal attention**  
+Attention that prevents the model from looking ahead to future tokens while predicting the next token.
+
+**Mixture of Experts / MoE**  
+A model design that routes work to selected expert sub-networks instead of activating every part of the model for every token.
+
+**Recurrent-depth transformer**  
+A transformer variant that reuses part of the network multiple times during one forward pass.
+
+**Looped transformer**  
+Another term for a recurrent-depth transformer.
+
+**Quantisation**  
+Reducing the numerical precision of model weights to lower memory and compute requirements.
+
+**Natural Language Processing / NLP**  
+AI work focused on language, text, and linguistic structure.
+
+**Supervised learning**  
+Learning from examples with known labels or answers.
+
+**Unsupervised learning**  
+Learning patterns from data without explicit labels.
+
+**Overfitting**  
+When a model learns training examples too narrowly and generalises poorly to new data.
+
+**Evaluation and validation**  
+Testing whether a model or AI workflow behaves well enough for its intended use.
+
+**Benchmark**  
+A standard test or comparison used to measure model performance on selected tasks.
+
+**Evaluation set / eval set**  
+A set of examples used to test how a model or AI workflow behaves before or after deployment.
+
+**Regression test**  
+A repeated test that checks whether a model, prompt, workflow, or system change has broken behaviour that previously worked.
+
+**Router**  
+The part of a Mixture of Experts model that chooses which experts handle a token.
+
+**Expert**  
+A specialised sub-network inside a Mixture of Experts model.
+
+---
+
+### Retrieval, tools, and AI system architecture
+
+**Retrieval**  
+Finding relevant information from approved sources to support an AI response.
+
+**Grounding**  
+Making an AI answer depend on supplied evidence or context rather than only the model's general training.
+
+**Retrieval-augmented generation / RAG**  
+A pattern where retrieved content is added to the model's context before it generates an answer.
+
+**Document chunking**  
+Splitting documents into smaller pieces so they can be searched, retrieved, and added to context.
+
+**Citations**  
+References or links showing which sources support an AI-generated answer.
+
+**Confidence signals**  
+Indicators that help users judge how well an answer is supported, complete, or uncertain.
+
+**Tool**  
+A controlled capability exposed to an AI system, such as search, file reading, database queries, or ticket creation.
+
+**Tool call**  
+A specific request made by an AI system to use an available tool.
+
+**API**  
+An application programming interface that lets software systems communicate with each other.
+
+**Model platform**  
+Infrastructure for selecting models, connecting data, managing workflows, applying controls, and operating AI systems.
+
+**Model routing**  
+Directing requests to different models based on cost, capability, latency, privacy, or task fit.
+
+**Model Context Protocol / MCP**  
+A protocol for connecting AI applications to external tools, resources, and prompt templates.
+
+**MCP host**  
+The AI application or environment the user interacts with.
+
+**MCP client**  
+The component that manages the connection from the host to MCP servers.
+
+**MCP server**  
+A service that exposes specific tools, resources, or prompts to an AI application.
+
 ---
 
 ![Sleek 3D executive infographic showing enterprise AI balanced between opportunity, risk, governance, trusted pathways, human review, and responsible adoption](/assets/images/blog/enterprise-ai-opportunity-risk-responsible-adoption-executive-hero-v2.png)
@@ -132,6 +454,29 @@ This matters because risk changes with capability. A simple AI classifier, a pub
 
 ---
 
+## GenAI and multimodal AI
+
+Generative AI, or GenAI, is AI that creates, transforms, or extends content from prompts, examples, files, or other context. Instead of only classifying, searching, or predicting, it can produce new text, code, images, audio, video, summaries, designs, plans, or structured outputs.
+
+- GenAI is not limited to text and code
+- modern systems can work with images, audio, video, documents, screenshots, diagrams, and voice
+- multimodal AI can analyse, generate, transform, and combine different types of content
+- different model families are often used for language, images, speech, vision, embeddings, and video
+- synthetic media creates opportunities for training, communication, design, accessibility, and prototyping
+- it also raises risks around impersonation, misinformation, provenance, consent, brand misuse, and trust
+
+Many people first experience AI through chat, but the field is moving beyond text. Multimodal systems can read screenshots, describe images, analyse documents, generate diagrams, summarise meetings, produce voice, edit photos, or create video-like content.
+
+This expands the value of AI because people do not work only in text. They work with presentations, calls, whiteboards, diagrams, recordings, product images, invoices, forms, dashboards, and visual evidence.
+
+Not every AI system uses the same kind of model. Language models are designed for text-like sequences. Vision models interpret images or screenshots. Speech models transcribe, translate, or generate audio. Embedding models turn content into vectors for similarity search and retrieval. Image and video generation often use diffusion-style models that gradually refine noise into a coherent output. In real products, these capabilities may be combined behind one interface, which is why a chat assistant can sometimes read a screenshot, answer a question, generate an image, or search documents.
+
+Current examples include general assistants such as ChatGPT, Claude, Gemini, and Microsoft Copilot; creative tools such as Adobe Firefly, Midjourney, OpenAI image generation, and Runway; and voice or avatar tools such as ElevenLabs and Synthesia. The product names will change, but the direction is clear: AI is becoming a content engine across many media types.
+
+It also expands the risk. Synthetic media can be useful, but it can also make impersonation, fake evidence, brand misuse, misleading content, and consent problems easier to create. For enterprise use, the practical question is not only “what did the AI say?” but also “what did it see, hear, read, generate, alter, or make appear real?”
+
+---
+
 ## From geometry to AI models
 
 ![Infographic showing a diagonal sight line through the top of the Tower of Pisa to infer height from known distance and angle, then connecting that idea to AI model pattern learning](/assets/images/blog/enterprise-ai-from-geometry-to-ai-models.png)
@@ -172,7 +517,7 @@ That appearance can be misleading. A Large Language Model does not verify truth,
 
 The practical distinction is simple: AI can assist, transform, summarise, classify, draft, and suggest, but it is not a source of guaranteed truth or a substitute for professional judgement.
 
-A system can sound confident and still be wrong, incomplete, misleading, unsafe, or poorly suited to the specific context. The more convincing the output looks, the more discipline may be required from the user.
+A system can sound confident and still be wrong, incomplete, misleading, unsafe, or poorly suited to the specific context. This is often called a **hallucination**: an output that sounds plausible but is incorrect, unsupported, fabricated, or misleading. The more convincing the output looks, the more discipline may be required from the user.
 
 For enterprise use, this means outputs should be reviewed before they are relied upon, generated code still needs validation and security review, summaries may omit important nuance, and sensitive decisions still need human accountability. AI should support professional work, not replace professional responsibility.
 
@@ -317,12 +662,16 @@ The practical lesson is that AI can reduce the distance between idea and impleme
 
 ## Attackers, defenders, and the AI acceleration gap
 
+![Futuristic security operations infographic showing attacker exploitation timelines narrowing around TTE while defenders use AI-assisted triage, patch prioritisation, detection, code review, and human oversight](/assets/images/blog/enterprise-ai-attackers-defenders-acceleration-gap.png)
+
 AI changes the economics of both attack and defence.
 
 - less experienced attackers can learn faster, generate convincing phishing content, write scripts, translate instructions into commands, and iterate more quickly
 - experienced attackers can use AI to scale reconnaissance, social engineering, malware variation, vulnerability research, and operational planning
 - defenders can use AI to triage alerts, analyse logs, review code, detect anomalies, inspect CI/CD pipelines, classify emails, and summarise incidents
 - the balance depends on adoption speed, data access, tooling quality, review discipline, and operational maturity
+
+A practical example is vulnerability exploitation. **Time-to-Exploit**, or **TTE**, measures how long it takes from public vulnerability disclosure to confirmed exploit availability. [Zero Day Clock](https://zerodayclock.com/signatories) data, cited by [IAPS](https://www.iaps.ai/research/mythos-and-the-evolving-cyber-landscape-implications-and-policy-priorities-Bu4xs), suggests that average TTE fell from about **2.3 years in 2018** to about **20 hours in April 2026**. The exact number will move over time, but the direction matters: patch cycles, triage queues, and annual testing models were not designed for attacker timelines measured in hours.
 
 Think of this as a capability scale. AI can move less experienced actors up the scale faster by helping them research, script, adapt examples, and test ideas. It does not make every actor advanced, but it can compress the time between curiosity and capability.
 
@@ -528,17 +877,19 @@ AI is here to help, support, extend, and amplify human capability. It is not her
 
 AI is most useful when it is treated as a tool for amplification, not as a substitute for judgement.
 
-- good AI use starts with clear intent
-- relevant context is better than maximum context
-- ask for the format, audience, scope, and constraints you need
+- start with the outcome, audience, and constraints
+- provide relevant context, not maximum context
+- ask for the format and level of detail you need
+- work in stages for complex tasks
 - use AI for drafts, options, structure, challenge, and iteration
 - verify important outputs before relying on them
-- human judgement remains essential
+- protect sensitive information and keep human accountability
 
 Used well, AI can help people think faster, explore more options, reduce repetitive effort, and improve drafting, analysis, coding, and research. Used poorly, it can produce shallow work, weak decisions, unnecessary cost, and avoidable risk. The difference is rarely the model alone; it is usually how the human uses it.
 
 The best mindset is **copilot, not autopilot**. Treat AI as a drafting partner, thinking aid, and accelerator, not as a final approver or source of guaranteed truth.
 
+**Start with the outcome**  
 A vague prompt usually produces a vague answer. Before using AI, decide the outcome, audience, format, level of detail, constraints, and success criteria. For example, instead of:
 
 - `Explain cloud security`
@@ -549,6 +900,7 @@ ask:
 
 The second prompt gives the model a clearer audience, scope, format, and level of detail.
 
+**Provide relevant context**  
 Useful context may include:
 
 - the intended audience
@@ -561,8 +913,10 @@ Useful context may include:
 
 However, more context is not always better. Irrelevant or excessive context can dilute the focus, waste tokens, slow the response, increase cost, and make the answer less precise. The goal is relevant context.
 
+**Ask for the format you need**  
 Ask for the structure you need: bullet points, summary, checklist, step-by-step plan, executive briefing, risk register, pseudocode, or pros and cons. Good format instructions reduce editing time.
 
+**Work in stages**  
 For large or complex tasks, work in stages:
 
 - first ask for a structure
@@ -573,6 +927,7 @@ For large or complex tasks, work in stages:
 
 This is usually better than asking for the perfect final answer in one go, especially for long documents, technical writing, code generation, presentations, analysis, or policy drafting.
 
+**Use AI for drafts, options, and challenge**  
 AI is particularly useful for:
 
 - first drafts and rough structures
@@ -584,10 +939,13 @@ AI is particularly useful for:
 
 But a first draft is not a final output. Human review is still needed for correctness, nuance, security, legal implications, architecture quality, organisational fit, tone, and judgement.
 
+**Verify important outputs**  
 Verify important outputs, especially when they relate to security, law, compliance, medicine, finance, architecture, code safety, operational decisions, or public claims. Verification may require primary sources, calculations, tests, subject-matter experts, or comparison against known standards. A useful habit is: trust usefulness, verify correctness.
 
+**Protect sensitive information**  
 Protect sensitive information. Do not paste internal source code, credentials, secrets, customer data, commercially sensitive plans, internal documents, legal material, security architecture, incident details, or regulated data into unapproved tools. Convenience is never a good reason to bypass data-handling rules.
 
+**Keep human accountability**  
 The human remains responsible for:
 
 - what was asked
@@ -598,6 +956,7 @@ The human remains responsible for:
 - what users ultimately experienced
 - what risk was introduced
 
+**Make good AI use a team habit**  
 Good AI use is also a team habit:
 
 - agreeing which tools are approved
@@ -608,6 +967,7 @@ Good AI use is also a team habit:
 - encouraging questions when a use case feels unclear or high-risk
 - rewarding quality and judgement, not only speed
 
+**Use a simple workflow**  
 A strong practical workflow is:
 
 - define the goal
@@ -622,13 +982,11 @@ The best results from AI usually do not come from asking it to replace human eff
 
 ---
 
-## Technical appendix: How LLM systems work
-
-![Introductory infographic explaining AI tokens as a flow from text and code through tokenisation, token IDs, vectors, model prediction, output tokens, and practical impacts on context, cost, and performance](/assets/images/blog/enterprise-ai-what-are-ai-tokens-v2.png)
+## Technical appendix
 
 ### What is an LLM?
 
-![Architecture-style infographic explaining an LLM as the prediction engine inside a larger AI system, with inputs, context window, parameters, token sequences, inference, outputs, human review, and surrounding product controls](/assets/images/blog/enterprise-ai-what-is-an-llm.png)
+![Modern 3D infographic explaining an LLM as the prediction engine inside an AI product, with inputs, tokens, context, tools, retrieval, permissions, probable outputs, and human review](/assets/images/blog/enterprise-ai-what-is-an-llm.png)
 
 An **LLM**, or **large language model**, is a trained neural network designed to process and generate language-like sequences. It is not the same thing as a chatbot, application, database, search engine, or agent. Those are systems that may use an LLM as one component.
 
@@ -698,7 +1056,7 @@ input tokens
 
 The intuition is that the model spends more internal computation on the same representation before producing output. It is a bit like revising an internal draft several times before speaking. The loops happen inside the model’s hidden state, not as visible text. That means looped internal computation is not the same thing as chain-of-thought output.
 
-This is why recent discussion around models such as Anthropic’s Claude Mythos Preview should be handled cautiously. Community projects have hypothesised that Mythos may use a recurrent-depth or looped-transformer style architecture, but Anthropic has not publicly confirmed the full architecture. The safe statement is: **looped transformers are an active architecture idea, and some people suspect they may explain some newer reasoning-focused behaviour, but vendor internals are not always public.**
+Public discussion about newer reasoning-focused models sometimes includes speculation about whether they use recurrent-depth, looped, MoE, or other architectural variants. That speculation should be treated carefully unless the model provider has confirmed the design. The safe statement is: **these architecture ideas are active areas of research and engineering, but vendor internals are not always public.**
 
 For enterprise readers, the practical lesson is not to over-focus on architecture names. Whether a model is dense, MoE, looped, or uses another variant, the organisation still needs to evaluate behaviour: accuracy, latency, cost, security, data handling, tool use, failure modes, and human review requirements.
 
@@ -735,6 +1093,24 @@ Model size varies widely. A small local model may be hundreds of megabytes or a 
 
 The important point is that the model is not a document database full of answers. It is mostly a large collection of learned numerical weights plus the supporting files needed to turn text into tokens, run the model, and turn generated tokens back into text.
 
+### Hosted, local, open-weight, and small models
+
+AI models can be delivered in different ways. The model architecture matters, but so does where the model runs and who controls the surrounding system.
+
+- **hosted models** run in provider-managed infrastructure and are accessed through an application or API
+- **local models** run on a user device, workstation, server, or private environment
+- **open-weight models** make the learned weights available under licence terms
+- **small language models**, or **SLMs**, are designed to use less compute, memory, or latency than larger LLMs
+- **on-device AI** and **edge AI** run closer to where the user, application, or data is located
+
+Hosted models are usually the easiest to access and may provide strong capability, managed infrastructure, updates, monitoring, and enterprise controls. The trade-off is that prompts, files, retrieved context, and outputs may pass through a provider-managed service, depending on the product and agreement.
+
+Local or private deployments can give organisations more control over where inference happens, which data leaves the environment, and how the system is integrated. They also create operational responsibility: hardware, updates, security, model serving, monitoring, performance, and evaluation still need ownership.
+
+Open-weight does not automatically mean unrestricted, safe, or free of obligations. The licence still matters, and teams still need to assess quality, security, provenance, performance, and fit for purpose.
+
+Small models can be useful when latency, cost, privacy, offline use, or deployment size matters more than maximum general capability. They may be easier to run locally or on-device, but they still need testing against the actual task.
+
 ### Training versus inference
 
 ![Infographic comparing AI training and inference, showing training as large datasets, compute, weight adjustment, and trained model creation, and inference as prompt plus context, trained model use, output tokens, and enterprise review](/assets/images/blog/enterprise-ai-training-versus-inference.png)
@@ -748,6 +1124,41 @@ During **inference**, a trained model is used. The model receives input tokens, 
 For most enterprise adoption, the daily activity is inference, not training. Teams are usually choosing a model, providing context, connecting tools or data sources, setting permissions, evaluating outputs, and deciding where human review is required.
 
 This distinction matters because many enterprise problems do not require training a new model. Often the safer and more maintainable approach is to use an approved model with better prompts, retrieval, access controls, evaluation, and workflow design.
+
+### Training data, datasets, and bias
+
+Training depends on data. A model does not learn from nothing; it learns patterns from datasets.
+
+- a **dataset** is a collection of examples used for training, evaluation, or analysis
+- **training data** shapes what patterns the model learns
+- data quality affects usefulness, accuracy, safety, and coverage
+- biased or incomplete data can produce biased or incomplete behaviour
+- evaluation should test how the system behaves across realistic users, tasks, and edge cases
+
+For AI 101 readers, the key idea is simple: model behaviour is shaped by model design, training process, and data. If important examples are missing, over-represented, outdated, low quality, or poorly labelled, the model may learn weak patterns or reproduce unwanted assumptions.
+
+Bias does not only mean intentional unfairness. It can come from historical data, collection methods, missing groups, skewed examples, labelling choices, or the way a system is evaluated. A model trained mostly on one type of language, customer, document, coding style, or cultural context may perform less well outside that context.
+
+This is why evaluation matters. Good evaluation does not only ask “does the model usually answer well?” It also asks where it fails, which users or tasks are poorly served, whether the output is grounded, whether sensitive use cases need review, and whether performance changes over time.
+
+### Benchmarks, evaluation, and real-world testing
+
+AI systems are often compared using benchmarks. A **benchmark** is a standard test or comparison used to measure performance on selected tasks.
+
+- public benchmarks can help compare general model capability
+- private evaluation sets test performance on your real tasks, documents, users, and risks
+- acceptance criteria define what counts as correct, acceptable, risky, incomplete, or requiring human review
+- good evaluation checks quality, safety, bias, latency, cost, grounding, and failure modes
+- regression tests help detect when a prompt, model, retrieval system, or workflow change breaks something that previously worked
+- human review is still important because some failures are contextual, subtle, or business-specific
+
+Benchmarks are useful, but they are not the same as proof that a model is right for a specific organisation. Public benchmarks can become less useful when models are trained or tuned around them, or when the benchmark tasks do not resemble real business work. A model may score well on public tests and still perform poorly on your terminology, codebase, policies, customer conversations, document formats, or risk tolerance.
+
+For enterprise use, evaluation should include realistic examples. That can mean past support tickets, anonymised documents, known difficult questions, edge cases, policy-sensitive prompts, prompt-injection attempts, accessibility needs, multilingual examples, and examples where the correct answer is “I do not know”.
+
+Useful evaluation also needs repeatability. Teams should record the model version, prompt version, retrieval sources, settings, and test results so changes can be compared over time.
+
+In practice, evaluation should be an ongoing process, not a one-time model selection exercise. Models change, prompts change, retrieval content changes, business rules change, and user behaviour changes. Good AI adoption needs a way to measure whether the system is still useful, safe, and trustworthy over time.
 
 ### What are AI tokens?
 
@@ -901,6 +1312,22 @@ There are two main ways tokens are consumed:
 - **input tokens**: what the model has to read, including prompts, pasted text, uploaded content, system instructions, prior conversation context, retrieved documents, and tool output
 - **output tokens**: what the model has to write in response
 
+### Sampling, temperature, and top-p
+
+When a language model generates text, it usually does not choose from one guaranteed next word. It produces probabilities for possible next tokens, then the system chooses which token to emit.
+
+- **sampling** is the process of choosing output tokens from the model’s probability distribution
+- **temperature** controls how predictable or varied the sampled output is
+- **top-p** limits sampling to a selected group of likely next tokens
+- lower randomness usually produces more stable, repeatable output
+- higher randomness can produce more varied output, but may also increase inconsistency
+
+A low temperature is often useful for factual summaries, extraction, classification, structured outputs, and repeatable workflows. A higher temperature can be useful for brainstorming, creative drafting, naming ideas, or exploring alternatives.
+
+Top-p, sometimes called nucleus sampling, works differently. Instead of directly changing randomness, it limits the set of candidate tokens considered during generation. For example, the system may choose only from the smallest group of likely tokens whose combined probability reaches a chosen threshold.
+
+Generation settings affect behaviour. If an AI system needs consistency, reliability, or structured output, those settings should be chosen deliberately and tested with realistic examples. If the goal is exploration or creativity, more variation may be acceptable.
+
 ### Context windows
 
 ![Infographic explaining context windows as a token-limited working area containing system instructions, prompt, history, retrieved documents, files, tool results, and reply budget, with enterprise design trade-offs](/assets/images/blog/enterprise-ai-context-windows.png)
@@ -919,7 +1346,7 @@ A larger context window can help with long documents, codebases, and multi-step 
 
 In enterprise systems, context-window design matters because teams must decide what data is retrieved, how documents are chunked, how much history is retained, what tool output is passed back to the model, and what sensitive information should never enter context.
 
-The practical rule is simple: give the model enough relevant context to do the task, but avoid dumping everything into the prompt.
+A good rule of thumb is to give the model enough relevant context to do the task, but avoid dumping everything into the prompt.
 
 Tokens also matter for cost and performance.
 
@@ -1012,7 +1439,7 @@ Useful defences include:
 - logging tool calls and unusual behaviour
 - testing workflows with hostile or misleading examples
 
-The practical rule is simple: external content should inform the model, not control the system.
+External content should inform the model, not control the system.
 
 ### Tools, agents, and MCP
 
@@ -1048,7 +1475,34 @@ For enterprise use, tool and MCP design should include:
 - protection against prompt injection and data leakage
 - separation between read-only actions and write or execute actions
 
-The practical rule is that tools turn AI from an adviser into an actor. That can be powerful, but every action path needs ownership, permissions, monitoring, and a way for humans to intervene.
+Tools turn AI from an adviser into an actor. That can be powerful, but every action path needs ownership, permissions, monitoring, and a way for humans to intervene.
+
+### Structured outputs and function calling
+
+Free-form text is useful for explanation, brainstorming, and drafting. Serious workflows often need something more predictable.
+
+- **structured outputs** ask the model to respond in a defined shape, such as JSON, a table, a checklist, or a schema
+- **function calling** asks the model to produce a structured request that an application can use to call a tool, API, or function
+- schemas help applications validate whether the response has the expected fields and types
+- predictable output makes automation, testing, logging, and review easier
+- structured output still needs validation because a model can produce malformed, incomplete, or semantically wrong data
+
+For example, instead of asking an AI system to “summarise this support ticket”, an application might ask for a structured result:
+
+```json
+{
+  "summary": "Customer cannot access the billing portal.",
+  "priority": "medium",
+  "category": "account_access",
+  "needs_human_review": true
+}
+```
+
+That structure is easier for software to route, validate, store, search, or display. It also makes failures easier to detect: a missing field, invalid category, or unexpected value can be rejected or sent for human review.
+
+Function calling goes one step further. The model may decide that a tool is needed and produce a structured call such as “search the knowledge base”, “create a ticket”, “query this database”, or “run this validation”. The surrounding application should still decide which tools exist, what arguments are allowed, which actions require approval, and how results are checked.
+
+Use free-form text for human-facing explanation, and structured outputs or function calling when another system needs to reliably consume the result.
 
 ### Prompts, instructions, and guardrails
 
@@ -1066,7 +1520,68 @@ This matters because a model is not used in isolation. The same underlying model
 
 Prompt quality still matters, but enterprise reliability should not depend only on users writing perfect prompts. Good systems make the safe path easy by providing clear templates, approved data sources, sensible defaults, and review steps for higher-risk work.
 
-The practical rule is that prompting is part of system design. For serious workflows, prompts should be tested, versioned, reviewed, and improved like other important business logic.
+For serious workflows, prompting is part of system design. Prompts should be tested, versioned, reviewed, and improved like other important business logic.
+
+### AI support files, rules, and skills
+
+Some AI tools can read support files from a project, repository, workspace, or user profile. These files provide extra context beyond the visible prompt.
+
+Common examples include files such as `AGENTS.md`, `CLAUDE.md`, `.cursor/rules/`, `.windsurfrules`, `.github/copilot-instructions.md`, `SKILL.md`, `SKILLS.md`, or tool-specific equivalents. The exact names vary by tool. The important idea is not the filename itself, but the role these files play: they tell the AI how to work in a specific environment.
+
+Support files may describe:
+
+- coding style and formatting expectations
+- project architecture and folder conventions
+- commands for building, testing, or validating work
+- safety rules, such as files not to edit or commands not to run
+- preferred libraries, frameworks, or local helper APIs
+- review expectations, acceptance criteria, and definition of done
+
+Skills are a related idea. A skill is a reusable task-specific instruction bundle that teaches an AI agent how to handle a specialised workflow. A skill may include guidance, examples, scripts, templates, assets, or constraints. For example, a skill might explain how to generate images, review security code, write release notes, create documentation, or follow a company writing style.
+
+An `AGENTS.md` file might contain project-level guidance such as:
+
+```markdown
+# AGENTS.md
+
+## Project context
+
+- This repository is a static Jekyll website.
+- Source content lives in `docs/`.
+- Do not edit generated output in `docs/_site/`.
+
+## Working rules
+
+- Preserve existing URLs and front matter.
+- Prefer small, high-confidence changes.
+- Use British English.
+- Validate with `bundle exec jekyll build --source docs --destination docs/_site`.
+```
+
+A `SKILL.md` or `SKILLS.md` file might describe a reusable workflow:
+
+```markdown
+# Image generation skill
+
+Use this skill when creating blog images or visual explainers.
+
+## Workflow
+
+1. Confirm the image purpose and audience.
+2. Reuse existing assets where suitable.
+3. Generate a professional 16:9 image.
+4. Save the final asset under `docs/assets/images/blog/`.
+5. Add descriptive alt text when referencing the image.
+
+## Constraints
+
+- Avoid watermarks, logos, and unreadable text.
+- Keep file sizes reasonable for a static website.
+```
+
+These files are useful because they make expectations explicit. Instead of repeating the same instructions in every prompt, teams can store shared guidance where the AI tool can find it. That can improve consistency, reduce avoidable mistakes, and help agents follow local practice.
+
+They are not magic, though. Support files and skills still need to be reviewed, maintained, and aligned with the real project. If they are outdated, vague, contradictory, or too broad, they can confuse the AI or encourage unsafe behaviour. For serious work, treat them like lightweight operational documentation: versioned, reviewed, and kept close to the workflows they influence.
 
 ### Examples of current AI infrastructure and developer tools
 
@@ -1103,7 +1618,7 @@ Important lifecycle questions include:
 
 These questions vary by product, licence, deployment model, and provider agreement. A personal account, a free tool, an enterprise tenant, a private cloud deployment, and a local model can have very different data-handling behaviours.
 
-The practical rule is to classify the data before choosing the tool. Public, internal, confidential, regulated, customer, security, legal, and source-code data should not all be treated the same way.
+Classify the data before choosing the tool. Public, internal, confidential, regulated, customer, security, legal, and source-code data should not all be treated the same way.
 
 ### Operational practices that make AI safer
 
@@ -1217,6 +1732,7 @@ Before scaling AI use, organisations should be able to answer a small set of pra
 - **Evaluation**: how are accuracy, safety, usefulness, bias, failure modes, and business impact tested?
 - **Logging and monitoring**: what prompts, responses, retrieval events, tool calls, costs, and errors are recorded?
 - **Escalation**: where do people go when a use case is valuable but uncertain, sensitive, or high risk?
+- **Synthetic media**: how are AI-generated images, audio, video, screenshots, summaries, or public-facing content reviewed, labelled, and approved?
 - **Training**: how do teams learn safe usage, prompt discipline, data handling, prompt-injection risk, and review expectations?
 
 If these questions are unclear, adoption may still happen, but it will be harder to govern. A short checklist will not solve every problem, but it gives leaders and teams a shared starting point.
