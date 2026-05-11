@@ -18,8 +18,10 @@
       </header>
     </div>
 
+    {% assign toc_sections = content | split: '<h2 id="' %}
+
     <div id="main_content_wrap" class="outer">
-      <main id="main_content" class="inner" aria-label="Main content">
+      <main id="main_content" class="inner{% if page.toc and page.toc_sticky and toc_sections.size > 1 %} has-sticky-toc{% endif %}" aria-label="Main content">
 
         {% if page.collection == "stories" and page.cover %}
   <div class="story-hero">

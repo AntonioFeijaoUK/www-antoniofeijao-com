@@ -11,7 +11,6 @@
   var topicSelect = document.getElementById("timeline-topic");
   var typeSelect = document.getElementById("timeline-type");
   var regionSelect = document.getElementById("timeline-region");
-  var statusSelect = document.getElementById("timeline-status");
   var confidenceSelect = document.getElementById("timeline-confidence");
 
   if (
@@ -22,7 +21,6 @@
     !topicSelect ||
     !typeSelect ||
     !regionSelect ||
-    !statusSelect ||
     !confidenceSelect
   ) {
     return;
@@ -156,7 +154,6 @@
     var topic = normalize(topicSelect.value);
     var type = normalize(typeSelect.value);
     var region = normalize(regionSelect.value);
-    var status = normalize(statusSelect.value);
     var confidence = normalize(confidenceSelect.value);
 
     var filtered = items.filter(function (item) {
@@ -183,9 +180,6 @@
         return false;
       }
       if (region && normalize(item.region) !== region) {
-        return false;
-      }
-      if (status && normalize(item.status) !== status) {
         return false;
       }
       if (confidence && normalize(item.confidence) !== confidence) {
@@ -240,15 +234,6 @@
         "All regions"
       );
       fillSelect(
-        statusSelect,
-        uniqueSorted(
-          items.map(function (item) {
-            return item.status;
-          })
-        ),
-        "All statuses"
-      );
-      fillSelect(
         confidenceSelect,
         uniqueSorted(
           items.map(function (item) {
@@ -270,6 +255,5 @@
   topicSelect.addEventListener("change", applyFilters);
   typeSelect.addEventListener("change", applyFilters);
   regionSelect.addEventListener("change", applyFilters);
-  statusSelect.addEventListener("change", applyFilters);
   confidenceSelect.addEventListener("change", applyFilters);
 })();

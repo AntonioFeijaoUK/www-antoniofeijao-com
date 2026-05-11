@@ -92,8 +92,6 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
-  - _timeline/index.html
-  - _timeline/index copy.html
   - _timeline/script.js
   - _timeline/styles.css
   - _timeline/events.json

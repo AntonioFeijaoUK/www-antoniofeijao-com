@@ -11,12 +11,22 @@ This timeline is being rebuilt as a curated, source-backed reference focused on 
 
 Only verified entries are being migrated into the new structure. Each published event links to its own page and includes source references.
 
+## Why This Timeline Matters
+
+History is not just a sequence of dates. It is a chain of choices, discoveries, conflicts, failures, recoveries, and shared breakthroughs. This timeline is intended to make those connections easier to explore.
+
+Scientific and technological milestones show how human curiosity turns into tools, systems, institutions, and new risks. Space exploration, computing, cryptography, cybersecurity, medicine, infrastructure, and global conflict all intersect: progress in one area often changes the conditions in another.
+
+The timeline also invites reflection on responsibility. New capabilities can expand knowledge, improve lives, and strengthen cooperation, but they can also create ethical, security, environmental, and social challenges. Looking across events helps us ask better questions about how innovation should be used, governed, defended, and shared.
+
+Most of all, this is a learning map. The goal is to connect individual events to wider patterns so the past becomes easier to investigate, compare, and learn from.
+
 <section class="timeline-panel">
   <div class="timeline-intro-grid">
     <div>
       <h2>Browse Verified Events</h2>
       <p class="timeline-muted">
-        Filter by topic, type, region, status, confidence, or search terms.
+        Filter by topic, type, region, confidence, or search terms.
       </p>
     </div>
     <div class="timeline-stats" id="timeline-stats">
@@ -52,13 +62,6 @@ Only verified entries are being migrated into the new structure. Each published 
     </label>
 
     <label>
-      Status
-      <select id="timeline-status" name="status">
-        <option value="">All statuses</option>
-      </select>
-    </label>
-
-    <label>
       Confidence
       <select id="timeline-confidence" name="confidence">
         <option value="">All confidence levels</option>
@@ -66,5 +69,11 @@ Only verified entries are being migrated into the new structure. Each published 
     </label>
   </form>
 </section>
+
+<noscript>
+  <p class="timeline-muted">
+    JavaScript is required to load and filter the timeline events.
+  </p>
+</noscript>
 
 <section class="timeline-results" id="timeline-results" aria-live="polite"></section>
