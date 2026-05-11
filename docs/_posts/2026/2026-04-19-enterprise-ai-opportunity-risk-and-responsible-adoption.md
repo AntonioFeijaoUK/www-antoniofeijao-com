@@ -4,7 +4,7 @@ description: "A practical AI, GenAI, and LLMs 101 guide for professionals, cover
 excerpt: "A practical guide to understanding AI, GenAI, and LLMs, from core concepts and technical foundations to enterprise security, risk, governance, and responsible adoption."
 author: "Antonio Feijao UK"
 date: 2026-04-19
-last_modified_at: 2026-05-07
+last_modified_at: 2026-05-11
 categories:
   - AI
   - Enterprise
@@ -1343,6 +1343,68 @@ These probabilities are not stored as a simple table inside the model. They are 
 
 ---
 
+### Model runtimes and inference engines
+
+Model files are only part of the story. A model also needs software that can load those files, prepare the input, run the calculation, and return generated output.
+
+That software is often called a **runtime**, **inference engine**, or **serving stack**. The exact terminology depends on the tool, platform, and deployment model, but the basic idea is simple: the model contains learned weights and configuration, while the runtime is the machinery that uses them.
+
+A simplified local inference flow looks like this:
+
+```text
+user prompt
+  -> tokenizer
+  -> model runtime / inference engine
+  -> model weights and configuration
+  -> next-token probabilities
+  -> generated output
+```
+
+In hosted AI products, most users never see this layer. The provider runs the serving infrastructure behind an application or API. In local AI, private deployments, edge AI, or developer experiments, the runtime becomes more visible because someone has to choose, install, configure, update, and monitor it.
+
+[`llama.cpp`](https://github.com/ggml-org/llama.cpp) is an important open-source example. It is a C/C++ project for running LLM inference efficiently, especially in local workflows and with formats such as GGUF. It helped make local experimentation with quantised models more practical on ordinary computers.
+
+One reason this matters is **numerical precision**.
+
+Model weights are numbers. During training and high-performance serving, those numbers may use higher-precision formats such as 32-bit or 16-bit floating point values. Higher precision can preserve more numerical detail, but it also uses more memory and compute.
+
+For local inference, many models are converted into lower-precision or **quantised** formats. Quantisation stores the model weights using fewer bits, such as 8-bit, 6-bit, 5-bit, or 4-bit representations. The exact schemes vary, but the practical idea is easy to understand: fewer bits per weight usually means a smaller model file, lower memory use, and a better chance of running the model on a laptop, desktop CPU, or lower-memory device.
+
+That trade-off is not free. Lower precision can reduce quality, especially if the model is pushed too far or used for a task that needs careful reasoning, coding accuracy, or domain detail. But good quantisation can be surprisingly useful, and it is one of the reasons local LLMs became practical for many people.
+
+A rough mental model:
+
+```text
+higher precision
+  -> more memory and compute
+  -> often better fidelity
+
+lower precision / quantised
+  -> less memory and compute
+  -> easier local inference
+  -> possible quality trade-offs
+```
+
+This is where tools such as `llama.cpp` became important. They do not make every model tiny or every laptop powerful, but they make it easier to load efficient model formats, use CPU-friendly execution paths, and experiment with models that would otherwise need more specialised hardware.
+
+The model is the learned architecture and weights; the runtime is the software that loads and executes it.
+
+Cloud providers, research labs, model platforms, and enterprise systems may use many different runtimes, accelerators, serving frameworks, and orchestration layers.
+
+The main lesson is to separate three ideas:
+
+- **model**: the learned weights, architecture, tokenizer, and configuration
+
+- **runtime**: the software that loads the model and performs inference
+
+- **application**: the chat interface, agent, workflow, API, permissions, logs, tools, and user experience around the runtime
+
+This separation helps avoid a common misunderstanding. Choosing a model is not the same as choosing the whole AI system.
+
+The runtime and application layers also affect speed, cost, privacy, reliability, security, and operational responsibility.
+
+---
+
 ### Hosted, local, open-weight, and small models
 
 AI models can be delivered in different ways. The model architecture matters, but so does where the model runs and who controls the surrounding system.
@@ -1369,6 +1431,41 @@ Local or private deployments can give organisations more control over where infe
 Open-weight does not automatically mean unrestricted, safe, or free of obligations. The licence still matters, and teams still need to assess quality, security, provenance, performance, and fit for purpose.
 
 Small models can be useful when latency, cost, privacy, offline use, or deployment size matters more than maximum general capability. They may be easier to run locally or on-device, but they still need testing against the actual task.
+
+---
+
+### Ollama as a local model example
+
+Ollama is a practical example of local AI tooling. It helps users download, manage, and run language models on their own machine or local environment without manually assembling every runtime, model file, and command from scratch.
+
+Ollama is useful here because it makes the local model idea more concrete:
+
+- a model can be downloaded
+- a local runtime can load it
+- prompts can be sent to it
+- responses can be generated without calling a hosted chat service for every request
+
+The [Ollama model library](https://ollama.com/library) changes over time, so specific model names should be treated as examples rather than a fixed list. At the time of writing, Ollama commonly includes models from different organisations and ecosystems, such as Meta Llama-family models, Google Gemma models, Alibaba Qwen models, IBM Granite models, NVIDIA-related models, Microsoft Phi models, Mistral models, DeepSeek models, and others.
+
+The important lesson is not that one model family is always best. Different models vary by size, licence, capability, context window, speed, memory requirements, hardware fit, and behaviour on different tasks.
+
+There is also a supply-chain lesson here. A model is not automatically trustworthy just because it appears in a library or can be downloaded locally. Models, adapters, datasets, fine-tunes, prompts, tools, and runtimes all have provenance.
+
+If a model has been tampered with, trained on poisoned data, or fine-tuned with malicious examples, it may behave normally most of the time but produce unsafe output in specific situations. For example, a compromised model could appear helpful while occasionally suggesting vulnerable code, insecure configuration, or a backdoored command.
+
+This is not unique to Ollama. It is a general AI supply-chain risk. Model source, licence, version, maintainer reputation, update process, model card, checksums where available, and realistic testing all matter.
+
+Running a model locally can be helpful for learning, experimentation, privacy-sensitive workflows, offline use, and understanding how inference feels outside a hosted product. But local does not automatically mean better, safer, or more accurate. The same questions still matter:
+
+- where did the model come from?
+- what licence applies?
+- what hardware does it need?
+- how well does it perform on the task?
+- what data is being entered?
+- how are outputs checked?
+- who maintains the runtime and model updates?
+
+Ollama is therefore best understood as a friendly doorway into local inference. It makes experimentation easier, but the surrounding judgement still matters.
 
 ---
 
@@ -1412,7 +1509,7 @@ Biased, incomplete, outdated, or poorly labelled data can produce biased or inco
 - **Evaluation**  
 Should test how the system behaves across realistic users, tasks, and edge cases.
 
-For AI 101 readers, the key idea is simple: model behaviour is shaped by model design, training process, and data. If important examples are missing, over-represented, outdated, low quality, or poorly labelled, the model may learn weak patterns or reproduce unwanted assumptions.
+The key idea is simple: model behaviour is shaped by model design, training process, and data. If important examples are missing, over-represented, outdated, low quality, or poorly labelled, the model may learn weak patterns or reproduce unwanted assumptions.
 
 Bias does not only mean intentional unfairness. It can come from historical data, collection methods, missing groups, skewed examples, labelling choices, or the way a system is evaluated. A model trained mostly on one type of language, customer, document, coding style, or cultural context may perform less well outside that context.
 
@@ -2010,13 +2107,27 @@ They are not magic, though. Support files and skills still need to be reviewed, 
 
 ### Examples of current AI infrastructure and developer tools
 
-The AI tooling landscape changes quickly, so named tools should be treated as examples rather than permanent recommendations. Two useful examples are:
+The AI tooling landscape changes quickly, so named tools should be treated as examples rather than permanent recommendations. A few useful examples are:
 
 - **OpenCode**  
 An open-source AI coding agent that can run in the terminal, desktop, or IDE, and connect to different model providers. It is a useful example of agentic developer tooling, where the AI can inspect code, suggest changes, and work through development tasks with user oversight.
 
 - **OpenRouter**  
 An API and model routing layer that provides access to many models through one interface. It is a useful example of provider abstraction, where teams can compare or switch models without rebuilding every application integration from scratch.
+
+- **LangChain and LangGraph**
+Open-source frameworks for building LLM applications and agent workflows. They are useful examples of the orchestration layer around models, where prompts, tools, state, retrieval, human approval, and multi-step execution need to be coordinated.
+
+- **LlamaIndex**
+An open-source framework focused on connecting LLM applications to data. It is a useful example of the retrieval and context layer, where documents, indexes, connectors, and workflows help an application find and use relevant information.
+
+- **Hermes Agent**
+An open-source autonomous agent project from Nous Research. It is a useful example of the application and agent layer around models, where memory, tools, skills, scheduled work, terminal or browser automation, and messaging integrations can be combined into a workflow.
+
+- **Fox in the Box**
+A packaged way to run Hermes Agent as a self-hosted or containerised deployment with a web interface. It is a useful example of how agent tooling can be packaged for local or private operation, rather than existing only as a hosted SaaS product.
+
+Hermes Agent and Fox in the Box are not models in the same sense as an LLM. They sit higher in the stack: they connect models to tools, context, automation, interfaces, and operating environments.
 
 The enterprise lesson is to understand the layers, not just the product names:
 
@@ -2177,27 +2288,65 @@ The most useful learning principle is to keep three layers distinct: **computer 
 
 ![Infographic showing a layered AI learning path from computer science and Python through machine learning, deep learning, and LLM engineering, with example milestones such as CS50x, CS50 Python, CS50 AI, and MIT Deep Learning](/assets/images/blog/enterprise-ai-suggested-courses-and-learning-resources.png)
 
-For deeper study, learn in layers: computing fundamentals, Python, machine learning, deep learning, and the engineering patterns behind modern LLM-based systems.
+For deeper study, learn in layers: computing fundamentals, Python, machine learning, deep learning, LLM engineering, security, and current industry practice.
 
-Useful starting points:
+This list is a starting map, not a permanent ranking. AI changes quickly, so mix slower foundations with current commentary, primary-source guidance, and practical conference material.
 
-- **Harvard Professional & Lifelong Learning — Data Science and AI for Decision Making**  
-Useful for connecting AI concepts to decision-making and organisational use: <https://pll.harvard.edu/course/data-science-and-ai-decision-making>
+**Structured courses and learning paths**
 
-- **Harvard CS50x — Introduction to Computer Science**  
-Useful for building computing fundamentals: <https://cs50.harvard.edu/x/>
+- **Harvard Professional & Lifelong Learning — Data Science and AI for Decision Making**: useful for connecting AI concepts to decision-making and organisational use: <https://pll.harvard.edu/course/data-science-and-ai-decision-making>
 
-- **Harvard CS50’s Introduction to AI with Python**  
-Useful for learning classic AI concepts and practical Python examples: <https://cs50.harvard.edu/ai/>
+- **Harvard CS50x — Introduction to Computer Science**: useful for building computing fundamentals: <https://cs50.harvard.edu/x/>
 
-- **Harvard CS50’s Introduction to Programming with Python**  
-Useful for building Python confidence before deeper AI work: <https://cs50.harvard.edu/python/>
+- **Harvard CS50’s Introduction to AI with Python**: useful for learning classic AI concepts and practical Python examples: <https://cs50.harvard.edu/ai/>
 
-- **MIT Introduction to Deep Learning**  
-Useful for understanding neural networks and deep learning foundations: <https://introtodeeplearning.com/>
+- **Harvard CS50’s Introduction to Programming with Python**: useful for building Python confidence before deeper AI work: <https://cs50.harvard.edu/python/>
 
-- **Andrew Ng — Machine Learning Specialization (Coursera)**  
-Useful for structured machine learning foundations: <https://www.coursera.org/specializations/machine-learning-introduction>
+- **MIT Introduction to Deep Learning**: useful for understanding neural networks and deep learning foundations: <https://introtodeeplearning.com/>
+
+- **Andrew Ng — Machine Learning Specialization (Coursera)**: useful for structured machine learning foundations: <https://www.coursera.org/specializations/machine-learning-introduction>
+
+- **Pluralsight — AI Foundations and AI courses**: useful for structured professional learning paths, short courses, hands-on labs, and team upskilling: <https://www.pluralsight.com/paths/ai-foundations> and <https://www.pluralsight.com/ai>
+
+- **O’Reilly — books and online learning**: useful for deeper technical books, videos, live courses, interactive labs, AI and ML material, software architecture, security, cloud, and engineering practice: <https://www.oreilly.com/>
+
+**Books and summaries**
+
+- **Artificial Intelligence: A Guide for Thinking Humans — Melanie Mitchell**: useful for a careful, readable explanation of AI history, capability, limits, and hype: <https://melaniemitchell.me/aibook/>
+
+- **What Is ChatGPT Doing ... and Why Does It Work? — Stephen Wolfram**: useful for a short explanation of language models, neural networks, embeddings, probabilities, and why ChatGPT-style systems work: <https://www.wolfram.com/books/profile.cgi?id=9846>
+
+- **Blinkist and book summaries**: useful for quickly triaging unfamiliar topics and deciding which full books are worth reading. Treat summaries as orientation, not as a substitute for reading the source material: <https://www.blinkist.com/>
+
+**Podcasts and ongoing commentary**
+
+- **TWiT — Intelligent Machines**: useful for ongoing discussion about AI, emerging technology, policy, products, and social impact: <https://twit.tv/shows/intelligent-machines>
+
+- **Club TWiT — AI User Group**: useful for practical community discussion around local AI, agents, workflows, and experimentation. This is part of the members-only TWiT+ programming: <https://twit.tv/shows/twit-plus-club-shows>
+
+- **Security Now — Steve Gibson and Leo Laporte**: useful for cybersecurity context, security fundamentals, and AI-related security deep dives as the threat landscape changes: <https://twit.tv/shows/security-now>
+
+**Selective video channels**
+
+- **IBM Think videos and IBM Technology**: useful for concise explainers on AI, data, automation, cybersecurity, hybrid cloud, agents, and enterprise technology: <https://www.ibm.com/think/videos> and <https://www.youtube.com/@IBMTechnology>
+
+- **IBM Developer**: useful for more hands-on developer-focused demos, technical walkthroughs, and implementation examples: <https://www.youtube.com/@IBMDeveloperAdvocates>
+
+**Conferences and field briefings**
+
+- **CrowdStrike Fal.Con**: useful for defender-focused views on AI-era cybersecurity, threat operations, SOC transformation, and agentic security: <https://www.crowdstrike.com/events/fal-con/>
+
+- **Cloudflare Connect and Cloudflare engineering/security writing**: useful for Internet infrastructure, edge, application security, AI-native apps, bots, workers, and secure-by-design thinking: <https://www.cloudflare.com/en-gb/connect/> and <https://blog.cloudflare.com/en-us/tag/ai/>
+
+- **AWS re:Invent and AWS re:Inforce security sessions**: useful for cloud architecture, security, identity, operations, and generative AI at enterprise scale. In 2026, AWS says re:Inforce will join re:Invent: <https://aws.amazon.com/events/reinvent> and <https://aws.amazon.com/events/reinforce/>
+
+**Government and industry guidance**
+
+- **NCSC CTO blog — Vibe check: AI may replace SaaS (but not for a while)**: useful for thinking about vibe coding, buy-versus-build pressure, secure design, and why AI-written software still needs assurance: <https://www.ncsc.gov.uk/blogs/vibe-check-ai-may-replace-saas-but-not-for-a-while>
+
+- **Careful Adoption of Agentic AI Services — joint guidance**: useful for understanding agentic AI risk, least privilege, accountability, visibility, and security controls. The guidance is available via CISA and Cyber.gov.au: <https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services> and <https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services>
+
+- **Anthropic Project Glasswing**: useful as a current example of how advanced AI capability can change vulnerability discovery, defensive security work, and the urgency of AI-aware cyber resilience: <https://www.anthropic.com/glasswing>
 
 ---
 
