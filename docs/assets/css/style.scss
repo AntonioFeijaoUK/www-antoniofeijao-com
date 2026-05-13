@@ -474,6 +474,25 @@ img {
   height: auto;
 }
 
+.article-image-card {
+  max-width: 680px;
+  margin: 1.4rem auto;
+  padding: 0.6rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.article-image-card img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.article-image-card-narrow {
+  max-width: 420px;
+}
+
 /* =========================
    Page table of contents
    ========================= */
@@ -563,7 +582,7 @@ img {
   .page-toc-sticky {
     position: fixed;
     top: 11rem;
-    left: calc(50vw - 577.5px);
+    left: calc(50vw - 620px);
     width: 280px;
     max-height: calc(100vh - 12.5rem);
     overflow-y: auto;
@@ -867,17 +886,28 @@ img {
 /* Reduce typography inside content pages */
 
 #main_content {
-  max-width: 835px;
+  max-width: 1000px;
   font-size: 0.95rem;   /* slightly reduce base text */
   line-height: 1.6;
 }
 
 @media (min-width: 1280px) {
   #main_content.inner.has-sticky-toc {
-    width: 835px;
-    max-width: calc(100vw - 368px);
-    margin-left: calc(50vw - 257.5px);
+    width: 920px;
+    max-width: calc(100vw - 360px);
+    margin-left: calc(50vw - 300px);
     margin-right: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .page-toc-sticky {
+    left: calc(50vw - 660px);
+  }
+
+  #main_content.inner.has-sticky-toc {
+    width: 1000px;
+    margin-left: calc(50vw - 340px);
   }
 }
 

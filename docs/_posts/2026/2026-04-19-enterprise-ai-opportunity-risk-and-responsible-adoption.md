@@ -635,7 +635,7 @@ The examples below are a snapshot as of April 2026, not a permanent vendor ranki
 
 General-purpose assistants are often the first AI tools people try. They are useful for drafting, summarising, research, brainstorming, analysis, and everyday problem-solving, but easy access can also make unmanaged adoption more likely.
 
-Examples at the time of writing include:
+**Examples at the time of writing**
 
 - ChatGPT
 - Claude
@@ -648,7 +648,11 @@ Examples at the time of writing include:
 - Notion AI
 - Box AI
 
+**What to remember**
+
 This list will continue to evolve, and some products may also appear in other categories because their capabilities differ by plan, integration, and operating model.
+
+**Enterprise question**
 
 The enterprise question is whether people are using approved tools, what data they are pasting into them, whether accounts are personal or managed, and whether outputs are being reviewed before use. Without clear answers, informal use tends to become the default.
 
@@ -660,7 +664,7 @@ The enterprise question is whether people are using approved tools, what data th
 
 Enterprise copilots bring AI into the tools where work already happens. Their value comes from working close to documents, meetings, tickets, messages, project plans, customer records, and knowledge bases.
 
-Examples at the time of writing include:
+**Examples at the time of writing**
 
 - Microsoft 365 Copilot
 - Google Workspace with Gemini
@@ -673,7 +677,11 @@ Examples at the time of writing include:
 - Notion AI
 - Box AI
 
+**What to remember**
+
 This list will continue to evolve, and some products overlap with the assistant category when they are used without deeper enterprise integration. The direction of travel is still clear: AI is increasingly being built directly into the tools people already use for work.
+
+**Enterprise question**
 
 That proximity is powerful, but it raises the governance bar. Organisations need to understand what the copilot can see, what it can infer from connected context, how permissions are handled, where retention and auditability sit, and where human review is required before action.
 
@@ -685,7 +693,7 @@ That proximity is powerful, but it raises the governance bar. Organisations need
 
 Model platforms provide the building blocks for selecting models, building applications, connecting enterprise data, defining workflows, applying governance, and managing AI delivery at scale.
 
-Examples at the time of writing include:
+**Examples at the time of writing**
 
 - Amazon Bedrock
 - Microsoft Foundry
@@ -698,7 +706,11 @@ Examples at the time of writing include:
 - OpenAI platform
 - Anthropic platform
 
+**What to remember**
+
 The specific vendor mix will vary by organisation, but the market direction is clear: AI is increasingly being offered as a governed platform capability, not only as a standalone assistant.
+
+**Strategic question**
 
 The strategic question changes from *which chat tool should people use?* to *how do we build, connect, govern, and scale AI deliberately?* This is where AI moves from an individual productivity tool to an organisational capability. A well-governed platform can make safe patterns easier to repeat. A poorly governed platform can make unsafe patterns easier to repeat at scale.
 
@@ -710,7 +722,7 @@ The strategic question changes from *which chat tool should people use?* to *how
 
 Coding agents deserve special attention because they operate close to source code, architecture, pipelines, tests, configurations, and sometimes credentials or operational context. They can accelerate development, but they can also amplify exposure if access and review are weak.
 
-Examples at the time of writing include:
+**Examples at the time of writing**
 
 - Codex
 - Claude Code
@@ -723,13 +735,19 @@ Examples at the time of writing include:
 - SAP Joule for Developers
 - ServiceNow Now Assist for Creator
 
+**What to remember**
+
 The market will continue to evolve, but the overall direction is clear: coding assistance is moving toward more agentic, multi-step, workflow-aware behaviour.
+
+**Enterprise question**
 
 Coding agents change the developer experience from *help me write this function* to *help me reason across this codebase, update files, propose tests, run commands, and move work forward*. That shift is valuable, but acceleration is not assurance. Organisations need clear rules for approved tools, personal versus enterprise-managed use, repository access, secrets handling, dependency and licence review, security checks, and human review before code is accepted or deployed.
 
 ---
 
 ## Vibe coding, spec coding, and engineering judgement
+
+![Cinematic enterprise AI software engineering infographic contrasting vibe coding exploration with spec coding discipline, connected by engineering judgement, review, testing, security, privacy, accessibility, performance, and maintainability](/assets/images/blog/enterprise-ai-vibe-coding-spec-coding-engineering-judgement.png)
 
 AI has made it easier for people to create software by describing what they want in natural language. That can be useful, but the quality of the result still depends on judgement, constraints, testing, and review.
 
@@ -910,6 +928,8 @@ Guardrails are not the enemy of innovation. They are what make innovation sustai
 
 Good guardrails combine technical, procedural, and cultural measures.
 
+---
+
 **Technical guardrails**
 
 - SSO and identity integration
@@ -920,6 +940,8 @@ Good guardrails combine technical, procedural, and cultural measures.
 - repository, API, and connector restrictions where needed
 - environment separation between sandbox and production
 
+---
+
 **Procedural guardrails**
 
 - approved-tool lists
@@ -929,6 +951,8 @@ Good guardrails combine technical, procedural, and cultural measures.
 - security, privacy, and legal assessment where appropriate
 - criteria for moving from experimentation to production use
 
+---
+
 **Cultural guardrails**
 
 - training that explains both value and risk
@@ -937,7 +961,13 @@ Good guardrails combine technical, procedural, and cultural measures.
 - reinforcement that human accountability still applies
 - visible support from leadership for safe experimentation
 
+---
+
+**Practical principle**
+
 The practical principle is simple: do not force people into unsafe workarounds; give them a safer, better path instead.
+
+**Adoption test**
 
 Approved tools must be:
 
@@ -949,6 +979,8 @@ Approved tools must be:
 
 If the safe path is too slow, obscure, or restrictive for reasonable use cases, people will route around it.
 
+**Developer and engineering teams**
+
 For developers and engineers, controlled enablement is especially important. Technical teams need:
 
 - approved coding assistants or agents where appropriate
@@ -956,6 +988,8 @@ For developers and engineers, controlled enablement is especially important. Tec
 - clear rules on what code and data may be shared
 - human review requirements for production-impacting outputs
 - confidence that responsible use is supported, not punished
+
+**Objective**
 
 The objective is not to block AI. It is to make secure adoption easier than insecure adoption, especially for teams already under delivery pressure.
 
@@ -1067,6 +1101,8 @@ Used well, AI can help people think faster, explore more options, reduce repetit
 
 The best mindset is **copilot, not autopilot**. Treat AI as a drafting partner, thinking aid, and accelerator, not as a final approver or source of guaranteed truth.
 
+---
+
 **Start with the outcome**  
 A vague prompt usually produces a vague answer. Before using AI, decide the outcome, audience, format, level of detail, constraints, and success criteria. For example, instead of:
 
@@ -1077,6 +1113,8 @@ ask:
 - `Explain the top five cloud security risks for a senior product manager in plain English, using concise bullet points and practical examples.`
 
 The second prompt gives the model a clearer audience, scope, format, and level of detail.
+
+---
 
 **Provide relevant context**  
 Useful context may include:
@@ -1091,8 +1129,12 @@ Useful context may include:
 
 However, more context is not always better. Irrelevant or excessive context can dilute the focus, waste tokens, slow the response, increase cost, and make the answer less precise. The goal is relevant context.
 
+---
+
 **Ask for the format you need**  
 Ask for the structure you need: bullet points, summary, checklist, step-by-step plan, executive briefing, risk register, pseudocode, or pros and cons. Good format instructions reduce editing time.
+
+---
 
 **Work in stages**  
 For large or complex tasks, work in stages:
@@ -1104,6 +1146,8 @@ For large or complex tasks, work in stages:
 - then do a final consistency pass
 
 This is usually better than asking for the perfect final answer in one go, especially for long documents, technical writing, code generation, presentations, analysis, or policy drafting.
+
+---
 
 **Use AI for drafts, options, and challenge**  
 AI is particularly useful for:
@@ -1117,14 +1161,22 @@ AI is particularly useful for:
 
 But a first draft is not a final output. Human review is still needed for correctness, nuance, security, legal implications, architecture quality, organisational fit, tone, and judgement.
 
+---
+
 **Verify important outputs**  
 Verify important outputs, especially when they relate to security, law, compliance, medicine, finance, architecture, code safety, operational decisions, or public claims. Verification may require primary sources, calculations, tests, subject-matter experts, or comparison against known standards. A useful habit is: trust usefulness, verify correctness.
+
+---
 
 **Expect some variation**  
 AI answers may vary between runs, especially when the task is open-ended or creative. For important work, treat variation as a reason to compare, test, and verify rather than a reason to accept the most confident-looking answer. If consistency matters, use clearer instructions, tighter formats, lower-variation settings where available, and repeatable review steps.
 
+---
+
 **Protect sensitive information**  
 Protect sensitive information. Do not paste internal source code, credentials, secrets, customer data, commercially sensitive plans, internal documents, legal material, security architecture, incident details, or regulated data into unapproved tools. Convenience is never a good reason to bypass data-handling rules.
+
+---
 
 **Keep human accountability**  
 The human remains responsible for:
@@ -1137,6 +1189,8 @@ The human remains responsible for:
 - what users ultimately experienced
 - what risk was introduced
 
+---
+
 **Make good AI use a team habit**  
 Good AI use is also a team habit:
 
@@ -1147,6 +1201,8 @@ Good AI use is also a team habit:
 - documenting where AI helped and where human validation was applied
 - encouraging questions when a use case feels unclear or high-risk
 - rewarding quality and judgement, not only speed
+
+---
 
 **Use a simple workflow**  
 A strong practical workflow is:
@@ -1271,6 +1327,10 @@ For enterprise readers, the practical lesson is not to over-focus on architectur
 
 When people use a hosted AI service, they usually never see the model files. The model runs inside the provider’s infrastructure, behind an API or application interface. But if a model is downloaded or deployed locally, it is usually made of files on disk.
 
+---
+
+**Local folder view**
+
 A simplified local model directory might look like this:
 
 ```text
@@ -1285,6 +1345,10 @@ model/
   model-00003-of-00004.safetensors
   model-00004-of-00004.safetensors
 ```
+
+---
+
+**Common model files**
 
 A simplified model folder might contain:
 
@@ -1303,6 +1367,10 @@ Licence, model card, generation settings, or deployment notes.
 - **Sharded files**  
 Large models may be split across multiple weight files because one file would be too large.
 
+---
+
+**Formats and size**
+
 Common file formats can include `.safetensors`, `.bin`, `.gguf`, PyTorch checkpoint files, TensorFlow checkpoint files, JSON configuration files, and tokenizer vocabulary files. The exact layout depends on the framework, model family, hosting platform, and deployment target.
 
 Model size varies widely. A small local model may be hundreds of megabytes or a few gigabytes. Larger models may require tens or hundreds of gigabytes, especially before compression or quantisation. Quantised formats can reduce size and memory requirements by storing weights with lower numerical precision, often making local inference more practical.
@@ -1310,6 +1378,10 @@ Model size varies widely. A small local model may be hundreds of megabytes or a 
 The important point is that the model is not a document database full of answers. It is mostly a large collection of learned numerical weights plus the supporting files needed to turn text into tokens, run the model, and turn generated tokens back into text.
 
 A simplified way to imagine weights is not as a dictionary of answers, but as many learned numerical relationships that influence what tokens become likely next.
+
+---
+
+**Probability intuition**
 
 For example, after the prompt:
 
@@ -1349,6 +1421,10 @@ Model files are only part of the story. A model also needs software that can loa
 
 That software is often called a **runtime**, **inference engine**, or **serving stack**. The exact terminology depends on the tool, platform, and deployment model, but the basic idea is simple: the model contains learned weights and configuration, while the runtime is the machinery that uses them.
 
+---
+
+**Local inference flow**
+
 A simplified local inference flow looks like this:
 
 ```text
@@ -1362,7 +1438,15 @@ user prompt
 
 In hosted AI products, most users never see this layer. The provider runs the serving infrastructure behind an application or API. In local AI, private deployments, edge AI, or developer experiments, the runtime becomes more visible because someone has to choose, install, configure, update, and monitor it.
 
+---
+
+**Runtime example**
+
 [`llama.cpp`](https://github.com/ggml-org/llama.cpp) is an important open-source example. It is a C/C++ project for running LLM inference efficiently, especially in local workflows and with formats such as GGUF. It helped make local experimentation with quantised models more practical on ordinary computers.
+
+---
+
+**Numerical precision**
 
 One reason this matters is **numerical precision**.
 
@@ -1371,6 +1455,10 @@ Model weights are numbers. During training and high-performance serving, those n
 For local inference, many models are converted into lower-precision or **quantised** formats. Quantisation stores the model weights using fewer bits, such as 8-bit, 6-bit, 5-bit, or 4-bit representations. The exact schemes vary, but the practical idea is easy to understand: fewer bits per weight usually means a smaller model file, lower memory use, and a better chance of running the model on a laptop, desktop CPU, or lower-memory device.
 
 That trade-off is not free. Lower precision can reduce quality, especially if the model is pushed too far or used for a task that needs careful reasoning, coding accuracy, or domain detail. But good quantisation can be surprisingly useful, and it is one of the reasons local LLMs became practical for many people.
+
+---
+
+**Precision trade-off**
 
 A rough mental model:
 
@@ -1386,6 +1474,10 @@ lower precision / quantised
 ```
 
 This is where tools such as `llama.cpp` became important. They do not make every model tiny or every laptop powerful, but they make it easier to load efficient model formats, use CPU-friendly execution paths, and experiment with models that would otherwise need more specialised hardware.
+
+---
+
+**Model, runtime, and application**
 
 The model is the learned architecture and weights; the runtime is the software that loads and executes it.
 
@@ -1572,6 +1664,10 @@ Understanding tokens helps explain context windows, limits, and why some prompts
 
 Think of tokens as something between characters, syllables, word fragments, and words. They are not exactly the same as words.
 
+---
+
+**Text tokenisation example**
+
 The examples below use the `cl100k_base` tokenizer to show the shape of tokenisation. The token numbers show the order of the pieces in the sequence. Other tokenizers may split the same text differently and assign different token IDs. You can reproduce this with a small Python script using `tiktoken`.
 
 For example, a short sentence such as:
@@ -1606,7 +1702,15 @@ could be represented as:
 
 Or, in another tokenizer, it might be one token or a different set of fragments.
 
+---
+
+**How models use tokens**
+
 AI models do not read language the way humans do. Text is split into tokens, tokens are mapped to numeric identifiers, those identifiers are turned into vectors, and the model processes those vectors mathematically to predict likely output tokens.
+
+---
+
+**Non-text content**
 
 For non-text content, the idea is similar but the details are different.
 
@@ -1624,6 +1728,10 @@ In many multimodal systems, these representations are handled as token-like unit
 So, text is tokenised directly into text tokens. Other media is usually transformed into vectors or token-like representations.
 
 The shared idea is that the model does not process human meaning directly; it processes mathematical representations of the input.
+
+---
+
+**Code and structured data**
 
 Code, JSON, logs, and markup can consume tokens quickly because symbols, punctuation, whitespace, and structure all contribute. For example:
 
@@ -1664,6 +1772,10 @@ Using the same tokenizer, that JSON becomes:
 ```
 
 That is why a compact-looking JSON object, stack trace, HTML page, or source file can still consume many tokens.
+
+---
+
+**Try it locally**
 
 You can test this locally with a small Python script. I recommend using a Python virtual environment so the experiment does not modify your system Python packages:
 
@@ -1725,6 +1837,10 @@ python3 testing-tiktoken-tokenizer.py
 ```
 
 There are two main ways tokens are consumed:
+
+---
+
+**Input and output tokens**
 
 - **input tokens**  
 what the model has to read, including prompts, pasted text, uploaded content, system instructions, prior conversation context, retrieved documents, and tool output
@@ -2110,24 +2226,40 @@ They are not magic, though. Support files and skills still need to be reviewed, 
 The AI tooling landscape changes quickly, so named tools should be treated as examples rather than permanent recommendations. A few useful examples are:
 
 - **OpenCode**  
-An open-source AI coding agent that can run in the terminal, desktop, or IDE, and connect to different model providers. It is a useful example of agentic developer tooling, where the AI can inspect code, suggest changes, and work through development tasks with user oversight.
+An open-source AI coding agent that can run in the terminal, desktop, or IDE, and connect to different model providers.
+
+  Useful as an example of agentic developer tooling, where the AI can inspect code, suggest changes, and work through development tasks with user oversight.
 
 - **OpenRouter**  
-An API and model routing layer that provides access to many models through one interface. It is a useful example of provider abstraction, where teams can compare or switch models without rebuilding every application integration from scratch.
+An API and model routing layer that provides access to many models through one interface.
 
-- **LangChain and LangGraph**
-Open-source frameworks for building LLM applications and agent workflows. They are useful examples of the orchestration layer around models, where prompts, tools, state, retrieval, human approval, and multi-step execution need to be coordinated.
+  Useful as an example of provider abstraction, where teams can compare or switch models without rebuilding every application integration from scratch.
 
-- **LlamaIndex**
-An open-source framework focused on connecting LLM applications to data. It is a useful example of the retrieval and context layer, where documents, indexes, connectors, and workflows help an application find and use relevant information.
+- **LangChain and LangGraph**  
+Open-source frameworks for building LLM applications and agent workflows.
 
-- **Hermes Agent**
-An open-source autonomous agent project from Nous Research. It is a useful example of the application and agent layer around models, where memory, tools, skills, scheduled work, terminal or browser automation, and messaging integrations can be combined into a workflow.
+  Useful as examples of the orchestration layer around models, where prompts, tools, state, retrieval, human approval, and multi-step execution need to be coordinated.
 
-- **Fox in the Box**
-A packaged way to run Hermes Agent as a self-hosted or containerised deployment with a web interface. It is a useful example of how agent tooling can be packaged for local or private operation, rather than existing only as a hosted SaaS product.
+- **LlamaIndex**  
+An open-source framework focused on connecting LLM applications to data.
+
+  Useful as an example of the retrieval and context layer, where documents, indexes, connectors, and workflows help an application find and use relevant information.
+
+- **Hermes Agent**  
+An open-source autonomous agent project from Nous Research.
+
+  Useful as an example of the application and agent layer around models, where memory, tools, skills, scheduled work, terminal or browser automation, and messaging integrations can be combined into a workflow.
+
+- **Fox in the Box**  
+A packaged way to run Hermes Agent as a self-hosted or containerised deployment with a web interface.
+
+  Useful as an example of how agent tooling can be packaged for local or private operation, rather than existing only as a hosted SaaS product.
 
 Hermes Agent and Fox in the Box are not models in the same sense as an LLM. They sit higher in the stack: they connect models to tools, context, automation, interfaces, and operating environments.
+
+---
+
+**Enterprise lesson**
 
 The enterprise lesson is to understand the layers, not just the product names:
 
@@ -2157,6 +2289,10 @@ This is why enterprise AI should be evaluated as a system. The model matters, bu
 
 Enterprise AI governance is not only about what users type into a prompt. It is also about what happens to that data before, during, and after the AI interaction.
 
+---
+
+**Lifecycle questions**
+
 Important lifecycle questions include:
 
 - **Data sent**  
@@ -2183,7 +2319,13 @@ How deletion, audit, export, and incident response are handled.
 - **Contract and regulation**  
 What contractual, regulatory, and regional requirements apply.
 
+---
+
+**Provider and account context**
+
 These questions vary by product, licence, deployment model, and provider agreement. A personal account, a free tool, an enterprise tenant, a private cloud deployment, and a local model can have very different data-handling behaviours.
+
+**Classify before use**
 
 Classify the data before choosing the tool. Public, internal, confidential, regulated, customer, security, legal, and source-code data should not all be treated the same way.
 
@@ -2192,6 +2334,10 @@ Classify the data before choosing the tool. Public, internal, confidential, regu
 ### Operational practices that make AI safer
 
 Enterprise AI becomes more reliable when it is managed like an operational system, not only like a productivity experiment. A few practices matter repeatedly:
+
+---
+
+**Recurring practices**
 
 - **Evaluation and testing**  
 Define what good output looks like, test against realistic examples, and review failures over time.
@@ -2210,6 +2356,10 @@ Track prompts, tool calls, errors, latency, cost, user feedback, and high-risk a
 
 - **Human review**  
 Keep people responsible for decisions that affect customers, employees, security, finance, legal obligations, or production systems.
+
+---
+
+**Risk-management takeaway**
 
 These practices do not remove every risk, but they make risks visible, discussable, and manageable. That is the difference between uncontrolled experimentation and responsible adoption.
 
@@ -2290,63 +2440,128 @@ The most useful learning principle is to keep three layers distinct: **computer 
 
 For deeper study, learn in layers: computing fundamentals, Python, machine learning, deep learning, LLM engineering, security, and current industry practice.
 
-This list is a starting map, not a permanent ranking. AI changes quickly, so mix slower foundations with current commentary, primary-source guidance, and practical conference material.
+This list is a starting map, not a permanent ranking.
+
+AI changes quickly, so mix slower foundations with current commentary, primary-source guidance, and practical conference material.
 
 **Structured courses and learning paths**
 
-- **Harvard Professional & Lifelong Learning — Data Science and AI for Decision Making**: useful for connecting AI concepts to decision-making and organisational use: <https://pll.harvard.edu/course/data-science-and-ai-decision-making>
+- **Harvard Professional & Lifelong Learning Data Science and AI for Decision Making**
+  - Useful for connecting AI concepts to decision-making and organisational use.
+  - <https://pll.harvard.edu/course/data-science-and-ai-decision-making>
 
-- **Harvard CS50x — Introduction to Computer Science**: useful for building computing fundamentals: <https://cs50.harvard.edu/x/>
+- **Harvard CS50x — Introduction to Computer Science**
+  - Useful for building computing fundamentals.
+  - <https://cs50.harvard.edu/x/>
 
-- **Harvard CS50’s Introduction to AI with Python**: useful for learning classic AI concepts and practical Python examples: <https://cs50.harvard.edu/ai/>
+- **Harvard CS50’s Introduction to AI with Python**
+  - Useful for learning classic AI concepts and practical Python examples.
+  - <https://cs50.harvard.edu/ai/>
 
-- **Harvard CS50’s Introduction to Programming with Python**: useful for building Python confidence before deeper AI work: <https://cs50.harvard.edu/python/>
+- **Harvard CS50’s Introduction to Programming with Python**
+  - Useful for building Python confidence before deeper AI work.
+  - <https://cs50.harvard.edu/python/>
 
-- **MIT Introduction to Deep Learning**: useful for understanding neural networks and deep learning foundations: <https://introtodeeplearning.com/>
+- **MIT Introduction to Deep Learning**
+  - Useful for understanding neural networks and deep learning foundations.
+  - <https://introtodeeplearning.com/>
 
-- **Andrew Ng — Machine Learning Specialization (Coursera)**: useful for structured machine learning foundations: <https://www.coursera.org/specializations/machine-learning-introduction>
+- **Andrew Ng — Machine Learning Specialization (Coursera)**
+  - Useful for structured machine learning foundations
+  - <https://www.coursera.org/specializations/machine-learning-introduction>
 
-- **Pluralsight — AI Foundations and AI courses**: useful for structured professional learning paths, short courses, hands-on labs, and team upskilling: <https://www.pluralsight.com/paths/ai-foundations> and <https://www.pluralsight.com/ai>
+- **Pluralsight — AI Foundations and AI courses**
+  - Useful for structured professional learning paths, short courses, hands-on labs, and team upskilling.
+  - <https://www.pluralsight.com/paths/ai-foundations> and
+  - <https://www.pluralsight.com/ai>
 
-- **O’Reilly — books and online learning**: useful for deeper technical books, videos, live courses, interactive labs, AI and ML material, software architecture, security, cloud, and engineering practice: <https://www.oreilly.com/>
+- **O’Reilly — books and online learning**.
+  - Useful for deeper technical books, videos, live courses, interactive labs, AI and ML material, software architecture, security, cloud, and engineering practice.
+  - <https://www.oreilly.com/>
+
+---
 
 **Books and summaries**
 
-- **Artificial Intelligence: A Guide for Thinking Humans — Melanie Mitchell**: useful for a careful, readable explanation of AI history, capability, limits, and hype: <https://melaniemitchell.me/aibook/>
+- **Artificial Intelligence: A Guide for Thinking Humans — Melanie Mitchell**
+  - Useful for a careful, readable explanation of AI history, capability, limits, and hype.
+  - <https://melaniemitchell.me/aibook/>
 
-- **What Is ChatGPT Doing ... and Why Does It Work? — Stephen Wolfram**: useful for a short explanation of language models, neural networks, embeddings, probabilities, and why ChatGPT-style systems work: <https://www.wolfram.com/books/profile.cgi?id=9846>
+- **What Is ChatGPT Doing ... and Why Does It Work? — Stephen Wolfram**
+  - Useful for a short explanation of language models, neural networks, embeddings, probabilities, and why ChatGPT-style systems work.
+  - <https://www.wolfram.com/books/profile.cgi?id=9846>
 
-- **Blinkist and book summaries**: useful for quickly triaging unfamiliar topics and deciding which full books are worth reading. Treat summaries as orientation, not as a substitute for reading the source material: <https://www.blinkist.com/>
+- **Blinkist and book summaries**
+  - Useful for quickly triaging unfamiliar topics and deciding which full books are worth reading.
+  - Treat summaries as orientation, not as a substitute for reading the source material.
+  - <https://www.blinkist.com/>
+
+---
 
 **Podcasts and ongoing commentary**
 
-- **TWiT — Intelligent Machines**: useful for ongoing discussion about AI, emerging technology, policy, products, and social impact: <https://twit.tv/shows/intelligent-machines>
+- **TWiT — Intelligent Machines**
+  - Useful for ongoing discussion about AI, emerging technology, policy, products, and social impact.
+  - <https://twit.tv/shows/intelligent-machines>
 
-- **Club TWiT — AI User Group**: useful for practical community discussion around local AI, agents, workflows, and experimentation. This is part of the members-only TWiT+ programming: <https://twit.tv/shows/twit-plus-club-shows>
+- **Club TWiT — AI User Group**
+  - Useful for practical community discussion around local AI, agents, workflows, and experimentation.
+  - This is part of the members-only TWiT+ programming.
+  - <https://twit.tv/shows/twit-plus-club-shows>
 
-- **Security Now — Steve Gibson and Leo Laporte**: useful for cybersecurity context, security fundamentals, and AI-related security deep dives as the threat landscape changes: <https://twit.tv/shows/security-now>
+- **Security Now — Steve Gibson and Leo Laporte**
+  - Useful for cybersecurity context, security fundamentals, and AI-related security deep dives as the threat landscape changes.
+  - <https://twit.tv/shows/security-now>
+
+---
 
 **Selective video channels**
 
-- **IBM Think videos and IBM Technology**: useful for concise explainers on AI, data, automation, cybersecurity, hybrid cloud, agents, and enterprise technology: <https://www.ibm.com/think/videos> and <https://www.youtube.com/@IBMTechnology>
+- **IBM Think videos and IBM Technology**
+  - Useful for concise explainers on AI, data, automation, cybersecurity, hybrid cloud, agents, and enterprise technology.
+  - <https://www.ibm.com/think/videos> and
+  - <https://www.youtube.com/@IBMTechnology>
 
-- **IBM Developer**: useful for more hands-on developer-focused demos, technical walkthroughs, and implementation examples: <https://www.youtube.com/@IBMDeveloperAdvocates>
+- **IBM Developer**
+  - Useful for more hands-on developer-focused demos, technical walkthroughs, and implementation examples.
+  - <https://www.youtube.com/@IBMDeveloperAdvocates>
+
+---
 
 **Conferences and field briefings**
 
-- **CrowdStrike Fal.Con**: useful for defender-focused views on AI-era cybersecurity, threat operations, SOC transformation, and agentic security: <https://www.crowdstrike.com/events/fal-con/>
+- **CrowdStrike Fal.Con**
+  - Useful for defender-focused views on AI-era cybersecurity, threat operations, SOC transformation, and agentic security.
+  - <https://www.crowdstrike.com/events/fal-con/>
 
-- **Cloudflare Connect and Cloudflare engineering/security writing**: useful for Internet infrastructure, edge, application security, AI-native apps, bots, workers, and secure-by-design thinking: <https://www.cloudflare.com/en-gb/connect/> and <https://blog.cloudflare.com/en-us/tag/ai/>
+- **Cloudflare Connect and Cloudflare engineering/security writing**
+  - Useful for Internet infrastructure, edge, application security, AI-native apps, bots, workers, and secure-by-design thinking
+  - <https://www.cloudflare.com/en-gb/connect/> and
+  - <https://blog.cloudflare.com/en-us/tag/ai/>
 
-- **AWS re:Invent and AWS re:Inforce security sessions**: useful for cloud architecture, security, identity, operations, and generative AI at enterprise scale. In 2026, AWS says re:Inforce will join re:Invent: <https://aws.amazon.com/events/reinvent> and <https://aws.amazon.com/events/reinforce/>
+- **AWS re:Invent and AWS re:Inforce security sessions**
+  - Useful for cloud architecture, security, identity, operations, and generative AI at enterprise scale.
+  - In 2026, AWS says re:Inforce will join re:Invent.
+  - <https://aws.amazon.com/events/reinvent> and 
+  - <https://aws.amazon.com/events/reinforce/>
+
+---
 
 **Government and industry guidance**
 
-- **NCSC CTO blog — Vibe check: AI may replace SaaS (but not for a while)**: useful for thinking about vibe coding, buy-versus-build pressure, secure design, and why AI-written software still needs assurance: <https://www.ncsc.gov.uk/blogs/vibe-check-ai-may-replace-saas-but-not-for-a-while>
+- **NCSC CTO blog — Vibe check: AI may replace SaaS (but not for a while)**
+  - Useful for thinking about vibe coding, buy-versus-build pressure, secure design, and why AI-written software still needs assurance
+  - <https://www.ncsc.gov.uk/blogs/vibe-check-ai-may-replace-saas-but-not-for-a-while>
 
-- **Careful Adoption of Agentic AI Services — joint guidance**: useful for understanding agentic AI risk, least privilege, accountability, visibility, and security controls. The guidance is available via CISA and Cyber.gov.au: <https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services> and <https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services>
+- **Careful Adoption of Agentic AI Services — joint guidance**
+  - Useful for understanding agentic AI risk, least privilege, accountability, visibility, and security controls.
+  - The guidance is available via CISA and Cyber.gov.au
+  - <https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services> and 
+  - <https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/careful-adoption-of-agentic-ai-services>
 
-- **Anthropic Project Glasswing**: useful as a current example of how advanced AI capability can change vulnerability discovery, defensive security work, and the urgency of AI-aware cyber resilience: <https://www.anthropic.com/glasswing>
+- **Anthropic Project Glasswing**
+  - Useful as a current example of how advanced AI capability can change vulnerability discovery, defensive security work, and the urgency of AI-aware cyber resilience
+  - <https://www.anthropic.com/glasswing>
 
 ---
 
@@ -2385,6 +2600,74 @@ If these questions are unclear, adoption may still happen, but it will be harder
 
 ---
 
+## Agentic AI Summary: Human Memory and Skills
+
+Agentic AI is easiest to understand as a loop.
+
+The system receives context, reasons about the goal, chooses an action, uses tools or skills, observes the result, and then adjusts the next step.
+
+![Basic agentic AI flow showing reasoning, action, observation, and iteration](/assets/images/blog/enterprise-ai-agentic-reasoning-and-act.png)
+
+A simplified agent architecture makes this more concrete.
+
+An agent may combine a model, instructions, memory, tools, policies, retrieval, and external systems.
+
+This is why access control, logging, validation, and human approval matter so much: the model is no longer only answering questions, it may be connected to actions.
+
+![Simplified OpenClaw-style architecture showing how an AI agent can connect models, tools, memory, and external systems](/assets/images/blog/enterprise-ai-agentic-openclaw-architecture.png)
+
+The comparison with human memory and skills is useful, but it should not be taken too literally.
+
+People remember through lived experience, judgement, training, habits, and context.
+
+AI agents rely on prompts, retrieved information, stored state, tool results, and defined skills.
+
+Both can improve with feedback, but the failure modes are different.
+
+![High-level comparison of human memory and skills with AI agent memory and skills](/assets/images/blog/enterprise-ai-agentic-human-ai-memory-skills.png)
+
+In practical systems, a skill is a reusable capability that describes when and how an agent should perform a task.
+
+Skills can include instructions, examples, scripts, references, and supporting assets.
+
+For more detail on emerging skill definition patterns, see the Agent Skills specification: <https://agentskills.io/specification>
+
+![Example of an AI agent skill definition and supporting structure](/assets/images/blog/enterprise-ai-agentic-skill-definition.png)
+
+Agentic AI also changes the security conversation.
+
+The OWASP Top 10 for Agentic Applications for 2026 is a useful reference because it focuses on agents that plan, act, and make decisions across workflows, not only on chat-based LLM use: <https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/>
+
+![OWASP Top 10 for Agentic Applications 2026 risk overview](/assets/images/blog/enterprise-ai-owasp-top-10-agentic-risk.png)
+
+---
+
+## Testing yourself
+
+One practical way to understand AI risk is to test your own reasoning against a controlled challenge.
+
+Lakera's Gandalf is a useful exercise for this because it turns abstract topics into something you can safely explore hands-on.
+
+In this challenge, you can practise and observe:
+
+- Prompt injection reasoning
+- Adversarial prompt crafting
+- Understanding model guardrails
+- Iterative exploitation methodology
+- Thinking around instruction hierarchy and leakage paths
+
+I am part of the 8% of users who reached level 7.
+
+<figure class="article-image-card article-image-card-narrow">
+  <img src="/assets/images/blog/enterprise-ai-gandalf-lakera-score-8-percent.png" alt="Lakera Gandalf challenge result showing Antonio reached level 7 as part of the 8 percent of users who reached this level">
+</figure>
+
+Will you try the same challenge?
+
+Gandalf here: <https://gandalf.lakera.ai/baseline>
+
+---
+
 ## Final Comments
 
 ![Infographic showing AI amplifying capability while human judgement, responsibility, governance, review, and care remain central to responsible adoption](/assets/images/blog/enterprise-ai-final-comments.png)
@@ -2394,6 +2677,8 @@ AI can amplify human capability, but judgement, responsibility, governance, and 
 The goal is not to fear AI or blindly accelerate with it, but to understand it well enough to use it deliberately.
 
 Use AI responsibly. Keep learning. Protect the data, the work, and the people doing it.
+
+![Cinematic enterprise AI iceberg infographic showing a small AI 101 tip above the waterline and a vast underwater foundation of governance, security, responsible adoption, agentic AI, data protection, evaluation, and operational risk concepts extending beyond the frame](/assets/images/blog/enterprise-ai-final-iceberg-deeper-foundations.png)
 
 Happy learning,  
 [Antonio Feijao UK](https://www.antoniofeijao.com/)
