@@ -39,6 +39,19 @@
   var activeId = "";
   var ticking = false;
 
+  function updateTocPosition() {
+    if (window.getComputedStyle(toc).position !== "fixed") {
+      toc.style.removeProperty("--page-toc-top");
+      return;
+    }
+
+    var header = document.getElementById("header_wrap");
+    var headerBottom = header ? header.getBoundingClientRect().bottom : 0;
+    var topOffset = Math.max(16, Math.ceil(headerBottom + 16));
+
+    toc.style.setProperty("--page-toc-top", topOffset + "px");
+  }
+
   function centreActiveLink(link) {
     if (!link || window.getComputedStyle(toc).position !== "fixed") {
       return;
@@ -104,9 +117,13 @@
     }
 
     ticking = true;
-    window.requestAnimationFrame(updateActiveHeading);
+    window.requestAnimationFrame(function () {
+      updateTocPosition();
+      updateActiveHeading();
+    });
   }
 
+  updateTocPosition();
   requestUpdate();
   window.addEventListener("scroll", requestUpdate, { passive: true });
   window.addEventListener("resize", requestUpdate);
