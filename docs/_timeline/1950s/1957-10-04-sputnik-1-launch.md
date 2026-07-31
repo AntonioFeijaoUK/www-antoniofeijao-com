@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Sputnik 1 Launch
 id: sputnik-1-1957-launch
 date_display: 4 October 1957
