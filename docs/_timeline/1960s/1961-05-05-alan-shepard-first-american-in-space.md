@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Alan Shepard Becomes the First American in Space
 id: alan-shepard-1961-first-american-in-space
 date_display: 5 May 1961
