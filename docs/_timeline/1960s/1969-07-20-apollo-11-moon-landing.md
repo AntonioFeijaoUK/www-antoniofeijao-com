@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Apollo 11 Moon Landing
 id: apollo-11-1969-moon-landing
 date_display: 20 July 1969
