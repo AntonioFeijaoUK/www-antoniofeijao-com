@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Battle of the Somme Begins
 id: battle-of-the-somme-1916-begins
 date_display: 1 July 1916
