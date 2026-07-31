@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Berlin Airlift Begins
 id: berlin-airlift-1948-begins
 date_display: 26 June 1948
