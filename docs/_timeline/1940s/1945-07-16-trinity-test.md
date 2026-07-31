@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Trinity Test
 id: trinity-1945-test
 date_display: 16 July 1945
