@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First Spacewalk
 id: spacewalk-1965-first
 date_display: 18 March 1965
