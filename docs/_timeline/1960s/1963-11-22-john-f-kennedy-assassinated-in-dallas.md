@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: John F. Kennedy Is Assassinated in Dallas
 id: john-f-kennedy-assassinated-in-dallas-1963-11-22
 date_display: 22 November 1963
