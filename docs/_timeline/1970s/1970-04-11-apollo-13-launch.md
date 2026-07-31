@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Apollo 13 Launch
 id: apollo-13-1970-launch
 date_display: 11 April 1970
