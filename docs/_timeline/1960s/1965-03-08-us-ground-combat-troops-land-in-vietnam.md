@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: U.S. Ground Combat Troops Land in Vietnam
 id: vietnam-1965-us-ground-combat-troops-land
 date_display: 8 March 1965
