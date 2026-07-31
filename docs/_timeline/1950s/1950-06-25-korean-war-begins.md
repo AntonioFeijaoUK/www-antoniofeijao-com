@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Korean War Begins
 id: korean-war-1950-begins
 date_display: 25 June 1950
