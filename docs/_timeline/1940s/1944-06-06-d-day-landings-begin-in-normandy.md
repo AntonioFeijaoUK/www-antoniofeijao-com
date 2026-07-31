@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: D-Day Landings Begin in Normandy
 id: d-day-1944-landings-begin-in-normandy
 date_display: 6 June 1944
