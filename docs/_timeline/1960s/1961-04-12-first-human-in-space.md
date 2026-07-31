@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First Human in Space
 id: human-spaceflight-1961-first-human
 date_display: 12 April 1961
