@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Atomic Bombings of Hiroshima and Nagasaki Begin
 id: atomic-bombings-1945-hiroshima-nagasaki-begin
 date_display: 6 August 1945
