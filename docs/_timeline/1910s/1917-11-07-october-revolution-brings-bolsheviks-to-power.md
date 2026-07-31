@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: October Revolution Brings Bolsheviks to Power
 id: october-revolution-1917-bolsheviks-to-power
 date_display: 7 November 1917
