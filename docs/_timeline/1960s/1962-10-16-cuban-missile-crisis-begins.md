@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Cuban Missile Crisis Begins
 id: cuban-missile-crisis-1962-begins
 date_display: 16 October 1962
