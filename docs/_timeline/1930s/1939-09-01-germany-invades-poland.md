@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Germany Invades Poland
 id: germany-1939-invades-poland
 date_display: 1 September 1939
