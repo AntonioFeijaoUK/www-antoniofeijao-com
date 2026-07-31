@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Formation of NATO
 id: nato-1949-formation
 date_display: 4 April 1949
