@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Battle of Britain Begins
 id: battle-of-britain-1940-begins
 date_display: 10 July 1940
