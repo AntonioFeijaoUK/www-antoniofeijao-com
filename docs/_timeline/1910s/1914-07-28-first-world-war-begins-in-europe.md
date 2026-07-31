@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First World War Begins in Europe
 id: first-world-war-1914-begins-in-europe
 date_display: 28 July 1914
