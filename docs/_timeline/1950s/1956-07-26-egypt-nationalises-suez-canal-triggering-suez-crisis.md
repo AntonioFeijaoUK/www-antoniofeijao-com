@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Egypt Nationalises the Suez Canal, Triggering the Suez Crisis
 id: suez-crisis-1956-egypt-nationalises-canal
 date_display: 26 July 1956
