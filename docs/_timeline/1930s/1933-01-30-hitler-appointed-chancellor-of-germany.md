@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Hitler Is Appointed Chancellor of Germany
 id: hitler-1933-appointed-chancellor-of-germany
 date_display: 30 January 1933
