@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Treaty of Versailles Is Signed
 id: treaty-of-versailles-1919-signed
 date_display: 28 June 1919
