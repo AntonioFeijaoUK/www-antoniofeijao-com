@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Stock Market Crash of 1929
 id: stock-market-crash-1929
 date_display: 29 October 1929
