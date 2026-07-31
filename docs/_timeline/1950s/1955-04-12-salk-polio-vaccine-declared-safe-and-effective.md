@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Salk Polio Vaccine Declared Safe and Effective
 id: polio-vaccine-1955-salk-announcement
 date_display: 12 April 1955
