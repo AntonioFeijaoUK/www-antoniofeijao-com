@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Joseph Stalin Dies
 id: joseph-stalin-dies-1953-03-05
 date_display: 5 March 1953
