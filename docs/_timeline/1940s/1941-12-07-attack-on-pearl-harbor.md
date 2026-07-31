@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Attack on Pearl Harbor
 id: pearl-harbor-1941-attack
 date_display: 7 December 1941
