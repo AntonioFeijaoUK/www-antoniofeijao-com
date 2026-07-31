@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First ARPANET Message
 id: arpanet-1969-first-message
 date_display: 29 October 1969
