@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Assassination of Archduke Franz Ferdinand
 id: archduke-franz-ferdinand-1914-assassination
 date_display: 28 June 1914
