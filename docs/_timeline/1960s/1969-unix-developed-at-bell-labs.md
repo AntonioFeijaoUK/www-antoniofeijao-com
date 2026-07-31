@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: UNIX Developed at Bell Labs
 id: unix-1969-developed
 date_display: 1969
