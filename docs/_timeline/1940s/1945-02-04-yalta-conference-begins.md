@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Yalta Conference Begins
 id: yalta-conference-1945-begins
 date_display: 4 February 1945
