@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Penicillin Discovered
 id: penicillin-1928-discovered
 date_display: September 1928
