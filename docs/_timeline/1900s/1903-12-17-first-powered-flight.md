@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First Powered Flight
 id: flight-1903-first-powered-flight
 date_display: 17 December 1903
