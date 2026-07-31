@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Churchill Delivers the Iron Curtain Speech
 id: iron-curtain-speech-1946-churchill-delivers
 date_display: 5 March 1946
