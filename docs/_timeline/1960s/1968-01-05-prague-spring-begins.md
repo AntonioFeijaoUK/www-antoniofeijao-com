@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: Prague Spring Begins
 id: prague-spring-1968-begins
 date_display: 5 January 1968
