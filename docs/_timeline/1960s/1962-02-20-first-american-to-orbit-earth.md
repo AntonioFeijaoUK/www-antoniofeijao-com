@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-07-31
 title: First American to Orbit the Earth
 id: orbit-1962-first-american
 date_display: 20 February 1962
